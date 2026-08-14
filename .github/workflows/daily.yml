@@ -1,27 +1,26 @@
-name: daily-update
+name: deploy
 
-# 06:00 KST (21:00 UTC) every day, plus a manual "Run workflow" button.
-# NOTE: GitHub disables scheduled workflows after 60 days of repo inactivity,
-# and only runs them from the default branch.
+# Content (fetch + Korean summaries + images + commit) is produced by a daily
+# scheduled Claude cloud agent (routine) that pushes to main. This workflow just
+# builds the static site from data/ and deploys it to GitHub Pages on every push.
 on:
-  schedule:
-    - cron: "0 21 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "site/**"
+      - "scripts/build_site.py"
+      - ".github/workflows/deploy*.yml"
+      - ".github/workflows/daily.yml"
   workflow_dispatch:
-    inputs:
-      force_summarize:
-        description: "Re-summarize every paper (overwrite existing summaries)"
-        type: boolean
-        default: false
 
-# Allow committing data back AND deploying Pages (OIDC).
 permissions:
-  contents: write
   pages: write
   id-token: write
+  contents: read
 
-# Never let two daily runs overlap.
 concurrency:
-  group: daily-update
+  group: deploy-pages
   cancel-in-progress: false
 
 jobs:
@@ -29,52 +28,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Fetch new papers (OpenAlex + arXiv)
-        env:
-          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
-        run: python -m pipeline.main
-
-      - name: Korean summaries + relevance gate
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
-            python -m pipeline.summarize ${{ inputs.force_summarize && '--force' || '' }}
-          else
-            echo "no summarizer credentials (set GEMINI_API_KEY) — skipping summaries"
-          fi
-
-      - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
-        continue-on-error: true
-        env:
-          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
-        run: python -m pipeline.images
-
-      - name: Commit data back (persists the seen-ledger + daily files)
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ site/img/
-          if git diff --staged --quiet; then
-            echo "no data changes"
-          else
-            git commit -m "data: daily update ($(date -u +%Y-%m-%d))"
-            git push
-          fi
-
-      - name: Assemble public/
+      - name: Assemble public/ (stdlib only)
         run: python scripts/build_site.py
-
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
