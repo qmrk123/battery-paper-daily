@@ -30,8 +30,10 @@ link, graphical abstract (best-effort), and a **Korean** summary.
 2. ✅ Static site (tabs/cards/date archive, dark-mode, instrument-panel design)
 3. ✅ Graphical-abstract best-effort (`pipeline/images.py`) — license-first (CC-OA
    only; publisher bot-blocks mean most papers keep the placeholder — by design)
-4. ✅ Korean summaries + LLM relevance gate (`pipeline/summarize.py`) — Anthropic
-   Haiku 4.5; needs `ANTHROPIC_API_KEY`. Runs from run.bat/update.bat when set.
+4. ✅ Korean summaries + LLM relevance gate (`pipeline/summarize.py`) — Haiku 4.5,
+   two backends auto-selected: **subscription CLI** (bundled `claude.exe` headless;
+   needs `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN`) or **API** (`ANTHROPIC_API_KEY`).
+   `python -m pipeline.summarize --setup-token` launches the one-time token setup.
 5. ✅ GitHub Actions daily cron → commit-back + Pages deploy (`.github/workflows/daily.yml`).
 
 Remaining: user creates the GitHub repo, sets Pages source + `ANTHROPIC_API_KEY`

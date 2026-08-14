@@ -4,9 +4,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import json
+
+import pytest
+
 from pipeline.models import Paper
 from pipeline.summarize import (
     build_user_content, parse_tool_result, summarize_papers,
+    parse_cli_result, _extract_json, ClaudeAuthError,
 )
 
 LABELS = {"li-metal": "리튬 금속 음극", "high-ni-ncm": "High-Ni NCM 양극"}
@@ -76,6 +81,34 @@ def test_summarize_papers_sets_fields_and_gate():
     assert stats["processed"] == 2 and stats["irrelevant"] == 1 and stats["errors"] == 0
     assert papers[0].relevant is True and papers[0].summary_ko
     assert papers[1].relevant is False
+
+
+def _envelope(result_text, is_error=False):
+    return json.dumps({"type": "result", "is_error": is_error, "result": result_text})
+
+
+def test_parse_cli_result_plain_and_fenced():
+    ok = _envelope('{"relevant": true, "summary_ko": "핵심 요약."}')
+    assert parse_cli_result(ok) == (True, "핵심 요약.")
+    fenced = _envelope('```json\n{"relevant": false, "summary_ko": "무관."}\n```')
+    assert parse_cli_result(fenced) == (False, "무관.")
+    chatty = _envelope('여기 결과입니다: {"relevant": true, "summary_ko": "요약"} 이상입니다.')
+    assert parse_cli_result(chatty) == (True, "요약")
+
+
+def test_parse_cli_result_not_logged_in_raises():
+    with pytest.raises(ClaudeAuthError):
+        parse_cli_result(_envelope("Not logged in · Please run /login", is_error=True))
+
+
+def test_parse_cli_result_generic_error_returns_none():
+    assert parse_cli_result(_envelope("some other failure", is_error=True)) is None
+
+
+def test_extract_json_variants():
+    assert _extract_json('{"a": 1}') == {"a": 1}
+    assert _extract_json('```json\n{"a": 2}\n```') == {"a": 2}
+    assert _extract_json("no json here") is None
 
 
 def test_summarize_skips_already_done_unless_force():

@@ -38,13 +38,20 @@ Springer)가 referer·봇 차단 + 저작권 문제. 방침:
 → 표시 안 되는 논문이 생기는 건 **정상**. ACS/RSC는 og:image 적중률 높고
 Elsevier/Wiley/Springer는 대개 커버/로고라 플레이스홀더로 떨어짐.
 
-## 한글 요약: Claude Haiku 4.5 + Batch API
+## 한글 요약: Claude Haiku 4.5 (두 백엔드)
 
-- 최저가 모델($1/$5 per M tok), 한글 생성 양호. 하루 50편 ≈ **$0.15/일, 월 $2~5**
-  (Batch 50% 할인). 무인 야간 배치에 적합.
+`summarize.py`가 백엔드를 자동 선택:
+- **구독 CLI (기본, 추가 과금 없음):** 번들 `claude.exe`를 헤드리스(`-p
+  --output-format json --model haiku`)로 호출 → 구독으로 과금. 헤드리스 인증은
+  데스크톱 로그인과 분리돼 있어 **`claude setup-token` 1회 + `CLAUDE_CODE_OAUTH_TOKEN`**
+  필요(실측 확인: 토큰 없으면 "Not logged in"). CLI 경로는 `%APPDATA%\Claude\
+  claude-code\*\claude.exe` 최신 버전을 자동 탐색(`resolve_claude_cli`).
+- **API 키 (종량제):** `ANTHROPIC_API_KEY` 있으면 SDK로 tool-forced JSON 사용.
+  Haiku 4.5 $1/$5 per M tok, 하루 50편 ≈ $0.15, 월 $2~5(Batch 시 -50%).
 - 요약과 **LLM 관련성 게이트를 한 번의 호출**로 묶어 비용·오탐 동시 해결.
-- 초록 없는 closed 논문은 제목-기반 요약(품질 낮음) 또는 "요약 불가" 처리.
-- 대안: Gemini Flash 무료 티어(품질 양호, 단 프롬프트 학습 이용 가능성 → 민감정보 부적합).
+  CLI는 tool 강제가 어려워 프롬프트로 "순수 JSON만" 지시 후 방어적 파싱.
+- 초록 없는 closed 논문은 제목-기반 요약(품질 낮음, `(제목 기반 추정)` 표기).
+- CI 구독 모드: 워크플로가 `npm i -g @anthropic-ai/claude-code`로 CLI 설치 후 토큰 사용.
 
 ## 자동화/호스팅: GitHub Actions → Pages
 

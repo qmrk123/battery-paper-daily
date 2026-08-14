@@ -14,11 +14,14 @@ python -m pip install -q -r requirements.txt
 echo [fetch] gathering new papers ...
 python -m pipeline.main %*
 
-if defined ANTHROPIC_API_KEY (
+set DOSUM=
+if defined ANTHROPIC_API_KEY set DOSUM=1
+if defined CLAUDE_CODE_OAUTH_TOKEN set DOSUM=1
+if defined DOSUM (
   echo [summarize] generating Korean summaries ...
   python -m pipeline.summarize
 ) else (
-  echo [summarize] skipped ^(set ANTHROPIC_API_KEY to enable Korean summaries^)
+  echo [summarize] skipped ^(run: python -m pipeline.summarize --setup-token, then set CLAUDE_CODE_OAUTH_TOKEN^)
 )
 
 echo [images] collecting graphical abstracts ^(CC-OA only^) ...
