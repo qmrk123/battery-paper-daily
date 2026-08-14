@@ -127,22 +127,43 @@ def summarize_one_sdk(client, paper: Paper, topic_labels: dict[str, str],
 
 # ---------------------------------------------------------------- CLI backend
 
+def claude_cli_globs() -> list[str]:
+    """Candidate glob patterns for the bundled `claude` binary (Windows desktop
+    app), covering both the plain Roaming copy and the MSIX-packaged copy."""
+    pats: list[str] = []
+    appdata = os.environ.get("APPDATA")
+    local = os.environ.get("LOCALAPPDATA")
+    for base in (appdata, local):
+        if base:
+            pats.append(str(Path(base) / "Claude" / "claude-code" / "*" / "claude.exe"))
+    if local:  # e.g. ...\Packages\Claude_xxxx\LocalCache\Roaming\Claude\claude-code\*\claude.exe
+        pats.append(str(Path(local) / "Packages" / "Claude_*" / "LocalCache" /
+                        "Roaming" / "Claude" / "claude-code" / "*" / "claude.exe"))
+    # POSIX/npm global installs
+    home = os.environ.get("HOME") or os.environ.get("USERPROFILE")
+    if home:
+        pats.append(str(Path(home) / ".claude" / "*" / "claude"))
+    return pats
+
+
 def resolve_claude_cli() -> Optional[str]:
-    """Find the `claude` binary: $CLAUDE_CLI, then the bundled desktop-app copy,
-    then PATH."""
+    """Find the `claude` binary: $CLAUDE_CLI, then PATH, then the bundled
+    desktop-app copies (newest version)."""
     override = os.environ.get("CLAUDE_CLI")
     if override and Path(override).exists():
         return override
+    on_path = shutil.which("claude")
+    if on_path:
+        return on_path
     cands: list[str] = []
-    for base in (os.environ.get("APPDATA"), os.environ.get("LOCALAPPDATA")):
-        if base:
-            cands += glob(str(Path(base) / "Claude" / "claude-code" / "*" / "claude.exe"))
+    for pat in claude_cli_globs():
+        cands += glob(pat)
     if cands:
         def ver(p: str):
             m = re.search(r"claude-code[\\/]([0-9.]+)", p)
             return tuple(int(x) for x in m.group(1).split(".")) if m else (0,)
         return sorted(cands, key=ver)[-1]
-    return shutil.which("claude")
+    return None
 
 
 def _extract_json(text: str) -> Optional[dict]:
@@ -293,7 +314,11 @@ def main(argv=None) -> int:
     if args.setup_token:
         cli = resolve_claude_cli()
         if not cli:
-            print("claude CLI not found. Set CLAUDE_CLI to its path."); return 2
+            print("claude CLI not found. Searched PATH and:")
+            for pat in claude_cli_globs():
+                print(f"  {pat}")
+            print("Set CLAUDE_CLI to the full path of claude.exe and retry.")
+            return 2
         print(f"launching: {cli} setup-token")
         print("Authorize in the browser, then copy the token and set it, e.g.:")
         print('  PowerShell:  $env:CLAUDE_CODE_OAUTH_TOKEN = "<token>"')
