@@ -28,10 +28,14 @@ link, graphical abstract (best-effort), and a **Korean** summary.
 ## Phases
 1. ✅ Fetch pipeline → `data/*.json`
 2. ✅ Static site (tabs/cards/date archive, dark-mode, instrument-panel design)
-3. ⬜ Graphical-abstract best-effort (`pipeline/images.py`) — license-first, og:image
-4. ⬜ Korean summaries + LLM relevance gate (`pipeline/summarize.py`) — Anthropic
-   Haiku 4.5 Batch API; needs `ANTHROPIC_API_KEY`.
-5. ⬜ GitHub Actions daily cron → Pages deploy (`.github/workflows/`).
+3. ✅ Graphical-abstract best-effort (`pipeline/images.py`) — license-first (CC-OA
+   only; publisher bot-blocks mean most papers keep the placeholder — by design)
+4. ✅ Korean summaries + LLM relevance gate (`pipeline/summarize.py`) — Anthropic
+   Haiku 4.5; needs `ANTHROPIC_API_KEY`. Runs from run.bat/update.bat when set.
+5. ✅ GitHub Actions daily cron → commit-back + Pages deploy (`.github/workflows/daily.yml`).
+
+Remaining: user creates the GitHub repo, sets Pages source + `ANTHROPIC_API_KEY`
+secret, runs the workflow once. Optional: Batch API for -50% summary cost.
 
 ## Conventions
 - `data/` **is committed** (it's the site content). Never commit API keys.

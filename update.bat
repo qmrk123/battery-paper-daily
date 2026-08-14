@@ -20,4 +20,5 @@ if defined ANTHROPIC_API_KEY (
   echo [summarize] skipped ^(ANTHROPIC_API_KEY not set^)
 )
 
+python -m pipeline.images
 python scripts\build_site.py

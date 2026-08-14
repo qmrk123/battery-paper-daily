@@ -1,0 +1,85 @@
+name: daily-update
+
+# 06:00 KST (21:00 UTC) every day, plus a manual "Run workflow" button.
+# NOTE: GitHub disables scheduled workflows after 60 days of repo inactivity,
+# and only runs them from the default branch.
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+# Allow committing data back AND deploying Pages (OIDC).
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never let two daily runs overlap.
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch new papers (OpenAlex + arXiv)
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m pipeline.main
+
+      - name: Korean summaries + relevance gate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m pipeline.summarize
+          else
+            echo "ANTHROPIC_API_KEY not set — skipping Korean summaries"
+          fi
+
+      - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m pipeline.images
+
+      - name: Commit data back (persists the seen-ledger + daily files)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ site/img/
+          if git diff --staged --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: daily update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Assemble public/
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

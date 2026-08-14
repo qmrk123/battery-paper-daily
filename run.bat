@@ -21,6 +21,9 @@ if defined ANTHROPIC_API_KEY (
   echo [summarize] skipped ^(set ANTHROPIC_API_KEY to enable Korean summaries^)
 )
 
+echo [images] collecting graphical abstracts ^(CC-OA only^) ...
+python -m pipeline.images
+
 echo [build] assembling public\ ...
 python scripts\build_site.py
 

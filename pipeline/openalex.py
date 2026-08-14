@@ -21,7 +21,7 @@ from .models import Paper, clean_ws
 API = "https://api.openalex.org/works"
 SELECT = ",".join([
     "id", "doi", "title", "publication_date", "type",
-    "primary_location", "open_access", "authorships",
+    "primary_location", "best_oa_location", "open_access", "authorships",
     "abstract_inverted_index",
 ])
 CONTACT = os.environ.get("CONTACT_EMAIL", "qmrk123@hanyang.ac.kr")
@@ -126,9 +126,11 @@ class OpenAlexClient:
         if not title:
             return None
         pl = r.get("primary_location") or {}
+        boa = r.get("best_oa_location") or {}
         src = pl.get("source") or {}
         oa = r.get("open_access") or {}
         doi = _clean_doi(r.get("doi"))
+        license_ = boa.get("license") or pl.get("license")
         url = (f"https://doi.org/{doi}" if doi
                else pl.get("landing_page_url") or r.get("id"))
         authors = [
@@ -148,4 +150,5 @@ class OpenAlexClient:
             abstract_en=reconstruct_abstract(r.get("abstract_inverted_index")),
             oa_status=oa.get("oa_status"),
             oa_url=oa.get("oa_url"),
+            license=license_,
         )

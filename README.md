@@ -56,9 +56,23 @@ REM 자체완결 1파일 미리보기 만들기
 검색 정밀도가 아쉬우면 `config/topics.yaml` 의 `queries` / `include` / `exclude`
 / `context` 를 고치고 `--dry-run --show-filtered` 로 즉시 확인하세요.
 
-## 자동화 & 배포
+## 자동화 & 배포 (GitHub Actions → Pages)
 
-- **한글 요약**: `ANTHROPIC_API_KEY` 필요 (Haiku 4.5 + Batch API, 하루 50편 ≈ 월 $2~5).
-- **매일 실행 + 배포**: GitHub Actions 크론 → GitHub Pages (5단계, `.github/workflows/`).
+`.github/workflows/daily.yml` 이 매일 06:00 KST 에 수집→요약→이미지→커밋백→Pages 배포.
+**한 번만 설정하면** 이후 자동입니다:
+
+1. GitHub 저장소 생성(무료 Actions·Pages를 위해 **public 권장**) 후 push.
+2. **Settings → Pages → Source: `GitHub Actions`**.
+3. **Settings → Secrets and variables → Actions**
+   - Secret `ANTHROPIC_API_KEY` (한글 요약용). 없으면 요약만 건너뜁니다.
+   - (선택) Variable `CONTACT_EMAIL` — API polite-pool 연락처.
+4. **Settings → Actions → General → Workflow permissions: Read and write**.
+5. **Actions 탭 → daily-update → Run workflow** 로 첫 실행(시드).
+
+주의: 스케줄은 **기본 브랜치에서만** 돌고, 저장소가 **60일간 활동 없으면 자동 중지**됩니다.
+`data/`(특히 `seen.json`)는 매 실행 후 **저장소로 커밋백**되어 중복제거 원장이 유지됩니다.
+
+- 로컬 자동화가 좋으면 Windows 작업 스케줄러로 `update.bat` 을 걸어도 됩니다(PC가 켜져 있어야 함).
+- **한글 요약**: `ANTHROPIC_API_KEY` 필요 (Haiku 4.5, 하루 50편 ≈ 월 $2~5).
 
 자세한 소스·이미지·비용 근거는 [DESIGN.md](DESIGN.md) 참고.

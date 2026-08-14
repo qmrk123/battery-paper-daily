@@ -74,6 +74,7 @@ class Paper:
 
     oa_status: Optional[str] = None   # gold/green/hybrid/bronze/closed
     oa_url: Optional[str] = None
+    license: Optional[str] = None     # e.g. "cc-by", "cc-by-nc", "cc0", "publisher-specific"
 
     first_seen: Optional[str] = None  # date our pipeline first saw it
 
