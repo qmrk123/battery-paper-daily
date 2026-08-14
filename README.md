@@ -12,22 +12,19 @@ run.bat
 `.venv` 생성 → 의존성 설치 → 오늘자 논문 수집 → (인증 시)한글 요약 → 이미지 →
 사이트 조립 → `http://localhost:8765` 로 브라우저를 엽니다.
 
-### 한글 요약 인증 (둘 중 하나)
+### 한글 요약 LLM (둘 중 하나)
 
-요약은 LLM이 필요합니다. 아래 중 하나면 됩니다.
+요약은 LLM이 필요합니다. 초록은 공개 정보라 무료 티어로 충분해요.
 
-- **Claude 구독 사용 (추가 과금 없음, 권장):** 한 번만 토큰 발급 →
-  ```bat
-  .venv\Scripts\python -m pipeline.summarize --setup-token
-  ```
-  브라우저 인증 후 나온 토큰을 환경변수로:
+- **Gemini 무료 (권장):** [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+  에서 무료 키 발급 후:
   ```powershell
-  $env:CLAUDE_CODE_OAUTH_TOKEN = "<토큰>"
+  $env:GEMINI_API_KEY = "<키>"
   ```
-  이후 `run.bat` 이 구독으로 요약합니다. (번들 `claude` CLI를 자동 탐색)
-- **API 키 (종량제):** `$env:ANTHROPIC_API_KEY = "sk-ant-..."` — Haiku 4.5, 월 $2~5.
+- **Anthropic API (종량제):** `$env:ANTHROPIC_API_KEY = "sk-ant-..."` — Haiku 4.5, 월 $2~5.
 
-둘 다 없으면 요약만 건너뛰고 나머지는 정상 동작합니다.
+`GEMINI_MODEL`(기본 `gemini-2.5-flash`)로 모델 변경 가능. 둘 다 없으면 요약만
+건너뛰고 나머지는 정상 동작합니다. (Claude 구독 토큰은 raw CLI 401로 사용 불가.)
 
 ## 구성
 
@@ -80,12 +77,13 @@ REM 자체완결 1파일 미리보기 만들기
 
 1. GitHub 저장소 생성(무료 Actions·Pages를 위해 **public 권장**) 후 push.
 2. **Settings → Pages → Source: `GitHub Actions`**.
-3. **Settings → Secrets and variables → Actions** — 한글 요약 인증 (둘 중 하나)
-   - Secret `CLAUDE_CODE_OAUTH_TOKEN` (구독 방식, 추가 과금 없음). 로컬에서
-     `python -m pipeline.summarize --setup-token` 으로 발급한 토큰. 워크플로가
-     자동으로 `claude` CLI를 설치해 사용합니다.
-   - 또는 Secret `ANTHROPIC_API_KEY` (종량제 API). 둘 다 없으면 요약만 건너뜁니다.
+3. **Settings → Secrets and variables → Actions** — 한글 요약 LLM
+   - Secret `GEMINI_API_KEY` (무료, 권장) — [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+     에서 무료 발급. 없으면 요약만 건너뜁니다.
+   - 또는 Secret `ANTHROPIC_API_KEY` (종량제 Haiku, 월 $2~5).
    - (선택) Variable `CONTACT_EMAIL` — API polite-pool 연락처.
+   - (참고) Claude 구독 토큰(`CLAUDE_CODE_OAUTH_TOKEN`)은 raw CLI에서 401로 거부돼
+     사용 불가 — 공식 claude-code-action 외엔 안 됨.
 4. **Settings → Actions → General → Workflow permissions: Read and write**.
 5. **Actions 탭 → daily-update → Run workflow** 로 첫 실행(시드).
 

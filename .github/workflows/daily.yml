@@ -43,27 +43,15 @@ jobs:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
         run: python -m pipeline.main
 
-      # Subscription mode needs the `claude` CLI on PATH; API mode does not.
-      # (secrets can't be used in `if:`, so gate inside the shell instead)
-      - name: Install Claude CLI (subscription mode only)
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: |
-          if [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
-            npm install -g @anthropic-ai/claude-code
-          else
-            echo "no subscription token — skipping CLI install"
-          fi
-
       - name: Korean summaries + relevance gate
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          if [ -n "$ANTHROPIC_API_KEY" ] || [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
             python -m pipeline.summarize ${{ inputs.force_summarize && '--force' || '' }}
           else
-            echo "no summarizer credentials — skipping Korean summaries"
+            echo "no summarizer credentials (set GEMINI_API_KEY) — skipping summaries"
           fi
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)

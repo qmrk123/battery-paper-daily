@@ -15,13 +15,13 @@ echo [fetch] gathering new papers ...
 python -m pipeline.main %*
 
 set DOSUM=
+if defined GEMINI_API_KEY set DOSUM=1
 if defined ANTHROPIC_API_KEY set DOSUM=1
-if defined CLAUDE_CODE_OAUTH_TOKEN set DOSUM=1
 if defined DOSUM (
   echo [summarize] generating Korean summaries ...
   python -m pipeline.summarize
 ) else (
-  echo [summarize] skipped ^(run: python -m pipeline.summarize --setup-token, then set CLAUDE_CODE_OAUTH_TOKEN^)
+  echo [summarize] skipped ^(set GEMINI_API_KEY to enable Korean summaries^)
 )
 
 echo [images] collecting graphical abstracts ^(CC-OA only^) ...

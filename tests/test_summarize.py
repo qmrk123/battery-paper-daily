@@ -11,7 +11,7 @@ import pytest
 from pipeline.models import Paper
 from pipeline.summarize import (
     build_user_content, parse_tool_result, summarize_papers,
-    parse_cli_result, _extract_json, ClaudeAuthError,
+    parse_cli_result, _extract_json, ClaudeAuthError, parse_gemini_result,
 )
 
 LABELS = {"li-metal": "리튬 금속 음극", "high-ni-ncm": "High-Ni NCM 양극"}
@@ -103,6 +103,17 @@ def test_parse_cli_result_not_logged_in_raises():
 
 def test_parse_cli_result_generic_error_returns_none():
     assert parse_cli_result(_envelope("some other failure", is_error=True)) is None
+
+
+def test_parse_gemini_result():
+    ok = {"candidates": [{"content": {"parts": [
+        {"text": '{"relevant": true, "summary_ko": "핵심 요약."}'}]}}]}
+    assert parse_gemini_result(ok) == (True, "핵심 요약.")
+    fenced = {"candidates": [{"content": {"parts": [
+        {"text": '```json\n{"relevant": false, "summary_ko": "무관."}\n```'}]}}]}
+    assert parse_gemini_result(fenced) == (False, "무관.")
+    assert parse_gemini_result({"candidates": []}) is None
+    assert parse_gemini_result({}) is None
 
 
 def test_extract_json_variants():

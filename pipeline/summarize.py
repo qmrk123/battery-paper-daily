@@ -216,6 +216,57 @@ def summarize_one_cli(cli: str, paper: Paper, topic_labels: dict[str, str],
     return None
 
 
+# ---------------------------------------------------------------- Gemini backend
+
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/"
+                   "models/{model}:generateContent")
+_GEMINI_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {"relevant": {"type": "BOOLEAN"}, "summary_ko": {"type": "STRING"}},
+    "required": ["relevant", "summary_ko"],
+}
+
+
+def parse_gemini_result(data: dict) -> Optional[tuple[bool, str]]:
+    """Pull (relevant, summary_ko) from a Gemini generateContent response."""
+    try:
+        cands = data.get("candidates") or []
+        parts = ((cands[0] or {}).get("content") or {}).get("parts") or []
+        text = parts[0].get("text", "")
+    except Exception:
+        return None
+    obj = _extract_json(text) if text else None
+    return _coerce(obj) if obj else None
+
+
+def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str],
+                         model: str = GEMINI_MODEL, retries: int = 4,
+                         timeout: int = 60) -> Optional[tuple[bool, str]]:
+    import requests
+    body = {
+        "systemInstruction": {"parts": [{"text": SYSTEM}]},
+        "contents": [{"parts": [{"text": build_user_content(paper, topic_labels)}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": _GEMINI_SCHEMA,
+            "temperature": 0.3,
+            "maxOutputTokens": 800,
+        },
+    }
+    url = GEMINI_ENDPOINT.format(model=model)
+    backoff = 3.0
+    for attempt in range(retries):
+        r = requests.post(url, params={"key": api_key}, json=body, timeout=timeout)
+        if r.status_code == 200:
+            return parse_gemini_result(r.json())
+        if r.status_code in (429, 500, 502, 503) and attempt < retries - 1:
+            time.sleep(backoff); backoff *= 2  # free tier is ~10 RPM
+            continue
+        raise RuntimeError(f"Gemini {r.status_code}: {r.text[:200]}")
+    return None
+
+
 # ---------------------------------------------------------------- orchestration
 
 def _make_summarize_fn(labels, client, backend, log) -> Optional[tuple[Callable, int]]:
@@ -227,6 +278,10 @@ def _make_summarize_fn(labels, client, backend, log) -> Optional[tuple[Callable,
         c = Anthropic()
         log(f"  backend: Anthropic API (metered), model={SDK_MODEL}")
         return (lambda p: summarize_one_sdk(c, p, labels)), 6
+    gem = os.environ.get("GEMINI_API_KEY")
+    if backend == "gemini" or (backend is None and gem):
+        log(f"  backend: Gemini free tier, model={GEMINI_MODEL}")
+        return (lambda p: summarize_one_gemini(gem, p, labels)), 3
     cli = resolve_claude_cli()
     if cli:
         tok = "CLAUDE_CODE_OAUTH_TOKEN" in os.environ
@@ -244,8 +299,8 @@ def summarize_papers(papers: list[Paper], topic_labels: dict[str, str],
     made = _make_summarize_fn(topic_labels, client, backend, log)
     if made is None:
         raise RuntimeError(
-            "No summarizer available. Set ANTHROPIC_API_KEY (API), or run "
-            "`claude setup-token` and set CLAUDE_CODE_OAUTH_TOKEN (subscription).")
+            "No summarizer available. Set GEMINI_API_KEY (free, recommended) or "
+            "ANTHROPIC_API_KEY (metered API).")
     fn, default_workers = made
     workers = workers or default_workers
 

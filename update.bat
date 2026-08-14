@@ -14,13 +14,13 @@ python -m pipeline.main %*
 
 REM Korean summaries + relevance gate (only if a key is available)
 set DOSUM=
+if defined GEMINI_API_KEY set DOSUM=1
 if defined ANTHROPIC_API_KEY set DOSUM=1
-if defined CLAUDE_CODE_OAUTH_TOKEN set DOSUM=1
 if defined DOSUM (
   echo [summarize] generating Korean summaries ...
   python -m pipeline.summarize
 ) else (
-  echo [summarize] skipped ^(no ANTHROPIC_API_KEY / CLAUDE_CODE_OAUTH_TOKEN^)
+  echo [summarize] skipped ^(set GEMINI_API_KEY^)
 )
 
 python -m pipeline.images
