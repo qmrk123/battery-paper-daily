@@ -43,6 +43,13 @@ def strip_latex(text: Optional[str]) -> Optional[str]:
     return clean_ws(text)
 
 
+def normalize_title(title: Optional[str]) -> str:
+    """Loose title key for dedup: lowercased, alphanumerics only. Catches the same
+    paper published in two editions with different DOIs (e.g. Angewandte Chemie vs
+    its International Edition, which share an identical title)."""
+    return re.sub(r"[^a-z0-9]+", "", (title or "").lower())
+
+
 def canonical_key(doi: Optional[str], pid: str) -> str:
     """Cross-source dedup key: prefer normalized DOI, else the paper id.
     arXiv DOIs (10.48550/arXiv.NNNN) are normalized so the arXiv-source record

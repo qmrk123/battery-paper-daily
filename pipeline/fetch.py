@@ -10,7 +10,7 @@ from typing import Optional
 
 from .arxiv import ArxivClient
 from .config import Config, Topic
-from .models import Paper, canonical_key
+from .models import Paper, canonical_key, normalize_title
 from .openalex import OpenAlexClient
 
 
@@ -22,6 +22,38 @@ def _prefer(a: Paper, b: Paper) -> Paper:
     if a.source != b.source:
         return a if a.source == "openalex" else b
     return a
+
+
+def _prefer_edition(a: Paper, b: Paper) -> Paper:
+    """Choose which of two same-title editions to keep: one with an abstract,
+    then the English 'International Edition' over a language edition."""
+    if bool(a.abstract_en) != bool(b.abstract_en):
+        return a if a.abstract_en else b
+    ai = "international edition" in (a.venue or "").lower()
+    bi = "international edition" in (b.venue or "").lower()
+    if ai != bi:
+        return a if ai else b
+    return a
+
+
+def dedup_by_title(cands: dict[str, Paper]) -> dict[str, Paper]:
+    """Collapse candidates that share an identical normalized title (different
+    DOIs), e.g. a paper's German + International editions."""
+    seen: dict[str, tuple[str, Paper]] = {}
+    for key, p in cands.items():
+        tk = normalize_title(p.title)
+        if not tk:
+            seen[f"__{key}"] = (key, p)
+            continue
+        if tk in seen:
+            k0, p0 = seen[tk]
+            win = _prefer_edition(p0, p)
+            los = p if win is p0 else p0
+            win.merge_topics(los.topics)
+            seen[tk] = ((k0 if win is p0 else key), win)
+        else:
+            seen[tk] = (key, p)
+    return {k: p for k, p in seen.values()}
 
 
 @dataclass
@@ -94,6 +126,12 @@ def gather_candidates(
 
         log(f"  [{topic.id}] raw={stat.raw} kept={stat.kept}")
         result.stats.append(stat)
+
+    # collapse same-title editions (Angew German vs International, etc.)
+    before = len(result.candidates)
+    result.candidates = dedup_by_title(result.candidates)
+    if len(result.candidates) < before:
+        log(f"  title-dedup: {before} -> {len(result.candidates)}")
 
     return result
 
