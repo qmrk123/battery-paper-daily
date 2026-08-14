@@ -104,10 +104,14 @@ async function loadDay(date) {
   render();
 }
 
+// LLM relevance gate hides off-topic papers; not-yet-summarized (null) still show.
+const visible = (p) => p.relevant !== false;
+
 function updateCounts() {
+  const vis = state.papers.filter(visible);
   const count = (id) => id === "all"
-    ? state.papers.length
-    : state.papers.filter((p) => (p.topics || []).includes(id)).length;
+    ? vis.length
+    : vis.filter((p) => (p.topics || []).includes(id)).length;
   document.querySelectorAll(".tab__count").forEach((n) => {
     n.textContent = count(n.dataset.count);
   });
@@ -123,9 +127,10 @@ function setActive(id) {
 /* ---------- render ---------- */
 function render() {
   const wrap = $("#cards");
-  const list = state.active === "all"
+  const list = (state.active === "all"
     ? state.papers
-    : state.papers.filter((p) => (p.topics || []).includes(state.active));
+    : state.papers.filter((p) => (p.topics || []).includes(state.active))
+  ).filter(visible);
 
   if (!list.length) {
     wrap.innerHTML = "";

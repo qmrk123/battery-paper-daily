@@ -14,6 +14,13 @@ python -m pip install -q -r requirements.txt
 echo [fetch] gathering new papers ...
 python -m pipeline.main %*
 
+if defined ANTHROPIC_API_KEY (
+  echo [summarize] generating Korean summaries ...
+  python -m pipeline.summarize
+) else (
+  echo [summarize] skipped ^(set ANTHROPIC_API_KEY to enable Korean summaries^)
+)
+
 echo [build] assembling public\ ...
 python scripts\build_site.py
 
