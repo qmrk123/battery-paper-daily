@@ -1,0 +1,90 @@
+# Topic definitions for the daily battery-paper tracker.
+#
+# Pipeline precision is a 3-stage funnel:
+#   1. `queries`   -> OpenAlex title_and_abstract.search (broad recall)
+#   2. `include` / `exclude` regex -> cheap post-filter (precision, no API)
+#   3. LLM relevance gate in the summary step (Phase 4, final precision)
+#
+# Regexes run case-insensitively against (title + " " + abstract).
+# A paper is kept by stage 2 if it matches >=1 `include` pattern AND
+# matches 0 `exclude` patterns. Tune these against real output with
+#   python -m pipeline.main --topic <id> --dry-run --show-filtered
+
+defaults:
+  # rolling publication-date window (days) queried each run; dedup handles overlap
+  window_days: 7
+  # max OpenAlex results pulled per topic per run (pagination cap)
+  max_per_topic: 200
+  # OpenAlex work types to keep
+  types: [article, review, preprint, book-chapter]
+  # Every kept paper must ALSO match one of these — an electrochemical-context
+  # gate that kills physics/chemistry hits sharing a keyword (e.g. "lithium-rich"
+  # antiperovskite magnets). Topics may override with their own `context`.
+  context:
+    - 'cathode|anode|electrode|batter|electrochem|\bredox\b|cycl(?:e|ing|abilit)|capacity|electrolyte|delithiat|lithiat|sodiat|coulombic|dendrit|plating|stripping|half[- ]cell|full[- ]cell|li[- ]ion|na[- ]ion|energy storage|solid[- ]state electrolyte'
+
+topics:
+  - id: li-metal
+    label_ko: "리튬 금속 음극"
+    label_en: "Lithium metal anode"
+    emoji: "🔋"
+    queries:
+      - "lithium metal anode"
+      - "lithium metal battery"
+      - "anode-free lithium"
+      - "lithium dendrite"
+      - "lithium plating stripping"
+    arxiv: 'abs:"lithium metal anode" OR abs:"anode-free" OR abs:"lithium dendrite"'
+    include:
+      - 'lithium metal|li[ -]?metal\b|anode[- ]free|lithium dendrite|li dendrite|plating.{0,15}stripping'
+    exclude:
+      - '\bsodium\b|\bpotassium\b|\bzinc\b|\bmagnesium\b.{0,20}anode'
+      - 'welding|superalloy|corrosion of (?:al|steel)|electrocatalys|water splitting|fuel cell'
+
+  - id: na-metal
+    label_ko: "소듐 금속 음극"
+    label_en: "Sodium metal anode"
+    emoji: "🟡"
+    queries:
+      - "sodium metal anode"
+      - "sodium metal battery"
+      - "anode-free sodium"
+      - "sodium dendrite"
+    arxiv: 'abs:"sodium metal anode" OR abs:"anode-free sodium" OR abs:"sodium dendrite"'
+    include:
+      - 'sodium metal|na[ -]?metal\b|anode[- ]free sodium|sodium dendrite|na dendrite'
+    exclude:
+      - 'welding|superalloy|electrocatalys|water splitting|fuel cell'
+
+  - id: high-ni-ncm
+    label_ko: "High-Ni NCM 양극"
+    label_en: "High-Ni NCM/NMC cathode"
+    emoji: "🟢"
+    queries:
+      - "high-nickel cathode"
+      - "nickel-rich layered cathode"
+      - "NCM811 cathode"
+      - "NMC811 cathode"
+      - "single crystal nickel-rich cathode"
+    arxiv: 'abs:"Ni-rich cathode" OR abs:"nickel-rich cathode" OR abs:"NMC811"'
+    include:
+      - 'ni[- ]?rich|nickel[- ]?rich|high[- ]?ni\b|high nickel|\bncm\s?\d|\bnmc\s?\d|lini0\.[5-9]|single[- ]crystal.{0,20}cathode'
+    exclude:
+      - 'nickel (?:production|recovery|extraction|plating|foam|superalloy)|electrocatalys|water splitting|welding|\bp2-type\b|\bo3-type\b.{0,10}sodium'
+      - '\bsodium[- ]ion\b|\bna[- ]?ion\b'
+
+  - id: li-rich
+    label_ko: "리튬 과잉(Li-rich) 양극"
+    label_en: "Li-rich / Li-excess cathode"
+    emoji: "🔵"
+    queries:
+      - "lithium-rich cathode"
+      - "lithium-rich layered oxide"
+      - "Li-excess cathode"
+      - "oxygen redox cathode"
+      - "anionic redox lithium"
+    arxiv: 'abs:"lithium-rich" OR abs:"Li-rich layered" OR abs:"anionic redox"'
+    include:
+      - 'li[- ]?rich|lithium[- ]?rich|li[- ]?excess|lithium[- ]?excess|over[- ]?lithiat|li1\.2|anionic redox|oxygen redox'
+    exclude:
+      - '\bsodium\b|\bna[- ]?rich\b|electrocatalys|water splitting|fuel cell'

@@ -1,0 +1,10 @@
+# Core pipeline (Phase 1-2): fetch + build, no API keys needed
+requests>=2.31
+PyYAML>=6.0
+python-dateutil>=2.9
+
+# Phase 3 (graphical-abstract best-effort): image validation
+pillow>=10.0
+
+# Phase 4 (Korean summaries): Anthropic Batch API
+anthropic>=0.40

@@ -1,0 +1,19 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# secrets — never commit
+.env
+*.key
+anthropic_key.txt
+
+# local scratch
+scratch/
+*.log
+
+# assembled site output (derived from site/ + data/ by build_site.py)
+public/
+
+# NOTE: data/ IS committed (daily JSON + seen.json are the site's content).
+#       site/img cached thumbnails ARE committed (only CC-licensed images are cached; see pipeline/images.py).

@@ -1,0 +1,32 @@
+{
+  "dates": [
+    "2026-08-14"
+  ],
+  "topics": [
+    {
+      "id": "li-metal",
+      "label_ko": "리튬 금속 음극",
+      "label_en": "Lithium metal anode",
+      "emoji": "🔋"
+    },
+    {
+      "id": "na-metal",
+      "label_ko": "소듐 금속 음극",
+      "label_en": "Sodium metal anode",
+      "emoji": "🟡"
+    },
+    {
+      "id": "high-ni-ncm",
+      "label_ko": "High-Ni NCM 양극",
+      "label_en": "High-Ni NCM/NMC cathode",
+      "emoji": "🟢"
+    },
+    {
+      "id": "li-rich",
+      "label_ko": "리튬 과잉(Li-rich) 양극",
+      "label_en": "Li-rich / Li-excess cathode",
+      "emoji": "🔵"
+    }
+  ],
+  "updated_at": "2026-08-14T08:37:18+00:00"
+}

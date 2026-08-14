@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>전지 소재 논문 데일리</title>
+  <meta name="description" content="리튬·소듐 금속 음극과 High-Ni·Li-rich 양극재 신규 논문을 매일 정리합니다." />
+  <link rel="preconnect" href="https://api.openalex.org" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#feed">본문으로 건너뛰기</a>
+
+  <header class="masthead">
+    <div class="masthead__row">
+      <div class="wordmark">
+        <span class="wordmark__pulse" aria-hidden="true"></span>
+        <span class="wordmark__text">
+          <b>전지 소재 논문</b><span class="wordmark__daily">DAILY</span>
+        </span>
+      </div>
+
+      <div class="masthead__controls">
+        <label class="datepick">
+          <span class="datepick__label">날짜</span>
+          <select id="date-select" aria-label="날짜 선택"></select>
+        </label>
+        <button id="theme-toggle" class="icon-btn" type="button"
+                aria-label="테마 전환" title="라이트/다크 전환">◐</button>
+      </div>
+    </div>
+
+    <p class="masthead__tag">
+      리튬 금속 · 소듐 금속 음극 / High-Ni NCM · Li-rich 양극재 —
+      매일 새로 색인된 논문을 소재별로 모읍니다.
+    </p>
+
+    <nav id="tabs" class="tabs" aria-label="소재 분류"></nav>
+  </header>
+
+  <main id="feed" class="feed" tabindex="-1">
+    <div id="status" class="status" role="status">데이터를 불러오는 중…</div>
+    <div id="cards" class="cards"></div>
+  </main>
+
+  <footer class="colophon">
+    <span id="colophon-meta" class="mono"></span>
+    <span class="colophon__src">
+      출처 <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
+      · <a href="https://arxiv.org" target="_blank" rel="noopener">arXiv</a>
+      · 한글 요약은 자동 생성이며 원문 확인을 권장합니다.
+    </span>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
