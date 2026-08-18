@@ -276,7 +276,7 @@ def pick_gemini_model(api_key: str) -> str:
 # Free-tier pacing: reserve one request slot per interval across all threads
 # (Gemini free tier is ~10 RPM). Sleep happens outside the lock so HTTP calls
 # still overlap; only their start times are spaced.
-_GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "6.5"))
+_GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "8.0"))
 _gem_lock = threading.Lock()
 _gem_next = 0.0
 
@@ -334,7 +334,7 @@ def _make_summarize_fn(labels, client, backend, log) -> Optional[tuple[Callable,
     if backend == "gemini" or (backend is None and gem):
         model = os.environ.get("GEMINI_MODEL") or pick_gemini_model(gem)
         log(f"  backend: Gemini free tier, model={model}")
-        return (lambda p: summarize_one_gemini(gem, p, labels, model=model)), 3
+        return (lambda p: summarize_one_gemini(gem, p, labels, model=model)), 2
     cli = resolve_claude_cli()
     if cli:
         tok = "CLAUDE_CODE_OAUTH_TOKEN" in os.environ
