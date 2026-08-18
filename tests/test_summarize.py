@@ -40,12 +40,14 @@ class _Block:
         self.input = data
 
 
-def test_parse_tool_result_object_and_dict():
-    obj = [_Block({"relevant": True, "summary_ko": "요약입니다."})]
-    assert parse_tool_result(obj) == (True, "요약입니다.")
-    dct = [{"type": "tool_use", "input": {"relevant": False, "summary_ko": "무관."}}]
-    assert parse_tool_result(dct) == (False, "무관.")
-    # text-only response (model didn't call the tool) -> None
+def test_parse_tool_result_topics_and_summary():
+    obj = [_Block({"topics": ["li-metal"], "summary_ko": "요약입니다."})]
+    assert parse_tool_result(obj) == (["li-metal"], "요약입니다.")
+    dct = [{"type": "tool_use", "input": {"topics": [], "summary_ko": "무관."}}]
+    assert parse_tool_result(dct) == ([], "무관.")
+    # bogus topic ids are filtered out
+    bogus = [_Block({"topics": ["li-metal", "not-a-topic"], "summary_ko": "s"})]
+    assert parse_tool_result(bogus) == (["li-metal"], "s")
     assert parse_tool_result([{"type": "text", "text": "hi"}]) is None
 
 
@@ -54,7 +56,7 @@ class _Msgs:
 
 
 class FakeClient:
-    """Returns a canned tool_use based on whether the title says 'magnet'."""
+    """Returns canned topics: a 'magnet' title classifies to [] (off-topic)."""
     def __init__(self):
         self.messages = _Msgs(self._create)
         self.calls = 0
@@ -64,23 +66,24 @@ class FakeClient:
         user = kw["messages"][0]["content"]
         off_topic = "magnet" in user.lower()
         return type("R", (), {"content": [
-            _Block({"relevant": not off_topic,
+            _Block({"topics": [] if off_topic else ["high-ni-ncm"],
                     "summary_ko": "무관 논문." if off_topic else "핵심 요약 2문장."})
         ]})()
 
 
-def test_summarize_papers_sets_fields_and_gate():
+def test_summarize_papers_classifies_and_gates():
     papers = [
         Paper(id="W1", source="openalex", title="Ni-rich cathode", url="u",
-              published="2026-08-14", topics=["high-ni-ncm"], abstract_en="a"),
+              published="2026-08-14", topics=["li-metal"], abstract_en="a"),  # mis-tagged
         Paper(id="W2", source="arxiv", title="Antiperovskite magnet", url="u",
               published="2026-08-14", topics=["li-metal"], abstract_en="b"),
     ]
     client = FakeClient()
     stats = summarize_papers(papers, LABELS, client=client, workers=2)
     assert stats["processed"] == 2 and stats["irrelevant"] == 1 and stats["errors"] == 0
+    assert papers[0].topics == ["high-ni-ncm"]      # reclassified by the LLM
     assert papers[0].relevant is True and papers[0].summary_ko
-    assert papers[1].relevant is False
+    assert papers[1].topics == [] and papers[1].relevant is False
 
 
 def _envelope(result_text, is_error=False):
@@ -88,12 +91,12 @@ def _envelope(result_text, is_error=False):
 
 
 def test_parse_cli_result_plain_and_fenced():
-    ok = _envelope('{"relevant": true, "summary_ko": "핵심 요약."}')
-    assert parse_cli_result(ok) == (True, "핵심 요약.")
-    fenced = _envelope('```json\n{"relevant": false, "summary_ko": "무관."}\n```')
-    assert parse_cli_result(fenced) == (False, "무관.")
-    chatty = _envelope('여기 결과입니다: {"relevant": true, "summary_ko": "요약"} 이상입니다.')
-    assert parse_cli_result(chatty) == (True, "요약")
+    ok = _envelope('{"topics": ["li-metal"], "summary_ko": "핵심 요약."}')
+    assert parse_cli_result(ok) == (["li-metal"], "핵심 요약.")
+    fenced = _envelope('```json\n{"topics": [], "summary_ko": "무관."}\n```')
+    assert parse_cli_result(fenced) == ([], "무관.")
+    chatty = _envelope('결과: {"topics": ["li-rich"], "summary_ko": "요약"} 끝.')
+    assert parse_cli_result(chatty) == (["li-rich"], "요약")
 
 
 def test_parse_cli_result_not_logged_in_raises():
@@ -107,11 +110,11 @@ def test_parse_cli_result_generic_error_returns_none():
 
 def test_parse_gemini_result():
     ok = {"candidates": [{"content": {"parts": [
-        {"text": '{"relevant": true, "summary_ko": "핵심 요약."}'}]}}]}
-    assert parse_gemini_result(ok) == (True, "핵심 요약.")
+        {"text": '{"topics": ["high-ni-ncm"], "summary_ko": "핵심 요약."}'}]}}]}
+    assert parse_gemini_result(ok) == (["high-ni-ncm"], "핵심 요약.")
     fenced = {"candidates": [{"content": {"parts": [
-        {"text": '```json\n{"relevant": false, "summary_ko": "무관."}\n```'}]}}]}
-    assert parse_gemini_result(fenced) == (False, "무관.")
+        {"text": '```json\n{"topics": [], "summary_ko": "무관."}\n```'}]}}]}
+    assert parse_gemini_result(fenced) == ([], "무관.")
     assert parse_gemini_result({"candidates": []}) is None
     assert parse_gemini_result({}) is None
 

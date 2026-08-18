@@ -38,34 +38,45 @@ SDK_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 CLI_MODEL = os.environ.get("CLAUDE_MODEL", "haiku")
 MAX_TOKENS = 600
 
+TOPIC_IDS = ["li-metal", "na-metal", "high-ni-ncm", "li-rich"]
+
 SYSTEM = (
-    "당신은 이차전지(배터리) 소재 연구자를 돕는 조수입니다. 주어진 논문의 제목과 초록, "
-    "그리고 배정된 주제를 보고 두 가지를 판단합니다.\n"
-    "1) 관련성(relevant): 이 논문이 배정된 전극 소재 주제(리튬/소듐 금속 음극, "
-    "High-Ni NCM 양극, Li-rich 양극 등 이차전지 전극 소재)에 실제로 해당하면 true. "
-    "키워드만 우연히 겹치는 물리·촉매·무관 분야 논문이면 false.\n"
-    "2) 한글 요약(summary_ko): 핵심 기여·발견·방법을 2~4문장으로 요약. 전문 용어는 "
-    "유지하되 간결하게. 광고·과장 표현 금지, 초록에 없는 내용 추측 금지. 초록이 없으면 "
-    "제목에 근거해 1~2문장으로 보수적으로 작성하고 문장 끝에 '(제목 기반 추정)'을 덧붙입니다."
+    "당신은 이차전지(배터리) 소재 연구자를 돕는 조수입니다. 주어진 논문의 제목·초록과 "
+    "'배정 후보 주제'를 보고 두 가지를 출력합니다.\n"
+    "1) 분류(topics): 이 논문이 실제로 다루는 주제를 아래 4가지 중 모두 고르세요(복수 가능). "
+    "배정 후보 주제는 참고만 하고, 반드시 실제 내용 기준으로 정확히 분류하세요. 4가지 중 "
+    "어디에도 해당하지 않으면 빈 배열([]).\n"
+    "   - li-metal: 리튬 금속 '음극'(anode) — 리튬 금속 전지, 덴드라이트, anode-free 리튬, "
+    "Li 도금/벗김, Li 음극 계면·집전체·SEI\n"
+    "   - na-metal: 소듐 금속 '음극' — 소듐 금속 전지, Na anode-free, Na 덴드라이트/SEI\n"
+    "   - high-ni-ncm: High-Ni NCM/NMC '양극'(cathode) — Ni-rich 층상 산화물 양극(NCM/NMC811 등)\n"
+    "   - li-rich: Li-rich/Li-excess '양극' — 리튬 과잉 층상/무질서암염(DRX) 양극, 음이온(산소) 산화환원\n"
+    "   ★ 음극(anode) 논문을 양극(cathode) 주제로, 또는 그 반대로 분류하지 마세요. "
+    "예: 'anode-free lithium'은 li-metal(음극)이지 high-ni-ncm(양극)이 아님. "
+    "Li-S(황 양극)·Li-O2(산소 양극)·일반 LiCoO2·순수 물리/촉매 논문은 4가지 중 없음([]).\n"
+    "2) 한글 요약(summary_ko): 핵심 기여·발견·방법을 2~4문장으로. 전문 용어는 유지하되 간결하게. "
+    "광고·과장 금지, 초록에 없는 내용 추측 금지. 초록이 없으면 제목에 근거해 1~2문장으로 "
+    "보수적으로 쓰고 문장 끝에 '(제목 기반 추정)'을 덧붙입니다."
 )
 CLI_JSON_SUFFIX = (
-    '\n\n반드시 JSON 객체 하나만 출력하세요. 마크다운 코드블록이나 설명 없이 순수 JSON만:\n'
-    '{"relevant": true 또는 false, "summary_ko": "한글 요약"}'
+    '\n\n반드시 JSON 객체 하나만 출력하세요. 마크다운/설명 없이 순수 JSON만:\n'
+    '{"topics": ["li-metal" 등 해당 주제 배열, 없으면 []], "summary_ko": "한글 요약"}'
 )
 
 # SDK: force structured output via a tool
 TOOL = {
     "name": "record",
-    "description": "주제 관련성 판정과 한글 요약을 기록",
+    "description": "주제 분류와 한글 요약을 기록",
     "input_schema": {
         "type": "object",
         "properties": {
-            "relevant": {"type": "boolean",
-                         "description": "배정된 배터리 전극 소재 주제에 실제로 해당하면 true"},
+            "topics": {"type": "array",
+                       "items": {"type": "string", "enum": TOPIC_IDS},
+                       "description": "실제로 해당하는 주제(복수 가능, 없으면 빈 배열)"},
             "summary_ko": {"type": "string",
                            "description": "핵심 기여/발견을 담은 2~4문장 한글 요약"},
         },
-        "required": ["relevant", "summary_ko"],
+        "required": ["topics", "summary_ko"],
     },
 }
 
@@ -87,15 +98,17 @@ def build_user_content(paper: Paper, topic_labels: dict[str, str]) -> str:
     )
 
 
-def _coerce(data: dict) -> Optional[tuple[bool, str]]:
+def _coerce(data: dict) -> Optional[tuple[list[str], str]]:
+    """Return (topics, summary_ko). topics filtered to the valid ids."""
     if isinstance(data, dict) and "summary_ko" in data:
-        return bool(data.get("relevant", True)), str(data.get("summary_ko", "")).strip()
+        topics = [t for t in (data.get("topics") or []) if t in TOPIC_IDS]
+        return topics, str(data.get("summary_ko", "")).strip()
     return None
 
 
 # ---------------------------------------------------------------- SDK backend
 
-def parse_tool_result(content) -> Optional[tuple[bool, str]]:
+def parse_tool_result(content) -> Optional[tuple[list[str], str]]:
     """Extract (relevant, summary_ko) from a Messages API response's content."""
     for block in content:
         btype = getattr(block, "type", None) or (isinstance(block, dict) and block.get("type"))
@@ -109,7 +122,7 @@ def parse_tool_result(content) -> Optional[tuple[bool, str]]:
 
 
 def summarize_one_sdk(client, paper: Paper, topic_labels: dict[str, str],
-                      model: str = SDK_MODEL, retries: int = 3) -> Optional[tuple[bool, str]]:
+                      model: str = SDK_MODEL, retries: int = 3) -> Optional[tuple[list[str], str]]:
     backoff = 2.0
     for attempt in range(retries):
         try:
@@ -180,7 +193,7 @@ def _extract_json(text: str) -> Optional[dict]:
         return None
 
 
-def parse_cli_result(stdout: str) -> Optional[tuple[bool, str]]:
+def parse_cli_result(stdout: str) -> Optional[tuple[list[str], str]]:
     """Parse the `claude -p --output-format json` envelope. Raises ClaudeAuthError
     if the CLI reports it is not logged in."""
     env = json.loads(stdout)                       # may raise on garbage
@@ -195,7 +208,7 @@ def parse_cli_result(stdout: str) -> Optional[tuple[bool, str]]:
 
 def summarize_one_cli(cli: str, paper: Paper, topic_labels: dict[str, str],
                       model: str = CLI_MODEL, retries: int = 3,
-                      timeout: int = 120) -> Optional[tuple[bool, str]]:
+                      timeout: int = 120) -> Optional[tuple[list[str], str]]:
     args = [cli, "-p", "--output-format", "json", "--model", model,
             "--append-system-prompt", SYSTEM + CLI_JSON_SUFFIX]
     content = build_user_content(paper, topic_labels)
@@ -224,12 +237,15 @@ GEMINI_ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/"
                    "models/{model}:generateContent")
 _GEMINI_SCHEMA = {
     "type": "OBJECT",
-    "properties": {"relevant": {"type": "BOOLEAN"}, "summary_ko": {"type": "STRING"}},
-    "required": ["relevant", "summary_ko"],
+    "properties": {
+        "topics": {"type": "ARRAY", "items": {"type": "STRING", "enum": TOPIC_IDS}},
+        "summary_ko": {"type": "STRING"},
+    },
+    "required": ["topics", "summary_ko"],
 }
 
 
-def parse_gemini_result(data: dict) -> Optional[tuple[bool, str]]:
+def parse_gemini_result(data: dict) -> Optional[tuple[list[str], str]]:
     """Pull (relevant, summary_ko) from a Gemini generateContent response."""
     try:
         cands = data.get("candidates") or []
@@ -293,7 +309,7 @@ def _gem_throttle() -> None:
 
 def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str],
                          model: str = GEMINI_MODEL, retries: int = 4,
-                         timeout: int = 60) -> Optional[tuple[bool, str]]:
+                         timeout: int = 60) -> Optional[tuple[list[str], str]]:
     import requests
     body = {
         "systemInstruction": {"parts": [{"text": SYSTEM}]},
@@ -381,10 +397,12 @@ def summarize_papers(papers: list[Paper], topic_labels: dict[str, str],
                 stats["errors"] += 1
                 log(f"  [{i}/{len(todo)}] no result: {p.title[:50]}")
                 continue
-            relevant, summary = result
-            p.relevant, p.summary_ko = relevant, summary
+            topics, summary = result
+            p.topics = topics                    # LLM reclassifies (supersedes regex)
+            p.relevant = bool(topics)            # empty topics -> off-topic -> hidden
+            p.summary_ko = summary
             stats["processed"] += 1
-            stats["irrelevant"] += int(not relevant)
+            stats["irrelevant"] += int(not topics)
             if i % 10 == 0 or i == len(todo):
                 log(f"  [{i}/{len(todo)}] done ({stats['irrelevant']} flagged off-topic)")
     return stats
@@ -408,9 +426,11 @@ def run(date: str, force: bool = False, log=print) -> dict:
     return stats
 
 
-def run_catchup(limit: int, log=print) -> dict:
-    """Summarize still-null papers across ALL day/month files, up to `limit`
-    papers total (drains a backfill backlog within a free-tier daily quota)."""
+def run_catchup(limit: int, force: bool = False, log=print) -> dict:
+    """Summarize papers across ALL day/month files, up to `limit` total, oldest
+    handled last (newest first). `force` re-does already-summarized papers too —
+    used to re-classify existing data after a prompt change. Stays within a
+    free-tier daily quota by capping at `limit`."""
     cfg = load_config()
     labels = {t.id: t.label_ko for t in cfg.topics}
     store = Store()
@@ -419,10 +439,10 @@ def run_catchup(limit: int, log=print) -> dict:
         if total["processed"] >= limit:
             break
         papers = store.load_day(date)
-        if not any(not p.summary_ko for p in papers):
+        if not any(force or not p.summary_ko for p in papers):
             continue
         log(f"-- catchup {date} --")
-        stats = summarize_papers(papers, labels, log=log)
+        stats = summarize_papers(papers, labels, force=force, log=log)
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
         store.save_day(date, papers, generated_at=now)
         store.write_index(cfg.topic_meta(), updated_at=now)
@@ -442,6 +462,8 @@ def main(argv=None) -> int:
     ap.add_argument("--force", action="store_true", help="redo papers that already have a summary")
     ap.add_argument("--catchup", type=int, metavar="N", default=None,
                     help="drain up to N still-null summaries across ALL files (backfill backlog)")
+    ap.add_argument("--reclassify", type=int, metavar="N", default=None,
+                    help="re-summarize up to N already-done papers across ALL files (new prompt)")
     ap.add_argument("--setup-token", action="store_true",
                     help="run `claude setup-token` (one-time subscription auth) and exit")
     args = ap.parse_args(argv)
@@ -458,7 +480,9 @@ def main(argv=None) -> int:
         print('  PowerShell:  $env:CLAUDE_CODE_OAUTH_TOKEN = "<token>"')
         return subprocess.call([cli, "setup-token"])
     try:
-        if args.catchup is not None:
+        if args.reclassify is not None:
+            run_catchup(args.reclassify, force=True)
+        elif args.catchup is not None:
             run_catchup(args.catchup)
         else:
             run(args.date, force=args.force)
