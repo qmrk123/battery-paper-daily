@@ -1,4 +1,32 @@
 {
+ "S101472891": {
+  "metric": 3.5,
+  "name": "Solid State Ionics"
+ },
+ "S1018252914": {
+  "metric": 19.36,
+  "name": "Materials Science and Engineering R Reports"
+ },
+ "S105243760": {
+  "metric": 3.86,
+  "name": "Applied Physics Letters"
+ },
+ "S106928643": {
+  "metric": 5.81,
+  "name": "Ceramics International"
+ },
+ "S108911230": {
+  "metric": 5.91,
+  "name": "Molecules"
+ },
+ "S10907757": {
+  "metric": 0.86,
+  "name": "X-Ray Spectrometry"
+ },
+ "S109565702": {
+  "metric": 14.66,
+  "name": "Applied Energy"
+ },
  "S111155417": {
   "metric": 16.47,
   "name": "Journal of the American Chemical Society"
@@ -7,69 +35,1301 @@
   "metric": 3.46,
   "name": "Journal of Applied Electrochemistry"
  },
+ "S112006741": {
+  "metric": 4.76,
+  "name": "Chinese Journal of Chemistry"
+ },
+ "S112674977": {
+  "metric": 13.14,
+  "name": "Composites Part B Engineering"
+ },
+ "S11629336": {
+  "metric": 5.94,
+  "name": "Biomacromolecules"
+ },
+ "S117082959": {
+  "metric": 30.26,
+  "name": "Energy & Environmental Science"
+ },
+ "S117186765": {
+  "metric": 19.89,
+  "name": "Coordination Chemistry Reviews"
+ },
+ "S119469986": {
+  "metric": 8.7,
+  "name": "Journal of Membrane Science"
+ },
+ "S119685760": {
+  "metric": 23.76,
+  "name": "Progress in Polymer Science"
+ },
+ "S123288148": {
+  "metric": 7.06,
+  "name": "Polymers"
+ },
+ "S123480357": {
+  "metric": 4.59,
+  "name": "The Journal of Physical Chemistry Letters"
+ },
+ "S124744586": {
+  "metric": 1.99,
+  "name": "Macromolecular Chemistry and Physics"
+ },
+ "S126985745": {
+  "metric": 1.83,
+  "name": "Journal of Electrochemical Energy Conversion and Storage"
+ },
+ "S127985767": {
+  "metric": 3.19,
+  "name": "Journal of Electronic Materials"
+ },
+ "S1342386": {
+  "metric": 4.55,
+  "name": "Electrochemistry Communications"
+ },
+ "S13479253": {
+  "metric": 10.74,
+  "name": "Environmental Science & Technology"
+ },
+ "S135187643": {
+  "metric": 18.38,
+  "name": "Journal of Material Science and Technology"
+ },
  "S135204980": {
   "metric": 14.9,
   "name": "Advanced Functional Materials"
+ },
+ "S135472351": {
+  "metric": 6.34,
+  "name": "European Polymer Journal"
+ },
+ "S13733787": {
+  "metric": 6.76,
+  "name": "Ecotoxicology and Environmental Safety"
+ },
+ "S137773608": {
+  "metric": 18.34,
+  "name": "Nature"
+ },
+ "S137979523": {
+  "metric": 3.69,
+  "name": "Ionics"
+ },
+ "S138759888": {
+  "metric": 3.68,
+  "name": "Journal of The Electrochemical Society"
+ },
+ "S139187495": {
+  "metric": 6.57,
+  "name": "Journal of Rare Earths"
+ },
+ "S143604795": {
+  "metric": 4.2,
+  "name": "Journal of Electroanalytical Chemistry"
+ },
+ "S143846845": {
+  "metric": 8.82,
+  "name": "Nano Letters"
+ },
+ "S143946080": {
+  "metric": 4.52,
+  "name": "Hydrometallurgy"
+ },
+ "S145378405": {
+  "metric": 19.58,
+  "name": "Accounts of Chemical Research"
+ },
+ "S145420111": {
+  "metric": 7.64,
+  "name": "Journal of Industrial and Engineering Chemistry"
+ },
+ "S145476921": {
+  "metric": 16.67,
+  "name": "ACS Nano"
+ },
+ "S145528006": {
+  "metric": 1.14,
+  "name": "Journal of Inorganic Materials"
+ },
+ "S147836164": {
+  "metric": 7.36,
+  "name": "Science China Chemistry"
+ },
+ "S149937609": {
+  "metric": 10.84,
+  "name": "Chemical Engineering Journal"
+ },
+ "S152760256": {
+  "metric": 4.13,
+  "name": "Chemical Communications"
+ },
+ "S15526297": {
+  "metric": 0.78,
+  "name": "Russian Journal of Physical Chemistry A"
+ },
+ "S156255550": {
+  "metric": 3.16,
+  "name": "Advanced Engineering Materials"
+ },
+ "S157859649": {
+  "metric": 5.89,
+  "name": "Polymer Testing"
+ },
+ "S158447136": {
+  "metric": 5.92,
+  "name": "Journal of the European Ceramic Society"
+ },
+ "S160957154": {
+  "metric": 3.45,
+  "name": "Thermochimica Acta"
+ },
+ "S161759566": {
+  "metric": 6.88,
+  "name": "Annual Review of Chemical and Biomolecular Engineering"
  },
  "S164001016": {
   "metric": 8.26,
   "name": "ACS Applied Materials & Interfaces"
  },
+ "S164098111": {
+  "metric": 2.86,
+  "name": "Experimental Mechanics"
+ },
+ "S16561315": {
+  "metric": 3.78,
+  "name": "Crystal Growth & Design"
+ },
+ "S166351637": {
+  "metric": 7.29,
+  "name": "Process Safety and Environmental Protection"
+ },
+ "S166634186": {
+  "metric": 5.96,
+  "name": "Inorganic Chemistry Communications"
+ },
+ "S167919573": {
+  "metric": 5.74,
+  "name": "Chinese Chemical Letters"
+ },
+ "S168898714": {
+  "metric": 2.9,
+  "name": "Journal of Solid State Chemistry"
+ },
+ "S169445072": {
+  "metric": 2.68,
+  "name": "ChemPhysChem"
+ },
+ "S171072222": {
+  "metric": 4.85,
+  "name": "Inorganic Chemistry"
+ },
+ "S171512606": {
+  "metric": 5.77,
+  "name": "Journal of Physics and Chemistry of Solids"
+ },
+ "S172552266": {
+  "metric": 10.88,
+  "name": "Rare Metals"
+ },
+ "S173461644": {
+  "metric": 6.96,
+  "name": "Nano Research"
+ },
  "S177147899": {
   "metric": 7.74,
   "name": "Journal of Power Sources"
+ },
+ "S177196338": {
+  "metric": 5.79,
+  "name": "Macromolecules"
+ },
+ "S18051569": {
+  "metric": 10.62,
+  "name": "Resources Conservation and Recycling"
+ },
+ "S181332294": {
+  "metric": 3.46,
+  "name": "Physical Chemistry Chemical Physics"
+ },
+ "S183222223": {
+  "metric": 10.89,
+  "name": "Nano Today"
+ },
+ "S184645833": {
+  "metric": 8.48,
+  "name": "Chemical Science"
+ },
+ "S185621672": {
+  "metric": 3.43,
+  "name": "The Journal of Physical Chemistry B"
+ },
+ "S186054908": {
+  "metric": 4.47,
+  "name": "Polymer"
  },
  "S186935893": {
   "metric": 6.54,
   "name": "Energy & Fuels"
  },
+ "S18714766": {
+  "metric": 4.41,
+  "name": "Materials"
+ },
+ "S188582317": {
+  "metric": 3.25,
+  "name": "Chemistry - An Asian Journal"
+ },
+ "S188605413": {
+  "metric": 11.56,
+  "name": "Carbon"
+ },
+ "S189509794": {
+  "metric": 2.79,
+  "name": "Journal of Materials Science Materials in Electronics"
+ },
+ "S191655311": {
+  "metric": 1.25,
+  "name": "Electrochemistry"
+ },
+ "S193234216": {
+  "metric": 2.91,
+  "name": "Faraday Discussions"
+ },
+ "S193447295": {
+  "metric": 5.49,
+  "name": "ChemSusChem"
+ },
+ "S194131194": {
+  "metric": 4.22,
+  "name": "Macromolecular Research"
+ },
+ "S195061198": {
+  "metric": 1.46,
+  "name": "Israel Journal of Chemistry"
+ },
+ "S196734849": {
+  "metric": 4.87,
+  "name": "Scientific Reports"
+ },
+ "S19676749": {
+  "metric": 1.41,
+  "name": "Mendeleev Communications"
+ },
+ "S198098182": {
+  "metric": 4.78,
+  "name": "Energies"
+ },
+ "S198339081": {
+  "metric": 4.91,
+  "name": "Electrochimica Acta"
+ },
+ "S199572710": {
+  "metric": 10.07,
+  "name": "Journal of Neuroinflammation"
+ },
+ "S200764475": {
+  "metric": 2.69,
+  "name": "Journal of Applied Polymer Science"
+ },
+ "S201842594": {
+  "metric": 2.18,
+  "name": "Chemical Papers"
+ },
+ "S202680183": {
+  "metric": 4.15,
+  "name": "Industrial & Engineering Chemistry Research"
+ },
+ "S203479135": {
+  "metric": 5.19,
+  "name": "Journal of Molecular Structure"
+ },
+ "S204609040": {
+  "metric": 10.77,
+  "name": "Journal of Colloid and Interface Science"
+ },
+ "S206811868": {
+  "metric": 3.26,
+  "name": "Nanotechnology"
+ },
+ "S207430280": {
+  "metric": 0.96,
+  "name": "International Journal of Chemical Kinetics"
+ },
+ "S21117631": {
+  "metric": 2.7,
+  "name": "Journal of Computational Chemistry"
+ },
+ "S21442059": {
+  "metric": 6.78,
+  "name": "Bioresource Technology"
+ },
+ "S23181512": {
+  "metric": 5.36,
+  "name": "Nanoscale"
+ },
+ "S2479839973": {
+  "metric": 0.85,
+  "name": "Journal of New Materials for Electrochemical Systems"
+ },
+ "S2481244646": {
+  "metric": 6.97,
+  "name": "RSC Advances"
+ },
+ "S2493531148": {
+  "metric": 3.18,
+  "name": "ECS Journal of Solid State Science and Technology"
+ },
+ "S2497301991": {
+  "metric": 18.35,
+  "name": "Nano Energy"
+ },
+ "S2497375143": {
+  "metric": 10.34,
+  "name": "Energy"
+ },
+ "S2500128275": {
+  "metric": 16.06,
+  "name": "Journal of Energy Chemistry"
+ },
+ "S2502047864": {
+  "metric": 7.34,
+  "name": "ACS Sustainable Chemistry & Engineering"
+ },
  "S2502627819": {
   "metric": 18.74,
   "name": "Advanced Energy Materials"
+ },
+ "S25422132": {
+  "metric": 3.34,
+  "name": "Journal of Solid State Electrochemistry"
+ },
+ "S2596399182": {
+  "metric": 2.45,
+  "name": "Frontiers in Mechanical Engineering"
+ },
+ "S26018076": {
+  "metric": 3.92,
+  "name": "Computational Materials Science"
  },
  "S26125866": {
   "metric": 3.93,
   "name": "Journal of Materials Science"
  },
+ "S2734413303": {
+  "metric": 9.73,
+  "name": "National Science Review"
+ },
  "S2737090608": {
   "metric": 8.26,
   "name": "Batteries"
+ },
+ "S2737336974": {
+  "metric": 2.82,
+  "name": "Minerals"
+ },
+ "S2737417813": {
+  "metric": 4.04,
+  "name": "Inorganics"
  },
  "S2737427234": {
   "metric": 12.45,
   "name": "Science Advances"
  },
+ "S2737559645": {
+  "metric": 7.36,
+  "name": "Gels"
+ },
+ "S2737737698": {
+  "metric": 8.82,
+  "name": "Advanced Science"
+ },
+ "S2739050901": {
+  "metric": 8.9,
+  "name": "Microsystems & Nanoengineering"
+ },
+ "S2764385675": {
+  "metric": 3.36,
+  "name": "Advanced Materials Interfaces"
+ },
+ "S2764402489": {
+  "metric": 5.98,
+  "name": "Inorganic Chemistry Frontiers"
+ },
+ "S2764412729": {
+  "metric": 0.02,
+  "name": "He'nan kexue"
+ },
  "S2764414965": {
   "metric": 16.36,
   "name": "ACS Energy Letters"
+ },
+ "S2764437742": {
+  "metric": 8.15,
+  "name": "Journal of Materials Chemistry A"
+ },
+ "S2764528046": {
+  "metric": 30.47,
+  "name": "Nature Energy"
+ },
+ "S2764607427": {
+  "metric": 7.08,
+  "name": "Journal of Materiomics"
+ },
+ "S2764646681": {
+  "metric": 6.23,
+  "name": "Nanomaterials"
+ },
+ "S2764650158": {
+  "metric": 5.1,
+  "name": "Sustainable Energy & Fuels"
+ },
+ "S2764660306": {
+  "metric": 0.01,
+  "name": "Gongneng cailiao yu qijian xuebao"
+ },
+ "S2764728150": {
+  "metric": 13.42,
+  "name": "Energy storage materials"
+ },
+ "S2764782236": {
+  "metric": 6.96,
+  "name": "Science China Materials"
+ },
+ "S2764830181": {
+  "metric": 0.07,
+  "name": "Journal of the Arkansas Academy of Science"
+ },
+ "S2764865925": {
+  "metric": 10.17,
+  "name": "Journal of Energy Storage"
+ },
+ "S2764904510": {
+  "metric": 0.26,
+  "name": "Journal of the Korean Institute of Electrical and Electronic Material Engineers"
+ },
+ "S2764970645": {
+  "metric": 6.29,
+  "name": "Frontiers in Chemistry"
+ },
+ "S2764987357": {
+  "metric": 3.92,
+  "name": "Surfaces and Interfaces"
+ },
+ "S2765035057": {
+  "metric": 8.49,
+  "name": "ACS Central Science"
+ },
+ "S2765035490": {
+  "metric": 4.33,
+  "name": "Materials Today Communications"
+ },
+ "S2765038284": {
+  "metric": 4.58,
+  "name": "Advanced Materials Technologies"
+ },
+ "S2765059294": {
+  "metric": 3.78,
+  "name": "Energy Technology"
+ },
+ "S2765060811": {
+  "metric": 6.73,
+  "name": "Carbon letters"
+ },
+ "S2898120712": {
+  "metric": 4.87,
+  "name": "Materials Today Chemistry"
+ },
+ "S2898189939": {
+  "metric": 9.09,
+  "name": "Composites Communications"
+ },
+ "S2898305631": {
+  "metric": 27.22,
+  "name": "Joule"
+ },
+ "S2898308537": {
+  "metric": 5.63,
+  "name": "Materials Today Energy"
+ },
+ "S2898338117": {
+  "metric": 7.84,
+  "name": "Progress in Natural Science Materials International"
+ },
+ "S2898348030": {
+  "metric": 8.18,
+  "name": "Green Energy & Environment"
+ },
+ "S2898358376": {
+  "metric": 4.5,
+  "name": "iScience"
+ },
+ "S2898501196": {
+  "metric": 5.94,
+  "name": "Sustainable materials and technologies"
+ },
+ "S2898565713": {
+  "metric": 1.7,
+  "name": "Procedia CIRP"
+ },
+ "S2913398011": {
+  "metric": 4.79,
+  "name": "World Electric Vehicle Journal"
+ },
+ "S316438": {
+  "metric": 42.01,
+  "name": "Chemical Society Reviews"
+ },
+ "S32776067": {
+  "metric": 4.18,
+  "name": "International Journal of Energy Research"
+ },
+ "S33892871": {
+  "metric": 4.47,
+  "name": "Chemical Engineering Science"
+ },
+ "S36793815": {
+  "metric": 2.74,
+  "name": "New Journal of Chemistry"
+ },
+ "S38732884": {
+  "metric": 4.29,
+  "name": "Journal of the Korean Ceramic Society"
+ },
+ "S3880285": {
+  "metric": 20.25,
+  "name": "Science"
+ },
+ "S39312595": {
+  "metric": 2.97,
+  "name": "Journal of Computational Electronics"
+ },
+ "S40206742": {
+  "metric": 3.44,
+  "name": "Solid State Sciences"
+ },
+ "S4210169075": {
+  "metric": 0.9,
+  "name": "International Journal of Electrochemistry"
+ },
+ "S4210169149": {
+  "metric": 0.33,
+  "name": "International Journal of Science and Engineering Applications"
+ },
+ "S4210169625": {
+  "metric": 0.35,
+  "name": "Electrochemical Energetics"
+ },
+ "S4210171877": {
+  "metric": 3.05,
+  "name": "Chinese Journal of Electrical Engineering"
+ },
+ "S4210172589": {
+  "metric": 0.2,
+  "name": "SSRN Electronic Journal"
+ },
+ "S4210173430": {
+  "metric": 0.67,
+  "name": "Chinese Science Bulletin (Chinese Version)"
+ },
+ "S4210174246": {
+  "metric": 22.25,
+  "name": "Nature Reviews Chemistry"
+ },
+ "S4210174281": {
+  "metric": 7.45,
+  "name": "EcoMat"
+ },
+ "S4210174958": {
+  "metric": 4.03,
+  "name": "Proceedings of the Combustion Institute"
+ },
+ "S4210176523": {
+  "metric": 7.99,
+  "name": "Tungsten"
+ },
+ "S4210176607": {
+  "metric": 0.4,
+  "name": "Scientia Sinica Chimica"
+ },
+ "S4210178557": {
+  "metric": 11.15,
+  "name": "Matter"
+ },
+ "S4210178997": {
+  "metric": 5.49,
+  "name": "Journal of Power Sources Advances"
+ },
+ "S4210181981": {
+  "metric": 5.29,
+  "name": "Nanoscale Horizons"
+ },
+ "S4210182575": {
+  "metric": 19.0,
+  "name": "Advanced Fiber Materials"
  },
  "S4210183045": {
   "metric": 8.68,
   "name": "Materials Today Sustainability"
  },
+ "S4210183804": {
+  "metric": 5.59,
+  "name": "Automotive Innovation"
+ },
+ "S4210187496": {
+  "metric": 0.27,
+  "name": "Advances in transdisciplinary engineering"
+ },
+ "S4210188590": {
+  "metric": 2.88,
+  "name": "Journal of Polymer Science"
+ },
  "S4210188958": {
   "metric": 5.48,
   "name": "ACS Applied Energy Materials"
+ },
+ "S4210189125": {
+  "metric": 1.04,
+  "name": "Biointerface Research in Applied Chemistry"
+ },
+ "S4210189963": {
+  "metric": 9.4,
+  "name": "International Journal of Innovative Science and Research Technology (IJISRT)"
+ },
+ "S4210190284": {
+  "metric": 2.16,
+  "name": "ChemNanoMat"
+ },
+ "S4210190818": {
+  "metric": 5.44,
+  "name": "Materials Science and Engineering B"
+ },
+ "S4210191493": {
+  "metric": 6.46,
+  "name": "ACS Applied Nano Materials"
+ },
+ "S4210194876": {
+  "metric": 5.5,
+  "name": "Transactions of Nonferrous Metals Society of China"
+ },
+ "S4210195695": {
+  "metric": 0.22,
+  "name": "Ceramist"
+ },
+ "S4210196485": {
+  "metric": 3.41,
+  "name": "Crystals"
+ },
+ "S4210196679": {
+  "metric": 10.66,
+  "name": "Interdisciplinary materials"
+ },
+ "S4210196692": {
+  "metric": 0.89,
+  "name": "Journal of the Ceramic Society of Japan"
+ },
+ "S4210197219": {
+  "metric": 0.16,
+  "name": "IMAPSource Proceedings"
+ },
+ "S4210197702": {
+  "metric": 0.83,
+  "name": "Mineral Processing and Extractive Metallurgy Transactions of the Institutions of Mining and Metallurgy"
+ },
+ "S4210200328": {
+  "metric": 3.97,
+  "name": "ChemEngineering"
+ },
+ "S4210200754": {
+  "metric": 2.14,
+  "name": "Angewandte Chemie"
+ },
+ "S4210201120": {
+  "metric": 16.82,
+  "name": "Carbon Energy"
+ },
+ "S4210204429": {
+  "metric": 0.7,
+  "name": "Green energy and technology"
+ },
+ "S4210205742": {
+  "metric": 3.85,
+  "name": "Coatings"
+ },
+ "S4210207107": {
+  "metric": 12.86,
+  "name": "Advanced Composites and Hybrid Materials"
+ },
+ "S4210207119": {
+  "metric": 7.53,
+  "name": "JACS Au"
+ },
+ "S4210207434": {
+  "metric": 0.66,
+  "name": "Acta Chimica Asiana"
+ },
+ "S4210208565": {
+  "metric": 1.64,
+  "name": "Chemistry - Methods"
+ },
+ "S4210209524": {
+  "metric": 30.48,
+  "name": "eScience"
+ },
+ "S4210211377": {
+  "metric": 12.42,
+  "name": "Accounts of Materials Research"
+ },
+ "S4210211531": {
+  "metric": 3.37,
+  "name": "National Science Open"
+ },
+ "S4210212605": {
+  "metric": 13.66,
+  "name": "InfoMat"
+ },
+ "S4210212614": {
+  "metric": 9.44,
+  "name": "Energy Materials"
+ },
+ "S4210214099": {
+  "metric": 4.06,
+  "name": "Global Challenges"
+ },
+ "S4210214564": {
+  "metric": 5.68,
+  "name": "ChemElectroChem"
+ },
+ "S4210214890": {
+  "metric": 2.16,
+  "name": "Environmental Progress & Sustainable Energy"
+ },
+ "S4210215815": {
+  "metric": 13.57,
+  "name": "Nature Synthesis"
+ },
+ "S4210216867": {
+  "metric": 5.91,
+  "name": "Cell Reports Physical Science"
+ },
+ "S4210217307": {
+  "metric": 4.82,
+  "name": "Advanced Sustainable Systems"
+ },
+ "S4210218168": {
+  "metric": 3.03,
+  "name": "Surfaces"
+ },
+ "S4210218311": {
+  "metric": 0.03,
+  "name": "Bulletin of NTU KhPI Series Problems of Electrical Machines and Apparatus Perfection The Theory and Practice"
+ },
+ "S4210218533": {
+  "metric": 5.04,
+  "name": "Chemical Synthesis"
+ },
+ "S4210219039": {
+  "metric": 0.93,
+  "name": "American Journal of Environmental Science and Engineering"
  },
  "S4210219471": {
   "metric": 7.56,
   "name": "Energy & environment materials"
  },
+ "S4210220548": {
+  "metric": 17.17,
+  "name": "SusMat"
+ },
+ "S4210220808": {
+  "metric": 2.16,
+  "name": "IEEE Sensors Letters"
+ },
+ "S4210221295": {
+  "metric": 7.58,
+  "name": "Energy Advances"
+ },
+ "S4210221416": {
+  "metric": 2.34,
+  "name": "ChemistrySelect"
+ },
+ "S4210221646": {
+  "metric": 5.11,
+  "name": "ACS Applied Polymer Materials"
+ },
+ "S4210224134": {
+  "metric": 4.63,
+  "name": "Small Structures"
+ },
+ "S4210224418": {
+  "metric": 2.98,
+  "name": "Electrochemical Science Advances"
+ },
+ "S4210225447": {
+  "metric": 15.14,
+  "name": "eTransportation"
+ },
+ "S4210227641": {
+  "metric": 4.44,
+  "name": "ACS Polymers Au"
+ },
+ "S4210227872": {
+  "metric": 0.01,
+  "name": "Journal of the Korean Battery Society"
+ },
+ "S4210228161": {
+  "metric": 5.59,
+  "name": "MRS Energy & Sustainability"
+ },
+ "S4210228265": {
+  "metric": 0.0,
+  "name": "The Scientific Issues of Ternopil Volodymyr Hnatiuk National Pedagogical University Series pedagogy"
+ },
+ "S4210230927": {
+  "metric": 8.53,
+  "name": "Nano Materials Science"
+ },
+ "S4210231351": {
+  "metric": 16.12,
+  "name": "International Journal of Extreme Manufacturing"
+ },
+ "S4210231854": {
+  "metric": 3.81,
+  "name": "Electrochem"
+ },
+ "S4210231858": {
+  "metric": 6.3,
+  "name": "Advanced Energy and Sustainability Research"
+ },
+ "S4210231862": {
+  "metric": 18.12,
+  "name": "Advanced Powder Materials"
+ },
+ "S4210231992": {
+  "metric": 3.43,
+  "name": "Journal of Physics Energy"
+ },
+ "S4210232178": {
+  "metric": 3.88,
+  "name": "Nanoenergy Advances"
+ },
+ "S4210232622": {
+  "metric": 5.67,
+  "name": "Small Methods"
+ },
+ "S4210232664": {
+  "metric": 9.75,
+  "name": "npj Computational Materials"
+ },
+ "S4210233464": {
+  "metric": 5.69,
+  "name": "Small Science"
+ },
+ "S4210239249": {
+  "metric": 6.08,
+  "name": "Battery energy"
+ },
+ "S4210239277": {
+  "metric": 4.12,
+  "name": "Journal of Central South University"
+ },
+ "S4210239486": {
+  "metric": 7.11,
+  "name": "CCS Chemistry"
+ },
+ "S4210239492": {
+  "metric": 4.97,
+  "name": "Recycling"
+ },
+ "S4210239500": {
+  "metric": 4.62,
+  "name": "ACS Omega"
+ },
+ "S4210241147": {
+  "metric": 3.66,
+  "name": "Batteries & Supercaps"
+ },
+ "S42323631": {
+  "metric": 6.22,
+  "name": "Applied Surface Science"
+ },
+ "S42965947": {
+  "metric": 2.1,
+  "name": "Russian Journal of Physical Chemistry B"
+ },
  "S4306400194": {
   "metric": 0.17,
   "name": "arXiv (Cornell University)"
+ },
+ "S4306400362": {
+  "metric": 0.01,
+  "name": "EPub Bayreuth (University of Bayreuth)"
+ },
+ "S4306400425": {
+  "metric": 0.03,
+  "name": "DSpace@MIT (Massachusetts Institute of Technology)"
+ },
+ "S4306400562": {
+  "metric": 0.02,
+  "name": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ "S4306400563": {
+  "metric": 0.01,
+  "name": "Jyväskylä University Digital Archive (University of Jyväskylä)"
+ },
+ "S4306400744": {
+  "metric": 0.02,
+  "name": "Springer Link (Chiba Institute of Technology)"
+ },
+ "S4306400854": {
+  "metric": 0.09,
+  "name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)"
+ },
+ "S4306400923": {
+  "metric": 0.02,
+  "name": "edoc Publication server (Humboldt University of Berlin)"
+ },
+ "S4306401280": {
+  "metric": 0.07,
+  "name": "DOAJ (DOAJ: Directory of Open Access Journals)"
+ },
+ "S4306401530": {
+  "metric": 0.01,
+  "name": "University of Limerick Institutional Repository (University of Limerick)"
+ },
+ "S4306401651": {
+  "metric": 0.01,
+  "name": "Digitalen Hochschulbibliothek Sachsen-Anhalt (Universitäts- und Landesbibliothek Sachsen-Anhalt)"
+ },
+ "S4306401777": {
+  "metric": 0.03,
+  "name": "Apollo (University of Cambridge)"
+ },
+ "S4306401992": {
+  "metric": 0.02,
+  "name": "Repository KITopen (Karlsruhe Institute of Technology)"
+ },
+ "S4306402302": {
+  "metric": 0.03,
+  "name": "Repository for Publications and Research Data (ETH Zurich)"
+ },
+ "S4306402457": {
+  "metric": 0.04,
+  "name": "Deakin Research Online (Deakin University)"
+ },
+ "S4306402598": {
+  "metric": 0.07,
+  "name": "HZB Repository (Helmholtz-Zentrum Berlin für Materialien und Energie GmbH (HZB))"
+ },
+ "S4306463448": {
+  "metric": 0.72,
+  "name": "IntechOpen eBooks"
+ },
+ "S4306525896": {
+  "metric": 0.19,
+  "name": "Research Square"
+ },
+ "S4306529006": {
+  "metric": 1.15,
+  "name": "SAE International Journal of Advances and Current Practices in Mobility"
+ },
+ "S4306538096": {
+  "metric": 0.13,
+  "name": "نشریه علمی پژوهشی مواد پیشرفته در مهندسی"
+ },
+ "S4306542128": {
+  "metric": 8.69,
+  "name": "中国科学通报：英文版"
+ },
+ "S4377196266": {
+  "metric": 0.03,
+  "name": "elib (German Aerospace Center)"
+ },
+ "S4377196282": {
+  "metric": 0.02,
+  "name": "Figshare"
+ },
+ "S4377196400": {
+  "metric": 0.03,
+  "name": "Open Scholarship Institutional Repository (Washington University in St. Louis)"
+ },
+ "S4377196760": {
+  "metric": 0.0,
+  "name": "Doria (University of Helsinki)"
+ },
+ "S4387278552": {
+  "metric": 4.32,
+  "name": "Carbon Footprints"
  },
  "S4387279068": {
   "metric": 13.05,
   "name": "Nano Research Energy"
  },
+ "S4387279496": {
+  "metric": 6.84,
+  "name": "PRX Energy"
+ },
+ "S4387280444": {
+  "metric": 0.16,
+  "name": "Advances in Engineering Technology Research"
+ },
+ "S4387281483": {
+  "metric": 6.65,
+  "name": "Industrial Chemistry and Materials"
+ },
+ "S4387281792": {
+  "metric": 12.68,
+  "name": "Carbon Neutralization"
+ },
+ "S4387281889": {
+  "metric": 0.89,
+  "name": "Applied and Computational Engineering"
+ },
+ "S4387282792": {
+  "metric": 3.38,
+  "name": "ACS Applied Engineering Materials"
+ },
+ "S4387285360": {
+  "metric": 1.21,
+  "name": "ChemistryEurope"
+ },
+ "S4387286363": {
+  "metric": 0.26,
+  "name": "International Journal of Energy"
+ },
+ "S4387286545": {
+  "metric": 8.7,
+  "name": "Renewables"
+ },
+ "S4387287157": {
+  "metric": 5.52,
+  "name": "Precision Chemistry"
+ },
+ "S4387287365": {
+  "metric": 3.98,
+  "name": "Next Energy"
+ },
+ "S4387287712": {
+  "metric": 2.51,
+  "name": "Next Materials"
+ },
+ "S4387288696": {
+  "metric": 3.65,
+  "name": "RSC Applied Interfaces"
+ },
+ "S4387289850": {
+  "metric": 4.13,
+  "name": "Environment & Health"
+ },
+ "S4387290758": {
+  "metric": 4.92,
+  "name": "Carbon Future"
+ },
+ "S4387291145": {
+  "metric": 9.31,
+  "name": "Green Carbon"
+ },
+ "S4387291735": {
+  "metric": 8.08,
+  "name": "Electron"
+ },
+ "S4387292460": {
+  "metric": 5.76,
+  "name": "Energy Materials and Devices"
+ },
+ "S4387292739": {
+  "metric": 10.12,
+  "name": "EcoEnergy"
+ },
+ "S4389158299": {
+  "metric": 3.72,
+  "name": "ACS Sustainable Resource Management"
+ },
+ "S4390648409": {
+  "metric": 7.75,
+  "name": "Chem & Bio Engineering"
+ },
+ "S4393918093": {
+  "metric": 0.15,
+  "name": "Acta Crystallographica Section A Foundations and Advances"
+ },
+ "S4393918830": {
+  "metric": 0.47,
+  "name": "ChemRxiv"
+ },
+ "S4404661871": {
+  "metric": 0.29,
+  "name": "Science Get Journal."
+ },
+ "S4404662014": {
+  "metric": 2.87,
+  "name": "InfoScience."
+ },
+ "S4404663996": {
+  "metric": 3.53,
+  "name": "EES batteries."
+ },
+ "S4404664198": {
+  "metric": 9.82,
+  "name": "FlexMat."
+ },
+ "S4404669874": {
+  "metric": 3.87,
+  "name": "Discover Electrochemistry."
+ },
+ "S4404674019": {
+  "metric": 3.33,
+  "name": "ACS electrochemistry."
+ },
+ "S4404674610": {
+  "metric": 4.9,
+  "name": "Polymer science & technology."
+ },
+ "S4406922384": {
+  "metric": 0.03,
+  "name": "Open MIND"
+ },
+ "S44567922": {
+  "metric": 2.81,
+  "name": "Chemical Physics Letters"
+ },
+ "S51842380": {
+  "metric": 3.61,
+  "name": "Chinese Journal of Structural Chemistry"
+ },
+ "S52834336": {
+  "metric": 4.08,
+  "name": "Journal of Semiconductors"
+ },
+ "S53842986": {
+  "metric": 5.49,
+  "name": "Materials Characterization"
+ },
+ "S5406942988": {
+  "metric": 0.2,
+  "name": "Journal of Molecular Science"
+ },
+ "S5407003487": {
+  "metric": 2.62,
+  "name": "Angewandte Chemie Novit"
+ },
+ "S5407036646": {
+  "metric": 0.31,
+  "name": "Journal of Materials Science Materials in Energy"
+ },
+ "S5407037003": {
+  "metric": 4.42,
+  "name": "Future Batteries"
+ },
+ "S5407037014": {
+  "metric": 2.58,
+  "name": "Journal of Alloys and Compounds Communications"
+ },
+ "S5407037078": {
+  "metric": 2.75,
+  "name": "Sustainable Chemistry for Energy Materials"
+ },
+ "S5407040224": {
+  "metric": 1.82,
+  "name": "Sustainability Science and Technology"
+ },
+ "S5407040505": {
+  "metric": 0.98,
+  "name": "Materials and Interfaces"
+ },
+ "S5407042882": {
+  "metric": 13.75,
+  "name": "Nature Reviews Clean Technology"
+ },
+ "S5407047468": {
+  "metric": 0.44,
+  "name": "Next Chemical Engineering"
+ },
+ "S5407047510": {
+  "metric": 2.39,
+  "name": "Review of Materials Research"
+ },
+ "S5407047511": {
+  "metric": 1.55,
+  "name": "Transactions of Materials Research"
+ },
+ "S5407049460": {
+  "metric": 0.12,
+  "name": "Frontiers in Chemistry Materials and Catalysis"
+ },
+ "S5407051598": {
+  "metric": 2.76,
+  "name": "eScience Energy"
+ },
+ "S5407054006": {
+  "metric": 1.62,
+  "name": "eChem"
+ },
+ "S5407054446": {
+  "metric": 0.18,
+  "name": "Journal of Mechanical Engineering Advancements"
+ },
+ "S5407055709": {
+  "metric": 2.02,
+  "name": "Metals Advances"
+ },
+ "S5407056344": {
+  "metric": 5.29,
+  "name": "Energy Z"
+ },
+ "S55009144": {
+  "metric": 8.73,
+  "name": "Green Chemistry"
+ },
+ "S55626769": {
+  "metric": 2.63,
+  "name": "Materials Letters"
+ },
+ "S56901069": {
+  "metric": 0.91,
+  "name": "Chemical Product and Process Modeling"
+ },
+ "S5707928": {
+  "metric": 5.53,
+  "name": "Materials Chemistry and Physics"
+ },
+ "S58516903": {
+  "metric": 12.68,
+  "name": "Journal of Cleaner Production"
+ },
+ "S58603569": {
+  "metric": 6.87,
+  "name": "Journal of Analytical and Applied Pyrolysis"
+ },
+ "S59012888": {
+  "metric": 2.8,
+  "name": "Physica Scripta"
+ },
+ "S60519989": {
+  "metric": 3.33,
+  "name": "Fibers and Polymers"
+ },
+ "S62602987": {
+  "metric": 3.61,
+  "name": "Particuology"
+ },
  "S63322718": {
   "metric": 13.18,
   "name": "Materials Today"
  },
+ "S64016596": {
+  "metric": 10.19,
+  "name": "Acta Materialia"
+ },
  "S64187185": {
   "metric": 16.94,
   "name": "Nature Communications"
+ },
+ "S64301127": {
+  "metric": 11.09,
+  "name": "International Journal of Minerals Metallurgy and Materials"
+ },
+ "S64311837": {
+  "metric": 12.2,
+  "name": "Carbohydrate Polymers"
  },
  "S66104727": {
   "metric": 6.34,
@@ -79,21 +1339,157 @@
   "metric": 14.89,
   "name": "Angewandte Chemie International Edition"
  },
+ "S67716761": {
+  "metric": 6.02,
+  "name": "Journal of Alloys and Compounds"
+ },
  "S68497187": {
   "metric": 17.34,
   "name": "Renewable and Sustainable Energy Reviews"
+ },
+ "S68911691": {
+  "metric": 3.7,
+  "name": "Chemistry - A European Journal"
+ },
+ "S69687699": {
+  "metric": 14.66,
+  "name": "International Materials Reviews"
+ },
+ "S70681891": {
+  "metric": 1.87,
+  "name": "Journal of Materials Engineering and Performance"
+ },
+ "S7407051488": {
+  "metric": 0.11,
+  "name": "UNC Libraries"
+ },
+ "S7407052324": {
+  "metric": 0.08,
+  "name": "Afrischolar Discovery"
+ },
+ "S7407052948": {
+  "metric": 0.01,
+  "name": "KITopen"
+ },
+ "S7407054031": {
+  "metric": 0.01,
+  "name": "International Journal of Advanced Engineering and Technology Research"
+ },
+ "S7407055934": {
+  "metric": 0.8,
+  "name": "Watt"
+ },
+ "S7407056157": {
+  "metric": 0.19,
+  "name": "Safety Science and Technology"
+ },
+ "S7407057627": {
+  "metric": 0.42,
+  "name": "npj Energy Materials"
+ },
+ "S7407059336": {
+  "metric": 0.0,
+  "name": "Advanced Characterization"
+ },
+ "S7407063279": {
+  "metric": 0.0,
+  "name": "Opus4 THD (Technische Hochschule Deggendorf (THD))"
+ },
+ "S75411654": {
+  "metric": 1.7,
+  "name": "Key engineering materials"
+ },
+ "S75495113": {
+  "metric": 5.15,
+  "name": "ACS Macro Letters"
+ },
+ "S75741262": {
+  "metric": 4.62,
+  "name": "Langmuir"
+ },
+ "S7822423": {
+  "metric": 26.11,
+  "name": "Nature Nanotechnology"
+ },
+ "S78268018": {
+  "metric": 2.99,
+  "name": "Chinese Journal of Chemical Engineering"
+ },
+ "S79832926": {
+  "metric": 2.34,
+  "name": "Electroanalysis"
+ },
+ "S83853393": {
+  "metric": 8.6,
+  "name": "International Journal of Biological Macromolecules"
+ },
+ "S8658477": {
+  "metric": 1.64,
+  "name": "Chalcogenide Letters"
  },
  "S8792693": {
   "metric": 5.85,
   "name": "Materials & Design"
  },
+ "S88404446": {
+  "metric": 33.18,
+  "name": "Progress in Materials Science"
+ },
+ "S90065678": {
+  "metric": 1.17,
+  "name": "Interfaces and Free Boundaries Mathematical Analysis Computation and Applications"
+ },
+ "S9018758": {
+  "metric": 2.47,
+  "name": "Transition Metal Chemistry"
+ },
+ "S9070373": {
+  "metric": 30.8,
+  "name": "Nano-Micro Letters"
+ },
+ "S9189650": {
+  "metric": 0.91,
+  "name": "Canadian Journal of Chemistry"
+ },
+ "S94313546": {
+  "metric": 5.56,
+  "name": "Colloids and Surfaces A Physicochemical and Engineering Aspects"
+ },
  "S94619837": {
   "metric": 8.73,
   "name": "Small"
  },
+ "S951764588": {
+  "metric": 0.46,
+  "name": "Chemical and Process Engineering New Frontiers"
+ },
  "S95739953": {
   "metric": 3.71,
   "name": "The Journal of Physical Chemistry C"
+ },
+ "S95865439": {
+  "metric": 2.32,
+  "name": "CrystEngComm"
+ },
+ "S95954025": {
+  "metric": 1.04,
+  "name": "Russian Journal of General Chemistry"
+ },
+ "S97250276": {
+  "metric": 0.83,
+  "name": "European Journal of Chemistry"
+ },
+ "S97378760": {
+  "metric": 4.13,
+  "name": "Journal of Loss Prevention in the Process Industries"
+ },
+ "S98208149": {
+  "metric": 0.52,
+  "name": "Microscopy and Microanalysis"
+ },
+ "S993292003": {
+  "metric": 7.72,
+  "name": "Reviews in Inorganic Chemistry"
  },
  "S99352657": {
   "metric": 22.01,
