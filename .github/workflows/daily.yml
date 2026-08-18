@@ -14,6 +14,9 @@ on:
         description: "Re-summarize every paper (overwrite existing summaries)"
         type: boolean
         default: false
+      reclassify:
+        description: "Re-classify+summarize up to N already-done papers across all files"
+        default: "0"
   push:
     branches: [main]
     paths:
@@ -73,7 +76,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
-            python -m pipeline.summarize --catchup 60
+            N="${{ inputs.reclassify }}"
+            if [ "${N:-0}" -gt 0 ] 2>/dev/null; then
+              python -m pipeline.summarize --reclassify "$N"
+            else
+              python -m pipeline.summarize --catchup 60
+            fi
           fi
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
