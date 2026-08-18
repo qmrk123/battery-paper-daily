@@ -408,6 +408,30 @@ def run(date: str, force: bool = False, log=print) -> dict:
     return stats
 
 
+def run_catchup(limit: int, log=print) -> dict:
+    """Summarize still-null papers across ALL day/month files, up to `limit`
+    papers total (drains a backfill backlog within a free-tier daily quota)."""
+    cfg = load_config()
+    labels = {t.id: t.label_ko for t in cfg.topics}
+    store = Store()
+    total = {"processed": 0, "errors": 0}
+    for date in store.list_dates():                 # newest first
+        if total["processed"] >= limit:
+            break
+        papers = store.load_day(date)
+        if not any(not p.summary_ko for p in papers):
+            continue
+        log(f"-- catchup {date} --")
+        stats = summarize_papers(papers, labels, log=log)
+        now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        store.save_day(date, papers, generated_at=now)
+        store.write_index(cfg.topic_meta(), updated_at=now)
+        total["processed"] += stats["processed"]
+        total["errors"] += stats["errors"]
+    log(f"== catchup: processed={total['processed']} errors={total['errors']} ==")
+    return total
+
+
 def _today() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -416,6 +440,8 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Korean summaries + relevance gate")
     ap.add_argument("--date", default=_today(), help="day file to summarize (default: today UTC)")
     ap.add_argument("--force", action="store_true", help="redo papers that already have a summary")
+    ap.add_argument("--catchup", type=int, metavar="N", default=None,
+                    help="drain up to N still-null summaries across ALL files (backfill backlog)")
     ap.add_argument("--setup-token", action="store_true",
                     help="run `claude setup-token` (one-time subscription auth) and exit")
     args = ap.parse_args(argv)
@@ -432,7 +458,10 @@ def main(argv=None) -> int:
         print('  PowerShell:  $env:CLAUDE_CODE_OAUTH_TOKEN = "<token>"')
         return subprocess.call([cli, "setup-token"])
     try:
-        run(args.date, force=args.force)
+        if args.catchup is not None:
+            run_catchup(args.catchup)
+        else:
+            run(args.date, force=args.force)
     except RuntimeError as e:
         print(f"ERROR: {e}")
         return 2

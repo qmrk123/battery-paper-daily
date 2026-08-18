@@ -50,6 +50,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python -m pipeline.main
 
       - name: Korean summaries + relevance gate
@@ -62,6 +63,17 @@ jobs:
             python -m pipeline.summarize ${{ inputs.force_summarize && '--force' || '' }}
           else
             echo "no summarizer key (set GEMINI_API_KEY) — skipping Korean summaries"
+          fi
+
+      - name: Catch-up summaries for backlog (backfill months)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m pipeline.summarize --catchup 60
           fi
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)

@@ -1,0 +1,97 @@
+name: backfill
+
+# One-off historical backfill: gather journal-quality papers over a month range
+# into monthly archive files (data/YYYY-MM.json), then start summarizing them.
+# Needs the OPENALEX_API_KEY secret (free tier's no-key budget is too small).
+on:
+  workflow_dispatch:
+    inputs:
+      from_month:
+        description: "First month (YYYY-MM)"
+        default: "2026-01"
+      to_month:
+        description: "Last month (YYYY-MM)"
+        default: "2026-07"
+      metric:
+        description: "Min journal metric (Small ≈ 8.7)"
+        default: "8.7"
+      summarize_now:
+        description: "Also summarize up to N right away"
+        default: "60"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily            # share with the daily workflow so they never overlap
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Backfill fetch (journal-gated, no preprints)
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: |
+          python scripts/backfill.py \
+            --from "${{ inputs.from_month }}" \
+            --to "${{ inputs.to_month }}" \
+            --metric "${{ inputs.metric }}"
+
+      - name: Summarize a first batch (rest drains via the daily catch-up)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m pipeline.summarize --catchup "${{ inputs.summarize_now }}"
+          fi
+
+      - name: Graphical-abstract thumbnails
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: |
+          for m in data/2026-*.json; do
+            b=$(basename "$m" .json)
+            case "$b" in ????-??) python -m pipeline.images --date "$b" || true;; esac
+          done
+
+      - name: Commit archive
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ site/img/
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "backfill: ${{ inputs.from_month }}..${{ inputs.to_month }} (>= ${{ inputs.metric }})"
+            git push
+          fi
+
+      - run: python scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -60,8 +60,19 @@ async function boot() {
   const dates = index.dates || [];
   const sel = $("#date-select");
   if (!dates.length) return fail("아직 수집된 날짜가 없습니다.");
-  dates.forEach((d) => { const o = el("option"); o.value = o.textContent = d; sel.appendChild(o); });
-  sel.value = dates[0];
+  const days = dates.filter((d) => d.length === 10);
+  const months = dates.filter((d) => d.length === 7);
+  const opt = (v, label) => { const o = el("option"); o.value = v; o.textContent = label; return o; };
+  const monthLabel = (m) => `${m.slice(0, 4)}년 ${parseInt(m.slice(5, 7), 10)}월`;
+  if (days.length) {
+    const g = document.createElement("optgroup"); g.label = "일간";
+    days.forEach((d) => g.appendChild(opt(d, d))); sel.appendChild(g);
+  }
+  if (months.length) {
+    const g = document.createElement("optgroup"); g.label = "월간 아카이브";
+    months.forEach((m) => g.appendChild(opt(m, monthLabel(m)))); sel.appendChild(g);
+  }
+  sel.value = days[0] || months[0];
   sel.addEventListener("change", () => loadDay(sel.value));
 
   buildTabs();

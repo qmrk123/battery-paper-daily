@@ -61,11 +61,11 @@ class Store:
         })
 
     def list_dates(self) -> list[str]:
-        dates = [
+        keys = [
             p.stem for p in self.data_dir.glob("*.json")
-            if p.stem not in ("index", "seen") and _is_date(p.stem)
+            if p.stem not in ("index", "seen", "journals") and _is_period(p.stem)
         ]
-        return sorted(dates, reverse=True)
+        return sorted(keys, reverse=True)
 
     def write_index(self, topics: list[dict], updated_at: str) -> None:
         _write_json(self.data_dir / "index.json", {
@@ -75,5 +75,8 @@ class Store:
         })
 
 
-def _is_date(s: str) -> bool:
-    return len(s) == 10 and s[4] == "-" and s[7] == "-" and s.replace("-", "").isdigit()
+def _is_period(s: str) -> bool:
+    """Accept a day key YYYY-MM-DD or a month key YYYY-MM."""
+    parts = s.split("-")
+    return (len(s) in (7, 10) and all(p.isdigit() for p in parts)
+            and len(parts[0]) == 4 and (len(parts) in (2, 3)))
