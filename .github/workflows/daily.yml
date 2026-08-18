@@ -1,26 +1,34 @@
-name: deploy
+name: daily
 
-# Content (fetch + Korean summaries + images + commit) is produced by a daily
-# scheduled Claude cloud agent (routine) that pushes to main. This workflow just
-# builds the static site from data/ and deploys it to GitHub Pages on every push.
+# 06:00 KST (21:00 UTC) daily: fetch new papers -> Korean summaries (Gemini) ->
+# graphical-abstract thumbnails -> commit data back -> build -> deploy Pages.
+# A `push` to data/site (e.g. manual edit) just rebuilds + redeploys.
+# NOTE: scheduled workflows are disabled after 60 days of repo inactivity and
+# only run from the default branch.
 on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      force_summarize:
+        description: "Re-summarize every paper (overwrite existing summaries)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
       - "data/**"
       - "site/**"
       - "scripts/build_site.py"
-      - ".github/workflows/deploy*.yml"
       - ".github/workflows/daily.yml"
-  workflow_dispatch:
 
 permissions:
+  contents: write
   pages: write
   id-token: write
-  contents: read
 
 concurrency:
-  group: deploy-pages
+  group: daily
   cancel-in-progress: false
 
 jobs:
@@ -31,8 +39,54 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Assemble public/ (stdlib only)
+
+      # Content steps run on the schedule / manual trigger, not on plain pushes
+      # (a push already carries fresh content — just rebuild + deploy).
+      - name: Install dependencies
+        if: github.event_name != 'push'
+        run: pip install -r requirements.txt
+
+      - name: Fetch new papers (OpenAlex + arXiv)
+        if: github.event_name != 'push'
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m pipeline.main
+
+      - name: Korean summaries + relevance gate
+        if: github.event_name != 'push'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m pipeline.summarize ${{ inputs.force_summarize && '--force' || '' }}
+          else
+            echo "no summarizer key (set GEMINI_API_KEY) — skipping Korean summaries"
+          fi
+
+      - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m pipeline.images
+
+      - name: Commit data back (persists the seen-ledger + daily files)
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ site/img/
+          if git diff --staged --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: daily update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Assemble public/
         run: python scripts/build_site.py
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
