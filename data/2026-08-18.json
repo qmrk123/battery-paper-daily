@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T05:59:54+00:00",
+  "generated_at": "2026-08-18T07:45:59+00:00",
   "count": 19,
   "papers": [
     {
@@ -98,7 +98,7 @@
       "url": "https://doi.org/10.1002/aenm.71461",
       "published": "2026-08-15",
       "topics": [
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1002/aenm.71461",
       "authors": [
@@ -119,7 +119,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "황화물계 전고체 전지의 리튬 금속 음극 계면을 안정화하기 위해 화학역학적으로 적응 가능한 MXene-Si-Ag 하이브리드 중간층을 개발했습니다. 기계적으로 유연한 MXene 프레임워크가 계면 응력을 완화하고 고정형 Si와 이동형 Ag 듀얼 시드가 상호 보완적으로 작용하여 리튬 수송 및 핵생성을 균일화합니다. 고로딩 NCM811 양극과 조합하여 40 MPa 및 0.21 MPa의 초저압 환경에서도 우수한 용량 유지율과 사이클 안정성을 입증했습니다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7203488753",
@@ -276,9 +276,7 @@
       "title": "Gradient delocalized 4f-2p-3d orbital cascade of Gd-O-Mn sites remolding interfacial electronic landscape for accelerated Li-CO 2 batteries redox kinetics",
       "url": "https://doi.org/10.26599/nre.2026.9120264",
       "published": "2026-08-14",
-      "topics": [
-        "li-rich"
-      ],
+      "topics": [],
       "doi": "10.26599/nre.2026.9120264",
       "authors": [
         "Qinghua Deng",
@@ -332,7 +330,7 @@
       "url": "https://doi.org/10.1002/adfm.77628",
       "published": "2026-08-14",
       "topics": [
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1002/adfm.77628",
       "authors": [
@@ -353,7 +351,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "무음극(anode-free) 리튬 전지용으로 은 나노와이어(AgNW)와 CMC-Li를 결합한 친리튬성 복합 코팅을 Cu 집전체에 도입해 균일한 리튬 핵생성과 활성 리튬 손실 저감을 구현. 대상이 음극측 계면층이라 'High-Ni NCM 양극' 주제와는 무관해 관련성 게이트에서 제외.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7203448738",
@@ -542,9 +540,7 @@
       "title": "A Pyridine Mediator Enables High‐Efficiency, Long‐Cycling Anode‐Less/Free Lithium–Sulfur Batteries With Li 2 S Cathodes",
       "url": "https://doi.org/10.1002/adma.74616",
       "published": "2026-08-12",
-      "topics": [
-        "li-metal"
-      ],
+      "topics": [],
       "doi": "10.1002/adma.74616",
       "authors": [
         "Sijia Huang",
@@ -563,7 +559,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
-      "relevant": true
+      "relevant": false
     }
   ]
 }

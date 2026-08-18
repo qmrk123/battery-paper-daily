@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-18T05:04:47+00:00",
+  "generated_at": "2026-08-18T07:45:59+00:00",
   "count": 32,
   "papers": [
     {
@@ -40,8 +40,7 @@
       "url": "https://doi.org/10.1021/acsami.6c08647",
       "published": "2026-08-12",
       "topics": [
-        "li-metal",
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1021/acsami.6c08647",
       "authors": [
@@ -695,9 +694,7 @@
       "title": "Synergistic Bulk‐Surface Modulation Stabilizing LiCoO 2 at 4.65 V via Zr‐Pillaring and In Situ Lattice‐Matching Engineering",
       "url": "https://doi.org/10.1002/anie.3474461",
       "published": "2026-08-07",
-      "topics": [
-        "li-rich"
-      ],
+      "topics": [],
       "doi": "10.1002/anie.3474461",
       "authors": [
         "Guanming Yang",
@@ -902,7 +899,8 @@
       "url": "https://doi.org/10.1021/jacs.6c09703",
       "published": "2026-08-07",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "high-ni-ncm"
       ],
       "doi": "10.1021/jacs.6c09703",
       "authors": [
@@ -932,7 +930,8 @@
       "url": "https://doi.org/10.1038/s41467-026-76496-2",
       "published": "2026-08-07",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "high-ni-ncm"
       ],
       "doi": "10.1038/s41467-026-76496-2",
       "authors": [
