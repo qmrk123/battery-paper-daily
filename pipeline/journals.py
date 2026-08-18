@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from pathlib import Path
 from typing import Iterable, Optional
@@ -16,6 +17,19 @@ from typing import Iterable, Optional
 import requests
 
 from .models import Paper
+
+
+def _norm(s: Optional[str]) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def is_allowed_journal(venue: Optional[str], allow_norm: set[str]) -> bool:
+    """Venue is on the allowlist. Any 'Nature ...' sister journal is allowed."""
+    if not venue:
+        return False
+    if _norm(venue) in allow_norm:
+        return True
+    return venue.startswith("Nature ")
 
 CACHE_PATH = Path(__file__).resolve().parent.parent / "data" / "journals.json"
 API = "https://api.openalex.org/sources"
@@ -65,13 +79,16 @@ def fetch_source_metrics(source_ids: Iterable[str], session: requests.Session,
 
 def enrich_and_filter(candidates: dict[str, Paper], threshold: float,
                       include_preprints: bool = False,
+                      allow_journals: Optional[Iterable[str]] = None,
                       session: Optional[requests.Session] = None,
                       cache: Optional[dict] = None,
                       log=print) -> tuple[dict[str, Paper], int]:
-    """Attach journal_metric to each paper and drop those below `threshold`
-    (and arXiv preprints unless include_preprints). Returns (kept, dropped).
+    """Attach journal_metric to each paper, then gate: if `allow_journals` is
+    given, keep ONLY those journals; otherwise keep metric >= `threshold`. arXiv
+    is dropped unless include_preprints. Returns (kept, dropped).
 
     Pass `cache` to skip all network/disk (used by tests)."""
+    allow_norm = {_norm(n) for n in allow_journals} if allow_journals else None
     offline = cache is not None
     if not offline:
         if session is None:
@@ -96,7 +113,11 @@ def enrich_and_filter(candidates: dict[str, Paper], threshold: float,
         if p.source == "arxiv" and not include_preprints:
             dropped += 1
             continue
-        if p.journal_metric is not None and p.journal_metric < threshold:
+        if allow_norm is not None:
+            if not is_allowed_journal(p.venue, allow_norm):
+                dropped += 1
+                continue
+        elif p.journal_metric is not None and p.journal_metric < threshold:
             dropped += 1
             continue
         kept[key] = p

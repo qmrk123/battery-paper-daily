@@ -134,14 +134,17 @@ def gather_candidates(
     if len(result.candidates) < before:
         log(f"  title-dedup: {before} -> {len(result.candidates)}")
 
-    # journal-quality gate (OpenAlex 2yr_mean_citedness); drops preprints too
-    if cfg.min_journal_metric > 0:
+    # journal gate: allowlist (if set) else metric threshold; drops preprints too
+    if cfg.min_journal_metric > 0 or cfg.allow_journals:
         from .journals import enrich_and_filter
         before = len(result.candidates)
         result.candidates, dropped = enrich_and_filter(
-            result.candidates, cfg.min_journal_metric, cfg.include_preprints, log=log)
-        log(f"  journal-gate (>={cfg.min_journal_metric}): {before} -> "
-            f"{len(result.candidates)} (dropped {dropped})")
+            result.candidates, cfg.min_journal_metric, cfg.include_preprints,
+            allow_journals=cfg.allow_journals or None, log=log)
+        mode = (f"allowlist({len(cfg.allow_journals)})" if cfg.allow_journals
+                else f">={cfg.min_journal_metric}")
+        log(f"  journal-gate {mode}: {before} -> {len(result.candidates)} "
+            f"(dropped {dropped})")
 
     return result
 

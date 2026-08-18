@@ -17,9 +17,28 @@ defaults:
   max_per_topic: 200
   # OpenAlex work types to keep
   types: [article, review, preprint, book-chapter]
-  # Journal-quality gate: keep only journals with OpenAlex 2yr_mean_citedness
-  # (impact-factor-like) >= this. 0 disables. Small ≈ 8.7; 6.0 keeps the main
-  # battery journals (Chem Mater, J Power Sources, ACS AMI, ...). Tune freely.
+  # Journal gate. If `allow_journals` is non-empty it is used (keep ONLY those
+  # journals + any "Nature ..." sister journal); otherwise fall back to the
+  # metric threshold below. Edit the list to curate.
+  allow_journals:
+    - Nature                    # + all "Nature ..." sisters (Communications, Energy, Materials, ...)
+    - Science
+    - Joule
+    - Energy & Environmental Science
+    - Advanced Materials
+    - Advanced Energy Materials
+    - Advanced Functional Materials
+    - Advanced Science
+    - ACS Energy Letters
+    - ACS Nano
+    - Energy Storage Materials
+    - Nano Energy
+    - Journal of Energy Chemistry
+    - Journal of the American Chemical Society
+    - Angewandte Chemie International Edition
+    - Angewandte Chemie
+  # Fallback when allow_journals is empty: keep journals with OpenAlex
+  # 2yr_mean_citedness (impact-factor-like) >= this. Small ≈ 8.7.
   min_journal_metric: 6.0
   # Keep arXiv preprints? They have no journal metric. false = journals only.
   include_preprints: false
