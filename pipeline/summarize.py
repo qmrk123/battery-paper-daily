@@ -22,6 +22,7 @@ import os
 import re
 import shutil
 import subprocess
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -272,6 +273,24 @@ def pick_gemini_model(api_key: str) -> str:
     return sorted(flash, key=score)[-1]
 
 
+# Free-tier pacing: reserve one request slot per interval across all threads
+# (Gemini free tier is ~10 RPM). Sleep happens outside the lock so HTTP calls
+# still overlap; only their start times are spaced.
+_GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "6.5"))
+_gem_lock = threading.Lock()
+_gem_next = 0.0
+
+
+def _gem_throttle() -> None:
+    global _gem_next
+    with _gem_lock:
+        now = time.monotonic()
+        wait = max(0.0, _gem_next - now)
+        _gem_next = max(now, _gem_next) + _GEM_MIN_INTERVAL
+    if wait:
+        time.sleep(wait)
+
+
 def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str],
                          model: str = GEMINI_MODEL, retries: int = 4,
                          timeout: int = 60) -> Optional[tuple[bool, str]]:
@@ -287,8 +306,9 @@ def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str
         },
     }
     url = GEMINI_ENDPOINT.format(model=model)
-    backoff = 3.0
+    backoff = 5.0
     for attempt in range(retries):
+        _gem_throttle()
         r = requests.post(url, params={"key": api_key}, json=body, timeout=timeout)
         if r.status_code == 200:
             return parse_gemini_result(r.json())
