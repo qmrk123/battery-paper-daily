@@ -1,7 +1,7 @@
 {
   "date": "2026-02",
-  "generated_at": "2026-08-18T08:01:10+00:00",
-  "count": 65,
+  "generated_at": "2026-08-18T08:04:10+00:00",
+  "count": 68,
   "papers": [
     {
       "id": "W7134167642",
@@ -368,6 +368,66 @@
       "relevant": true
     },
     {
+      "id": "W7134187756",
+      "source": "openalex",
+      "title": "Capturing O 2 •‒ Intermediate to Promote Oxygen‐Reduction‐Reaction Pathway for Li‐O 2 Batteries with High‐Areal‐Capacity",
+      "url": "https://doi.org/10.1002/ange.202520110",
+      "published": "2026-02-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/ange.202520110",
+      "authors": [
+        "Danning Zhou",
+        "Silei Chen",
+        "Yunpeng Guo",
+        "Qing Han",
+        "Xiao Qiang Liu",
+        "Peng Zhang"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT Oxygen reduction reaction (ORR) with two‐electron transfer pathway is the key reaction for aprotic lithium‐oxygen (Li‐O 2 ) batteries with high theoretical energy density. Herein, we present that capturing ORR superoxide (O 2 •‒ ) intermediate can promote ORR rate and stability by using pyrrolidinium bis(trifluoromethanesulfonyl)imide (Py‐TFSI). Py + cation can bind O 2 •‒ absorbed on the surface of solid catalyst and transfer it into electrolyte, in which the coordination chemistry not only inhibits the generation and disproportionation of LiO 2 on the electrode surface to enhance ORR rate, but also stabilize O 2 •‒ to inhibit its related side reactions for better ORR stability. Over fivefold enhancement of ORR activity is observed. Moreover, Py‐TFSI promotes the uniform lithium deposition through enriching inorganics in solid‐electrolyte‐interphase and electrostatic shielding effect on Li metal surface, resulting in 2.5 times increase of cycling stability of Li electrode. As a result, the Li‐O 2 batteries demonstrate a cycle lifespan of 47 days with a high areal capacity of 5 mAh cm ‒2 . This study presents the deep understanding of intermediate manipulation mechanism for ORR and provides the effective way to improve the performance of metal‐O 2 batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7134169846",
+      "source": "openalex",
+      "title": "Unveiling the Dilution‐Shielding Effect as a Universal Strategy for Interfacial Regulation in Composite Polymer Electrolytes",
+      "url": "https://doi.org/10.1002/ange.8139928",
+      "published": "2026-02-24",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/ange.8139928",
+      "authors": [
+        "Bin Qiu",
+        "Jiaming Wen",
+        "Feng Xu",
+        "Ruo Zhao",
+        "Chuanxin He",
+        "Peixin Zhang"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT Composite solid electrolytes integrating poly(vinylidene fluoride‐co‐hexafluoropropylene) (PVDF‐HFP) with garnet‐type ceramic fillers offer a balance of mechanical flexibility and ionic conductivity, yet parasitic interfacial reactions compromise long‐term chemical and electrochemical stabilities. PVDF‐HFP undergoes dehydrofluorination when lanthanum (La) sites on garnet fillers coordinate with polar solvents, creating alkaline microenvironments that accelerate polymer degradation. Here, we unravel a dilution‐shielding effect that offers a universal strategy for promoting interfacial passivation of composite polymer electrolytes (CPEs) and enabling uniform Li + transport. Specifically, incorporating fluoroethylene carbonate (FEC) with an ultrahigh dielectric constant effectively attenuates the activity of strongly basic coordinating solvents and electrostatically shields La sites, thereby effectively preventing the formation of alkaline microenvironments and alleviating dehydrofluorination. This simple strategy also concurrently drives in situ formation of a LiF‐rich protective interphase. Comprehensive in situ characterizations substantiate that the resulting FEC‐modified CPE enables enhanced interfacial passivation and stable Li + transport. Consequently, Li|Li symmetric cells achieve stable cycling for over 700 h at 0.1 mA cm −2 , and LiFePO 4 |Li full cells deliver more than 1200 cycles at 1C with 90.2% capacity retention. This work establishes the dilution‐shielding effect as a transferable interfacial regulation strategy, providing new insights into the design of chemically and electrochemically stable solid‐state lithium metal batteries (ssLMBs).",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7131222188",
       "source": "openalex",
       "title": "Thermal Stability Landscape of Solid-State Batteries",
@@ -424,6 +484,36 @@
       "image": null,
       "summary_ko": "원위치 전기화학 AFM(EC-AFM)을 이용해 세 번의 도금/탈리 사이클 동안 동일 영역을 추적함으로써 리튬 금속 음극의 국소적 불균일성을 마이크로미터 규모로 관찰했다. 기울기, 높이 변화, 국소 다공성 간의 상관관계를 통해 다공성-고경사 영역에서의 부위 선택적 보이드 형성 메커니즘을 제시했으며, 이는 후속 도금에서 부분적으로만 채워지는 '데드 리튬'을 생성한다.",
       "relevant": true
+    },
+    {
+      "id": "W7134175541",
+      "source": "openalex",
+      "title": "Hierarchical Solvation Chemistry via Ether–Ester–Cosolvent Synergy Enables High‐Performance Lithium‐Metal Batteries at a Low Temperature",
+      "url": "https://doi.org/10.1002/ange.202525991",
+      "published": "2026-02-24",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/ange.202525991",
+      "authors": [
+        "Qichao Wang",
+        "Zhimin Cai",
+        "Yuhui Zhu",
+        "Wenji Yin",
+        "Sijiang HU",
+        "Yulin Zhao"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) offer high energy densities but are frequently plagued by rapid degradation under extreme conditions, such as low temperatures or high C‐rates. This performance decay stems primarily from sluggish Li + transport kinetics and high desolvation energy penalties imposed by conventional electrolytes. Herein, we engineer a hierarchically solvating electrolyte system comprising a weakly coordinating ether (tetrahydropyran, THP), a strongly coordinating ester (methyl propionate, MP), and lithium difluoro(oxalato)borate (LiDFOB). This molecular configuration fosters an anion‐enriched primary solvation sheath, effectively minimizing the activation energy required for Li + desolvation. Furthermore, the incorporation of trifluorotoluene (TFT) as a non‐solvating diluent modulates the local solvation structure toward aggregate dominance, thereby promoting the formation of a compact and homogeneous solid electrolyte interphase (SEI). Through precise compositional tuning, we achieve a robust SEI architecture characterized by the uniform distribution of ductile organic matrices and high‐modulus inorganic species. This mosaic structure provides an optimal mechanical balance of rigidity and elasticity, preserving interfacial integrity during prolonged cycling at cryogenic temperatures. Consequently, Li||Li symmetric cells exhibit ultrastable cycling for over 6000 h at −25°C. In Li||LiCoO 2​ full cells, the electrolyte supports 400 stable cycles, retaining 85.5% and 66.2% of the nominal room‐temperature capacity at −25°C and −45°C, respectively. These findings offer critical design principles for tailoring solvation chemistry to enable high‐performance LMBs in extreme environments.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7131078409",
