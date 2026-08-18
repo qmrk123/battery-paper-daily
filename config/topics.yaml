@@ -17,6 +17,12 @@ defaults:
   max_per_topic: 200
   # OpenAlex work types to keep
   types: [article, review, preprint, book-chapter]
+  # Journal-quality gate: keep only journals with OpenAlex 2yr_mean_citedness
+  # (impact-factor-like) >= this. 0 disables. Small ≈ 8.7; 6.0 keeps the main
+  # battery journals (Chem Mater, J Power Sources, ACS AMI, ...). Tune freely.
+  min_journal_metric: 6.0
+  # Keep arXiv preprints? They have no journal metric. false = journals only.
+  include_preprints: false
   # Every kept paper must ALSO match one of these — an electrochemical-context
   # gate that kills physics/chemistry hits sharing a keyword (e.g. "lithium-rich"
   # antiperovskite magnets). Topics may override with their own `context`.

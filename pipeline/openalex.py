@@ -151,4 +151,5 @@ class OpenAlexClient:
             oa_status=oa.get("oa_status"),
             oa_url=oa.get("oa_url"),
             license=license_,
+            journal_id=_short_id(src.get("id")) if src.get("id") else None,
         )

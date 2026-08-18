@@ -48,7 +48,10 @@ data/            수집 결과 (커밋됨 = 사이트 콘텐츠)
 
 1. **검색(recall)** — OpenAlex `title_and_abstract.search` + arXiv (소재별 검색어)
 2. **정규식 후필터(precision)** — `include` / `exclude` + 전기화학 `context` 게이트
-3. **LLM 관련성 게이트(final)** — 요약 단계에서 주제 무관 논문 제외 *(4단계)*
+3. **저널 급 게이트** — OpenAlex 2년 평균 피인용(IF 유사) `min_journal_metric`
+   미만 저널 + arXiv 프리프린트 제외 (`config/topics.yaml`, 기본 6.0 = 주요 배터리
+   저널 포함; Small≈8.7). 지표는 `data/journals.json`에 캐싱.
+4. **LLM 관련성 게이트(final)** — 요약 단계에서 주제 무관 논문 제외
 
 "새 논문"은 게재일 기준 최근 `window_days`(기본 7일)를 매일 조회하고
 `data/seen.json` 으로 **누적 중복제거** → 오늘 처음 본 것만 그날 파일에 기록합니다.

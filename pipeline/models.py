@@ -83,6 +83,9 @@ class Paper:
     oa_url: Optional[str] = None
     license: Optional[str] = None     # e.g. "cc-by", "cc-by-nc", "cc0", "publisher-specific"
 
+    journal_id: Optional[str] = None     # OpenAlex source id (e.g. "S123") for metric lookup
+    journal_metric: Optional[float] = None  # OpenAlex 2yr_mean_citedness (IF-like); quality gate
+
     first_seen: Optional[str] = None  # date our pipeline first saw it
 
     # Phase 3 (images): {"src","cached","license","attribution"} or None

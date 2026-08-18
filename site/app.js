@@ -206,6 +206,9 @@ function abstractBlock(p) {
 
 function footBadges(p, accentTopic) {
   const out = [];
+  if (typeof p.journal_metric === "number") {
+    out.push(`<span class="badge badge--metric" title="OpenAlex 2년 평균 피인용 (IF 유사 지표)">📈 ${p.journal_metric.toFixed(1)}</span>`);
+  }
   const oa = (p.oa_status || "").toLowerCase();
   if (oa && oa !== "closed") out.push(`<span class="badge badge--oa">OA · ${esc(oa)}</span>`);
   else out.push(`<span class="badge badge--closed">closed</span>`);

@@ -267,6 +267,7 @@ details.abstract p { font-size: .8rem; color: var(--text-dim); margin: 6px 0 0; 
   color: var(--text-dim); text-decoration: none; white-space: nowrap;
 }
 a.badge:hover { color: var(--text); border-color: var(--text-faint); }
+.badge--metric { color: var(--text); border-color: var(--border-strong); font-weight: 600; }
 .badge--oa { color: var(--high-ni); border-color: color-mix(in srgb, var(--high-ni) 40%, var(--border)); }
 .badge--closed { color: var(--text-faint); }
 .badge--topic { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }

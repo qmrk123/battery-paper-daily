@@ -44,6 +44,8 @@ class Config:
     max_per_topic: int
     types: list[str]
     topics: list[Topic]
+    min_journal_metric: float = 0.0   # OpenAlex 2yr_mean_citedness gate (0 = off)
+    include_preprints: bool = True     # keep arXiv preprints (no journal metric)
 
     def topic(self, tid: str) -> Topic:
         for t in self.topics:
@@ -86,4 +88,6 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         max_per_topic=int(d.get("max_per_topic", 200)),
         types=list(d.get("types", ["article", "review", "preprint"])),
         topics=topics,
+        min_journal_metric=float(d.get("min_journal_metric", 0.0)),
+        include_preprints=bool(d.get("include_preprints", True)),
     )

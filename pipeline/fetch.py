@@ -82,7 +82,8 @@ def gather_candidates(
     """Search all sources for each topic, apply the regex post-filter, and
     accumulate a de-duplicated (by paper id) candidate set with merged topics."""
     oa = oa_client or OpenAlexClient()
-    ax = ax_client if ax_client is not None else (ArxivClient() if use_arxiv else None)
+    want_arxiv = use_arxiv and cfg.include_preprints
+    ax = ax_client if ax_client is not None else (ArxivClient() if want_arxiv else None)
     topics = [t for t in cfg.topics if not topic_ids or t.id in topic_ids]
 
     result = GatherResult()
@@ -132,6 +133,15 @@ def gather_candidates(
     result.candidates = dedup_by_title(result.candidates)
     if len(result.candidates) < before:
         log(f"  title-dedup: {before} -> {len(result.candidates)}")
+
+    # journal-quality gate (OpenAlex 2yr_mean_citedness); drops preprints too
+    if cfg.min_journal_metric > 0:
+        from .journals import enrich_and_filter
+        before = len(result.candidates)
+        result.candidates, dropped = enrich_and_filter(
+            result.candidates, cfg.min_journal_metric, cfg.include_preprints, log=log)
+        log(f"  journal-gate (>={cfg.min_journal_metric}): {before} -> "
+            f"{len(result.candidates)} (dropped {dropped})")
 
     return result
 
