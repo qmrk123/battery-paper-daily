@@ -1,7 +1,7 @@
 {
   "date": "2026-05",
-  "generated_at": "2026-08-18T07:38:09+00:00",
-  "count": 108,
+  "generated_at": "2026-08-18T08:01:10+00:00",
+  "count": 95,
   "papers": [
     {
       "id": "W7162948198",
@@ -478,36 +478,6 @@
       "relevant": true
     },
     {
-      "id": "W7162547902",
-      "source": "openalex",
-      "title": "Ultrathin and Mechanically Robust Polyacrylonitrile-Based Solid Polymer Electrolytes Enabling Long-Cycle-Life Lithium Metal Batteries",
-      "url": "https://doi.org/10.1007/s42765-026-00726-x",
-      "published": "2026-05-27",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1007/s42765-026-00726-x",
-      "authors": [
-        "Y Zhang",
-        "Dipsikha Ganguly",
-        "Abhinav Tandon",
-        "Tingting Yan",
-        "Fuwang Guan",
-        "Srija Ghosh"
-      ],
-      "venue": "Advanced Fiber Materials",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S4210182575",
-      "journal_metric": 19.0,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "초박형이면서 기계적으로 강인한 폴리아크릴로니트릴(PAN) 기반 고체 고분자 전해질을 개발하여 리튬 금속전지의 장수명 사이클 특성을 구현했다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
       "id": "W7162549751",
       "source": "openalex",
       "title": "Synergistic Solvation and Interphase Engineering for Low‐Temperature Quasi‐Solid Sodium Metal Batteries",
@@ -689,36 +659,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "LiBH4 기반 고체전해질에 기상성장 탄소섬유(VGCF)를 도입해 전고체 리튬이온전지의 덴드라이트 성장 거동을 제어했다. VGCF에 우선적으로 리튬화가 일어나 덴드라이트가 섬유를 따라 성장하도록 유도함으로써 임계전류밀도를 높이고 전해질 내 응력을 줄여 수명을 늘렸다.",
-      "relevant": true
-    },
-    {
-      "id": "W7162461755",
-      "source": "openalex",
-      "title": "Accelerating Li+ desolvation electrolyte strategies for low-temperature lithium-ion batteries and lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.mser.2026.101240",
-      "published": "2026-05-26",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.mser.2026.101240",
-      "authors": [
-        "Chao Li",
-        "Tao Su",
-        "Lei Liu",
-        "Zhimeng Hao",
-        "Gaojing Yang",
-        "Jianmin Ma"
-      ],
-      "venue": "Materials Science and Engineering R Reports",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S1018252914",
-      "journal_metric": 19.36,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "저온용 리튬이온전지 및 리튬 금속전지를 위한 Li+ 탈용매화 촉진 전해질 전략을 다룬 연구이다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -995,66 +935,6 @@
       "relevant": true
     },
     {
-      "id": "W7162005929",
-      "source": "openalex",
-      "title": "Modulating Lattice Oxygen and Transport Kinetics of Li-Rich Cathodes in All-Solid-State Batteries Through Multifunctional Li3ScF6 Protective Layer",
-      "url": "https://doi.org/10.1007/s40820-026-02209-5",
-      "published": "2026-05-21",
-      "topics": [
-        "li-rich"
-      ],
-      "doi": "10.1007/s40820-026-02209-5",
-      "authors": [
-        "Peng Lei",
-        "Gang Wu",
-        "Xiang Qi",
-        "Yuxia Li",
-        "Meng Wu",
-        "Wanqing Ren"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract Li-rich Mn-based oxide (LRMO) cathodes represent promising candidates for high-energy-density all-solid-state lithium batteries (ASSLBs). Nonetheless, irreversible oxygen release and sluggish transport kinetics result in faded voltage and degraded cycling stability, severely impeding their practical applications in ASSLBs. Herein, a high-quality artificial interface layer was constructed on the LRMO surface via a facile sol–gel method followed by thermal treatment, yielding a Li 3 ScF 6 protective layer comprising a Li 3 ScF 6 surface coating region and a subsurface Sc doping region. Specifically, Li 3 ScF 6 surface coating effectively suppresses continuous interfacial side reactions between the cathode and solid electrolyte, thereby improving interfacial transport kinetics; the strong Sc–O bond stabilizes the lattice oxygen framework and inhibits oxygen release, thereby enhancing the reversibility of the oxygen redox reaction. Consequently, the ASSLBs with the modified LRMO cathode exhibit remarkable fast-charging capability (136.8 mAh g −1 at 1.0 C) and excellent capacity retention (83.9% after 500 cycles at 0.3 C). In addition, the ASSLBs achieve outstanding long-term cycling stability at a high areal capacity of 4.17 mAh cm −2 , retaining 81.8% of its capacity after 300 cycles at 60 °C. This study offers new insights into the rational design of high-capacity and high-voltage LRMO cathode materials for high-energy-density ASSLBs. \"Image missing\"",
-      "oa_status": "diamond",
-      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-026-02209-5.pdf",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "전고체 리튬전지용 리튬 과잉 망간계(LRMO) 양극 표면에 다기능 Li3ScF6 보호층을 형성해 격자산소 안정성과 수송 동역학을 개선했다. Li3ScF6 코팅층과 Sc 도핑 서브표면층이 계면 부반응을 억제하고 강한 Sc-O 결합으로 격자산소 골격을 안정화함으로써 산소 방출과 전압 저하 문제를 완화했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7161803736",
-      "source": "openalex",
-      "title": "Dual Interlocked Mediators Enable Single-Ion-Conducting Quasi-Solid-State Electrolytes for Ultrafast-Charging Long-Life Sodium Metal Batteries",
-      "url": "https://doi.org/10.1007/s40820-026-02236-2",
-      "published": "2026-05-21",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1007/s40820-026-02236-2",
-      "authors": [
-        "Yuan Zhang",
-        "Long Pan",
-        "Cheong Wa Leong",
-        "Xing-Guo Qi",
-        "Xiaozhong Huang",
-        "Xinyi Cai"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract Quasi-solid-state electrolytes (QSEs) are critical for ultrafast-charging yet high-safety sodium metal batteries (SMBs), yet their implementation is hindered by sluggish Na + transport in bulk and at interfaces. Here, we propose dual interlocked mediator engineering that transcends conventional independent approaches by coupling cationic Sn 2+ salt with anionic difluoro(oxalato)borate (DFOB⁻) salts to simultaneously regulating bulk ion transport and bilateral interface chemistry. During QSE preparation, Sn 2+ initiates in situ cationic polymerization, while DFOB⁻ acts as a retarding agent to suppress runaway polymerization. The first interlocking effect in the Sn-FB QSE bulk builds a uniform network, enabling near-unity Na + transference number (0.94) and robust puncture strength (8.5 kPa). During cell operation, Sn 2+ is reduced to form a hybrid NaSn alloy-based solid-electrolyte interphase, while DFOB⁻ oxidizes to generate a robust yet thin cathode–electrolyte interphase, respectively. This second interlocking effect creates adaptable bilateral interphases that facilitate Na + diffusion and mitigate interfacial degradation. As a result, the symmetric cells exhibit 6000 h stability, and full cells retain 80.1 mAh g –1 at an ultrafast-charging rate of 15C and retain 90% capacity at 3C over 2000 cycles. Furthermore, high-mass-loading full cells and pressure-free pouch cells are demonstrated, underscoring the potential of dual interlocked mediator engineering for practical SMBs.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1007/s40820-026-02236-2",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "초고속 충전이 가능한 소듐 금속전지를 위해 양이온성 Sn2+ 염과 음이온성 DFOB- 염을 결합한 이중 상호결합 매개체 준고체 전해질(Sn-FB QSE)을 제안했다. 벌크 이온 수송과 양측 계면 화학을 동시에 조절하여 근접 단일 Na+ 이동수(0.94)와 우수한 천공강도(8.5kPa)를 달성했다.",
-      "relevant": true
-    },
-    {
       "id": "W7161982505",
       "source": "openalex",
       "title": "Corona-Poled Piezoelectric Polymer Separators for Suppressing Sodium Dendrites",
@@ -1109,34 +989,6 @@
       "image": null,
       "summary_ko": "국부 고농도 전해질(LHCE)에서 비불소계 희석제의 역할을 체계적으로 분류하고 재조명한 관점 논문이다. 기존 불소계 희석제의 독성·난분해성·고비용 문제를 대체할 수 있는 염소계 및 할로겐-프리 비불소 희석제를 분류하며, 이들이 단순 점도 조절제가 아닌 계면 화학에도 영향을 미침을 논의했다.",
       "relevant": true
-    },
-    {
-      "id": "W7161842971",
-      "source": "openalex",
-      "title": "Second-level heterogeneous retired battery type identification using pulse-test-enabled federated learning with output-level privacy preservation",
-      "url": "https://doi.org/10.1016/j.etran.2026.100607",
-      "published": "2026-05-20",
-      "topics": [],
-      "doi": "10.1016/j.etran.2026.100607",
-      "authors": [
-        "Hang Hu",
-        "Xinghao Huang",
-        "Chen Liang",
-        "Ziyang Lyu",
-        "Lin Su",
-        "K.P. Li"
-      ],
-      "venue": "eTransportation",
-      "abstract_en": "The imminent retirement of large numbers of lithium-ion batteries creates an urgent need for efficient reuse and recycling to realize lifecycle economic and environmental benefits. In this context, reliable battery type information is essential for downstream sorting, reuse evaluation, and recycling process selection, because different cathode chemistries are associated with different material values, processing requirements, and safety considerations. However, such information is often unavailable in practice due to long-term label degradation and restricted access to sensitive battery data, especially under non-independent and identically distributed (non-IID) conditions across stakeholders. To address this challenge, we propose a privacy-preserving federated learning framework for retired battery type identification using only second-level pulse-test data collected locally by clients. The framework incorporates an expert-weighted aggregation mechanism, in which client-specific autoencoders quantify local expertise through reconstruction error, while only classification probabilities and expert indices are transmitted for collaboration. This output-level design reduces privacy exposure by avoiding the exchange of raw data, gradients, and model parameters. Experiments on a heterogeneous retired-battery dataset containing 8 battery types, 640 retired batteries, and 10,184 pulse-test records across LFP, LMO, NMC811, and NMC622 cells with nominal capacities ranging from 10 Ah to 68 Ah show that the proposed framework achieves an average classification accuracy of 96.3% across 100 stochastic non-IID partitioning scenarios. It consistently outperforms distributed aggregation baselines, including Average Aggregation, Class-Count Weighting, and Mahalanobis Distance Weighting, while remaining close to the centralized reference performance. By addressing label-distribution and data-quantity skew under a controlled non-IID setting, the proposed framework provides a methodological proof-of-concept for recovering chemistry-relevant battery type information from historically untraceable retired batteries, while external validation under independently collected datasets remains necessary for deployment-level assessment. • Second-level pulse data enable retired battery type identification. • An expert-weighted federated framework is proposed for non-IID settings. • Only output probabilities and expert indices are shared across clients. • The method preserves privacy without exchanging raw data or gradients. • It achieves 96.3% average accuracy across 100 stochastic scenarios.",
-      "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1016/j.etran.2026.100607",
-      "license": "cc-by",
-      "journal_id": "S4210225447",
-      "journal_metric": 15.14,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "펄스 테스트 기반 연합학습(federated learning)을 이용해 폐배터리의 화학 타입을 초 단위로 식별하는 출력 수준 프라이버시 보호 프레임워크를 제안했다. 서로 다른 이해관계자 간 비독립동일분포(non-IID) 데이터 조건에서도 라벨 손실 없이 재사용·재활용을 위한 배터리 유형 정보를 안전하게 판별할 수 있다.",
-      "relevant": false
     },
     {
       "id": "W7161794745",
@@ -1225,36 +1077,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "P2형 층상 소듐 산화물 양극의 소듐 결핍을 보상하기 위해 소듐 테트라페닐보레이트(NaBPh4)를 유기염 소듐 보충제로 제안했다. 머신러닝 스크리닝으로 발굴된 이 화합물은 P2-Na0.67Ni0.08Ti0.12Mn0.8O2||하드카본 완전셀에서 3700회 이상의 초장수명 사이클과 높은 에너지밀도를 구현했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7161756204",
-      "source": "openalex",
-      "title": "Advanced Design of Three-Dimensional Lithiophilic Carbon-Based Hosts for Anode-Free Lithium Metal Batteries",
-      "url": "https://doi.org/10.1007/s40820-026-02229-1",
-      "published": "2026-05-20",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1007/s40820-026-02229-1",
-      "authors": [
-        "Fan Yang",
-        "Xiaoping Yang",
-        "ZhaoXia Xu",
-        "Maolin Zhang",
-        "Jiyue Hou",
-        "Shouyi Yuan"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "In recent years, anode-free lithium metal batteries (AFLMBs) have garnered significant attention as prospective next-generation high-energy batteries. However, the advancement of high-performance AFLMBs is severely impeded by challenges such as the uncontrolled growth of lithium dendrites and excessive volume expansion during cycling. Consequently, the design of three-dimensional (3D) lithiophilic carbon-based hosts to substitute conventional metal current collectors has emerged as a promising strategy for constructing high-performance AFLMBs. Herein, we present a critical and timely review of recent advances in the design of 3D lithiophilic carbon-based hosts for AFLMBs. Specifically, the intrinsic properties of various carbon materials, such as graphene, carbon nanotubes, porous carbon and carbon fibers, and their applications in AFLMBs, are first summarized. This is followed by a systematic classification of lithiophilic modification strategies, including surface heteroatom doping, surface decorating, and lithiophilic structural engineering and framework design, along with their research progress. Furthermore, the classifications, mechanisms, and structural configurations of lithiophilic gradient designs for 3D carbon-based hosts are summarized, with a specific focus on their application in high-performance AFLMBs. Finally, future challenges and perspectives regarding the lithiophilic structural design and practical application of novel 3D lithiophilic carbon-based hosts are proposed, offering valuable insights for the development of advanced AFLMBs.",
-      "oa_status": "diamond",
-      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-026-02229-1.pdf",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "무음극(anode-free) 리튬 금속전지(AFLMB)를 위한 3차원 리튬친화성 탄소 기반 호스트 설계 동향을 정리한 리뷰이다. 그래핀, 탄소나노튜브, 다공성 탄소, 탄소섬유 등 다양한 탄소 소재를 이용해 기존 금속 집전체를 대체함으로써 덴드라이트 성장과 부피 팽창 문제를 완화하는 전략을 다룬다.",
       "relevant": true
     },
     {
@@ -1408,36 +1230,6 @@
       "relevant": true
     },
     {
-      "id": "W7161748511",
-      "source": "openalex",
-      "title": "A review of safety issues from liquid to solid-state batteries: Lithium dendrite growth and thermal stability",
-      "url": "https://doi.org/10.1016/j.etran.2026.100605",
-      "published": "2026-05-19",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.etran.2026.100605",
-      "authors": [
-        "Bin Gou",
-        "Tongyu Zhou",
-        "Yuezhi Zhang",
-        "Zihao Chang",
-        "Yunhao Zhang",
-        "Xin Dai"
-      ],
-      "venue": "eTransportation",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S4210225447",
-      "journal_metric": 15.14,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "액체계에서 고체계 배터리까지 안전성 이슈를 리튬 덴드라이트 성장과 열 안정성 관점에서 정리한 리뷰 논문이다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
       "id": "W7161575573",
       "source": "openalex",
       "title": "Simultaneous Redox Mediation and Interfacial Engineering Enabled by Diphenyl Diselenide for High‐Performance All‐Solid‐State Li–S Batteries",
@@ -1465,36 +1257,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "디페닐 다이셀레나이드(DPDSe)를 다기능 첨가제로 도입해 전고체 리튬-황(Li-S)전지의 산화환원 매개와 계면 안정화를 동시에 구현했다. DPDSe는 리튬 폴리설파이드와 반응해 셀렌화 중간체를 생성하여 전하이동을 촉진하고, 고분자 고체전해질의 이온전도도도 개선한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7161545125",
-      "source": "openalex",
-      "title": "Electrospinning for lithium–sulfur batteries: processes and applications",
-      "url": "https://doi.org/10.1088/2631-7990/ae6f55",
-      "published": "2026-05-18",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1088/2631-7990/ae6f55",
-      "authors": [
-        "Simin Jiang",
-        "Wei Yuan",
-        "Ming Xu",
-        "Zhenyuan Lu",
-        "Samson Yuxiu Lai",
-        "Xiaoqing Zhang"
-      ],
-      "venue": "International Journal of Extreme Manufacturing",
-      "abstract_en": "Abstract Lithium–sulfur (Li–S) batteries offer high energy density, low cost, and environmental friendliness, making them a promising next-generation energy storage technology. However, their practical application is hindered by challenges such as the lithium polysulfide (LiPS) shuttle effect, poor sulfur conductivity, and lithium dendrite growth. Electrospinning is a quintessential technique for manufacturing extremely small (nanoscale) fibers using an extremely high voltage (e.g., >10 kV). It provides a versatile solution with tunable materials and architectures, as well as superior and extreme functionality and scalable fabrication. Electrospun nanofibers have been effectively integrated into key battery components, including cathodes, anodes, separators, electrolytes, and interlayers, to enhance performance. This review examines recent advances in electrospinning for Li–S batteries, focusing on four key stages: precursor engineering, process advancements, post-treatment modifications, and add-on processes. It explores the principles and challenges of Li–S batteries and highlights the unique advantages of nanofiber networks, such as high surface area, porosity, material versatility, architecture tailorability, and structural advantages over conventional electrodes. By summarizing recent progress and strategies, this review provides guidelines for leveraging electrospinning to advance Li–S battery technology and drive next-generation energy storage development.",
-      "oa_status": "diamond",
-      "oa_url": "https://iopscience.iop.org/article/10.1088/2631-7990/ae6f55/pdf",
-      "license": "cc-by",
-      "journal_id": "S4210231351",
-      "journal_metric": 16.12,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "리튬-황(Li-S)전지에 적용되는 전기방사(electrospinning) 공정과 응용을 정리한 리뷰이다. 폴리설파이드 셔틀, 낮은 황 전도도, 리튬 덴드라이트 성장 등의 과제를 해결하기 위해 전기방사 나노섬유가 양극·음극·분리막·전해질·인터레이어 등 전지 구성요소 전반에 통합되는 사례를 다룬다.",
       "relevant": true
     },
     {
@@ -2163,36 +1925,6 @@
       "relevant": true
     },
     {
-      "id": "W7160899210",
-      "source": "openalex",
-      "title": "Moving Beyond 99.9% Coulombic Efficiency for Anode‐Free Sodium Metal Battery",
-      "url": "https://doi.org/10.1002/cey2.70224",
-      "published": "2026-05-11",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/cey2.70224",
-      "authors": [
-        "Pan Liu",
-        "Minjie Hou",
-        "Kun Ren",
-        "F S Li",
-        "Haoran Wang",
-        "Shizhao Xiong"
-      ],
-      "venue": "Carbon Energy",
-      "abstract_en": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) are promising for high‐energy‐density storage but face challenges such as uneven sodium deposition and dendrite growth. This study develops a three‐dimensional host material consisting of iron‐anchored carbon nanotubes (CNT‐Fe) through in‐situ thermal reduction. Combined with density functional theory calculations and multiphysics simulations, we demonstrate that the sodiophilic Fe nanoparticles significantly reduce Na adsorption energy (–1.757 eV vs. –0.74 eV for Cu) and promote uniform charge distribution on the electrode. The CNT‐Fe@Cu current collector achieves an ultralow nucleation overpotential of 7.6 mV and maintains 99.9% Coulombic Efficiency for 1100 cycles in half‐cells. Na//CNT‐Fe@Cu||Na//CNT‐Fe@Cu symmetric cells exhibit outstanding stability over 2900 h, while CNT‐Fe@Cu||NVP anode‐free full cells retain 84.3% capacity after 150 cycles with 10 mg cm −2 cathode loading. This work establishes a viable strategy for leveraging carbon‐based materials toward high‐performance AFSMBs.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1002/cey2.70224",
-      "license": "cc-by",
-      "journal_id": "S4210201120",
-      "journal_metric": 16.82,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "무음극 소듐 금속 전지의 쿨롱 효율을 99.9% 이상으로 높이기 위해 철이 고정된 탄소나노튜브(CNT-Fe) 3차원 호스트 소재를 개발한 연구이다. 소듐친화적 Fe 나노입자가 Na 흡착에너지를 낮추고 균일한 전하분포를 유도하여 낮은 핵생성 과전압(7.6 mV)과 반쪽셀에서 1100사이클 동안 99.9% 쿨롱효율, 대칭셀에서 2900시간의 안정성을 달성했다.",
-      "relevant": true
-    },
-    {
       "id": "W7160836613",
       "source": "openalex",
       "title": "Crystallinity Tailoring of TiNb 2 O 7 Coating Enables Enhanced Interfacial Stability and Electrochemical Performance of NCM811 Cathode for Sulfide‐Based All‐Solid‐State Lithium Batteries",
@@ -2278,34 +2010,6 @@
       "relevant": true
     },
     {
-      "id": "W7160619208",
-      "source": "openalex",
-      "title": "Unlocking Electrochemical-Driven Surface Oxygen Vacancies-Regulated Cathode–Electrolyte Interphase for Stabilizing Li-Ion Cells",
-      "url": "https://doi.org/10.1007/s40820-026-02170-3",
-      "published": "2026-05-09",
-      "topics": [],
-      "doi": "10.1007/s40820-026-02170-3",
-      "authors": [
-        "Chenxi Yan",
-        "xing liu",
-        "Xuanlong He",
-        "Junjie Han",
-        "Longjun He",
-        "Na Tian"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract A stable cathode–electrolyte interphase (CEI) significantly enhances the durability of lithium-ion batteries; however, the intricate chemistry underlying its formation makes predesign exceedingly challenging. This work demonstrates that surface oxygen vacancy (OV) concentration dually regulates CEI thickness and composition. We develop an in situ strategy where Li 2 C 4 O 4 incorporation into LiCoO 2 (LCO) spontaneously decomposes during cycling, generating surface OVs. Combined experimental and theoretical calculations reveal these OVs enhance interfacial electron/Li⁺ migration rates while stabilizing the CEI. Notably, through 18 O isotope labeling with time-of-flight secondary ion mass spectrometry, we innovatively provide direct experimental evidence that surface lattice oxygen serves as the predominant oxygen source for CEI oxygen-containing decomposition products, establishing the mechanism for OV-mediated CEI modulation. Based on this theory, the linear correlation and causal relationship among Li 2 C 2 O 4 content, surface OV concentration, and LiF/Li x PO y F z ratio in CEI are revealed. This strategy endows the OV-rich LCO cathode with 71.1% capacity retention after 600 cycles at 1 C within 3–4.4 V (23.9% for bare LCO) and achieves universal validation at 4.5 V and in LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811). This study elucidates the critical function of surface OVs in prolonging cycle life and establishes a new design principle for tailored cathode interfaces and CEI chemistry.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1007/s40820-026-02170-3",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "LiCoO2(LCO)에 Li2C4O4를 도입해 사이클 중 자발적으로 분해되도록 함으로써 표면 산소 공공(oxygen vacancy)을 생성하고 이를 통해 양극-전해질 계면(CEI)의 두께와 조성을 조절한 연구이다. 18O 동위원소 표지 ToF-SIMS 분석으로 표면 격자산소가 CEI 형성의 주요 산소원임을 실험적으로 입증했다.",
-      "relevant": false
-    },
-    {
       "id": "W7160722636",
       "source": "openalex",
       "title": "Interface engineering strategies to enable stable Ni-rich cathodes in all-solid-state batteries: A review",
@@ -2330,33 +2034,6 @@
       "image": null,
       "summary_ko": "전고체전지에서 Ni-rich 양극을 안정화하기 위한 계면 공학 전략들을 정리한 리뷰로 보인다 (제목 기반 추정).",
       "relevant": true
-    },
-    {
-      "id": "W7160592413",
-      "source": "openalex",
-      "title": "ZIF‐67 In Situ Grown PAN Spun Membrane Gel Electrolyte for Sodium‐Sulfur Batteries",
-      "url": "https://doi.org/10.1002/cey2.70240",
-      "published": "2026-05-08",
-      "topics": [],
-      "doi": "10.1002/cey2.70240",
-      "authors": [
-        "Haowei Shi",
-        "Fengjin Han",
-        "Binghao Chen",
-        "Qiaohong Peng",
-        "Hua Yuan"
-      ],
-      "venue": "Carbon Energy",
-      "abstract_en": "ABSTRACT Sodium‐sulfur (Na‐S) batteries are promising next‐generation energy storage systems due to their high theoretical energy density and low cost. Nevertheless, two critical challenges hinder their practical application: (1) safety risks arising from sodium dendrite growth, and (2) energy loss (via polysulfide shuttle effects and capacity fade) leading to rapid performance degradation. In this work, we address these issues with a composite gel polymer electrolyte (GPE), which is fabricated by integrating metal–organic framework–modified polyacrylonitrile (PAN) electrospun membranes with polyethylene oxide (PEO) denoted as PEO/PAN@ZIF‐67 (PPZ). Pure PAN spun film with PEO is named PAN/PEO (PP). The resulting electrolyte exhibits an ionic conductivity of 4.2 × 10 −4 S cm −1 and an enhanced Na + transference number () of 0.384. Symmetric Na cells demonstrate stable cycling for 400 h with a low overpotential of 130 mV. Moreover, we used sulfurized polyacrylonitrile (SPAN) as the cathode material. The SPAN/PPZ GPE/Na full cell retains a high reversible capacity of 691 mAh g −1 after 500 cycles at 1 A g −1 with minimal capacity decay. Both Na/PPZ GPE/Na and SPAN/PPZ GPE/Na configurations exhibit exceptional performance at 50°C, attributed to the dual functionality of the composite GPE: effective suppression of polysulfide shuttling and stabilization of the Na anode interface, thereby enhancing safety and cycling stability.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1002/cey2.70240",
-      "license": "cc-by",
-      "journal_id": "S4210201120",
-      "journal_metric": 16.82,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "소듐-황(Na-S) 전지의 소듐 덴드라이트와 폴리설파이드 셔틀 문제를 해결하기 위해 ZIF-67을 성장시킨 PAN 방사막과 PEO를 결합한 복합 겔 전해질(PPZ)을 개발한 연구이다. 이 전해질은 4.2×10-4 S cm-1의 이온전도도와 0.384의 Na+ 이동수를 나타냈다.",
-      "relevant": false
     },
     {
       "id": "W7160600562",
@@ -2506,36 +2183,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "고니켈 NCM811 양극에서 발생하는 전이금속 이온 용출 문제를 해결하기 위해 세라믹 코팅 분리막용 이온포집(ion-trapping) 바인더(MPEI)를 개발한 연구이다. 말론아마이드기가 용출된 금속이온을 킬레이트하여 SEI 열화를 억제하며, 반쪽셀에서 300사이클 후 기존 폴리에틸렌 분리막 대비 35.1% 높은 용량 유지율을 보였다.",
-      "relevant": true
-    },
-    {
-      "id": "W7160528544",
-      "source": "openalex",
-      "title": "A microscopic view of diffusion and failure mechanisms of lithium anodes in solid-state batteries",
-      "url": "https://doi.org/10.1016/j.esci.2026.100589",
-      "published": "2026-05-07",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.esci.2026.100589",
-      "authors": [
-        "Luca Weckelmann",
-        "Hao Lyu",
-        "Han Yang",
-        "Chih-Long Tsai",
-        "Krzysztof Dzieciol",
-        "Shicheng Yu"
-      ],
-      "venue": "eScience",
-      "abstract_en": "Although all-solid-state lithium metal batteries (SSLBs) have long been regarded as successors of the commercially available lithium-ion batteries (LIBs), SSLBs do not yet deliver sufficient and competitive performance. The use of a solid electrolyte in combination with lithium metal as the anode increases the theoretical energy density and improves safety. However, these advantages are overshadowed by various degradation mechanisms—especially dendrite formation. Hence, comprehending the phenomenon of dendrite nucleation and growth will be a decisive step toward the commercialization of SSLBs. This review summarizes the current understanding of dendrite formation at the solid electrolyte/lithium metal anode interface. Focusing on the microscopic level, it aims to compare and categorize different findings related to dendrite formation in inorganic, polymer (including dynamic and dynamic-crosslinked polymer), and hybrid solid electrolyte batteries. Different critical mechanisms are highlighted, such as inhomogeneous plating or stripping, as well as the interconnections between those failure mechanisms. Processes that result in dendrite formation or are a consequence of dendrite formation are included, and key mechanisms such as ionic transport, homogeneous plating and stripping, as well as interphase evolution and its connection to failure mechanisms are reviewed. • This review establishes key correlations between critical parameters and the processes that govern dendrite growth across various solid electrolytes. • It also examines the underlying physicochemical interplay of degradation mechanisms and their evolution during cycling, as well as their impact on battery performance. • Low lithium self-diffusion coupled with interfacial defects is identified as a key driver of dendrite formation.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1016/j.esci.2026.100589",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S4210209524",
-      "journal_metric": 30.48,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "전고체 리튬 금속 전지에서 리튬 음극의 확산 및 열화 메커니즘, 특히 덴드라이트 핵생성과 성장을 미시적 관점에서 다룬 리뷰이다. 고체전해질/리튬 금속 계면에서의 덴드라이트 형성에 대한 기존 연구 결과들을 비교·분류하여 정리했다.",
       "relevant": true
     },
     {
@@ -2773,36 +2420,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "리튬 자원 부족 문제를 극복할 대안으로 주목받는 단가/다가 양이온 기반 금속전지용 단이온 전도성 고분자 전해질(SICPE)의 최신 연구 동향을 정리한 리뷰이다. 리튬 금속 전지의 한계와 대안 시스템에서 SICPE의 이온 이동수, 유연성, 가공성 등 장점과 전략을 다룬다.",
-      "relevant": true
-    },
-    {
-      "id": "W7160382581",
-      "source": "openalex",
-      "title": "Inorganic‐Directed Charge Delocalization Channels: Boosting Uniform Charge Distribution and Rapid Na + Transport for Solid‐State Sodium Metal Batteries",
-      "url": "https://doi.org/10.1002/cey2.70254",
-      "published": "2026-05-05",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/cey2.70254",
-      "authors": [
-        "Jiaze Li",
-        "Rong Yang",
-        "Aoyi Jiang",
-        "Xiaobin Li",
-        "Qianwei Zhang",
-        "Xin Dong"
-      ],
-      "venue": "Carbon Energy",
-      "abstract_en": "ABSTRACT Composite polymer electrolytes (CPEs) are promising for all‐solid‐state sodium metal batteries but suffer from low ionic conductivity, which stems from limited Na‐salt dissociation and narrow polymer amorphous domains, as well as sluggish ion transport caused by discontinuous composite interfacial charge‐transfer paths, and poor electrode/electrolyte interfacial stability. This study proposes an original molecular interface engineering strategy: inorganic Zr 4+ induces organic phase reconstruction to build continuous high‐speed ion channels, simultaneously accelerating Na‐salt dissociation and reducing ion migration energy barriers. Zr 4+ directs the oriented reorganization of polar groups (─C≡N) to alleviate Na‐metal anode interfacial passivation, facilitate NaF/Na 3 N‐rich stable solid electrolyte interphase formation, and enable uniform Na deposition. Moreover, Zr─N═C metal‐ligand coordination at the organic/inorganic interface induces interfacial electronic coupling and charge redistribution, promoting fast Na + migration along continuous coordination pathways. The developed CPEs, denoted as polyacrylonitrile‐metal organic framework@polyethylene oxide‐Na[N(SO 2 CF 3 ) 2 ] (PM@PN), show a synergistic interface‐bulk effect that significantly enhances electrolyte performance, as evidenced by a reduced apparent activation energy of 0.027 eV (derived from Vogel–Tammann–Fulcher, VTF fitting above T m ), an enhanced ionic conductivity of 3.52 × 10 −4 S cm −1 , and a Na + transference number of 0.67 at 60°C, along with an expanded electrochemical window of 5.06 V. The Na|PM@PN|Na symmetric cell demonstrates 0.56 mA cm −2 critical current density and stable Na deposition/stripping over 700 h at 0.4 mA cm −2 . Additionally, the assembled Na 3 V 2 (PO 4 ) 3 |PM@PN|Na full cell maintains 93.99% capacity retention after 200 cycles at 0.1 C, confirming PM@PN's applicability in advanced all‐solid‐state sodium metal batteries.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1002/cey2.70254",
-      "license": "cc-by",
-      "journal_id": "S4210201120",
-      "journal_metric": 16.82,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "전고체 소듐 금속 전지용 복합 고분자 전해질(CPE)에서 무기 Zr4+가 유도하는 유기상 재구성을 통해 연속적인 고속 이온채널을 구축한 연구이다. Zr4+가 극성기(-C≡N)의 배향 재배열을 유도하여 소듐 음극 표면 부동태화를 완화하고 NaF/Na3N이 풍부한 안정적 SEI 형성을 촉진한다.",
       "relevant": true
     },
     {

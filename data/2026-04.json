@@ -1,7 +1,7 @@
 {
   "date": "2026-04",
-  "generated_at": "2026-08-18T07:38:09+00:00",
-  "count": 68,
+  "generated_at": "2026-08-18T08:01:10+00:00",
+  "count": 63,
   "papers": [
     {
       "id": "W7159597644",
@@ -927,36 +927,6 @@
       "relevant": true
     },
     {
-      "id": "W7154734172",
-      "source": "openalex",
-      "title": "Uncovering the Electrochemical‐Thermal Coupling Behavior of Li Plating at Elevated Temperatures",
-      "url": "https://doi.org/10.1002/cey2.70213",
-      "published": "2026-04-17",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/cey2.70213",
-      "authors": [
-        "Wenxin Mei",
-        "Chenrui She",
-        "Runzhou Gao",
-        "X He",
-        "Yue Zhang",
-        "Yuxuan Li"
-      ],
-      "venue": "Carbon Energy",
-      "abstract_en": "ABSTRACT The occurrence of unexpected Li plating and dendrite growth on graphite anodes poses significant challenges to the practical application of lithium‐ion batteries. While existing studies have highlighted the superiority of elevated temperatures in alleviating Li plating and Li dendrite growth. We enable a comprehensive electrochemical‐thermal investigation of the Li plating mechanism at an elevated temperature of 60°C, induced by slight over‐lithiation on Li|graphite coin cells. By combining voltage evolution with in‐situ heat generation, we identify a distinctive exothermic peak corresponding to the Li plating plateau. Intriguingly, we discover a characteristic exothermic peak during the relaxation stage, attributed to the simultaneous occurrence of Li stripping and re‐intercalation, which is beyond our regular cognition and serves as a novel indicator of Li plating. The heat contributions analysis further indicates the weakened Li intercalation heat generation once Li plating occurs. Finally, from the post‐mortem characterizations, the surface morphologies, chemical composition, and Li content quantification of the lithiated graphite without Li plating and at different Li plating cycles are obtained to reveal the Li nucleation‐growth mechanism. The results demonstrate that a total of 0.540 mg metallic Li is plated on a coin cell over the whole cycle. This work provides a new insight into the electrochemical‐thermal coupling mechanism of Li plating at elevated temperature.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1002/cey2.70213",
-      "license": "cc-by",
-      "journal_id": "S4210201120",
-      "journal_metric": 16.82,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "흑연 음극의 미세 과리튬화로 유도된 60°C 고온에서의 리튬 도금 메커니즘을 전기화학-열 결합 관점에서 분석, 전압 변화와 in situ 발열 측정을 결합하여 도금 플래토 및 이완 단계에서 특징적인 발열 피크(리튬 탈리와 재삽입 동시 발생에 기인)를 발견했다.",
-      "relevant": true
-    },
-    {
       "id": "W7154744788",
       "source": "openalex",
       "title": "Spatial Solvation Regulation by a Swollen Polymer Interphase Enables Ultrastable Sodium Metal Batteries",
@@ -1253,36 +1223,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "중복",
-      "relevant": true
-    },
-    {
-      "id": "W7154250792",
-      "source": "openalex",
-      "title": "Interface engineering with hydroxyl/amino functional layers: Tailoring Li+ transport for high-performance quasi-solid-state lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.jmst.2026.03.069",
-      "published": "2026-04-14",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.jmst.2026.03.069",
-      "authors": [
-        "Yang Wang",
-        "Zhen Chen",
-        "Yixin Wu",
-        "Kai Shi",
-        "X J Liu",
-        "Zexiang Shen"
-      ],
-      "venue": "Journal of Material Science and Technology",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S135187643",
-      "journal_metric": 18.38,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "준고체 리튬 금속 전지의 고성능화를 위해 하이드록실/아미노 관능기층으로 계면을 설계, Li+ 수송 특성을 조절하는 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },
     {
@@ -1589,36 +1529,6 @@
       "relevant": true
     },
     {
-      "id": "W7152579395",
-      "source": "openalex",
-      "title": "A Flame-Retardant Hydrogen-Bonded Organic Framework Separator for Selective Sodium-Ion Transport toward a NaF-Rich Interphase in Sodium Metal Batteries",
-      "url": "https://doi.org/10.1007/s40820-026-02160-5",
-      "published": "2026-04-09",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1007/s40820-026-02160-5",
-      "authors": [
-        "Akbar Ali",
-        "Moazzam Ali",
-        "Hamid Hussain",
-        "Samia Aman",
-        "Ufra Naseer",
-        "Asif Mahmood"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract The incessant quest for high-energy-density batteries to meet the growing demand of electrification makes high-level safety operation a critical concern. Traditional polypropylene separators, susceptible to thermal instability and sodium dendrite growth, often lead to internal short circuits and catastrophic thermal runaway. Here, a flame-retardant, dendrite-suppressing, and ion-regulating hydrogen-bonded organic framework (HOF) separator is designed by a simple and scalable strategy. The HOF lattice, featuring abundant polar N–H and C=O sites, preferentially coordinates PF 6 − . This selective interaction suppresses anion migration, yielding a high Na + transference number (0.91). Concurrently, the liquid-filled pores and weakly coordinating channels of the HOF facilitate rapid Na + transport, achieving an ionic conductivity of 1.57 mS cm −1 at 60 °C. Interfacial analyses reveal that the HOF stabilizes Na + deposition by fostering a NaF-rich solid electrolyte interphase with a high Young’s modulus (~ 11 GPa), which suppresses dendrite penetration. Furthermore, thermogravimetric and combustion tests confirm exceptional resilience above 380 °C and the formation of carbon nitride layer that effectively suppresses heat release. Consequently, Na||Na symmetric cells cycle stably for over 2000 h at 2 mA cm −2 , while Na||Na 3 V 2 (PO 4 ) 3 full cells retain high capacity ~ 99% over 5000 cycles at 5 C. A pouch cell with a Prussian blue cathode further demonstrates practical applicability with consistent operation at 0.5 C. This multifunctional HOF separator establishes a new paradigm for stable, fast, selective, dendrite-free, and fire-safe sodium metal batteries.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1007/s40820-026-02160-5",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "난연성이면서 나트륨 덴드라이트 성장을 억제하는 수소결합 유기골격체(HOF) 분리막을 설계해 NaF가 풍부한 계면을 형성했다. 극성 N-H, C=O 자리가 PF6-와 선택적으로 결합해 음이온 이동을 억제하고 Na+ 이동수를 0.91까지 높여 소듐 금속 전지의 안전성과 이온수송을 동시에 개선했다.",
-      "relevant": true
-    },
-    {
       "id": "W7152440142",
       "source": "openalex",
       "title": "A Dense Fluorinated Composite Polymer Electrolyte Featuring Fluoride‐Rich Interface for Long‐Life Lithium Batteries",
@@ -1645,35 +1555,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "기계적 강도와 이온전도도의 상충 문제를 해결하기 위해 불소 함량이 높고 계면에 불화물이 풍부한 치밀 복합 고분자 전해질(d-FCPE)을 설계했다. 치밀한 구조로 우수한 기계적 강도, 신율, 접착력을 확보하는 동시에 결정성을 억제하고 이온 용매화 구조를 조절해 8.6×10^-4 S/cm 수준의 높은 이온전도도를 달성, 장수명 리튬 금속 전지를 구현했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7151893964",
-      "source": "openalex",
-      "title": "Review on metal-organic frameworks in solid-state electrolytes for Li metal batteries",
-      "url": "https://doi.org/10.1016/j.ccr.2026.217928",
-      "published": "2026-04-08",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.ccr.2026.217928",
-      "authors": [
-        "Mengyang Cui",
-        "Shisheng Yuan",
-        "Meixiang Zhai",
-        "Bo Jin",
-        "Qing Jiang"
-      ],
-      "venue": "Coordination Chemistry Reviews",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S117186765",
-      "journal_metric": 19.89,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "리튬 금속 전지용 고체전해질에 사용되는 금속유기골격체(MOF)에 관한 리뷰 논문으로, MOF를 활용한 이온전도 향상 및 계면 안정화 전략들을 정리한 것으로 보인다 (제목 기반 추정).",
       "relevant": true
     },
     {
@@ -1945,33 +1826,6 @@
       "image": null,
       "summary_ko": "니켈 과잉 양극을 쓰는 리튬 금속 전지에서 LiNO3의 낮은 탄산에스터 용해도(약 0.01 mg/mL) 문제를 해결하기 위해 천연 점토인 탈수 세피올라이트를 LiNO3 가용화제로 도입했다. 극성 산소 자리와 나노채널이 Li+-NO3- 상호작용을 약화시켜 용해도를 1000배 이상(13.0 mg/mL) 높이는 동시에 H2O, HF, 전이금속 이온을 흡착해 부반응을 억제했다.",
       "relevant": true
-    },
-    {
-      "id": "W7146970106",
-      "source": "openalex",
-      "title": "Precision Chemical Routes to Achieve Superior Oxyhalide Solid Electrolytes in Advanced All-Solid-State Batteries",
-      "url": "https://doi.org/10.1021/acs.accounts.6c00035",
-      "published": "2026-04-01",
-      "topics": [],
-      "doi": "10.1021/acs.accounts.6c00035",
-      "authors": [
-        "Hua Wu",
-        "Chong Liu",
-        "Simeng Zhang",
-        "Jianwen Liang",
-        "Xiaona Li"
-      ],
-      "venue": "Accounts of Chemical Research",
-      "abstract_en": "Conspectus Oxyhalide solid-state electrolytes (SSEs) represent a strategically important subclass of halide-based materials that offer a promising solution to critical challenges in all-solid-state batteries (ASSBs), such as poor interfacial stability and mechanical fragility. By incorporating oxygen into halide frameworks, these materials preserve the wide electrochemical stability and cathode compatibility of halide SSEs while simultaneously enabling ionic conductivities exceeding 10 –2 S cm –1 and enhanced thermal resilience through carefully designed oxygen incorporation routes. This unique combination makes them a frontier material class for next-generation energy storage. The precise control of oxygen content is central to optimizing oxyhalide performance. Techniques including targeted substitution reactions, nanoscale oxide additions, and the use of oxygen-rich precursors have enabled the creation of novel SSE architectures. These methods allow for meticulous defect engineering and phase purity control, which are essential for tuning bulk ionic transport and managing interfacial behavior, particularly against reactive lithium metal anodes and high-voltage cathodes operating above 4.8 V vs Li + /Li. As global efforts such as the HELENA Project and multiple academic breakthroughs converge on the development of safer and more scalable battery chemistries, oxyhalide SSEs stand out as a frontier platform with significant implications for future electric vehicles, grid storage, and aerospace energy systems. This Account provides a timely overview of the synthesis–structure–property relationships in oxyhalide SSEs. It meticulously charts the tailored chemical pathways employed in their synthesis, offering a comprehensive understanding of the design principles that govern their exceptional performance. We embark on a detailed examination of the crucial role played by diverse oxygen sources, spanning the spectrum from fundamental alkali metal oxides to sophisticated metal oxychlorides, in building the unique structural frameworks of these electrolytes. Unraveling the structure–property relationships is paramount, and this Account provides critical insights into how these oxygen sources profoundly influence the mechanisms of ion transport and ultimately dictate the overall ionic conductivity, a key metric for battery efficiency. Furthermore, we illuminate the essential characterization methodologies utilized to probe the structural, morphological, and electrochemical attributes of these fascinating materials, providing a toolkit for researchers in the field. Beyond fundamental synthesis and characterization, this Account casts a forward-looking lens onto the promising applications of oxyhalide SSEs in next-generation energy storage devices. By understanding the precise interplay between synthesis, structure, and performance, we aim to accelerate the development and implementation of safer, more energy-dense, and longer-lasting batteries for a sustainable future, impacting everything from electric vehicles to grid-scale storage.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S145378405",
-      "journal_metric": 19.58,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "할라이드 골격에 산소를 도입한 옥시할라이드 고체전해질에 관한 리뷰로, 넓은 전기화학적 안정성 창과 우수한 이온전도도(10^-2 S/cm 이상)를 동시에 달성하는 산소 함량 정밀 제어 기법(치환반응, 나노스케일 산화물 첨가 등)을 정리했다.",
-      "relevant": false
     },
     {
       "id": "W7156250371",

@@ -1,7 +1,7 @@
 {
   "date": "2026-06",
-  "generated_at": "2026-08-18T07:38:09+00:00",
-  "count": 101,
+  "generated_at": "2026-08-18T08:01:10+00:00",
+  "count": 91,
   "papers": [
     {
       "id": "W7166731345",
@@ -214,36 +214,6 @@
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74601-z"
       },
       "summary_ko": "황화물 기반 전고체 전지에서 리튬리치 망간계 양극의 격자 산소 산화환원과 계면 안정성 간의 상관관계를 규명한 연구이다. 고전위에서의 비가역적 산소 산화환원이 전해질 분해와 다공성 산소화 부산물 형성을 유발해 계면 임피던스를 지배하며, 2.6-2.0V 방전 구간에서 이 부산물의 환원이 계면 재구성을 통해 이온 수송 및 산소 산화환원 가역성을 향상시킬 수 있음을 밝혔다.",
-      "relevant": true
-    },
-    {
-      "id": "W7166542383",
-      "source": "openalex",
-      "title": "High‐Entropy Interfacial Optimized 3D Nano‐Collector Enables Dendrite‐Free and Ultra‐Stable Lithium Metal Batteries",
-      "url": "https://doi.org/10.1002/sus2.70080",
-      "published": "2026-06-29",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/sus2.70080",
-      "authors": [
-        "Shengqi Dai",
-        "Zeyu Yin",
-        "Yangbin Liu",
-        "Yu Zhang",
-        "Yang Li",
-        "Xicheng Zhang"
-      ],
-      "venue": "SusMat",
-      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) are regarded as one of the most promising candidates for next‐generation high‐energy‐density storage systems. However, their application is severely hindered by the uncontrollable lithium dendrite growth and unstable solid electrolyte interphases formation on conventional planar Cu current collectors. To address these challenges, we propose a synergistic interphase–structure modification strategy that integrates a MnNiVCrFe high‐entropy alloy (HEA) interphase with a three‐dimensional (3D) nanoflower (NF) scaffold. The 3D NF scaffold offers spatial confinement to guide uniform lithium deposition, while the HEA interphase provides abundant lithiophilic nucleation sites and intrinsic magnetic regulation. By homogenizing the interfacial electric field and Li + distribution, this dual modification enables uniform lithium nucleation and deposition, thereby suppressing dendrite formation and boosting interfacial stability. The resulting the HEA/NF@Cu electrode delivers remarkable cycling stability, exceeding 670 cycles with a high average Coulombic efficiency of 98.5% at 0.5 mA cm −2 , and the corresponding symmetric cells achieve an ultralong lifespan of 6270 h under the same current density. This synergistic interphase–structure engineering strategy provides a promising solution for designing advanced current collectors toward stable and dendrite‐free LMBs.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1002/sus2.70080",
-      "license": "cc-by",
-      "journal_id": "S4210220548",
-      "journal_metric": 17.17,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "MnNiVCrFe 고엔트로피 합금(HEA) 계면과 3차원 나노플라워 스캐폴드를 결합한 집전체 설계로 리튬 금속 전지의 덴드라이트 없는 안정적 증착을 구현한 연구이다. 3D 스캐폴드가 균일한 리튬 증착을 위한 공간적 구속을 제공하고, HEA 계면이 친리튬 핵생성 사이트를 다량 제공하여 계면 전기장과 Li+ 분포를 균일화한다.",
       "relevant": true
     },
     {
@@ -514,67 +484,6 @@
       "relevant": false
     },
     {
-      "id": "W7165925021",
-      "source": "openalex",
-      "title": "Perfluorinated nanofiber composite gel polymer electrolytes for high-performance lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.jmst.2026.06.029",
-      "published": "2026-06-25",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.jmst.2026.06.029",
-      "authors": [
-        "Xinhua He",
-        "Bo Dong",
-        "Dong Wang",
-        "Dongdong Bai",
-        "Yi-Xiang Wang",
-        "Zhu‐Bao Shao"
-      ],
-      "venue": "Journal of Material Science and Technology",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S135187643",
-      "journal_metric": 18.38,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "고성능 리튬 금속 전지를 위한 과불소화 나노섬유 복합 겔 고분자 전해질을 개발한 연구이다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
-      "id": "W7165794624",
-      "source": "openalex",
-      "title": "Multiphysics Modeling and Analysis for Dendrite Problems in Solid-State Lithium/Sodium Metal Batteries",
-      "url": "https://doi.org/10.1007/s40820-026-02200-0",
-      "published": "2026-06-25",
-      "topics": [
-        "li-metal",
-        "na-metal"
-      ],
-      "doi": "10.1007/s40820-026-02200-0",
-      "authors": [
-        "Bang Yu",
-        "Hang Su",
-        "Zengyu Yan",
-        "Yun Su",
-        "Byoungwoo Kang",
-        "Xiaohui Rong"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "The commercialization of liquid lithium-ion batteries has revolutionized the consumer electronics industry. However, conventional lithium-ion batteries with graphite anodes and organic electrolytes are approaching their intrinsic performance limits and struggle to meet the growing demands for higher energy density, reliability, and safety in electric vehicles and large-scale energy storage. Solid-state batteries utilizing lithium or sodium metal anodes are considered promising next-generation energy storage solutions. Despite this potential, the formation of dendrites during charge-discharge cycling remains a critical challenge. Dendrite growth can initiate a destructive feedback loop of crack propagation and further dendrite intrusion, ultimately leading to battery failure and performance degradation. Previous studies have predominantly focused on single physical domains, such as electrochemical, stress, or thermal fields. However, such single-physics approach limits the understanding of dendrite evolution under realistic, coupled multiphysics conditions. This review first compares the morphological characteristics of dendrites in liquid and solid-state metal batteries. It then critically examines the key factors and predictive models of dendrite formation, initially from single-physics and subsequently from an integrated multiphysics perspective. Finally, strategies for mitigating dendrite growth via multiphysics field regulation are summarized. By establishing a comprehensive framework that integrates morphology evolution, multiphysics modeling, and suppression strategies, this work provides a foundational theoretical understanding for addressing dendrite formation in solid-state lithium and sodium metal batteries.",
-      "oa_status": "diamond",
-      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-026-02200-0.pdf",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "고체상 리튬/소듐 금속 전지에서 덴드라이트 형성 문제를 다루는 다중물리 모델링 및 분석 연구이다. 덴드라이트 성장이 균열 전파와 상호 촉진되는 파괴적 피드백 루프를 형성해 전지 실패로 이어지는 메커니즘을 다루다.",
-      "relevant": true
-    },
-    {
       "id": "W7166036614",
       "source": "openalex",
       "title": "Molecular Interfacial Engineering of Lithiophilic Protection Layer Realizing 600 Wh kg −1 Anode‐Free Lithium Metal Batteries",
@@ -784,36 +693,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "이온성 액체가 그래프팅된 다공성 실리카 하이브리드 분자 브러시(SiO2-g-PILDFOB)를 이용한 준고체 복합 전해질(PSI)을 개발했다. 붕소와 불소의 시너지 효과로 안정적인 SEI 및 CEI 형성을 촉진하여 초고율, 고전압 리튬 금속 전지의 계면 안정성과 이온 수송을 동시에 향상시켰다.",
-      "relevant": true
-    },
-    {
-      "id": "W7165638329",
-      "source": "openalex",
-      "title": "Coupled polymer-cation coordination and anion-derived inorganic-rich interphases in ionic liquid-regulated gel electrolytes for stable lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.apmate.2026.100445",
-      "published": "2026-06-23",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.apmate.2026.100445",
-      "authors": [
-        "J F Chen",
-        "Kaizhen Li",
-        "Ruohan Hou",
-        "Shijie Zhang",
-        "Guosheng Shao",
-        "Peng Zhang"
-      ],
-      "venue": "Advanced Powder Materials",
-      "abstract_en": "The practical application of lithium metal batteries is constrained by low coulombic efficiency and safety risks arising from Li dendrite growth. Developing functional gel polymer electrolytes (GPEs) systems is recognized as promising approach to address these challenges. In this work, a novel GPE (HFP/PEO-EMIM) was obtained by functionalizing the PVDF-HFP/PEO composite with EMIMTFSI ionic liquid. The resulting HFP/PEO-EMIM exhibits strong chemical stability and excellent heat resistance. The introduction of EMIMTFSI improves the interfacial compatibility between HFP/PEO-EMIM and the Li anode. More importantly, experiments and theoretical calculations show that EMIM + cations preferentially interact with polymer molecules, ensuring high Li flux and accelerating its transport. Therefore, HFP/PEO-EMIM exhibits a high ionic conductivity of 1.82 mS cm −1 . Additionally, the enriched TFSI − promotes the formation of a stable inorganic-rich SEI, enabling uniform Li deposition. As expected, the Li||HFP/PEO-EMIM||Li symmetric cell maintains low voltage hysteresis after stable cycling for 3600 h, and the optimized LiFePO 4 ||Li full cell retains 95% of its initial capacity after 650 cycles at 1 C, remaining stable for over 500 cycles at 3 C. Furthermore, extended cycle life was also observed in LiCoO 2 cells and LiFePO 4 pouch cells, underscoring the broad practical potential of the proposed electrolyte system.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1016/j.apmate.2026.100445",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S4210231862",
-      "journal_metric": 18.12,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "PVDF-HFP/PEO 복합체에 EMIMTFSI 이온성 액체를 도입한 신규 겔 고분자 전해질(HFP/PEO-EMIM)을 개발했다. EMIM+ 양이온이 고분자와 우선적으로 상호작용해 높은 Li 플럭스와 수송을 촉진하며 리튬 음극과의 계면 호환성을 개선함으로써 안정적인 리튬 금속 전지 구동을 가능하게 한다.",
       "relevant": true
     },
     {
@@ -1628,36 +1507,6 @@
       "relevant": true
     },
     {
-      "id": "W7164579560",
-      "source": "openalex",
-      "title": "A diffusion descriptor integrated machine learning approach toward the discovery of solid-state electrolytes for lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.jmst.2026.05.071",
-      "published": "2026-06-12",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.jmst.2026.05.071",
-      "authors": [
-        "Junye Tu",
-        "Rongyao Chen",
-        "Pengchong Xu",
-        "Haofeng Qiu",
-        "Duo Yang",
-        "Wei Xue"
-      ],
-      "venue": "Journal of Material Science and Technology",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S135187643",
-      "journal_metric": 18.38,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "확산 서술자(diffusion descriptor)를 통합한 머신러닝 접근법으로 리튬 금속 전지용 고체전해질 후보를 탐색한 연구이다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
       "id": "W7164417309",
       "source": "openalex",
       "title": "Solvent-Free Dehydrohalogenative Polycondensation toward Robust Covalent Organic Frameworks",
@@ -1741,36 +1590,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "용융 리튬과 적린, 구리의 원위치 반응으로 Li3P/Li-Cu 이중연속 이온-전자 전도 네트워크를 가진 복합 리튬 음극을 설계한 연구이다. 이 구조는 가넷 고체전해질(LLZTO)과의 젖음성을 크게 높여 3.2 Ω cm² 수준의 초저저항 계면 접촉을 달성하고 장수명 전고체 리튬 금속 전지를 구현했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7164053672",
-      "source": "openalex",
-      "title": "Electrolytes for low-temperature lithium metal batteries: An evolution-based framework for solvation, interfaces, and phase regulation",
-      "url": "https://doi.org/10.1016/j.ccr.2026.218188",
-      "published": "2026-06-09",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.ccr.2026.218188",
-      "authors": [
-        "Chao Qin",
-        "Tian Wang",
-        "Xin Yu",
-        "Jingxuan Bi",
-        "Ke Wang",
-        "Zhenkai Zhou"
-      ],
-      "venue": "Coordination Chemistry Reviews",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S117186765",
-      "journal_metric": 19.89,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "저온용 리튬 금속 전지 전해질의 용매화 구조, 계면, 상 조절에 관한 진화적 프레임워크를 제시한 리뷰 논문이다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -2276,34 +2095,6 @@
       "relevant": true
     },
     {
-      "id": "W7163577422",
-      "source": "openalex",
-      "title": "Single-Ion Conducting Polymer Electrolytes for Lithium Metal Batteries",
-      "url": "https://doi.org/10.1016/j.progpolymsci.2026.102139",
-      "published": "2026-06-04",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.progpolymsci.2026.102139",
-      "authors": [
-        "Badri Rahul",
-        "S. B. Majumder",
-        "Seema Agarwal",
-        "Susanta Banerjee"
-      ],
-      "venue": "Progress in Polymer Science",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S119685760",
-      "journal_metric": 23.76,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "리튬 금속 전지용 단일이온 전도 고분자 전해질에 관한 리뷰 논문이다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
       "id": "W7163589245",
       "source": "openalex",
       "title": "Mitigating Succinonitrile–LiMolecular Crosstalkin In Situ Polymerization toward High-Voltage and Low-TemperatureSolid-State Li Metal Batteries",
@@ -2484,36 +2275,6 @@
       "relevant": true
     },
     {
-      "id": "W7163033253",
-      "source": "openalex",
-      "title": "Upgrading interface chemistry via high dielectric constant and enhanced electronic localization COF for lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.esci.2026.100603",
-      "published": "2026-06-01",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.esci.2026.100603",
-      "authors": [
-        "Qi An",
-        "S. Zhi",
-        "Haiye Zhu",
-        "Lu Liu",
-        "Panpan Mao",
-        "Guiquan Zhao"
-      ],
-      "venue": "eScience",
-      "abstract_en": "To advance the development of high-performance lithium metal batteries (LMBs), precisely regulating the chemical composition of the solid electrolyte interphase (SEI) is essential, especially by increasing the LiF concentration. Currently, the primary approaches for constructing LiF-rich SEI layers rely predominantly on the decomposition of lithium salts. However, most studies have yet to thoroughly investigate the influence of charge density and anion concentration on the decomposition mechanism of lithium salts. Herein, we design covalent organic frameworks (COFs) with high dielectric constants and enhanced electronic localization to increase the dissociation degree of the lithium salt and facilitate rapid charge transfer, with the aim of promoting the efficient decomposition of anions to construct a stable LiF-rich SEI. In situ analytical tools and theoretical calculations reveal that 2CN-COF induces the formation of a LiF-rich SEI for interfacial optimization, while the one-dimensional pore channels of cyano-functionalized COFs serve as rapid and directional ion transport pathways to generate a uniform lithium-ion flux. Benefiting from this strategy, a battery assembled with a 50 μm ultrathin lithium anode and a LiFePO 4 cathode demonstrates outstanding electrochemical performance, maintaining 88% capacity retention after 700 cycles. The anion decomposition strategy proposed in this study opens new avenues for the practical application of LMBs.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1016/j.esci.2026.100603",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S4210209524",
-      "journal_metric": 30.48,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "높은 유전상수와 강화된 전자 국소화를 갖는 공유결합유기골격체(COF)를 이용해 리튬 금속 전지의 계면 화학을 개선한 연구이다. 리튬염의 해리도를 높이고 빠른 전하 전달을 촉진하여 음이온의 효율적 분해를 유도, LiF가 풍부한 안정적 SEI 층을 형성했다.",
-      "relevant": true
-    },
-    {
       "id": "W7165037783",
       "source": "openalex",
       "title": "Unlocking mechanical strength of lithium dendrites",
@@ -2653,37 +2414,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "리튬-요오드(Li-I2) 전지 기술의 진전과 과제, 전망을 다룬 리뷰 논문이다. 요오드 전환 반응속도 저하, 폴리요오드화물 셔틀 효과, 리튬 덴드라이트 성장 등의 문제를 양극·음극·전해질·분리막 관점에서 체계적으로 정리하고 향후 연구 방향을 제시했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7164559236",
-      "source": "openalex",
-      "title": "Quantitative elucidation of in situ lithium metal anode modification on NCM811 cathode failure mechanisms in high-nickel solid-state lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.esci.2026.100605",
-      "published": "2026-06-01",
-      "topics": [
-        "li-metal",
-        "high-ni-ncm"
-      ],
-      "doi": "10.1016/j.esci.2026.100605",
-      "authors": [
-        "Yue Zhang",
-        "Yuxuan Li",
-        "Anqi Teng",
-        "Qingsong Wang",
-        "Qiangling Duan",
-        "Jinhua Sun"
-      ],
-      "venue": "eScience",
-      "abstract_en": "In SS-LMBs, uneven interfacial stress causes PC-NCM811 cathode failure, and the role of in situ Li metal anode modification in cathode degradation remains poorly understood. Herein, we systematically compared the electrochemical failure and thermal induction failure behaviors of PC-NCM811 for liquid LIBs, unmodified SSBs, and LiSn-LiF in situ modified SSLMBs (M-SSBs). The optimized anode generates a low-impedance, chemically stable solid–electrolyte interface (SEI), which effectively inhibits uncontrolled Li dendrite proliferation, alleviates accumulated internal stress, and blocks harmful byproduct migration. This design is expected to mitigate chemical cross-talk interference inside M-SSBs and induces the formation of an inorganic-rich, structurally robust cathode–electrolyte interface. Benefiting from stress regulation, the M-SSBs relieve cracks and preserve the NCM811 lattice integrity. It also delays irreversible phase transition by 20 °C and reduce exothermic enthalpy. This modification achieves favorable chemical–mechanical coupled regulation, which comprehensively suppresses the electrochemical deterioration and thermal degradation of PC-NCM811. It thus provides a feasible guideline for developing high-performance, thermally secure high-Ni SSLMBs.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1016/j.esci.2026.100605",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S4210209524",
-      "journal_metric": 30.48,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "고니켈 전고체 리튬 금속 전지(SS-LMB)에서 리튬 금속 음극 개질이 NCM811 양극 열화 메커니즘에 미치는 영향을 정량적으로 규명한 연구이다. LiSn-LiF로 원위치 개질된 음극이 저저항의 화학적으로 안정한 SEI를 형성하여 리튬 덴드라이트 증식과 내부 응력 축적을 억제하고, 무기물이 풍부한 견고한 양극-전해질 계면 형성을 유도함을 확인했다.",
       "relevant": true
     },
     {
@@ -2983,36 +2713,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "가넷 고체전해질을 사용한 전고체 리튬전지에서 리튬 금속-고체전해질 계면의 접촉 손실이 리튬 금속 내 공극 형성이 아니라 전극 내부에서 유래한 절연성 불순물의 계면 증착에서 비롯됨을 입증했다. 이 불순물 다공층 때문에 스택 압력이 충분히 높아도 접촉 손실이 지속되며, 리튬이 이 층의 기공을 통해 크리프해야 함을 보였다.",
-      "relevant": true
-    },
-    {
-      "id": "W7163064857",
-      "source": "openalex",
-      "title": "Anion–Diluent Decoupled Solvation Chemistry in Ionic Liquid-Based Localized High-Concentration Electrolytes Toward High-Voltage Lithium Metal Batteries",
-      "url": "https://doi.org/10.1007/s40820-026-02242-4",
-      "published": "2026-06-01",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1007/s40820-026-02242-4",
-      "authors": [
-        "Guangye Wu",
-        "Haifeng Tu",
-        "Zi Wang",
-        "Gao Y",
-        "Peng Ding",
-        "Yi Yang"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract Ionic liquid-based localized high-concentration electrolytes (IL-based LHCEs), derived from non-solvating diluents and ionic liquid electrolytes (ILEs), are promising candidates for long-life and safe lithium metal batteries (LMBs). However, conventional understanding holds that diluents merely reduce electrolyte viscosity and enhance ionic conductivity at the macroscopic level, overlooking their influence on the solvation structure at the molecular scale. Herein, we propose an anion–diluent decoupled solvation structure that is more conducive to stable cycling of high-voltage LMBs. Specifically, diluents with weak interactions toward FSI − anions effectively promote coordination between FSI − anions and Li + , leading to a solvation structure dominated by contact ion pairs (CIPs). The small anionic clusters within CIPs in IL-based LHCEs further facilitate Li + ion transport. Moreover, compared to aggregate (AGG)-dominated solvation structures rich in anions and electrons, the CIPs exhibit superior oxidation resistance, contributing to the formation of a thin and compact cathode electrolyte interphase (CEI). As a proof, an IL-based LHCE incorporating 1,1,2,2-tetrafluoroethyl methyl ether (TFE) as the diluent (TFE-LHCE) was developed. A Li||TFE-LHCE||NCM523 (LiNi 0.5 Mn 0.3 Co 0.2 O 2 ) cell cycled at 4.3 V achieves a capacity retention of 70% after 600 cycles, while a Li||NCM811 (LiNi 0.8 Mn 0.1 Co 0.1 O 2 ) cell at 4.5 V retains 88% capacity after 200 cycles. Furthermore, a 2.6 Ah Li||NCM83 (LiNi 0.83 Mn 0.1 Co 0.07 O 2 ) pouch cell demonstrates stable cycling over 40 cycles and successfully passes a nail penetration safety test. This work elucidates the critical mechanism by which non‑solvating diluents reconstruct the Li + ion solvation structure, establishing a theoretical foundation for the rational screening and design of high‑performance electrolyte diluents.",
-      "oa_status": "diamond",
-      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-026-02242-4.pdf",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "이온성 액체 기반 국소 고농도 전해질(IL-LHCE)에서 음이온과 희석제 간 탈결합된 용매화 구조를 제안하여 고전압 리튬 금속전지의 안정적 사이클링을 구현했다. 약한 상호작용을 갖는 희석제가 FSI- 음이온과 Li+의 배위를 촉진해 접촉이온쌍(CIP) 중심의 용매화 구조를 형성한다.",
       "relevant": true
     },
     {

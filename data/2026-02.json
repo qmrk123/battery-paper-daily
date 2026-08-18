@@ -1,7 +1,7 @@
 {
   "date": "2026-02",
-  "generated_at": "2026-08-18T07:38:09+00:00",
-  "count": 70,
+  "generated_at": "2026-08-18T08:01:10+00:00",
+  "count": 65,
   "papers": [
     {
       "id": "W7134167642",
@@ -1283,66 +1283,6 @@
       "relevant": true
     },
     {
-      "id": "W7128369049",
-      "source": "openalex",
-      "title": "Uniform Fast-Kinetic Anode/Cathode Electrolyte Interphases Enable High Performance 3C Li-Metal Batteries with > 99.9% Coulombic Efficiencies",
-      "url": "https://doi.org/10.1007/s40820-026-02088-w",
-      "published": "2026-02-09",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1007/s40820-026-02088-w",
-      "authors": [
-        "Qingyang Cao",
-        "Danchen Fu",
-        "Xuedong He",
-        "Yaohua Huang",
-        "Ningning Yao",
-        "Chunyu Song"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract Lithium metal batteries (LMBs) represent one of the most promising energy storage systems due to unparalleled energy density. However, in commercial electrolytes, their practical high-power performance is still hampered by unstable electrolyte interfaces, leading to severe anode dendrite growth and cathode degradation. Here, 4-fluoro-3-nitrophenylboronic acid is introduced as a dual-function additive, contributing to uniform N-/F-rich interphase layers at both electrodes of the LMBs. Therefore, in the optimized electrolyte, Li-metal electrodes demonstrate enhanced plating/stripping reversibility of > 700 h (vs. 250 h at 1 mA cm −2 and 0.5 mAh cm −2 ) and coulombic efficiency of 98.2% (vs. 84.2%). Moreover, the corresponding LMBs achieve 99.9% capacity retention (vs. 44.7%) after 500 cycles at 3C rate, simultaneously maintaining > 99.9% coulombic efficiencies. The impressive fast-charging performance attributes to not only the uniform and compact Li deposition at the anode, but also the inhibited uncontrolled electrolyte decomposition and active species loss at the cathode due to the robust electrolyte interphases. This work highlights that proper electrolyte additive is crucial for fast-charging metal batteries.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1007/s40820-026-02088-w",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "4-플루오로-3-니트로페닐보론산을 이중기능 첨가제로 도입해 리튬 금속 전지 양극과 음극 모두에 균일한 N/F가 풍부한 계면층을 형성했다. 최적화된 전해질에서 Li 금속 전극의 도금/탈리 가역성과 쿨롱효율이 향상되었고, 3C 고율에서도 우수한 용량 유지율을 보였다.",
-      "relevant": true
-    },
-    {
-      "id": "W7128423477",
-      "source": "openalex",
-      "title": "Surface morphogenesis of argyrodite-type solid electrolytes with electron-blocking secondary phases for dendrite-free all-solid-state lithium metal batteries",
-      "url": "https://doi.org/10.1016/j.mser.2026.101194",
-      "published": "2026-02-09",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.mser.2026.101194",
-      "authors": [
-        "Jingyi Liu",
-        "Huanli Sun",
-        "Wanqing Jia",
-        "Feilong L. Pan",
-        "Zhixuan Wei",
-        "Yi Zeng"
-      ],
-      "venue": "Materials Science and Engineering R Reports",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S1018252914",
-      "journal_metric": 19.36,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "전자를 차단하는 이차상을 가진 아르기로다이트형 고체전해질의 표면 형태 형성을 통해 덴드라이트가 없는 전고체 리튬 금속 전지를 구현한 연구로 보인다 (제목 기반 추정).",
-      "relevant": true
-    },
-    {
       "id": "W7128496808",
       "source": "openalex",
       "title": "Soft Alkali Metal Nitrate Additive for Lean Electrolyte Li‐S Batteries",
@@ -1428,36 +1368,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "동일한 C/O 비율(6)을 유지하는 세 가지 위치이성질체 에테르 용매(DPE, BEE, PME)를 이용해 미세한 구조 변화가 리튬 금속 석출에 미치는 영향을 체계적으로 조사했다. 전하이동 동역학, 용매화 구조, SEI 조성, 리튬 미세구조와 전기화학 성능의 상관관계를 분석해 리튬 금속 석출을 설명하는 통합 서술자를 모색했다.",
-      "relevant": true
-    },
-    {
-      "id": "W7128365093",
-      "source": "openalex",
-      "title": "Self-healing supramolecular cathode binder additive with dynamic bonds for durable high-voltage solid-state lithium batteries",
-      "url": "https://doi.org/10.1016/j.esci.2026.100555",
-      "published": "2026-02-08",
-      "topics": [
-        "high-ni-ncm"
-      ],
-      "doi": "10.1016/j.esci.2026.100555",
-      "authors": [
-        "Ying Wei",
-        "Yangqian Zhang",
-        "Hao Wang",
-        "Wei Wang",
-        "Yi Zhang",
-        "Tianyi Li"
-      ],
-      "venue": "eScience",
-      "abstract_en": "Ni-rich layered oxide cathodes are indispensable for high-energy polymer-based solid-state lithium metal batteries (SSLMBs), yet their application is plagued by severe volumetric strain and unstable cathode/electrolyte interphases under high cut-off voltages, resulting in rapid capacity fading. Here, a self-healing supramolecular binder additive that integrates dynamic covalent disulfide bonds was proposed to offer exceptional elasticity (>2300% strain) and rapid room-temperature self-recovery. Operando optical fiber sensing confirms that this adaptive network effectively buffers lattice stress and autonomously repairs interfacial damage, thereby preserving particle–particle contact and continuous Li + conduction. Moreover, electrochemical activation of disulfide bonds generates a sulfur-rich, compact cathode electrolyte interphase (CEI), which suppresses transition-metal dissolution and interfacial side reactions. Benefiting from these dual functions, Li||LiNi 0.83 Co 0.12 Mn 0.05 O 2 (Ni83) cells exhibit 80% capacity retention after 900 cycles at 4.3 V and 2 C, far outperforming PVDF control. SSLMB pouch cells with ultrathin Li and high-loading Ni83 cathodes deliver 357 Wh kg −1 , while lean-electrolyte 3 Ah Gr-SiO||LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) cells achieve 258 Wh kg −1 and 82.6% retention over 500 cycles. This work establishes a mechanically adaptive and self-healing binder design that addresses the coupled mechanical and interfacial instabilities of high-voltage cathodes, offering a practical pathway toward durable, high-energy SSLMBs. • This study proposes a supramolecular binder additive with abundant dynamic covalent bonds. • The supramolecular binder additive enhances the mechanical and electrochemical stability of Ni-rich cathodes. • The practical application of supramolecular binder additive is demonstrated in high-voltage pouch cells.",
-      "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1016/j.esci.2026.100555",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S4210209524",
-      "journal_metric": 30.48,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "고전압 조건에서 니켈리치 층상산화물 양극의 부피 변형과 계면 불안정성을 해결하기 위해 동적 이황화 결합을 통합한 자가치유 초분자 바인더 첨가제를 개발했다. 2300% 이상의 신축성과 실온에서의 빠른 자가복구 능력을 가지며, 오퍼란도 광섬유 센싱으로 격자 응력 완충과 계면 손상 자가복구를 확인했고 황이 풍부한 CEI를 형성한다.",
       "relevant": true
     },
     {
@@ -1766,34 +1676,6 @@
       "relevant": true
     },
     {
-      "id": "W7127646354",
-      "source": "openalex",
-      "title": "A novel mechanism for suppressing cycling degradation of lithium-ion batteries under medium-to-high C-rates",
-      "url": "https://doi.org/10.1016/j.apenergy.2026.127473",
-      "published": "2026-02-04",
-      "topics": [],
-      "doi": "10.1016/j.apenergy.2026.127473",
-      "authors": [
-        "Yue Yu",
-        "Yuhao Lan",
-        "Ziye Ling",
-        "Xiaoming Fang",
-        "Xiaoqi Zhong",
-        "Zhengguo Zhang"
-      ],
-      "venue": "Applied Energy",
-      "abstract_en": "Conventional understanding suggests that the cycle life of lithium-ion batteries generally decreases significantly with increasing charge rate. However, performance testing of 18,650 cells from three manufacturers revealed an anomalous behavior: the cycle life of Cell A was substantially longer at 4C (≈1000 cycles) and 6C (≈800 cycles) compared with 1C (≈300 cycles) and 2C (≈350 cycles). Further investigation indicated that the capacity fade of current commercial ternary lithium-ion batteries is mainly concentrated in the anode region, while the cathode material maintains relatively high structural stability. High-rate cycling was found to promote an increase in Li F content within the SEI film, leading to a higher proportion of inorganic components and a reduction in organic components. The incorporation of Zr into the anode significantly enhanced this effect and reduced the content of intermediate products such as LiPO₂F₂, effectively suppressing further electrolyte decomposition and interfacial side reactions. This stabilization of graphite particles contributed to prolonged cycle life. Based on these results, an indicator and threshold for characterizing the comprehensive mechanical performance of the SEI film were proposed, thereby elucidating the structural evolution of the SEI film on Zr-doped graphite anodes under high-rate conditions. These findings provide new insights into suppressing lithium dendrites and extending the cycle life of lithium-ion batteries under high charge–discharge rates.",
-      "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1016/j.apenergy.2026.127473",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S109565702",
-      "journal_metric": 14.66,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "18650 상용 리튬이온전지 셀에서 충전율이 높을수록(4C, 6C) 오히려 사이클 수명이 1C, 2C보다 긴 이례적 현상을 발견하고, 용량 열화가 주로 음극(SEI 내 LiF 함량 증가)에서 기인함을 규명했다. 음극에 Zr을 도입해 이러한 열화 억제 메커니즘을 뒷받침했다.",
-      "relevant": false
-    },
-    {
       "id": "W7127599349",
       "source": "openalex",
       "title": "Reversible Oxygen Redox in Li‐Rich Mn Based Cathodes Achieved by Regulating the Local Environments of Bulk and Surface Lattice Oxygen",
@@ -2031,36 +1913,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "가넷형 LLZO 고체전해질 표면에 순차적 인산화와 실란 그래프팅을 적용해 이중 기능성 계면 구조를 구축했다. 인산화로 형성된 Li3PO4층이 이온 브릿지 역할을 하고, 실란 그래프팅으로 유연한 가교 네트워크를 형성해 PEO/PAN 고분자 매트릭스 내 LLZO 분산성과 리튬 금속전지용 복합전해질의 응력 완화 특성을 향상시켰다.",
-      "relevant": true
-    },
-    {
-      "id": "W7134198971",
-      "source": "openalex",
-      "title": "Intrapore‐Structuring Nanocolloids Mediating Solvation and Interfaces in Lithium Metal Batteries",
-      "url": "https://doi.org/10.1002/sus2.70057",
-      "published": "2026-02-01",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/sus2.70057",
-      "authors": [
-        "Minhong Lim",
-        "Dongyoon Woo",
-        "Jiyeon Seo",
-        "Siwon Choi",
-        "Hyeong‐dong Kim",
-        "Hyegang Koo"
-      ],
-      "venue": "SusMat",
-      "abstract_en": "ABSTRACT Li metal batteries (LMBs) offer high energy density but suffer from Li dendrite growth and unstable solid–electrolyte interphase (SEI). Beyond conventional liquid systems, nanocolloid electrolytes (NCEs) incorporating insoluble nanoparticles dispersed in liquid electrolytes have emerged to mediate Li + solvation and SEI formation, which are key factors governing Li dendrite suppression. Nonetheless, their practical application has been limited by an intrinsic trade‐off between nanoparticle surface area and colloidal stability. To address this limitation, we propose an intrapore‐structuring strategy that enables facile Li + transport and efficient SEI regulation. Incorporating well‐ordered mesopores into SiO 2 nanobeads achieves high surface area while retaining dispersibility by alleviating interparticle attraction. The intrapore‐structured NCE alleviates viscosity increase, enhances anion mediation at the interface, and thereby effectively suppresses Li dendrite growth while promoting the buildup of anion‐derived SEI. The LMB employing the intrapore‐structured NCE demonstrates cycling stability over 300 cycles at 70% capacity retention and fast‐charging capability up to 3 C, far outperforming NCEs using nonporous nanobeads and 7 nm‐sized nanoparticles. This work establishes intrapore‐structuring as a new design principle for realizing the practical potential of NCEs in LMBs.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1002/sus2.70057",
-      "license": "cc-by",
-      "journal_id": "S4210220548",
-      "journal_metric": 17.17,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "SiO2 나노비드에 세공을 도입한 나노콜로이드 전해질(NCE)을 통해 Li+ 용매화 구조와 SEI 형성을 조절하는 세공 내부 구조화 전략을 제안했다. 표면적과 콜로이드 안정성 간의 트레이드오프를 해소해 리튬 금속전지의 덴드라이트 억제와 원활한 Li+ 수송을 가능하게 했다.",
       "relevant": true
     },
     {

@@ -1,7 +1,7 @@
 {
   "date": "2026-07",
-  "generated_at": "2026-08-18T07:39:09+00:00",
-  "count": 126,
+  "generated_at": "2026-08-18T08:01:10+00:00",
+  "count": 122,
   "papers": [
     {
       "id": "W7172421225",
@@ -2029,35 +2029,6 @@
       "relevant": true
     },
     {
-      "id": "W7168276814",
-      "source": "openalex",
-      "title": "Revealing hidden plating dynamics: High-fidelity modeling of lithium plating and stripping across operating regimes",
-      "url": "https://doi.org/10.1016/j.etran.2026.100620",
-      "published": "2026-07-14",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.etran.2026.100620",
-      "authors": [
-        "Jue Chen",
-        "Heinrich Ditler",
-        "Gereon Stahl",
-        "Christiane Rahe",
-        "Weihan Li"
-      ],
-      "venue": "eTransportation",
-      "abstract_en": null,
-      "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1016/j.etran.2026.100620",
-      "license": "cc-by",
-      "journal_id": "S4210225447",
-      "journal_metric": 15.14,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "다양한 작동 영역에 걸친 리튬 도금 및 스트리핑 동역학을 고정밀로 모델링하는 연구로 추정된다. (제목 기반 추정)",
-      "relevant": true
-    },
-    {
       "id": "W7168239380",
       "source": "openalex",
       "title": "Multiscale Magnetic Field Engineering for Advanced Lithium‐Based Batteries",
@@ -2593,36 +2564,6 @@
       "relevant": true
     },
     {
-      "id": "W7167944087",
-      "source": "openalex",
-      "title": "Inhibition of Surface-Originated Degradations in Lithium-Rich Layered Cathode via a Pre-Constructed Carbon/Fluorine-Rich Artificial CEI Layer",
-      "url": "https://doi.org/10.1007/s40820-026-02276-8",
-      "published": "2026-07-10",
-      "topics": [
-        "li-rich"
-      ],
-      "doi": "10.1007/s40820-026-02276-8",
-      "authors": [
-        "He Zhao",
-        "Jiaqi Sun",
-        "Razium Ali Soomro",
-        "Ning Sun",
-        "Song Hong",
-        "Bin Xu"
-      ],
-      "venue": "Nano-Micro Letters",
-      "abstract_en": "Abstract In the ongoing pursuit of energy-dense lithium-ion batteries (LIBs), Li-rich layered oxide (LLO) cathodes provide an attractive path forward with extraordinary capacity delivery and low raw material cost. However, the surface-originated degradations and local structure rearrangement incur severe capacity and voltage fading, which fundamentally impedes the practical deployment of LLOs. Here, we report a pre-constructed multifunctional carbon/fluorine-rich artificial cathode electrolyte interface (CEI) layer via a facile thermal treatment. This surface integrated layer, with high-voltage tolerance and amorphous features, is designed to mitigate surface-originated parasitic reactions and phase transformations induced by electrochemistry. Multiscale characterizations reveal that the artificial CEI layer exhibits excellent interfacial compatibility with both the LLO cathode and the electrolyte system, ensuring highly reversible anionic redox and low activation barrier for Li + transport. Profiting from this architecture, remarkable cycling stability is achieved including 90.6% retention after 300 cycles in half cell, along with high energy efficiency and markedly alleviated voltage fading. More importantly, the artificial CEI layer demonstrates a distinct depolarization effect, which almost completely prevents the rise in charging voltage upon cycling. This work provides valuable insights into surficial/interfacial modulations and broadens research directions for designing high-voltage cathodes with more durable interphases for next-generation batteries.",
-      "oa_status": "diamond",
-      "oa_url": "https://doi.org/10.1007/s40820-026-02276-8",
-      "license": "cc-by",
-      "journal_id": "S9070373",
-      "journal_metric": 30.8,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "리튬리치 층상 산화물(LLO) 양극의 표면 기원 열화를 억제하기 위해 탄소/불소가 풍부한 인공 CEI층을 열처리로 미리 형성하는 전략을 제시했다. 이 계면층은 고전압 내성과 비정질 특성을 가져 전기화학적으로 유발되는 표면 부반응과 상전이를 완화한다.",
-      "relevant": true
-    },
-    {
       "id": "W7167916577",
       "source": "openalex",
       "title": "Electrolyte Engineering for 5 V Lithium Metal Batteries",
@@ -3072,33 +3013,6 @@
       "relevant": true
     },
     {
-      "id": "W7167629056",
-      "source": "openalex",
-      "title": "Advances in lithium metal production technologies",
-      "url": "https://doi.org/10.1177/09506608261464388",
-      "published": "2026-07-07",
-      "topics": [],
-      "doi": "10.1177/09506608261464388",
-      "authors": [
-        "Muhammad Bagas Ananda",
-        "Bintang Ayu Nuraeni",
-        "Dongmei Liu",
-        "Warren Bruckard",
-        "M. Akbar Rhamdhani"
-      ],
-      "venue": "International Materials Reviews",
-      "abstract_en": "Lithium metal is a critical material in advancing energy storage technologies, particularly for next-generation lithium metal batteries (LMBs). However, industrial lithium metal production relies predominantly on LiCl–KCl electrolysis. This process faces several challenges and limitations, such as the need for high-purity LiCl, low current efficiency, and the generation of chlorine (Cl 2 ) gas as a by-product. To ensure a sustainable and affordable lithium supply, recent studies have focused on improving process efficiency and developing alternative production routes. Despite this accelerating research activity, the lack of a unified and critical assessment of lithium metal production technologies hinders informed technology selection and scale-up. This review addresses this gap by examining recent advances in lithium metal production technologies, with a focus on improvements to conventional molten salt electrolysis, including feedstock optimisations, electrolyte modifications, and cell design innovations aimed at enhancing yield, purity, and energy efficiency. In addition, alternative low-temperature electrolysis enabled by aqueous-based lithium compounds, innovative electrochemical extraction methods, and thermochemical approaches using carbon and metallic reductants are summarised. The review also considers process–structure–performance relationships, highlighting how production conditions influence lithium metal microstructure and electrochemical properties. Finally, the review discusses the challenges associated with each method and highlights potential improvements to achieve more sustainable large-scale lithium metal production.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S69687699",
-      "journal_metric": 14.66,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "리튬 금속 생산 기술의 발전 동향을 다룬 리뷰로, 기존 LiCl-KCl 전해법의 한계(고순도 LiCl 필요, 낮은 전류효율, 염소가스 부산물)를 지적하고 공정 효율 개선 및 대안적 생산 경로에 대한 최근 연구를 정리했다. 배터리 음극 계면화학이 아닌 산업적 금속 리튬 제련 공정 자체를 다룬다.",
-      "relevant": false
-    },
-    {
       "id": "W7167472150",
       "source": "openalex",
       "title": "Polyrotaxane‐Based Polymer Electrolytes With Selective Na + Channels for Stable, Long‐Cycling Sodium Metal Batteries",
@@ -3156,36 +3070,6 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "내부 헬름홀츠면(IHP) 반응을 조절하는 선점형 계면 전략을 통해 500Wh/kg급 파우치셀용 강건한 리튬 금속 음극을 구현했다. 말단에 C-F 기를 갖는 쉬프염기 고분자가 IHP에 표면 수직 배향을 형성해 용매의 Li 표면 접근을 차단하고, 불소 전자흡인 효과로 LiF가 풍부한 계면상 형성을 유도한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7167479596",
-      "source": "openalex",
-      "title": "Gel polymer electrolytes for high-energy-density and safe lithium metal batteries: material design and interface engineering",
-      "url": "https://doi.org/10.1016/j.ccr.2026.218289",
-      "published": "2026-07-06",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1016/j.ccr.2026.218289",
-      "authors": [
-        "Xuntao Wang",
-        "Qingjie Zhou",
-        "Jinhai He",
-        "Zhiqiang Sun",
-        "Zhiqiang Sun",
-        "Jiayao Wu"
-      ],
-      "venue": "Coordination Chemistry Reviews",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S117186765",
-      "journal_metric": 19.89,
-      "first_seen": "2026-08-18",
-      "image": null,
-      "summary_ko": "고에너지밀도 및 안전한 리튬 금속 전지를 위한 젤 고분자전해질의 재료 설계와 계면 공학을 다룬 리뷰로 보인다 (제목 기반 추정).",
       "relevant": true
     },
     {
