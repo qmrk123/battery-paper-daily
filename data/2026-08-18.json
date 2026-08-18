@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T04:09:15+00:00",
+  "generated_at": "2026-08-18T04:12:17+00:00",
   "count": 22,
   "papers": [
     {
@@ -305,8 +305,8 @@
       "license": null,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "단결정 고니켈 양극재의 사이클 안정성을 고엔트로피 도핑과 LiNbO3 코팅의 시너지로 향상시킨 연구. 다원소 도핑으로 벌크 격자를 안정화하고 LiNbO3 표면층으로 계면 부반응을 억제하는 접근으로 보인다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7203496000",
@@ -356,8 +356,8 @@
       "license": null,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "코발트 프리 고에너지밀도 양극재로 주목받는 무질서 암염(DRX) 구조를 개관한 리뷰. 양이온 무질서, 음이온 산화환원, 단범위 규칙(SRO)을 조절해 리튬 이동도와 조성 유연성을 높이는 원리와 전기화학적 설계 방향을 정리한다.",
+      "relevant": true
     },
     {
       "id": "W7203464201",
@@ -384,8 +384,8 @@
       "license": null,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "무음극(anode-free) 리튬 전지용으로 은 나노와이어(AgNW)와 CMC-Li를 결합한 친리튬성 복합 코팅을 Cu 집전체에 도입해 균일한 리튬 핵생성과 활성 리튬 손실 저감을 구현. 대상이 음극측 계면층이라 'High-Ni NCM 양극' 주제와는 무관해 관련성 게이트에서 제외.",
+      "relevant": false
     },
     {
       "id": "W7203448738",
@@ -579,8 +579,8 @@
       "license": "cc-by-nc-nd",
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬 금속 전지의 3D 집전체로 쓰이는 고다공성(98%) 전착 구리폼의 치밀화 변형률(densification strain) 평가법을 비교한 연구. 준정적 압축시험으로 경험식·접선법·에너지법·ISO 13314 네 방법을 비교해 방법별 편차(82.9~97.2%)를 규명하고 부피팽창 완충 설계 지표를 제시한다.",
+      "relevant": true
     },
     {
       "id": "W7202367461",
@@ -606,8 +606,8 @@
       "license": null,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
+      "relevant": true
     }
   ]
 }

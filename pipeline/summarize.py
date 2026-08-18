@@ -276,7 +276,7 @@ def pick_gemini_model(api_key: str) -> str:
 # Free-tier pacing: reserve one request slot per interval across all threads
 # (Gemini free tier is ~10 RPM). Sleep happens outside the lock so HTTP calls
 # still overlap; only their start times are spaced.
-_GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "8.0"))
+_GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "10.0"))
 _gem_lock = threading.Lock()
 _gem_next = 0.0
 
