@@ -1,6 +1,6 @@
 {
   "date": "2026-04",
-  "generated_at": "2026-08-18T07:18:09+00:00",
+  "generated_at": "2026-08-18T07:21:37+00:00",
   "count": 149,
   "papers": [
     {
@@ -59,7 +59,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-72486-6/MediaObjects/41467_2026_72486_Fig1_HTML.png",
+        "cached": "img/W7159597644.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-72486-6"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -89,7 +94,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-72527-0/MediaObjects/41467_2026_72527_Fig1_HTML.png",
+        "cached": "img/W7159590678.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-72527-0"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -119,7 +129,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-72472-y/MediaObjects/41467_2026_72472_Fig1_HTML.png",
+        "cached": "img/W7159579489.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-72472-y"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -687,7 +702,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-71852-8/MediaObjects/41467_2026_71852_Fig1_HTML.png",
+        "cached": "img/W7155541803.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-71852-8"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -717,7 +737,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-72434-4/MediaObjects/41467_2026_72434_Fig1_HTML.png",
+        "cached": "img/W7155528231.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-72434-4"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -1195,7 +1220,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10415-9/MediaObjects/41586_2026_10415_Fig1_HTML.png",
+        "cached": "img/W7155189133.jpg",
+        "license": "cc-by",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-10415-9"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -2752,7 +2782,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-71850-w/MediaObjects/41467_2026_71850_Fig1_HTML.png",
+        "cached": "img/W7153923355.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-71850-w"
+      },
       "summary_ko": null,
       "relevant": null
     },
