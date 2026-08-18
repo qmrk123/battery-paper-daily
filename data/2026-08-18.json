@@ -1,8 +1,129 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T08:01:10+00:00",
-  "count": 10,
+  "generated_at": "2026-08-18T21:27:52+00:00",
+  "count": 15,
   "papers": [
+    {
+      "id": "W7203609991",
+      "source": "openalex",
+      "title": "Suppressing Sodium Dendrites Through Protein‐Mediated Tip Adsorption Effect",
+      "url": "https://doi.org/10.1002/adma.74672",
+      "published": "2026-08-17",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adma.74672",
+      "authors": [
+        "Yue Li",
+        "Haocheng Yuan",
+        "Hongji Pan",
+        "Li Cai",
+        "Peipei Ding",
+        "Dengfeng Yu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Dendrite growth and interfacial side reactions severely limit the cycle life of sodium batteries. While electrolyte additives represent the simplest mitigation strategy, conventional additives rely on single chemical driving mechanisms, and pose environmental concerns. Here, we propose a bio‐adaptive approach based on the protein tip adsorption effect, demonstrating at the “amino acid–peptide–protein” scale that this mechanism regulates electric field distribution around sodium bud tips to induce uniform sodium deposition and stripping. Concurrently, it promotes formation of a robust solid electrolyte interphase, rearranging the sodium metal anode into a smoother surface. Electrolytes engineered via this tip adsorption effect deliver enhanced cycling and stripping performance in sodium symmetric cells across 1, 5, and 10 mA cm −2 , with a maximum tolerable current density exceeding 25 mA cm − 2 . Remarkably, NVP||Na cells achieve 20,000 cycles at 10 C and 16,000 cycles at an ultrahigh 50 C rate. The electrolyte also shows broad anode compatibility: NVP||Al@C cells with a high NVP loading of 10.32 mg cm − 2 sustain 1,000 cycles at 5 C. Guided by sustainable development principles, this work may inspire exploration of natural, eco‐friendly materials for battery modification.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": "단백질 매개 팁 흡착 효과를 활용하여 소듐 돌출부 팁 주변의 전기장 분포를 조절하고 균일한 소듐 전착 및 탈리를 유도하는 전해질 전략을 제시했습니다. 이 메커니즘은 견고한 고체 전해질 계면(SEI) 형성을 촉진하여 소듐 덴드라이트 형성을 억제하고 표면을 매끄럽게 재배열합니다. 이를 통해 소듐 대칭 셀에서 25 mA cm⁻² 이상의 한계 전류 밀도를 달성하고, NVP||Na 완전지에서 50 C의 초고율 조건에서도 16,000 사이클 이상의 우수한 수명 특성을 구현했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203596542",
+      "source": "openalex",
+      "title": "Spatially Regulated Lithium Plating via Li 2 O‐Rich Interphase Enables Durable Fast‐Charging Hybrid Lithium Batteries",
+      "url": "https://doi.org/10.1002/adfm.77658",
+      "published": "2026-08-17",
+      "topics": [
+        "li-metal",
+        "high-ni-ncm"
+      ],
+      "doi": "10.1002/adfm.77658",
+      "authors": [
+        "Robert Kuphal",
+        "Jingjing Liu",
+        "Junxiang Liu",
+        "Tao Ma",
+        "Yi Ding",
+        "Mahmoodul Haq"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Improving energy density and fast‐charging capability in lithium‐ion batteries (LIBs) is increasingly constrained by the limitations of graphite intercalation. While reducing the negative‐to‐positive (N/P) capacity ratio enables higher energy density through hybrid lithium (Li) intercalation/plating, uncontrolled Li growth leads to rapid cell degradation. Here, we demonstrate a spatially regulated Li plating mechanism enabled by a lithium oxide (Li 2 O)‐rich solid electrolyte interphase (SEI). By tailoring the electrolyte solvation structure, we induce the formation of a homogeneous, Li 2 O‐dominant interphase that fundamentally alters Li nucleation and growth energetics. Quantitative analysis reveals that this engineered interphase promotes uniform Li deposition around graphite particles and throughout the electrode bulk, effectively suppressing localized Li accumulation. Consequently, hybrid cells operating at a low N/P ratio of 0.7 with commercial‐level NMC811 cathodes (3–5 mAh cm −2 ) achieve over 1000 cycles with 80% capacity retention and sustain 4C (15 min) fast charging for more than 1000 cycles. These results redefine the performance ceiling of hybrid Li‐ion/Li‐metal systems and establish interphase‐mediated spatial regulation as a governing design principle for next‐generation, high‐energy, and durable Li batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.77658",
+      "license": "cc-by",
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": "전해액 용매화 구조 제어를 통해 흑연 전극 표면에 Li2O가 풍부한 SEI를 형성하여 리튬 핵생성 및 성장 거동을 균일하게 조절했습니다. 이를 통해 국부적인 리튬 축적을 억제하고 전극 전반에 균일한 리튬 전착을 유도하여 흑연 삽입/리튬 도금 하이브리드 시스템의 안정성을 확보했습니다. 그 결과 저 N/P 비(0.7) 및 상용 수준 NMC811 양극(3~5 mAh cm⁻²) 기반 풀셀에서 1000사이클 이상의 수명과 4C 급속 충전 성능을 달성했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203648634",
+      "source": "openalex",
+      "title": "Reconfiguring Ion‐Transport Topology in Quasi‐Solid‐State Electrolytes for Cryogenic Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.77736",
+      "published": "2026-08-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77736",
+      "authors": [
+        "Jingjing Ma",
+        "Yaoyu Ren",
+        "Weiwei Sun",
+        "Yuhao Zhu",
+        "Huanchun Wang",
+        "Mingqian Yu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The growing demand for low‐temperature lithium metal batteries in aerospace, polar exploration, and other extreme environments calls for polymer electrolytes that can maintain efficient ion transport and interfacial stability under cryogenic conditions. Yet the low‐temperature application of polymer electrolytes is typically limited by the strong coupling of Li + transport to sluggish polymer segmental relaxation, leading to severe polarization, slow desolvation, and unstable electrode interphases. Here, we report an ion‐transport topology engineering strategy based on an in situ polymerized poly(1,3‐dioxolane) (PDOL) electrolyte. By introducing fluorobenzene (FB) as a hydrogen‐bond‐guided molecular organizer, we create a preorganized local transport field that weakens excessive Li + ‐ether oxygen coordination and reconfigures the local Li + migration landscape. This topology‐engineered microenvironment promotes anion‐rich coordination, lowers desolvation barriers, and directs inorganic‐rich interphase formation on both Li metal and high‐voltage cathodes. Consequently, the optimized electrolyte delivers a Li + transference number of 0.76 at −40°C and stable operation from −65 to 25°C. Li||Li cells cycle over 2000 h at −40°C, Li||LiNi 0.8 Co 0.1 Mn 0.1 O 2 coin cells retain 99% capacity after 320 cycles, and pouch cells retain 84.9% after 450 cycles. This work establishes ion‐transport topology engineering as a viable design principle for polymer electrolytes under extreme‐temperature conditions.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7203612466",
+      "source": "openalex",
+      "title": "Electrostatic Suspension of Lithium Ions in Mg 1‐x Li x F 2 /PEO Electrolytes Enables all‐Solid‐State Lithium Metal Batteries Operable at 0°C",
+      "url": "https://doi.org/10.1002/adfm.77651",
+      "published": "2026-08-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77651",
+      "authors": [
+        "Yusheng Luo",
+        "Yanpeng Wang",
+        "Zhaoyang Song",
+        "Qiying Yang",
+        "Zhenjia Liu",
+        "Shuang Liu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state lithium metal batteries (SSLMBs) are promising next‐generation energy‐storage devices, but their practical application is hindered by the low ionic conductivity, low Li + transference number, and poor interfacial stability of solid‐state electrolytes, particularly under near‐room‐temperature conditions. To address these challenges, we developed PEO/LiTFSI‐Mg 1‐x Li x F 2 composite electrolytes based on a novel electrostatic suspension strategy. At the filler/polymer interface, Mg 1‐x Li x F 2 and PEO generate dynamically balanced yet oppositely directed electrostatic fields, in which Li + remains in a “suspended” state. The continuous low‐energy transport channels formed by these interfacial suspension sites enable directional and rapid Li + slip migration along the interface under an external electric field. The optimized composite electrolyte exhibits an ionic conductivity of 0.158 mS cm −1 and a Li + transference number of 0.56 at 30°C. Benefiting from the electrostatic suspension effect and the in situ formed LiF‐rich SEI, Li||Li symmetric cells cycle stably for over 2650 h at 0°C. Moreover, SSLMBs with LFP cathodes deliver excellent rate capability and cycling stability, with 98% capacity retention after 300 cycles at 0°C. This work establishes an electrostatic suspension mechanism for the design of polymer electrolytes and provides new insights into high‐performance SSLMBs operating over a wide temperature range.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
     {
       "id": "W7203561421",
       "source": "openalex",
@@ -298,6 +419,36 @@
       "image": null,
       "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
       "relevant": false
+    },
+    {
+      "id": "W7202161552",
+      "source": "openalex",
+      "title": "Deciphering thermal failure in lithium metal batteries: mechanism elucidation and mitigation strategies",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105456",
+      "published": "2026-08-11",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105456",
+      "authors": [
+        "Zhanning He",
+        "Fangying Shen",
+        "Huihao Wu",
+        "Xue Xie",
+        "Zheng Wang",
+        "Mintao Su"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }
