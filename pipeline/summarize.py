@@ -240,6 +240,38 @@ def parse_gemini_result(data: dict) -> Optional[tuple[bool, str]]:
     return _coerce(obj) if obj else None
 
 
+def pick_gemini_model(api_key: str) -> str:
+    """Query ListModels and choose a current Flash text model — robust to Google
+    renaming/deprecating versioned ids (e.g. gemini-2.5-flash going 404)."""
+    import requests
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models",
+                         params={"key": api_key}, timeout=30)
+        r.raise_for_status()
+        names = [m["name"].split("/")[-1]
+                 for m in (r.json().get("models") or [])
+                 if "generateContent" in (m.get("supportedGenerationMethods") or [])]
+    except Exception:
+        return "gemini-flash-latest"
+    bad = ("vision", "thinking", "image", "audio", "tts", "live", "embedding")
+    flash = [n for n in names if "flash" in n.lower()
+             and not any(b in n.lower() for b in bad)]
+    if not flash:
+        return names[0] if names else "gemini-flash-latest"
+
+    def score(n: str) -> tuple:
+        nl = n.lower()
+        m = re.search(r"gemini-(\d+)\.?(\d*)-flash", nl)
+        ver = int(m.group(1)) * 100 + (int(m.group(2) or 0)) if m else 0
+        return (
+            nl == "gemini-flash-latest",              # stable always-current alias
+            "lite" not in nl,                          # prefer full over lite
+            not any(x in nl for x in ("preview", "exp")),
+            ver,
+        )
+    return sorted(flash, key=score)[-1]
+
+
 def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str],
                          model: str = GEMINI_MODEL, retries: int = 4,
                          timeout: int = 60) -> Optional[tuple[bool, str]]:
@@ -280,8 +312,9 @@ def _make_summarize_fn(labels, client, backend, log) -> Optional[tuple[Callable,
         return (lambda p: summarize_one_sdk(c, p, labels)), 6
     gem = os.environ.get("GEMINI_API_KEY")
     if backend == "gemini" or (backend is None and gem):
-        log(f"  backend: Gemini free tier, model={GEMINI_MODEL}")
-        return (lambda p: summarize_one_gemini(gem, p, labels)), 3
+        model = os.environ.get("GEMINI_MODEL") or pick_gemini_model(gem)
+        log(f"  backend: Gemini free tier, model={model}")
+        return (lambda p: summarize_one_gemini(gem, p, labels, model=model)), 3
     cli = resolve_claude_cli()
     if cli:
         tok = "CLAUDE_CODE_OAUTH_TOKEN" in os.environ
