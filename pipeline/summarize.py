@@ -85,6 +85,11 @@ class ClaudeAuthError(RuntimeError):
     """The Claude CLI is not authenticated (run `claude setup-token`)."""
 
 
+class QuotaError(RuntimeError):
+    """A rate/quota limit that persists — stop the run fast instead of retrying
+    every remaining paper (e.g. Gemini free daily quota exhausted)."""
+
+
 # ---------------------------------------------------------------- shared
 
 def build_user_content(paper: Paper, topic_labels: dict[str, str]) -> str:
@@ -295,6 +300,7 @@ def pick_gemini_model(api_key: str) -> str:
 _GEM_MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "10.0"))
 _gem_lock = threading.Lock()
 _gem_next = 0.0
+_gem_abort = threading.Event()   # set once the daily quota is exhausted -> skip fast
 
 
 def _gem_throttle() -> None:
@@ -308,9 +314,11 @@ def _gem_throttle() -> None:
 
 
 def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str],
-                         model: str = GEMINI_MODEL, retries: int = 4,
+                         model: str = GEMINI_MODEL, retries: int = 3,
                          timeout: int = 60) -> Optional[tuple[list[str], str]]:
     import requests
+    if _gem_abort.is_set():          # quota already exhausted this run -> skip fast
+        return None
     body = {
         "systemInstruction": {"parts": [{"text": SYSTEM}]},
         "contents": [{"parts": [{"text": build_user_content(paper, topic_labels)}]}],
@@ -328,8 +336,14 @@ def summarize_one_gemini(api_key: str, paper: Paper, topic_labels: dict[str, str
         r = requests.post(url, params={"key": api_key}, json=body, timeout=timeout)
         if r.status_code == 200:
             return parse_gemini_result(r.json())
-        if r.status_code in (429, 500, 502, 503) and attempt < retries - 1:
-            time.sleep(backoff); backoff *= 2  # free tier is ~10 RPM
+        if r.status_code == 429:
+            if attempt < retries - 1:
+                time.sleep(backoff); backoff *= 2   # maybe transient per-minute
+                continue
+            _gem_abort.set()                         # persistent -> daily quota gone
+            raise QuotaError(f"Gemini 429 (quota/rate): {r.text[:150]}")
+        if r.status_code in (500, 502, 503) and attempt < retries - 1:
+            time.sleep(backoff); backoff *= 2
             continue
         raise RuntimeError(f"Gemini {r.status_code}: {r.text[:200]}")
     return None
@@ -389,6 +403,9 @@ def summarize_papers(papers: list[Paper], topic_labels: dict[str, str],
                 raise RuntimeError(
                     f"Claude CLI not logged in ({e}). Run `claude setup-token` and "
                     f"set CLAUDE_CODE_OAUTH_TOKEN, then retry.") from e
+            except QuotaError as e:
+                log(f"  quota reached — stopping this run ({str(e)[:80]})")
+                break
             except Exception as e:
                 stats["errors"] += 1
                 log(f"  [{i}/{len(todo)}] error: {str(e)[:120]}")
@@ -436,7 +453,7 @@ def run_catchup(limit: int, force: bool = False, log=print) -> dict:
     store = Store()
     total = {"processed": 0, "errors": 0}
     for date in store.list_dates():                 # newest first
-        if total["processed"] >= limit:
+        if total["processed"] >= limit or _gem_abort.is_set():
             break
         papers = store.load_day(date)
         if not any(force or not p.summary_ko for p in papers):
