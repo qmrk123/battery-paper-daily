@@ -1,6 +1,6 @@
 name: daily
 
-# 06:00 KST (21:00 UTC) daily: fetch new papers -> Korean summaries (Gemini) ->
+# 06:00 KST (21:00 UTC) daily: fetch new papers (NO summaries here) ->
 # graphical-abstract thumbnails -> commit data back -> build -> deploy Pages.
 # A `push` to data/site (e.g. manual edit) just rebuilds + redeploys.
 # NOTE: scheduled workflows are disabled after 60 days of repo inactivity and
@@ -56,33 +56,10 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python -m pipeline.main
 
-      - name: Korean summaries + relevance gate
-        if: github.event_name != 'push'
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
-            python -m pipeline.summarize ${{ inputs.force_summarize && '--force' || '' }}
-          else
-            echo "no summarizer key (set GEMINI_API_KEY) — skipping Korean summaries"
-          fi
-
-      - name: Catch-up summaries for backlog (backfill months)
-        if: github.event_name != 'push'
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -n "$GEMINI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
-            N="${{ inputs.reclassify }}"
-            if [ "${N:-0}" -gt 0 ] 2>/dev/null; then
-              python -m pipeline.summarize --reclassify "$N"
-            else
-              python -m pipeline.summarize --catchup 60
-            fi
-          fi
+      # Korean summaries + 6-topic classification are produced by a scheduled
+      # Claude cloud agent (routine ...VshXN) ~30 min after this fetch — it reads
+      # the just-committed null-summary papers and pushes summaries back. Keeping
+      # summarization out of CI means no summary API key is needed.
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
         if: github.event_name != 'push'
