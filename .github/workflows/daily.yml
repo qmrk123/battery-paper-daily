@@ -10,14 +10,6 @@ on:
   schedule:
     - cron: "0 21 * * *"
   workflow_dispatch:
-    inputs:
-      force_summarize:
-        description: "Re-summarize every paper (overwrite existing summaries)"
-        type: boolean
-        default: false
-      reclassify:
-        description: "Re-classify+summarize up to N already-done papers across all files"
-        default: "0"
   push:
     branches: [main]
     paths:
@@ -78,11 +70,21 @@ jobs:
           fi
 
       - name: Korean summaries (Claude, subscription auth)
+        id: summarize
         if: github.event_name != 'push' && steps.haveclaude.outputs.ok == 'true'
-        uses: anthropics/claude-code-base-action@beta
+        # A Claude-side hiccup (expired token, action outage, timeout) must NOT
+        # block the data commit-back or the Pages deploy — papers just keep null
+        # summaries and are re-summarized next run. The warning step below makes a
+        # real failure visible instead of silently green.
+        continue-on-error: true
+        # Pinned to the @beta commit SHA: an unattended daily job must not silently
+        # pick up breaking action-input changes (that just bit us). Bump deliberately.
+        uses: anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34  # beta @ 2026-08-19
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: '--allowedTools "Bash,Read,Write,Edit,Glob,Grep" --model claude-sonnet-5'
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep"
+          model: claude-sonnet-5
+          timeout_minutes: "20"
           prompt: |
             You maintain the Korean battery-paper site. The repo is checked out and
             an earlier CI step has ALREADY fetched today's papers into the data/
@@ -122,6 +124,10 @@ jobs:
                summaries.json.
             Finish with a one-line count of how many papers you summarized. Do NOT
             touch any file outside data/ (besides the temporary summaries.json).
+
+      - name: Warn if summarization failed (visibility for e.g. an expired token)
+        if: github.event_name != 'push' && steps.summarize.outcome == 'failure'
+        run: echo "::warning::Claude summarization failed — check CLAUDE_CODE_OAUTH_TOKEN (expired/empty?) or the action. Papers keep null summaries and retry next run."
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
         if: github.event_name != 'push'
