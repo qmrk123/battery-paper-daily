@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T04:21:24+00:00",
+  "generated_at": "2026-08-19T04:28:16+00:00",
   "count": 3,
   "papers": [
     {
@@ -30,8 +30,8 @@
       "journal_metric": 16.67,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": "폐 리튬이온전지 NMC 양극에서 코발트-니켈 분리를 위해 이온 화학종 제어와 표면개질 나노다공성 막전극을 결합한 Co 선택적 전착 전략을 제시했다. EDTA 킬레이트제로 대부분의 Ni2+를 NiEDTA2− 음이온으로 전환해 Co는 Co2+로 남기고, 국소 전기활성 Co 농도를 높여 선택적 전착을 유도한다.",
-      "relevant": true
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7203477050",
