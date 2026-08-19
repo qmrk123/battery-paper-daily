@@ -66,7 +66,16 @@ jobs:
       - name: Check for Claude subscription token
         id: haveclaude
         if: github.event_name != 'push'
-        run: echo "ok=${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}" >> "$GITHUB_OUTPUT"
+        env:
+          TOK: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          # Map the secret into env first — the `secrets` context does NOT resolve
+          # inside a step-level run: expression (evaluates to empty), so test env.
+          if [ -n "$TOK" ]; then
+            echo "ok=true"  >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Korean summaries (Claude, subscription auth)
         if: github.event_name != 'push' && steps.haveclaude.outputs.ok == 'true'
