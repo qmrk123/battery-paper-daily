@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T04:19:09+00:00",
+  "generated_at": "2026-08-19T04:21:24+00:00",
   "count": 3,
   "papers": [
     {
@@ -30,8 +30,8 @@
       "journal_metric": 16.67,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 리튬이온전지 NMC 양극에서 코발트-니켈 분리를 위해 이온 화학종 제어와 표면개질 나노다공성 막전극을 결합한 Co 선택적 전착 전략을 제시했다. EDTA 킬레이트제로 대부분의 Ni2+를 NiEDTA2− 음이온으로 전환해 Co는 Co2+로 남기고, 국소 전기활성 Co 농도를 높여 선택적 전착을 유도한다.",
+      "relevant": true
     },
     {
       "id": "W7203477050",
@@ -69,9 +69,7 @@
       "title": "BeyondElectrochemistry: Tailoring Mechanical Propertiesof Halogen-Substituted Argyrodites for Conformal Dry Coating and EnhancedBattery Performance",
       "url": "https://doi.org/10.1021/acsnano.6c09375",
       "published": "2026-08-13",
-      "topics": [
-        "ncm"
-      ],
+      "topics": [],
       "doi": "10.1021/acsnano.6c09375",
       "authors": [
         "Yeokyung Lee",
@@ -90,8 +88,8 @@
       "journal_metric": 16.67,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전고체전지에서 황화물 고체전해질(아르지로다이트)의 기계적 물성이 양극 건식 코팅 품질과 전지 성능을 좌우함을 규명했다. Cl/Br 조성으로 영률 등 기계적 특성을 조절하고, AFM 힘분광·나노압입으로 할로겐 치환의 영향을 분석했다. (고체전해질 소재 연구로 6개 전극 주제엔 미해당)",
+      "relevant": false
     }
   ]
 }
