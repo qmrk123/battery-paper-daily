@@ -24,17 +24,29 @@
       "emoji": "🟡"
     },
     {
-      "id": "high-ni-ncm",
-      "label_ko": "High-Ni NCM 양극",
-      "label_en": "High-Ni NCM/NMC cathode",
+      "id": "ncm",
+      "label_ko": "NCM 양극",
+      "label_en": "NCM/NMC cathode",
       "emoji": "🟢"
+    },
+    {
+      "id": "lfp",
+      "label_ko": "LFP 양극",
+      "label_en": "LiFePO4 / olivine cathode",
+      "emoji": "🟣"
     },
     {
       "id": "li-rich",
       "label_ko": "리튬 과잉(Li-rich) 양극",
       "label_en": "Li-rich / Li-excess cathode",
       "emoji": "🔵"
+    },
+    {
+      "id": "other-cathode",
+      "label_ko": "기타 양극재",
+      "label_en": "Other Li cathode (LCO, spinel, PB, organic, S, O2, ...)",
+      "emoji": "⚪"
     }
   ],
-  "updated_at": "2026-08-18T21:27:52+00:00"
+  "updated_at": "2026-08-19T03:16:57+00:00"
 }

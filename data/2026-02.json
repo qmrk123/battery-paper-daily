@@ -1,7 +1,7 @@
 {
   "date": "2026-02",
-  "generated_at": "2026-08-18T08:04:46+00:00",
-  "count": 68,
+  "generated_at": "2026-08-19T03:16:57+00:00",
+  "count": 98,
   "papers": [
     {
       "id": "W7134167642",
@@ -32,6 +32,36 @@
       "relevant": false
     },
     {
+      "id": "W7134202244",
+      "source": "openalex",
+      "title": "Constructing Ionic Fast Diffusion Channels on LiNi 0.5 Mn 1.5 O 4 for Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.202600021",
+      "published": "2026-02-28",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.202600021",
+      "authors": [
+        "Xinyi Zhang",
+        "Sicheng Wu",
+        "Xuzhao Liu",
+        "Haocheng Guo",
+        "Jian Peng",
+        "Xia Huang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Spinel LiNi 0.5 Mn 1.5 O 4 (LNMO) is cobalt‐free and low‐cost cathode material for lithium‐ion batteries (LIBs), offering competitive energy density due to the high operating voltage. However, its practical application is hindered by phase segregation and build‐up impedance from side reactions. Herein, by taking advantage of the good Li + diffusivity of lithiated lanthanum titanate, we introduced a Ti‐assisted surface engineering strategy in which LaTi 2 O 6 (LTO) nano‐islands are in situ constructed on LNMO surfaces, providing additional low‐energy Li + diffusion channels and reinforcing the oxygen framework. Experimental and theoretical analyses demonstrate that Ti plays a dual role by partially incorporating into LNMO bulk, stabilizing the bulk lattice while serving as a precursor for surface LTO formation. Operando synchrotron X‐ray diffraction (XRD) and staircase potential electrochemical impedance spectroscopy (SPEIS) highlight the suppressed phase segregation, mitigated lattice strain and minimized impedance growth upon cycling, respectively. As a result, the as‐designed LNMO delivers a superior rate performance of ∼100 mAh g −1 at 30 C and long‐term cycling stability of 87.8% after 1000 cycles, which is among the best performances reported for LNMO cathodes. A full cell paired with a graphitic carbon anode exhibits significantly enhanced electrochemical performance, offering a promising pathway toward high‐performance manganese‐based LIB applications.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.202600021",
+      "license": "cc-by",
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7131848524",
       "source": "openalex",
       "title": "Understanding the Performance Gap between Polycrystalline and Single-Crystal Nickel-Rich Layered Oxide Cathodes",
@@ -60,6 +90,36 @@
       "image": null,
       "summary_ko": "니켈 함량이 80% 이상인 니켈 과잉 층상 산화물 양극에서 단결정(SC)이 다결정(PC)보다 빠르게 성능이 저하되는 원인을 다중스케일 및 operando 분석으로 규명했다. SC 양극에서 더 불균일한 Ni 산화 과정이 추가적인 비가역 산소 산화환원 활성을 유발해 기계적·화학적 열화를 가속함을 밝혔다.",
       "relevant": true
+    },
+    {
+      "id": "W7131792850",
+      "source": "openalex",
+      "title": "Synthesis-driven electron transfer in disordered rock salt Li-ion battery cathodes",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.111841",
+      "published": "2026-02-27",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.nanoen.2026.111841",
+      "authors": [
+        "Khem Prasad Bhurtel",
+        "Jing Yang",
+        "Chuzhong Zhang",
+        "Angelica Benavidez",
+        "Rui Liu",
+        "Basirat Raji‐Adefila"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7131795063",
@@ -182,6 +242,35 @@
       "relevant": false
     },
     {
+      "id": "W7131674562",
+      "source": "openalex",
+      "title": "Synergistic electrochemical upcycling of spent LiFePO4 cathode and graphite anode via iodine-mediated oxidation and two-electron oxygen reduction coupled system",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105007",
+      "published": "2026-02-26",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.105007",
+      "authors": [
+        "Ying Zhu",
+        "Ke Wang",
+        "Ke Wang",
+        "Ke Wang",
+        "Ke Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7131630103",
       "source": "openalex",
       "title": "Heterogeneous Cations Enable Crystallographic Regulation of Na Deposition toward Dendrite-Free Sodium Metal Batteries",
@@ -275,6 +364,36 @@
       "image": null,
       "summary_ko": "닫힌 루프로 재활용 가능한 계면 성장 중합법을 이용해 확장 가능하고 경제적인 준고체 리튬 금속 전지를 구현한 연구로 보인다 (제목 기반 추정).",
       "relevant": true
+    },
+    {
+      "id": "W7131361188",
+      "source": "openalex",
+      "title": "Maximizing energy utilization and lithium leaching efficiency via sequential electrochemical dual-oxidation and soaking-relaxation",
+      "url": "https://doi.org/10.1038/s41467-026-69834-x",
+      "published": "2026-02-25",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1038/s41467-026-69834-x",
+      "authors": [
+        "Weixu Zhong",
+        "Xiaosong Gu",
+        "Xuezhen Feng",
+        "Shengyao Jin",
+        "Yangzi Shangguan",
+        "Hao Fan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Given the escalating global demand for lithium resources, optimizing electric energy consumption in the electrochemical dual-oxidation (EDO) process, which includes both electrode oxidation and electrocatalytic oxidation, for lithium leaching from spent lithium-ion cathodes, is imperative. Herein, we propose an energy-effective two-stage continuous oxidation method for lithium leaching from various composition spent ternary lithium-ion batteries (NCM) cathodes. Coupling EDO (stage I) with soaking relaxation (stage II) enables both commercial and spent LiNi 1/3 Co 1/3 Mn 1/3 O 2 (NCM111) cathodes to achieve optimal electric energy efficiencies, with lithium leaching efficiencies of 99.87% and 98.12%, respectively. A comprehensive mechanism study reveals that the EDO not only drives lithium leaching from NCM111 lattice at stage I, but also effectively induces the transformation of lattice oxygen (O 2- ) into oxidized lattice oxygen (O n- , n < 2), thus driving the continuous lithium leaching at stage II with 49.78% reduction in electric energy consumption. This work unravels the electrical energy profile and structural dynamics during the EDO lithium leaching process, which paves the way for implementing the EDO method for the industrial sustainable recovery of critical metals.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-69834-x_reference.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7134182671",
@@ -516,6 +635,66 @@
       "relevant": null
     },
     {
+      "id": "W7131414390",
+      "source": "openalex",
+      "title": "Efficient Direct Recycling Strategy of Spent LiFePO 4 Cathodes by Structural Defect Repair and Interface Construction",
+      "url": "https://doi.org/10.1002/adma.202521012",
+      "published": "2026-02-24",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/adma.202521012",
+      "authors": [
+        "Mingdong Li",
+        "Ziwen Ying",
+        "Zhiyuan Zeng",
+        "Jiehui Hu",
+        "Zhen Shang",
+        "Shengming Xu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The increasing number of retired LiFePO 4 batteries urgently requires efficient and environmentally friendly recycling methods. The primary causes of LiFePO 4 battery failure can be attributed to lithium loss and the formation of Fe(III) phases. Therefore, the synergistic interaction between the green reagent citric acid (CA) and urea (UR) achieves low‐temperature spontaneous defect repair and the construction of an N‐doped carbon layer. Specifically, CA creates a reductive atmosphere that reduces Fe(III) to the Fe(II) phase, thereby eliminating Li‐Fe anti‐site defects. Meanwhile, the amino group (─NH 2 ) in UR acts as a nitrogen source, enabling N‐doping modification of the carbon layer on the surface of LiFePO 4 particles. The formed N‐doped carbon layer effectively improves the electronic conductivity and lithium‐ion migration dynamics of regenerated LiFePO 4 (R‐LFP). Moreover, the strengthening of Fe‐O and P─O bonds further increases the overall structural stability of R‐LFP, resulting in its remarkable electrochemical performance. The R‐LFP electrode material delivers 163 mAh/g specific capacity during the first discharge cycle at 0.1C and retains 93.5% of its initial capacity after 500 cycles at 1C. This economical and environmentally friendly recycling strategy provides a greatly promising solution for the sustainable recovery of lithium‐ion batteries (LIBs).",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7131387771",
+      "source": "openalex",
+      "title": "Coupled Electronic‐Catalytic Regulation in All‐in‐One VN/B 2 O 3 Ceramic Enables Fast Polysulfides Conversion in Li‐S Batteries",
+      "url": "https://doi.org/10.1002/anie.202526035",
+      "published": "2026-02-24",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.202526035",
+      "authors": [
+        "Ruiqing Liu",
+        "Chenxu Tian",
+        "Xiaoyu Wang",
+        "Hui Cheng",
+        "Yuxin Li",
+        "Yalin Zhang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium‐sulfur (Li‐S) batteries hold great promise for next‐generation high‐energy storage but are challenged by sluggish lithium polysulfides (LiPSs) conversion, low sulfur utilization, and limited practical loading. Herein, we report an all‐in‐one ant‐nest‐like porous VN/B 2 O 3 (VNBO) ceramic, constructed through a bottom‐up sintering‐diffusion process of VN nanoparticles coupled with the phase transition of B 2 O 3 . This integrated porous ceramic provides a continuous conductive framework with minimized interfacial resistance. The VN nano‐units serve as highly active catalytic centers to accelerate LiPSs redox kinetics, while B 2 O 3 component promotes the formation of the hierarchical ant‐nest‐like network and modulates the electronic structure of the VN/B 2 O 3 heterointerface. This coupled electronic‐catalytic regulation effectively suppresses LiPSs shuttling and enables fast, reversible LiPSs conversion. Benefiting from this synergistic architecture, the 2‐VNBO@S cathode delivers outstanding electrochemical performances, achieving 1187.2 mAh g −1 at 0.5 C after 200 cycles and retaining 944.3 mAh g −1 over 300 cycles at 3 C with a capacity decay of only 0.054% per cycle. Even under a high sulfur loading of 4 mg cm −2 , it maintains 557.9 mAh g −1 after 150 cycles. This work establishes a robust design strategy for high‐energy and catalytically active sulfur cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7131078409",
       "source": "openalex",
       "title": "Multifunctional Asymmetric Soluble Covalent Organic Frameworks: A Versatile Medium for Stabilizing Lithium Anode Interfaces",
@@ -574,6 +753,37 @@
       "image": null,
       "summary_ko": "니켈 함량 90% 이상의 초고니켈 층상산화물 양극이 겪는 대기 민감성, 열 안정성 부족, 급속 용량 감소 문제를 동시에 해결하기 위해 원위치 중화 반응으로 자가조립되는 단일이온 전도체 멤브레인을 개발했다. 이 멤브레인은 소수성이 뛰어나고 445°C 이상의 열 안정성과 PF6- 음이온에 대한 도넌 배제능을 가져 초고니켈 양극의 대기 안정성, 내열성, 전기화학 성능을 종합적으로 향상시킨다.",
       "relevant": true
+    },
+    {
+      "id": "W7130818272",
+      "source": "openalex",
+      "title": "Self-driven recycling of spent Li-ion battery materials with electricity generation",
+      "url": "https://doi.org/10.1038/s41467-026-69868-1",
+      "published": "2026-02-21",
+      "topics": [
+        "ncm",
+        "lfp"
+      ],
+      "doi": "10.1038/s41467-026-69868-1",
+      "authors": [
+        "S. L. Huang",
+        "Songpeng Huang",
+        "Mengxiao Li",
+        "Hang Zhang",
+        "Xun Wang",
+        "Manohar Salla"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Spent lithium-ion batteries (LIBs) provide a valuable source of critical metals for cathode material production. However, the prevalent recycling technologies focus on processing only one type of spent cathode material, demanding high energy input and significant chemical consumption, which raises both environmental and economic concerns. Here, we propose a complementary redox-mediated recycling strategy for multiple types of spent cathode materials using a redox-targeting flow cell design. In this system, spent LiFePO4 and layered oxide cathode materials serve as the anodic and cathodic feedstocks, respectively. Coupled redox-mediated oxidative and reductive leaching simultaneously generates electricity (theoretically 246 MWh per annum for 10,000 tonnes of black mass) while driving lithium-ion migration into the catholyte. Leaching efficiencies of critical metals exceed 95% for both materials, accompanied by a calculated carbon dioxide capture rate of 1,066 tonnes per annum. By integrating hydrogen looping for base and acid regeneration, the system operates over a closed loop without net chemical consumption. This strategy shows potential greater environmental and economic benefits compared with the traditional hydrometallurgical method based on techno-economic analysis, potentially offering a sustainable approach to LIBs recycling. Prevalent recycling technologies focus on processing only one type of spent cathode material, demanding high energy input and significant chemical consumption. Here, authors present a redox‑mediated flow‑cell strategy to recover multiple cathode types, generating electricity during the process, with >95% metal leaching efficiency.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-69868-1_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7130741139",
@@ -666,6 +876,36 @@
       "relevant": true
     },
     {
+      "id": "W7130502214",
+      "source": "openalex",
+      "title": "Nanoscopic Imaging the Lithiation of Sulfur Nanoparticles under Electron Beam Irradiation",
+      "url": "https://doi.org/10.1002/advs.202519640",
+      "published": "2026-02-19",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/advs.202519640",
+      "authors": [
+        "Rui Huang",
+        "Xingyu Zhang",
+        "Xingqi Liao",
+        "Ruxue Bai",
+        "Xianqi Wu",
+        "Junlei Xiang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT In situ Transmission Electron Microscopy (TEM) provides powerful insights into the reaction mechanisms of Lithium‐Sulfur (Li‐S) batteries. However, distinguishing intrinsic electrochemical behaviors from artifacts induced by high‐energy electron beam irradiation remains a critical challenge. Here, we systematically investigate the lithiation kinetics of sulfur nanoparticles triggered exclusively by electron beam irradiation, decoupling beam effects from electrochemical driving forces. We first conduct control experiments on pure lithium oxide (Li 2 O) and pure sulfur to assess their stability under electron irradiation, and then monitor lithiation behavior in a mixed system of sulfur and lithium oxide (Li 2 O), under varying irradiation times and temperatures. We report a striking “explosive” lithiation phenomenon, characterized by a massive volume expansion of up to 8300% and rapid kinetics (19312 nm 2 s −1 ), which starkly contrasts with the ∼80% expansion observed in conventional electrochemical cycling. By conducting comparative experiments across a wide temperature range (25°C to −150°C), we identify the thermal effect of the electron beam as the dominant driving force; notably, the explosive reaction is completely suppressed at cryogenic temperatures (−150°C). Furthermore, we observe unique beam‐induced artifacts, including directional cavity formation and rapid phase transitions from crystalline S to amorphous Li 2 S. This work establishes a critical baseline for distinguishing beam‐induced damage from genuine electrochemical reactions in in situ TEM studies and provides nanoscopic insights into the thermal runaway mechanisms of sulfur cathodes under high‐energy abuse conditions, underpinning accurate characterization of Li‐S battery materials and development of advanced battery systems.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.202519640",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7130616122",
       "source": "openalex",
       "title": "Gel electrolyte featuring parasitic salt-phobic network enables anode-free lithium batteries with long cycle life and enhanced thermal stability",
@@ -694,6 +934,96 @@
       "image": null,
       "summary_ko": "기생 염 반발성 네트워크를 갖는 젤 전해질을 이용해 긴 수명과 향상된 열 안정성을 갖는 무음극 리튬 전지를 구현한 연구로 보인다 (제목 기반 추정).",
       "relevant": true
+    },
+    {
+      "id": "W7130661640",
+      "source": "openalex",
+      "title": "Concentration‐Gradient Solid‐State Sulfur Cathode Enabling Improved Energy Storage Under High Sulfur Loadings",
+      "url": "https://doi.org/10.1002/adfm.202530425",
+      "published": "2026-02-19",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.202530425",
+      "authors": [
+        "Yifei Ma",
+        "Tianyu Qiu",
+        "Zhiwei Liu",
+        "Die Zhou",
+        "Zhihong Huang",
+        "Xuemei Cheng"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state lithium‐sulfur battery (ASSLSB) represents one of the most promising energy storage technologies attributed to the high energy density, intrinsic safety, and economic viability. However, introducing solid‐state electrolytes (SEs) into the sulfur cathode triggers thorny problems of deficient sulfur loading, inadequate sulfur utilization, and severe interfacial degradation. Here, we demonstrate a spatially tailored sulfur cathode architecture with concentration‐gradient SE and conductive agent distribution. From the separator side to the current collector, SE concentration is decreased from 65 to 55 wt.%, which promotes lithium‐ion transport through continuous pathways and concentration‐driven forces. Conversely, the concentration of conductive agent increases from 5 to 15 wt.% to ensure efficient electron conduction. The mutually opposing concentration gradients simultaneously suppress the SE degradation by minimizing its interfacial contacts with conductive agents. As a result, the ASSLSB delivers enhanced sulfur utilization (1315 mAh g −1 ) under 7.6 mg cm −2 , while maintaining a low capacity fading rate of 0.05% per cycle over 225 cycles. Even further increasing the sulfur loading to 11.4 mg cm −2 , a high capacity of 10.96 mAh cm −2 is achieved.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.202530425",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7130330692",
+      "source": "openalex",
+      "title": "Uncovering Electrochemical‐Mechanical Interplay of Stable Ultrahigh‐Nickel Cathode via Fine Structure Regulation",
+      "url": "https://doi.org/10.1002/adma.202523526",
+      "published": "2026-02-18",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.202523526",
+      "authors": [
+        "Guiquan Zhao",
+        "Yongjiang Sun",
+        "Xin Wang",
+        "Pujia Cheng",
+        "Futong Ren",
+        "Qing Liu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Ni‐rich layered oxides with optimized primary particle structures are crucial for developing lithium‐ion batteries with high energy density. Although conventional high‐valence elements doping effectively refines grains for columnar alignment, the industrial understanding of the processing‐structure‐performance relationship is lacking, and thus limits large‐scale production. Herein, we investigate how molybdenum incorporation routes alter microstructure and performance, revealing a link between early structural evolution and capacity increase trends. Unlike the solid‐phase gradient, the co‐precipitation strategy achieves ultra‐dispersed Mo doping, leading to super‐refined primary particles and a dense structure that reduces microcracking through internal stress dissipation. Notably, it also limits electrolyte penetration, thereby influencing the initial Li + transport kinetics. Moreover, this process induces a Li/TM cation‐ordered structure that permeates the entire bulk phase of LiNi 0.95 Co 0.04 Mo 0.01 O 2 , suppressing Li + /Ni 2+ cation disorder and mitigating intragranular/intergranular strain. These combined effects significantly enhance the structural robustness, resulting in a high discharge capacity of 204.9 mAh g − 1 at 5C. This work offers a straightforward and scalable industrial solution for enhancing the overall electrochemical performance of Ni‐rich cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7130508754",
+      "source": "openalex",
+      "title": "Streamlined Precise Delamination and Structural Restoration of Spent LiFePO 4 Cathode Materials",
+      "url": "https://doi.org/10.1002/aenm.70768",
+      "published": "2026-02-18",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/aenm.70768",
+      "authors": [
+        "Yuxin Fan",
+        "Shiwen Gong",
+        "Jiajun Li",
+        "Pinxian Jiang",
+        "Fangyan Liu",
+        "Shuaipeng Hao"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Efficient recycling of spent lithium‐ion battery cathodes remains both critical and challenging. Achieving high‐purity separation hinges on the precise delamination of active materials from current collectors, which directly influences downstream recycling efficiency. Guided by density functional theory, we develop a versatile strategy that enables rapid, high‐efficiency delamination by first deactivating the binder, followed by structural restoration of the separated LiFePO 4 (LFP) through electron activation using a designed bi‐phase electron‐rich reagent (BER). Experimentally, the approach attains > 99% separation efficiency for LFP and multiple electrode chemistries within minutes, while fully preserving the structural integrity of both active materials and metal foils. The phase I BER (BER‐I) maintains stable performance over more than ten cycles after simple zeolite purification, showing negligible changes in viscosity or chemical composition. Notably, BER‐I can be converted in situ into a repairing phase II BER that replenishes lithium loss and heals structural defects, enabling direct regeneration. The regenerated LFP delivers a specific capacity of 154.7 mAh g −1 at 0.1 C, while its 0.5 Ah pouch cell maintains 91.1% capacity after 400 cycles at 1 C. Techno‐economic analysis further reveals that this integrated separation‐regeneration route offers a more sustainable and economically advantageous solution than existing recycling processes.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.70768",
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7130470308",
@@ -782,6 +1112,34 @@
       "relevant": false
     },
     {
+      "id": "W7129244337",
+      "source": "openalex",
+      "title": "Re‐Evaluating Jahn–Teller Distortion for Structural Flexibility and Fast Ion Transport in LMFP Cathodes",
+      "url": "https://doi.org/10.1002/adfm.74566",
+      "published": "2026-02-16",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/adfm.74566",
+      "authors": [
+        "Gayoung Youn",
+        "Seunghyeop Baek",
+        "Munseok S. Chae",
+        "Kang Taek Lee"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The Jahn–Teller distortion, often regarded as a structural drawback in Mn‐based cathodes, is re‐evaluated in this study through a comprehensive investigation of LiMn 0.6 Fe 0.4 PO 4 (LMFP). Compared to conventional LiFePO 4 (LFP), LMFP exhibits improved rate capability and enhanced Li transport, underpinned by a continuous single‐phase reaction pathway during delithiation. Operando XRD and Rietveld refinement reveal that LMFP undergoes a minimal volume change (0.8%) upon charging, in stark contrast to the 7.1% shrinkage and two‐phase transition in LFP. Soft bond‐valence calculations further confirm a reduced lithium migration barrier (0.44 eV vs. 0.48 eV), highlighting the role of Mn 3+ ‐induced local lattice distortions in enhancing ionic conductivity. These results reveal a previously underexplored beneficial role of Jahn–Teller distortion, showing that Mn‐induced local lattice flexibility contributes to Li + mobility and rate capability. This work suggests Jahn–Teller engineering as a viable strategy for designing structurally adaptive phosphate cathodes with improved ionic transport and electrochemical performance.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7129074709",
       "source": "openalex",
       "title": "Pit-Free Stripping in Discharge-Initiated Lithium Metal Batteries",
@@ -810,6 +1168,36 @@
       "image": null,
       "summary_ko": "방전으로 사이클을 시작하는 방전개시형 리튬 금속 전지(LMB)가 충전개시형보다 더 큰 계면 문제(불규칙한 Li 탈리, 피트 유도 불균일성, 조기 보호막 실패)를 겪는 이유를 다룬 퍼스펙티브다. 높은 Li 이용률과 린 전해질 조건이 불균일한 SEI 형성과 피트 유발 리튬 분쇄를 악화시키는 메커니즘을 탈리 조건에서의 SEI 형성과 연관지어 재검토한다.",
       "relevant": true
+    },
+    {
+      "id": "W7129076462",
+      "source": "openalex",
+      "title": "Orbital Engineering via D‐p Hybridization by in Doping Enables High‐Performance Lithium Manganese Iron Phosphate Cathodes",
+      "url": "https://doi.org/10.1002/adfm.202531534",
+      "published": "2026-02-16",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/adfm.202531534",
+      "authors": [
+        "Wentao Dou",
+        "Sicheng Niu",
+        "Lingfeng Li",
+        "Yixiao Guo",
+        "Yandi Wen",
+        "Xingyuan Bing"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium manganese iron phosphate (LMFP) is a promising cathode material for lithium‐ion batteries, featuring high theoretical energy density, low cost, and excellent safety. However, the practical application of LMFP cathode material is critically limited by their inherent poor electronic conductivity and structural degradation during cycling. To address these bottlenecks, we reported a rational design of an indium (In)‐doped LMFP material. Comprehensive characterizations confirm the successful incorporation of In 3+ into the olivine lattice, which induces a slight lattice expansion while maintaining the particle morphology. Crucially, In doping effectively suppresses the Jahn–Teller distortion and mitigates transition metal dissolution. The optimized LiMn 0.5 Fe 0.49 In 0.01 PO 4 cathode exhibits superior rate capability (157 mAh/g at 0.1C and 125 mAh/g at 5C) and outstanding cycling stability, with nearly zero capacity decay after 300 cycles at 1C. Electrochemical impedance spectroscopy and post‐cycling analysis reveal that the enhanced performance originates from reduced charge‐transfer resistance, accelerated reaction kinetics due to increased electron delocalization, and effective suppression of structural degradation and interfacial side reactions. This work establishes In doping as a potent strategy for concurrently enhancing the electronic conductivity and structural integrity of LMFP cathodes. The successful demonstration of kilogram‐scale synthesis underscores the industrial viability of this approach, thereby paving the way for developing advanced cathode materials toward high‐power and long‐life energy storage.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.202531534",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7129078164",
@@ -932,6 +1320,36 @@
       "relevant": true
     },
     {
+      "id": "W7128949641",
+      "source": "openalex",
+      "title": "Tailoring Coordination Micro‐Environments in Metal‐Based Molecular Complexes to Homogeneously Catalyze Li─S Battery Reactions",
+      "url": "https://doi.org/10.1002/anie.202519282",
+      "published": "2026-02-15",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.202519282",
+      "authors": [
+        "Qin Yang",
+        "Jinhao Zhang",
+        "Yunfeng Zhang",
+        "Kuiyou Wang",
+        "Zong Lu",
+        "Paul Takyi‐Aninakwa"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT The performance of lithium‐sulfur (Li─S) batteries is severely constrained by fatal polysulfide shuttling, sluggish sulfur redox kinetics, and uncontrollable lithium deposition. Organic metal‐based molecules have recently emerged as a novel type of promoters capable of modulating sulfur and lithium species evolution through either heterogeneous or homogeneous mechanisms to respond these issues. Herein, homogeneous metal‐based phenanthroline molecular catalysts are developed by tailoring coordination micro‐environments within electrolyte. By altering metal center type, the Co‐based complex in the electrolyte (Co‐ETL) shows an identical coordination geometry of Co–N 4 , whereas the Fe‐based complex in the electrolyte (Fe‐ETL) exhibits dual Fe─N 2 /Fe─N 4 coordination structures. Specifically, the Fe─N 2 coordination enhances adsorption of sulfur and lithium species, whereas the Fe─N 4 coordination promotes lithium atom diffusion more efficiently. Such a rational functionality division remarkably enhance the homogeneous optimization activity of the Fe‐ETL toward the kinetically favorable sulfur cathode reactions and improved lithium anode stability. Therefore, the battery demonstrates stable cycling at 5.0 C over 500 cycles with a low degradation of 0.03% per cycle. Even under a sulfur loading of 7.1 mg cm −2 , the battery delivers a remarkable initial areal capacity of 6.4 mA h cm −2 and maintains a favorable cycling stability.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7128961743",
       "source": "openalex",
       "title": "Complementary Anion‐Cation Modulated Electrolyte with Balanced Conductivities for High‐Performance All‐Solid‐State Lithium‐Metal Batteries",
@@ -991,6 +1409,33 @@
       "relevant": true
     },
     {
+      "id": "W7128780864",
+      "source": "openalex",
+      "title": "The significant in-plane heterogeneity of cathode performance in aged lithium iron phosphate batteries: Modeling and mitigation method",
+      "url": "https://doi.org/10.1016/j.ensm.2026.104991",
+      "published": "2026-02-14",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.104991",
+      "authors": [
+        "Huacui Wang",
+        "Xudong Duan",
+        "Binghe Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7128930141",
       "source": "openalex",
       "title": "Mechanistic insights into soft shorts in all-solid-state lithium metal batteries using a three-electrode and pressure-monitoring cell",
@@ -1017,6 +1462,36 @@
       "image": null,
       "summary_ko": "전고체 리튬 금속 전지(ASSLMB)에서 발생하는 '소프트 쇼트'(부분적·일시적 내부 단락) 현상을 3전극 및 압력 모니터링 셀을 이용해 규명했다. LTO|LPSC|Li 구조의 삼전극 셀과 원위치 리튬화 Au/W 기준전극을 이용한 오퍼란도 압력 모니터링으로 중간 전류밀도에서의 전기-화학-기계적 메커니즘을 분석했다.",
       "relevant": true
+    },
+    {
+      "id": "W7128910395",
+      "source": "openalex",
+      "title": "Enabling ultra-high-loading LiFePO4 cathodes via a conductive binder architecture with minimized inactive content",
+      "url": "https://doi.org/10.1016/j.ensm.2026.104987",
+      "published": "2026-02-14",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.104987",
+      "authors": [
+        "Eunhwan Noh",
+        "Sang‐Ho Oh",
+        "Hyeri Kang",
+        "Hyeri Kang",
+        "Miseung Kim",
+        "Jee Ho Ha"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7128815365",
@@ -1047,6 +1522,66 @@
       "image": null,
       "summary_ko": "무음극 리튬 금속 전지의 불안정한 리튬 도금 문제를 해결하기 위해 벌크 전해질 조성 변경 없이 국소 용매화 환경을 재구성하는 펄스 충전 프로토콜을 베이지안 최적화로 탐색했다. 전기화학적 통찰과 능동학습을 결합해 기존 스크리닝 대비 5배 빠르게 고성능 프로토콜을 찾았으며, 최적 프로토콜은 사이클 성능을 60% 이상 향상시키고 균일한 리튬 석출과 LiF가 풍부한 SEI를 형성시켰다.",
       "relevant": true
+    },
+    {
+      "id": "W7128819176",
+      "source": "openalex",
+      "title": "Chemical Imaging of Cathode–Electrolyte Interphase in Sulfide Solid-State Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.5c03034",
+      "published": "2026-02-13",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/acsenergylett.5c03034",
+      "authors": [
+        "Lihong Zhao",
+        "Qiuyi Yuan",
+        "Wen Ren",
+        "Toshihiro Asada",
+        "Chaoshan Wu",
+        "Takanori Itoh"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "The cathode–electrolyte interphase critically impacts the performance of solid-state batteries, yet its chemical evolution remains poorly understood, especially in sulfide systems. Here, we employ scanning transmission X-ray microscopy (STXM) to directly map the NMC–argyrodite interphase. We show that sulfide oxidation primarily occurs at the electrolyte surrounding the NMC particles, while the bulk electrolyte remains electrochemically stable. This interfacial oxidation, accompanied by Ni reduction, leads to the formation of P 2 S x, S 0, and SO x 2– species at interphase. Our results provide direct evidence of cathode–electrolyte interactions and elucidate interfacial degradation.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7128682207",
+      "source": "openalex",
+      "title": "Tuning the additive participation in cathode-electrolyte-interphase construction via competitive adsorption for high-voltage LiCoO2",
+      "url": "https://doi.org/10.1016/j.jechem.2026.01.063",
+      "published": "2026-02-12",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.01.063",
+      "authors": [
+        "Ziwei Liu",
+        "Lingfeng Shi",
+        "Y. Liu",
+        "Chi Ma",
+        "Chi Ma",
+        "Guangxiang Zhang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7128723894",
@@ -1224,6 +1759,66 @@
       "relevant": true
     },
     {
+      "id": "W7128710859",
+      "source": "openalex",
+      "title": "Prussian Blue Analogue Cathodes for Post‐Lithium‐Ion Batteries: Recent Advances and Future Perspectives",
+      "url": "https://doi.org/10.1002/aenm.70735",
+      "published": "2026-02-11",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.70735",
+      "authors": [
+        "Chengrui Yang",
+        "Zhengkang Chen",
+        "Hua Kun Liu",
+        "Shi Xue Dou",
+        "Wei Huang",
+        "Shaokun Chong"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT As the development of sustainable, scalable post‐lithium‐ion batteries intensifies, Prussian blue analogues (PBAs) stand out for their unique open‐framework architecture. However, their translation into practical devices is hindered by intrinsic atomic‐scale challenges, including phase instability, Jahn‐Teller distortions, and ubiquitous vacancies. This review deciphers the fundamental mechanisms through which advanced engineering strategies, from precise elemental doping/substitution to disruptive high‐entropy design, reprogram PBAs’ electrochemical properties. We present a dedicated discourse on how these tactics selectively enhance intrinsic activity, engineer coordination environments, and dictate ion transport kinetics. By critically synthesizing these insights into actionable design principles, we provide a strategic blueprint for navigating the current challenges and accelerating the development of next‐generation PBA cathodes. This work is poised to serve as a foundational guide for researchers aiming to push the boundaries of energy storage materials.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.70735",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7128594544",
+      "source": "openalex",
+      "title": "Orientation Site‐Induced Antiferromagnetic Coupling Stabilizes Reconstructed Cathode From Spent Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/anie.202522851",
+      "published": "2026-02-11",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/anie.202522851",
+      "authors": [
+        "Chenzhaosha Li",
+        "Yujia He",
+        "Weiping Li",
+        "Kai Jia",
+        "Pengfei Li",
+        "Kunzhi Hou"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Direct regeneration of spent layered ternary oxide cathodes offers a sustainable pathway for resource recovery and circular battery manufacturing. However, their long‐term stability is fundamentally constrained by intrinsic electronic interactions. In particular, the inherent π‐type hybridization between Ni 3 d orbitals and O 2 p orbitals facilitates detrimental Ni migration and rock‐salt phase formation, ultimately leading to rapid capacity degradation. Here, we leverage the preexisting Li vacancies in spent LiNi 0.5 Co 0.2 Mn 0.3 O 2 (NCM) as orientation sites to induce localized lattice stress fields during regeneration. The resulting lattice perturbation modulates the spin configuration of bridging O anions, thereby triggering antiferromagnetic coupling between adjacent Ni cations and O anions. Consequently, the Ni─O orbital hybridization transitions from weak π‐dominated to robust σ‐dominated interactions, as evidenced by enhanced covalent character of the Ni─O bonds. This reinforced bonding framework effectively suppresses Ni migration and defect propagation during repeated lithiation/delithiation cycles. As a result, the regenerated NCM cathode exhibits significantly improved durability, retaining ∼60% of its initial capacity after 750 cycles. These findings reveal a direct correlation between the local valence bond evolution and cycling reversibility of cathode materials, offering new design principles and mechanistic insights for stabilizing regenerated cathode materials.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202522851",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7128598880",
       "source": "openalex",
       "title": "Multiphase Functional Regulation of the Interface between Sulfide Solid-State Electrolyte and Nickel-Rich Cathode",
@@ -1250,6 +1845,36 @@
       "image": null,
       "summary_ko": "황화물 고체전해질과 니켈리치 양극 사이의 계면 열화 문제를 해결하기 위해 유기물과 무기물을 결합한 하이브리드 코팅층을 설계했다. 폴리비닐피롤리돈이 표면 함몰부를 우선적으로 채워 완충층 역할을 하고, 이온전도성이 우수한 LixBOy가 공간전하층 형성을 완화해 구조적·화학적 안정성을 높인다.",
       "relevant": true
+    },
+    {
+      "id": "W7128597261",
+      "source": "openalex",
+      "title": "Interface-Mediated Jahn–Teller Effect in a Structure-Reinforced LiMnO 2 Cathode",
+      "url": "https://doi.org/10.1021/jacs.5c20036",
+      "published": "2026-02-11",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.5c20036",
+      "authors": [
+        "Hanghui Liu",
+        "Tao Shen",
+        "Xiaohui Zhu",
+        "Mei Yang",
+        "Yushuai Yao",
+        "Eric Jianfeng Cheng"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Lithium manganese-rich oxides are promising cobalt-free cathodes, but their viability is plagued by cooperative Jahn–Teller (CJT) distortions of Mn 3+ ions. Conventional strategies only partially mitigate this instability without addressing its electronic origin. Herein, we demonstrate a paradigm of interfacial orbital ordering to suppress CJT distortions at its root. We construct a spinel-layered LiMnO 2 heterostructure with noncollinear JT ordering (SLNC-LMO) and benchmark it against a collinear analog. Atomic-resolution imaging confirms the near-orthogonal arrangement of MnO 6 octahedra across the interfaces. Combined with density functional theory calculations, we reveal that this noncollinear ordering introduces orbital geometric frustration, which drastically reduces the e g orbital splitting energy to 0.24 eV from 1.12 eV of the collinear structure. This near restoration of orbital degeneracy suppresses long-range distortion propagation and enhances interfacial cohesion. Consequently, the SLNC-LMO cathode delivers exceptional cycling stability, retaining 100% of its capacity after 500 cycles, far outperforming the collinear counterpart. This work establishes interfacial orbital engineering as a general design principle for stabilizing manganese-rich and other Jahn–Teller-active electrode materials.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7128592190",
@@ -1343,6 +1968,36 @@
       "relevant": true
     },
     {
+      "id": "W7128501471",
+      "source": "openalex",
+      "title": "Redox‐Mediated Electrochemical Regeneration of Spent LiFePO 4 Battery Cathodes",
+      "url": "https://doi.org/10.1002/anie.202520213",
+      "published": "2026-02-10",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/anie.202520213",
+      "authors": [
+        "Deok‐Ho Roh",
+        "Dayun Jung",
+        "James B. Gerken",
+        "Jesse J. Martinez",
+        "Eric Kazyak",
+        "Shannon S. Stahl"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Direct recycling of lithium‐ion battery cathodes offers considerable appeal over metallurgical approaches. Here, we demonstrate a mediated electrochemical method for direct regeneration of degraded LiFePO 4 (LFP). The approach uses a redox mediator, iron propylenediamine tetraacetate, that undergoes electrochemical reduction and is circulated through an external reservoir, where it supplies the electrons needed to regenerate LFP in the presence of Li + ions derived from LiOH oxidation. Rapid outer‐sphere electron transfer is observed from the mediator to the degraded LFP material. This feature, together with good aqueous solubility of the mediator (0.3 M), supports current densities up to 100 mA/cm 2 , and this electrochemical recycling process is demonstrated on 100 g scale. 57 Fe Mössbauer spectroscopy is used to monitor the correction of structural defects in the degraded LFP, providing the basis for regeneration of LFP that matches the electrochemical performance of pristine LFP.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202520213",
+      "license": "cc-by",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7128487462",
       "source": "openalex",
       "title": "Interfacial Kinetics, Not Solvation Thermodynamics, Govern the Reversibility of Sodium Metal Batteries",
@@ -1371,6 +2026,65 @@
       "image": null,
       "summary_ko": "소듐 금속 전지의 가역성이 용매화 열역학이 아니라 계면 반응속도론에 의해 좌우됨을 정량적으로 규명했다. NaFSI/DME, FEC, DMFSA 전해질 체계에서 Li계와 달리 Na 쿨롱효율은 Na+/Na 산화환원 전위나 계면 반응 엔트로피와 상관관계가 없고, 이온확산 대비 계면 반응속도(j0(SEI)/FcD)가 빠를수록 쿨롱효율이 향상됨을 X선 광전자분광 등으로 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "W7128488015",
+      "source": "openalex",
+      "title": "High-Energy Quasi-Solid-State Lithium–Sulfur Batteries Based on Electrostatic–Nucleophilic Synergy",
+      "url": "https://doi.org/10.1021/acsenergylett.5c04332",
+      "published": "2026-02-10",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsenergylett.5c04332",
+      "authors": [
+        "Yi Zhang",
+        "Xiaosheng Song",
+        "Yong Zhao",
+        "Geon-Tae Park",
+        "Yang-Kook Sun"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Quasi-solid-state-polymer-electrolyte-based (QSSE-based) quasi-solid-state lithium–sulfur batteries (QSSLSBs) are an emerging research focus because they are safe and deliver high energy density. However, sluggish interfacial reaction kinetics involving the sulfur cathode and QSSE remains a core developmental bottleneck. Herein, we reveal that the cations and anions of tetrabutylammonium iodide (TBAI) promote S 3 •– generation via a synergistic electrostatic–nucleophilic catalysis mechanism that accelerates lithium polysulfide conversion. Accordingly, we innovatively introduced TBAI into the cathode–QSSE interface to construct an QSSE with a catalytically active interfacial layer that realized enhanced interface reaction kinetics. The cycling performance of the assembled QSSLSBs: an average decay rate of only 0.038% per cycle over 1600 stable long cycles at 0.2 C; a capacity retention of 70.5% after 100 cycles at 0.1 C under a high sulfur loading of 6.5 mg·cm –2 . The synergistic electrostatic–nucleophilic catalysis strategy developed herein provides innovative insight that addresses the sluggish interfacial kinetics of the QSSLSB cathode.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7128494734",
+      "source": "openalex",
+      "title": "Gradient Entropy Surface Architecture Stabilizes LiCoO 2 to 4.7 V",
+      "url": "https://doi.org/10.1021/acsnano.5c15771",
+      "published": "2026-02-10",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.5c15771",
+      "authors": [
+        "Fangchang Zhang",
+        "Xinye Mai",
+        "Yulin Cao",
+        "Xuhui Li",
+        "Xiaofeng Wu",
+        "Yongcong Huang"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "LiCoO 2 (LCO) is the dominant cathode for 3C-type lithium-ion batteries. However, it suffers from severe structural and interfacial deterioration above 4.55 V. Herein, a gradient entropy (GE) surface architecture approach is proposed to stabilize LCO to an ultrahigh cutoff voltage of 4.7 V. This customized architecture is mediated by a homogeneous self-encapsulation layer via the exceptional chelating capability of phytic acid with multiple metal ions (Mg/Al/Ni) on the LCO surface. Upon calcination, a distinctive GE-LCO features a gradient surface architecture with entropy gradually decreasing from exterior to interior, which facilitates the high retention of bulk electrochemical activity while leveraging high-entropy effects to stabilize the surface. Specifically, the higher-entropy surface lowers the Gibbs free energy, producing a thermodynamically stable outer surface. Kinetically, P–Mg–Ni dopants expand the Li channels that enhance Li + mobility. The cocktail effect substantially stabilizes the surface oxygen by modulating Co 3 d -O 2 p hybridization. Moreover, the gradient-entropy layer raises the kinetic barrier, thus significantly inhibiting interfacial Co migration. Comprehensive analysis reveals that these coupled entropy-driven mechanisms improve the electrochemical-mechanical stability of the outmost surface, meanwhile preserving its highly electrochemically active bulk. Consequently, GE-LCO exhibits a high capacity of 230.9 mAh/g (0.1C) and superior capacity retention of 80.6% at 4.7 V after 100 cycles.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7128496808",
@@ -1461,6 +2175,96 @@
       "relevant": true
     },
     {
+      "id": "W7128523902",
+      "source": "openalex",
+      "title": "Enhancing Ion‐Electron Transport in Positive Electrode of Solid‐State Lithium Metal Batteries With Multifunctional Catholyte Made of Polymer Mixed Ionic‐Electronic Conductor PEDOT:PSSTFSI and Li 3 InCl 6",
+      "url": "https://doi.org/10.1002/aenm.202506757",
+      "published": "2026-02-09",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.202506757",
+      "authors": [
+        "Elina Nazmutdinova",
+        "Ivone Marselina Nugraha",
+        "Jacob Olchowka",
+        "Éric Cloutet",
+        "Cyril Brochon",
+        "André H. Gröschel"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT The development of positive electrode composites (PECs) with improved ionic and electronic conductivity is critical for high‐performance all‐solid‐state batteries (ASSBs). Conventional strategies rely on tuning the ratio of cathode active material (CAM) to solid electrolyte (SE) or introducing electronic conductive additives, yet both often induce interfacial instabilities limiting long‐term performance. Here, mixed ionic‐electronic conductor, poly(3,4‐ethylenedioxythiophene): poly(4‐styrenesulfonyl(trifluoromethylsulfonyl)imide) (PEDOT:PSSTFSI), is incorporated as a functional polymer (FP) binder in Li 3 InCl 6 (LIC), forming multifunctional catholytes in a single step via one‐pot aqueous synthesis. Owing to π–π stacking and the TFSI − functional group, PEDOT:PSSTFSI enhances electronic and ionic conductivity within the catholyte. Compared to the polymer‐free NMC‐based PEC, the incorporation of 5 wt.% FP markedly increases electrode compactness, reducing the porosity by 41.8% and yielding a twelvefold increase in effective electronic conductivity. In parallel, ionic conductivity improves substantially—up to 15‐fold, with the highest reached at 0.6 wt.% of FP in the PEC. When tested in ASSB cells, PECs containing FP show enhanced rate capability, especially at 1 C rate with full reversibility, and deliver up to 30% higher discharge capacity at a C/20 rate compared to polymer‐free NMC‐LIC references. This study highlights mixed conducting binders as a versatile system to improve conducting pathways while enhancing electrode integrity.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.202506757",
+      "license": "cc-by-nc",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7128357132",
+      "source": "openalex",
+      "title": "Methyl Asymmetric Interference‐Enhanced Dipole–Dipole Interaction for High‐Performance Potassium–Graphite Battery Electrolyte Design",
+      "url": "https://doi.org/10.1002/anie.202523473",
+      "published": "2026-02-08",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.202523473",
+      "authors": [
+        "Zeyu Yuan",
+        "Lei Chen",
+        "Jiaying Liao",
+        "Lili Song",
+        "Anni Chen",
+        "Dongbo Yan"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Potassium‐ion batteries are the only new alkali metal battery system, apart from lithium‐ion batteries, that can directly use graphite as the anode. However, the development of potassium–graphite batteries has been restricted due to the lack of high‐voltage electrolytes compatible with graphite anodes. To address this issue, a graphite‐compatible high‐voltage electrolyte is designed based on methyl asymmetric interference‐enhanced dipole–dipole interactions. The formulated electrolyte achieves an initial Coulombic efficiency of 86.5% by reducing the desolvation energy of K + ions and forming a sulfur‐rich inorganic solid electrolyte interface. At a low current density of 1 µA cm −2 , the maximum stable electrochemical window of the electrolyte reaches 4.6 V, which is compatible with the currently used Prussian blue analogue cathodes. Notably, the potassium–graphite battery with K 1.92 Fe[Fe(CN) 6 ] 0.94 ·0.5H 2 O as the cathode and untreated graphite as the anode can deliver an energy density of 265.6 Wh kg −1 (based on the total mass of cathode and anode) with a capacity retention of 81.3% after 600 cycles. When K 1.68 Mn[Fe(CN) 6 ] 0.92 ·1.36H 2 O is used as the cathode, the energy density can reach 306.2 Wh kg −1 . A five‐stacked pouch full cell with a capacity of ∼24 mAh can rapidly drive a small motor, demonstrating the application potential of the electrolyte.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7128379128",
+      "source": "openalex",
+      "title": "Siloxane electrolyte molecular design for lithium-sulfur batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.104970",
+      "published": "2026-02-07",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.104970",
+      "authors": [
+        "Chong Xu",
+        "Gong Cheng",
+        "Shuang Liu",
+        "Guang Ma",
+        "Dongyuan Zhang",
+        "Junjie Fu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7128181393",
       "source": "openalex",
       "title": "Solvation Sheath Exchange with Weak-Solvent Molecules Enables the Development of Sodium Dual-Ion Pouch Cells",
@@ -1519,6 +2323,36 @@
       "image": null,
       "summary_ko": "전기장에 반응하는 분자들이 인가 전압 하에서 리튬 금속 음극 계면에 조밀하고 구조화된 층으로 자기조립하는 동적 단분자층 개념을 리튬 금속 전지에 도입했다. 전기화학 수정진동자저울(EQCM-D)로 전기장 반응성과 패킹 거동을 원위치 검증했으며, 강하게 패킹된 동적 단분자층일수록 무기물이 풍부한 SEI와 두툼한 리튬 성장을 촉진함을 저온 XPS로 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "W7127959604",
+      "source": "openalex",
+      "title": "Engineering Na‐Rich P2‐Type Layered Oxides Through Li/Ti Dual Doping for Oxygen Redox Activation and Superior Structural Stability",
+      "url": "https://doi.org/10.1002/aenm.202506119",
+      "published": "2026-02-06",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.202506119",
+      "authors": [
+        "Rishika Jakhar",
+        "Shrestha Ghosh",
+        "Adesh Rohan Mishra",
+        "Shristi Nhuchhe Pradhan",
+        "Debalina Sarkar",
+        "Yu Zheng"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Sodium layered oxides Na x MO 2 ( x ≤ 1 and M = transition metal ions) have gained significant interest as sodium‐ion battery (NIB) cathodes owing to their high operating voltages and potential for higher energy density compared with polyanion and Prussian blue–type cathodes. However, their practical applications are often hindered by the irreversible structural transitions leading to capacity fading during cycling. The nature and substitution of transition metal ions define the material properties and electrochemical performance. In this study, through comprehensive electrochemical characterization combined with multi‐scale structural and spectroscopical analyses, we demonstrate the synergistic impacts of Lithium and Titanium doping, which not only increases overall capacity by boosting cation and anion cooperative redox contributions but also improves the rate capability and cycling stability. Specifically, Li + doping enhances the available sodium inventory for extraction, while Ti 4 + disrupts Na + /vacancy ordering at lower voltages (< 4 V) and mitigates the detrimental P2→OP4/O2 phase transition during cycling. The combined effect of Lithium and Titanium doping promotes more charge localization on Oxygen, which activates reversible lattice oxygen redox reactions at elevated voltages, contributing additional capacity beyond conventional cationic redox. This work provides crucial insights into the design of high‐performance, high‐capacity P2‐type layered cathode materials for sodium‐ion batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202506119",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7128056730",
@@ -1764,6 +2598,66 @@
       "image": null,
       "summary_ko": "디에틸 설파이드를 다기능 전해질 첨가제로 사용해 리튬 금속 음극에는 Li2S가 풍부한 SEI를, 양극 계면에는 Li2S/Li2SO4/Li2SO3가 풍부한 CEI를 동시에 형성하는 전략을 제안했다. 이 계면들이 Li 이온 수송 속도론을 가속하고 계면 안정성을 향상시켜 리튬 금속전지의 전기화학적 성능을 개선했다.",
       "relevant": true
+    },
+    {
+      "id": "W7127150364",
+      "source": "openalex",
+      "title": "Unravel Electrolyte-Dependent Interphase Structures in Lithium-Sulfurized Polyacrylonitrile Batteries via Cryogenic Transmission Electron Microscopy",
+      "url": "https://doi.org/10.1021/acsnano.5c14570",
+      "published": "2026-02-03",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.5c14570",
+      "authors": [
+        "Cheng Zhen",
+        "Xianbin Wei",
+        "Yuxuan Cui",
+        "Xinzhen Lu",
+        "Jiashu Chen",
+        "Menghao Li"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "The emerging lithium-sulfur batteries using sulfurized polyacrylonitrile cathodes feature exceptional stability and good compatibility with various electrolytes. However, the study of correlating battery performance with electrolytes based on ultrafine interphase structures is nearly blank. This work compares the solid- and cathode-electrolyte interphases (SEI and CEI) formed in five representative electrolytes, from the perspective of ultrafine structures acquired via cryogenic transmission electron microscopy and electron energy loss spectroscopy. The premature battery failure in the baseline ester- and ether-based electrolytes is related to the thick and uneven interphase layers on both the anodes and cathodes, which reflects continuous electrolyte decomposition. The use of film-forming additives brings substantial improvement in cycle stability, which is attributed to an inorganic-rich interphase that blocks electrolyte permeation and further decomposition. However, it comes along with aggregated byproducts on both SEI and CEI. Better stability is delivered in a localized high-concentration electrolyte, which aligns with the compact SEI and CEI layers with condensed inorganic species. Based on our observations and reasoning, the formation of inorganic-rich interphase involves anions or additives, which could serve as a practical guideline for rational electrolyte designing.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7127374142",
+      "source": "openalex",
+      "title": "Towards circular batteries: A water-soluble, recyclable, self-healing binder for aqueous-processed sulfur cathodes",
+      "url": "https://doi.org/10.1016/j.jechem.2026.01.030",
+      "published": "2026-02-03",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.01.030",
+      "authors": [
+        "Yuchuan Ren",
+        "Qian Xue",
+        "Liqiang Lu",
+        "Canhuang Li",
+        "Yifan Li",
+        "Nikolay Kardjilov"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7127599349",
