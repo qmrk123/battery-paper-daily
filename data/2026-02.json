@@ -827,7 +827,12 @@
       "journal_id": "S4210174246",
       "journal_metric": 22.25,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41570-026-00801-2/MediaObjects/41570_2026_801_Figa_HTML.png",
+        "cached": "img/W7130741139.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Chemistry — https://doi.org/10.1038/s41570-026-00801-2"
+      },
       "summary_ko": "초고에너지 리튬 금속 전지의 열화 복잡성을 다룬 리뷰 논문으로 보인다 (제목 기반 추정).",
       "relevant": true
     },

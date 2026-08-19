@@ -2322,7 +2322,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-025-09867-2/MediaObjects/41586_2025_9867_Fig1_HTML.png",
+        "cached": "img/W7119134620.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-025-09867-2"
+      },
       "summary_ko": "고전압 무음극(anode-free) 소듐-황 전지에 관한 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },

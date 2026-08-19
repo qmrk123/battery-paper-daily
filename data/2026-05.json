@@ -3681,7 +3681,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02167-4/MediaObjects/41565_2026_2167_Fig1_HTML.png",
+        "cached": "img/W7161009329.jpg",
+        "license": null,
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02167-4"
+      },
       "summary_ko": "안정적인 고전위 리튬 금속 전지를 위해 계면 극성을 조절하는 전략을 다룬 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },

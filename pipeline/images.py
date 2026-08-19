@@ -1,14 +1,18 @@
-"""Phase 3 — graphical-abstract thumbnails, license-first best-effort.
+"""Phase 3 — graphical-abstract thumbnails from the landing page's og:image.
 
-There is no per-DOI graphical-abstract API, hotlinking publisher CDNs is fragile
-+ infringing, and re-hosting a paywalled figure is not ours to do. So we ONLY
-cache images for open-access papers under a Creative Commons license:
+Publishers publish an `og:image` / `twitter:image` meta so third parties (Slack,
+Twitter, Google) can render a link preview — usually the graphical abstract or a
+representative figure. We do the same: fetch that image, validate + downscale, and
+cache to site/img with attribution + link-back. Best-effort, and honest about limits:
 
-    license (OpenAlex, else Unpaywall)  ->  CC?  ->  fetch landing-page og:image
-    ->  validate + downscale (Pillow)   ->  cache to site/img + attribution
+    landing page  ->  og:image meta  ->  validate + downscale (Pillow)  ->  cache
 
-Everything else keeps the material-coloured placeholder. Expect a minority of
-papers (mostly ACS/RSC/Nature gold-OA) to get a real thumbnail — that's honest.
+Reality check (probed 2026-08): only Springer Nature (nature.com) reliably serves
+og:image to a plain fetch. Wiley / ACS / RSC / AAAS return 403 to non-browser
+requests, and Elsevier (ScienceDirect) renders the meta client-side — so those
+(the bulk of the allowlist) keep the material-coloured placeholder. Defeating a
+publisher's bot-protection to scrape figures would violate their ToS + copyright,
+so we don't: no reachable og:image => no thumbnail.
 
     python -m pipeline.images --date 2026-08-14
 """
@@ -130,21 +134,17 @@ def download_image(url: str, session: requests.Session) -> Optional[bytes]:
 
 
 def process_paper(paper: Paper, session: requests.Session, img_dir: Path) -> str:
-    """Try to attach a cached thumbnail. Returns a short status string."""
+    """Try to attach a cached thumbnail from the landing page's og:image (the
+    image publishers publish for link previews). Returns a short status string."""
     if paper.image and paper.image.get("cached"):
         return "cached"
-    if not paper.doi or (paper.oa_status in (None, "closed")):
-        return "no-oa"
+    landing = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else None)
+    if not landing:
+        return "no-url"
 
-    license_ = paper.license or unpaywall_license(paper.doi, session)
-    paper.license = license_
-    if not is_reusable_license(license_):
-        return "non-cc"
-
-    landing = paper.url or (f"https://doi.org/{paper.doi}")
     og = fetch_og_image(landing, session)
     if not og:
-        return "no-og"
+        return "no-og"          # publisher blocked the fetch (403) or exposes no og:image
     data = download_image(og, session)
     if not data:
         return "dl-fail"
@@ -155,11 +155,14 @@ def process_paper(paper: Paper, session: requests.Session, img_dir: Path) -> str
     img_dir.mkdir(parents=True, exist_ok=True)
     fname = f"{_slug(paper.id)}.jpg"
     (img_dir / fname).write_bytes(jpeg)
+    attribution = paper.venue or "source"
+    if paper.doi:
+        attribution += f" — https://doi.org/{paper.doi}"
     paper.image = {
         "src": og,
         "cached": f"img/{fname}",
-        "license": license_,
-        "attribution": f"{paper.venue or 'source'} — https://doi.org/{paper.doi}",
+        "license": paper.license,   # kept for attribution if known; no longer a gate
+        "attribution": attribution,
     }
     return "ok"
 
@@ -174,7 +177,7 @@ def process_papers(papers: list[Paper], img_dir: Path = IMG_DIR,
         stats[status] = stats.get(status, 0) + 1
         if status == "ok":
             log(f"  [{i}/{len(papers)}] ✓ {p.title[:50]}")
-        if status in ("no-og", "dl-fail", "invalid", "non-cc"):
+        if status in ("no-og", "dl-fail", "invalid"):
             time.sleep(delay)          # be polite only when we actually hit a site
     return stats
 

@@ -1259,7 +1259,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10402-0/MediaObjects/41586_2026_10402_Fig1_HTML.png",
+        "cached": "img/W7138399860.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-10402-0"
+      },
       "summary_ko": "실용적인 무음극(anode-free) 파우치셀 구현을 위한 평면형 리튬 도금 및 용해 기술에 관한 연구이다. 초록이 제공되지 않아 제목을 기반으로 추정한 요약이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -2655,7 +2660,12 @@
       "journal_id": "S2764528046",
       "journal_metric": 30.47,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-01988-w/MediaObjects/41560_2026_1988_Fig1_HTML.png",
+        "cached": "img/W7133234854.jpg",
+        "license": null,
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-01988-w"
+      },
       "summary_ko": "균일한 기공 구조를 갖는 무도핑·무코팅 Ni-rich 캐소드가 미미한 열화만을 보인다는 연구 결과이다 (제목 기반 추정).",
       "relevant": true
     },

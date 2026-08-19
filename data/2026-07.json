@@ -3401,7 +3401,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02221-1/MediaObjects/41565_2026_2221_Fig1_HTML.png",
+        "cached": "img/W7167934460.jpg",
+        "license": null,
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02221-1"
+      },
       "summary_ko": "두꺼운 리튬리치 양극 제조를 위한 결맞은 쌍정(coherent twin) 구조 활용에 관한 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3669,7 +3674,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10732-z/MediaObjects/41586_2026_10732_Fig1_HTML.png",
+        "cached": "img/W7167673250.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-10732-z"
+      },
       "summary_ko": "단일상 구배 용매화 전해질을 이용해 리튬 금속 전지를 안정화하는 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3878,7 +3888,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02212-2/MediaObjects/41565_2026_2212_Fig1_HTML.png",
+        "cached": "img/W7167618976.jpg",
+        "license": null,
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02212-2"
+      },
       "summary_ko": "정전기적 용매화 화학 조절을 통해 암페어시(Ah)급 고에너지 리튬 금속 전지를 구현하는 연구로 보인다 (제목 기반 추정).",
       "relevant": true
     },
