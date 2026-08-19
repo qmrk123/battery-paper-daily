@@ -1,8 +1,8 @@
 name: daily
 
-# 06:00 KST (21:00 UTC) daily: fetch new papers -> graphical-abstract thumbnails
-# -> commit data back -> build -> deploy Pages. Korean summaries are written by
-# Claude directly (in-session) and pushed — no summary API key, no cloud routine.
+# 06:00 KST (21:00 UTC) daily: fetch new papers -> Korean summaries (Claude Code
+# Action, authed with the Max-subscription OAuth token — no metered key) ->
+# graphical-abstract thumbnails -> commit data back -> build -> deploy Pages.
 # A `push` to data/site (e.g. manual edit) just rebuilds + redeploys.
 # NOTE: scheduled workflows are disabled after 60 days of repo inactivity and
 # only run from the default branch.
@@ -49,8 +49,84 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python -m pipeline.main
 
-      # Korean summaries are NOT produced in CI — Claude writes them in-session and
-      # pushes. Newly-fetched papers show with the abstract fallback until then.
+      # Korean summaries + 6-topic classification run here, in the same job that
+      # commits data back (proven daily push). Claude Code Action authenticates
+      # with the Max-subscription OAuth token (`claude setup-token` ->
+      # CLAUDE_CODE_OAUTH_TOKEN secret); no metered key. The guard skips it if the
+      # secret is empty, so the fetch job stays green until the token is set right.
+      - name: Check for Claude subscription token
+        id: haveclaude
+        if: github.event_name != 'push'
+        env:
+          TOK: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          # Map the secret into env first — the `secrets` context does NOT resolve
+          # inside a step-level run: expression (evaluates to empty), so test env.
+          if [ -n "$TOK" ]; then
+            echo "ok=true"  >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Korean summaries (Claude, subscription auth)
+        id: summarize
+        if: github.event_name != 'push' && steps.haveclaude.outputs.ok == 'true'
+        # A Claude-side hiccup (expired token, action outage, timeout) must NOT
+        # block the data commit-back or the Pages deploy — papers just keep null
+        # summaries and are re-summarized next run. The warn step makes a real
+        # failure visible instead of silently green.
+        continue-on-error: true
+        # Pinned to the @beta commit SHA: an unattended daily job must not silently
+        # pick up breaking action-input changes. Bump deliberately.
+        uses: anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34  # beta @ 2026-08-19
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep"
+          model: claude-sonnet-5
+          timeout_minutes: "20"
+          prompt: |
+            You maintain the Korean battery-paper site. The repo is checked out and
+            an earlier CI step has ALREADY fetched today's papers into the data/
+            files (uncommitted in the working tree). Your ONLY job: fill in the
+            missing Korean summaries + topic classification by editing files under
+            data/. DO NOT run any git command — a later CI step commits and pushes.
+            Python is `python` and dependencies are already installed.
+
+            1) Find every paper whose "summary_ko" is null across the files matching
+               data/YYYY-MM-DD.json and data/YYYY-MM.json (IGNORE index.json,
+               seen.json, journals.json). If there are none, print "nothing to
+               summarize" and STOP.
+            2) For EACH such paper, from ONLY its "title" and "abstract_en" decide:
+               - topics: which of these SIX apply by ACTUAL content (multiple
+                 allowed; [] if none):
+                 li-metal = 리튬 금속 음극(anode): Li-metal batteries, dendrites,
+                   anode-free Li, plating/stripping, Li-anode SEI/host/collector.
+                 na-metal = 소듐 금속 음극(anode).
+                 ncm = NCM/NMC layered oxide cathode (Ni-Co-Mn layered, ALL Ni %).
+                 li-rich = Li-rich/Li-excess layered or disordered-rocksalt (DRX)
+                   cathode; anionic/oxygen redox.
+                 lfp = LiFePO4 / olivine phosphate cathode.
+                 other-cathode = any OTHER Li cathode: LiCoO2, spinel (LMO/LNMO),
+                   Prussian blue, organic, Li-S(황), Li-O2(산소), conversion, polyanion.
+                 Rules: never confuse anode vs cathode ("anode-free lithium" =
+                 li-metal, NOT cathode). Na-ion CATHODE materials, Si/graphite
+                 anodes, solid-electrolyte-only studies, cell/pack engineering,
+                 recycling / metal-recovery, and pure physics/catalysis => [].
+               - summary_ko: a KOREAN 2-4 sentence summary of the key contribution —
+                 technical, concise, no hype, and NEVER invent numbers or claims
+                 absent from the abstract. If abstract_en is empty, write 1-2
+                 sentences from the title and append " (제목 기반 추정)".
+            3) Write summaries.json mapping
+               {"<paper id>": {"topics": [...], "summary_ko": "..."}, ...} for
+               exactly those papers, run
+               `python scripts/apply_summaries.py summaries.json`, then delete
+               summaries.json.
+            Finish with a one-line count of how many papers you summarized. Do NOT
+            touch any file outside data/ (besides the temporary summaries.json).
+
+      - name: Warn if summarization failed (visibility for e.g. an expired token)
+        if: github.event_name != 'push' && steps.summarize.outcome == 'failure'
+        run: echo "::warning::Claude summarization failed — check CLAUDE_CODE_OAUTH_TOKEN (expired/empty?) or the action. Papers keep null summaries and retry next run."
 
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
         if: github.event_name != 'push'
