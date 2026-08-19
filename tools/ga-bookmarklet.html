@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>그래픽 초록 저장 북마클릿</title>
+<style>
+  body { font: 15px/1.6 system-ui, "Segoe UI", sans-serif; max-width: 720px;
+         margin: 40px auto; padding: 0 20px; color: #1a1a1a; }
+  h1 { font-size: 1.35rem; }
+  .bm { display: inline-block; padding: 10px 18px; background: #24c98a; color: #08321f;
+        border-radius: 8px; font-weight: 700; text-decoration: none; margin: 6px 0; }
+  code, textarea { font-family: ui-monospace, Consolas, monospace; }
+  textarea { width: 100%; height: 120px; margin-top: 8px; font-size: 12px; }
+  ol { padding-left: 1.2em; } li { margin: 6px 0; }
+  .note { background: #f3f6f4; border-left: 3px solid #24c98a; padding: 10px 14px;
+          border-radius: 6px; font-size: .92rem; color: #333; }
+  kbd { background:#eee; border:1px solid #ccc; border-radius:4px; padding:1px 5px; font-size:.85em; }
+</style>
+</head>
+<body>
+<h1>📷 그래픽 초록 저장 (북마클릿)</h1>
+
+<p>아래 초록색 버튼을 <b>브라우저 북마크바로 드래그</b>하세요. 그런 다음 논문 페이지
+(ACS·Wiley·RSC·Elsevier 등, <b>로그인된 본인 브라우저</b>)에서 이 북마크를 클릭하면 그
+페이지의 그래픽 초록을 <b>DOI 이름으로 저장</b>합니다.</p>
+
+<p><a class="bm" id="bm" href="#">📷 GA 저장</a>
+&nbsp;← 이걸 북마크바로 드래그</p>
+
+<div class="note">
+  이건 <b>봇 차단 우회가 아닙니다.</b> 선생님이 기관 구독으로 정당하게 접근해 <b>직접
+  열어 본 화면</b>에서, 본인 클릭으로 이미지를 저장하는 것뿐입니다. Cloudflare 등은
+  선생님이 사람으로서 이미 통과한 상태고요.
+</div>
+
+<h3>쓰는 법</h3>
+<ol>
+  <li>위 <b>📷 GA 저장</b>을 북마크바로 드래그해서 설치.</li>
+  <li>논문 페이지를 본인 브라우저에서 엽니다 (그래픽 초록이 화면에 보이는 상태).</li>
+  <li>북마크 <b>📷 GA 저장</b> 클릭 → 이미지가 <code>&lt;DOI&gt;.jpg</code> 이름으로
+      다운로드됩니다(안 되면 새 탭에 열려요 → <kbd>Ctrl</kbd>+<kbd>S</kbd>로 저장).
+      DOI는 클립보드에도 복사됩니다.</li>
+  <li>모아서 한 번에 사이트에 반영:
+      <br><code>python scripts/add_image.py --scan "C:/Users/user/Downloads"</code></li>
+  <li>또는 개별:
+      <code>python scripts/add_image.py &lt;DOI 또는 논문ID&gt; "저장한이미지.jpg"</code></li>
+  <li>끝나면 <code>git add data/ site/img &amp;&amp; git commit -m "img: manual GA" &amp;&amp; git push</code> → 카드에 표시.</li>
+</ol>
+
+<p>버튼 드래그가 안 되면 아래 코드를 복사해 <b>새 북마크의 URL</b>로 붙여넣으세요:</p>
+<textarea id="code" readonly onclick="this.select()"></textarea>
+
+<script>
+// The bookmarklet source (runs on the publisher page in the user's own session).
+var SRC = [
+"javascript:(async()=>{",
+" var q=function(s){return document.querySelector(s)};",
+" var meta=function(n){var e=q('meta[name=\"'+n+'\"]')||q('meta[property=\"'+n+'\"]');return e?e.content:''};",
+" var doi=meta('citation_doi')||meta('prism.doi')||meta('dc.Identifier')||meta('dc.identifier')||'';",
+" if(!doi){var m=(location.href+' '+document.body.innerText).match(/10\\.\\d{4,9}\\/[^\\s\"'<>]+/);doi=m?m[0]:''}",
+" doi=doi.replace(/^doi:/i,'').replace(/^https?:\\/\\/(dx\\.)?doi\\.org\\//i,'').trim();",
+" var og=(q('meta[property=\"og:image\"]')||q('meta[name=\"twitter:image\"]')||{}).content;",
+" var sels=['figure[class*=\"graphic\" i] img','div[class*=\"graphic\" i] img','[class*=\"abstract\" i] figure img','img[alt*=\"abstract\" i]','img[src*=\"graphic\" i]','img[src*=\"/toc/\" i]','img[src*=\"abstract\" i]'];",
+" var img=null;for(var i=0;i<sels.length;i++){var e=q(sels[i]);if(e&&(e.naturalWidth>=150||e.naturalWidth===0)){img=e;break}}",
+" var url=(img&&(img.currentSrc||img.src))||og;",
+" if(!url){alert('그래픽 초록 이미지를 못 찾았어요. 이미지를 우클릭→저장 하세요. DOI: '+(doi||'?'));return}",
+" var name=(doi?doi.replace(/[^A-Za-z0-9._-]/g,'_'):'ga')+'.jpg';",
+" try{await navigator.clipboard.writeText(doi)}catch(e){}",
+" try{var r=await fetch(url);var b=await r.blob();var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();alert('저장됨: '+name+'\\nDOI 복사됨. 다음: add_image.py --scan <다운로드폴더>')}",
+" catch(e){window.open(url,'_blank');alert('새 탭에 이미지를 열었어요 → Ctrl+S로 저장\\n파일명: '+name+'\\nDOI 복사됨')}",
+"})();"
+].join("");
+document.getElementById("bm").setAttribute("href", SRC);
+document.getElementById("code").value = SRC;
+</script>
+</body>
+</html>
