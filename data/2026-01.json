@@ -1,6 +1,6 @@
 {
   "date": "2026-01",
-  "generated_at": "2026-08-19T03:16:57+00:00",
+  "generated_at": "2026-08-19T03:17:36+00:00",
   "count": 106,
   "papers": [
     {
@@ -1602,7 +1602,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-025-02106-9/MediaObjects/41565_2025_2106_Fig1_HTML.png",
+        "cached": "img/W7124281836.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-025-02106-9"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -2558,7 +2563,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-67496-9/MediaObjects/41467_2025_67496_Fig1_HTML.png",
+        "cached": "img/W7118187260.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-025-67496-9"
+      },
       "summary_ko": null,
       "relevant": null
     },

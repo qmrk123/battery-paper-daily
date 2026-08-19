@@ -1,6 +1,6 @@
 {
   "date": "2026-06",
-  "generated_at": "2026-08-19T03:16:57+00:00",
+  "generated_at": "2026-08-19T03:18:53+00:00",
   "count": 121,
   "papers": [
     {
@@ -1641,7 +1641,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-74524-9/MediaObjects/41467_2026_74524_Fig1_HTML.png",
+        "cached": "img/W7164823568.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74524-9"
+      },
       "summary_ko": null,
       "relevant": null
     },
