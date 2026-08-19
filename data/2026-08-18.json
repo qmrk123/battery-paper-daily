@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T21:27:52+00:00",
+  "generated_at": "2026-08-19T03:31:18+00:00",
   "count": 15,
   "papers": [
     {
@@ -40,8 +40,7 @@
       "url": "https://doi.org/10.1002/adfm.77658",
       "published": "2026-08-17",
       "topics": [
-        "li-metal",
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1002/adfm.77658",
       "authors": [
@@ -91,8 +90,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "극저온 리튬 금속 전지를 위한 준고체 전해질의 이온 수송 위상 구조를 재구성한 연구입니다. 불소벤젠을 수소결합 유도 분자 조직자로 도입해 원위치 중합 PDOL 전해질에서 과도한 Li+-에테르 배위를 약화시켜 극저온에서도 계면 안정성을 유지합니다.",
+      "relevant": true
     },
     {
       "id": "W7203612466",
@@ -121,8 +120,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Mg1-xLixF2/PEO 복합 전해질에서 정전기적 부유(electrostatic suspension) 전략으로 0°C에서 작동 가능한 전고체 리튬 금속 전지를 구현한 연구입니다. 필러/고분자 계면의 반대방향 정전기장이 Li+를 부유 상태로 유지해 방향성 있는 빠른 이온 수송 채널을 형성합니다.",
+      "relevant": true
     },
     {
       "id": "W7203561421",
@@ -370,7 +369,7 @@
       "published": "2026-08-12",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adma.74634",
       "authors": [
@@ -399,7 +398,10 @@
       "title": "A Pyridine Mediator Enables High‐Efficiency, Long‐Cycling Anode‐Less/Free Lithium–Sulfur Batteries With Li 2 S Cathodes",
       "url": "https://doi.org/10.1002/adma.74616",
       "published": "2026-08-12",
-      "topics": [],
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
       "doi": "10.1002/adma.74616",
       "authors": [
         "Sijia Huang",
@@ -418,7 +420,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7202161552",
@@ -447,8 +449,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-18",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬 금속 배터리에서 발생하는 열 폭주(thermal failure)의 메커니즘을 규명하고 이를 완화하기 위한 전략을 제시한 논문 (제목 기반 추정).",
+      "relevant": true
     }
   ]
 }

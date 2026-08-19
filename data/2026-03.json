@@ -1,6 +1,6 @@
 {
   "date": "2026-03",
-  "generated_at": "2026-08-19T03:18:07+00:00",
+  "generated_at": "2026-08-19T03:31:18+00:00",
   "count": 97,
   "papers": [
     {
@@ -11,7 +11,7 @@
       "published": "2026-03-31",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1021/acsenergylett.6c00613",
       "authors": [
@@ -41,7 +41,7 @@
       "url": "https://doi.org/10.1016/j.joule.2026.102400",
       "published": "2026-03-30",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1016/j.joule.2026.102400",
       "authors": [
@@ -91,8 +91,8 @@
       "journal_metric": 16.36,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수전해로 생성한 오존(O3)을 이용해 폐 LiFePO4에서 Fe(II)를 Fe(III)로 산화시켜 FePO4로 전환하며 선택적으로 리튬을 추출하는 화학적 탈리튬화 전략을 제시했다. 실온·45분 내 99.8% 이상의 리튬 추출 효율과 낮은 Fe 용출을 달성했다.",
+      "relevant": true
     },
     {
       "id": "W7143490127",
@@ -101,7 +101,7 @@
       "url": "https://doi.org/10.1002/adfm.75155",
       "published": "2026-03-30",
       "topics": [
-        "ncm"
+        "li-rich"
       ],
       "doi": "10.1002/adfm.75155",
       "authors": [
@@ -121,8 +121,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬리치 망간계(LMR) 산화물 양극의 벌크 및 표면 구조 안정성을 동시에 향상시키기 위한 다중스케일 층상/암염상 상호침투(MLR) 전략을 제안했다. 방사광 분석을 통해 벌크 상호침투 구조가 격자를 안정화하고 표면층이 화학적·구조적 열화를 방지함을 규명했다.",
+      "relevant": true
     },
     {
       "id": "W7143777766",
@@ -189,7 +189,8 @@
       "url": "https://doi.org/10.1002/adma.72852",
       "published": "2026-03-28",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "lfp"
       ],
       "doi": "10.1002/adma.72852",
       "authors": [
@@ -239,8 +240,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "중니켈(N6, LiNi0.6Co0.2Mn0.2O2)과 고니켈(N9, LiNi0.9Co0.05Mn0.05O2) 층상 산화물 양극을 동일 충전상태·상이한 컷오프전압에서 비교하여 열화 메커니즘 차이를 규명했다. N9의 초기 용량손실은 O3-O1 상전이에 기인하며, N6는 고전압 영역에서도 상대적으로 안정함을 보였다.",
+      "relevant": true
     },
     {
       "id": "W7141960185",
@@ -420,8 +421,8 @@
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "황화물계 고체전해질(LPSC)이 미량 수분에 노출될 때 화학적 환원상으로 변형되어 Ni-rich NMC 양극에서 격자산소를 추출하는 열화 메커니즘을 방사광 X선 이미징과 XAS로 규명했다. 이는 이온전도도 저하 외에 양극 열화라는 새로운 수분 영향 경로를 제시한다.",
+      "relevant": true
     },
     {
       "id": "W7140488162",
@@ -460,7 +461,8 @@
       "url": "https://doi.org/10.1002/adfm.202529327",
       "published": "2026-03-26",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "ncm"
       ],
       "doi": "10.1002/adfm.202529327",
       "authors": [
@@ -491,7 +493,7 @@
       "published": "2026-03-26",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adma.72940",
       "authors": [
@@ -551,7 +553,7 @@
       "url": "https://doi.org/10.1016/j.jechem.2026.03.031",
       "published": "2026-03-25",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1016/j.jechem.2026.03.031",
       "authors": [
@@ -719,8 +721,8 @@
       "journal_metric": 16.36,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "단결정 NMC 양극에서 계면 반응성이 벌크 리튬이온 동역학에 미치는 영향을 할라이드(Li3YCl6) 대 황화물(Li6PS5Cl) 고체전해질 비교를 통해 규명했다. 상태-온도 분해 XRD 및 XPS로 피로상 형성과 진화 과정을 분석했다.",
+      "relevant": true
     },
     {
       "id": "W7140199023",
@@ -778,8 +780,8 @@
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 니켈리치 NCM(SNCM) 양극 재생 시 표면 무질서 구조로 인한 비가역 상전이를 억제하기 위해 SNCM과 Ni(OH)2 표면에 Al 종을 사전 앵커링하는 양방향 격자 앵커링 전략을 제시했다. 이를 통해 리튬화 에너지 장벽을 낮추고 층상 구조 재형성을 개선했다.",
+      "relevant": true
     },
     {
       "id": "W7140230970",
@@ -788,6 +790,7 @@
       "url": "https://doi.org/10.1002/adfm.75053",
       "published": "2026-03-24",
       "topics": [
+        "li-metal",
         "other-cathode"
       ],
       "doi": "10.1002/adfm.75053",
@@ -808,8 +811,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "과잉 리튬 없이 완전 리튬화된 황 양극에 의존하는 무음극(anode-free) 리튬-황 전지에서 SEI-CEI 형성, 황 산화환원, Li2S 활성화 등이 결합된 리튬 인벤토리 인식 계면화학 프레임워크를 리뷰로 제시했다. 리튬 저장소 부재로 인한 실패 경로와 설계 제약을 통합적으로 분석했다.",
+      "relevant": true
     },
     {
       "id": "W7140096098",
@@ -898,8 +901,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "열적 남용 조건에서 LiFePO4 배터리의 팽창력에 관한 수치해석 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7140101523",
@@ -958,8 +961,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Wadsley-Roth상 고속이온전도체 NaNb13O33(NNO)를 이용해 LiNi0.8Co0.1Mn0.1O2 표면에 Nb 벌크 도핑과 격자정합 에피택셜 코팅을 동시에 구현하는 계면공학 전략을 제시했다. 상전이에 의한 구조 열화를 억제하고 계면 Li+ 동역학을 향상시켜 니켈리치 양극의 급속충전 안정성을 개선했다.",
+      "relevant": true
     },
     {
       "id": "W7138856874",
@@ -1059,7 +1062,7 @@
       "published": "2026-03-19",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adfm.75017",
       "authors": [
@@ -1139,8 +1142,8 @@
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "양극과 전해질의 전자구조 정합을 통해 내부 헬름홀츠층의 혼성화를 약화시키는 열역학 기반 전략으로 상용 LiNi0.5Mn1.5O4(LNMO) 스피넬 양극의 고용량 구동을 구현했다. 333.0 mAh/g의 실용 비용량을 달성하며 전이금속 용출을 억제했다.",
+      "relevant": true
     },
     {
       "id": "W7138877407",
@@ -1285,8 +1288,8 @@
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고용량·장수명 황 기반 p형 유기 양극을 위해 벤조[b]티오펜 기반의 두 강직 단량체(DBTB, DBTP)를 설계하여 용해도 억제와 가역용량을 동시에 개선하는 분자-전극 공동설계 전략을 제시했다.",
+      "relevant": true
     },
     {
       "id": "W7137823599",
@@ -1295,8 +1298,7 @@
       "url": "https://doi.org/10.1002/adma.72819",
       "published": "2026-03-17",
       "topics": [
-        "li-metal",
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1002/adma.72819",
       "authors": [
@@ -1376,8 +1378,8 @@
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "공유결합유기골격체(COF) 유기 양극의 낮은 이온/전자 수송 문제를 해결하기 위해 전기활성 단량체를 COF 기공 내에서 제자리 중합시켜 소수층 나노시트로 박리하는 전략(COF@Polymer)을 제시했다. 이를 통해 활성점 접근성과 물질전달 특성을 개선했다.",
+      "relevant": true
     },
     {
       "id": "W7136857910",
@@ -1417,7 +1419,7 @@
       "published": "2026-03-15",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/aenm.70842",
       "authors": [
@@ -1445,7 +1447,7 @@
       "url": "https://doi.org/10.1038/s41467-026-70616-8",
       "published": "2026-03-15",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1038/s41467-026-70616-8",
       "authors": [
@@ -1479,9 +1481,7 @@
       "title": "Alternating-sequence polymer chain facilitating Li+ transport in covalent organic frameworks",
       "url": "https://doi.org/10.1038/s41467-026-70591-0",
       "published": "2026-03-15",
-      "topics": [
-        "li-metal"
-      ],
+      "topics": [],
       "doi": "10.1038/s41467-026-70591-0",
       "authors": [
         "Genfu Zhao",
@@ -1506,7 +1506,7 @@
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-70591-0"
       },
       "summary_ko": "공유결합유기골격체(COF) 기반 고체전해질의 이온전도도와 리튬 전달율을 향상시키기 위해 옥시에틸렌과 퍼플루오로알킬 사슬을 교대로 배열한 서열제어형 세공 구조를 도입했다. 이 설계는 음이온 이동을 억제하고 리튬이온 응집을 완화하여 연속적이고 효율적인 Li+ 수송 경로를 구축한다.",
-      "relevant": true
+      "relevant": false
     },
     {
       "id": "W7135383466",
@@ -1634,7 +1634,6 @@
       "url": "https://doi.org/10.1002/adfm.74894",
       "published": "2026-03-13",
       "topics": [
-        "ncm",
         "lfp"
       ],
       "doi": "10.1002/adfm.74894",
@@ -1655,8 +1654,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "LiMnxFe1-xPO4(LMFP) 양극에서 고율 방전 시 나타나는 비정상적 전압 플래토 현상의 기원을 규명하기 위해 광섬유 기반 operando 응력센싱 양극을 개발했다. 방전 중 뚜렷한 응력-전압 미분 피크와 비선형적 응력 변화를 관찰했다.",
+      "relevant": true
     },
     {
       "id": "W7135213709",
@@ -1665,8 +1664,7 @@
       "url": "https://doi.org/10.1002/aenm.70821",
       "published": "2026-03-13",
       "topics": [
-        "li-metal",
-        "high-ni-ncm"
+        "li-metal"
       ],
       "doi": "10.1002/aenm.70821",
       "authors": [
@@ -1931,8 +1929,8 @@
       "journal_metric": 16.47,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "단결정 LiNi0.92Co0.06Mn0.02O2(SNCM) 표면에 B/Al 공동도핑 구배 계면을 형성하여 전고체 리튬전지용 초고니켈 양극의 계면 부반응과 구조 열화를 억제했다. B 유도 양이온 무질서층과 Al 도핑의 상호작용으로 계면 안정성을 강화했다.",
+      "relevant": true
     },
     {
       "id": "W7135060521",
@@ -1942,7 +1940,7 @@
       "published": "2026-03-11",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1021/jacs.5c20571",
       "authors": [
@@ -2022,8 +2020,8 @@
       "journal_metric": 16.36,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "텅스텐(W) 코팅된 NMC 양극에서 사이클 중 표면 텅스텐 화합물이 용해되어 흑연 음극에 재증착되는 현상을 XPS/XRF로 규명했다. 고전압 조건에서 W 용출이 더 심화됨을 보여 코팅 안정성에 대한 새로운 문제를 제기했다.",
+      "relevant": true
     },
     {
       "id": "W7134930451",
@@ -2142,8 +2140,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 LiFePO4 배터리의 열화 메커니즘과 재생 전략을 '분해 재생'과 '복원 재생' 두 경로로 나누어 정리한 리뷰이다. 습식/건식 야금 공정과 in situ 재생, 고상 소결, 수열, 전기화학적 재리튬화 방법을 종합했다.",
+      "relevant": true
     },
     {
       "id": "W7134829305",
@@ -2152,7 +2150,7 @@
       "url": "https://doi.org/10.1002/adma.202523158",
       "published": "2026-03-09",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adma.202523158",
       "authors": [
@@ -2297,8 +2295,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-70405-3"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고전압 코발트 프리 LiNiO2 양극의 구조 피로와 고체전해질과의 계면 비호환성을 해결하기 위해 W/Al 이종상 재구성 전략(LiNi0.964Al0.03W0.006O2)을 제시했다. 고원자가 W가 안정한 표면 스피넬상을 형성하고 Al이 Li/Ni 양이온 무질서를 억제하여 황화물계 전고체전지에서 고전압 안정성을 확보했다.",
+      "relevant": true
     },
     {
       "id": "W7133486142",
@@ -2461,7 +2459,9 @@
       "title": "Anode-less Solid-State Li–S Batteries Enabled by Fe-Stabilized Polysulfides",
       "url": "https://doi.org/10.1021/acsenergylett.6c00012",
       "published": "2026-03-05",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1021/acsenergylett.6c00012",
       "authors": [
         "Shijie Feng",
@@ -2481,7 +2481,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "FeCl3로 활성화한 Li2S(FLS) 캐소드를 이용해 고체상 폴리설파이드 중간체를 생성, Li2S의 전기전도도를 7자릿수 향상시키고 활성화 장벽을 낮춘 무음극(anode-less) 고체상 리튬-황전지 연구이다. 500사이클에서 80% 용량 유지율과 99% 이상의 Li2S 활용률을 달성했다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7133564503",
@@ -2509,8 +2509,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "상용 20Ah NCM/흑연 파우치셀에서 저온·고율 충전 조건에 따른 열화가 열폭주(TR) 거동에 미치는 영향을 단계별로 분석한 연구이다. Li 도금, 계면 재구성, 구조 손상이 TR 개시온도 저하 및 가연성 가스 방출 증가로 이어짐을 규명했다.",
+      "relevant": true
     },
     {
       "id": "W7134188406",
@@ -2569,8 +2569,8 @@
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전고체 박막 리튬전지용으로 인산염 도핑된 양이온 무질서 암염상 LixV2O5(LVO-PO) 나노시트 배열 양극을 저온(200°C) 공정으로 구현했다. LiPON 전해질과의 in situ 계면반응 및 전기화학적 활성화를 통해 3개의 Li+ 저장이 가능한 3차원 이온확산 네트워크를 형성했다.",
+      "relevant": true
     },
     {
       "id": "W7133210884",
@@ -2596,8 +2596,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "열화-복원 관점에서 안티사이트 결함의 신속한 조절과 계면 재구성을 통해 폐 LiFePO4 양극을 업그레이드하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7133362207",
@@ -2626,8 +2626,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Li-O2 배터리용 Mo/Mo2N 이종촉매를 d-band 중심 최적화를 통해 설계한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7133234854",
@@ -2636,7 +2636,7 @@
       "url": "https://doi.org/10.1038/s41560-026-01988-w",
       "published": "2026-03-02",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1038/s41560-026-01988-w",
       "authors": [
@@ -2686,8 +2686,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐배터리에서 회수한 LiFePO4를 고체 용액 상 엔지니어링을 통해 초고속 재생하는 기술 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7133353452",
@@ -2804,8 +2804,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "심공융용매(DES) 기반 LFP 재생 시 침출과 재리튬화의 경쟁적 상호작용을 규명하고 'Leaching-Relithiation' 메커니즘을 제안했다. 적절한 양성자 유도 침출은 재리튬화를 촉진하지만 과도한 침출은 화학양론을 붕괴시켜 부반응물을 형성함을 보였다. Urea-LiCl DES 시스템에서 제어된 침출이 효과적 재생에 필수적임을 실증했다.",
+      "relevant": true
     },
     {
       "id": "W7134170300",
@@ -2894,8 +2894,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "오비탈 조절을 통해 LiMnFePO4(LMFP) 캐소드의 얀-텔러 왜곡을 억제하여 구조적으로 안정한 재료를 구현한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7133856426",
@@ -2903,9 +2903,7 @@
       "title": "Embedding Fe‐Based Redox Chemistry Into Low‐Cost Oxyhalide Solid Electrolytes for High‐Performance All‐Solid‐State Batteries",
       "url": "https://doi.org/10.1002/adma.72694",
       "published": "2026-03-01",
-      "topics": [
-        "lfp"
-      ],
+      "topics": [],
       "doi": "10.1002/adma.72694",
       "authors": [
         "Zhimin Zhou",
@@ -2924,8 +2922,8 @@
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Li2ZrCl6 할라이드 고체전해질에 Fe2O3를 도입해 Fe 기반 산화환원 화학을 갖는 저비용 옥시할라이드 고체전해질(LiZrFeOCl-1604)을 구현했다. 비정질 프레임워크에서 2.55 mS/cm의 높은 이온전도도와 163 mAh/g의 가역용량을 달성했다. 전고체전지의 에너지밀도 및 비용 문제 해결을 목표로 한다.",
+      "relevant": false
     }
   ]
 }

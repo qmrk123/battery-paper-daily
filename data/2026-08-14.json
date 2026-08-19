@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-18T08:01:10+00:00",
+  "generated_at": "2026-08-19T03:31:18+00:00",
   "count": 17,
   "papers": [
     {
@@ -165,7 +165,7 @@
       "url": "https://doi.org/10.1002/adma.74572",
       "published": "2026-08-10",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adma.74572",
       "authors": [
@@ -195,7 +195,8 @@
       "url": "https://doi.org/10.1002/adfm.77192",
       "published": "2026-08-10",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "other-cathode"
       ],
       "doi": "10.1002/adfm.77192",
       "authors": [
@@ -225,7 +226,7 @@
       "url": "https://doi.org/10.1002/aenm.71423",
       "published": "2026-08-08",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/aenm.71423",
       "authors": [
@@ -342,7 +343,9 @@
       "title": "Synergistic Bulk‐Surface Modulation Stabilizing LiCoO 2 at 4.65 V via Zr‐Pillaring and In Situ Lattice‐Matching Engineering",
       "url": "https://doi.org/10.1002/anie.3474461",
       "published": "2026-08-07",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1002/anie.3474461",
       "authors": [
         "Guanming Yang",
@@ -362,7 +365,7 @@
       "first_seen": "2026-08-14",
       "image": null,
       "summary_ko": "LiCoO2(LCO)를 Zr 필라링과 in situ LiCoPO4 코팅으로 4.65V까지 안정화(O3→H1-3 전이·격자 산소 손실·Co 용출 억제). 대상이 LCO 고전압 양극이라 'Li-rich(리튬 과잉) 양극' 주제와는 무관해 관련성 게이트에서 제외.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7201851454",
@@ -461,7 +464,7 @@
       "published": "2026-08-07",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1021/jacs.6c09703",
       "authors": [
@@ -492,7 +495,7 @@
       "published": "2026-08-07",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1038/s41467-026-76496-2",
       "authors": [

@@ -1,6 +1,6 @@
 {
   "date": "2026-04",
-  "generated_at": "2026-08-19T03:18:10+00:00",
+  "generated_at": "2026-08-19T03:31:18+00:00",
   "count": 78,
   "papers": [
     {
@@ -9,7 +9,10 @@
       "title": "Unlocking Li‒S chemistry via acoustic-induced entropy-driven electrolyte",
       "url": "https://doi.org/10.1038/s41467-026-72486-6",
       "published": "2026-04-30",
-      "topics": [],
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
       "doi": "10.1038/s41467-026-72486-6",
       "authors": [
         "Kuiyou Wang",
@@ -34,7 +37,7 @@
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-72486-6"
       },
       "summary_ko": "음향 유도 엔트로피 구동 전해질 설계를 통해 리튬-황 전지의 황 산화환원 동역학과 리튬 계면 안정성을 동시에 개선한 연구로, 소량의 전해질만으로 균일한 황 및 리튬 핵생성을 유도한다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7159590678",
@@ -163,8 +166,8 @@
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬 나프탈레나이드 용액의 라디칼 음이온을 이용한 전자-이온 결합 화학으로 열화된 LiFePO4 캐소드를 상온 액상 공정으로 직접 재생하는 전략을 개발했다. 강한 환원력의 나프탈렌 라디칼 음이온이 Fe3+를 Fe2+로 환원시키며 표면 리튬 농축을 유도한다. 이후 소결 공정으로 리튬이 결함 자리로 확산되어 구조가 복원된다.",
+      "relevant": true
     },
     {
       "id": "W7159650225",
@@ -193,8 +196,8 @@
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 니켈리치 층상 캐소드의 단결정 구조 복원을 위한 메커니즘 기반 프레임워크를 제시하는 리뷰 논문이다. 단순 원소 회수에서 기능적 구조 재생(업사이클링)으로의 패러다임 전환을 주장한다. 다결정 입자를 표적 회춘 전략으로 전환하는 열화 경로 규명에 초점을 둔다.",
+      "relevant": true
     },
     {
       "id": "W7157358052",
@@ -294,7 +297,7 @@
       "published": "2026-04-25",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adma.73186",
       "authors": [
@@ -382,7 +385,10 @@
       "title": "Rational Electrolyte Solvent Screening for Practical Lithium–Sulfur Batteries",
       "url": "https://doi.org/10.1021/acsenergylett.6c00790",
       "published": "2026-04-24",
-      "topics": [],
+      "topics": [
+        "other-cathode",
+        "li-metal"
+      ],
       "doi": "10.1021/acsenergylett.6c00790",
       "authors": [
         "Lin Peng",
@@ -402,7 +408,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "유전율과 도너수를 이용한 용매 스크리닝 기준으로 75종 용매를 분류하여 리튬-황 전지의 폴리설파이드 셔틀 억제와 리튬 호환성을 동시에 개선, 높은 황 로딩에서도 우수한 면적용량을 달성한 연구이다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7155541803",
@@ -722,9 +728,7 @@
       "title": "In Situ Lithiated Anti-Perovskite Nitride-Mediated Li-Ion Redistribution Enabling Fast-Charging Graphite Anodes",
       "url": "https://doi.org/10.1021/acsnano.6c01193",
       "published": "2026-04-22",
-      "topics": [
-        "li-metal"
-      ],
+      "topics": [],
       "doi": "10.1021/acsnano.6c01193",
       "authors": [
         "Xu Huang",
@@ -744,7 +748,7 @@
       "first_seen": "2026-08-18",
       "image": null,
       "summary_ko": "in situ 리튬화된 반-페롭스카이트 질화물(LiCo3ZnN)을 이용한 이온 재분배 전략으로 흑연 음극 내 Li+ 수송 동역학을 향상시키고 리튬 도금 거동을 조절, DFT·유한요소해석·in situ 분광법을 통해 리튬친화성 매개체로서 덴드라이트 성장을 억제하고 급속충전 성능을 높였음을 확인했다.",
-      "relevant": true
+      "relevant": false
     },
     {
       "id": "W7155187205",
@@ -873,7 +877,7 @@
       "url": "https://doi.org/10.1021/jacs.5c18889",
       "published": "2026-04-21",
       "topics": [
-        "high-ni-ncm",
+        "ncm",
         "li-rich"
       ],
       "doi": "10.1021/jacs.5c18889",
@@ -934,8 +938,7 @@
       "url": "https://doi.org/10.1002/adfm.75292",
       "published": "2026-04-21",
       "topics": [
-        "ncm",
-        "other-cathode"
+        "ncm"
       ],
       "doi": "10.1002/adfm.75292",
       "authors": [
@@ -955,8 +958,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "불활성 가스(산소 부재) 분위기에서 니켈리치 층상 캐소드를 표면 처리하여 고전압 안정성을 향상시키는 연구이다. 표면 산소 공공을 정밀 제어함으로써 층상-스피넬 공존 코팅층을 원위치 형성시킨다. 이 하이브리드 구조가 구조 상전이 및 입자 균열에 의한 성능 저하를 완화한다.",
+      "relevant": true
     },
     {
       "id": "W7155225865",
@@ -965,7 +968,7 @@
       "url": "https://doi.org/10.1002/adfm.75513",
       "published": "2026-04-21",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/adfm.75513",
       "authors": [
@@ -1084,7 +1087,7 @@
       "url": "https://doi.org/10.1021/acsnano.6c01776",
       "published": "2026-04-17",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1021/acsnano.6c01776",
       "authors": [
@@ -1313,8 +1316,8 @@
       "journal_metric": 8.82,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "양극성 공유결합 유기골격체(COF)를 이용한 코어-쉘 이종구조 캐소드로 리튬-유기 배터리 성능을 개선한 연구이다. CNT 코어와 p-/n-형 질소 활성점을 가진 COF 쉘로 구성된 하이브리드 구조로 226.5 mAh/g의 높은 가역용량을 달성했다. 저전압, 낮은 용량, 느린 전하이동 문제를 동시에 해결하고자 했다.",
+      "relevant": true
     },
     {
       "id": "W7154511860",
@@ -1353,7 +1356,7 @@
       "url": "https://doi.org/10.1002/aenm.70938",
       "published": "2026-04-14",
       "topics": [
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/aenm.70938",
       "authors": [
@@ -1403,8 +1406,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "불화철 기반 전환형 캐소드를 사용하는 고에너지 리튬전지에서 양측 전극 계면의 안정화 역할을 규명한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7154249980",
@@ -1586,8 +1589,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "단결정 니켈리치 캐소드에서 공기 노출로 인한 표면 열화가 유발하는 단계별 반응 불균일성을 규명한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7153521386",
@@ -1656,7 +1659,8 @@
       "url": "https://doi.org/10.1002/adfm.75367",
       "published": "2026-04-10",
       "topics": [
-        "li-metal"
+        "li-metal",
+        "other-cathode"
       ],
       "doi": "10.1002/adfm.75367",
       "authors": [
@@ -1706,8 +1710,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Fe 단일원자/클러스터 시너지 촉매를 이용해 리튬-황 배터리의 황 전환 반응을 선택적 종(species)으로 유도하는 연구이다. 다공성 탄소나노섬유에 담지된 Fe 단일원자-클러스터 복합촉매(Fe SA/ACs/CNF)로 전자이동 경로를 최적화했다. 이를 통해 리튬폴리설파이드 전환 속도를 가속하고 안정적인 α-S8 및 Li2S 상 형성을 촉진했다.",
+      "relevant": true
     },
     {
       "id": "W7152612645",
@@ -1736,8 +1740,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고온·고전압에서 리튬망간철인산염(LMFP) 캐소드의 망간 용출과 계면 불안정성을 억제하는 이중기능 전해질 첨가제(TMSB)를 제안했다. TMSB는 Li+ 용매화 껍질에 통합되어 우선적으로 산화되며 붕소/인이 풍부한 얇고 치밀한 CEI를 형성한다. 또한 부식성 불산을 화학적으로 소거하여 격자 부식을 억제한다.",
+      "relevant": true
     },
     {
       "id": "W7153031569",
@@ -1825,8 +1829,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "황 캐소드의 고체-고체 전환 반응 속도를 높이기 위해 전하이동과 Li+ 수송을 동시에 강화하는 전략을 제시한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7151380880",
@@ -1855,8 +1859,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전고체 리튬-황 배터리의 반응 속도 향상을 위한 고엔트로피 황화물 촉매를 설계한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7151367022",
@@ -1984,7 +1988,7 @@
       "published": "2026-04-05",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1002/aenm.70894",
       "authors": [
@@ -2064,8 +2068,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전불소화 전해질을 적용해 넓은 온도 범위에서 우수한 성능과 고안전성을 갖는 LiFePO4 배터리를 구현한 연구 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7148815087",
@@ -2094,8 +2098,8 @@
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "자기적 제어를 이용해 상용 코발트 함유 NMC를 대체할 단결정 초고니켈 코발트-프리 캐소드를 개발했다. 내부 Al과 외부 Zr을 도입한 3-in-1 전략으로 Li(Ni0.90Mn0.08Al0.02)0.98Zr0.02O2(NMAZ)를 합성했다. AlO6 리간드가 고스핀 Ni3+ 형성을 방지하고 표면 Zr이 Ni 확산을 억제하여 구조 안정성을 높였다.",
+      "relevant": true
     },
     {
       "id": "W7148466264",
@@ -2133,9 +2137,7 @@
       "title": "Multi‐Step Data‐Driven High‐Voltage MgMn 2 O 4 with Inorganic‐Rich Cathode‐Electrolyte Interphase for Stable Mg 2+ Storage",
       "url": "https://doi.org/10.1002/adfm.75243",
       "published": "2026-04-02",
-      "topics": [
-        "other-cathode"
-      ],
+      "topics": [],
       "doi": "10.1002/adfm.75243",
       "authors": [
         "Jinsong Wan",
@@ -2154,8 +2156,8 @@
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "데이터 기반 다단계 설계로 고전압 스피넬 MgMn2O4 마그네슘 이온 저장 캐소드와 무기 성분이 풍부한 CEI를 구현한 연구이다. 볼록껍질 에너지 및 전기화학적 안정성 창을 계산해 MgMn2O4를 Mg2+ 삽입 호스트로 선정했다. Mn 자리에 Ni를 치환한 나노입자로 실험적으로 이를 검증했다. 리튬이 아닌 마그네슘 배터리 캐소드 연구이다.",
+      "relevant": false
     },
     {
       "id": "W7148548154",
@@ -2195,7 +2197,7 @@
       "published": "2026-04-02",
       "topics": [
         "li-metal",
-        "high-ni-ncm"
+        "ncm"
       ],
       "doi": "10.1021/acsnano.6c01170",
       "authors": [
@@ -2245,8 +2247,8 @@
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "응력 매개 격자 재구성을 통해 폐 LiFePO4 캐소드를 재생하는 전략을 제시했다. LFP 성능 저하가 단순 조성 불균형이 아니라 응력 유도 구조 열화에서 근본적으로 기인함을 규명했다. 이 통찰을 바탕으로 전기화학적 응력 조절 재생 공정을 개발하여 [010] 확산 채널을 복원했다.",
+      "relevant": true
     },
     {
       "id": "W7156250371",
@@ -2345,7 +2347,7 @@
       "url": "https://doi.org/10.1002/anie.2943336",
       "published": "2026-04-01",
       "topics": [
-        "ncm"
+        "li-rich"
       ],
       "doi": "10.1002/anie.2943336",
       "authors": [
@@ -2365,8 +2367,8 @@
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬리치 층상 산화물 캐소드에서 이종계면에 면공유(face-shared) 배열을 구성해 구조 열화를 억제한 연구이다. Li 결핍이 없는 O2상과 리튬리치 O3상을 결합한 이종구조를 합성했다. 균일한 면공유 계면 배열이 전이금속의 층외 이동을 억제하여 구조 붕괴를 완화한다.",
+      "relevant": true
     }
   ]
 }
