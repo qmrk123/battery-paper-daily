@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T05:48:18+00:00",
+  "generated_at": "2026-08-19T06:03:04+00:00",
   "count": 3,
   "papers": [
     {
@@ -9,9 +9,7 @@
       "title": "Selective Electrodepositionof Cobalt from Lithium–IonBattery Cathodes via Speciation Control and Surface-Modified PorousElectrodes",
       "url": "https://doi.org/10.1021/acsnano.6c04698",
       "published": "2026-08-15",
-      "topics": [
-        "ncm"
-      ],
+      "topics": [],
       "doi": "10.1021/acsnano.6c04698",
       "authors": [
         "Jaeyoung Hong",
@@ -30,8 +28,8 @@
       "journal_metric": 16.67,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐리튬이온전지 NMC 캐소드에서 코발트와 니켈을 전기화학적으로 분리 회수하는 기법을 제시했다. EDTA로 니켈을 음이온 착물로 전환하고 다공성 멤브레인 전극 표면을 PSS로 개질하여 코발트 선택적 전착을 유도했으며, Co/Ni 원자비 최대 약 40, 2단계 전착 후 금속 순도 98.8%의 코발트를 회수했다.",
+      "relevant": false
     },
     {
       "id": "W7203477050",
