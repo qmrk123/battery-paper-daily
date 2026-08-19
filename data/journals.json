@@ -15,6 +15,10 @@
   "metric": 19.36,
   "name": "Materials Science and Engineering R Reports"
  },
+ "S101949793": {
+  "metric": 5.19,
+  "name": "Sensors"
+ },
  "S105243760": {
   "metric": 3.86,
   "name": "Applied Physics Letters"
@@ -626,6 +630,10 @@
  "S2737336974": {
   "metric": 2.82,
   "name": "Minerals"
+ },
+ "S2737343529": {
+  "metric": 2.62,
+  "name": "Fluids"
  },
  "S2737417813": {
   "metric": 4.04,
