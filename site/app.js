@@ -199,9 +199,16 @@ function authorsLine(p) {
   // the first author (lead) + the last 3 rather than the first few. Short lists
   // shown in full; the complete author list is on hover (title=).
   const full = a.join(", ");
-  const shown = a.length <= 5
-    ? a.map(esc).join(", ")
-    : `${esc(a[0])} … ${a.slice(-3).map(esc).join(", ")}`;
+  const last = `<strong class="au-last">${esc(a[a.length - 1])}</strong>`;
+  let shown;
+  if (a.length === 1) {
+    shown = last;
+  } else if (a.length <= 5) {
+    shown = `${a.slice(0, -1).map(esc).join(", ")}, ${last}`;
+  } else {
+    // first author (lead) + … + last two + LAST (group/corresponding, bold)
+    shown = `${esc(a[0])} … ${a.slice(-3, -1).map(esc).join(", ")}, ${last}`;
+  }
   return `<p class="card__authors" title="${esc(full)}">${shown}</p>`;
 }
 
