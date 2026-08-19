@@ -1,0 +1,36 @@
+name: wiley-tdm-test
+
+# One-off diagnostic: does the Wiley TDM token fetch a SUBSCRIBED paper's PDF from
+# GitHub's (off-campus) IP? Prints only HTTP status/type/size — never the token
+# (GitHub masks secrets, and the token is only ever sent as a request header).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe Wiley TDM API (off-network)
+        env:
+          TOK: ${{ secrets.WILEY_TDM_TOKEN }}
+        run: |
+          if [ -z "$TOK" ]; then echo "::error::WILEY_TDM_TOKEN is empty"; exit 1; fi
+          echo "token present (length ${#TOK})"
+          for DOI in "10.1002/anie.202522034" "10.1002/advs.202523469"; do
+            echo "=== $DOI ==="
+            info=$(curl -sS -o body.bin -w "%{http_code} | %{content_type} | %{size_download} bytes" \
+              -L --max-redirs 6 \
+              -H "Wiley-TDM-Client-Token: $TOK" \
+              -H "User-Agent: battery-paper-daily TDM (mailto:qmrk123@hanyang.ac.kr)" \
+              "https://api.wiley.com/onlinelibrary/tdm/v1/articles/$DOI" 2>err.txt || true)
+            echo "  result: ${info:-<curl error: $(cat err.txt)>}"
+            if head -c 5 body.bin 2>/dev/null | grep -q "%PDF"; then
+              echo "  -> PDF OK"
+            else
+              echo "  -> NOT a PDF. first 160 chars:"
+              head -c 160 body.bin 2>/dev/null | tr -d '\000' | tr '\n' ' '; echo
+            fi
+          done
