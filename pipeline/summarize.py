@@ -38,29 +38,32 @@ SDK_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 CLI_MODEL = os.environ.get("CLAUDE_MODEL", "haiku")
 MAX_TOKENS = 600
 
-TOPIC_IDS = ["li-metal", "na-metal", "high-ni-ncm", "li-rich"]
+TOPIC_IDS = ["li-metal", "na-metal", "ncm", "li-rich", "lfp", "other-cathode"]
 
 SYSTEM = (
     "당신은 이차전지(배터리) 소재 연구자를 돕는 조수입니다. 주어진 논문의 제목·초록과 "
     "'배정 후보 주제'를 보고 두 가지를 출력합니다.\n"
-    "1) 분류(topics): 이 논문이 실제로 다루는 주제를 아래 4가지 중 모두 고르세요(복수 가능). "
-    "배정 후보 주제는 참고만 하고, 반드시 실제 내용 기준으로 정확히 분류하세요. 4가지 중 "
-    "어디에도 해당하지 않으면 빈 배열([]).\n"
-    "   - li-metal: 리튬 금속 '음극'(anode) — 리튬 금속 전지, 덴드라이트, anode-free 리튬, "
-    "Li 도금/벗김, Li 음극 계면·집전체·SEI\n"
-    "   - na-metal: 소듐 금속 '음극' — 소듐 금속 전지, Na anode-free, Na 덴드라이트/SEI\n"
-    "   - high-ni-ncm: High-Ni NCM/NMC '양극'(cathode) — Ni-rich 층상 산화물 양극(NCM/NMC811 등)\n"
-    "   - li-rich: Li-rich/Li-excess '양극' — 리튬 과잉 층상/무질서암염(DRX) 양극, 음이온(산소) 산화환원\n"
-    "   ★ 음극(anode) 논문을 양극(cathode) 주제로, 또는 그 반대로 분류하지 마세요. "
-    "예: 'anode-free lithium'은 li-metal(음극)이지 high-ni-ncm(양극)이 아님. "
-    "Li-S(황 양극)·Li-O2(산소 양극)·일반 LiCoO2·순수 물리/촉매 논문은 4가지 중 없음([]).\n"
+    "1) 분류(topics): 이 논문이 실제로 다루는 주제를 아래 6가지 중 모두 고르세요(복수 가능). "
+    "배정 후보 주제는 참고만 하고, 반드시 실제 내용 기준으로 정확히 분류하세요. 어디에도 "
+    "해당하지 않으면 빈 배열([]).\n"
+    "  [음극(anode)]\n"
+    "   - li-metal: 리튬 금속 음극 — Li 금속 전지, 덴드라이트, anode-free 리튬, Li 도금/벗김, Li 음극 계면·집전체·SEI\n"
+    "   - na-metal: 소듐 금속 음극 — Na 금속 전지, anode-free 소듐, Na 덴드라이트/SEI\n"
+    "  [양극(cathode) — 아래는 모두 리튬 양극이며 하나만 정확히 고르세요]\n"
+    "   - ncm: NCM/NMC 층상 양극 — 니켈-코발트-망간 층상 산화물(NCM/NMC, high-Ni 포함, 전 조성)\n"
+    "   - li-rich: 리튬 과잉(Li-rich/Li-excess) 양극 — 과잉 리튬 층상/무질서암염(DRX), 음이온(산소) 산화환원\n"
+    "   - lfp: LFP 양극 — LiFePO4, 올리빈 인산염(LMFP 등)\n"
+    "   - other-cathode: 그 외 모든 리튬 양극 — LiCoO2(LCO), 스피넬(LMO/LNMO), 프러시안블루, 유기, "
+    "Li-S(황), Li-O2(산소), 변환형, 폴리음이온 등. (NCM·Li-rich·LFP에 해당하면 그쪽으로, 여기 아님)\n"
+    "   ★ 음극/양극을 혼동하지 마세요(anode-free lithium=li-metal). 소듐 '양극'(Na-ion 양극재)·순수 "
+    "물리/촉매·Si/흑연 음극 등 위 6개에 안 맞으면 빈 배열([]).\n"
     "2) 한글 요약(summary_ko): 핵심 기여·발견·방법을 2~4문장으로. 전문 용어는 유지하되 간결하게. "
     "광고·과장 금지, 초록에 없는 내용 추측 금지. 초록이 없으면 제목에 근거해 1~2문장으로 "
     "보수적으로 쓰고 문장 끝에 '(제목 기반 추정)'을 덧붙입니다."
 )
 CLI_JSON_SUFFIX = (
     '\n\n반드시 JSON 객체 하나만 출력하세요. 마크다운/설명 없이 순수 JSON만:\n'
-    '{"topics": ["li-metal" 등 해당 주제 배열, 없으면 []], "summary_ko": "한글 요약"}'
+    '{"topics": ["ncm" 등 해당 주제 배열, 없으면 []], "summary_ko": "한글 요약"}'
 )
 
 # SDK: force structured output via a tool

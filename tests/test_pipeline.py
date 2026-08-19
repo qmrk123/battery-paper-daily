@@ -71,7 +71,7 @@ def test_prefer_keeps_journal_with_abstract():
 
 def test_topic_filter_precision():
     cfg = load_config()
-    ncm = cfg.topic("high-ni-ncm")
+    ncm = cfg.topic("ncm")
     # true positive
     assert ncm.matches("Single-crystal Ni-rich NCM811 cathode for Li-ion batteries")
     # false positives that plagued the naive search

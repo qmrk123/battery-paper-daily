@@ -21,8 +21,9 @@ from pipeline.config import load_config
 from pipeline.fetch import dedup_by_title
 from pipeline.models import canonical_key
 from pipeline.store import Store
+from pipeline.summarize import TOPIC_IDS
 
-VALID = {"li-metal", "na-metal", "high-ni-ncm", "li-rich"}
+VALID = set(TOPIC_IDS)
 
 
 def _apply(paper, entry) -> None:

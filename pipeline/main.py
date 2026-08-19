@@ -2,7 +2,7 @@
 
     python -m pipeline.main                 # full run: fetch -> data/<today>.json
     python -m pipeline.main --dry-run        # show what would be fetched, write nothing
-    python -m pipeline.main --topic high-ni-ncm --dry-run --show-filtered
+    python -m pipeline.main --topic ncm --dry-run --show-filtered
     python -m pipeline.main --date 2026-08-14 --no-arxiv
 
 Summaries/images are added in later phases; this phase produces the paper list.

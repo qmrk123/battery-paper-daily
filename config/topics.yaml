@@ -81,22 +81,38 @@ topics:
     exclude:
       - 'welding|superalloy|electrocatalys|water splitting|fuel cell'
 
-  - id: high-ni-ncm
-    label_ko: "High-Ni NCM 양극"
-    label_en: "High-Ni NCM/NMC cathode"
+  - id: ncm
+    label_ko: "NCM 양극"
+    label_en: "NCM/NMC cathode"
     emoji: "🟢"
     queries:
-      - "high-nickel cathode"
+      - "NCM cathode"
+      - "NMC cathode"
+      - "nickel cobalt manganese oxide cathode"
       - "nickel-rich layered cathode"
-      - "NCM811 cathode"
-      - "NMC811 cathode"
-      - "single crystal nickel-rich cathode"
-    arxiv: 'abs:"Ni-rich cathode" OR abs:"nickel-rich cathode" OR abs:"NMC811"'
+      - "LiNiCoMnO2"
+      - "layered oxide cathode lithium"
+    arxiv: 'abs:"NMC cathode" OR abs:"nickel-rich cathode" OR abs:"NCM"'
     include:
-      - 'ni[- ]?rich|nickel[- ]?rich|high[- ]?ni\b|high nickel|\bncm\s?\d|\bnmc\s?\d|lini0\.[5-9]|single[- ]crystal.{0,20}cathode'
+      - '\bncm\b|\bnmc\b|ni[- ]?rich|nickel[- ]?rich|nickel[- ]cobalt[- ]manganese|lini.{0,6}(co|mn)|lini0\.[3-9]|layered.{0,15}(ni|nickel|oxide) cathode'
     exclude:
-      - 'nickel (?:production|recovery|extraction|plating|foam|superalloy)|electrocatalys|water splitting|welding|\bp2-type\b|\bo3-type\b.{0,10}sodium'
-      - '\bsodium[- ]ion\b|\bna[- ]?ion\b'
+      - 'nickel (?:production|recovery|extraction|plating|foam|superalloy)|electrocatalys|water splitting|welding'
+      - '\bsodium[- ]ion\b|\bna[- ]?ion\b|\bp2-type\b'
+
+  - id: lfp
+    label_ko: "LFP 양극"
+    label_en: "LiFePO4 / olivine cathode"
+    emoji: "🟣"
+    queries:
+      - "lithium iron phosphate cathode"
+      - "LiFePO4 battery"
+      - "olivine cathode"
+      - "LFP cathode"
+    arxiv: 'abs:"LiFePO4" OR abs:"lithium iron phosphate"'
+    include:
+      - 'lifepo4|lifepo|lithium iron phosphate|olivine|\blfp\b|lmfp|limnfepo'
+    exclude:
+      - 'electrocatalys|water splitting|\bna[- ]?ion\b'
 
   - id: li-rich
     label_ko: "리튬 과잉(Li-rich) 양극"
@@ -113,3 +129,27 @@ topics:
       - 'li[- ]?rich|lithium[- ]?rich|li[- ]?excess|lithium[- ]?excess|over[- ]?lithiat|li1\.2|anionic redox|oxygen redox'
     exclude:
       - '\bsodium\b|\bna[- ]?rich\b|electrocatalys|water splitting|fuel cell'
+
+  - id: other-cathode
+    label_ko: "기타 양극재"
+    label_en: "Other Li cathode (LCO, spinel, PB, organic, S, O2, ...)"
+    emoji: "⚪"
+    # Broad recall for all remaining Li cathodes; the LLM does the final bucketing
+    # (NCM/Li-rich/LFP are handled by their own tabs and excluded here by the LLM).
+    queries:
+      - "LiCoO2 cathode"
+      - "spinel cathode lithium"
+      - "high-voltage spinel LiNi0.5Mn1.5O4"
+      - "lithium manganese oxide cathode"
+      - "Prussian blue cathode lithium"
+      - "organic cathode lithium battery"
+      - "lithium sulfur battery cathode"
+      - "lithium oxygen battery cathode"
+      - "disordered rock salt cathode"
+      - "conversion cathode lithium"
+      - "polyanion cathode lithium"
+    arxiv: 'abs:"LiCoO2" OR abs:"lithium sulfur" OR abs:"spinel cathode"'
+    include:
+      - 'licoo2|\blco\b|spinel|limn2o4|\blmo\b|lini0\.5mn1\.5|lnmo|prussian blue|organic cathode|lithium[- ]sulfur|li[- ]?s battery|sulfur cathode|lithium[- ]oxygen|li[- ]?o2|disordered rock|conversion cathode|polyanion|fluoride cathode|vanadium oxide cathode'
+    exclude:
+      - '\bsodium[- ]ion\b|\bna[- ]?ion\b|na3v2|electrocatalys|water splitting|fuel cell|oxygen evolution|hydrogen evolution'

@@ -14,12 +14,12 @@ from pipeline.summarize import (
     parse_cli_result, _extract_json, ClaudeAuthError, parse_gemini_result,
 )
 
-LABELS = {"li-metal": "리튬 금속 음극", "high-ni-ncm": "High-Ni NCM 양극"}
+LABELS = {"li-metal": "리튬 금속 음극", "ncm": "High-Ni NCM 양극"}
 
 
 def test_build_user_content_includes_fields():
     p = Paper(id="W1", source="openalex", title="Ni-rich cathode study",
-              url="u", published="2026-08-14", topics=["high-ni-ncm"],
+              url="u", published="2026-08-14", topics=["ncm"],
               venue="J. Power Sources", abstract_en="We show ...")
     txt = build_user_content(p, LABELS)
     assert "High-Ni NCM 양극" in txt
@@ -66,7 +66,7 @@ class FakeClient:
         user = kw["messages"][0]["content"]
         off_topic = "magnet" in user.lower()
         return type("R", (), {"content": [
-            _Block({"topics": [] if off_topic else ["high-ni-ncm"],
+            _Block({"topics": [] if off_topic else ["ncm"],
                     "summary_ko": "무관 논문." if off_topic else "핵심 요약 2문장."})
         ]})()
 
@@ -81,7 +81,7 @@ def test_summarize_papers_classifies_and_gates():
     client = FakeClient()
     stats = summarize_papers(papers, LABELS, client=client, workers=2)
     assert stats["processed"] == 2 and stats["irrelevant"] == 1 and stats["errors"] == 0
-    assert papers[0].topics == ["high-ni-ncm"]      # reclassified by the LLM
+    assert papers[0].topics == ["ncm"]      # reclassified by the LLM
     assert papers[0].relevant is True and papers[0].summary_ko
     assert papers[1].topics == [] and papers[1].relevant is False
 
@@ -110,8 +110,8 @@ def test_parse_cli_result_generic_error_returns_none():
 
 def test_parse_gemini_result():
     ok = {"candidates": [{"content": {"parts": [
-        {"text": '{"topics": ["high-ni-ncm"], "summary_ko": "핵심 요약."}'}]}}]}
-    assert parse_gemini_result(ok) == (["high-ni-ncm"], "핵심 요약.")
+        {"text": '{"topics": ["ncm"], "summary_ko": "핵심 요약."}'}]}}]}
+    assert parse_gemini_result(ok) == (["ncm"], "핵심 요약.")
     fenced = {"candidates": [{"content": {"parts": [
         {"text": '```json\n{"topics": [], "summary_ko": "무관."}\n```'}]}}]}
     assert parse_gemini_result(fenced) == ([], "무관.")

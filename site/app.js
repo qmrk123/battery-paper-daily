@@ -2,11 +2,12 @@
 "use strict";
 
 const TOPIC_CODE = {
-  "li-metal": "LM", "na-metal": "NM", "high-ni-ncm": "HN", "li-rich": "LR",
+  "li-metal": "LM", "na-metal": "NM", "ncm": "NC", "li-rich": "LR",
+  "lfp": "LF", "other-cathode": "OC",
 };
 const TOPIC_VAR = {
-  "li-metal": "--li-metal", "na-metal": "--na-metal",
-  "high-ni-ncm": "--high-ni", "li-rich": "--li-rich",
+  "li-metal": "--li-metal", "na-metal": "--na-metal", "ncm": "--ncm",
+  "li-rich": "--li-rich", "lfp": "--lfp", "other-cathode": "--other-cathode",
 };
 
 const state = {

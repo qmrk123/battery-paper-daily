@@ -14,10 +14,13 @@
                Consolas, monospace;
 
   /* topic hues (shared across themes; surfaces adapt) */
-  --li-metal: #ff4d5e;
-  --na-metal: #f0a92b;
-  --high-ni:  #24c98a;
-  --li-rich:  #a78bfa;
+  --li-metal: #ff4d5e;   /* crimson  (Li flame) */
+  --na-metal: #f0a92b;   /* amber    (Na flame) */
+  --ncm:      #24c98a;   /* nickel green */
+  --li-rich:  #a78bfa;   /* redox violet */
+  --lfp:      #22b8d0;   /* olivine teal */
+  --other-cathode: #8a94a8;  /* slate */
+  --high-ni:  #24c98a;   /* legacy alias */
 
   /* light theme (default) */
   --bg: #eef1f5;
