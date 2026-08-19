@@ -8,3 +8,7 @@ pillow>=10.0
 
 # Phase 4 (Korean summaries): Anthropic Batch API
 anthropic>=0.40
+
+# Local-only: graphical abstracts via publisher TDM API (pipeline/tdm_images.py).
+# Runs on the campus network, not in CI — but kept here so the shared .venv has it.
+pymupdf>=1.24
