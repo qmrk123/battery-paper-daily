@@ -9,7 +9,9 @@
       "title": "Selective Electrodepositionof Cobalt from Lithium–IonBattery Cathodes via Speciation Control and Surface-Modified PorousElectrodes",
       "url": "https://doi.org/10.1021/acsnano.6c04698",
       "published": "2026-08-15",
-      "topics": [],
+      "topics": [
+        "ncm"
+      ],
       "doi": "10.1021/acsnano.6c04698",
       "authors": [
         "Jaeyoung Hong",
@@ -28,8 +30,8 @@
       "journal_metric": 16.67,
       "first_seen": "2026-08-19",
       "image": null,
-      "summary_ko": "폐리튬이온전지 NMC 양극에서 코발트와 니켈을 선택적으로 분리 회수하는 전기화학적 방법을 제시했다. EDTA로 니켈을 음이온 착물로 전환해 코발트를 상대적으로 농축시키고, 다공성 폴리카보네이트 막을 폴리스티렌설포네이트(PSS)로 코팅해 기공 내 코발트 선택성을 추가로 높였다. 이 방법으로 Co/Ni 원자비 최대 40, 상용 NMC 양극에서 금속 기준 순도 98.8%의 코발트 회수를 달성했다.",
-      "relevant": false
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7203477050",
