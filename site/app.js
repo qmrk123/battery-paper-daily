@@ -195,9 +195,14 @@ function card(p, i) {
 function authorsLine(p) {
   const a = p.authors || [];
   if (!a.length) return "";
-  const shown = a.slice(0, 3).map(esc).join(", ");
-  const more = a.length > 3 ? ` 외 ${a.length - 3}명` : "";
-  return `<p class="card__authors">${shown}${more}</p>`;
+  // Which group? The last author (senior/corresponding) is the signal, so show
+  // the first author (lead) + the last 3 rather than the first few. Short lists
+  // shown in full; the complete author list is on hover (title=).
+  const full = a.join(", ");
+  const shown = a.length <= 5
+    ? a.map(esc).join(", ")
+    : `${esc(a[0])} … ${a.slice(-3).map(esc).join(", ")}`;
+  return `<p class="card__authors" title="${esc(full)}">${shown}</p>`;
 }
 
 function summaryBlock(p) {
