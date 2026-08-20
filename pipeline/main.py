@@ -17,8 +17,13 @@ from .fetch import gather_candidates, select_new
 from .store import Store
 
 
+# Digests are dated by Korea time: the 06:00 KST cron is 21:00 UTC of the PREVIOUS
+# day, so UTC dating labelled "today's" papers with yesterday's date.
+KST = timezone(timedelta(hours=9))
+
+
 def _today() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return datetime.now(KST).strftime("%Y-%m-%d")
 
 
 def _window_start(run_date: str, days: int) -> str:
