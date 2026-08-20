@@ -518,7 +518,12 @@
       "journal_id": null,
       "journal_metric": 16.94,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76505-4/MediaObjects/41467_2026_76505_Fig1_HTML.png",
+        "cached": "img/W7201844265.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76505-4"
+      },
       "summary_ko": "Al4C3 연마제로 다결정 Li5.5PS4.5Cl1.5 황화물 고체전해질 결정립을 미세화·균일화하는 산업 친화적 전략을 제시. 입자 크기·분포를 줄여 고밀도 전극을 구현, 낮은 적층압력에서도 전고체 리튬 금속 전지의 사이클·율 특성을 개선한다.",
       "relevant": true
     },
@@ -580,7 +585,12 @@
       "journal_id": null,
       "journal_metric": 16.94,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76496-2/MediaObjects/41467_2026_76496_Fig1_HTML.png",
+        "cached": "img/W7201847821.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76496-2"
+      },
       "summary_ko": "비대칭 플루오르화 설폰아마이드 용매를 설계해 산화 안정성과 저온 특성(어는점 -150°C 이하)을 동시에 확보. 고니켈 양극·리튬 금속 전지의 고전압(4.6V 이상)·전천후(-20~55°C) 안정 사이클을 가능케 한다.",
       "relevant": true
     }

@@ -133,6 +133,18 @@ def download_image(url: str, session: requests.Session) -> Optional[bytes]:
         return None
 
 
+def springer_fig1_url(doi: Optional[str]) -> Optional[str]:
+    """Construct the Figure-1 image URL for a Springer Nature article. Recent Nature
+    articles sometimes carry no og:image yet, but their figures live at a predictable
+    media.springernature.com path derived from the DOI (10.1038/s{J}-{0YY}-{ID}-{c})."""
+    m = re.match(r"^10\.1038/(s(\d+)-(\d+)-(\d+)-.+)$", doi or "")
+    if not m:
+        return None
+    suf, j, yr, aid = m.group(1), m.group(2), m.group(3), m.group(4)
+    return ("https://media.springernature.com/lw685/springer-static/image/"
+            f"art%3A10.1038%2F{suf}/MediaObjects/{j}_2{yr}_{aid}_Fig1_HTML.png")
+
+
 def process_paper(paper: Paper, session: requests.Session, img_dir: Path) -> str:
     """Try to attach a cached thumbnail from the landing page's og:image (the
     image publishers publish for link previews). Returns a short status string."""
@@ -143,8 +155,10 @@ def process_paper(paper: Paper, session: requests.Session, img_dir: Path) -> str
         return "no-url"
 
     og = fetch_og_image(landing, session)
+    if not og and (paper.doi or "").startswith("10.1038"):
+        og = springer_fig1_url(paper.doi)   # Nature with no og:image -> its Figure 1
     if not og:
-        return "no-og"          # publisher blocked the fetch (403) or exposes no og:image
+        return "no-og"          # blocked (403), or no og:image and not a constructable Nature URL
     data = download_image(og, session)
     if not data:
         return "dl-fail"

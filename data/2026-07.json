@@ -1018,7 +1018,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76060-y/MediaObjects/41467_2026_76060_Fig1_HTML.png",
+        "cached": "img/W7171151152.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76060-y"
+      },
       "summary_ko": "Ag+ 기반 다기능 개시제를 전해질에 도입한 동적 통합 계면공학 전략으로 준고체상 초기 무음극 리튬 금속전지의 안정성을 크게 향상시켰다. 인시투 중합을 통한 전극-전해질 계면 결합과 Ag+ 유도 인시투 증착을 통한 집전체 친리튬성 향상을 동시에 구현하여 반전된 유무기 SEI 구조를 형성한다.",
       "relevant": true
     },
@@ -2230,7 +2235,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75417-7/MediaObjects/41467_2026_75417_Fig1_HTML.png",
+        "cached": "img/W7169756453.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75417-7"
+      },
       "summary_ko": "공유결합 유기 골격체(COF)와 폴리(소듐아크릴레이트-공-불소화에틸렌)을 결합한 복합 고체 전해질(COF/PNSE)을 통해 이온 이동과 계면 화학을 동시에 조절하는 급속충전용 소듐 고체 배터리를 개발했다. 30°C에서 1.2 mS/cm의 이온전도도와 6,750시간에 걸친 안정적인 대칭셀 사이클링을 달성했다.",
       "relevant": true
     },
@@ -2717,7 +2727,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1038/s41467-026-75215-1",
+        "cached": "img/W7168370099.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications - https://doi.org/10.1038/s41467-026-75215-1"
+      },
       "summary_ko": "고체 배터리용 리튬리치 망간 산화물 양극의 초기 비가역성, 급격한 용량 감소, 산소 방출로 인한 구조 붕괴 문제를 해결하기 위해 티오요소 유래 표면 코팅 전략을 도입했다. 개질된 양극은 220.2 mAh/g의 초기 방전 용량과 84.83%의 초기 쿨롱 효율을 나타냈다.",
       "relevant": true
     },
