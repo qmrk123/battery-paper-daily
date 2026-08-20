@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T05:36:16+00:00",
+  "count": 2,
+  "papers": [
+    {
+      "id": "W7203683926",
+      "source": "openalex",
+      "title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes",
+      "url": "https://doi.org/10.1021/jacs.6c06113",
+      "published": "2026-08-18",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/jacs.6c06113",
+      "authors": [
+        "Jun Pan",
+        "Abdullah Bin Faheem",
+        "Bixian Zhong",
+        "Yifan Xu",
+        "Leonardo Cancellara",
+        "Pei Zhao"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Interfacial instability in electrochemical systems remains a fundamental challenge, particularly in high-nickel layered oxides where reactive surfaces drive parasitic chemistry even under near-equilibrium conditions. Here, we elucidate the chemical origins of storage-induced degradation in LiNi0.8Mn0.1Co0.1O2 cathodes, showing that electrolyte decomposition and interfacial Ni dissolution are correlated processes that govern capacity loss during storage. Building on this mechanistic insight, we develop a data-driven framework for engineering cathode–electrolyte interphases (CEIs) by integrating density functional theory with machine-learning interatomic potentials. This approach enables rapid evaluation of molecular descriptors for a diverse set of electrolyte additives. Unsupervised clustering highlights lithium bis(oxalato)borate (LiBOB) and lithium trifluoromethanesulfinate as effective CEI-forming additives. Experimental validation confirms that incorporating 0.05 M LiBOB significantly stabilizes the interface, improving capacity retention from 82% to 95.5% after 28 days of storage at 60 °C, with consistent behavior in a pouch cell. Furthermore, interfacial stability is assessed using distribution-of-relaxation-time analysis, providing a practical descriptor for evaluating CEI evolution. This work establishes a generalizable, data-driven strategy for understanding and controlling interfacial reactivity in metastable electrochemical systems.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": "고니켈 NCM(LiNi0.8Mn0.1Co0.1O2) 양극재의 저장 중 열화 원인을 규명한 연구로, 전해질 분해와 계면 Ni 용출이 상관관계를 가지며 용량 손실을 유발함을 밝혔다. DFT와 머신러닝 원자간 포텐셜을 결합한 데이터 기반 프레임워크로 다양한 전해질 첨가제를 스크리닝한 결과, LiBOB와 리튬 트리플루오로메탄술핀산염이 효과적인 CEI 형성 첨가제로 확인되었다. 0.05M LiBOB 첨가 시 60°C에서 28일 저장 후 용량 유지율이 82%에서 95.5%로 크게 개선되었으며 파우치 셀에서도 동일한 경향이 확인되었다.",
+      "relevant": true
+    },
+    {
+      "id": "W7155163795",
+      "source": "openalex",
+      "title": "Spatially confining and electronically reconnecting dead lithium in a hierarchical host for long-life lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112301",
+      "published": "2026-08-13",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112301",
+      "authors": [
+        "Hui Li",
+        "Zhiwei He",
+        "Hongxian Zhang",
+        "Tengfei Xu",
+        "Ouwei Sheng",
+        "Qingyue Han"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.2139/ssrn.6628926",
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": "장수명 리튬 금속 전지를 위해 계층적 호스트 구조로 데드 리튬을 공간적으로 가두고 전기적으로 재연결하는 방법에 관한 연구이다 (제목 기반 추정).",
+      "relevant": true
+    }
+  ]
+}
