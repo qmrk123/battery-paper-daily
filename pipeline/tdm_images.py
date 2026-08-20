@@ -38,6 +38,23 @@ _DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$|^\d{4}-\d{2}$")
 # DOI-prefix -> fetcher. Only Wiley confirmed working (subscribed, IP-gated) for now.
 WILEY_PREFIX = "10.1002"
 
+# Wiley TDM occasionally 500/503s under load (or for the odd article) — treat these
+# as transient and retry with backoff. 403 = not entitled; 404 = not in TDM (permanent).
+TRANSIENT = {"429", "500", "502", "503", "504"}
+
+
+def _fetch_with_retry(doi: str, token: str, session: requests.Session, log, tag=""):
+    """fetch_wiley_pdf with up to 3 backoff retries on transient (5xx/429) errors."""
+    pdf, status = fetch_wiley_pdf(doi, token, session)
+    tries = 0
+    while pdf is None and status in TRANSIENT and tries < 3:
+        wait = 8 * (tries + 1)          # 8s, 16s, 24s
+        log(f"    {status} on {doi}{tag} — retry {tries + 1}/3 in {wait}s")
+        time.sleep(wait)
+        pdf, status = fetch_wiley_pdf(doi, token, session)
+        tries += 1
+    return pdf, status
+
 
 def fetch_wiley_pdf(doi: str, token: str, session: requests.Session):
     """Return (pdf_bytes|None, status_str). Follows the TDM 302 -> PDF redirect."""
@@ -144,13 +161,9 @@ def run_batch(token: str, limit: int | None, delay: float, do_push: bool, log=pr
     stats = {"ok": 0, "no-ga": 0, "403": 0, "429": 0, "other": 0}
     for i, pid in enumerate(ids, 1):
         doi, venue, url, lic = targets[pid]
-        pdf, status = fetch_wiley_pdf(doi, token, session)
-        if status == "429":
-            log("  429 rate-limited — backing off 30s"); time.sleep(30)
-            pdf, status = fetch_wiley_pdf(doi, token, session)
+        pdf, status = _fetch_with_retry(doi, token, session, log)
         if pdf is None:
-            key = status if status in ("403",) else ("429" if status == "429" else "other")
-            stats[key] = stats.get(key, 0) + 1
+            stats[status] = stats.get(status, 0) + 1
             log(f"  [{i}/{len(ids)}] {status:6} {doi}")
             time.sleep(delay)
             continue
@@ -242,7 +255,7 @@ def run_sample(token: str, n: int, delay: float, log=print) -> int:
     log(f"== sample {len(picked)} Wiley papers -> _tdm_test/ ==")
     ok = 0
     for i, (pid, doi, venue) in enumerate(picked, 1):
-        pdf, status = fetch_wiley_pdf(doi, token, session)
+        pdf, status = _fetch_with_retry(doi, token, session, log)
         if pdf is None:
             log(f"  [{i}/{len(picked)}] {status:6} {doi}"); time.sleep(delay); continue
         jpeg, cand = extract_graphical_abstract(pdf)
