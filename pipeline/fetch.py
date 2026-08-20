@@ -83,9 +83,11 @@ class GatherResult:
 
 
 def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print) -> dict[str, str]:
-    """{journal name -> OpenAlex source id} for the allowlist + Nature sisters,
-    cached on disk (data/journal_sources.json) so each name resolves only once."""
-    names = list(dict.fromkeys((cfg.allow_journals or []) + NATURE_SISTERS))
+    """{journal name -> OpenAlex source id} for journal-first: the selective
+    `journal_first_sources` if configured, else the whole allowlist + Nature sisters.
+    Cached on disk (data/journal_sources.json) so each name resolves only once."""
+    names = list(dict.fromkeys(
+        cfg.journal_first_sources or ((cfg.allow_journals or []) + NATURE_SISTERS)))
     cache: dict[str, Optional[str]] = {}
     if SOURCES_CACHE.exists():
         try:

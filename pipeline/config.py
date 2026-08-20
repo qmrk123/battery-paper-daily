@@ -49,6 +49,7 @@ class Config:
     allow_journals: list[str] = field(default_factory=list)  # if set, keep ONLY these journals
     context: list[re.Pattern] = field(default_factory=list)  # shared battery/electrochem gate
     journal_gate: list[re.Pattern] = field(default_factory=list)  # tighter gate for journal-first
+    journal_first_sources: list[str] = field(default_factory=list)  # journals to fetch source-first
 
     def topic(self, tid: str) -> Topic:
         for t in self.topics:
@@ -96,4 +97,5 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         allow_journals=list(d.get("allow_journals", []) or []),
         context=_compile(default_context),
         journal_gate=_compile(d.get("journal_gate") or default_context),
+        journal_first_sources=list(d.get("journal_first_sources", []) or []),
     )

@@ -53,6 +53,24 @@ defaults:
   # general-materials output of AM/AFM/Adv Sci. The LLM still does final 6-topic scoping.
   journal_gate:
     - 'batter|\b(?:li|na|k|zn)[- ]?ion\b|\blithium\b|\bsodium\b|li[- ]?metal|na[- ]?metal|anode[- ]?free|\bSEI\b|dendrit|LiFePO|olivine|\bNCM\b|\bNMC\b|\bNCA\b|\bLCO\b|\bLNMO\b|\bLMO\b|layered (?:cathode|oxide)|li[- ]?rich|li[- ]?excess|disordered rock|\bDRX\b|polysulfide|lithium[- ]?sulfur|prussian blue|intercalat|(?:de)?lithiat|(?:de)?sodiat|plating.{0,20}stripping|solid[- ]?state electrolyte'
+  # Journal-FIRST applies ONLY to these (selective high-impact journals the topic
+  # queries under-collect). High-volume Advanced/ACS/Angew/JACS stay query-driven —
+  # already well covered — so the digest stays curated, not a firehose.
+  journal_first_sources:
+    - Energy & Environmental Science
+    - Joule
+    - Science
+    - Energy Storage Materials
+    - Nano Energy
+    - Journal of Energy Chemistry
+    - Materials Today
+    - Nature
+    - Nature Communications
+    - Nature Energy
+    - Nature Materials
+    - Nature Nanotechnology
+    - Nature Chemistry
+    - Nature Reviews Materials
 
 topics:
   - id: li-metal
