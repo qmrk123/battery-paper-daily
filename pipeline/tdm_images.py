@@ -192,7 +192,8 @@ def run_batch(wiley_token: str, els_key: str, limit: int | None, delay: float,
     for b, papers in _iter_papers(store):
         for p in papers:
             files_of.setdefault(p.id, set()).add(b)
-            if p.id in targets or (p.image and p.image.get("cached")):
+            # skip already-imaged, already-targeted, and hidden (out-of-scope) papers
+            if p.id in targets or (p.image and p.image.get("cached")) or p.relevant is False:
                 continue
             doi = p.doi or ""
             if doi.startswith(WILEY_PREFIX) and wiley_token:
