@@ -1,6 +1,6 @@
 {
   "date": "2026-05",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-08-20T09:00:44+00:00",
   "count": 254,
   "papers": [
     {
@@ -418,7 +418,9 @@
       "title": "Crossover dynamics of non-Fickian ionic diffusion in solids",
       "url": "https://doi.org/10.1038/s41467-026-73937-w",
       "published": "2026-05-30",
-      "topics": [],
+      "topics": [
+        "lfp"
+      ],
       "doi": "10.1038/s41467-026-73937-w",
       "authors": [
         "Gangbin Yan",
@@ -442,8 +444,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73937-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고체 내 이온 확산의 비-Fick(non-Fickian) 거동을 트레이서 교환법으로 직접 규명한 연구다. 이온·전자가 함께 움직여 전기화학 측정 해석을 복잡하게 만드는 문제를 피해, 1차원 전도체인 올리빈(LFP 계열) 모델계에서 구속·격자 왜곡에 따른 확산 크로스오버 동역학을 밝혔다.",
+      "relevant": true
     },
     {
       "id": "W7162861537",

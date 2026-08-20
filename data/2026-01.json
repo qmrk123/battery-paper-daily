@@ -1,6 +1,6 @@
 {
   "date": "2026-01",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-08-20T09:00:44+00:00",
   "count": 337,
   "papers": [
     {
@@ -767,8 +767,8 @@
         "license": "cc-by",
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-025-02113-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수술 후 잔존 종양세포를 겨냥한 개인맞춤 암 면역치료 연구로, 배터리 소재와는 무관하다. 자가 종양세포에 syntaxin 11을 과발현시켜 MHC I·CD80/CD86 발현을 높인 수지상세포 유사 세포를 만들어 수술 후 백신으로 활용했다.",
+      "relevant": false
     },
     {
       "id": "W7126249028",
