@@ -1,6 +1,6 @@
 {
   "date": "2026-03",
-  "generated_at": "2026-08-20T08:41:22+00:00",
+  "generated_at": "2026-08-20T08:48:56+00:00",
   "count": 196,
   "papers": [
     {
@@ -841,7 +841,12 @@
       "journal_id": "S103895331",
       "journal_metric": 22.23,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41563-026-02526-5/MediaObjects/41563_2026_2526_Fig1_HTML.png",
+        "cached": "img/W7141240858.jpg",
+        "license": null,
+        "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02526-5"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -1318,7 +1323,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10292-2/MediaObjects/41586_2026_10292_Fig1_HTML.png",
+        "cached": "img/W7140289640.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-10292-2"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -2394,7 +2404,12 @@
       "journal_id": "S2764528046",
       "journal_metric": 30.47,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-02018-5/MediaObjects/41560_2026_2018_Fig1_HTML.png",
+        "cached": "img/W7139021907.jpg",
+        "license": null,
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02018-5"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -2685,7 +2700,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10220-4/MediaObjects/41586_2026_10220_Fig1_HTML.png",
+        "cached": "img/W7139118013.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-10220-4"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -2861,7 +2881,12 @@
       "journal_id": "S103895331",
       "journal_metric": 22.23,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41563-026-02512-x/MediaObjects/41563_2026_2512_Fig1_HTML.png",
+        "cached": "img/W7137961958.jpg",
+        "license": null,
+        "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02512-x"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -3789,7 +3814,12 @@
       "journal_id": "S202193212",
       "journal_metric": 18.45,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-026-02096-8/MediaObjects/41557_2026_2096_Figa_HTML.png",
+        "cached": "img/W7135234677.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-026-02096-8"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -4624,7 +4654,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02130-3/MediaObjects/41565_2026_2130_Fig1_HTML.png",
+        "cached": "img/W7134235933.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02130-3"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -4787,7 +4822,12 @@
       "journal_id": "S2764528046",
       "journal_metric": 30.47,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-01995-x/MediaObjects/41560_2026_1995_Fig1_HTML.png",
+        "cached": "img/W7134055979.jpg",
+        "license": null,
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-01995-x"
+      },
       "summary_ko": null,
       "relevant": null
     },
@@ -4808,7 +4848,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://media.nature.com/lw1200/magazine-assets/d41586-026-00670-1/d41586-026-00670-1_52139180.jpg",
+        "cached": "img/W7134109689.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/d41586-026-00670-1"
+      },
       "summary_ko": null,
       "relevant": null
     },
