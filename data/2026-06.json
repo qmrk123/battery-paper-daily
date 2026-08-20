@@ -1,6 +1,6 @@
 {
   "date": "2026-06",
-  "generated_at": "2026-08-20T08:56:05+00:00",
+  "generated_at": "2026-08-20T08:59:41+00:00",
   "count": 274,
   "papers": [
     {
@@ -28,8 +28,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "열역학적 평형을 이용한 자가포화 재리튬화 방식으로 열화된 리튬이온전지 캐소드를 직접 재생하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166643426",
@@ -73,7 +73,9 @@
       "title": "Solvation-mediated division of labor decouples crosstalk in high-voltage lithium-metal batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105348",
       "published": "2026-06-30",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105348",
       "authors": [
         "Tao Ye",
@@ -92,8 +94,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "용매화 매개 역할 분담을 통해 고전압 리튬금속전지에서 전해질 성분 간 상호간섭(crosstalk)을 분리시키는 전해질 설계 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166731345",
@@ -193,8 +195,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "브롬 착화제의 속도론-열역학 균형 설계를 통해 고성능 Zn-Br2전지를 구현하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166673770",
@@ -254,8 +256,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "에너지준위 설계 기반 산화환원 매개체를 이용한 화학적 재리튬화를 통해 캐소드를 직접 재활용하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166651288",
@@ -318,8 +320,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "HP-β-CD와 염화이온의 경쟁적 흡착을 이용해 계면을 재구성함으로써 알칼리 Zn-Fe 흐름전지에서 아연 계면 안정성과 반응속도 간의 트레이드오프를 해소하는 연구이다.",
+      "relevant": false
     },
     {
       "id": "W7166700301",
@@ -327,7 +329,9 @@
       "title": "Built-in electric field driving d-band center modulation and orbital hybridization in FeP/CoP heterojunctions to enable optimized polysulfide redox kinetics in lithium-sulfur batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.046",
       "published": "2026-06-30",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.06.046",
       "authors": [
         "Wei Zhang",
@@ -346,8 +350,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "FeP/CoP 이종접합의 내부전기장을 이용해 d-band 중심 조절과 오비탈 혼성화를 통해 리튬-황전지의 폴리설파이드 산화환원 속도론을 최적화하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166730045",
@@ -409,8 +413,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리 수명 예측을 위한 메타러닝 프레임워크로, 학습에 사용되지 않은 새로운 운용 조건에서도 배터리 수명을 예측하는 것을 목표로 한다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166533385",
@@ -418,7 +422,9 @@
       "title": "Unveiling the asymmetry in sodium-ion charge-discharge behavior via engineered internal vacancy defects in closed pores",
       "url": "https://doi.org/10.1016/j.nanoen.2026.112169",
       "published": "2026-06-29",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.nanoen.2026.112169",
       "authors": [
         "Jianzeng Yang",
@@ -437,8 +443,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐쇄 기공 내 공학적으로 도입한 내부 공극 결함을 통해 소듐이온 충放전 거동의 비대칭성을 규명한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166529479",
@@ -470,8 +476,8 @@
         "license": "cc-by",
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02087-6"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고정밀 스택압력 제어 및 딜라토메트리 장치로 전극 팽창과 무관하게 균일한 압력을 인가하여, 스택압력을 4배 높이면 흑연‖NMC811 셀 수명이 2배로 늘어남을 보였다. 저압에서는 캐소드 균열이, 고압에서는 리튬 도금이 우세해지는 최적 압력창이 존재함을 밝혔다. 활물질/전해질 변경 없이 기계적 요인만으로 수명을 좌우할 수 있음을 입증했다.",
+      "relevant": false
     },
     {
       "id": "W7166562478",
@@ -510,7 +516,9 @@
       "title": "Prelithiation strategies for lithium-ion batteries: From component-specific design to scalable manufacturing",
       "url": "https://doi.org/10.1016/j.ensm.2026.105340",
       "published": "2026-06-29",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105340",
       "authors": [
         "J Li",
@@ -528,8 +536,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬이온전지용 프리리티에이션(preliteration) 전략을 소재별 설계부터 대량 생산 공정까지 정리한 리뷰이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166581770",
@@ -591,8 +599,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "내부저항과 임피던스를 리튬이온전지의 수명-안전성-성능을 아우르는 다중 스케일 지표로 활용하는 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166547288",
@@ -600,7 +608,9 @@
       "title": "Elimination of detrimental grain boundary segregation in Garnets",
       "url": "https://doi.org/10.1038/s41467-026-74887-z",
       "published": "2026-06-29",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1038/s41467-026-74887-z",
       "authors": [
         "Kai Yao",
@@ -624,8 +634,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74887-z"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "가넷계 고체전해질 LLZO의 입계 편석 문제를 규명한 연구로, 소결 중 Al/Ta/La가 입계에 편석되어 리튬 결핍 공간전하층과 전자전도 경로를 형성해 리튬 핵생성 및 덴드라이트 위험을 높임을 밝혔다. 열역학적/동역학적 편석 메커니즘 이해를 바탕으로 이를 억제하는 전략을 제시했다.",
+      "relevant": true
     },
     {
       "id": "W7166508571",
@@ -657,8 +667,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74500-3"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "금속환원 박테리아(Shewanella oneidensis)를 이용한 전극 없는 바이오전기화학적 인터칼레이션 공정으로 λ-MnO2에 리튬을 흡수시켜 해수에서 시간 단위로 95% 이상의 리튬을 회수했다. FePO4 호스트에서도 동일 메커니즘이 재현됨을 확인했다.",
+      "relevant": false
     },
     {
       "id": "W7166513516",
@@ -685,8 +695,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고성능 배터리 캐소드의 합리적 설계를 위한 d-밴드 중심 조절 전략을 다룬 리뷰이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166550397",
@@ -766,7 +776,9 @@
       "title": "Activating ideal solid solution behavior via Mn energy level regulation toward 10C-level layered sodium oxides",
       "url": "https://doi.org/10.1016/j.ensm.2026.105342",
       "published": "2026-06-29",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105342",
       "authors": [
         "Yuanyuan Liu",
@@ -785,8 +797,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Mn 에너지 준위 조절을 통해 이상적인 고용체 거동을 활성화하여 10C급 고율 층상 소듐 산화물을 구현한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166453096",
@@ -813,8 +825,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리 동역학 정보를 반영한 신경망을 통해 완화(relaxation) 신호로부터 임피던스 스펙트럼을 빠르게 추출하는 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166039072",
@@ -841,8 +853,8 @@
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "지속가능한 고성능 전고체전지를 위한 전이금속 할라이드 소재를 다룬 리뷰이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166356633",
@@ -871,8 +883,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74948-3"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "인간 SMVT(SLC5A6) 수송체의 cryo-EM 구조를 세 가지 형태로 규명하여 비타민 인식 및 수송 메커니즘을 밝힌 구조생물학 연구로, 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7166389144",
@@ -915,7 +927,9 @@
       "title": "Site-selective cation substitution enables ultra-fast charging and long stability in NASICON sodium-ion anodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105337",
       "published": "2026-06-27",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105337",
       "authors": [
         "Biplab Patra",
@@ -934,8 +948,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "부위 선택적 양이온 치환을 통해 초고속 충전과 장기 안정성을 갖는 NASICON형 소듐이온 음극을 구현한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166342182",
@@ -943,7 +957,9 @@
       "title": "Outer shell structural engineering for tunable sodium storage in pitch-derived carbon anodes",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.050",
       "published": "2026-06-27",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.06.050",
       "authors": [
         "Wenhan Li",
@@ -962,8 +978,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "피치 유래 탄소 음극의 외곽 셸 구조를 공학적으로 제어하여 소듐 저장 특성을 조절한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166317079",
@@ -990,8 +1006,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "설포란을 이용한 용매화 구조 최적화로 −40°C~60°C에서 작동 가능한 고전압 리튬이온전지를 구현한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166464634",
@@ -1035,7 +1051,9 @@
       "title": "Surface spinel reconstruction based on gradient chemistry modulation for practical sodium layered oxide cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105333",
       "published": "2026-06-26",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105333",
       "authors": [
         "Xiaoqian Xu",
@@ -1054,8 +1072,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "구배 화학 조성 조절을 통한 표면 스피넬 재구성으로 실용적인 소듐 층상 산화물 캐소드를 개선한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166173292",
@@ -1159,8 +1177,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74866-4"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "T세포 기억 반응을 강화하는 대사경로(글루타민 분해)를 규명하고 백신 개발에 활용한 면역학 연구로, 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7166019782",
@@ -1258,8 +1276,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "실용적인 금속 배터리를 위한 동역학 분석 표준화를 위해 동적 버틀러-볼머 보정법을 제안한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166003562",
@@ -1303,7 +1321,9 @@
       "title": "Dendrite-tolerant fast-kinetics design for all-solid-state lithium-metal batteries via site-specific customized sulfide electrolytes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105335",
       "published": "2026-06-26",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105335",
       "authors": [
         "Junhee Kang",
@@ -1322,8 +1342,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "부위 맞춤형 황화물 고체전해질을 통해 덴드라이트에 강인한 고속 반응 동역학을 구현한 전고체 리튬금속전지 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166114274",
@@ -1331,7 +1351,9 @@
       "title": "Aggregated clusters with accelerated Li+ transport enabled by a weakly coordinating pseudo-diluent for low-temperature high-rate lithium batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.043",
       "published": "2026-06-26",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.06.043",
       "authors": [
         "Mengjun Tian",
@@ -1350,8 +1372,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "약하게 배위하는 유사희석제를 사용해 응집된 클러스터에서 Li+ 수송을 가속화, 저온 고율 리튬전지 성능을 향상시킨 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7166033744",
@@ -1359,7 +1381,9 @@
       "title": "Activating bulk S/Se/Te positive electrodes by acidic binder-induced Cu corrosion for wide-temperature Na-Chalcogen batteries",
       "url": "https://doi.org/10.1038/s41467-026-74885-1",
       "published": "2026-06-26",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1038/s41467-026-74885-1",
       "authors": [
         "Chengxing Lu",
@@ -1383,8 +1407,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74885-1"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "산성 바인더 유도 Cu 부식 전략으로 벌크 S/Se/Te 양극을 활성화하여 광온도 범위 Na-칼코겐 전지를 구현했다. 카르복실산이 풍부한 바인더가 산성 미세환경을 조성해 Cu 집전체에 구리 칼코겐화물 계면층을 형성하고, 이것이 사이클링 중 Cu2X 촉매로 재구성되어 액상-고상 전환 장벽을 낮추고 폴리셀레나이드 셔틀을 억제한다. Na-Se전지에서 96% 이론 이용률과 우수한 율속 특성을 달성했다.",
+      "relevant": true
     },
     {
       "id": "W7166143826",
@@ -1411,8 +1435,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고에너지 장수명 전고체 리튬전지를 위한 초이온성 옥시클로라이드 레독스 catholyte를 제시한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7166035084",
@@ -1476,8 +1500,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고성능 아연이온전지를 위해 중엔트로피 전략으로 바나듐계 캐소드를 안정화한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165851115",
@@ -1508,8 +1532,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74229-z"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "유럽의 탈탄소화 에너지 프레임워크에서 장기 에너지 저장을 위한 가역 고체산화물전지(rSOC) 기술을 최적화한 연구로, 배터리 저장과 비교 시 저장용량 비용 특성을 분석했다. 배터리 기술 자체를 다루지 않는 시스템/정책 연구이다.",
+      "relevant": false
     },
     {
       "id": "W7166036614",
@@ -1577,8 +1601,8 @@
         "license": null,
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02095-6"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "중대형 상용차의 탈탄소화를 위한 배터리 대 연료전지 비교 분석 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165954196",
@@ -1610,8 +1634,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74771-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "요소 유도체를 이용해 Zn2+ 도금의 전기화학 반응 동역학과 물질 전달 속도의 균형을 정량화하는 무차원 상수 K를 제안하여, 아연 음극 덴드라이트 억제와 안정성을 향상시킨 연구이다. 아연이온전지 대상으로 리튬/소듐 금속 음극과는 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165758122",
@@ -1679,8 +1703,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74814-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "인간 TRPM4 채널을 활성화하여 나트륨 과부하로 괴사를 유발하는 소분자 Necrocide 1의 작용기전을 cryo-EM으로 규명한 생물학 연구로, 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165809867",
@@ -1707,8 +1731,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "변형 가능한 프라이머층을 적용한 기공도 구배 건식 흑연 전극으로 리튬이온전지의 급속충전 성능을 향상시킨 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165786541",
@@ -1805,8 +1829,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74288-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "알칼리금속 기반 포스포네이트 염(2PACz-M)을 이용해 페로브스카이트 태양전지의 자기조립단분자막 계면을 중성화하여 고효율화한 연구로, 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165748433",
@@ -1845,7 +1869,9 @@
       "title": "Highly processable mastic-like electrolytes for lithium batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105330",
       "published": "2026-06-24",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105330",
       "authors": [
         "Danyang Niu",
@@ -1864,8 +1890,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬전지를 위한 가공성이 우수한 매스틱형(mastic-like) 전해질을 제시한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165765064",
@@ -1892,8 +1918,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬이온전지용 실리콘 음극의 코팅 종류가 구조 및 전기화학 성능에 미치는 영향을 다룬 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165799954",
@@ -1919,8 +1945,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "아미노산 매개 계면 조절을 적용한 중공형 Cu2O@NCDs 복합체로 고용량, 광온도 범위 수계 아연이온전지 성능을 향상시킨 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165731017",
@@ -1982,8 +2008,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "실차 운행 전기차의 리튬이온전지에 대한 비지도 확률적 결함 검출 및 위험 정량화 기법을 다룬 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165628903",
@@ -2015,8 +2041,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74714-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "산소발생/수소발생/산소환원 반응에 모두 활성인 삼중기능 전기촉매(Sr2CoRuO6-δ)를 개발하여 아연-공기전지와 물 전기분해에 적용한 연구로, 리튬/소듐 계열 주제와는 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165661714",
@@ -2078,8 +2104,8 @@
         "license": null,
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02053-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "장기간 에너지저장을 위한 바나듐 흐름전지의 스케일업을 다룬 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165654685",
@@ -2177,8 +2203,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "계층적 전도 네트워크를 갖는 유연 가교형 폴리(p-터페닐렌) 음이온교환막을 개발하여 수전해 및 바나듐 흐름전지에 적용한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165625489",
@@ -2186,7 +2212,10 @@
       "title": "Electronic–lattice synergy stabilizes high-entropy O3-type layered cathodes for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105328",
       "published": "2026-06-23",
-      "topics": [],
+      "topics": [
+        "na-metal",
+        "ncm"
+      ],
       "doi": "10.1016/j.ensm.2026.105328",
       "authors": [
         "Fang Zhang",
@@ -2201,8 +2230,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전자-격자 시너지를 통해 소듐이온전지용 고엔트로피 O3형 층상 캐소드를 안정화한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165641088",
@@ -2270,8 +2299,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74641-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "항원 탑재 고분자 미세입자가 B세포와 결합하여 다발성경화증 마우스 모델에서 면역관용적 항원제시를 촉진함을 보인 면역치료 연구로, 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165680861",
@@ -2298,8 +2327,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "비정질 MOF 유래 연속 계면 헤테로접합 구조로 고성능 리튬-황 전지 성능을 향상시킨 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165656600",
@@ -2324,8 +2353,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수소결합 공여체를 가진 이중 부위 인 기반 억셉터로 비정형 Cu3+ 플루오라이드 기반 이론적 고용량 불소이온전지를 구현한 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165566114",
@@ -2333,7 +2362,9 @@
       "title": "Unlocking high-performance aromatic sodium storage in small-molecular perylene diimide anodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105322",
       "published": "2026-06-22",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105322",
       "authors": [
         "Yuhui Wang",
@@ -2352,8 +2383,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "소형 방향족 분자인 페릴렌 디이미드 음극을 이용해 고성능 방향족 소듐 저장을 구현한 연구이다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W4416548532",
@@ -2410,8 +2441,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고에너지밀도 아연-브롬 흐름전지를 위한 피롤리디늄 브로마이드 착화제의 구조 의존적 최적화를 다룬 연구이다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165555257",
@@ -2419,7 +2450,9 @@
       "title": "Strain-coordination strategy enabling long-cycling all-solid-state lithium-sulfur batteries",
       "url": "https://doi.org/10.1038/s41467-026-74625-5",
       "published": "2026-06-22",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1038/s41467-026-74625-5",
       "authors": [
         "Junhua Zhang",
@@ -2443,8 +2476,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74625-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "FeS2 양극과 예비리튬화 Si 음극의 부피변화를 상호 보완하는 strain-coordination 전략으로 전고체 리튬-황(Li-S) 전지의 낮은 외부 압력 조건에서의 장수명 사이클을 구현했다. Li/Si 비율 조절로 near-zero-strain 효과를 얻어 15 MPa에서 868.4 mAh/g의 방전용량을 달성했다.",
+      "relevant": true
     },
     {
       "id": "W7165527844",
@@ -2469,8 +2502,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "저탄소 에너지 전환에 필요한 임계 광물(리튬, 마그네슘 등)을 비전통적 수원(생산수, 폐광배수, 염수 지하수 등)에서 확보할 가능성을 평가한 전망 논문이다. 재료 채굴/회수 관점의 정책적 perspective로 배터리 소재 자체의 연구는 아니다.",
+      "relevant": false
     },
     {
       "id": "W7165518366",
@@ -2478,7 +2511,10 @@
       "title": "Oxygen-chemical-potential tuning enables phase-ratio engineering that suppresses Fe migration in high-energy layered cathodes",
       "url": "https://doi.org/10.1016/j.nanoen.2026.112146",
       "published": "2026-06-22",
-      "topics": [],
+      "topics": [
+        "ncm",
+        "li-rich"
+      ],
       "doi": "10.1016/j.nanoen.2026.112146",
       "authors": [
         "Bachu Sravan Kumar",
@@ -2497,8 +2533,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "산소 화학포텐셜 조절을 통한 상비율(phase-ratio) 엔지니어링으로 고에너지 층상 양극에서 Fe 이동을 억제하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165527479",
@@ -2558,8 +2594,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리 안전성 향상을 위한 센싱 혁신(저항 센서, 음향·광섬유 기반 진단)을 다룬 관점 논문으로, 상용 셀의 오퍼란도 진단 기술 확대 적용의 과제와 전망을 논의한다. 특정 전극/전해질 소재 연구는 아니다.",
+      "relevant": false
     },
     {
       "id": "W7165575742",
@@ -2650,8 +2686,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬이온전지의 기계적 남용(abuse)에 의한 파손을 초음파를 이용해 실시간 식별하고 조기 경보하는 기법에 대한 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7165547572",
@@ -2708,8 +2744,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74523-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "양이온이 Geobacter 세균의 외막 소포화 및 세포외 전자전달에 미치는 영향을 다룬 미생물학 연구로 배터리 소재와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165569051",
@@ -2754,7 +2790,9 @@
       "title": "Anion-exchange fluorinated ion conductors for stable high-voltage lithium battery",
       "url": "https://doi.org/10.1038/s41467-026-74773-8",
       "published": "2026-06-22",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1038/s41467-026-74773-8",
       "authors": [
         "Qiaodong Li",
@@ -2778,8 +2816,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74773-8"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고체상 음이온 교환 전략으로 LiF/LiCl 코어-쉘 나노복합 전구체를 제작하여 고불소화 리튬-할라이드/황화물 고체전해질을 합성, 높은 이온전도도와 산화 안정성을 동시에 확보했다. Li-rich 산화물 양극 기반 전고체전지에서 LiF-rich 계면상에 의해 고전압 안정성이 향상됨을 보였다.",
+      "relevant": true
     },
     {
       "id": "W7165478130",
@@ -2787,7 +2825,10 @@
       "title": "Wide-temperature metal-sulfur batteries: Challenges and opportunities",
       "url": "https://doi.org/10.1016/j.ensm.2026.105317",
       "published": "2026-06-21",
-      "topics": [],
+      "topics": [
+        "li-metal",
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105317",
       "authors": [
         "Dongyu Liu",
@@ -2806,8 +2847,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "광범위 온도영역에서 작동하는 금속-황 전지(Li-S, Na-S 등)의 극한 온도 성능 저하 문제와 이를 해결하기 위한 양극/음극/전해질/분리막 설계 전략을 종합적으로 검토한 리뷰이다.",
+      "relevant": true
     },
     {
       "id": "W7165472976",
@@ -2884,7 +2925,9 @@
       "title": "Constructing Ionically Conductive Surface Layers for High-Voltage Layered Cathodes via Their Metastable Framework",
       "url": "https://doi.org/10.1016/j.ensm.2026.105318",
       "published": "2026-06-21",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105318",
       "authors": [
         "Xinyue Zhai",
@@ -2903,8 +2946,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "준안정 프레임워크를 활용해 고전압 층상 양극 표면에 이온전도성 표면층을 구축하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165479403",
@@ -2972,8 +3015,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74626-4"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "4가 유기 양이온을 이용한 이중 계면 조절로 수계 아연-요오드 전지의 폴리요오드화물 셔틀 및 아연 전극 열화를 억제하는 전해질 설계 연구이다. Zn 기반 전지로 지정 6대 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165373133",
@@ -3004,8 +3047,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74259-7"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "단QT증후군 3형 부정맥 치료를 위한 폴리아민 투여 효과를 다룬 심장전기생리 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165355292",
@@ -3030,8 +3073,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "금속포르피린 기반 다공성 방향족 골격체를 이용해 칼륨-유기 전지의 양극 이중이온 저장과 음극 칼륨 증착을 동시에 조절하는 연구로 추정된다 (제목 기반 추정). K 기반 전지로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165398421",
@@ -3063,8 +3106,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74692-8"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "셀룰로오스 생체고분자의 하이드록실 화학을 조절하여 수계 아연 전지용 고성능 바인더를 개발, 요오드 양극의 안정성과 반응속도를 향상시킨 연구이다. Zn 기반 전지로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165410342",
@@ -3091,8 +3134,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "금속 서브나노클러스터로 칼륨친화성을 조절하여 덴드라이트 없는 칼륨 금속 음극의 하향식(bottom-up) 증착을 구현하는 연구로 추정된다 (제목 기반 추정). K 금속 음극으로 지정 토픽(Li/Na)에는 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165404714",
@@ -3124,8 +3167,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74518-7"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "휘발성 마취제가 전압개폐 나트륨 채널의 게이팅에 직접 연결된 부위에서 기능을 조절하는 기전을 X선 결정구조로 규명한 신경생리/약리 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165378924",
@@ -3133,7 +3176,9 @@
       "title": "The future of sustainable lithium-ion batteries: Ecodesign recommendations for solid-state technologies",
       "url": "https://doi.org/10.1016/j.ensm.2026.105312",
       "published": "2026-06-19",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105312",
       "authors": [
         "Joana R. Gouveia",
@@ -3151,8 +3196,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "4세대 고체전해질 리튬이온전지(전고체전지)의 지속가능한 설계를 위한 에코디자인 프레임워크를 문헌·전문가 인터뷰 기반으로 제시한 연구이다. Li 금속 음극과 고체전해질이 환경·비용 측면의 핵심 hotspot으로 확인되었다.",
+      "relevant": true
     },
     {
       "id": "W7165175367",
@@ -3215,8 +3260,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "자가환원 나노구조체 설계를 통한 내구성 있는 아연 기반 이중이온 전지 개발 연구로 추정된다 (제목 기반 추정). Zn 기반 전지로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165186290",
@@ -3320,8 +3365,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74628-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "저농도 염 전해질에서 -40°C까지 작동 가능한 고전압 수계 이중이온 전지를 구현한 연구로, 흑연 양극의 TFSI 음이온 삽입 특성을 활용했다. 수계 dual-ion battery로 지정 6대 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165173212",
@@ -3329,7 +3374,9 @@
       "title": "Delocalizing electrons of ligand oxygen in NASICON-Na2VTi(PO4)3 cathode for high-energy sodium-ion battery",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.019",
       "published": "2026-06-19",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.06.019",
       "authors": [
         "Shuang Xiang",
@@ -3348,8 +3395,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "NASICON형 Na2VTi(PO4)3 양극에서 리간드 산소의 전자를 탈국소화하여 고에너지 소듐이온전지를 구현하는 연구로 추정된다 (제목 기반 추정). 나트륨이온 양극 소재로 지정 카테고리(na-metal은 음극 한정)에는 해당하지 않는다.",
+      "relevant": true
     },
     {
       "id": "W7165118670",
@@ -3393,7 +3440,9 @@
       "title": "Atmospheric pressure liquid phase relithiation for spent LiFePO4: Thermodynamic insights, microstructural evolution, and performance restoration mechanisms",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.028",
       "published": "2026-06-19",
-      "topics": [],
+      "topics": [
+        "lfp"
+      ],
       "doi": "10.1016/j.jechem.2026.06.028",
       "authors": [
         "Haopeng Wang",
@@ -3412,8 +3461,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 LiFePO4의 상압 액상 재리튬화(relithiation) 공정을 통한 열역학적 특성, 미세구조 변화, 성능 회복 메커니즘을 다룬 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165387349",
@@ -3440,8 +3489,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "첨단(apex) 유도 전기장 재구성을 통해 수직 증착을 유도, Ah급 아연이온전지용 고가역성 아연 음극을 구현한 연구로 추정된다 (제목 기반 추정). Zn 음극으로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7165131757",
@@ -3616,8 +3665,8 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02204-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "종양 내 포획된 수지상세포의 종양항원 제시를 증폭시키는 나노기술 기반 면역항암 연구로 추정된다 (제목 기반 추정). 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7165138460",
@@ -3721,8 +3770,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74642-4"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "NaNbO3 박막에서 위상화학적 변환 전략으로 순수 강유전 P21ma 상을 구현하고 STEM으로 옥타헤드럴 틸트와 분극 기원을 규명한 재료물리 연구로, 에너지저장·전기기계 응용 가능성을 언급하나 배터리 전극 소재는 아니다.",
+      "relevant": false
     },
     {
       "id": "W7164999093",
@@ -3730,7 +3779,9 @@
       "title": "Revealing competitive interfacial reactions in high-energy Li–S batteries",
       "url": "https://doi.org/10.1038/s41586-025-09473-2",
       "published": "2026-06-17",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1038/s41586-025-09473-2",
       "authors": [
         "Shiyuan Zhou",
@@ -3754,8 +3805,8 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-025-09473-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고에너지 리튬-황 전지에서 경쟁적인 계면 반응을 규명한 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7165009402",
@@ -3892,8 +3943,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74399-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "흑연 전극 내 FeCl3의 계단화(staging) 및 결함 제한적 인터칼레이션 과정을 투과전자현미경으로 직접 관찰, 기존 staging 법칙이 초기 단계에서 붕괴됨과 호스트 결함의 영향을 규명한 기초연구이다. 흑연 음극 연구로 지정 6대 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164893305",
@@ -3955,8 +4006,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "이온 수송이 향상되고 수명이 연장된 재생 가능한 계층적 배터리 계면 소재에 관한 연구로 추정된다 (제목 기반 추정). 구체적 전지 화학이 불명확하여 토픽 분류가 어렵다.",
+      "relevant": false
     },
     {
       "id": "W7164933577",
@@ -3988,8 +4039,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74029-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "양자점 단일광자원과 리튬탄탈레이트 광집적회로를 이종집적하여 온칩 광자 라우팅을 구현한 양자광학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164879795",
@@ -4063,7 +4114,9 @@
       "title": "Cyano-rich deep eutectic electrolyte synergized with polyacrylonitrile nanofiber separator for advanced zinc-lithium hybrid batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.012",
       "published": "2026-06-16",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.06.012",
       "authors": [
         "Zimeng Kong",
@@ -4082,8 +4135,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "시아노기가 풍부한 심공융 전해질과 폴리아크릴로니트릴 나노섬유 분리막을 결합해 고성능 아연-리튬 하이브리드 전지를 구현하는 연구로 추정된다 (제목 기반 추정). Zn-Li 하이브리드 전지로 리튬 금속 음극 관련 요소가 포함되어 li-metal로 잠정 분류했다.",
+      "relevant": true
     },
     {
       "id": "W7164886566",
@@ -4091,7 +4144,9 @@
       "title": "Beyond localized optimization: a comprehensive kinetic acceleration in Bi2Te3 anodes via dual-anion coordination for high-performance sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.05.068",
       "published": "2026-06-16",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.05.068",
       "authors": [
         "Yujie Huang",
@@ -4110,8 +4165,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "이중 음이온 배위를 통해 Bi2Te3 음극의 반응 속도론을 종합적으로 가속화하여 고성능 소듐이온전지를 구현하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164833663",
@@ -4119,7 +4174,9 @@
       "title": "Ultrathin solid electrolytes design: materials, interfaces, and manufacturing strategies for high-energy-density solid-state batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105306",
       "published": "2026-06-15",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105306",
       "authors": [
         "Xiaojian Li",
@@ -4138,8 +4195,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고에너지밀도 전고체전지를 위한 초박형 고체전해질의 소재, 계면, 제조 전략을 다룬 리뷰 논문으로 추정된다 (제목 기반 추정). 전고체 리튬 금속 전지 맥락으로 li-metal에 해당한다.",
+      "relevant": true
     },
     {
       "id": "W4412944164",
@@ -4171,8 +4228,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73729-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "영유아부터 노년까지 건강한 인간 면역계의 단일세포 지도를 제시한 면역학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164845514",
@@ -4240,8 +4297,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74496-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "결정성 프레임워크를 다공성 액체로 변환해 그래핀옥사이드/다공성액체 복합막을 제작, 염호 브라인에서 Li+/Mg2+ 고선택성 분리를 구현한 리튬 추출용 분리막 연구이다. 배터리 전극 소재가 아닌 리튬 자원 정제 기술이다.",
+      "relevant": false
     },
     {
       "id": "W7164823568",
@@ -4314,7 +4371,9 @@
       "title": "Halogen bond mediated electronically decoupled interface enables stable silicon-based all-solid-state batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105303",
       "published": "2026-06-14",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105303",
       "authors": [
         "Qiao Cu",
@@ -4333,8 +4392,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "할로겐 결합 매개 전자적으로 분리된 계면을 이용해 실리콘 기반 전고체전지의 안정성을 확보하는 연구로 추정된다 (제목 기반 추정). 실리콘 음극 기반 전고체전지 맥락으로 배터리 화학이 명확치 않아 li-metal로 잠정 분류했다.",
+      "relevant": true
     },
     {
       "id": "W7164734234",
@@ -4361,8 +4420,8 @@
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "황화물계 전고체전지의 재활용 시 H2S 발생 없이 진행하는 자가구동 산화환원 결합 로스팅 공정에 관한 연구로 추정된다 (제목 기반 추정). 재활용 공정으로 지정 토픽에서 제외된다.",
+      "relevant": false
     },
     {
       "id": "W7164749602",
@@ -4389,8 +4448,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "습식 공정으로 제조된 전고체전지 전극의 3차원 미세구조에 대한 완전 결합 기계-전기화학 모델링 연구로, 충방전 중 부피변화에 따른 응력을 시뮬레이션한다. 특정 화학종 없는 모델링/공정 연구로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164817438",
@@ -4432,7 +4491,9 @@
       "title": "A unified cation–anion electronic-structure descriptor for compound catalysts in Li-S batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105305",
       "published": "2026-06-14",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105305",
       "authors": [
         "Zhen Li",
@@ -4451,8 +4512,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬-황전지의 황 산화환원 촉매를 위한 양이온-음이온 통합 전자구조 서술자(OHD)를 제안하고, Cu/Ni-P 공도핑 CoSe2 중공구 촉매로 개념을 검증했다.",
+      "relevant": true
     },
     {
       "id": "W7164742350",
@@ -4479,8 +4540,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "음이온 포집 및 경쟁적 용매화 특성을 가진 다기능 하이드로겔 전해질로 광범위 온도에서 아연 금속 전지를 구동하는 연구로 추정된다 (제목 기반 추정). Zn 금속 전지로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164483742",
@@ -4488,7 +4549,9 @@
       "title": "Synergistic regulation of d-p band centers and hybrid states via sulfur vacancy engineering to enhance reaction kinetics in Li-S batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.009",
       "published": "2026-06-13",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.06.009",
       "authors": [
         "Fei Li",
@@ -4507,8 +4570,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "황 공공 엔지니어링을 통해 d-p 밴드 중심과 혼성 상태를 조절, 리튬-황 전지의 반응 속도론을 향상시키는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164572655",
@@ -4516,7 +4579,9 @@
       "title": "Strategies for mitigating the dissolution of organic electrodes in rechargeable batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105301",
       "published": "2026-06-13",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105301",
       "authors": [
         "Yonglin Wang",
@@ -4535,8 +4600,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "차세대 이차전지용 유기 전극 소재의 전해질 내 용해 문제를 완화하는 전략(금속 도입, 중합, 고체/준고체 전해질 활용)을 정리하고, 용해가 억제된 이후에도 남는 성능 한계를 비판적으로 검토한 리뷰이다.",
+      "relevant": true
     },
     {
       "id": "W7164650523",
@@ -4700,8 +4765,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬이온전지의 건강 상태(SOH) 추정을 위해 메커니즘 관련 통찰을 통합한 이중 수준 해석가능성 방법에 관한 연구로 추정된다 (제목 기반 추정). 진단/BMS 연구로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164489800",
@@ -4733,8 +4798,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73424-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "대장균 Na+/H+ 대향수송체 NhaA의 pH 의존적 활성화 및 N-말단 구조 동역학을 저온전자현미경과 분자동역학으로 규명한 막단백질 구조생물학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164303997",
@@ -4761,8 +4826,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "초분자-산화환원 매개체 전해질 엔지니어링을 통해 고성능 수계 Zn-S 전지를 구현하는 연구로 추정된다 (제목 기반 추정). Zn 기반 전지로 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164483746",
@@ -4843,7 +4908,9 @@
       "title": "Reducing P-O bond covalency in polyanionic groups to increase the intrinsic electronic conductivity in sodium positive electrodes",
       "url": "https://doi.org/10.1038/s41467-026-74282-8",
       "published": "2026-06-12",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1038/s41467-026-74282-8",
       "authors": [
         "Jiawei Luo",
@@ -4867,8 +4934,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74282-8"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "소듐 양극재의 폴리음이온 X-O 결합 공유성을 약화시켜 고유 전자전도도를 높이는 전략을 제시했다. 비평형 급속 소성법으로 약한 P-O 결합 특성을 갖는 NASICON형 Na3V2O1.6(PO4)2F1.4를 합성해 전자 전도도를 3.57배 향상시켰다.",
+      "relevant": true
     },
     {
       "id": "W7164552493",
@@ -5002,8 +5069,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74076-y"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "흑색종 면역치료 반응에서 종양 상주 T세포와 수지상세포의 공간적 배열을 단일세포/공간 프로파일링으로 분석한 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164379807",
@@ -5035,8 +5102,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74231-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "위협 강도에 따른 대뇌피질 engram 구조 변화를 마우스 모델에서 분석한 신경과학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164417309",
@@ -5144,7 +5211,9 @@
       "title": "Ion-gradient leveling through salt-bridge-inspired porous membrane-lithium assembly",
       "url": "https://doi.org/10.1016/j.ensm.2026.105298",
       "published": "2026-06-11",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105298",
       "authors": [
         "Doo‐Young Youn",
@@ -5163,8 +5232,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "염다리 구조에서 영감을 받은 다공성 막을 리튬 금속과 결합해 이온 농도 구배를 조절하는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164341801",
@@ -5195,8 +5264,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74277-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "저온·고속충전 리튬이온전지에서 약배위 전해질의 양극측 가스 발생 원인을 규명했다. 용매의 산화로 인한 가스 발생이 저온 성능 저하의 원인이며, LiDFOB 첨가로 안정적인 CEI를 형성해 가스 발생을 억제할 수 있음을 보였다.",
+      "relevant": false
     },
     {
       "id": "W7164312089",
@@ -5228,8 +5297,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74170-1"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "시상하부 POMC 뉴런의 PKA 신호전달이 장-뇌 축을 통해 장 포도당 흡수를 조절하는 기전을 마우스에서 규명한 대사생리학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164340493",
@@ -5237,7 +5306,9 @@
       "title": "Electro-chemo-mechanical design of liquid metal interfacial layer on silicon anode for all-solid-state batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.06.008",
       "published": "2026-06-11",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.06.008",
       "authors": [
         "Haoran Wang",
@@ -5256,8 +5327,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전고체전지용 실리콘 음극 위에 액체금속 계면층을 도입해 전기화학-기계적 특성을 설계한 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164189486",
@@ -5323,8 +5394,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74350-z"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수계 아연이온전지용 MnO2 양극의 산화환원 메커니즘을 규명한 연구로, 양성자 매개 용해-재석출과 양성자 삽입이 공존하는 이중 산화환원 메커니즘을 제시하고 이를 바탕으로 표면 활성화 및 구조 설계 전략을 제안했다. Zn 계열이라 6개 지정 토픽에는 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164372858",
@@ -5351,8 +5422,8 @@
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "탄소섬유 복합재에 리튬 이온 삽입 특성을 활용해 구조 하중지지, 에너지저장, 변형 감지 등 5가지 기능을 동시에 구현한 다기능 복합소재 연구로, 특정 배터리 전극 화학과는 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164335202",
@@ -5379,8 +5450,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "아미노 고분자점을 매개로 견고한 α-MnO2 양극을 구성해 Zn-Mn 전지에 적용한 연구로 보인다 (제목 기반 추정). Zn 기반이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164181770",
@@ -5448,8 +5519,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74268-6"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리소좀 양이온 채널 TPC2의 O-결합 당화가 채널 게이팅을 조절하는 기전을 규명한 세포생물학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164209044",
@@ -5481,8 +5552,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74193-8"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "광주파수빗에 기준한 테라헤르츠 Fabry-Pérot 간섭계를 이용해 리튬이온전지 전극 두께를 나노미터 정밀도로 비파괴 측정하는 계측 기술을 시연했다.",
+      "relevant": false
     },
     {
       "id": "W7164149275",
@@ -5514,8 +5585,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74166-x"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "무음극 수계 아연전지에서 아연-집전체 간 갈바닉 부식을 규명하고, 고유전율 금속 플루오라이드가 내장된 절연 고분자 매트릭스로 부식을 억제해 900시간 이상 안정적인 아연 도금/탈리를 구현했다. Zn 계열이라 지정 토픽에는 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164384601",
@@ -5619,8 +5690,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74142-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "스펙트럼 분리형 페로브스카이트 단일화소 검출기를 이용해 형광과 배경영상을 동시에 정합하는 이미징 시스템을 개발한 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164135617",
@@ -5688,8 +5759,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74248-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "생분해성 전기화학 센서로 중환자실에서 심부조직 젖산을 연속 모니터링하는 웨어러블 의료기기 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164130573",
@@ -5697,7 +5768,9 @@
       "title": "A solar-driven ultra-long cycling Li-CO2 battery enabled by Si-supported bifunctional cathode",
       "url": "https://doi.org/10.1016/j.nanoen.2026.112120",
       "published": "2026-06-10",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.112120",
       "authors": [
         "Shimin Chen",
@@ -5716,8 +5789,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "실리콘 지지 이기능성 양극을 적용해 태양광으로 구동되는 초장수명 Li-CO2 전지를 구현한 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164011392",
@@ -5785,8 +5858,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73734-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "영장류 1차시각피질과 외측전전두피질 뉴런의 고유한 전기생리학적 다양성을 비교 분석한 신경과학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7164032660",
@@ -5813,8 +5886,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "실리콘-흑연 복합음극을 사용한 리튬이온전지에서 중력에 의한 농도구배 발생을 다룬 연구로 보인다 (제목 기반 추정). 흑연/실리콘 음극이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7164005961",
@@ -5822,7 +5895,9 @@
       "title": "Dual engineering of porosity and Co-doping enables ultrafast and stable NaNi1/3Fe1/3Mn1/3O2 cathodes for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.mattod.2026.103408",
       "published": "2026-06-09",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.mattod.2026.103408",
       "authors": [
         "Haitao Lu",
@@ -5841,8 +5916,8 @@
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "기공도 제어와 Co 도핑을 결합해 초고속·안정적인 NaNi1/3Fe1/3Mn1/3O2 소듐이온전지 양극을 구현한 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7164024317",
@@ -5850,7 +5925,11 @@
       "title": "Direct evidence of metal–ligand redox processes in positive electrodes during lithium-based battery operation",
       "url": "https://doi.org/10.1038/s41565-026-02189-y",
       "published": "2026-06-09",
-      "topics": [],
+      "topics": [
+        "ncm",
+        "lfp",
+        "other-cathode"
+      ],
       "doi": "10.1038/s41565-026-02189-y",
       "authors": [
         "Galo J. Páez Fajardo",
@@ -5874,8 +5953,8 @@
         "license": "cc-by",
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02189-y"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "X선 공명 광전자분광, 단일불순물 앤더슨 모델과 이론 계산을 이용해 리튬전지 양극에서 금속-리간드 산화환원 과정을 직접 규명했다. LiMn0.6Fe0.4PO4와 LiNiO2를 Zaanen-Sawatzky-Allen 프레임워크로 비교해 전하이동 정도의 차이를 통해 상이한 산화환원 서술을 통합적으로 설명했다.",
+      "relevant": true
     },
     {
       "id": "W7163886362",
@@ -6145,8 +6224,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Ni-Co 안티페로브스카이트 탄화물을 설계해 수계 K이온 슈퍼커배터리 성능을 향상시킨 연구로 보인다 (제목 기반 추정). K이온이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163880738",
@@ -6225,7 +6304,9 @@
       "title": "Overcoming secondary thermal damage in spent LiFePO4 regeneration via interface-selective lithium anchoring",
       "url": "https://doi.org/10.1016/j.ensm.2026.105293",
       "published": "2026-06-07",
-      "topics": [],
+      "topics": [
+        "lfp"
+      ],
       "doi": "10.1016/j.ensm.2026.105293",
       "authors": [
         "Xuan Cao",
@@ -6242,8 +6323,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐 LiFePO4 재생 과정에서 계면 선택적 리튬 앵커링을 통해 2차 열손상 문제를 해결하는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163809743",
@@ -6251,7 +6332,9 @@
       "title": "Orbital-modulation-induced charge redistribution enables high-rate and low-temperature O3-type sodium cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105294",
       "published": "2026-06-07",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105294",
       "authors": [
         "Liang Deng",
@@ -6270,8 +6353,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "궤도 변조에 의한 전하 재분배를 이용해 고율·저온 특성이 우수한 O3형 소듐 양극을 구현한 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163815003",
@@ -6315,7 +6398,10 @@
       "title": "High-entropy interfacial engineering toward anode-free metal batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105292",
       "published": "2026-06-07",
-      "topics": [],
+      "topics": [
+        "li-metal",
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105292",
       "authors": [
         "Tian Wang",
@@ -6334,8 +6420,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고엔트로피 계면 엔지니어링을 통해 무음극 금속전지의 성능을 향상시키는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163805798",
@@ -6403,8 +6489,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74014-y"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "약결합수 매개 전단농화 전해질을 이용해 수계 아연금속 파우치셀 전지의 실용화를 도모한 연구로, 카복시메틸셀룰로오스와 술폰화 SiO2 나노입자가 물 상태를 조절해 덴드라이트 성장과 부식을 동시에 억제함을 보였다. Zn 계열이라 지정 토픽에는 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163758706",
@@ -6461,8 +6547,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "계면 조절을 통해 V2O5 기반 수계 아연이온전지 양극의 고율 및 초장수명 특성을 구현한 연구로 보인다 (제목 기반 추정). Zn 계열이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163716135",
@@ -6504,7 +6590,9 @@
       "title": "Early warning of thermal runaway for large-capacity lithium iron phosphate batteries via multifunctional optical fiber sensors",
       "url": "https://doi.org/10.1016/j.ensm.2026.105289",
       "published": "2026-06-06",
-      "topics": [],
+      "topics": [
+        "lfp"
+      ],
       "doi": "10.1016/j.ensm.2026.105289",
       "authors": [
         "Pi Liu",
@@ -6523,8 +6611,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "다기능 광섬유 센서를 이용해 대용량 리튬인산철전지의 열폭주를 조기 경보하는 기술을 개발한 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163749334",
@@ -6567,7 +6655,9 @@
       "title": "Built-in thin Li films enable controllable prelithiation for lithium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105291",
       "published": "2026-06-06",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105291",
       "authors": [
         "Rui Li",
@@ -6586,8 +6676,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "내장형 얇은 리튬 박막을 이용해 리튬이온전지의 제어 가능한 프리리티에이션을 구현하는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163738074",
@@ -6614,8 +6704,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "무기/유기 이중상 SEI를 통해 반응속도 균형을 맞춰 초안정적인 수계 아연금속전지를 구현한 연구로 보인다 (제목 기반 추정). Zn 계열이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163667650",
@@ -6647,8 +6737,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-74015-x"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "동일한 산화환원쌍을 양쪽 전극에 사용하되 전해질 조성 차이로 전압을 발생시키는 농도전지를 전해질 용매화 구조 조절을 통해 고전압화한 연구로, 아연/구리 기반 금속 농도전지에서 0.6-0.7V의 셀 전압을 구현했다. Li 계열이 아니라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163669501",
@@ -6819,8 +6909,8 @@
         "license": null,
         "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02620-8"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리 광물이 신경 억제에 미치는 영향을 다룬 연구로 보이며 초록이 없어 상세 내용은 불명확하다 (제목 기반 추정).",
+      "relevant": false
     },
     {
       "id": "W7163517403",
@@ -6852,8 +6942,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73576-1"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "용액공정 WSe2 박막의 엣지 결함을 캐리어 트랩 채움으로 동적으로 saturating시켜 광변조 효율을 향상시킨 광전자 소재 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7163553684",
@@ -6946,8 +7036,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "방정식 기반 모델링에서 전이가능한 표현학습으로 전환하여 배터리 수명 예측을 수행하는 연구로 보인다 (제목 기반 추정). 특정 전극 화학을 다루지 않아 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163565490",
@@ -7081,8 +7171,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73910-7"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "철황화물/황 기반 수계전지 양극에서 전환반응 기반 계면 재구성을 통해 빠른 이온 이동을 구현한 연구로, Cu2S/FeS2 이종구조가 형성되어 계면저항을 낮추고 전하이동을 가속함을 보였다. 수계 전지이며 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163524098",
@@ -7175,8 +7265,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "이미다졸 작용기화 FePc와 ZIF-8 유래 다공성 탄소로 균일한 Fe-N4 활성점을 형성해 산소환원반응과 아연-공기전지 성능을 향상시킨 연구로 보인다 (제목 기반 추정). Zn-air라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W4416675212",
@@ -7214,7 +7304,9 @@
       "title": "Anchoring of redox mediators towards high-capacity lithium-oxygen batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.05.051",
       "published": "2026-06-03",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.05.051",
       "authors": [
         "Chuan Tan",
@@ -7233,8 +7325,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "산화환원 매개체를 고정화하여 고용량 리튬-산소전지 성능을 향상시키는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
     },
     {
       "id": "W7163137097",
@@ -7302,8 +7394,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73862-y"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "박막 리튬나이오베이트 플랫폼에 안테나와 변조기를 통합한 모놀리식 광자 RF 수신기 칩을 시연한 광전자공학 연구로 배터리와 무관하다.",
+      "relevant": false
     },
     {
       "id": "W7163221481",
@@ -7335,8 +7427,8 @@
         "license": "cc-by",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73953-w"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "Zn 특이적 핵생성 이론과 무차원 인자를 도입해 수계 아연전지 계면 전기화학을 정량화한 연구로, Zn의 육방밀집구조에 맞춘 새로운 핵생성 모델을 제시했다. Zn 계열이라 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163151556",
@@ -7363,8 +7455,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "역전된 주사터널링분광법을 이용해 전기화학적으로 조절 가능한 금속산화물 나노구조의 전자적 특성을 원위치에서 측정하는 방법론 연구로, 특정 배터리 전극 화학을 다루지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163189222",
@@ -7393,8 +7485,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73985-2"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "전자구조(전하밀도)를 명시적으로 반영한 무기소재 생성모델 ChargeDIFF를 제안한 재료과학 AI 연구로 특정 배터리 전극을 다루지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163193247",
@@ -7421,8 +7513,8 @@
       "journal_metric": 16.94,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "질소치환 그래프다이인을 광전극으로 이용해 Zn/Li/Mg/Fe/Al-공기 등 다양한 금속-공기전지의 태양광 직접충전을 구현한 연구로, 특정 6개 토픽 범주에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163135044",
@@ -7454,8 +7546,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-73909-0"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "PFAS 및 NMP 없이 전하 조절된 셀룰로오스 나노섬유를 리튬전지 고로딩 양극용 바인더로 사용한 연구로, 양이온성 작용기를 통한 정전기적 분산과 수소결합으로 PVDF를 대체할 지속가능한 대안을 제시했다. 특정 양극 화학을 지정하지 않아 지정 토픽에 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7163205752",
@@ -7585,8 +7677,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "불완전한 충전 곡선만으로 배터리 건강 상태(SOH)를 추정하는 모델 개발에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163003130",
@@ -7613,8 +7705,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐리튬이온전지 전극의 지속가능하고 비파괴적인 분리 기술과 폐루프 재활용에 관한 리뷰이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163077624",
@@ -7622,7 +7714,9 @@
       "title": "Suppressing chemo-mechanical degradation of red phosphorus/activated carbon anodes via surface-welding SWCNTs for high-energy sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.05.035",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.05.035",
       "authors": [
         "Yang Sang",
@@ -7641,8 +7735,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고에너지 소듐이온전지용 적린/활성탄 음극의 화학-기계적 열화를 SWCNT 표면 용접으로 억제하는 연구이다. (제목 기반 추정). 다만 소듐 금속 음극이 아닌 적린 기반 소듐이온 음극이라 na-metal 분류는 확실치 않음.",
+      "relevant": true
     },
     {
       "id": "W7163394650",
@@ -7704,8 +7798,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "건식 공정 실리콘 음극의 초고면적용량에서 응력 완화가 가능한 상온 호환 프리리튬화 공정을 다룬다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163012620",
@@ -7743,7 +7837,9 @@
       "title": "Spatial shift of Li nucleation onto electrically conductive SEI residues",
       "url": "https://doi.org/10.1016/j.joule.2026.102532",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1016/j.joule.2026.102532",
       "authors": [
         "Tianyu Wang",
@@ -7762,8 +7858,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "잔류 고체전해질계면(rSEI)이 사이클링 중 정적 부산물이 아니라 동적으로 진화하는 복합 계면임을 규명한 연구이다. 데드리튬 축적이 rSEI의 전자전도도를 높이는 침투 전이를 유발하여 Li 핵생성 지점이 구리 집전체에서 rSEI 표면으로 이동하고, 이로 인해 새로 증착된 리튬이 쉽게 단절되어 데드리튬으로 전환됨을 밝혔다. rSEI를 화학적/전기화학적으로 용해시켜 이러한 실패 모드를 완화할 수 있음을 제시하였다.",
+      "relevant": true
     },
     {
       "id": "W7166647466",
@@ -7842,7 +7938,9 @@
       "title": "Pseudo graphitic mesoporous hard carbon via rapid pyrolysis for advanced sodium-ion battery anodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105286",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105286",
       "authors": [
         "Mahesh Y. Chougale",
@@ -7861,8 +7959,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "폐목재(건설 폐기물)를 초단시간 마이크로파 열분해하여 유사흑연질 다공성 하드카본을 제조, 소듐이온전지 음극 소재로 적용한 연구이다. 층간 간격 0.345 nm, 가역용량 401 mAh/g, 초기 쿨롱효율 72%를 달성하였다.",
+      "relevant": true
     },
     {
       "id": "W7163031363",
@@ -7870,7 +7968,9 @@
       "title": "Physics-guided residual Kalman learning for state-of-charge estimation of lithium iron phosphate batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.05.040",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "lfp"
+      ],
       "doi": "10.1016/j.jechem.2026.05.040",
       "authors": [
         "Feng Guo",
@@ -7889,8 +7989,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "리튬인산철(LFP) 배터리의 충전상태(SOC) 추정을 위한 물리 기반 잔차 칼만 학습 기법에 관한 연구이다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7164038168",
@@ -7934,7 +8034,9 @@
       "title": "Nickel-Based layered oxide cathodes in emerging sodium-ion batteries: Performance, challenges, and future directions",
       "url": "https://doi.org/10.1016/j.ensm.2026.105284",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.ensm.2026.105284",
       "authors": [
         "Yiming Wang",
@@ -7953,8 +8055,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "소듐이온전지용 니켈 기반 층상 산화물 양극 소재의 성능, 과제 및 향후 방향을 다룬 리뷰이다. (제목 기반 추정). Na 이온 양극 소재이므로 na-metal 태그는 규정상 은닉 대상임에 유의.",
+      "relevant": true
     },
     {
       "id": "W7163348935",
@@ -8126,8 +8228,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "실리콘-흑연 복합 음극의 열화 진단을 위해 정전류 충전 데이터로부터 실리콘 관련 개회로전위 변형과 전이 SOC를 추정하는 온보드 진단 프레임워크를 개발하였다. 리튬 손실 대비 활성 실리콘 손실 경로에 따라 실리콘 이용률이 다르게 변함을 밝히고, 실리콘 지배 구간에서 셀을 가열하는 적응형 열관리 전략을 제안하였다.",
+      "relevant": false
     },
     {
       "id": "W7164987190",
@@ -8150,8 +8252,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "초기 전기화학 신호로부터 배터리 노화를 학습하는 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163063769",
@@ -8183,8 +8285,8 @@
         "license": "cc-by-nc-nd",
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02180-7"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리와 무관한 신경과학/DNA 나노기술 논문(DNA 오리가미 타일을 이용한 세포내 신경 기록)이다.",
+      "relevant": false
     },
     {
       "id": "W7164181983",
@@ -8211,8 +8313,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수계 알루미늄-요오드 배터리의 고농도 전해질 계면 이온 고갈 현상을 분석하여 전해질 설계 지침을 제시한 연구이다. AlCl3-ChCl 혼성 전해질에서 콜린 양이온이 벌크상에 격리되는 현상을 밝히고, 최적 조성(3Al+1Ch)에서 260 mAh/g의 용량과 1,100사이클의 안정적 수명을 달성하였다.",
+      "relevant": false
     },
     {
       "id": "W7163177348",
@@ -8238,8 +8340,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "삽입 변조 탄소섬유를 이용해 기가파스칼급 강도와 우수한 전기화학 성능을 동시에 구현한 구조용 리튬이온 커패시터에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163024004",
@@ -8271,8 +8373,8 @@
         "license": "cc-by",
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02187-0"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수계 아연 전지의 전기화학적 안정성 창을 넓히기 위해 소수성 에테르계 첨가제로 액체 전해질 계면을 형성, 아연 덴드라이트를 억제하고 안정성 창을 3.08V까지 확장한 연구이다.",
+      "relevant": false
     },
     {
       "id": "W7163083015",
@@ -8334,8 +8436,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "수계 아연-요오드 전지를 안정화하기 위한 물리화학적 흡착성 양이온 설계에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163360253",
@@ -8485,7 +8587,9 @@
       "title": "Cation-induced electron delocalization enhances intrinsic conductivity and framework stability in iron-based sulfate cathode for high-performance sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.05.044",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "na-metal"
+      ],
       "doi": "10.1016/j.jechem.2026.05.044",
       "authors": [
         "Shaoyuan Zhao",
@@ -8504,8 +8608,8 @@
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "소듐이온전지용 철 기반 황산염 양극에서 양이온 유도 전자 비편재화를 통해 고유 전도도와 골격 안정성을 향상시킨 연구이다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7163042101",
@@ -8549,7 +8653,9 @@
       "title": "Anomalous ultrafast lithium-ion transport through boron nitride nanotube membranes",
       "url": "https://doi.org/10.1038/s41565-026-02182-5",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1038/s41565-026-02182-5",
       "authors": [
         "Semih Cetindag",
@@ -8573,8 +8679,8 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02182-5"
       },
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "질화붕소 나노튜브 막을 통한 비정상적으로 빠른 리튬이온 수송에 관한 연구이다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7163078354",
@@ -8601,8 +8707,8 @@
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "다기능 철 매트릭스를 이용한 비정질 실리콘/인 나노복합체로 초고속 및 내구성 있는 리튬 저장을 구현한 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7163014716",
@@ -8610,7 +8716,9 @@
       "title": "Advanced Co-free Li-rich Mn-based cathodes towards next-generation Li-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105279",
       "published": "2026-06-01",
-      "topics": [],
+      "topics": [
+        "li-rich"
+      ],
       "doi": "10.1016/j.ensm.2026.105279",
       "authors": [
         "Kai Chen",
@@ -8629,8 +8737,8 @@
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "차세대 리튬이온전지를 위한 코발트 프리 리치-망간 기반 양극 소재에 관한 리뷰이다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7163374586",
@@ -8654,8 +8762,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "교류(AC) 네이티브 배터리 시스템에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7166573251",
@@ -8680,8 +8788,8 @@
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "배터리 상태 진단에서 용량(Ah) 대신 에너지(Wh) 지표가 중요함을 강조하며, 열화 모드 모델을 이용해 에너지-용량 유지율 비율을 정량화하는 메커니즘 프레임워크를 제시하였다. 이 비율이 화학종, 운전 조건, 온도, 방전심도에 따라 민감하게 달라지며 복잡한 비선형 열화 거동을 설명할 수 있음을 여러 실험 데이터셋으로 검증하였다.",
+      "relevant": false
     },
     {
       "id": "W7163332083",
