@@ -106,7 +106,7 @@ def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print) -> dict[
         SOURCES_CACHE.parent.mkdir(parents=True, exist_ok=True)
         SOURCES_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2),
                                  encoding="utf-8")
-    return {n: s for n, s in cache.items() if s}
+    return {n: cache[n] for n in names if cache.get(n)}   # only the requested names
 
 
 def add_journal_candidates(cfg: Config, from_date: str, sources: dict[str, str],
