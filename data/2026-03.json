@@ -60,7 +60,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2026.102400",
+        "cached": "img/W7143447669.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102400"
+      },
       "summary_ko": "단결정 LiNi0.8Mn0.1Co0.1O2(SC-NMC811) 양극에 5% 미만의 Li/Ni 반자리 결함을 의도적으로 도입해 층간 미끄러짐을 억제하는 결함공학 전략을 제안했다. 이 결함이 '리벳' 역할을 해 전단강도를 88% 향상시키고 산소 손실을 억제했으며, 최적화된 양극은 용량 유지율 88.1%를 달성했다.",
       "relevant": true
     },
@@ -644,7 +650,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.03.031",
+        "cached": "img/W7140315062.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.03.031"
+      },
       "summary_ko": "디페닐비닐에톡시실란(DPVS) 첨가제를 이용해 HF를 포획하고 양극 계면을 개질함으로써 LiNi0.8Co0.1Mn0.1O2/흑연 파우치셀의 온도 성능을 향상시킨 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -708,7 +720,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.03.033",
+        "cached": "img/W7140308704.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.03.033"
+      },
       "summary_ko": "공유가교 나노국한화 전략을 통해 비대칭적 난연 젤 전해질을 설계, 무덴드라이트 소듐 금속전지를 구현한 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -738,7 +756,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2026.102354",
+        "cached": "img/W7140315945.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102354"
+      },
       "summary_ko": "비대칭 벌크 구조를 이용해 에너지밀도가 높으면서 고속충전이 가능한 소듐 금속전지를 구현한 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -1002,7 +1026,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.03.022",
+        "cached": "img/W7140078670.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.03.022"
+      },
       "summary_ko": "열적 남용 조건에서 LiFePO4 배터리의 팽창력에 관한 수치해석 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -2095,7 +2125,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.02.051",
+        "cached": "img/W7135088703.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.02.051"
+      },
       "summary_ko": "고에너지·고안전 리튬 금속 전지를 위한 분자사슬 연장 전략에 관한 연구로 보인다. 초록이 제공되지 않아 제목을 기반으로 추정한 요약이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -2593,7 +2629,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.02.042",
+        "cached": "img/W7133486142.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.02.042"
+      },
       "summary_ko": "고속충전 및 장수명 나트륨 금속 전지를 위해 약배위 기능성 첨가제를 이용해 상 내부 및 계면 간 빠른 Na+ 수송 동역학을 구현하는 연구로 보인다. 초록이 제공되지 않아 제목을 기반으로 추정한 요약이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -2777,7 +2819,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.02.040",
+        "cached": "img/W7133564503.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.02.040"
+      },
       "summary_ko": "상용 20Ah NCM/흑연 파우치셀에서 저온·고율 충전 조건에 따른 열화가 열폭주(TR) 거동에 미치는 영향을 단계별로 분석한 연구이다. Li 도금, 계면 재구성, 구조 손상이 TR 개시온도 저하 및 가연성 가스 방출 증가로 이어짐을 규명했다.",
       "relevant": true
     },
@@ -2876,7 +2924,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.02.034",
+        "cached": "img/W7133210884.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.02.034"
+      },
       "summary_ko": "열화-복원 관점에서 안티사이트 결함의 신속한 조절과 계면 재구성을 통해 폐 LiFePO4 양극을 업그레이드하는 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -2906,7 +2960,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.111849",
+        "cached": "img/W7133362207.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.111849"
+      },
       "summary_ko": "Li-O2 배터리용 Mo/Mo2N 이종촉매를 d-band 중심 최적화를 통해 설계한 연구 (제목 기반 추정).",
       "relevant": true
     },
@@ -2971,7 +3031,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2025.102312",
+        "cached": "img/W7133225400.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102312"
+      },
       "summary_ko": "폐배터리에서 회수한 LiFePO4를 고체 용액 상 엔지니어링을 통해 초고속 재생하는 기술 (제목 기반 추정).",
       "relevant": true
     },
@@ -3032,7 +3098,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2025.102311",
+        "cached": "img/W7133203949.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102311"
+      },
       "summary_ko": "반응성이 높은 알칼리 금속(리튬, 소듐) 전지 재료의 상관 이미징 및 분석을 위한 가이드라인을 제시한 논문이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3203,7 +3275,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105030",
+        "cached": "img/W7134821918.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105030"
+      },
       "summary_ko": "오비탈 조절을 통해 LiMnFePO4(LMFP) 캐소드의 얀-텔러 왜곡을 억제하여 구조적으로 안정한 재료를 구현한 연구 (제목 기반 추정).",
       "relevant": true
     },

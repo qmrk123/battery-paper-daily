@@ -59,7 +59,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112301",
+        "cached": "img/W7155163795.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112301"
+      },
       "summary_ko": "장수명 리튬 금속 전지를 위해 계층적 호스트 구조로 데드 리튬을 공간적으로 가두고 전기적으로 재연결하는 방법에 관한 연구이다 (제목 기반 추정).",
       "relevant": true
     }

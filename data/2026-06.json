@@ -29,7 +29,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105343",
+        "cached": "img/W7166643426.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105343"
+      },
       "summary_ko": "황화물 전고체전지에서 고전압 성능을 개선하기 위해 Ni-rich·코발트프리 단결정 양극의 표면 부동태화 및 구조 안정화 방법을 다룬 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -132,7 +138,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.052",
+        "cached": "img/W7166673770.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.052"
+      },
       "summary_ko": "불소계 방사 섬유 네트워크를 이용해 PEO 기반 고체 전해질의 계면 안정성과 Li+ 수송 경로를 조절하는 연구로, 리튬 금속 전지의 성능 향상을 목표로 한다. (제목 기반 추정)",
       "relevant": true
     },
@@ -371,7 +383,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.049",
+        "cached": "img/W7166389144.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.049"
+      },
       "summary_ko": "다기능 용매를 이용해 LiBF4 전해질의 용매화 구조를 조절함으로써 초저온 및 고전압 환경에서 리튬 금속 전지 성능을 향상시키는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -580,7 +598,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.042",
+        "cached": "img/W7166003562.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.042"
+      },
       "summary_ko": "전고체 전지용 리튬리치 망간계 양극에서 안정적인 산소 산화환원과 할라이드 전해질 보호를 동시에 구현하는 이중 앵커링 계면 재구성 전략을 제시한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -884,7 +908,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112148",
+        "cached": "img/W7165654685.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112148"
+      },
       "summary_ko": "결정 내 결합 상 엔지니어링을 통해 폐저니켈 양극재를 고성능 Ni-rich 단결정 양극재로 직접 업사이클링하는 방법을 제시한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -914,7 +944,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.038",
+        "cached": "img/W7165618558.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.038"
+      },
       "summary_ko": "리튬-산소 전지용 석출 촉매에서 고이온전도성 암염 호스트가 표면 매개 Li2O2 형성을 가능하게 하는 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1010,7 +1046,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105320",
+        "cached": "img/W7165527479.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105320"
+      },
       "summary_ko": "전고체전지에서 고체전해질 종류에 따른 Ni-rich 양극의 열화 메커니즘 경로를 규명한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1070,7 +1112,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112149",
+        "cached": "img/W7165557296.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112149"
+      },
       "summary_ko": "이중 골격 상호결합 구조를 통해 Ni-rich 층상 양극의 격자 내성을 확보하는 방법을 제시한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1165,7 +1213,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105316",
+        "cached": "img/W7165472976.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105316"
+      },
       "summary_ko": "NMC/흑연 전지에서 열구배가 농도분극 저항을 증가시키고 리튬 확산을 저하시키는 현상을 다룬 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1192,7 +1246,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105315",
+        "cached": "img/W7165479693.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105315"
+      },
       "summary_ko": "고성능 리튬-황 전지를 위한 머신러닝 기반 소재 설계, 메커니즘 규명, 예측 모델링을 다룬 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1366,7 +1426,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.017",
+        "cached": "img/W7165118670.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.017"
+      },
       "summary_ko": "전해질을 넘어 전지 전반의 공동설계 패러다임을 통해 전천후(all-climate) LiFePO4 배터리 성능을 개선하는 접근을 다룬 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1396,7 +1462,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.022",
+        "cached": "img/W7165131757.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.022"
+      },
       "summary_ko": "Ni-rich 층상 양극을 안정화하기 위한 자기제한형 고엔트로피 암염상 계면을 제안한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1497,7 +1569,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105311",
+        "cached": "img/W7165122688.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105311"
+      },
       "summary_ko": "급속충전 조건에서 LiFePO4 전지의 분극 요인을 메커니즘 수준에서 분리·규명하고 이를 바탕으로 합리적 설계 방향을 제시한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1705,7 +1783,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.015",
+        "cached": "img/W7164893305.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.015"
+      },
       "summary_ko": "데이터 기반 최적화를 통해 폐LiNi0.8Co0.1Mn0.1O2 양극재를 SiO2 코팅 고성능 단결정 양극재로 원팟 재생하는 확장 가능한 공정을 제시한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -1801,7 +1885,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.06.014",
+        "cached": "img/W7164845514.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.06.014"
+      },
       "summary_ko": "비대칭 구조의 폴리(이온성 액체) 기반 전해질을 설계하여 양극과의 계면 호환성을 확보하고 4.5V급 고전압 전고체 리튬 금속 전지 구동을 가능케 한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2104,7 +2194,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.05.063",
+        "cached": "img/W7164314792.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.05.063"
+      },
       "summary_ko": "초고용량 LiFePO4 전지의 열폭주 과정에서 발생하는 가스 및 발열 특성을 실험적으로 규명한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -2334,7 +2430,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105299",
+        "cached": "img/W7164189486.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105299"
+      },
       "summary_ko": "설계 기반 다원소 도핑을 통해 장수명 고니켈 NCM 양극을 개발하고, 기준 기반 도판트 선정과 원포트 원소별 입자 내 배치 전략을 제시한 연구이다(제목 기반 추정).",
       "relevant": true
     },
@@ -2544,7 +2646,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112104",
+        "cached": "img/W7163886362.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112104"
+      },
       "summary_ko": "고속충전 리튬 금속 전지를 위한 폴리우레탄 전해질에서 음이온을 열역학적으로 고정하는 전략을 다룬 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2609,7 +2717,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112115",
+        "cached": "img/W7163926338.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112115"
+      },
       "summary_ko": "나노다공성 복합 세퍼레이터를 통해 Li+ 이동을 균질화하고 가속화함으로써 고안정성 리튬 금속 전지를 구현한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2705,7 +2819,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112105",
+        "cached": "img/W7163872472.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112105"
+      },
       "summary_ko": "4.6V급 리튬 금속 전지를 위한 비부식성 디플루오로메틸렌 강화 술폰이미드 리튬염 전해질을 개발한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -3082,7 +3202,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.05.057",
+        "cached": "img/W7163671849.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.05.057"
+      },
       "summary_ko": "비정질 탄소질 구조와 리튬 금속 음극의 저장(calendar) 열화 저항성 간의 상관관계를 규명한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -3316,7 +3442,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.05.053",
+        "cached": "img/W7163524098.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.05.053"
+      },
       "summary_ko": "고산화내성 준고체 고분자 전해질을 이용해 4.8V급 리튬리치 망간계 전고체 전지를 구현한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -3473,7 +3605,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2026.102525",
+        "cached": "img/W7165037783.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102525"
+      },
       "summary_ko": "리튬 덴드라이트의 기계적 강도를 규명하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -3604,7 +3742,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2026.102541",
+        "cached": "img/W7166647466.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102541"
+      },
       "summary_ko": "전고체 리튬-황 전지에서 삼상 경계(triple-phase boundary)와 굴곡도(tortuosity) 사이의 상충 관계를 규명한 연구입니다. 고에너지밀도 전고체 Li-S 전지 설계에 필요한 미세구조 최적화 방향을 제시합니다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3778,7 +3922,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.05.043",
+        "cached": "img/W7162990218.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.05.043"
+      },
       "summary_ko": "산소 골격 엔지니어링을 통해 초안정 O2형 Li-rich 양극의 전압 및 용량 감쇠를 완화하는 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3916,7 +4066,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112077",
+        "cached": "img/W7163036826.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112077"
+      },
       "summary_ko": "플루오로아세토니트릴 용매를 이용해 젤 고분자 전해질의 용매화 구조를 맞춤 설계하여 넓은 온도범위에서 작동하는 고체상 리튬 금속전지를 구현한 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -3980,7 +4136,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2026.102539",
+        "cached": "img/W4410310773.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102539"
+      },
       "summary_ko": "가넷 고체전해질을 사용한 전고체 리튬전지에서 리튬 금속-고체전해질 계면의 접촉 손실이 리튬 금속 내 공극 형성이 아니라 전극 내부에서 유래한 절연성 불순물의 계면 증착에서 비롯됨을 입증했다. 이 불순물 다공층 때문에 스택 압력이 충분히 높아도 접촉 손실이 지속되며, 리튬이 이 층의 기공을 통해 크리프해야 함을 보였다.",
       "relevant": true
     },

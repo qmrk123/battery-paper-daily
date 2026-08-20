@@ -520,7 +520,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105456",
+        "cached": "img/W7202161552.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105456"
+      },
       "summary_ko": "리튬 금속 배터리에서 발생하는 열 폭주(thermal failure)의 메커니즘을 규명하고 이를 완화하기 위한 전략을 제시한 논문 (제목 기반 추정).",
       "relevant": true
     }
