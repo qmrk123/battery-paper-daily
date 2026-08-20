@@ -57,11 +57,13 @@ def fetch_wiley_pdf(doi: str, token: str, session: requests.Session):
     return None, str(r.status_code)
 
 
-def _pdf_image_candidates(pdf_bytes: bytes, max_pages: int = 2):
+def _pdf_image_candidates(pdf_bytes: bytes, max_pages: int = 6):
     """Embedded raster images on the first pages, ranked (page asc, area desc).
 
-    Returns list of dicts: {page, w, h, ext, data}. The graphical abstract in Wiley
-    articles sits on page 1, so page-0 largest-area image is the best guess.
+    Returns list of dicts: {page, w, h, ext, data}. We take the earliest page that
+    has a real raster, largest first — usually the graphical abstract or Figure 1.
+    Scans the first ~6 pages because many Wiley PDFs place the first figure on
+    page 2-4 (title/abstract/references fill the earlier pages).
     """
     import pymupdf  # PyMuPDF
     out = []
