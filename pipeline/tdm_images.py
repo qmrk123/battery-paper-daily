@@ -44,15 +44,20 @@ TRANSIENT = {"429", "500", "502", "503", "504"}
 
 
 def _fetch_with_retry(doi: str, token: str, session: requests.Session, log, tag=""):
-    """fetch_wiley_pdf with up to 3 backoff retries on transient (5xx/429) errors."""
+    """fetch_wiley_pdf, waiting out Wiley TDM's rate-limit windows on 5xx/429.
+
+    Measured: Wiley TDM allows ~60-request bursts then throttles (HTTP 500) for a
+    few MINUTES before the window resets. Short retries can't outlast that, so the
+    waits escalate into minutes; the first paper of a throttled block eats the wait
+    and refills the bucket, so the next ~60 papers fly through.
+    """
     pdf, status = fetch_wiley_pdf(doi, token, session)
-    tries = 0
-    while pdf is None and status in TRANSIENT and tries < 3:
-        wait = 8 * (tries + 1)          # 8s, 16s, 24s
-        log(f"    {status} on {doi}{tag} — retry {tries + 1}/3 in {wait}s")
+    for wait in (30, 90, 240):          # ~6 min total — long enough to clear a window
+        if pdf is not None or status not in TRANSIENT:
+            break
+        log(f"    {status} on {doi}{tag} — Wiley rate-limited; waiting {wait}s for the window to reset")
         time.sleep(wait)
         pdf, status = fetch_wiley_pdf(doi, token, session)
-        tries += 1
     return pdf, status
 
 
