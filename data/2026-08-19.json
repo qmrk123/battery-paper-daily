@@ -57,7 +57,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4146793",
+        "cached": "img/W7203477050.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4146793"
+      },
       "summary_ko": "폐 LiFePO4(LFP) 양극재의 고체상 직접 재생 과정에서 발생하는 불균일한 리튬 공급과 조기 탄소층 형성 문제를 해결하기 위해 트리티오시아누르산(TMT)과 리튬 아세테이트 기반의 초분자 자가조립(SAS) 전구체 시스템을 개발했습니다. 이 규칙적인 초분자 구조는 열분해 반응 경로를 제어하여 치밀한 탄소층이 형성되기 전 리튬이 LFP 격자 내로 우선 진입하도록 유도해 결함을 효율적으로 복원합니다. 또한 인시튜로 형성된 N/S 공도핑 전도성 탄소 코팅층을 통해 계면 전도성을 높임으로써, 재생된 LFP 양극은 1 C에서 500사이클 후 88%의 우수한 용량 유지율을 달성했습니다.",
       "relevant": true
     },

@@ -29,7 +29,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74672",
+        "cached": "img/W7203609991.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74672"
+      },
       "summary_ko": "단백질 매개 팁 흡착 효과를 활용하여 소듐 돌출부 팁 주변의 전기장 분포를 조절하고 균일한 소듐 전착 및 탈리를 유도하는 전해질 전략을 제시했습니다. 이 메커니즘은 견고한 고체 전해질 계면(SEI) 형성을 촉진하여 소듐 덴드라이트 형성을 억제하고 표면을 매끄럽게 재배열합니다. 이를 통해 소듐 대칭 셀에서 25 mA cm⁻² 이상의 한계 전류 밀도를 달성하고, NVP||Na 완전지에서 50 C의 초고율 조건에서도 16,000 사이클 이상의 우수한 수명 특성을 구현했습니다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77658",
+        "cached": "img/W7203596542.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77658"
+      },
       "summary_ko": "전해액 용매화 구조 제어를 통해 흑연 전극 표면에 Li2O가 풍부한 SEI를 형성하여 리튬 핵생성 및 성장 거동을 균일하게 조절했습니다. 이를 통해 국부적인 리튬 축적을 억제하고 전극 전반에 균일한 리튬 전착을 유도하여 흑연 삽입/리튬 도금 하이브리드 시스템의 안정성을 확보했습니다. 그 결과 저 N/P 비(0.7) 및 상용 수준 NMC811 양극(3~5 mAh cm⁻²) 기반 풀셀에서 1000사이클 이상의 수명과 4C 급속 충전 성능을 달성했습니다.",
       "relevant": true
     },
@@ -89,7 +101,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77736",
+        "cached": "img/W7203648634.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77736"
+      },
       "summary_ko": "극저온 리튬 금속 전지를 위한 준고체 전해질의 이온 수송 위상 구조를 재구성한 연구입니다. 불소벤젠을 수소결합 유도 분자 조직자로 도입해 원위치 중합 PDOL 전해질에서 과도한 Li+-에테르 배위를 약화시켜 극저온에서도 계면 안정성을 유지합니다.",
       "relevant": true
     },
@@ -119,7 +137,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77651",
+        "cached": "img/W7203612466.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77651"
+      },
       "summary_ko": "Mg1-xLixF2/PEO 복합 전해질에서 정전기적 부유(electrostatic suspension) 전략으로 0°C에서 작동 가능한 전고체 리튬 금속 전지를 구현한 연구입니다. 필러/고분자 계면의 반대방향 정전기장이 Li+를 부유 상태로 유지해 방향성 있는 빠른 이온 수송 채널을 형성합니다.",
       "relevant": true
     },
@@ -149,7 +173,13 @@
       "journal_id": null,
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71447",
+        "cached": "img/W7203561421.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71447"
+      },
       "summary_ko": "리튬 금속 배터리의 계면 열화를 극복하기 위해 정밀 유기 합성을 통한 전해액 분자 설계 전략을 고찰한 리뷰 논문입니다. 전자 구조 조절, 입체 장해 제어, 작용기 도입을 통해 염, 용매 및 첨가제의 물리화학적 특성을 프로그래밍하고 1차 용매화 구조와 계면(SEI/CEI) 형성을 제어하는 메커니즘을 설명합니다. 또한 파우치 셀 환경에서의 성능 벤치마킹과 조건별 설계 원칙을 제시하며, 전산 스크리닝 및 지속 가능성을 결합한 상용화 방향을 논의합니다.",
       "relevant": true
     },
@@ -177,7 +207,13 @@
       "journal_id": null,
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71434",
+        "cached": "img/W7203554675.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71434"
+      },
       "summary_ko": "실시간 공간 분해 두께 매핑이 가능한 오페란도 분광 타원계측법(spectroscopic ellipsometry)을 사용하여 리튬 금속 음극 표면의 초기 부동태막 형성 및 불균일성을 분석한 연구입니다. 리튬 금속의 결정 배향((200) 및 (110))과 핵생성에 따른 이방성 반응성이 부동태막의 불균일한 두께 분포를 유발함을 Fehlner-Mott 모델을 통해 규명하였습니다. 또한 EIS-DRT 및 한계전류밀도(CCD) 측정을 통해 초기 부동태막의 두께와 후속 SEI 형성 거동 간의 상관관계를 입증하여 수지상 없는 리튬 계면 설계 지침을 제시했습니다.",
       "relevant": true
     },
@@ -207,7 +243,13 @@
       "journal_id": null,
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71461",
+        "cached": "img/W7203533170.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71461"
+      },
       "summary_ko": "황화물계 전고체 전지의 리튬 금속 음극 계면을 안정화하기 위해 화학역학적으로 적응 가능한 MXene-Si-Ag 하이브리드 중간층을 개발했습니다. 기계적으로 유연한 MXene 프레임워크가 계면 응력을 완화하고 고정형 Si와 이동형 Ag 듀얼 시드가 상호 보완적으로 작용하여 리튬 수송 및 핵생성을 균일화합니다. 고로딩 NCM811 양극과 조합하여 40 MPa 및 0.21 MPa의 초저압 환경에서도 우수한 용량 유지율과 사이클 안정성을 입증했습니다.",
       "relevant": true
     },
@@ -237,7 +279,13 @@
       "journal_id": null,
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6490997",
+        "cached": "img/W7203488753.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6490997"
+      },
       "summary_ko": "리튬 과잉 층상계 양극(LRLO)의 중간 규모(mesoscale) 입자 구조 붕괴와 원자 규모의 화학적 불안정성을 해결하기 위한 불소 도핑 기반 크로스스케일 시너지 전략이 제시되었습니다. 불소 도입을 통해 (010) 결정면의 표면 에너지를 낮춰 1차 입자를 등축형(equiaxed)으로 유도함으로써 다공성을 줄이고 치밀한 2차 입자를 형성해 리튬 이온 확산 속도를 개선했습니다. 아울러 전이금속-산소(TM-O) 공유결합성을 강화해 과도한 산소 활성화를 억제하고 음이온 산화환원 가역성을 높여 950사이클 후 88.8%의 용량 유지율 및 Ah급 풀셀에서 1500사이클 후 96.3%의 높은 고전압 수명 특성을 달성했습니다.",
       "relevant": true
     },
@@ -267,7 +315,13 @@
       "journal_id": null,
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74644",
+        "cached": "img/W7203442996.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74644"
+      },
       "summary_ko": "초후막 전극에서 전해액 주입량과 용량 활용률 간의 상관관계를 정량화하는 파라미터 g(σ_e, D_e)를 수립하여 최소 전해액 요구량(1.1 g Ah⁻¹)을 도출했습니다. 4.8 V 고전압 및 10.0 mAh cm⁻² 이상의 고로딩 양극 조건에서 부반응을 억제하고 안정한 계면을 형성하는 전해액 포뮬레이션을 최적화했습니다. 이를 경량 리튬 금속 음극과 결합하여 769 Wh kg⁻¹의 초고에너지밀도를 달성하는 54.2 Ah 파우치 셀을 구현했습니다.",
       "relevant": true
     },
@@ -327,7 +381,13 @@
       "journal_id": null,
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77628",
+        "cached": "img/W7203464201.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77628"
+      },
       "summary_ko": "무음극(anode-free) 리튬 전지용으로 은 나노와이어(AgNW)와 CMC-Li를 결합한 친리튬성 복합 코팅을 Cu 집전체에 도입해 균일한 리튬 핵생성과 활성 리튬 손실 저감을 구현. 대상이 음극측 계면층이라 'High-Ni NCM 양극' 주제와는 무관해 관련성 게이트에서 제외.",
       "relevant": true
     },
@@ -388,7 +448,13 @@
       "journal_id": null,
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74634",
+        "cached": "img/W7202397661.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74634"
+      },
       "summary_ko": "DME 기반 국재화 고농도 전해질(LHCE) 내에서 불소화 고분자 네트워크의 인시튜 중합을 통해 본래의 용매화 구조를 보존하는 겔 전해질을 개발했습니다. 불소화 고분자의 제한적인 Li+ 배위 특성 덕분에 LHCE 용매화 환경과 계면 안정성이 유지되며 난연성 및 안전성이 향상되었습니다. 이를 적용한 Li 대칭셀은 2000시간 이상 안정적으로 작동했고, NCM9||Li 풀셀은 4.5V 고전압 조건에서 300사이클 후 82.2%의 용량 유지율을 기록했습니다.",
       "relevant": true
     },
@@ -418,7 +484,13 @@
       "journal_id": null,
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74616",
+        "cached": "img/W7202367461.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74616"
+      },
       "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
       "relevant": true
     },

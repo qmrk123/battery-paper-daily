@@ -59,7 +59,13 @@
       "journal_id": null,
       "journal_metric": 14.9,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77686",
+        "cached": "img/W7202177904.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77686"
+      },
       "summary_ko": "리튬 과잉 망간계(LRM) 양극을 인조흑연과 혼합·소결할 때 생기는 CO2 분위기가 표면 격자를 층상에서 스피넬형으로 전이시키는 기체유도 표면재구성(GSR) 전략을 제시. 산소 방출 관련 안정성 문제를 완화해 전기화학적 안정성을 개선한다.",
       "relevant": true
     },
@@ -154,7 +160,13 @@
       "journal_id": null,
       "journal_metric": 14.89,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6581071",
+        "cached": "img/W7202073084.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6581071"
+      },
       "summary_ko": "카보네이트 전해질에 잘 녹지 않는 LiNO3를 피리딘 운반 공용매로 용해시키는 전략을 개발. 피리딘이 Li+ 용매화 껍질에 들어가 Li+–카보네이트 상호작용을 약화, LiNO3 용해와 NO3−의 계면상 형성 참여를 유도해 450 Wh/kg급 고전압 리튬 금속 전지를 구현한다.",
       "relevant": true
     },
@@ -184,7 +196,13 @@
       "journal_id": null,
       "journal_metric": 22.01,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74572",
+        "cached": "img/W7202075942.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74572"
+      },
       "summary_ko": "질산염의 열분해를 이용해 한 번의 소성으로 NCM811의 코어·벌크·표면을 동시에 재구성하는 inside-out 전략을 제시. 내부 미세균열과 계면 부반응을 개별이 아닌 통합적으로 제어해 화학기계적 안정성을 크게 향상한다.",
       "relevant": true
     },
@@ -215,7 +233,13 @@
       "journal_id": null,
       "journal_metric": 14.9,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77192",
+        "cached": "img/W7202122563.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77192"
+      },
       "summary_ko": "Li-S 전지의 수송-전환 불균형을 해소하기 위해 1차·2차 Li+ 배위를 계층화한 고분자전해질을 설계. PPC 기반 골격에 크라운에터 1차 배위와 카보네이트 2차 배위를 결합해 염 해리와 Li+ 이동을 촉진하고 리튬 금속 계면과 황 산화환원 속도를 동기화한다.",
       "relevant": true
     },
@@ -243,7 +267,13 @@
       "journal_id": null,
       "journal_metric": 18.74,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71423",
+        "cached": "img/W7201967397.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71423"
+      },
       "summary_ko": "구조전지(massless 에너지저장)용 고니켈 양극에 in situ 엔트로피 공학(다원소 공도핑)을 적용해 격자 고정 효과로 산소 이탈과 이방성 변형을 억제. 전기화학·기계 응력이 결합된 구조전지의 용량·기계 열화를 완화한다.",
       "relevant": true
     },
@@ -273,7 +303,13 @@
       "journal_id": null,
       "journal_metric": 14.89,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2602693",
+        "cached": "img/W7201979591.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2602693"
+      },
       "summary_ko": "강배위 음이온과 약용매화 공용매로 음이온이 풍부한 다양한 용매화 구조를 만들어 저온 소듐 금속 전지 성능을 개선. Na+ 탈용매화 에너지 장벽을 낮춰 저온 전기화학 성능을 높인다.",
       "relevant": true
     },
@@ -303,7 +339,13 @@
       "journal_id": null,
       "journal_metric": 14.89,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4035251",
+        "cached": "img/W7201958772.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4035251"
+      },
       "summary_ko": "충전 중 짧은 방전 펄스를 넣는 'reflex charging' 전략으로 계면 환경을 동적으로 재프로그래밍. 전극 표면의 음이온 농축을 유지해 Li+ 용매화를 음이온 배위형으로 이동시켜 안정한 SEI 형성과 덴드라이트 억제를 유도한다.",
       "relevant": true
     },
@@ -333,7 +375,13 @@
       "journal_id": null,
       "journal_metric": 18.74,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71402",
+        "cached": "img/W7201971912.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71402"
+      },
       "summary_ko": "1단계 용융방사로 3D 마이크로네트워크 Li/Al4Li9 복합 음극을 제작. 냉각 조건(구리 롤러 2200 rpm)으로 미세구조를 제어해 균일한 도금/벗김을 유도하고 고에너지밀도 리튬 금속 전지의 구조 열화를 완화한다.",
       "relevant": true
     },
@@ -363,7 +411,13 @@
       "journal_id": null,
       "journal_metric": 14.89,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3474461",
+        "cached": "img/W7201867313.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3474461"
+      },
       "summary_ko": "LiCoO2(LCO)를 Zr 필라링과 in situ LiCoPO4 코팅으로 4.65V까지 안정화(O3→H1-3 전이·격자 산소 손실·Co 용출 억제). 대상이 LCO 고전압 양극이라 'Li-rich(리튬 과잉) 양극' 주제와는 무관해 관련성 게이트에서 제외.",
       "relevant": true
     },
@@ -393,7 +447,13 @@
       "journal_id": null,
       "journal_metric": 14.9,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77578",
+        "cached": "img/W7201851454.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77578"
+      },
       "summary_ko": "플라즈마 처리한 ATO를 코팅해 상부 ATO(산소공공 풍부)와 하부 Li-Sn/Li-Sb/Li2O로 구성된 산소공공 풍부 계면층을 리튬 음극에 구축. 초기 사이클에 리튬염 해리와 음이온 분해를 촉진해 SEI를 안정화하고 리튬 금속 음극의 수명을 연장한다.",
       "relevant": true
     },
@@ -422,7 +482,13 @@
       "journal_id": null,
       "journal_metric": 14.9,
       "first_seen": "2026-08-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77554",
+        "cached": "img/W7201860151.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77554"
+      },
       "summary_ko": "집전체에 인듐 옥시클로라이드 코팅을 도입해 제한된 소듐(limited-Na) 금속 전지의 덴드라이트 성장과 불안정 SEI 문제를 완화. 간단한 표면 개질로 균일한 Na 도금과 쿨롱 효율을 개선한다.",
       "relevant": true
     },

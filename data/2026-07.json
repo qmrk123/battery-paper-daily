@@ -1203,7 +1203,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71326",
+        "cached": "img/W7170502536.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71326"
+      },
       "summary_ko": "P. Marcus 이론에 기반해 Al/Al2O3/전해질 계면의 전위 강하가 두 계면에 분배되는 메커니즘을 규명하여 고전압 리튬 금속전지의 알루미늄 집전체 부식 원인을 밝혔다. 내부 Al/Al2O3 전위강하가 Al3+ 이탈의 근본 동력이며, 외부 음이온 흡착이 이를 강화하는 연쇄효과를 확인했다.",
       "relevant": true
     },
@@ -1233,7 +1239,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77244",
+        "cached": "img/W7171070684.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77244"
+      },
       "summary_ko": "결정성 대신 유리질(glassy) 금속-유기 골격체(MOF)를 시딩/호스팅 계면으로 제안하여 무음극 소듐 금속전지의 가역적인 소듐 도금/탈리를 구현했다. 결정립계가 없어 등방성 이온수송을 촉진하고 부분 해리된 배위결합이 노출된 불포화 금속 자리로 음이온을 고정시켜 무기물이 풍부한 계면과 덴드라이트가 없는 도금/탈리를 실현한다.",
       "relevant": true
     },
@@ -1263,7 +1275,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74324",
+        "cached": "img/W7170713448.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74324"
+      },
       "summary_ko": "폐 LiFePO4 캐소드를 재생하기 위한 부위 특이적 원자 복구(SAR) 전략을 제안한 연구입니다. 기존 균일혼합 소결법이 간과한 FePO4 내부의 불균일성을 해결하여 장거리 Li 확산 장벽과 과리튬화 문제를 억제, 에너지 효율적인 재생을 구현합니다.",
       "relevant": true
     },
@@ -1287,7 +1305,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74257",
+        "cached": "img/W7170655510.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74257"
+      },
       "summary_ko": "콜로이드 계면화학을 이용해 Li+ 용매화 구조를 조절하는 미세 이종 LiBO2 매개 전해질(LBME)을 개발하여 고전압·저온 리튬이온전지 성능을 개선했다. 안정적인 LiBO2 콜로이드가 음이온과 배위해 Li+-용매/음이온 상호작용을 약화시켜 이온전도도를 높이고 -30°C에서도 균일한 리튬 석출과 무기물 풍부 CEI 형성을 가능하게 한다.",
       "relevant": false
     },
@@ -1315,7 +1339,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.8407735",
+        "cached": "img/W7171045215.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.8407735"
+      },
       "summary_ko": "이상 전해질을 이용해 격막이 없는 고전압 리튬-유기 하이브리드 흐름전지를 구현했다. 하부상 아놀라이트는 LiPF6와 트리플루오로아세트아마이드로 이루어진 공융용매로 넓은 전기화학적 안정성창(4.81V)과 리튬 금속과의 안정적 호환성을 가지며, 상부상 캐솔라이트는 페노티아진 유도체 기반으로 약 3.6V의 개방회로전압을 달성했다.",
       "relevant": false
     },
@@ -1375,7 +1405,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74219",
+        "cached": "img/W7170161285.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74219"
+      },
       "summary_ko": "Li, Na, K, Al, Zn, Mg, Ca, Cu, Fe 등 다양한 금속-황 전지의 전환 반응 메커니즘을 나노구조에서 단일원자 촉매까지 검토한 리뷰입니다. 황 전환 반응속도 저하와 폴리설파이드 셔틀 문제 해결을 위한 촉매 설계 원리를 다룹니다.",
       "relevant": true
     },
@@ -1405,7 +1441,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74270",
+        "cached": "img/W7170145364.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74270"
+      },
       "summary_ko": "황화물 전고체 전지용 전환형 캐소드 소재 FeF2의 전압 히스테리시스를 산소 도핑과 나노 무질서화를 통해 줄인 연구입니다. 밴드갭과 이온·전자 전도도를 조절하여 히스테리시스를 153 mV까지 낮췄습니다.",
       "relevant": true
     },
@@ -1435,7 +1477,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71325",
+        "cached": "img/W7170195451.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71325"
+      },
       "summary_ko": "고전압 리튬 금속 배터리를 위해 용매의 전자 구조를 조절하여 Li+ 용매화 구조를 부드럽게 만드는 심공융 전해질(TSE121)을 설계했다. 5.52V의 넓은 전기화학 안정성 창, 낮은 Li+ 탈용매화 장벽, 0.82의 높은 Li+ 이동수를 달성했다.",
       "relevant": true
     },
@@ -1466,7 +1514,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74260",
+        "cached": "img/W7170143957.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74260"
+      },
       "summary_ko": "극저온·고전압 조건에서 리튬 금속 음극과 니켈리치 양극의 계면 화학을 동시에 조절하는 분자내 편극 전해질을 제안했다. 약 4.2D의 쌍극자 모멘트를 가진 전자 공여체-수용체 구조로 Li+ 탈용매화 에너지를 38.1 kJ/mol로 낮추고 5.3V 이상의 산화 안정성을 확보했다.",
       "relevant": true
     },
@@ -1496,7 +1550,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71343",
+        "cached": "img/W7170159749.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71343"
+      },
       "summary_ko": "에테르-실록산 하이브리드 전해질에서 실리콘 주변의 높은 입체 장애를 이용해 실록산 용매의 Li+ 배위를 제한하고 에테르 용매가 우선적으로 안정한 용매화 구조를 형성하도록 유도하는 전략을 제시했다. 이를 통해 고에너지밀도 리튬 금속 배터리의 산화 저항성을 향상시켰다.",
       "relevant": true
     },
@@ -1526,7 +1586,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4550020",
+        "cached": "img/W7170180007.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4550020"
+      },
       "summary_ko": "전자 전달을 가속화한 완전 공액 유사-3차원 공유결합 유기 골격체(COF)를 리튬이온전지 유기 전극 소재로 개발한 연구입니다. 이미다졸-포르피린 2D COF를 열적 황화 처리로 3D π-공액 네트워크로 전환하여 높은 비용량과 전도도를 달성했습니다.",
       "relevant": true
     },
@@ -1556,7 +1622,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77136",
+        "cached": "img/W7170974564.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77136"
+      },
       "summary_ko": "고체 리튬 금속 배터리용 고전압 고분자 전해질로서 시클로실록산이 공중합된 폴리에테르 전해질(CS-PDOX)을 개발했다. Li+-고분자 배위를 약화시켜 상온 이온전도도 8.45×10^-4 S/cm를 달성했고 Si-O-Si 결합이 HOMO 준위를 낮춰 산화 안정성을 약 4.76V까지 확장했다.",
       "relevant": true
     },
@@ -1587,7 +1659,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77282",
+        "cached": "img/W7170151034.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77282"
+      },
       "summary_ko": "층상 양극 기반 고체 배터리에서 극소량의 고농도 전해질(HCE)을 LLZO-PVDF-HFP 계면의 이중 기능성 개질제로 도입하여 리튬 금속 음극과 층상 양극 양쪽 계면을 동시에 안정화하는 전략을 보고했다. 잔류 DMF를 고정화하고 국소 용매화 구조를 변화시켜 계면 안정성을 확보했다.",
       "relevant": true
     },
@@ -1617,7 +1695,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74266",
+        "cached": "img/W7170050777.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74266"
+      },
       "summary_ko": "고전압·저전해질 조건에서 리튬 금속 파우치셀의 안정적 작동을 위해 강직한 양이온성 첨가제(F-TEDA+)를 이용한 용매 고정 전해질(SAE)을 개발했다. 음이온이 풍부한 용매화 구조를 형성시켜 무기물이 풍부한 SEI 형성을 유도하고 600 Wh/kg급 파우치셀의 고전압 안정 작동을 달성했다.",
       "relevant": true
     },
@@ -1647,7 +1731,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77338",
+        "cached": "img/W7170141118.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77338"
+      },
       "summary_ko": "리튬 덴드라이트 성장과 부피 팽창 억제를 위해 N,S 도핑 젤라틴 유래 탄소나노섬유(GC)와 리튬 도핑 하이드록시아파타이트 나노섬유(LiHA)를 결합한 구배형 이온-전자 전도성 골격(Gra-GC-LiHA)을 리튬 음극 개질에 적용했다. 나노 및 마이크로 스케일에서 균일한 Li 핵생성과 LiF가 풍부한 SEI 형성을 촉진한다.",
       "relevant": true
     },
@@ -1677,7 +1767,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77279",
+        "cached": "img/W7170146841.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77279"
+      },
       "summary_ko": "니켈 N-혼동 포르피린 착물(NiNCP)의 비대칭 금속 배위 구조를 이용해 리튬-황 전지 폴리설파이드 전환 반응 속도를 가속화한 연구입니다. 분리막에 촉매를 코팅하여 극성과 촉매 활성을 동시에 강화했습니다.",
       "relevant": true
     },
@@ -1737,7 +1833,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77291",
+        "cached": "img/W7170150199.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77291"
+      },
       "summary_ko": "수계 Zn||LiFePO4 하이브리드 이온 전지의 계면 안정성을 반용매(디에틸렌글리콜) 첨가로 개선한 연구입니다. Zn/Li 이중 양이온 용매화 구조를 재구성해 아연 덴드라이트와 수소 발생, 전이금속 용출을 억제했습니다.",
       "relevant": true
     },
@@ -1767,7 +1869,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77251",
+        "cached": "img/W7170067845.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77251"
+      },
       "summary_ko": "무음극 리튬 금속 배터리(AFLMB)의 가역성을 높이기 위해 Cu 집전체 위에 응력-리간드 결합 d-밴드 조절형 LiZnNiCu 4원 합금 계면을 구축했다. DFT 계산으로 인장 응력이 표면 금속의 d-밴드 중심을 페르미 준위 쪽으로 이동시키고 Li 유도 리간드 효과가 계면 전하를 재분배해, Li 앵커링 강화와 Li-adatom 확산 장벽 저하를 구현함을 규명했다.",
       "relevant": true
     },
@@ -1851,7 +1959,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74227",
+        "cached": "img/W7169867177.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74227"
+      },
       "summary_ko": "LiFSI/DME 에테르계 전해질에 불소화 풀러렌(C60F30) 나노입자 첨가제를 도입해 엔트로피 구동 방식으로 계면 용매화 환경을 무질서화하는 전략을 제시했다. Li+ 확산성을 희생하지 않으면서 Li+ 탈용매화와 이동을 가속화하여 계면 안정성을 향상시켰다.",
       "relevant": true
     },
@@ -1881,7 +1995,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1775824",
+        "cached": "img/W7170081003.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1775824"
+      },
       "summary_ko": "황화물계 전해질 기반 전고체 리튬 금속 배터리의 열-전기화학 결합 실패와 안전 문제를 해결하기 위해 불소화 그래핀 계면층과 산소 결손이 풍부한 CuO1-x 첨가제를 결합한 이중 열 안정화 전략을 제안했다. Li6PS5Cl 기반 완전셀이 1C에서 2000사이클 이상 96% 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -1941,7 +2061,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74208",
+        "cached": "img/W7169781386.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74208"
+      },
       "summary_ko": "폐 LiCoO2를 O2-O3 상 공존 구조로 재생하여 고전압 안정성과 사이클 성능을 향상시킨 연구입니다. 폐캐소드의 Li 결핍 특성을 오히려 업사이클링 발판으로 활용해 격자 재구성과 이온교환 기반 상변태를 유도했습니다.",
       "relevant": true
     },
@@ -2032,7 +2158,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77180",
+        "cached": "img/W7169783735.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77180"
+      },
       "summary_ko": "황화물 고체전해질과 고니켈 층상 산화물 캐소드 간 계면 불안정성을 해결하기 위해 이중 내부전기장(DBIEF)을 형성하는 WO2Cl2 계면층을 도입한 연구입니다. 계면 전하 이동을 능동적으로 조절해 전해질 분해를 억제하면서 Li+ 수송 장벽을 낮췄습니다.",
       "relevant": true
     },
@@ -2092,7 +2224,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77150",
+        "cached": "img/W7169774485.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77150"
+      },
       "summary_ko": "저온 리튬 금속 배터리에서 불균일한 Li 핵생성 문제를 해결하기 위해 Ag-Sn-Ag3Sn 금속간화합물층을 리튬 금속 표면에 자발적 환원 방식으로 형성하는 '시너지 Li+ 산화환원-확산' 조절 메커니즘을 제안했다. Ag는 핵생성 사이트를, Sn은 전하 재분배를, Ag3Sn(0.75eV 확산 장벽)은 Li+ 이동 가속화를 담당한다.",
       "relevant": true
     },
@@ -2122,7 +2260,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74194",
+        "cached": "img/W7169754812.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74194"
+      },
       "summary_ko": "전고체 리튬 금속 배터리의 계면 불안정성 해결을 위해 나노 크기 적린 기반 계면 설계를 제안했다. 리튬과 접촉 시 자발적으로 Li3P가 풍부한 계면상을 형성해 균일한 Li 이온 플럭스를 만들며, 롤투롤 전사 공정과의 확장 가능한 제조 호환성을 갖는다.",
       "relevant": true
     },
@@ -2152,7 +2296,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77255",
+        "cached": "img/W7169808680.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77255"
+      },
       "summary_ko": "고에너지밀도 무음극 리튬 금속 배터리를 위해 Li-SiO2 나노입자가 내장된 전기방사 NBR/PAN 이중기능 층간재를 리튬 음극에 적용했다. 탄성 매트릭스가 부피 변화를 흡수하고 니트릴기가 균일한 Li+ 플럭스를 유도하여 파우치형 무음극 셀의 계면 안정성을 향상시켰다.",
       "relevant": true
     },
@@ -2182,7 +2332,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74180",
+        "cached": "img/W7169684296.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74180"
+      },
       "summary_ko": "고체 리튬 금속 배터리를 위해 경쟁적 수소결합 상호작용을 이용한 불소화 심공융 겔 전해질을 개발하여 기계적 강도와 이온전도도를 동시에 향상시켰다. 트리플루오로메틸 기능화 심공융 용매 내에서 아크릴아마이드계 공중합으로 상분리된 상호침투 네트워크를 형성했다.",
       "relevant": true
     },
@@ -2242,7 +2398,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74179",
+        "cached": "img/W7169671278.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74179"
+      },
       "summary_ko": "영하 105°C부터 70°C까지 초광온도 범위에서 작동하는 리튬 금속 배터리를 위해 불소를 사용하지 않는 용매 설계 전략을 제안했다. 2-에틸부틸 아세테이트(2EA)가 입체 장애와 전자 공여 유도 효과를 통해 카르보닐 산소와 Li+ 사이의 결합력을 약화시킨다.",
       "relevant": true
     },
@@ -2272,7 +2434,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4071427",
+        "cached": "img/W7169610525.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4071427"
+      },
       "summary_ko": "CO2를 매개로 한 Li-O2 배터리(CLOB)를 구성하여 방전 전압을 3.30V까지 향상시킨 연구이다. 산소 환원 화학을 재정의하여 LiFePO4계 리튬이온전지에 필적하는 방전 전압을 구현했으며, 리튬 금속/니켈리치/리치리치 양극과는 무관하다.",
       "relevant": true
     },
@@ -2302,7 +2470,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74181",
+        "cached": "img/W7168928361.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74181"
+      },
       "summary_ko": "고전압 전고체 배터리를 위해 니켈리치 층상 산화물 양극(NCM811) 표면에 컨포멀 AlF3 나노쉘을 형성하는 표면 개질 전략을 보고했다. (NH4)3AlF6 전구체 나노쉘을 소결하여 AlF3 층으로 변환함으로써 염화물계 고체전해질 Li3InCl6와의 4.8V까지의 안정적 작동을 구현했다.",
       "relevant": true
     },
@@ -2329,7 +2503,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4049895",
+        "cached": "img/W7169515866.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4049895"
+      },
       "summary_ko": "고체 리튬 배터리용 폴리머-인-솔트(PIS) 전해질의 계면 안정화를 위해 CaF2 필러를 이용한 다중 기능 필러 설계를 제안했다. 불소 공공 결함화학을 통해 염 해리와 이온전도 부위 생성을 촉진하고 수소결합을 통해 고분자 매트릭스를 보강하여 약 8µm 초박막 필름을 구현했다.",
       "relevant": false
     },
@@ -2417,7 +2597,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4252910",
+        "cached": "img/W7169609557.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4252910"
+      },
       "summary_ko": "고체 리튬-황 배터리를 위해 이온성 액체로 개질된 ZIF-67(IL@ZIF-67)을 고분자 고체전해질에 도입하여 이온 배위를 재구성하는 동적 이온쌍 네트워크를 구현했다. TFSI-를 선택적으로 고정시켜 Li+ 이동을 음이온 이동과 분리시킴으로써 이동 에너지 장벽을 낮췄다.",
       "relevant": true
     },
@@ -2507,7 +2693,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71306",
+        "cached": "img/W7168412568.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71306"
+      },
       "summary_ko": "극저온용 리튬 금속 배터리를 위해 상분리된 고분자 전해질에서 공간적·계면적 이중 구속 전략을 제안했다. 중합 유도 상분리(PIPS)를 통해 DMSO-LiTFSI/LiBF4 액체 미세영역을 가교된 불소화 고분자 골격 내에 형성시켜 저온 이온수송과 덴드라이트 억제를 동시에 달성했다.",
       "relevant": true
     },
@@ -2567,7 +2759,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77061",
+        "cached": "img/W7168396152.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77061"
+      },
       "summary_ko": "상온 리튬 금속 고체 배터리를 위해 고분자-세라믹 복합 전해질의 계면 이온수송 병목현상을 해결하는 인시추 하이브리드 고체전해질을 제안했다. 고분자-세라믹 계면상의 연결성을 개선하여 연속적인 Li+ 플럭스를 확보하고 상온 사이클링을 가능하게 했다.",
       "relevant": true
     },
@@ -2598,7 +2796,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74104",
+        "cached": "img/W7168412620.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74104"
+      },
       "summary_ko": "코발트-프리 니켈 기반 층상 캐소드에 국소적으로 정렬된 Li 과잉 Li2TMO3 결정 도메인을 도입하는 결정 도메인 엔지니어링 전략을 제시한 연구입니다. 리튬 화학양론 제어를 통해 '쌍둥이 도메인' 구조의 고성능 코발트-프리 캐소드를 구현했습니다.",
       "relevant": true
     },
@@ -2628,7 +2832,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71300",
+        "cached": "img/W7168344033.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71300"
+      },
       "summary_ko": "LiFePO4(LFP)||흑연 셀에서 음극이 아닌 캐소드 특성에 기인한 에지 리튬 도금 현상을 규명한 연구입니다. LFP와 흑연 전극 간 비동기적 격자부피 팽창-수축이 파우치셀 모서리부의 기계적 불균일성을 유발함을 operando 측정으로 입증했습니다.",
       "relevant": true
     },
@@ -2689,7 +2899,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71292",
+        "cached": "img/W7168279196.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71292"
+      },
       "summary_ko": "안전한 고전압 리튬 금속 배터리를 위해 LiDFOB와 LiNO3를 비가연성 인산트리에틸 용매에 공동 최적화한 음이온 조절 전해질을 보고했다. DFOB-/NO3- 이중 음이온 상승효과로 Li+ 용매화 구조를 음이온이 풍부한 형태로 재구성하여 빠른 탈용매화와 우선적 음이온 산화환원을 유도했다.",
       "relevant": true
     },
@@ -2719,7 +2935,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74037",
+        "cached": "img/W7168239380.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74037"
+      },
       "summary_ko": "리튬 기반 배터리의 성능 향상을 위한 다중스케일 자기장 공학에 관한 리뷰로, 자기장이 전극/전해질 계면에서 리튬 덴드라이트 증식을 억제하고 계면을 안정화하는 원리를 체계적으로 정리했다.",
       "relevant": true
     },
@@ -2749,7 +2971,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74126",
+        "cached": "img/W7168275686.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74126"
+      },
       "summary_ko": "폐 삼원계 캐소드(NCM523)의 재생을 위해 격자-전자 상승 피닝 전략을 제안한 연구입니다. Na-O-Ni 이온-공유 결합 네트워크로 Ni/Li 안티사이트 결함과 격자 왜곡을 복구하여 재생 구조와 성능을 동시에 강화했습니다.",
       "relevant": true
     },
@@ -2779,7 +3007,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74039",
+        "cached": "img/W7168256704.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74039"
+      },
       "summary_ko": "계면 전기음성도 차이를 이용해 폐 LiFePO4 근표면의 사면체 재구성을 유도, 한 단계 소결로 고율·장수명 파우치셀용 캐소드로 업사이클링하는 전략을 제시한 연구입니다.",
       "relevant": true
     },
@@ -2809,7 +3043,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74116",
+        "cached": "img/W7168341934.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74116"
+      },
       "summary_ko": "4.6V급 리튬 금속 고체 배터리를 위해 구배형 공유-비공유 동적 결합을 가진 계면 자가치유 고분자 전해질(SHPE)을 보고했다. 고강도 붕산에스터 결합과 초고속 동적 수소결합을 결합하여 상온에서 계면 결함의 자가 복구를 구현했다.",
       "relevant": true
     },
@@ -2839,7 +3079,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74069",
+        "cached": "img/W7168264566.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74069"
+      },
       "summary_ko": "고에너지밀도 무음극 리튬 배터리를 위해 겔 고분자 전해질에 이중기능 불소화 첨가제를 도입해 인시추 겔화와 무기물이 풍부한 SEI 형성, 난연성을 동시에 구현했다. 무음극 파우치셀은 0.5C에서 202.1 mAh/g의 비용량과 85사이클 후 80.3%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -2869,7 +3115,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74068",
+        "cached": "img/W7168275403.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74068"
+      },
       "summary_ko": "리튬 금속 음극의 덴드라이트 성장과 부반응을 억제하기 위해 강직-유연 폴리계면(PFT)을 설계해 Li+와 음이온을 분자 수준에서 동시에 조절하는 전략을 제시했다. 유연 세그먼트는 Li+ 탈용매화 장벽을 낮추고 강직한 불소화 벤젠고리는 TFSI-를 포획한다.",
       "relevant": true
     },
@@ -2899,7 +3151,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71303",
+        "cached": "img/W7168243733.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71303"
+      },
       "summary_ko": "산화물 전해질과 니켈리치 양극을 사용하는 전고체 배터리에서 공소결 시 NCM811과 LATP, LLTO, LLZTO 세 가지 산화물 전해질 간의 화학적 호환성을 체계적으로 연구했다. LATP와 LLTO는 LLZTO보다 NCM811과 훨씬 심한 부반응을 나타냈다.",
       "relevant": true
     },
@@ -2955,7 +3213,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5096270",
+        "cached": "img/W7168148593.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5096270"
+      },
       "summary_ko": "황-헤테로고리로 확장된 트립티센 트리벤조퀴논 단량체의 2차원 초분자 중합을 이용해 급속충전이 가능한 유기 캐소드를 개발한 연구입니다. 다공성 다층 나노시트 구조로 이온 확산 저항을 낮춰 높은 전력밀도를 달성했습니다.",
       "relevant": true
     },
@@ -3015,7 +3279,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71316",
+        "cached": "img/W7168247057.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71316"
+      },
       "summary_ko": "장수명 리튬-황 배터리를 위해 다황화물에 저항성을 갖는 고체 전해질 계면(SEI)을 설계했다. LiF가 풍부한 SEI가 다황화물 부식에 의한 셔틀 전류를 50% 이상 줄이고 쿨롱 효율을 95.6%에서 98.0%로 향상시켰다.",
       "relevant": true
     },
@@ -3074,7 +3344,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71255",
+        "cached": "img/W7168122440.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71255"
+      },
       "summary_ko": "고전압, 광온도, 불연성 소듐 금속 배터리를 위해 음이온-양이온을 공동 조절한 고인화점 인산염계 전해질을 개발했다. Sn2+와 PO2F2-의 기능화로 소듐 음극에 합금-무기물 복합 계면층을 형성하고 DFOB-와 Na+ 강한 배위로 무기물이 풍부한 SEI를 유도했다.",
       "relevant": true
     },
@@ -3105,7 +3381,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9651015",
+        "cached": "img/W7168187655.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9651015"
+      },
       "summary_ko": "고성능 고체 리튬-산소 배터리(SSLOB)를 위해 C=O, C-O-C 등 활성 산소함유기가 풍부한 중합 글리시딜 메타크릴레이트(PGM) 전해질을 개발했다. 리튬 금속 음극 표면에 조밀한 산화물이 풍부한 SEI를 유도하여 덴드라이트 성장을 억제하고 양측 계면 안정성과 반응속도를 동시에 개선했다.",
       "relevant": true
     },
@@ -3136,7 +3418,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71239",
+        "cached": "img/W7168091662.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71239"
+      },
       "summary_ko": "LFP와 NMC를 혼합한 복합 전고체 블렌드 캐소드의 전기화학적·열적 상호작용을 분석한 연구입니다. 방사광 XRD로 캐소드 깊이 방향의 비대칭 전하분포와 리튬화 구배를 확인했으며, 블렌드 캐소드가 순수 NMC보다 발열이 적어 열안정성이 향상됨을 보였습니다.",
       "relevant": true
     },
@@ -3167,7 +3455,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71285",
+        "cached": "img/W7168107150.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71285"
+      },
       "summary_ko": "덴드라이트 없는 리튬 금속 배터리와 음극-양극 간 크로스토크 억제를 위해 구리 집전체 위에 In2O3 나노층을 스퍼터링으로 형성하고 초기 리튬화 시 Li-In/Li2O 복합 계면상으로 전환시키는 전략을 보고했다. 고니켈 양극과 결합 시에도 500사이클에서 98.5%의 쿨롱 효율을 달성했다.",
       "relevant": true
     },
@@ -3198,7 +3492,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2069430",
+        "cached": "img/W7168047393.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2069430"
+      },
       "summary_ko": "다가 칼코겐 전환 화학 기반 고에너지 리튬 배터리를 위해 쯔비터이온 겔 고분자 전해질(GPE)로 다가 텔루륨 산화환원을 안정화하는 준고체 리튬-텔루륨 전지를 보고했다. LiCl을 Te 양극에 내장한 Te/LiCl 복합체는 2.42, 2.17, 1.76V의 방전 플래토를 가지며 938 mAh/g의 비용량과 619 Wh/kg의 에너지밀도를 달성했다.",
       "relevant": true
     },
@@ -3228,7 +3528,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71299",
+        "cached": "img/W7168040089.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71299"
+      },
       "summary_ko": "고성능 전고체 리튬 금속 배터리를 위해 이트륨 염화브롬화물 초이온전도체(Li2.5Y0.75W0.25Cl3.5Br2.5)를 개발했다. Br- 치환으로 리튬 이온 수송 채널을 확장하고 W5+ 도입으로 양이온 공공을 생성해 6.38 mS/cm의 높은 상온 이온전도도를 달성했다.",
       "relevant": true
     },
@@ -3258,7 +3564,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74129",
+        "cached": "img/W7168046754.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74129"
+      },
       "summary_ko": "고전압 층상 산화물 캐소드의 입계 안정화를 위해 원위치 중합된 탄성 poly(urea-siloxane) 코팅을 도입한 연구입니다. 이 인공 계면층이 이차입자 표면과 내부 일차입자 표면을 동시에 보호해 층상-스피넬 상전이를 억제합니다.",
       "relevant": true
     },
@@ -3288,7 +3600,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5798341",
+        "cached": "img/W7167923486.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5798341"
+      },
       "summary_ko": "양극-전해질 계면에서 바인더의 극성 작용기(-COOH, -C≡N)가 Li+ 탈용매화 및 계면 용매화 구조를 조절함을 규명했다. 강한 극성 바인더가 Li+와 상호작용해 이온 수송을 촉진하고 용매 잔류를 줄여 3C 고율 리튬 금속 파우치셀에서 계면 열화를 억제한다.",
       "relevant": true
     },
@@ -3346,7 +3664,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76993",
+        "cached": "img/W7168050157.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76993"
+      },
       "summary_ko": "실리콘-카본(SiC) 음극과 하이니켈 NCM811 양극을 결합한 고에너지 전지에서, 난용성 질산리튬을 계면 화학 조절제로 사용해 기계적으로 유연한 계면상을 형성하는 전략을 제시했다. 분해 경로를 유기 중합 방향으로 유도해 유기물이 풍부한 SEI를 형성함으로써 부피 변화에 대한 점탄성 완충 특성을 부여한다.",
       "relevant": true
     },
@@ -3377,7 +3701,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71273",
+        "cached": "img/W7167896032.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71273"
+      },
       "summary_ko": "Li1.2Mn0.53Ni0.20Co0.07O2(LRMO) 리튬/망간 리치 양극과 리튬 금속을 짝지은 4.7V급 전지에서, 전불소화 에스터 전해질을 통해 Li+ 배위 효과를 최소화하는 전략을 제시했다. 약화된 Li+-용매 상호작용이 음이온 위주 용매화를 유도해 LiF가 풍부한 SEI와 무기물 위주의 얇은 CEI를 형성하고, 산화된 격자산소를 과산화물 유사종으로 안정화해 산소 방출과 Mn 용출을 억제한다.",
       "relevant": true
     },
@@ -3407,7 +3737,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76711",
+        "cached": "img/W7168049750.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76711"
+      },
       "summary_ko": "흑연 표면에 SiOx/C 얇은 층을 졸-겔법으로 코팅해 흑연의 리튬 삽입과 표면 리튬 도금/탈리를 동시에 활용하는 하이브리드 무음극(anode-less) 개념을 제시했다. 리튬친화성 코팅과 국소 고농도 전해질을 통해 가역적인 Li 도금/탈리와 흑연 삽입 용량 기여를 동시에 달성해 무음극 전지의 수명 저하 문제를 완화한다.",
       "relevant": true
     },
@@ -3466,7 +3802,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71289",
+        "cached": "img/W7167902780.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71289"
+      },
       "summary_ko": "중란탄족 원소를 이용한 에피택셜 암염형(rock-salt) 쉘로 나트륨 이온 캐소드의 화학-기계적 강건성을 높인 연구입니다. 골드슈미트 허용인자를 근거로 이온반경 불일치를 유도해 표면 산소를 잠그고 균열 전파를 억제했습니다. 소듐 이온 캐소드 소재로 소듐 금속 음극 주제에는 해당하지 않습니다.",
       "relevant": false
     },
@@ -3497,7 +3839,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74040",
+        "cached": "img/W7167916577.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74040"
+      },
       "summary_ko": "리튬리치 망간계 산화물(LRMO) 양극을 사용하는 5V급 리튬 금속 전지에서 N-메틸트리플루오로아세트아미드(NMTFA)를 새로운 전해질 첨가제로 도입했다. LiDFOB와 함께 사용해 용매화 구조를 조절하고 양극에서 방출되는 산소 라디칼을 포착함으로써 전해질 분해와 가스 발생을 억제한다.",
       "relevant": true
     },
@@ -3591,7 +3939,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71258",
+        "cached": "img/W7167852855.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71258"
+      },
       "summary_ko": "전고체전지용 황화물 고체전해질(LPSClBr)의 리튬 금속 계면 환원 분해와 고전압 산화 열화를 억제하기 위해 피리딘 및 불소화 피리딘 유도체를 분자 계면 조절제로 도입했다. 3-플루오로피리딘이 가장 강한 N-Li/F-Li 결합을 보여 전자전도도는 억제하면서 이온전도는 유지해, 임계전류밀도와 쿨롱효율을 크게 개선했다.",
       "relevant": true
     },
@@ -3621,7 +3975,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76986",
+        "cached": "img/W7167820009.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76986"
+      },
       "summary_ko": "균일한 스피넬 FeMn2O4 전구체를 이용해 LiMn0.67Fe0.33PO4(LMFP) 캐소드를 합성한 연구입니다. Fe/Mn 편석과 Jahn-Teller 왜곡 문제를 전구체 단계에서 억제해 낮은 분극과 향상된 율속 특성을 구현했습니다.",
       "relevant": true
     },
@@ -3651,7 +4011,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9437907",
+        "cached": "img/W7167839614.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9437907"
+      },
       "summary_ko": "고체 고분자전해질(SPE)의 낮은 Li+ 전도도 문제를 해결하기 위해 고엔트로피 인화물-고분자 나노계면(HEP-SPE)을 개발했다. 강한 Li+ 상호작용과 고엔트로피 표면의 전자 국소화 완화를 통해 이동 장벽을 낮춰 전고체 리튬 금속 전지의 이온 수송을 향상시켰다.",
       "relevant": true
     },
@@ -3682,7 +4048,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76917",
+        "cached": "img/W7167822075.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76917"
+      },
       "summary_ko": "공액 π결합을 가진 양전하 골격과 Li+, 기능성 음이온으로 구성된 이온 복합체 계면층을 도입해 리튬 금속 전지의 표면 화학을 가교 조절하는 전략을 제시했다. 계면에 정전기적으로 고정된 Li+와 음이온이 방출되며 전극 계면상을 안정화시켜 리튬 음극과 니켈리치 양극 모두의 표면 열화를 완화한다.",
       "relevant": true
     },
@@ -3712,7 +4084,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76991",
+        "cached": "img/W7167826065.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76991"
+      },
       "summary_ko": "실리콘 기반 리튬이온전지의 안정적 사이클링을 위해 불소치환 불포화 인산에스터 첨가제(PEFA-3)를 제안했다. 음극과 양극에서 각각 우선적 환원/산화를 통해 견고한 폴리인 네트워크 계면(SEI/CEI)을 형성하며, 1.6Ah NCM811||실리콘-탄소 파우치셀에서 300사이클 후 94.6%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -3740,7 +4118,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74011",
+        "cached": "img/W7167809177.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74011"
+      },
       "summary_ko": "가역적 네트워크를 갖는 동적 고분자(다이나믹 폴리머)가 자가치유, 재가공성, 기계적 적응성 등을 제공해 차세대 리튬계 전지의 고체-고체 계면 불안정성 및 기계적 강건성-이온전도도 트레이드오프 문제를 해결할 수 있음을 개관하는 리뷰이다. 고분자 전해질, 계면 공학, 바인더 개발의 세 분야에 걸쳐 동적 결합 화학과 전기화학적 성능의 관계를 정리했다.",
       "relevant": false
     },
@@ -3770,7 +4154,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5596828",
+        "cached": "img/W7167795546.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5596828"
+      },
       "summary_ko": "전고체 전지의 후막 캐소드 안정화를 위해 셀룰로오스 유래 고분자 첨가제(CA-MDI)를 개발한 연구입니다. LiNi0.89Co0.055Mn0.055O2 캐소드에 적용해 고체-고체 계면 접촉을 개선하고 높은 면적당 용량을 달성했습니다.",
       "relevant": true
     },
@@ -3863,7 +4253,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6051760",
+        "cached": "img/W7167688569.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6051760"
+      },
       "summary_ko": "소듐 금속 음극 위에 Na3O15Si6Y 고체 유리 전해질을 고체-증기 성장법으로 직접 성장시켜 계면 저항을 낮추는 방법을 보고했다. 실온에서 약 6.2 Ω·cm²의 낮은 계면 저항과 1.6 mS/cm의 Na 이온 전도도를 달성했으며, AIMD 시뮬레이션으로 Na+가 주요 전하 운반체임을 확인해 안전한 상온 나트륨-황 파우치셀에 적용했다.",
       "relevant": true
     },
@@ -3894,7 +4290,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71283",
+        "cached": "img/W7167722559.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71283"
+      },
       "summary_ko": "니켈리치 양극과 리튬 금속 음극을 동시에 사용하는 고전압 전지에서 VC/FEC/LiBOB 삼원 첨가제 전해질을 개발했다. 분광, 시뮬레이션, 계면 분석을 통해 이들 첨가제가 Li+ 1차 용매화 구조를 재구성하고 SSIP/CIP/AGG 분포를 조절하는 '용매화 재구성-계면 커플링' 메커니즘을 밝혔다.",
       "relevant": true
     },
@@ -3954,7 +4356,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76624",
+        "cached": "img/W7167615739.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76624"
+      },
       "summary_ko": "저온전자현미경(Cryo-EM)을 이용해 소듐 이온 전지 액체전해질의 용매화 효과를 규명했다. 나노결정 격자상수, Na+ 배위수, 염 농도 간의 상관관계를 밝혔으며, 약한 용매화 전해질이 균일하고 치밀하며 무기물이 풍부한 음이온 유래 SEI를 형성해 덴드라이트를 억제함을 보였다.",
       "relevant": true
     },
@@ -3984,7 +4392,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9259596",
+        "cached": "img/W7167584423.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9259596"
+      },
       "summary_ko": "혼합 첨가제 리튬 금속 전지에서 LiDFP의 동적 경쟁 분해 메커니즘(DCM)을 규명해 LiNO3와 병용 시 우선 분해 및 양성자화로 인해 H3PO4와 HF가 축적되는 유해 경로를 밝혔다. 반면 FEC는 LiDFP와 함께 있을 때 분해되지 않고 국소 화학 환경을 조절하는 새로운 역할을 한다는 점을 발견했다.",
       "relevant": true
     },
@@ -4049,7 +4463,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71251",
+        "cached": "img/W7167472150.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71251"
+      },
       "summary_ko": "PEG와 α-사이클로덱스트린 기반 폴리로탁세인 가교 네트워크를 이용해 선택적 Na+ 이동 경로와 음이온 고정 도메인을 갖는 고분자전해질을 설계했다. 실온에서 2.1 mS/cm의 이온전도도와 0.88의 Na+ 수송수를 달성했으며, 분자동역학 시뮬레이션으로 향상된 Na+ 수송을 확인해 안정적인 장수명 소듐 금속 전지를 구현했다.",
       "relevant": true
     },
@@ -4109,7 +4529,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73925",
+        "cached": "img/W7167328263.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73925"
+      },
       "summary_ko": "폴리비닐리덴플루오라이드 전해질에 피리디늄 프로판술포네이트 쯔비터이온(PP-Z)을 도입해 쌍극자 회전 보조 이온전도 메커니즘을 구현한 고체 리튬 금속 전지용 전해질을 제시했다. 분자동역학과 실험으로 양이온기가 고정축, 이동성 음이온단이 동적 쿨롱장을 형성해 사슬 내/사슬 간 이온 수송이 촉진됨을 확인했다.",
       "relevant": true
     },
@@ -4137,7 +4563,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73960",
+        "cached": "img/W7167327392.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73960"
+      },
       "summary_ko": "피렌 연결 디케토피롤로피롤(DKP) 기반 공유결합 유기 골격체(COF)의 곁사슬 엔지니어링을 통해 급속충전형 리튬이온전지 전극 소재를 개발한 연구입니다. 에테르 개질된 COF가 우수한 율속 성능과 급속충전 특성을 보였습니다. 유기 전극(주로 음극형) 소재로 6개 주제 어디에도 명확히 해당하지 않습니다.",
       "relevant": false
     },
@@ -4167,7 +4599,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73901",
+        "cached": "img/W7167329456.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73901"
+      },
       "summary_ko": "단결정 고니켈(x≥0.92) NCM 캐소드에서 내부 응력 발생과 결합된 화학-기계적 열화 메커니즘을 HAADF-STEM과 DFT/MD로 규명한 연구입니다. 격자 굴곡이 O1/LiNi2O4 및 준안정 Ni3O4 전이상 형성의 직접적 원인임을 밝혔습니다.",
       "relevant": true
     },
@@ -4198,7 +4636,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73871",
+        "cached": "img/W7167348559.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73871"
+      },
       "summary_ko": "분리막의 캐소드측 표면에 다공성 탄소 코팅을 적용해 NMC와 LFP 캐소드의 율속 특성을 향상시킨 연구입니다. 이완시간 분포(DRT) 분석을 통해 전하이동 동역학 개선 메커니즘을 규명했습니다.",
       "relevant": true
     },
@@ -4228,7 +4672,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73908",
+        "cached": "img/W7167365904.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73908"
+      },
       "summary_ko": "고엔트로피 금속-유기 골격체(HE-MOF)를 이용한 나노제한 이온 조절층을 개발해 무음극 리튬 금속 전지의 리튬 증착을 균일화했다. 다중 금속 채널이 이질적인 국소 배위 환경을 제공해 Li+ 결합 자리를 넓히고 이온 정체를 억제해 얇고 균일한 LiF 풍부 SEI 형성을 유도한다.",
       "relevant": true
     },
@@ -4256,7 +4706,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.202523142",
+        "cached": "img/W7167347342.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.202523142"
+      },
       "summary_ko": "액정 전해질(LCE)의 자기조립 메조상을 활용해 이온 전달 채널을 형성하는 3D 프린팅 초박형(20μm) 고체 고분자전해질 막을 개발했다. 높은 유전상수(~40)와 이온전도도(~10⁻³ S/cm)를 가진 이 소재로 넓은 온도범위의 전고체전지에 적용 가능한 정밀 구조 제어 제조 기술을 구현했다.",
       "relevant": false
     },
@@ -4286,7 +4742,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6695181",
+        "cached": "img/W7167208970.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6695181"
+      },
       "summary_ko": "고산화환원 전위를 갖는 p형 공유결합 유기 골격체(TAT-Cz COF)를 고전압·장수명 리튬이온전지 캐소드로 설계한 연구입니다. 확장된 π-공액 골격과 적정 기공 크기로 효율적인 음이온 수송과 삽입/탈리를 구현했습니다.",
       "relevant": true
     },
@@ -4316,7 +4778,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73917",
+        "cached": "img/W7167249875.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73917"
+      },
       "summary_ko": "저온 리튬 금속 전지의 사이클 성능 향상을 위해 실록산 기반 탄성체 코팅을 리튬 음극 표면에 도입해 선택적 이온 전도를 구현했다. 이 코팅은 LiF가 풍부한 내부 SEI 형성을 유도하고 탄성체와 함께 이중층 유무기 계면을 구성해 저온에서의 기계적 취성과 리튬 덴드라이트 성장 문제를 동시에 해결한다.",
       "relevant": true
     },
@@ -4346,7 +4814,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6509679",
+        "cached": "img/W7167021381.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6509679"
+      },
       "summary_ko": "저온용 전해질 용매인 1,3-디옥솔란의 개환중합 문제를 해결하기 위해 고리변형 에너지(RSE)와 정전기 퍼텐셜을 결합한 전자-기하학적 설계 원리를 제시했다. 이를 통해 2,4-디메틸-1,3-디옥솔란을 도출해 소듐 금속 전지에서 중합 저항성이 향상된 고리형 에테르 용매를 구현했다.",
       "relevant": true
     },
@@ -4376,7 +4850,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1605227",
+        "cached": "img/W7167010997.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1605227"
+      },
       "summary_ko": "구리-안트라퀴논 배위 고분자(Cu-DHAQ)를 이중 산화환원 활성점을 갖는 리튬이온전지 캐소드로 개발한 연구입니다. Cu2+/Cu+와 카보닐 산화환원 반응의 3전자 이동으로 높은 용량과 사이클 안정성을 달성했습니다.",
       "relevant": true
     },
@@ -4466,7 +4946,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76838",
+        "cached": "img/W7167241403.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76838"
+      },
       "summary_ko": "공공 유도 안티사이트 결함 치유를 통해 폐 LiFePO4 캐소드를 재생하는 전략을 제시한 연구입니다. 리튬 공공이 인접 Fe 산화를 유발하여 안티사이트 결함을 불안정화시키고 저온에서 원위치로 복귀시켜 Li+ 확산 경로를 회복시킵니다.",
       "relevant": true
     },
@@ -4497,7 +4983,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76866",
+        "cached": "img/W7167612276.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76866"
+      },
       "summary_ko": "리튬/불화탄소(Li/CFx) 전지의 1차전지에서 이차전지로의 전환 가능성을 다룬 리뷰로, 방전 시 C-F 공유결합이 끊어져 생성되는 절연성 LiF의 높은 해리에너지가 충전 과정을 저해하는 근본 문제를 분석했다. CFx 양극과 전해질의 역할을 중심으로 가역적 Li/CFx 전지 구현을 위한 설계 전략을 정리했다.",
       "relevant": true
     },
@@ -4527,7 +5019,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.73888",
+        "cached": "img/W7166852305.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.73888"
+      },
       "summary_ko": "고니켈 캐소드를 적용한 실용적 전고체 리튬전지를 계면 중심 관점에서 정리한 리뷰입니다. 고체전해질의 장점과 고니켈 층상 산화물 캐소드의 실용화를 위한 계면 과제를 다룹니다.",
       "relevant": true
     },
@@ -4587,7 +5085,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76840",
+        "cached": "img/W7167510831.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76840"
+      },
       "summary_ko": "MoS2 촉매화 Li2CO3(MCL) 첨가제를 이용한 선제적 계면 공학으로 고전압 니켈리치 LiNi0.8Mn0.1Co0.1O2(NCM811) 전지를 안정화했다. 이원상 MoS2 촉매와 전위차 효과의 상승작용으로 Li2CO3 분해전압을 4.7V 이상에서 3.9V로 낮춰, 네이티브 CEI 형성 및 H2/H3 상전이 이전에 얇고 균일한 무기물 위주 CEI를 형성한다.",
       "relevant": true
     },
@@ -4647,7 +5151,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76819",
+        "cached": "img/W7167573302.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76819"
+      },
       "summary_ko": "황화물 전고체 전지용 단결정 니켈리치 캐소드(LiNi0.8Co0.1Mn0.1O2)의 표면-벌크 안정성을 위해 조절된 계면상 화학 전략을 제시한 연구입니다. 구배 격자 리벳과 원위치 형성 초이온전도체 에피택셜층으로 3차원 Li+ 확산 경로를 확보했습니다.",
       "relevant": true
     },
@@ -4677,7 +5187,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76767",
+        "cached": "img/W7167493222.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76767"
+      },
       "summary_ko": "고체 고분자전해질(SPE)의 리튬염 해리와 Li+ 전도 사이의 트레이드오프 문제를 메커니즘 기반으로 분석한 리뷰이다. 리튬염 해리를 좌우하는 쿨롱 결합, 유전율 한계, 도너수 매칭과 Li+ 이동을 좌우하는 세그먼트 결합/해리, 계면 탈용매화 장벽, 이온 클러스터링을 정리하고 네 가지 다중스케일 설계 전략을 제시했다.",
       "relevant": true
     },
@@ -4737,7 +5253,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71188",
+        "cached": "img/W7168377925.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71188"
+      },
       "summary_ko": "리튬친화성 아민기로 균일하게 장식된 계층적 나노-마이크로 구조를 갖는 탄성체 리튬 금속 음극을 개발했다. 기계적 특성과 계면 조절의 시너지를 통해 덴드라이트 성장을 효과적으로 억제하고 장기간 안정적인 사이클링을 구현해, 탄성체 음극이 내구성 있고 안전한 리튬 금속 전지 플랫폼으로서의 가능성을 보였다.",
       "relevant": true
     },
@@ -4802,7 +5324,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76742",
+        "cached": "img/W7166858266.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76742"
+      },
       "summary_ko": "Li2MoO4 기반 표면 재구성을 통해 열화된 고니켈 캐소드(NCM)의 록솔트상 장벽을 극복하는 직접 재생 전략을 제시한 연구입니다. Mo 도핑을 통해 전하 재분배를 촉진하고 Li+ 이동 장벽을 낮춰 층상 구조 회복을 유도했습니다.",
       "relevant": true
     },
@@ -4862,7 +5390,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76795",
+        "cached": "img/W7167681939.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76795"
+      },
       "summary_ko": "이온성액체가 함침된 이금속 UIO-66(Zr/Hf) 필러(Li-IL@BUIO)를 이용해 PEO 기반 고체전해질의 용매화 구조를 조절하는 '크라운-쉘-코어' 다차원 이온전도 전략을 제시했다. 필러의 개방금속 자리가 루이스 산성 '크라운'으로 작용해 음이온을 고정하고 EO-Li 배위를 약화시켜, 필러/매트릭스 계면 적합성을 높이면서 덴드라이트 없는 리튬 금속 전지를 구현했다.",
       "relevant": true
     },
@@ -4892,7 +5426,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76790",
+        "cached": "img/W7167612266.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76790"
+      },
       "summary_ko": "촉매 매개 계면 예비리튬화 전략으로 무음극(리튬 결핍) 전지의 비가역적 양이온 손실과 계면 열화를 상쇄했다. 전자흡인 황 자리를 가진 SPAN 촉매가 S-Li 상호작용을 통해 C-C 결합 절단을 촉진해 Li2C2O4@SPAN 복합체가 3.90V의 탈리튬화 전압과 99.5%의 높은 리튬 이용률을 달성했으며, LiNi0.8Co0.1Mn0.1O2 양극과 결합해 1.1 mAh/cm²의 리튬 보충 용량을 구현했다.",
       "relevant": true
     },
@@ -4923,7 +5463,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76724",
+        "cached": "img/W7167230028.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76724"
+      },
       "summary_ko": "5V급 LiNi0.5Mn1.5O4(LNMO) 리튬 금속 전지에서 알루미늄 집전체의 피팅 부식과 양극 용해를 억제하는 부식방지 바인더(CSAP)를 개발했다. 카복실레이트기가 Al2O3와 배위 결합해 안정적인 유무기 하이브리드 계면상을 형성하며, PVDF 대비 36시간 정전류 시험에서 부식 반응이 억제됨을 직접 확인했다.",
       "relevant": true
     }
