@@ -27,7 +27,13 @@
       "journal_id": "S63322718",
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.mattod.2026.103225",
+        "cached": "img/W7126235200.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Materials Today - https://doi.org/10.1016/j.mattod.2026.103225"
+      },
       "summary_ko": "LLM을 활용해 고체전해질용 금속-유기 골격체(MOF)를 지능적으로 탐색·발굴하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -122,7 +128,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104943",
+        "cached": "img/W7126258498.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104943"
+      },
       "summary_ko": "이온-쌍극자 상호작용을 이용해 탈용매화 반응속도와 계면 안정성을 조절함으로써 안정적이고 빠른 충전이 가능한 나트륨 이온전지를 구현하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -152,7 +164,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104944",
+        "cached": "img/W7126231685.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104944"
+      },
       "summary_ko": "MOF로 보강된 하이브리드 가교 준고체 전해질을 제자리(in situ) 중합으로 제조하여 안정적인 리튬 금속전지를 구현하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -182,7 +200,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104946",
+        "cached": "img/W7126183272.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104946"
+      },
       "summary_ko": "삼각 위상구조와 동적 골격을 갖는 COF를 분자 수준에서 설계하여 리튬-황 전지의 폴리설파이드 억제와 빠른 이온 수송을 동시에 달성하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -733,7 +757,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104940",
+        "cached": "img/W7126044877.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104940"
+      },
       "summary_ko": "듀얼 작용기 분자 내 시너지를 이용한 Lewis 산-OH 자리로 저전해질(lean-electrolyte) 리튬-황 전지의 고체-액체 상전이를 효율적으로 제어하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1191,7 +1221,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2025.102268",
+        "cached": "img/W7125945485.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102268"
+      },
       "summary_ko": "비수계 전지에서 구리이온 매개(copper-ion mediation)를 이용해 고전압 황 전기화학을 구현하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1221,7 +1257,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.040",
+        "cached": "img/W7125950568.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.040"
+      },
       "summary_ko": "계층적 촉매 설계로 Li2S2의 고체상 해리를 조절하여 고에너지밀도 리튬-황 전지 성능을 향상시키는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1723,7 +1765,13 @@
       "journal_id": "S63322718",
       "journal_metric": 13.18,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.mattod.2026.103201",
+        "cached": "img/W7125677803.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Materials Today - https://doi.org/10.1016/j.mattod.2026.103201"
+      },
       "summary_ko": "지방족 곁사슬형 폴리설폰 전해질 개질과 비대칭 이중층 구조 설계로 고전압 리튬 금속전지 성능을 향상시키는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1814,7 +1862,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104921",
+        "cached": "img/W7125600305.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104921"
+      },
       "summary_ko": "충전식 전지에서 금속 도금 시 발생하는 응력 신호와 이온 기원을 규명하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -1880,7 +1934,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.111751",
+        "cached": "img/W7125599227.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.111751"
+      },
       "summary_ko": "전기화학-역학 결합 분석을 통해 적층 압력 하에서의 리튬 도금 숨겨진 동역학을 밝힌 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2074,7 +2134,13 @@
       "journal_id": "S2898305631",
       "journal_metric": 27.22,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.joule.2025.102259",
+        "cached": "img/W7125496478.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102259"
+      },
       "summary_ko": "경쟁적 음이온 배위를 통해 리튬-황 전지의 전하이동 장벽을 극복하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2229,7 +2295,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104919",
+        "cached": "img/W7125380418.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104919"
+      },
       "summary_ko": "음극-전해질 계면 상호작용을 강화해 NaF가 풍부한 SEI를 형성함으로써 안정적인 나트륨 금속전지를 구현하는 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -2426,7 +2498,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.111725",
+        "cached": "img/W7125407838.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.111725"
+      },
       "summary_ko": "MnO2의 d-band 중심을 조절하여 반이온성(semi-ionic) C-F 결합 형성을 촉진함으로써 고율속 Li-CFx(불화탄소) 전지 성능을 향상시키는 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -2555,7 +2633,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.015",
+        "cached": "img/W7124839571.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.015"
+      },
       "summary_ko": "폐기공(closed-pore) 하드카본에서의 소듐 저장 메커니즘을 전위 구동 전하 효과 관점에서 핵생성(nucleation) vs 클러스터링 모델로 재검토한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -2850,7 +2934,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.019",
+        "cached": "img/W7124848043.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.019"
+      },
       "summary_ko": "적정 배위(coordination)를 갖는 이중염 혼합용매 전해질을 설계하여 리튬전지의 저온 반응속도와 고전압 안정성을 동시에 개선한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3198,7 +3288,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.111736",
+        "cached": "img/W7124709274.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.111736"
+      },
       "summary_ko": "칼슘을 도핑한 Na3SbS4 고체전해질의 이온 전도와 계면 호환성을 개선하여 전고체 나트륨-황 전지에 적용한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3280,7 +3376,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104912",
+        "cached": "img/W7124718745.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104912"
+      },
       "summary_ko": "고엔트로피 효과로 강화된 Mn-O 혼성화를 통해 초격자(superlattice) 양극에서 음이온 산화환원 반응을 활성화·안정화하여 고에너지 나트륨이온전지를 구현한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3365,7 +3467,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.111730",
+        "cached": "img/W7124430706.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.111730"
+      },
       "summary_ko": "실온 나트륨-황 전지에서 산소 작용기가 음극-전해질 계면(SEI)의 공간적 분포를 유도하는 역할을 규명한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3538,7 +3646,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104910",
+        "cached": "img/W7124463326.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104910"
+      },
       "summary_ko": "음이온 치환을 통한 격자 엔지니어링으로 주석 기반 사원계 칼코겐화합물을 장수명·고에너지 나트륨이온전지 소재로 개발한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3723,7 +3837,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104908",
+        "cached": "img/W7124265546.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104908"
+      },
       "summary_ko": "폴리페놀-금속 착물의 엔트로피 조절을 통해 나트륨이온전지용 층상 산화물 양극을 안정화하는 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -3817,7 +3937,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.007",
+        "cached": "img/W7123865474.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.007"
+      },
       "summary_ko": "이온 상호확산에 의한 표면 강화를 통해 나트륨이온전지용 층상 산화물 양극의 고전압 작동 안정성을 향상시킨 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -4166,7 +4292,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.004",
+        "cached": "img/W7123360189.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.004"
+      },
       "summary_ko": "피치 전구체의 분자체(molecular sieving) 및 골격 엔지니어링을 통해 반응 불균일성을 극복하고 나트륨이온전지용 고성능 하드카본 음극을 구현한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -4196,7 +4328,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104901",
+        "cached": "img/W7123336925.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104901"
+      },
       "summary_ko": "전고체 나트륨이온전지용 하드카본 음극에 관한 연구/리뷰로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -4226,7 +4364,13 @@
       "journal_id": "S2500128275",
       "journal_metric": 16.06,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.jechem.2026.01.002",
+        "cached": "img/W7123345658.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Journal of Energy Chemistry - https://doi.org/10.1016/j.jechem.2026.01.002"
+      },
       "summary_ko": "공유결합 네트워크 토폴로지 엔지니어링을 통해 이온겔의 상승적 특성을 구현하여 안정적인 리튬금속전지를 실현한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -4804,7 +4948,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104886",
+        "cached": "img/W7119497346.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104886"
+      },
       "summary_ko": "하드카본 전구체 내 산소 함유 작용기가 소듐 저장 성능 향상에 미치는 원자 수준 메커니즘을 규명한 연구로 추정됨 (제목 기반 추정).",
       "relevant": true
     },
@@ -6137,7 +6287,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104893",
+        "cached": "img/W7121398242.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104893"
+      },
       "summary_ko": "열역학적으로 제어된 원소 확산을 통해 결정립을 미세화한 LiMn0.8Fe0.2PO4 올리빈 양극재에서 초고속 반응속도와 구조적 가역성을 동시에 달성하는 연구이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -6883,7 +7039,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104872",
+        "cached": "img/W7117971236.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104872"
+      },
       "summary_ko": "전구체 공학을 통해 고에너지 리튬이온전지용 단결정 니켈-리치 층상 산화물 양극재를 반응속도론적으로 유리하게 합성하는 연구이다 (제목 기반 추정).",
       "relevant": true
     },
@@ -7048,7 +7210,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104885",
+        "cached": "img/W7119509823.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104885"
+      },
       "summary_ko": "불소가 풍부한 난연성 고엔트로피 전해질을 설계하여 용매 배위 구조를 조절함으로써 리튬 금속 전지의 안전성과 에너지밀도를 동시에 높였다. (제목 기반 추정)",
       "relevant": true
     },
@@ -8243,7 +8411,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104873",
+        "cached": "img/W7118088169.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104873"
+      },
       "summary_ko": "고속 스크리닝을 통해 다중 산화환원 유기 리튬이온 양극재를 발굴하고, 이를 바탕으로 분자 설계 원칙을 도출한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
@@ -10135,7 +10309,13 @@
       "journal_id": "S2764728150",
       "journal_metric": 13.42,
       "first_seen": "2026-08-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.104899",
+        "cached": "img/W7123350345.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.104899"
+      },
       "summary_ko": "비수계 리튬-산소전지에서 논쟁이 되는 산소 크로스토크 효과를 다룬 논문으로 보인다 (제목 기반 추정).",
       "relevant": true
     },
