@@ -222,9 +222,44 @@ def run_test(doi: str, token: str, log=print) -> int:
     return 0
 
 
+def run_sample(token: str, n: int, delay: float, log=print) -> int:
+    """Fetch N Wiley papers and dump the CHOSEN thumbnail for each to _tdm_test/
+    (no data changes) so extraction quality can be eyeballed across papers."""
+    store = Store()
+    session = requests.Session()
+    picked, seen = [], set()
+    for _b, papers in _iter_papers(store):
+        for p in papers:
+            if p.id in seen:
+                continue
+            seen.add(p.id)
+            if (p.doi or "").startswith(WILEY_PREFIX) and not (p.image and p.image.get("cached")):
+                picked.append((p.id, p.doi, p.venue))
+    picked = picked[:n]
+    TEST_DIR.mkdir(parents=True, exist_ok=True)
+    log(f"== sample {len(picked)} Wiley papers -> _tdm_test/ ==")
+    ok = 0
+    for i, (pid, doi, venue) in enumerate(picked, 1):
+        pdf, status = fetch_wiley_pdf(doi, token, session)
+        if pdf is None:
+            log(f"  [{i}/{len(picked)}] {status:6} {doi}"); time.sleep(delay); continue
+        jpeg, cand = extract_graphical_abstract(pdf)
+        if not jpeg:
+            log(f"  [{i}/{len(picked)}] no-ga  {doi}"); time.sleep(delay); continue
+        vslug = re.sub(r"[^A-Za-z0-9]+", "_", (venue or "")[:16]).strip("_")
+        fn = TEST_DIR / f"{_slug(pid)}__{vslug}.jpg"
+        fn.write_bytes(jpeg)
+        ok += 1
+        log(f"  [{i}/{len(picked)}] OK  p{cand['page']} {cand['w']}x{cand['h']}  {doi}  -> {fn.name}")
+        time.sleep(delay)
+    log(f"== {ok}/{len(picked)} extracted. Inspect: {TEST_DIR} ==")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Fetch graphical abstracts via Wiley TDM (local, campus network).")
     ap.add_argument("--test", metavar="DOI", help="fetch one paper, dump image candidates for inspection")
+    ap.add_argument("--sample", type=int, metavar="N", help="fetch N Wiley papers, dump CHOSEN thumbnails to _tdm_test/ (no data changes)")
     ap.add_argument("--limit", type=int, default=None, help="cap number of papers (batch)")
     ap.add_argument("--delay", type=float, default=1.5, help="seconds between requests (be polite)")
     ap.add_argument("--push", action="store_true", help="git commit + push after a successful batch")
@@ -237,6 +272,8 @@ def main(argv=None) -> int:
 
     if args.test:
         return run_test(args.test, token)
+    if args.sample:
+        return run_sample(token, args.sample, args.delay)
     run_batch(token, args.limit, args.delay, args.push)
     return 0
 
