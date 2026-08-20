@@ -19,6 +19,10 @@
   "metric": 5.19,
   "name": "Sensors"
  },
+ "S103895331": {
+  "metric": 22.23,
+  "name": "Nature Materials"
+ },
  "S105243760": {
   "metric": 3.86,
   "name": "Applied Physics Letters"
@@ -507,6 +511,10 @@
   "metric": 2.18,
   "name": "Chemical Papers"
  },
+ "S202193212": {
+  "metric": 18.45,
+  "name": "Nature Chemistry"
+ },
  "S202381698": {
   "metric": 3.09,
   "name": "PLoS ONE"
@@ -774,6 +782,10 @@
  "S2764904510": {
   "metric": 0.26,
   "name": "Journal of the Korean Institute of Electrical and Electronic Material Engineers"
+ },
+ "S2764917516": {
+  "metric": 33.73,
+  "name": "Nature Reviews Materials"
  },
  "S2764951345": {
   "metric": 0.26,
