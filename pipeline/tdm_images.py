@@ -35,8 +35,10 @@ ROOT = Path(__file__).resolve().parent.parent
 TEST_DIR = ROOT / "_tdm_test"
 _DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$|^\d{4}-\d{2}$")
 
-# DOI-prefix -> fetcher. Only Wiley confirmed working (subscribed, IP-gated) for now.
-WILEY_PREFIX = "10.1002"
+# DOI-prefix -> fetcher (both need only their token/key + a subscribing campus IP).
+WILEY_PREFIX = "10.1002"                # Wiley TDM -> PDF -> extract first figure
+ELS_PREFIX = "10.1016"                  # Elsevier/ScienceDirect -> Object API -> 'ga1'
+ELS_OBJECT = "https://api.elsevier.com/content/object/doi/{doi}"
 
 # Wiley TDM occasionally 500/503s under load (or for the odd article) — treat these
 # as transient and retry with backoff. 403 = not entitled; 404 = not in TDM (permanent).
@@ -129,6 +131,41 @@ def extract_graphical_abstract(pdf_bytes: bytes):
     return None, None
 
 
+def fetch_elsevier_ga(doi: str, apikey: str, session: requests.Session):
+    """Graphical abstract via the ScienceDirect Object Retrieval API (needs only the
+    API key, from a subscribing IP — no full-text entitlement). Returns
+    (jpeg_bytes|None, status). The manifest lists image objects: 'ga1' IS the
+    graphical abstract; 'gr1' (Figure 1) is the fallback."""
+    try:
+        r = session.get(ELS_OBJECT.format(doi=doi),
+                        headers={"X-ELS-APIKey": apikey, "Accept": "application/json"},
+                        timeout=40)
+    except Exception as e:
+        return None, f"error:{type(e).__name__}"
+    if r.status_code not in (200, 300):     # 300 = the "multiple choices" object list
+        return None, str(r.status_code)
+    try:
+        choices = r.json()["choices"]["choice"]
+        if isinstance(choices, dict):
+            choices = [choices]
+    except Exception:
+        return None, "no-manifest"
+    ds = [c for c in choices if c.get("@type") == "IMAGE-DOWNSAMPLED"]
+    cand = next((c for c in ds if c.get("@ref") == "ga1"), None) \
+        or next((c for c in ds if c.get("@ref") == "gr1"), None) \
+        or (ds[0] if ds else None)
+    if not cand or not cand.get("$"):
+        return None, "no-image"
+    try:
+        ir = session.get(cand["$"], headers={"X-ELS-APIKey": apikey}, timeout=40)
+    except Exception as e:
+        return None, f"error:{type(e).__name__}"
+    if ir.status_code != 200 or ir.content[:3] != b"\xff\xd8\xff":
+        return None, str(ir.status_code)
+    jpeg = _validate_and_downscale(ir.content)
+    return (jpeg, "ok") if jpeg else (None, "invalid")
+
+
 def _iter_papers(store: Store):
     """Yield (basename, papers list) for each day/month data file."""
     import glob
@@ -146,36 +183,40 @@ def _orig_generated_at(basename: str):
         return None
 
 
-def run_batch(token: str, limit: int | None, delay: float, do_push: bool, log=print) -> dict:
+def run_batch(wiley_token: str, els_key: str, limit: int | None, delay: float,
+              do_push: bool, log=print) -> dict:
     store = Store()
     session = requests.Session()
-    # collect Wiley papers (by id, first file) that still need an image
-    targets = {}   # id -> (doi, venue, url, license)
+    targets = {}   # id -> (publisher, doi, venue, url, license)
     files_of = {}  # id -> set(basenames)
     for b, papers in _iter_papers(store):
         for p in papers:
             files_of.setdefault(p.id, set()).add(b)
-            if p.id in targets:
+            if p.id in targets or (p.image and p.image.get("cached")):
                 continue
-            if (p.doi or "").startswith(WILEY_PREFIX) and not (p.image and p.image.get("cached")):
-                targets[p.id] = (p.doi, p.venue, p.url, p.license)
+            doi = p.doi or ""
+            if doi.startswith(WILEY_PREFIX) and wiley_token:
+                targets[p.id] = ("wiley", doi, p.venue, p.url, p.license)
+            elif doi.startswith(ELS_PREFIX) and els_key:
+                targets[p.id] = ("elsevier", doi, p.venue, p.url, p.license)
     ids = list(targets)
     if limit:
         ids = ids[:limit]
-    log(f"== Wiley TDM: {len(ids)} papers to fetch ==")
-    stats = {"ok": 0, "no-ga": 0, "403": 0, "429": 0, "other": 0}
+    nw = sum(1 for i in ids if targets[i][0] == "wiley")
+    log(f"== TDM images: {len(ids)} papers ({nw} Wiley, {len(ids) - nw} Elsevier) ==")
+    stats = {}
     for i, pid in enumerate(ids, 1):
-        doi, venue, url, lic = targets[pid]
-        pdf, status = _fetch_with_retry(doi, token, session, log)
-        if pdf is None:
+        pub, doi, venue, url, lic = targets[pid]
+        if pub == "wiley":
+            pdf, status = _fetch_with_retry(doi, wiley_token, session, log)
+            jpeg = extract_graphical_abstract(pdf)[0] if pdf is not None else None
+            if pdf is not None:
+                status = "ok" if jpeg is not None else "no-ga"
+        else:
+            jpeg, status = fetch_elsevier_ga(doi, els_key, session)
+        if jpeg is None:
             stats[status] = stats.get(status, 0) + 1
-            log(f"  [{i}/{len(ids)}] {status:6} {doi}")
-            time.sleep(delay)
-            continue
-        jpeg, cand = extract_graphical_abstract(pdf)
-        if not jpeg:
-            stats["no-ga"] += 1
-            log(f"  [{i}/{len(ids)}] no-ga  {doi} (pdf {len(pdf)//1024}KB, no usable figure)")
+            log(f"  [{i}/{len(ids)}] {status:6} {pub[0]} {doi}")
             time.sleep(delay)
             continue
         IMG_DIR.mkdir(parents=True, exist_ok=True)
@@ -183,20 +224,20 @@ def run_batch(token: str, limit: int | None, delay: float, do_push: bool, log=pr
         (IMG_DIR / fname).write_bytes(jpeg)
         attribution = (venue or "source") + (f" - https://doi.org/{doi}" if doi else "")
         for b in files_of[pid]:
-            papers = store.load_day(b)
+            ps = store.load_day(b)
             changed = False
-            for p in papers:
+            for p in ps:
                 if p.id == pid:
                     p.image = {"src": url, "cached": f"img/{fname}", "tdm": True,
                                "license": lic, "attribution": attribution}
                     changed = True
             if changed:
-                store.save_day(b, papers, generated_at=_orig_generated_at(b) or "")
-        stats["ok"] += 1
-        log(f"  [{i}/{len(ids)}] OK     {doi}  p{cand['page']} {cand['w']}x{cand['h']}")
+                store.save_day(b, ps, generated_at=_orig_generated_at(b) or "")
+        stats["ok"] = stats.get("ok", 0) + 1
+        log(f"  [{i}/{len(ids)}] OK     {pub[0]} {doi}")
         time.sleep(delay)
     log(f"== done: {stats} ==")
-    if do_push and stats["ok"]:
+    if do_push and stats.get("ok"):
         _git_push(log)
     return stats
 
@@ -208,7 +249,7 @@ def _git_push(log=print):
         r = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=ROOT)
         if r.returncode == 0:
             log("  nothing to commit"); return
-        subprocess.run(["git", "commit", "-m", "img: Wiley TDM graphical abstracts"], cwd=ROOT, check=True)
+        subprocess.run(["git", "commit", "-m", "img: TDM graphical abstracts (Wiley/Elsevier)"], cwd=ROOT, check=True)
         subprocess.run(["git", "push"], cwd=ROOT, check=True)
         log("  committed + pushed")
     except Exception as e:
@@ -277,7 +318,7 @@ def run_sample(token: str, n: int, delay: float, log=print) -> int:
 
 
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description="Fetch graphical abstracts via Wiley TDM (local, campus network).")
+    ap = argparse.ArgumentParser(description="Fetch graphical abstracts via Wiley TDM + Elsevier API (local, campus network).")
     ap.add_argument("--test", metavar="DOI", help="fetch one paper, dump image candidates for inspection")
     ap.add_argument("--sample", type=int, metavar="N", help="fetch N Wiley papers, dump CHOSEN thumbnails to _tdm_test/ (no data changes)")
     ap.add_argument("--limit", type=int, default=None, help="cap number of papers (batch)")
@@ -285,16 +326,17 @@ def main(argv=None) -> int:
     ap.add_argument("--push", action="store_true", help="git commit + push after a successful batch")
     args = ap.parse_args(argv)
 
-    token = os.environ.get("WILEY_TDM_TOKEN", "").strip()
-    if not token:
-        print("WILEY_TDM_TOKEN not set. In cmd (on campus):  set WILEY_TDM_TOKEN=<your token>")
+    wiley = os.environ.get("WILEY_TDM_TOKEN", "").strip()
+    els = os.environ.get("ELSEVIER_API_KEY", "").strip()
+    if not wiley and not els:
+        print("Set WILEY_TDM_TOKEN and/or ELSEVIER_API_KEY (campus network).")
         return 2
 
     if args.test:
-        return run_test(args.test, token)
+        return run_test(args.test, wiley)
     if args.sample:
-        return run_sample(token, args.sample, args.delay)
-    run_batch(token, args.limit, args.delay, args.push)
+        return run_sample(wiley, args.sample, args.delay)
+    run_batch(wiley, els, args.limit, args.delay, args.push)
     return 0
 
 
