@@ -5,13 +5,25 @@ compares against the seen ledger to find genuinely new papers for a run date.
 """
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Optional
 
 from .arxiv import ArxivClient
 from .config import Config, Topic
 from .models import Paper, canonical_key, normalize_title
 from .openalex import OpenAlexClient
+
+_ROOT = Path(__file__).resolve().parent.parent
+SOURCES_CACHE = _ROOT / "data" / "journal_sources.json"
+
+# `Nature` is an allowlist PREFIX (the gate keeps any "Nature …" venue). For
+# journal-FIRST we must name the battery-relevant sisters explicitly by source.
+NATURE_SISTERS = [
+    "Nature", "Nature Communications", "Nature Energy", "Nature Materials",
+    "Nature Nanotechnology", "Nature Chemistry", "Nature Reviews Materials",
+]
 
 
 def _prefer(a: Paper, b: Paper) -> Paper:
@@ -70,6 +82,61 @@ class GatherResult:
     stats: list[TopicStat] = field(default_factory=list)
 
 
+def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print) -> dict[str, str]:
+    """{journal name -> OpenAlex source id} for the allowlist + Nature sisters,
+    cached on disk (data/journal_sources.json) so each name resolves only once."""
+    names = list(dict.fromkeys((cfg.allow_journals or []) + NATURE_SISTERS))
+    cache: dict[str, Optional[str]] = {}
+    if SOURCES_CACHE.exists():
+        try:
+            cache = json.loads(SOURCES_CACHE.read_text(encoding="utf-8"))
+        except Exception:
+            cache = {}
+    changed = False
+    for name in names:
+        if name in cache:
+            continue
+        sid = oa.resolve_source(name)      # may be None; cached so we don't retry each run
+        cache[name] = sid
+        changed = True
+        log(f"  [source] {name} -> {sid}")
+    if changed:
+        SOURCES_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        SOURCES_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2),
+                                 encoding="utf-8")
+    return {n: s for n, s in cache.items() if s}
+
+
+def add_journal_candidates(cfg: Config, from_date: str, sources: dict[str, str],
+                           result: GatherResult, oa: OpenAlexClient,
+                           max_per_source: int = 3000, log=print) -> int:
+    """Journal-first: pull every recent work from each allowlisted source, keep the
+    ones passing the shared battery/electrochem context gate, and add them (topics
+    empty — the LLM classifies later) to the candidate set. Closes the gap where a
+    journal's battery papers don't match our topic search phrasing."""
+    ctx = cfg.journal_gate or cfg.context
+    added = 0
+    for name, sid in sources.items():
+        got = kept = 0
+        try:
+            for p in oa.search_source(sid, from_date, max_results=max_per_source,
+                                      types=cfg.types):
+                got += 1
+                if ctx and not any(pat.search(p.search_text) for pat in ctx):
+                    continue
+                kept += 1
+                key = canonical_key(p.doi, p.id)
+                if key not in result.candidates:   # never clobber a topic-matched record
+                    result.candidates[key] = p
+                    added += 1
+        except Exception as e:
+            log(f"  [journal:{name}] failed: {e}")
+            continue
+        log(f"  [journal:{name}] fetched={got} kept={kept}")
+    log(f"  journal-first: +{added} candidates")
+    return added
+
+
 def gather_candidates(
     cfg: Config,
     from_date: str,
@@ -77,6 +144,7 @@ def gather_candidates(
     use_arxiv: bool = True,
     oa_client: Optional[OpenAlexClient] = None,
     ax_client: Optional[ArxivClient] = None,
+    journal_first: bool = False,
     log=print,
 ) -> GatherResult:
     """Search all sources for each topic, apply the regex post-filter, and
@@ -127,6 +195,11 @@ def gather_candidates(
 
         log(f"  [{topic.id}] raw={stat.raw} kept={stat.kept}")
         result.stats.append(stat)
+
+    # journal-first: add allowlisted-journal battery papers the topic queries missed
+    if journal_first:
+        sources = resolve_journal_sources(cfg, oa, log=log)
+        add_journal_candidates(cfg, from_date, sources, result, oa, log=log)
 
     # collapse same-title editions (Angew German vs International, etc.)
     before = len(result.candidates)

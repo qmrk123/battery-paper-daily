@@ -19,6 +19,7 @@ import requests
 from .models import Paper, clean_ws
 
 API = "https://api.openalex.org/works"
+SOURCES_API = "https://api.openalex.org/sources"
 SELECT = ",".join([
     "id", "doi", "title", "publication_date", "type",
     "primary_location", "best_oa_location", "open_access", "authorships",
@@ -120,6 +121,59 @@ class OpenAlexClient:
                     if yielded >= max_results:
                         break
             cursor = (data.get("meta") or {}).get("next_cursor")
+
+    def search_source(self, source_id: str, from_date: str, per_page: int = 200,
+                      max_results: int = 3000, types: Optional[Iterable[str]] = None
+                      ) -> Iterator[Paper]:
+        """Journal-first: yield ALL Papers from an OpenAlex source (journal)
+        published on/after `from_date`, newest first — no query terms, so nothing
+        is missed for phrasing reasons. Client-side type filter."""
+        types = set(types) if types else None
+        sid = source_id if str(source_id).startswith("S") else _short_id(source_id)
+        yielded = 0
+        cursor = "*"
+        while cursor and yielded < max_results:
+            data = self._get({
+                "filter": f"from_publication_date:{from_date},"
+                          f"primary_location.source.id:{sid}",
+                "sort": "publication_date:desc",
+                "per-page": min(per_page, max_results - yielded),
+                "select": SELECT,
+                "cursor": cursor,
+            })
+            results = data.get("results") or []
+            if not results:
+                break
+            for r in results:
+                if types and r.get("type") not in types:
+                    continue
+                paper = self._to_paper(r)
+                if paper is not None:
+                    yield paper
+                    yielded += 1
+                    if yielded >= max_results:
+                        break
+            cursor = (data.get("meta") or {}).get("next_cursor")
+
+    def resolve_source(self, name: str) -> Optional[str]:
+        """Best-matching OpenAlex source id ('S…') for a journal display name."""
+        from .journals import _norm
+        params = {"search": name, "per-page": 5, "mailto": self.mailto}
+        if self.api_key:
+            params["api_key"] = self.api_key
+        self._throttle()
+        try:
+            r = self.session.get(SOURCES_API, params=params, timeout=self.timeout)
+            if r.status_code != 200:
+                return None
+            results = r.json().get("results") or []
+        except Exception:
+            return None
+        target = _norm(name)
+        for src in results:                       # prefer an exact normalized-name hit
+            if _norm(src.get("display_name", "")) == target:
+                return _short_id(src["id"])
+        return _short_id(results[0]["id"]) if results else None
 
     def _to_paper(self, r: dict) -> Optional[Paper]:
         title = clean_ws(r.get("title"))

@@ -47,6 +47,8 @@ class Config:
     min_journal_metric: float = 0.0   # OpenAlex 2yr_mean_citedness gate (0 = off)
     include_preprints: bool = True     # keep arXiv preprints (no journal metric)
     allow_journals: list[str] = field(default_factory=list)  # if set, keep ONLY these journals
+    context: list[re.Pattern] = field(default_factory=list)  # shared battery/electrochem gate
+    journal_gate: list[re.Pattern] = field(default_factory=list)  # tighter gate for journal-first
 
     def topic(self, tid: str) -> Topic:
         for t in self.topics:
@@ -92,4 +94,6 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         min_journal_metric=float(d.get("min_journal_metric", 0.0)),
         include_preprints=bool(d.get("include_preprints", True)),
         allow_journals=list(d.get("allow_journals", []) or []),
+        context=_compile(default_context),
+        journal_gate=_compile(d.get("journal_gate") or default_context),
     )

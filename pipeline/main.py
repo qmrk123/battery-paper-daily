@@ -39,6 +39,8 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="fetch + filter but write nothing")
     ap.add_argument("--show-filtered", action="store_true", help="print each kept candidate")
     ap.add_argument("--window-days", type=int, default=None, help="override rolling window")
+    ap.add_argument("--no-journal-first", action="store_true",
+                    help="skip journal-first pass (fetch allowlisted journals directly)")
     args = ap.parse_args(argv)
 
     cfg = load_config()
@@ -54,6 +56,7 @@ def main(argv=None) -> int:
         cfg, from_date,
         topic_ids=args.topic,
         use_arxiv=not args.no_arxiv,
+        journal_first=not args.no_journal_first,
     )
 
     store = Store()

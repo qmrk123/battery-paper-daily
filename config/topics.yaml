@@ -48,6 +48,11 @@ defaults:
   # antiperovskite magnets). Topics may override with their own `context`.
   context:
     - 'cathode|anode|electrode|batter|electrochem|\bredox\b|cycl(?:e|ing|abilit)|capacity|electrolyte|delithiat|lithiat|sodiat|coulombic|dendrit|plating|stripping|half[- ]cell|full[- ]cell|li[- ]ion|na[- ]ion|energy storage|solid[- ]state electrolyte'
+  # Journal-FIRST pass keeps only papers matching THIS battery-specific gate — much
+  # tighter than `context` (which is generic electrochem) so we don't flood with the
+  # general-materials output of AM/AFM/Adv Sci. The LLM still does final 6-topic scoping.
+  journal_gate:
+    - 'batter|\b(?:li|na|k|zn)[- ]?ion\b|\blithium\b|\bsodium\b|li[- ]?metal|na[- ]?metal|anode[- ]?free|\bSEI\b|dendrit|LiFePO|olivine|\bNCM\b|\bNMC\b|\bNCA\b|\bLCO\b|\bLNMO\b|\bLMO\b|layered (?:cathode|oxide)|li[- ]?rich|li[- ]?excess|disordered rock|\bDRX\b|polysulfide|lithium[- ]?sulfur|prussian blue|intercalat|(?:de)?lithiat|(?:de)?sodiat|plating.{0,20}stripping|solid[- ]?state electrolyte'
 
 topics:
   - id: li-metal

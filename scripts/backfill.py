@@ -32,7 +32,8 @@ def run(from_month: str, to_month: str, metric: float,
     cfg.max_per_topic = max_per_topic
 
     log(f"== backfill {from_month}..{to_month}  journal>= {metric}  (no preprints) ==")
-    res = gather_candidates(cfg, from_date=f"{from_month}-01", use_arxiv=False, log=log)
+    res = gather_candidates(cfg, from_date=f"{from_month}-01", use_arxiv=False,
+                            journal_first=True, log=log)
 
     store = Store()
     seen = store.load_seen()
