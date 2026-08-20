@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.202532034",
+        "cached": "img/W7134167642.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.202532034"
+      },
       "summary_ko": "불용성 LiF 형성이 가역성을 제한하는 Li-CFx 전지의 방전 화학을 개선하기 위해 아마이드 용매의 도너수(donor number)를 조절하는 전해질 설계 전략을 제시했다. DMPA, DMTFA, DETFA를 비교해 DETFA가 방전 시 생성된 LiF를 용해시키면서도 산화 안정성을 유지하는 최적 용매임을 확인했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.202600021",
+        "cached": "img/W7134202244.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.202600021"
+      },
       "summary_ko": "스피넬 LiNi0.5Mn1.5O4(LNMO) 표면에 LaTi2O6 나노섬을 형성하는 Ti 보조 표면공학을 도입해 추가적인 저에너지 Li+ 확산 채널을 제공하고 산소 골격을 강화했다.",
       "relevant": true
     },
@@ -176,7 +188,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.202532071",
+        "cached": "img/W7134196979.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.202532071"
+      },
       "summary_ko": "황화물 전고체 리튬 금속 전지에서 황화물 전해질과 리튬 금속 간의 화학적 비호환성과 기계적 파손을 해결하기 위해, 실록산 기반 유무기 하이브리드 계면(PD3F-Li)을 in situ 형성했다. LiIn/In, LiF, LiSixOy 무기 나노도메인이 실록산 네트워크 내에 형성되어 황화물 전해질에 화학적으로 안정하고 리튬 덴드라이트에 기계적으로 견고한 10 µm 계면층을 이룬다.",
       "relevant": true
     },
@@ -206,7 +224,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.202521479",
+        "cached": "img/W7131835171.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.202521479"
+      },
       "summary_ko": "초고속 충전 및 -40~60°C 극한 온도에서 안정적인 나트륨 금속 전지를 위해 LiF의 결정면을 공학적으로 제어했다. DFT 계산으로 LiF (220)면이 최적의 Na+ 흡착에너지(-1.48 eV)와 초저 확산장벽(0.0978 eV)을 가짐을 규명하고, 이 면이 우세하게 노출된 LiF 나노섬유를 합성해 핵생성 과전압을 크게 낮췄다.",
       "relevant": true
     },
@@ -428,7 +452,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.70792",
+        "cached": "img/W7134182671.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.70792"
+      },
       "summary_ko": "전고체 리튬-황 전지(ASSLSBs)의 폴리설파이드 셔틀링과 고체-고체 계면 접촉 문제를 해결하기 위해 공유결합유기골격체(COF)와 폴리이온성 액체(PIL)를 결합한 복합 고체전해질(DHCSE@PIL)을 개발했다. LALZO/PEO 매트릭스에 SO3H가 풍부한 COF 충전제로 폴리설파이드를 선택적으로 포집하고, 피롤리디늄 기반 이온성 액체의 원위치 중합으로 계면 이온수송을 향상시켰다.",
       "relevant": true
     },
@@ -523,7 +553,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-08-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.202520110",
+        "cached": "img/W7134187756.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.202520110"
+      },
       "summary_ko": "피롤리디늄계 이온액체(Py-TFSI)를 이용해 리튬-산소 전지의 초산화물(O2·-) 중간체를 포집함으로써 산소환원반응 속도와 안정성을 5배 이상 향상시켰다.",
       "relevant": true
     },
