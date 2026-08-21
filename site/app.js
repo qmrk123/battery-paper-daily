@@ -13,8 +13,15 @@ const TOPIC_VAR = {
 const state = {
   topics: [],            // [{id,label_ko,label_en,emoji}]
   topicById: {},
-  papers: [],            // papers for the loaded day
+  papers: [],            // papers for the loaded day (date mode)
   active: "all",
+  // ---- corpus search / filter (search mode) ----
+  mode: "date",          // "date" | "search"
+  corpus: null,          // all visible papers, lazily fetched from data/corpus.json
+  results: [],           // current search/filter result set
+  query: "",
+  range: 0,              // 0 = all time, else last-N-days on publication date
+  filters: { oa: false, img: false },
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -74,8 +81,9 @@ async function boot() {
     months.forEach((m) => g.appendChild(opt(m, monthLabel(m)))); sel.appendChild(g);
   }
   sel.value = days[0] || months[0];
-  sel.addEventListener("change", () => { loadDay(sel.value); updateStepButtons(); });
+  sel.addEventListener("change", () => { exitSearch(); loadDay(sel.value); updateStepButtons(); });
   initDateStep();
+  initSearch();
 
   buildTabs();
   $("#colophon-meta").textContent =
@@ -99,6 +107,7 @@ function stepDate(delta) {
   const j = i + delta;
   if (i < 0 || j < 0 || j >= opts.length) return;   // clamp at both ends
   sel.value = opts[j].value;
+  exitSearch();
   loadDay(sel.value);
   updateStepButtons();
 }
@@ -143,15 +152,104 @@ async function loadDay(date) {
   } catch (e) {
     return fail(`${date} 데이터를 불러오지 못했습니다.`, e);
   }
-  updateCounts();
-  render();
+  refresh();
 }
 
 // LLM relevance gate hides off-topic papers; not-yet-summarized (null) still show.
 const visible = (p) => p.relevant !== false;
 
+/* ---------- corpus search / filter (search mode) ---------- */
+// The list currently in view: search/filter results, or the loaded day.
+function baseList() {
+  return state.mode === "search" ? state.results : state.papers;
+}
+function searchActive() {
+  return state.query.trim() !== "" || state.range > 0 ||
+         state.filters.oa || state.filters.img;
+}
+
+async function ensureCorpus() {
+  if (state.corpus) return;
+  if (EMB) {                                  // self-contained snapshot: union its days
+    const by = {};
+    for (const d of Object.values(EMB.days || {}))
+      for (const p of (d.papers || [])) if (p.relevant !== false) by[p.id] = p;
+    state.corpus = Object.values(by);
+  } else {
+    state.corpus = (await getJSON("data/corpus.json")).papers || [];
+  }
+}
+
+function computeResults() {
+  const toks = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const cutoff = state.range > 0 ? Date.now() - state.range * 864e5 : 0;
+  return state.corpus.filter((p) => {
+    if (p.relevant === false) return false;
+    if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) return false;
+    if (state.filters.img && !(p.image && p.image.cached)) return false;
+    if (cutoff) {
+      const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
+      if (!ts || ts < cutoff) return false;
+    }
+    if (toks.length) {
+      const hay = `${p.title || ""} ${p.abstract_en || ""} ${(p.authors || []).join(" ")} ${p.venue || ""} ${p.doi || ""}`.toLowerCase();
+      if (!toks.every((tk) => hay.includes(tk))) return false;
+    }
+    return true;
+  }).sort((a, b) => (b.published || "").localeCompare(a.published || ""));
+}
+
+async function refresh() {
+  if (searchActive()) {
+    state.mode = "search";
+    status("전체 아카이브 검색 중…");
+    await ensureCorpus();
+    state.results = computeResults();
+  } else {
+    state.mode = "date";
+  }
+  updateCounts();
+  render();
+}
+
+function initSearch() {
+  const box = $("#search"), clear = $("#search-clear"), range = $("#range");
+  let t = 0;
+  box.addEventListener("input", () => {
+    state.query = box.value;
+    clear.hidden = box.value === "";
+    clearTimeout(t);
+    t = setTimeout(refresh, 160);            // debounce keystrokes
+  });
+  clear.addEventListener("click", () => {
+    box.value = ""; state.query = ""; clear.hidden = true; box.focus(); refresh();
+  });
+  range.addEventListener("change", () => {
+    state.range = parseInt(range.value, 10) || 0; refresh();
+  });
+  const chip = (id, key) => $(id).addEventListener("click", () => {
+    state.filters[key] = !state.filters[key];
+    $(id).setAttribute("aria-pressed", String(state.filters[key]));
+    refresh();
+  });
+  chip("#f-oa", "oa");
+  chip("#f-img", "img");
+}
+
+function exitSearch() {
+  // picking a specific date drops the corpus-search overlay and resets its controls
+  state.query = ""; state.range = 0; state.filters = { oa: false, img: false };
+  state.mode = "date";
+  const box = $("#search"), clear = $("#search-clear"), range = $("#range");
+  if (box) box.value = "";
+  if (clear) clear.hidden = true;
+  if (range) range.value = "0";
+  $("#f-oa") && $("#f-oa").setAttribute("aria-pressed", "false");
+  $("#f-img") && $("#f-img").setAttribute("aria-pressed", "false");
+}
+
 function updateCounts() {
-  const vis = state.papers.filter(visible);
+  const vis = baseList().filter(visible);
   const count = (id) => id === "all"
     ? vis.length
     : vis.filter((p) => (p.topics || []).includes(id)).length;
@@ -170,16 +268,20 @@ function setActive(id) {
 /* ---------- render ---------- */
 function render() {
   const wrap = $("#cards");
+  const src = baseList();
   const list = (state.active === "all"
-    ? state.papers
-    : state.papers.filter((p) => (p.topics || []).includes(state.active))
+    ? src
+    : src.filter((p) => (p.topics || []).includes(state.active))
   ).filter(visible);
 
   if (!list.length) {
     wrap.innerHTML = "";
-    return status("이 날짜에는 해당 소재의 새 논문이 없습니다.", true);
+    return status(state.mode === "search"
+      ? "검색·필터에 맞는 논문이 없습니다."
+      : "이 날짜에는 해당 소재의 새 논문이 없습니다.", true);
   }
-  $("#status").textContent = "";
+  if (state.mode === "search") status(`🔍 전체 검색 · ${list.length}건`);
+  else $("#status").textContent = "";
   wrap.innerHTML = "";
   list.forEach((p, i) => wrap.appendChild(card(p, i)));
 }

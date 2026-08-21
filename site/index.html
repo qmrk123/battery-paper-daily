@@ -41,6 +41,27 @@
       매일 새로 색인된 논문을 소재별로 모읍니다.
     </p>
 
+    <div class="toolbar" role="search">
+      <div class="search">
+        <span class="search__icon" aria-hidden="true">🔍</span>
+        <input id="search" type="search" autocomplete="off" spellcheck="false"
+               placeholder="전체 검색 — 제목·초록·저자·저널·DOI…" aria-label="논문 전체 검색" />
+        <button id="search-clear" class="search__clear" type="button"
+                aria-label="검색 지우기" hidden>×</button>
+      </div>
+      <select id="range" class="filter-select" aria-label="기간 필터">
+        <option value="0">전체 기간</option>
+        <option value="7">최근 7일</option>
+        <option value="14">최근 14일</option>
+        <option value="30">최근 30일</option>
+        <option value="90">최근 90일</option>
+      </select>
+      <button id="f-oa" class="chip" type="button" aria-pressed="false"
+              title="오픈액세스만">OA</button>
+      <button id="f-img" class="chip" type="button" aria-pressed="false"
+              title="그래픽 초록 있는 것만">🖼 이미지</button>
+    </div>
+
     <nav id="tabs" class="tabs" aria-label="소재 분류"></nav>
   </header>
 
