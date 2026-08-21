@@ -144,6 +144,15 @@ a { color: inherit; }
 }
 .icon-btn:hover { color: var(--text); border-color: var(--text-faint); }
 
+/* date stepper: ▲ newer / ▼ older, stacked like a spinner beside the picker */
+.datestep { display: inline-flex; flex-direction: column; gap: 3px; }
+.icon-btn--step {
+  width: 30px; height: 17px; font-size: .62rem; border-radius: 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.icon-btn:disabled { opacity: .32; cursor: default; }
+.icon-btn:disabled:hover { color: var(--text-dim); border-color: var(--border-strong); }
+
 .masthead__tag {
   margin: 12px 0 14px; max-width: 62ch;
   font-size: .86rem; color: var(--text-dim);

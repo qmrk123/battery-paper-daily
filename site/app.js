@@ -74,12 +74,43 @@ async function boot() {
     months.forEach((m) => g.appendChild(opt(m, monthLabel(m)))); sel.appendChild(g);
   }
   sel.value = days[0] || months[0];
-  sel.addEventListener("change", () => loadDay(sel.value));
+  sel.addEventListener("change", () => { loadDay(sel.value); updateStepButtons(); });
+  initDateStep();
 
   buildTabs();
   $("#colophon-meta").textContent =
     `updated ${(index.updated_at || "").replace("T", " ").slice(0, 16)} · ${dates.length}일치`;
   await loadDay(dates[0]);
+}
+
+/* ---------- date stepper (▲ newer / ▼ older, one option at a time) ---------- */
+function initDateStep() {
+  const newer = $("#date-newer"), older = $("#date-older");
+  if (!newer || !older) return;
+  newer.addEventListener("click", () => stepDate(-1));  // toward index 0 = newest
+  older.addEventListener("click", () => stepDate(+1));  // toward the end = oldest
+  updateStepButtons();
+}
+
+function stepDate(delta) {
+  const sel = $("#date-select");
+  const opts = [...sel.options];
+  const i = opts.findIndex((o) => o.value === sel.value);
+  const j = i + delta;
+  if (i < 0 || j < 0 || j >= opts.length) return;   // clamp at both ends
+  sel.value = opts[j].value;
+  loadDay(sel.value);
+  updateStepButtons();
+}
+
+function updateStepButtons() {
+  const sel = $("#date-select");
+  const newer = $("#date-newer"), older = $("#date-older");
+  if (!newer || !older) return;
+  const opts = [...sel.options];
+  const i = opts.findIndex((o) => o.value === sel.value);
+  newer.disabled = i <= 0;
+  older.disabled = i < 0 || i >= opts.length - 1;
 }
 
 function buildTabs() {
