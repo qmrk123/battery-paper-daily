@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: "0 21 * * *"
   workflow_dispatch:
+    inputs:
+      window_days:
+        description: "Rolling window in days (default 7; use a larger value to catch up a gap)"
+        default: "7"
   push:
     branches: [main]
     paths:
@@ -47,7 +51,7 @@ jobs:
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python -m pipeline.main
+        run: python -m pipeline.main --window-days "${{ inputs.window_days || '7' }}"
 
       # Korean summaries + 6-topic classification run here, in the same job that
       # commits data back (proven daily push). Claude Code Action authenticates
