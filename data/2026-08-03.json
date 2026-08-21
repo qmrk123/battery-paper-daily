@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 3,
+  "papers": [
+    {
+      "id": "W7172282851",
+      "source": "openalex",
+      "title": "Robust cement-graphite thick electrode enables high-performance molten salt aluminum batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76400-y",
+      "published": "2026-08-03",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76400-y",
+      "authors": [
+        "Kai Luo",
+        "Qian Xiong",
+        "Jiashen Meng",
+        "Xuanpeng Wang",
+        "Yukun Qin",
+        "J.C. Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76400-y",
+      "license": null,
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76400-y/MediaObjects/41467_2026_76400_Fig1_HTML.png",
+        "cached": "img/W7172282851.jpg",
+        "license": null,
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76400-y"
+      },
+      "summary_ko": "시멘트-흑연 후막 전극을 이용한 고성능 용융염 알루미늄전지에 관한 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
+      "id": "W7172258133",
+      "source": "openalex",
+      "title": "One‐Pot Direct Recycling of Spent LiCoO 2 via Synergistic Binder Defluorination and Phase Reconstruction",
+      "url": "https://doi.org/10.1002/advs.76961",
+      "published": "2026-08-03",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/advs.76961",
+      "authors": [
+        "Yingjie Hu",
+        "Songhu Ye",
+        "Fan Li",
+        "Chunhui Zhong",
+        "Bailin Xiang",
+        "Yulan Chen"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Direct recycling of spent lithium‐ion battery cathodes is hindered by two interdependent challenges: persistent polyvinylidene fluoride (PVDF) binder residues that block particle surfaces and incomplete structural repair of degraded layered phases. Here, we report a one‐pot regeneration strategy based on a Li + ‐containing deep eutectic solvent (Li + ‐DES) that integrates targeted defluorination and phase reconstruction within a reusable medium. Under mild conditions, the functionalized Li + ‐DES selectively cleaves C─F bonds of PVDF, enabling complete binder removal and interface purification. Without any solvent exchange, the same Li + ‐DES serves as a lithium‐rich repair medium, in which enhanced Li + coordination and transport promote the formation of a uniform pre‐lithiation layer and facilitate the conversion of inactive spinel Co 3 O 4 back into well‐ordered layered LiCoO 2 upon annealing. The regenerated LiCoO 2 delivers a discharge capacity of 157.4 mAh g −1 at 0.1 C, retains 83.1% of its capacity after 300 cycles, and maintains stable cycling even at 4.6 V. By integrating defluorination, Li replenishment, and structural reconstruction into a single reusable system, this work provides a simplified, energy‐efficient, and sustainable route for closed‐loop recycling of degraded cathode materials.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.76961",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/advs.76961",
+        "cached": "img/W7172258133.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.76961"
+      },
+      "summary_ko": "Li+ 함유 심공융용매(DES)를 이용해 폐 LiCoO2 캐소드의 PVDF 바인더 잔류물을 탈불소화하고 동시에 열화된 층상 구조를 재구성하는 원팟 직접 재생 전략을 제시했다. 별도 용매 교환 없이 동일 DES가 리튬 재공급 매질로 작용해 비활성 스피넬 Co3O4를 층상 LiCoO2로 되돌린다.",
+      "relevant": true
+    },
+    {
+      "id": "W7172384028",
+      "source": "openalex",
+      "title": "Ascorbate-PromotedWhole-Cell Biocatalysis for LithiumBio-Recovery from Spent LiFePO4 Cathodes",
+      "url": "https://doi.org/10.1021/acsnano.6c12587",
+      "published": "2026-08-03",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1021/acsnano.6c12587",
+      "authors": [
+        "Qiuli Xia",
+        "Chuanwei Yang",
+        "Danni Zhang",
+        "Zhong Li",
+        "Min Li",
+        "Jiaxin Li"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract The sustainable recycling of spent lithium iron phosphate (LiFePO4) batteries via bioleaching is critically important yet often constrained by low processing capacity and severe microbial oxidative stress. Herein, we report a highly efficient biocatalytic strategy utilizing Gluconobacter oxydans as a whole-cell biocatalyst for the leaching of spent LFP batteries. We demonstrate that the addition of 25 mM ascorbic acid (AA) dramatically enhances the catalytic performance of this microbial system, achieving a high lithium extraction yield of 92.7% within 7 days at a pulp density of 10.0 g L–1. Transcriptomic and biochemical analyses elucidate a novel synergistic catalytic mechanism: AA not only alleviates intracellular oxidative stress to sustain microbial catalyst but also actively participates in a pyrroloquinoline quinone (PQQ)-mediated extracellular redox cycle. In this cycle, the reduction of PQQ by AA and its subsequent reoxidation by O2 generate H2O2. Under mild acidic conditions (pH ∼4), these H2O2 preferentially drive the catalytic oxidation of LiFePO4 to FePO4, thereby significantly facilitating Li release. The dissolved Li was further recovered from bioleachate as Li3PO4, while the FePO4-rich residues showed effective dye–removal activity, demonstrating residue valorization potential. This work unveils the dual function of AA in fortifying the microbial catalyst and driving mineral oxidation, presenting a practical and economically viable strategy for the integrated recycling of spent LFP batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "Gluconobacter oxydans를 이용한 전세포 생촉매 방식으로 폐 LiFePO4 배터리에서 리튬을 생물학적으로 회수하는 연구이다. 아스코르브산 첨가로 산화 스트레스를 완화하고 PQQ 매개 산화환원 순환을 통해 7일 내 92.7%의 리튬 추출 수율을 달성했다. 재활용 공정으로 6대 주제(전극 재료 자체) 범위 밖이다.",
+      "relevant": true
+    }
+  ]
+}

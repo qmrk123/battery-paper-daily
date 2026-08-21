@@ -1,0 +1,210 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7172555126",
+      "source": "openalex",
+      "title": "Stacking Pressure‐Driven Interfacial Dynamics in Anode‐Free Solid‐State Lithium Batteries",
+      "url": "https://doi.org/10.1002/advs.76888",
+      "published": "2026-08-05",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.76888",
+      "authors": [
+        "Jianneng Liang",
+        "Matthias Bohnen",
+        "Ralf Müller",
+        "Robert Leiter",
+        "Simon Fleischmann",
+        "Shuya Gong"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "Stacking pressure plays a critical role in maintaining the electrochemical performance of solid-state batteries (SSBs), including anode-free solid-state batteries (AFSSBs). Nevertheless, the influence of stacking pressure on interface properties remains insufficiently understood. In this work, we found that stacking pressure could improve both anode and cathode interface electrochemical properties, but the enhancement of the cathode side is considerably smaller than that observed at the anode interface, indicating that pressure primarily benefits the anode side. We also establish a correlation among stacking pressure, anode and cathode potentials, interface resistances, Li deposition morphology, and stress distribution in AFSSBs. Our results show that increasing the stacking pressure leads to higher reversible capacity, lower Li plating/stripping overpotentials, more uniform Li deposition, and a more homogeneous stress distribution. Achieving uniform Li deposition is key to reducing the required magnitude of stacking pressure. This study deepens the understanding of interfacial dynamics in AFSSBs and paves the way toward developing high-performance SSBs operable under low stacking pressure.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.76888",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/advs.76888",
+        "cached": "img/W7172555126.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.76888"
+      },
+      "summary_ko": "무음극 고체전지(AFSSB)에서 적층 압력이 음극과 양극 계면 특성에 미치는 영향을 규명했다. 압력 증가가 주로 음극 측(Li 증착 형태, 가역용량, 과전압, 응력 분포)을 개선함을 확인했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7172494325",
+      "source": "openalex",
+      "title": "Solvation-engineering-enabled quasi-solid positive electrode for four-electron aqueous Zn||Br batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76399-2",
+      "published": "2026-08-05",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76399-2",
+      "authors": [
+        "Zejun Chen",
+        "Mengzi Geng",
+        "Shizhen Li",
+        "Hangqi Yang",
+        "Wanru Chen",
+        "Ning Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Diffusion, crossover, and hydrolysis of bromine species in aqueous electrolytes impede the application of Zn||Br batteries with four-electron 2Br+/Br2/2Br− conversion. Here, we study a ligand-assisted sparingly solvating electrolyte using ZnSO4·7H2O and urea. The high solubility of urea suppresses water activity, while its stronger affinity toward bromine enables preferential coordination over water molecules. This synergistic effect creates a quasi-solvent-free microenvironment that limits bromine solvation and diffusion, resulting in a robust quasi-solid cathode. Moreover, the compact solvation structure favors the formation and stability of Br+ species by strengthening nucleophilic urea coordination and inhibiting hydrolysis. Consequently, the fabricated Zn||Br battery exhibits reversible 4e bromine chemistry with a capacity of 417.5 mAh g−1 at 1 A g−1 (based on KBr). A zinc battery coupling the 4e iodine positive electrode and 4e bromine (from the electrolyte) is constructed, yielding a total 8e transfer with a capacity of 897.8 mAh g−1 and a specific energy of 1,344 Wh kg−1 at 2 A g−1 (based on KI). Aqueous Zn||Br batteries suffer from bromine diffusion, crossover and hydrolysis. Here, authors design a urea-assisted electrolyte that suppresses water activity and stabilizes bromine species, enabling reversible 4e bromine chemistry and high-energy dual-halogen zinc batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76399-2_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76399-2/MediaObjects/41467_2026_76399_Fig1_HTML.png",
+        "cached": "img/W7172494325.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76399-2"
+      },
+      "summary_ko": "요소(urea)를 이용한 sparingly-solvating 수계 전해질로 Br+ 종을 안정화하여 4전자 Zn||Br 브롬 전지의 가역적 브롬 화학을 구현했다. 브롬의 용매화·확산·가수분해를 억제하는 준고체 양극을 형성해 417.5 mAh/g의 용량을 달성했다. Zn/Br 전지로 Li 전극 재료가 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7172519021",
+      "source": "openalex",
+      "title": "Modulating Lewis Acidity of Covalent Organic Frameworks to Boost Li + Transport",
+      "url": "https://doi.org/10.1002/anie.6421920",
+      "published": "2026-08-05",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.6421920",
+      "authors": [
+        "Wenwei Li",
+        "Cuiping Luo",
+        "Fanyu Xie",
+        "Hongjia Liu",
+        "Yufeng Fan",
+        "Jie Cui"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Solid polymer electrolytes offer a promising route to safer lithium metal batteries, but strong Li + –TFSI – coupling and insufficient salt dissociation limit their room‐temperature conductivity. Introducing Lewis acidic sites to competitively bind TFSI – can release Li + , yet the relationship between local Lewis acid–base regulation and ion transport remains unclear. Here, we tune the local Lewis acid–base environment of olefin‐linked pyridinium ionic covalent organic frameworks by exchanging counteranions from Br – to BF 4 – , PF 6 – , and TFSI – . Comprehensive results show that charge‐delocalized, weakly coordinating counteranions reduce screening of pyridinium cations, enhancing effective Lewis acidity and weakening Li + –TFSI – coupling. Consequently, ICOF‐TFSI@PVDF‐HFP achieves an ionic conductivity of 9.1 × 10 – 4 S·cm – 1 together with a Li + transference number of 0.81. The electrolyte enables stable Li||Li cycling over 6500 h, retaining 84.3% capacity after 650 cycles at 1 C in Li||LFP cells and 81.7% after 400 cycles at 1 C in Li||NCM90. Molecular dynamics, Raman spectroscopy, and operando characterizations confirm enhanced salt dissociation, regulated interfacial chemistry, dendrite suppression, and mitigated microcracking in high‐Ni cathodes. This study defines local Lewis acid–base regulation as a molecular design strategy for SPEs featuring fast Li + transport and robust interfacial stability.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6421920",
+        "cached": "img/W7172519021.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6421920"
+      },
+      "summary_ko": "피리디늄 이온성 공유결합 유기골격체(ICOF)의 대음이온을 Br-에서 TFSI-로 바꿔 국소 루이스 산성도를 조절, Li+-TFSI- 결합을 약화시켜 고체 고분자 전해질의 이온전도도와 Li+ 수송률을 향상시켰다. ICOF-TFSI@PVDF-HFP 전해질은 9.1×10-4 S/cm 전도도와 0.81의 Li+ 수송수를 보이며 안정적인 Li||Li 사이클링을 가능케 했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7172536371",
+      "source": "openalex",
+      "title": "Ferroelectric Dipole‐Driven Solid‐Electrolyte Interphase Passivation for High‐Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.74496",
+      "published": "2026-08-05",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.74496",
+      "authors": [
+        "Baolei Xu",
+        "Yaqin Wu",
+        "Ruohong Ke",
+        "Kunyun Yan",
+        "Chaoping Liang",
+        "Libao Chen"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT High‐voltage lithium (Li) metal batteries (LMBs) are regarded as strong candidates for next‐generation high‐specific‐energy storage devices. However, interfacial side reactions (ISRs) (particularly the often‐overlooked chemical corrosion) and Li dendrite lead to severe depletion of active Li and even pose safety hazards, significantly hindering the practical applications of LMBs. Herein, an oxygen‐vacancy‐engineered BaTiO 3 pre‐adsorbed with NO 3 − (BTOVN) layer is integrated onto a polypropylene separator to selectively lower the energy level of target anion via ferroelectric dipoles, thus passivating the anode/electrolyte interface and improving the long‐term storage and cycle stability of LMBs. Combining cryo‐electron microscopy with multi‐scale spectroscopies, we reveal that the ferroelectric BTOVN layer targets NO 3 − to the interface and promotes the reductive decomposition of both NO 3 − and PF 6 − to form a thinner and tougher solid‐electrolyte interphase (SEI) rich in inorganic Li 2 O, Li 3 N, and LiF, which effectively suppresses persistent ISRs and Li dendrite proliferation while enhancing Li + transport kinetics and interfacial stability. As a result, high‐voltage Li metal full cells delivery a substantially enhanced capacity retention of 89.1% after 500 cycles, and remarkably, even after long‐term resting, they maintain exceptionally stable operation. The work provides a novel perspective on precisely engineering SEI chemistry through targeting anionic species into the interphase layer.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74496",
+        "cached": "img/W7172536371.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74496"
+      },
+      "summary_ko": "산소 공공을 도입하고 NO3-를 흡착시킨 강유전체 BaTiO3(BTOVN) 층을 분리막에 적용해 강유전 쌍극자로 음이온을 선택적으로 계면에 유도, NO3-와 PF6-의 환원 분해를 촉진하여 얇고 안정적인 SEI를 형성했다. 이를 통해 고전압 리튬 금속전지의 계면 부반응과 덴드라이트 문제를 완화하고 장기 사이클 안정성을 개선했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7197040040",
+      "source": "openalex",
+      "title": "Direct Optical Visualization of Kinetic Homogenization in Al‑Doped LiCoO 2 Cathodes",
+      "url": "https://doi.org/10.1002/aenm.71404",
+      "published": "2026-08-05",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71404",
+      "authors": [
+        "Guodong Hao",
+        "Jinming Li",
+        "Ruoyu Guo",
+        "Qiang Li",
+        "Lijun Wu",
+        "Li Wang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Phase‐transformation dynamics govern the performance and degradation of layered oxide cathodes but remain difficult to observe at the single‐particle level under operating conditions. Here, we introduce optical scattering microscopy for real‐time visualization of phase‐transition pathways in individual LiCoO 2 (LCO) particles. By decoding optical signatures of the H1, H2, and H1–3 phases, we track phase‐boundary evolution during battery operation. Undoped LCO shows progressive kinetic destabilization under high‐voltage cycling: the H1→H2 transition evolves from symmetric shrinking‐core propagation to asymmetric motion, and interlayer kinetic asynchrony intensifies during the H3→H1–3 transition. In contrast, Al‐doped LCO exhibits highly homogeneous and reversible lithium (de)intercalation, suppressing phase separation and interlayer heterogeneity. Combined with in situ XRD, thermodynamic analysis, and phase‐field simulations, we demonstrate that Al doping smooths the free‐energy landscape and reduces the driving force for phase separation, shifting the reaction from abrupt two‐phase to solid‐solution‐like behavior. This kinetic homogenization promotes uniform structural evolution, alleviates stress accumulation, and enhances cycling stability. Our work resolves a long‐standing mechanistic question in high‐voltage LCO chemistry and establishes a generalizable optical methodology for probing phase transformations in energy materials.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71404",
+        "cached": "img/W7197040040.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71404"
+      },
+      "summary_ko": "광산란 현미경을 이용해 개별 LiCoO2 입자 수준에서 H1, H2, H1-3 상전이 경계의 실시간 거동을 관찰했다. 무도핑 LCO는 고전압 사이클 시 상경계 진행이 비대칭화되며 불균일성이 심화되는 반면, Al 도핑 LCO는 균일하고 가역적인 리튬 삽입/탈리를 보여 상분리와 계층간 불균일성을 억제함을 확인했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7172520233",
+      "source": "openalex",
+      "title": "Decoupling Sodium Metal Artifacts from Hard Carbon Electrochemistry in Sodium-Ion Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c01946",
+      "published": "2026-08-05",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c01946",
+      "authors": [
+        "Mohammed Ahmed Zabara",
+        "Clare P. Grey"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Hard carbon (HC) is the benchmark anode for commercial sodium-ion batteries, yet widespread misconceptions regarding its electrolyte-dependent kinetics continue to hinder its practical development. Currently, the field champions ether-based electrolytes over conventional carbonates, based almost entirely on conventional Na||HC half-cell testing. Here, we demonstrate that these comparisons may often be flawed due to chemical artifacts originating from the highly reactive Na-metal counter electrode. We establish an artifact-free, symmetric hard carbon (HC||HC) cell geometry to isolate intrinsic HC behavior. Combined with complementary NMR spectroscopy, we investigate the underlying mechanisms of Na-ion storage in HC. Galvanostatic cycling and temperature-dependent impedance analyses reveal that while ether electrolytes initially form a low-impedance solid electrolyte interphase (SEI), progressive degradation limits long-term cycling. Variations in the Na+ storage mechanism cause large solvent-dependent changes in the impedance and activation energy barriers. Thus, while ether electrolytes hold promise for high-rate applications, they suffer from poor long-term cycling. Ultimately, these findings correct misinterpretations in the literature, prompting a re-evaluation for Na storage mechanisms and guiding electrolyte selection for practical Na-ion batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/acsenergylett.6c01946",
+      "license": "cc-by",
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "소듐이온전지용 하드카본(HC) 음극 특성 평가에서 반응성이 높은 Na 금속 상대전극에 의한 화학적 아티팩트를 지적하고, 대칭 HC||HC 셀로 이를 배제한 순수 HC 전기화학 거동을 재평가했다. 에테르계 전해질이 초기 저저항 SEI를 형성하지만 점진적 열화로 장기 성능이 제한됨을 NMR과 임피던스 분석으로 규명했다.",
+      "relevant": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "W7203612466",
+      "source": "openalex",
+      "title": "Electrostatic Suspension of Lithium Ions in Mg 1‐x Li x F 2 /PEO Electrolytes Enables all‐Solid‐State Lithium Metal Batteries Operable at 0°C",
+      "url": "https://doi.org/10.1002/adfm.77651",
+      "published": "2026-08-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77651",
+      "authors": [
+        "Yusheng Luo",
+        "Yanpeng Wang",
+        "Zhaoyang Song",
+        "Qiying Yang",
+        "Zhenjia Liu",
+        "Shuang Liu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state lithium metal batteries (SSLMBs) are promising next‐generation energy‐storage devices, but their practical application is hindered by the low ionic conductivity, low Li + transference number, and poor interfacial stability of solid‐state electrolytes, particularly under near‐room‐temperature conditions. To address these challenges, we developed PEO/LiTFSI‐Mg 1‐x Li x F 2 composite electrolytes based on a novel electrostatic suspension strategy. At the filler/polymer interface, Mg 1‐x Li x F 2 and PEO generate dynamically balanced yet oppositely directed electrostatic fields, in which Li + remains in a “suspended” state. The continuous low‐energy transport channels formed by these interfacial suspension sites enable directional and rapid Li + slip migration along the interface under an external electric field. The optimized composite electrolyte exhibits an ionic conductivity of 0.158 mS cm −1 and a Li + transference number of 0.56 at 30°C. Benefiting from the electrostatic suspension effect and the in situ formed LiF‐rich SEI, Li||Li symmetric cells cycle stably for over 2650 h at 0°C. Moreover, SSLMBs with LFP cathodes deliver excellent rate capability and cycling stability, with 98% capacity retention after 300 cycles at 0°C. This work establishes an electrostatic suspension mechanism for the design of polymer electrolytes and provides new insights into high‐performance SSLMBs operating over a wide temperature range.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77651",
+        "cached": "img/W7203612466.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77651"
+      },
+      "summary_ko": "Mg1-xLixF2/PEO 복합 전해질에서 정전기적 부유(electrostatic suspension) 전략으로 0°C에서 작동 가능한 전고체 리튬 금속 전지를 구현한 연구입니다. 필러/고분자 계면의 반대방향 정전기장이 Li+를 부유 상태로 유지해 방향성 있는 빠른 이온 수송 채널을 형성합니다.",
+      "relevant": true
+    }
+  ]
+}

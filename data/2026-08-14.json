@@ -1,598 +1,470 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-19T03:31:18+00:00",
-  "count": 17,
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 14,
   "papers": [
     {
-      "id": "W7202134277",
+      "id": "W7203477050",
       "source": "openalex",
-      "title": "Reversible Oxygen Redoxin High Voltage for Lithium-RichLayered Oxides",
-      "url": "https://doi.org/10.1021/jacs.6c07357",
-      "published": "2026-08-11",
+      "title": "Supramolecular Self‐Assembly Enables Controlled Lithium Replenishment Toward High‐Performance and Sustainable Regeneration of Spent LiFePO 4 Batteries",
+      "url": "https://doi.org/10.1002/anie.4146793",
+      "published": "2026-08-14",
       "topics": [
-        "li-rich"
+        "lfp"
       ],
-      "doi": "10.1021/jacs.6c07357",
+      "doi": "10.1002/anie.4146793",
       "authors": [
-        "Zhengbo Liu",
-        "Jun Wu",
-        "Ziliang Wang",
-        "Ting Lin",
-        "Jun Zeng",
-        "Tianqi Yang"
-      ],
-      "venue": "Journal of the American Chemical Society",
-      "abstract_en": "Abstract Lithium-rich layered oxides, characterized by Li ions in the transition-metal layers, can significantly increase battery energy density through the introduction of oxygen redox. However, these cathodes often suffer from substantial voltage hysteresis, leading to a considerable energy loss during discharge. Herein, we present an O3-type cathode, Li0.63[Li0.20Mn0.80]O2, through the spontaneous ion exchange of P3–Na0.60[Li0.20Mn0.80]O2 in the electrolyte, which retains the ribbon-ordered superstructure. This cathode exhibits a reversible oxygen reduction plateau within the 4.2–4.7 V voltage range, exhibiting minimal voltage loss (hysteresis) during the initial discharge. When the lower voltage limit is reduced to 3.0 V, the plateau disappears. In situ XRD and STEM indicate that there is no significant structural change. Further spectral tests and DFT calculations show that the reversible oxygen reaction is replaced by the Mn reaction during the charging process due to charge transfer, resulting in the disappearance of the discharging plateau. Our findings suggest the potential for lithium-rich layered oxide cathodes to operate without voltage hysteresis and suggest that structural degradation at high voltage is not the only factor causing irreversible oxygen reaction.",
-      "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1021/jacs.6c07357",
-      "license": "cc-by",
-      "journal_id": null,
-      "journal_metric": 16.47,
-      "first_seen": "2026-08-14",
-      "image": null,
-      "summary_ko": "P3-Na0.60[Li0.20Mn0.80]O2의 자발적 이온교환으로 리본 규칙초구조를 유지한 O3형 Li0.63[Li0.20Mn0.80]O2 양극을 합성. 4.2–4.7V에서 가역적 산소 산화환원 평탄부를 보이며 전압 히스테리시스에 따른 에너지 손실을 크게 줄였다.",
-      "relevant": true
-    },
-    {
-      "id": "W7202177904",
-      "source": "openalex",
-      "title": "Gas‐Induced Surface Reconstruction for Stable Lithium‐Rich Manganese‐Based Cathodes",
-      "url": "https://doi.org/10.1002/adfm.77686",
-      "published": "2026-08-11",
-      "topics": [
-        "li-rich"
-      ],
-      "doi": "10.1002/adfm.77686",
-      "authors": [
-        "Wen-Bo Ma",
-        "Sijie Guo",
-        "Xin‐Cheng Lei",
-        "Qi‐wen Liu",
-        "Si‐Yuan Zhang",
-        "Qin-Tao Liao"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium‐rich manganese‐based materials (LRM) are promising high‐energy cathodes with the ability to undergo anionic redox for higher capacity, whose potential is unfortunately challenged by the associated stability issues related to oxygen release. Herein, we demonstrate the possibility to improve the electrochemical stability of LRM through a facile gas‐induced surface reconstruction (GSR) strategy involving a direct sintering of a mixture of LRM and artificial graphite (AG). We identify that the emergence of a CO 2 atmosphere during this heating treatment triggered the transition of the surface lattices from a layer‐typed feature into well‐regulated domains dominated by rock‐salt‐like structures, thereby effectively suppressing the activity of surface oxygen to combat the notorious interfacial side reactions. This surface‐engineered cathode exhibited improved cycling performance to achieve a capacity retention of 93.1% after 150 cycles when tested at 0.5 C as compared to only 65.8% for the untreated sample. Meanwhile, a suppressed voltage decay from 3.6 mV per cycle for the unmodified material to only 2.2 mV per cycle was observed. Our study highlights the critical role of surface chemistry in improving structural and electrochemical stability, and offering insights into surface lattice reconstruction to enhance the practical viability of high‐energy lithium‐ion batteries.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 14.9,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/adfm.77686",
-        "cached": "img/W7202177904.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77686"
-      },
-      "summary_ko": "리튬 과잉 망간계(LRM) 양극을 인조흑연과 혼합·소결할 때 생기는 CO2 분위기가 표면 격자를 층상에서 스피넬형으로 전이시키는 기체유도 표면재구성(GSR) 전략을 제시. 산소 방출 관련 안정성 문제를 완화해 전기화학적 안정성을 개선한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7202194811",
-      "source": "openalex",
-      "title": "Decoding a Galvanic Corrosion-Driven Lithium Stripping Mechanism in Lithium-Free Anode Systems",
-      "url": "https://doi.org/10.1021/acsenergylett.6c00721",
-      "published": "2026-08-11",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1021/acsenergylett.6c00721",
-      "authors": [
-        "Shangshu Qian",
-        "Yikang Yu",
-        "Ming Zhao",
-        "Mingli Li",
-        "Le Yu",
-        "Yun Wang"
-      ],
-      "venue": "ACS Energy Letters",
-      "abstract_en": "Abstract Li-free lithium metal batteries (LFLMBs) increase cell-level energy density by eliminating excess lithium but remain sensitive to Coulombic efficiency (CE) losses. Here, we identify galvanic corrosion at the Li/Cu interface as an overlooked failure mechanism that distorts CE measurements and alters lithium stripping pathways, leading to inactive lithium accumulation. Using operando visualization, modeling, and DFT calculations, we show that corrosion-driven processes disrupt electronic connectivity and induce nonuniform stripping. We further demonstrate that maintaining percolating electronic pathways regulates lithium removal and reduces dead lithium formation. Because such conductive frameworks can be introduced through metallurgical or coating approaches, this work establishes a design principle for improving lithium reversibility in both Li-free and conventional lithium metal anodes.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 16.36,
-      "first_seen": "2026-08-14",
-      "image": null,
-      "summary_ko": "무리튬(Li-free) 리튬 금속 전지에서 Li/Cu 계면의 갈바닉 부식이 쿨롱 효율 측정을 왜곡하고 리튬 벗김(stripping) 경로를 바꿔 비활성 리튬을 축적시키는 간과된 실패 기구임을 규명. operando 관찰과 DFT로 전자 전도 경로 유지가 균일한 벗김을 돕는다는 점을 제시한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7202181200",
-      "source": "openalex",
-      "title": "Battery smart sensing via a virtual reference electrode",
-      "url": "https://doi.org/10.1038/s41467-026-76535-y",
-      "published": "2026-08-11",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1038/s41467-026-76535-y",
-      "authors": [
-        "Jiayi Yu",
-        "Aki Takahashi",
-        "Min-Ho Kim",
-        "Rishi Upadhyay",
-        "Howard Zhang",
-        "Tianyu Wang"
-      ],
-      "venue": "Nature Communications",
-      "abstract_en": "Abstract Battery safety is regulated by management systems that use current and cell voltage to define operating limits, but these signals can miss lithium metal plating. Negative electrode potential can reveal this failure mode, yet direct measurement requires an additional reference electrode that is difficult to implement in practical cells. Here, we introduce a virtual reference electrode that estimates negative electrode potential during battery operation without a physical reference electrode. Trained on measured negative electrode potentials from three-electrode cells, the model predicts this internal state using only signals available from two-electrode cells, with root-mean-squared and mean absolute errors of 0.023 and 0.018 volts, respectively. Electron microscopy validates the predicted transition between intercalation and lithium metal plating near the thermodynamic threshold. Integrated into adaptive charging, the virtual reference electrode adjusts current in response to predicted failure risk and extends cycle life by 8.25 times relative to a constant-current constant-voltage baseline under the tested low negative-to-positive capacity ratio. More broadly, this framework may enable virtual sensing of internal battery states without changing battery chemistry or architecture.",
-      "oa_status": "gold",
-      "oa_url": "https://www.nature.com/articles/s41467-026-76535-y_reference.pdf",
-      "license": "cc-by",
-      "journal_id": null,
-      "journal_metric": 16.94,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76535-y/MediaObjects/41467_2026_76535_Fig1_HTML.png",
-        "cached": "img/W7202181200.jpg",
-        "license": "cc-by",
-        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76535-y"
-      },
-      "summary_ko": "물리적 기준전극 없이 음극 전위를 추정하는 '가상 기준전극'을 제안해, 기존 BMS가 놓치는 리튬 금속 도금을 운전 중 감지. 3전극 셀 데이터로 학습한 모델이 가용 신호만으로 내부 상태(음극 전위)를 예측한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7202073084",
-      "source": "openalex",
-      "title": "Unlocking the Potential of Sparingly Soluble LiNO 3 in Carbonate Electrolytes With Pyridine as a Carrier Cosolvent for 450 Wh Kg −1 High‐Voltage Lithium Metal Batteries",
-      "url": "https://doi.org/10.1002/anie.6581071",
-      "published": "2026-08-10",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/anie.6581071",
-      "authors": [
-        "Fulu Chu",
-        "Zehao An",
-        "Junwei Meng",
-        "Chilin Li",
-        "Changzhou Yuan",
-        "Feixiang Wu"
+        "Yixin Lin",
+        "Tiansheng Wang",
+        "Chaochao Gao",
+        "Jie Xu",
+        "Jiawen Chen",
+        "Zixi Lin"
       ],
       "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT LiNO 3 is a highly effective electrolyte additive for ether‐based lithium metal batteries, but its extremely poor solubility in carbonate electrolytes has long restricted its application in high‐voltage high‐energy‐density systems. In this study, we develop a pyridine carrier cosolvent strategy to efficiently dissolve LiNO 3 in carbonate electrolytes. Pyridine coordinates with Li + to enter the solvation shell, weakening Li + ‐carbonate interactions to promote LiNO 3 dissolution and enable NO 3 − participation in interphase formation. The coordination effect also suppresses the intrinsic high reactivity of pyridine, realizing its controllable interfacial decomposition. The synergistic decomposition of pyridine and LiNO 3 constructs compact, inorganic‐dominated, rigid‐flexible interpenetrating electrode‐electrolyte interphases rich in Li 3 N, LiN x O y , and LiF with high mechanical strength. Benefiting from the optimized interphases, Li||Cu cells deliver a Coulombic efficiency (CE) of 97.3% at 2 mA cm −2 , and 4.5 V Li||NCM90 cells show outstanding cycling stability under practical thin‐lithium and lean‐electrolyte conditions. Remarkably, 5.6 Ah pouch cells achieve an energy density up to 453 Wh kg −1 with 95.5% capacity retention after 50 cycles. This work offers a facile approach for utilizing sparingly soluble functional additives and promotes the development of high‐voltage, high‐energy‐density lithium metal batteries.",
+      "abstract_en": "ABSTRACT With the rapid expansion of lithium–ion battery deployment, spent LiFePO 4 (LFP) regeneration is vital for closing material loops. However, in conventional solid‐state regeneration, limited solid–solid contact and the premature formation of a dense conductive carbon layer hinder the effective coordination of lithium replenishment, structural defect repair, and interfacial reconstruction, thereby limiting lithium utilization efficiency and structural restoration. This paper presents a self‐assembled supramolecular (SAS) regeneration system spontaneously formed from trithiocyanuric acid (TMT) and lithium acetate (CH 3 COOLi). Through Li–S coordination and hydrogen‐bonding interactions, the precursor self‐assembles into an ordered supramolecular architecture that regulates the thermal evolution of the solid‐state regeneration process. Unlike the independent thermal decomposition of mechanically mixed precursors in conventional solid‐state regeneration, the ordered supramolecular architecture regulates the reaction sequence, enabling lithium to preferentially enter the LiFePO 4 lattice before the formation of a dense conductive carbon layer, thereby achieving efficient lithium replenishment and structural restoration. Subsequently, an in situ generated N/S co‐doped conductive carbon layer elevates interfacial conductivity of regenerated LFP. The regenerated cathode delivers 160.3 mAh g − 1 (0.1 C) and 143.0 mAh g − 1 (1 C), maintaining 88% capacity over 500 cycles at 1 C, while the pouch cell exhibits 81% capacity retention after 500 cycles at 0.5 C.",
       "oa_status": "closed",
       "oa_url": null,
       "license": null,
-      "journal_id": null,
+      "journal_id": "S67393510",
       "journal_metric": 14.89,
-      "first_seen": "2026-08-14",
+      "first_seen": "2026-08-19",
       "image": {
-        "src": "https://doi.org/10.1002/anie.6581071",
-        "cached": "img/W7202073084.jpg",
+        "src": "https://doi.org/10.1002/anie.4146793",
+        "cached": "img/W7203477050.jpg",
         "tdm": true,
         "license": null,
-        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6581071"
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4146793"
       },
-      "summary_ko": "카보네이트 전해질에 잘 녹지 않는 LiNO3를 피리딘 운반 공용매로 용해시키는 전략을 개발. 피리딘이 Li+ 용매화 껍질에 들어가 Li+–카보네이트 상호작용을 약화, LiNO3 용해와 NO3−의 계면상 형성 참여를 유도해 450 Wh/kg급 고전압 리튬 금속 전지를 구현한다.",
+      "summary_ko": "폐 LiFePO4(LFP) 양극재의 고체상 직접 재생 과정에서 발생하는 불균일한 리튬 공급과 조기 탄소층 형성 문제를 해결하기 위해 트리티오시아누르산(TMT)과 리튬 아세테이트 기반의 초분자 자가조립(SAS) 전구체 시스템을 개발했습니다. 이 규칙적인 초분자 구조는 열분해 반응 경로를 제어하여 치밀한 탄소층이 형성되기 전 리튬이 LFP 격자 내로 우선 진입하도록 유도해 결함을 효율적으로 복원합니다. 또한 인시튜로 형성된 N/S 공도핑 전도성 탄소 코팅층을 통해 계면 전도성을 높임으로써, 재생된 LFP 양극은 1 C에서 500사이클 후 88%의 우수한 용량 유지율을 달성했습니다.",
       "relevant": true
     },
     {
-      "id": "W7202075942",
+      "id": "W7203488753",
       "source": "openalex",
-      "title": "Holistic Inside‐Out Reconfiguration of Ni‐Rich Cathodes via a Thermally Self‐Driven Strategy for Exceptional Chemomechanical Stability",
-      "url": "https://doi.org/10.1002/adma.74572",
-      "published": "2026-08-10",
+      "title": "Reinforcing Particle Architectural Stability of Li‐Rich Cathode With Enhanced Anionic Redox Reaction Reversibility",
+      "url": "https://doi.org/10.1002/anie.6490997",
+      "published": "2026-08-14",
       "topics": [
-        "ncm"
+        "li-rich"
       ],
-      "doi": "10.1002/adma.74572",
+      "doi": "10.1002/anie.6490997",
       "authors": [
-        "Haixia Yu",
-        "Shucheng Xu",
-        "Hongyuan Song",
-        "Guihuan Chen",
-        "Ying Jiang",
-        "ZhongHan Song"
+        "Yizhen Huang",
+        "Bixian Ying",
+        "Chunpu Li",
+        "Maolin Yang",
+        "Kang Zhang",
+        "Guifan Zeng"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium‐rich layered oxides (LRLOs) promise exceptional energy densities (∼1000 Wh kg −1 ) but suffer from coupled structural and chemical instabilities that impede their commercialization. While atomic scale regulation of anionic redox reaction (ARR) reversibility has been extensively explored, the mesoscale architectural degradation, which is exacerbated by detrimental porous structures inherited from precursors, remains critical yet overlooked. Herein, a cross‐scale synergistic strategy was introduced to simultaneously reinforce the mesoscale particle architecture and stabilize the atomic‐scale charge compensation in LRLOs. By incorporating fluorine to modulate the local electronic environment, the surface energy of the active (010) facets is selectively lowered, driving a profound morphological transformation of primary particles from plate‐like to equiaxed. This thermodynamic reconstruction effectively disrupts the adverse precursor‐inherited porosity, yielding highly compact secondary particles with accelerated Li + diffusion kinetics. Simultaneously, at the atomic scale, the strengthened transition metal‐oxygen (TM‐O) covalency suppresses excessive oxygen activation, thereby enhancing reversibility of the ARR. Benefiting from this synergistic architectural and chemical modulation, the cathode exhibits a 6.8% increase in Coulombic efficiency and delivers exceptional long‐term stability with capacity retention of 88.8% after 950 cycles. For Ah‐level full cells, 96.3% of reversible capacity after 1500 cycles under high‐voltage is achieved.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/anie.6490997",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6490997",
+        "cached": "img/W7203488753.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6490997"
+      },
+      "summary_ko": "리튬 과잉 층상계 양극(LRLO)의 중간 규모(mesoscale) 입자 구조 붕괴와 원자 규모의 화학적 불안정성을 해결하기 위한 불소 도핑 기반 크로스스케일 시너지 전략이 제시되었습니다. 불소 도입을 통해 (010) 결정면의 표면 에너지를 낮춰 1차 입자를 등축형(equiaxed)으로 유도함으로써 다공성을 줄이고 치밀한 2차 입자를 형성해 리튬 이온 확산 속도를 개선했습니다. 아울러 전이금속-산소(TM-O) 공유결합성을 강화해 과도한 산소 활성화를 억제하고 음이온 산화환원 가역성을 높여 950사이클 후 88.8%의 용량 유지율 및 Ah급 풀셀에서 1500사이클 후 96.3%의 높은 고전압 수명 특성을 달성했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202396206",
+      "source": "openalex",
+      "title": "Reconciling strong coordination and anion-reinforced solvation structure enables nonflammable electrolytes for potassium-ion batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76791-y",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76791-y",
+      "authors": [
+        "Jie Wen",
+        "Maoting Xia",
+        "Hongwei Fu",
+        "Wang Lyu",
+        "Ling Fan",
+        "Jiawan Zhou"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Nonflammable electrolytes are pivotal for improving the safety of potassium-ion batteries. However, their broad adoption has been hindered by the inadequate electrode compatibility of conventional nonflammable electrolytes, which typically result from strong solvation and excessive free solvent molecules. Here, we employ a molecular design strategy that integrates strong coordination capability with anion-reinforced solvation structure, thereby enabling the effective deployment of nonflammable phosphate solvents. By incorporating lengthened functionalized side-chains into the phosphate backbone, the tailored molecule tri(2-butoxyethyl) phosphate achieves robust multi-site chelation via synergistic interactions between the ether oxygen (C-O-C) and the phosphoryl (P=O) groups. Concurrently, its large molecular structure effectively increases the anion-to-solvent ratio in the electrolyte, promoting the formation of stable electrode-electrolyte interphases, and resulting in high compatibility with both the negative and positive electrodes. Consequently, the optimized tri(2-butoxyethyl) phosphate-based electrolyte enables stable cycling of graphite negative electrode (92.7% capacity retention after 800 cycles at 100 mA g−1) and Prussian blue positive electrode (4.2 V, 88.6% capacity retention after 3200 cycles at 100 mA g−1). Furthermore, the assembled graphite||Prussian blue full cell also maintains 80.3% capacity retention after 1500 cycles at 500 mA g−1. This work provides a strategy for electrolyte design in potassium-ion batteries. Nonflammable electrolytes are key to safe potassium-ion batteries but suffer from poor electrode compatibility. Here, authors design a phosphate molecule with long side-chains enabling strong chelation and anion-reinforced solvation, leading to high electrode compatibility.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76791-y_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76791-y/MediaObjects/41467_2026_76791_Fig1_HTML.png",
+        "cached": "img/W7202396206.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76791-y"
+      },
+      "summary_ko": "이 연구는 강한 배위 능력과 음이온이 강화된 용매화 구조를 결합한 분자 설계로 칼륨이온전지용 난연성 전해질을 개발했다. 인산염 골격에 긴 사슬을 도입한 tri(2-butoxyethyl) phosphate는 에테르 산소와 인산기의 협동 배위로 다중 자리 킬레이션을 이루고, 분자 크기가 커 전해질 내 음이온 대 용매 비율을 높여 안정적인 전극-전해질 계면을 형성한다. 이를 통해 흑연 음극과 프러시안 블루 양극 모두에서 높은 사이클 안정성을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203442996",
+      "source": "openalex",
+      "title": "Quantifying the Correlation Between Capacity Utilization and Electrolyte Dosage for Ultrahigh‐Energy‐Density 769 Wh Kg −1 Rechargeable Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.74644",
+      "published": "2026-08-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.74644",
+      "authors": [
+        "Shuo Zhang",
+        "Yuyang Lu",
+        "Chong Yan",
+        "Xiangbiao Liao",
+        "Chen‐Zi Zhao",
+        "Junwei Zhao"
       ],
       "venue": "Advanced Materials",
-      "abstract_en": "ABSTRACT Ni‐rich layered oxides (LiNi x Co y Mn 1− x − y O 2 , x ≥ 0.8) are indispensable for high‐energy‐density lithium‐ion batteries, yet they suffer from severe chemomechanical degradation driven by the synergy of internal microcracking and interfacial parasitic side reactions. Existing strategies inherently suffer from decoupled regulation of mechanical and chemical instabilities that fail to address these issues holistically. Here, we develop an inside‐out structural reconfiguration strategy driven by the thermal decomposition of nitrates, concurrently tailoring the core, bulk, and surface of NCM811 in a single calcination step. This reconstruction generates a stress‐buffering central pore architecture that effectively homogenizes anisotropic lattice strain and suppresses crack nucleation. Concurrently, the regulated Nd 3+ diffusion forms a coherent Nd 4 [LiNi]O 8 (NLNO) perovskite phase within the bulk lattice, creating a pinning effect that stabilizes the layered framework and enhances charge transport. Furthermore, excess Nd‐species evolve into a conformal NLNO surface coating, acting as a physical barrier and oxygen reservoir to resist electrolyte attack and oxygen evolution. The modified cathode delivers an exceptional capacity retention (95.7% after 200 cycles at 4.5 V) and exceptional rate capability (157.1 mAh g −1 at 5 C). Even under stringent conditions (4.6 V or 45°C), a superior retention of 87.8% is maintained after 200 cycles, demonstrating remarkable chemomechanical robustness.",
+      "abstract_en": "ABSTRACT The pursuit of high‐energy‐density lithium metal batteries requires simultaneous optimization of electrode architecture, electrolyte formulation, and interfacial stability. Here, we establish a fundamental parameter g(σ e , D e ) that quantifies the relationship between electrolyte dosage and capacity utilization in ultra‐thick electrodes (>100.0 µm), enabling precise determination of the minimal electrolyte requirement (1.1 g Ah −1 ). Through systematic investigation of electrolyte compatibility with high‐loading cathodes (> 10.0 mAh cm −2 ) at high voltages (4.8 V), we develop an optimized formulation that forms stable interfaces while suppressing parasitic reactions. By integrating these advances—including a lightweight lithium metal anode—we demonstrate a 54.2 Ah pouch cell achieving 769 Wh kg −1 , representing a 150% improvement over conventional lithium‐ion batteries. This work provides both theoretical and practical frameworks for engineering next‐generation batteries through electrolyte minimization and interface stabilization.",
       "oa_status": "closed",
       "oa_url": null,
       "license": null,
       "journal_id": null,
       "journal_metric": 22.01,
-      "first_seen": "2026-08-14",
+      "first_seen": "2026-08-18",
       "image": {
-        "src": "https://doi.org/10.1002/adma.74572",
-        "cached": "img/W7202075942.jpg",
+        "src": "https://doi.org/10.1002/adma.74644",
+        "cached": "img/W7203442996.jpg",
         "tdm": true,
         "license": null,
-        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74572"
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74644"
       },
-      "summary_ko": "질산염의 열분해를 이용해 한 번의 소성으로 NCM811의 코어·벌크·표면을 동시에 재구성하는 inside-out 전략을 제시. 내부 미세균열과 계면 부반응을 개별이 아닌 통합적으로 제어해 화학기계적 안정성을 크게 향상한다.",
+      "summary_ko": "초후막 전극에서 전해액 주입량과 용량 활용률 간의 상관관계를 정량화하는 파라미터 g(σ_e, D_e)를 수립하여 최소 전해액 요구량(1.1 g Ah⁻¹)을 도출했습니다. 4.8 V 고전압 및 10.0 mAh cm⁻² 이상의 고로딩 양극 조건에서 부반응을 억제하고 안정한 계면을 형성하는 전해액 포뮬레이션을 최적화했습니다. 이를 경량 리튬 금속 음극과 결합하여 769 Wh kg⁻¹의 초고에너지밀도를 달성하는 54.2 Ah 파우치 셀을 구현했습니다.",
       "relevant": true
     },
     {
-      "id": "W7202122563",
+      "id": "W7203474255",
       "source": "openalex",
-      "title": "Hierarchical Primary‐Secondary Coordination Synchronizes Ion Flux and Sulfur Redox in Solid Polymer Electrolytes",
-      "url": "https://doi.org/10.1002/adfm.77192",
-      "published": "2026-08-10",
-      "topics": [
-        "li-metal",
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.77192",
+      "title": "Modulating molecular and electronic structures of organic material through an electron-rich heterocyclic polymer strategy for high-performance anodic lithium storage",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112310",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112310",
       "authors": [
-        "Zhong‐Wei Zheng",
-        "Jingyu Li",
-        "Meng‐Che Tsai",
-        "Tsung‐I. Yeh",
-        "Wei-Ming Huang",
-        "Mohamed Gamal Mohamed"
+        "Cheng-Hao Lin",
+        "Tianfu Li",
+        "Hui-Min TONG",
+        "Jia-Wen Li",
+        "Xiu-Mei Lin",
+        "Ping Gao"
       ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium‐sulfur (Li‐S) batteries suffer from transport‐conversion imbalance, leading to concentration polarization, incomplete sulfur reduction, and unstable Li metal interfaces. Here, a coordination‐engineered polymer electrolyte with a hierarchical primary‐secondary Li + coordination architecture is developed to synchronize ion transport and sulfur redox kinetics. A CO 2 ‐derived poly(propylene carbonate)‐based ionic framework integrates crown ether primary coordination sites with distributed carbonate secondary motifs, promoting Li salt dissociation while sustaining dynamic Li + migration. Spectroscopic and electrochemical analyses reveal redistributed Li + solvation, weakened Li + ‐TFSI − association, and enhanced ionic conductivity on the order of 10 −4 S cm −1 , and a Li + transference number of 0.45 at 60°C. The synchronized Li + flux suppresses concentration polarization and stabilizes sulfur conversion and Li deposition. Solid‐state Li‐S cells with a sulfur loading of ≈2.0 mg cm − 2 deliver an initial discharge capacity of 766 mAh g − 1 and maintain ≈60% capacity retention during cycling at 0.1 C under liquid‐electrolyte‐free conditions. This work establishes hierarchical coordination engineering as a molecular strategy for coupling ion transport with redox conversion in solid‐state battery systems.",
-      "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1002/adfm.77192",
-      "license": "cc-by",
-      "journal_id": null,
-      "journal_metric": 14.9,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/adfm.77192",
-        "cached": "img/W7202122563.jpg",
-        "tdm": true,
-        "license": "cc-by",
-        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77192"
-      },
-      "summary_ko": "Li-S 전지의 수송-전환 불균형을 해소하기 위해 1차·2차 Li+ 배위를 계층화한 고분자전해질을 설계. PPC 기반 골격에 크라운에터 1차 배위와 카보네이트 2차 배위를 결합해 염 해리와 Li+ 이동을 촉진하고 리튬 금속 계면과 황 산화환원 속도를 동기화한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201967397",
-      "source": "openalex",
-      "title": "Resolving the Mechano‐Electrochemical Dilemma in Structural Batteries via In Situ Entropy Engineering",
-      "url": "https://doi.org/10.1002/aenm.71423",
-      "published": "2026-08-08",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1002/aenm.71423",
-      "authors": [
-        "Haiqi Zhang",
-        "Zhanlin Feng",
-        "Weiye He",
-        "Jinrui Ye"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT Structural batteries (SBs) offer a revolutionary approach to massless energy storage, but suffer from severe capacity degradation and mechanical failure due to coupled electrochemical and mechanical stresses, particularly when employing high‐energy layered cathodes. Herein, an in situ entropy engineering strategy is pioneered to construct a highly robust, nickel‐rich structural cathode (SC). Multi‐element co‐doping induces a strong lattice pinning effect, which thermodynamically suppresses lattice oxygen escape and intrinsically mitigates internal anisotropic strain during continuous lithiation/delithiation. Integrated onto carbon fiber current collectors, the resulting SBs exhibit an exceptional balance of energy and load‐bearing metrics. They deliver a superior specific capacity of 122.34 mAh g − 1 at 0.3C with 82.25% capacity retention over 200 cycles, significantly outperforming conventional NCM811 benchmarks. Furthermore, the SBs withstand macroscopic external stresses, yielding a tensile strength of 206.05 MPa and a flexural strength of 122.35 MPa, while demonstrating near‐zero capacity degradation under sustained static in situ mechanical loads. Experimental and theoretical insights jointly confirm that entropy‐driven lattice stabilization bridges the critical gap between high energy density and mechanical robustness, propelling the practical development of massless energy storage.",
+      "venue": "Nano Energy",
+      "abstract_en": null,
       "oa_status": "closed",
       "oa_url": null,
       "license": null,
-      "journal_id": null,
-      "journal_metric": 18.74,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/aenm.71423",
-        "cached": "img/W7201967397.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71423"
-      },
-      "summary_ko": "구조전지(massless 에너지저장)용 고니켈 양극에 in situ 엔트로피 공학(다원소 공도핑)을 적용해 격자 고정 효과로 산소 이탈과 이방성 변형을 억제. 전기화학·기계 응력이 결합된 구조전지의 용량·기계 열화를 완화한다.",
-      "relevant": true
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "전자가 풍부한 헤테로고리 고분자 전략을 통해 유기 소재의 분자 및 전자 구조를 조절하여 고성능 리튬 저장 음극 재료로 활용하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
-      "id": "W7201979591",
+      "id": "W7203453822",
       "source": "openalex",
-      "title": "Regulating Solvation Chemistry via Strongly Coordinating Anion and Weakly Solvating Cosolvent for Low‐Temperature Sodium Metal Batteries",
-      "url": "https://doi.org/10.1002/anie.2602693",
-      "published": "2026-08-08",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/anie.2602693",
-      "authors": [
-        "G. Yu",
-        "Qian Yang",
-        "Tongtong Huo",
-        "Mingyue Li",
-        "Xuejie Bai",
-        "Xiaobo Zhang"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Sodium metal batteries (SMBs) hold great promise for next‐generation energy storage systems due to their abundant sodium resources, high theoretical specific capacity, and low redox potential. However, they suffer from rapid capacity degradation at low operating temperatures, which inevitably hinders their practical application. In this work, we employ a strongly coordinating anion and a weakly solvating cosolvent to fabricate anion‐rich and varied solvation structures, aiming to enhance the low‐temperature electrochemical performance of SMBs. This unique solvation configuration efficiently reduces the Na + desolvation energy barrier, alleviates concentration polarization, accelerates liquid‐phase ion transport, and facilitates the in‐situ formation of a stable, highly ion‐conductive electrode‐electrolyte interphase. Benefiting from the synergistic regulation of interfacial stability and ion transport kinetics, dendrite‐free sodium deposition is achieved at −20°C, enabling stable cycling for over 500 h at 0.5 mA cm −2 and 0.5 mAh cm −2 . Additionally, the assembled SMBs exhibit excellent rate performance and cycling stability, delivering a high capacity retention of 70.54% and 68.28% after 1000 cycles at −20°C and −40°C, respectively. This work provides a novel perspective for the rational design of advanced electrolytes for high‐performance low‐temperature SMBs and lays a solid foundation for their practical application in cold environments.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 14.89,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/anie.2602693",
-        "cached": "img/W7201979591.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2602693"
-      },
-      "summary_ko": "강배위 음이온과 약용매화 공용매로 음이온이 풍부한 다양한 용매화 구조를 만들어 저온 소듐 금속 전지 성능을 개선. Na+ 탈용매화 에너지 장벽을 낮춰 저온 전기화학 성능을 높인다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201958772",
-      "source": "openalex",
-      "title": "Reflex Charging for Anion‐Derived Solid Electrolyte Interphase Formation",
-      "url": "https://doi.org/10.1002/anie.4035251",
-      "published": "2026-08-08",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/anie.4035251",
-      "authors": [
-        "Gyeoul Seong",
-        "Min-Gyun Kim",
-        "E. Jung",
-        "Yerin Kang",
-        "Hong-I Kim",
-        "Kwon‐Hyung Lee"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Lithium (Li) metal offers exceptional energy density but suffers from unstable interphases that lead to dendrite growth and poor reversibility. Because the interphase is established during the earliest stages of operation, controlling its formation is critical for stabilizing Li metal electrodes. Here, we demonstrate that a reflex charging strategy, in which short discharge pulses are introduced during charging, dynamically reprograms the interfacial environment. This approach sustains anion enrichment near the electrode surface and shifts Li + solvation from solvent‐dominated structures toward anion‐coordinated structures, thereby promoting the formation of an inorganic‐rich interphase. The resulting interphase reduces interfacial resistance and enables dense and uniform Li deposition. Consequently, the reflex charging‐based formation protocol exhibits markedly improved Li deposition/stripping reversibility, and greater resistance to degradation during cycling and calendar aging. In full cells paired with LiFePO 4 (LFP) cathodes, the system retains 73% capacity after 500 cycles, demonstrating practical performance benefits. These findings establish formation protocol as an effective operation‐driven lever for controlling interfacial chemistry, offering a practical route that complements conventional materials‐based strategies for stabilizing Li metal batteries (LMBs).",
-      "oa_status": "hybrid",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4035251",
-      "license": "cc-by",
-      "journal_id": null,
-      "journal_metric": 14.89,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/anie.4035251",
-        "cached": "img/W7201958772.jpg",
-        "tdm": true,
-        "license": "cc-by",
-        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4035251"
-      },
-      "summary_ko": "충전 중 짧은 방전 펄스를 넣는 'reflex charging' 전략으로 계면 환경을 동적으로 재프로그래밍. 전극 표면의 음이온 농축을 유지해 Li+ 용매화를 음이온 배위형으로 이동시켜 안정한 SEI 형성과 덴드라이트 억제를 유도한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201971912",
-      "source": "openalex",
-      "title": "3D Micro‐Network Li/Al 4 Li 9 Composite Anodes Constructed by One‐Step Melt‐Spinning for High Energy Density Lithium Metal Batteries",
-      "url": "https://doi.org/10.1002/aenm.71402",
-      "published": "2026-08-08",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/aenm.71402",
-      "authors": [
-        "Chenxing Wang",
-        "Yanxia Liu",
-        "W. J. Liu",
-        "Mingdong Du",
-        "Mingyu Shi",
-        "Mingchang Zhang"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT Lithium‐metal anodes are hindered by inhomogeneous lithium plating/stripping, interfacial side reactions, and volume expansion. The lithium alloy anodes are considered an effective strategy to resolve these problems, but they suffer from structural degradation during cycling. Herein, a 3D micro‐network Li/Al 4 Li 9 composite anode is fabricated via one‐step melt‐spinning. The microstructure evolution of the alloy ribbons is studied systematically by tuning the cooling conditions. Ultimately, a uniform Li/Al 4 Li 9 composite anode with a 3D micro‐network is achieved at a copper roller speed of 2200 rpm. The intrinsic Li/Al 4 Li 9 composite anode structure provides synergistic functions: first, the interconnected micro‐network provides continuous electron/ion transport pathways and abundant reaction interfaces, which lowers the nucleation barrier and uniform lithium plating/stripping; second, the Li/Al 4 Li 9 composite anode with Al 4 Li 9 skeleton shows high Young's modulus, which buffers volume expansion and uniform stress distribution. In situ optical microscopy and post‐cycling SEM images confirm the Li/Al 4 Li 9 composite anode exhibits excellent mitigate structural degradation ability. The Li/Al 4 Li 9 ||Li/Al 4 Li 9 cells in ether‐based electrolyte demonstrate stable cycling for 1600 h at 1 mA cm − 2 , 1 mAh cm − 2 , and Li/Al 4 Li 9 ||LiFePO 4 cells in carbonate‐based electrolyte retain 81.7% capacity after 204 cycles at 0.5 C. Impressively, the Li/Al 4 Li 9 composite anode is a promising anode for high‐energy‐density lithium metal batteries.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 18.74,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/aenm.71402",
-        "cached": "img/W7201971912.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71402"
-      },
-      "summary_ko": "1단계 용융방사로 3D 마이크로네트워크 Li/Al4Li9 복합 음극을 제작. 냉각 조건(구리 롤러 2200 rpm)으로 미세구조를 제어해 균일한 도금/벗김을 유도하고 고에너지밀도 리튬 금속 전지의 구조 열화를 완화한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201867313",
-      "source": "openalex",
-      "title": "Synergistic Bulk‐Surface Modulation Stabilizing LiCoO 2 at 4.65 V via Zr‐Pillaring and In Situ Lattice‐Matching Engineering",
-      "url": "https://doi.org/10.1002/anie.3474461",
-      "published": "2026-08-07",
+      "title": "Liquid-phase synthesis of a series of superionic sulfide electrolytes for all-solid-state lithium-sulfur battery",
+      "url": "https://doi.org/10.1038/s41467-026-76953-y",
+      "published": "2026-08-14",
       "topics": [
         "other-cathode"
       ],
-      "doi": "10.1002/anie.3474461",
+      "doi": "10.1038/s41467-026-76953-y",
       "authors": [
-        "Guanming Yang",
-        "Jianhang Cui",
-        "Bingwu Zhou",
-        "Xin Meng",
-        "Yun Zhao",
-        "Wenglam Wong"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Lithium cobalt oxide (LiCoO 2 , LCO) is a critical cathode material for high‐energy‐density lithium‐ion batteries, yet its application above 4.55 V (vs. Li/Li + ) is severely limited by structural degradation via the O3→H1‐3 phase transition, lattice oxygen loss, and cobalt dissolution. Here, we report a synergistic bulk‐surface modification strategy combining Zr‐pillaring (LZCO) with in situ LiCoPO 4 coating (LZCO@P) to stabilize LCO at 4.65 V. Zr‐pillaring stabilizes the lattice and suppresses phase transition by expanding the O 2p‐Co 3d band gap, as suggested by density functional theory (DFT), to mitigate oxygen redox activity. Lattice‐matched interfacial engineering between LZCO and LiCoPO 4 coating results from interfacial P–O tetrahedral formation, which enhances mechanical adhesion and reduces oxygen surface reactivity of LZCO. Consequently, LZCO@P achieves 80.8% capacity retention after 1000 cycles at 1 C (3.5–4.65 V) and 91.2% after 1000 cycles at 3 C (3.5–4.65 V). A practical Li||LZCO@P pouch cell retains 92.3% capacity after 160 cycles at 1 C (3.0–4.6 V). The synergistic bulk‐surface modification strategy contributes through different mechanisms and comprehensively improves the cycling stability of LZCO@P at 4.65 V.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 14.89,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/anie.3474461",
-        "cached": "img/W7201867313.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3474461"
-      },
-      "summary_ko": "LiCoO2(LCO)를 Zr 필라링과 in situ LiCoPO4 코팅으로 4.65V까지 안정화(O3→H1-3 전이·격자 산소 손실·Co 용출 억제). 대상이 LCO 고전압 양극이라 'Li-rich(리튬 과잉) 양극' 주제와는 무관해 관련성 게이트에서 제외.",
-      "relevant": true
-    },
-    {
-      "id": "W7201851454",
-      "source": "openalex",
-      "title": "Oxygen‐Vacancy‐Rich Interlayers Trigger Lithium Metal Anodes With Extended Cycling Life",
-      "url": "https://doi.org/10.1002/adfm.77578",
-      "published": "2026-08-07",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/adfm.77578",
-      "authors": [
-        "Wenhao Li",
-        "Kecheng Long",
-        "Wen Pan",
-        "Shaozhen Huang",
-        "Antai Zhu",
-        "Jiahua Liao"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium metal anodes hold great promise for next‐generation high‐energy‐density batteries owing to their ultrahigh capacity and low electrochemical potential, yet their deployment is plagued by dendritic growth and unstable SEI. Herein, we construct an oxygen‐vacancy‐rich interlayer, consisting of antimony tin oxide (ATO) at the top surface and Li─Sn/Li─Sb/Li 2 O phases at the bottom surface, on the lithium anode by coating plasma treated ATO. With unreacted ATO providing rich oxygen vacancies at the top surface, the interlayers can facilitate lithium‐salt dissociation and accelerate anion decomposition at the initial cycle, yielding robust LiF‐rich SEI layers. Subsequently, the progressive lithiation of the remaining ATO results in the formation of Li 22 Sn 5 , Li 3 Sb, and Li 2 O phases. These phases act as a lithophilic interlayer, which homogenizes lithium nucleation and reduces nucleation overpotential during cycling. Benefiting from the hybrid interface design, Li@ATO symmetric cells stably operate for over 3000 h at 3 mA cm −2 and 3 mAh cm −2 , and a 400 Wh/kg Li@ATO‖NCM811 pouch cell cycles more than 130 cycles. This work highlights oxygen‐vacancy engineering as a key strategy to simultaneously regulate the SEI components, providing a new pathway toward practical high‐energy‐density lithium metal batteries.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 14.9,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/adfm.77578",
-        "cached": "img/W7201851454.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77578"
-      },
-      "summary_ko": "플라즈마 처리한 ATO를 코팅해 상부 ATO(산소공공 풍부)와 하부 Li-Sn/Li-Sb/Li2O로 구성된 산소공공 풍부 계면층을 리튬 음극에 구축. 초기 사이클에 리튬염 해리와 음이온 분해를 촉진해 SEI를 안정화하고 리튬 금속 음극의 수명을 연장한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201860151",
-      "source": "openalex",
-      "title": "Indium Oxychloride as Current Collector Modifier for Limited‐Sodium Metal Batteries",
-      "url": "https://doi.org/10.1002/adfm.77554",
-      "published": "2026-08-07",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/adfm.77554",
-      "authors": [
-        "Nilesh Pande",
-        "Shruti Suriyakumar",
-        "Sweta Das",
-        "Hemant Kumar",
-        "Manikoth M. Shaijumon"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Alkali metals attract considerable interest as anodes for high‐energy‐density batteries due to their high theoretical capacity and low electrochemical potential. However, their practical implementation remains limited by the uncontrolled growth of metallic dendrites and the formation of unstable solid electrolyte interphase (SEI) layers during cycling, resulting in poor Coulombic efficiency and short lifespan. Herein, we address these issues in sodium metal batteries through a simple yet effective surface modification using an indium oxychloride coating on the current collector. Our experimental results demonstrate the formation of an artificial SEI hybrid layer composed of NaIn and sodium oxychloride (Na 3 OCl). This hybrid layer combines enhanced ion diffusion, improved interfacial stability, and space charge regulation to enable uniform dendrite‐free sodium deposition. Density functional theory (DFT) calculations further support the superior role of oxychloride chemistry over conventional alloy‐based modification approaches like NaIn, particularly in promoting horizontal plating and suppressing dendrite formation. We further provide clear evidence for our hypothesis using in situ optical microscopy studies, fabricating custom‐designed cells to directly monitor sodium deposition and interfacial evolution during cycling. The modified limited‐sodium anode exhibits ultra‐low polarization (25 mV) and achieves highly reversible plating/stripping for 2100 h at 1 mAh cm −2 in an ether‐based electrolyte, significantly outperforming anode with sodium plated on a pristine Cu current collector, which cycles only for 50 h. The surface‐modified anode shows high reversibility even at high current densities of 12 mA cm −2 . In full‐cell configuration with a Na 3 V 2 (PO 4 ) 3 (NVP) cathode, the system delivers capacities of 107 mAh g −1 at 0.1 C and 90 mAh g −1 at 5 C, while retaining 90.2% of its capacity over 900 cycles at 1 C rate, offering 99.1% Coulombic efficiency. This work showcases the potential of oxychloride‐based interface engineering in enabling safe and high‐performance limited‐sodium metal batteries, paving the way for next‐generation energy storage technologies.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": 14.9,
-      "first_seen": "2026-08-14",
-      "image": {
-        "src": "https://doi.org/10.1002/adfm.77554",
-        "cached": "img/W7201860151.jpg",
-        "tdm": true,
-        "license": null,
-        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77554"
-      },
-      "summary_ko": "집전체에 인듐 옥시클로라이드 코팅을 도입해 제한된 소듐(limited-Na) 금속 전지의 덴드라이트 성장과 불안정 SEI 문제를 완화. 간단한 표면 개질로 균일한 Na 도금과 쿨롱 효율을 개선한다.",
-      "relevant": true
-    },
-    {
-      "id": "W7201844265",
-      "source": "openalex",
-      "title": "Facile mechanical refinement of sulfide solid electrolytes for stable all-solid-state Li metal batteries",
-      "url": "https://doi.org/10.1038/s41467-026-76505-4",
-      "published": "2026-08-07",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1038/s41467-026-76505-4",
-      "authors": [
-        "Juner Kuang",
+        "Minkang Wang",
         "Han Su",
-        "Jiaqi Zhu",
+        "Juner Kuang",
         "Yu Zhong",
         "Xiuli Wang",
         "Jiangping Tu"
       ],
       "venue": "Nature Communications",
-      "abstract_en": "All-solid-state lithium metal batteries offer high energy density and enhanced safety, yet mechanical instability at both positive electrode/solid electrolyte and Li metal/solid electrolyte interfaces severely limits cycling stability and rate performance, particularly at a low stacking pressure. Here, we report a facile, industry-compatible strategy to refine polycrystalline Li5.5PS4.5Cl1.5 grains using Al4C3 abrasives. The resulting Al4C3-engineered Li5.5PS4.5Cl1.5 exhibits reduced average particle size and a narrowed size distribution. The refined electrolyte grains enable a high relative density in both anolytes and composite positive electrodes. Beyond particle refinement, Al4C3 in the anolyte stabilizes the Li/electrolyte interface through its high modulus, low electronic conductivity, and favorable interfacial mechanics, enabling a high critical current density/capacity of 3.2 mA cm‒2/3.2 mAh cm−2. Leveraging our designed electrolyte as both anolyte and catholyte, the all-solid-state lithium metal batteries demonstrate stable cycling performance under a low stack pressure of 4 MPa and a positive electrode loading of 1.4 mAh cm−2, sustaining over 1500 cycles at 1.4 mA cm‒2. This study provides a potentially simple and scalable approach to optimize solid electrolyte particles and interfacial mechanics. All-solid-state lithium metal batteries are promising for safe, high-energy storage, but interfacial instability limits performance. Here, authors use Al₄C₃-engineered Li₅.₅PS₄.₅Cl₁.₅ electrolytes to improve interfacial mechanics, enabling stable low-pressure operation and over 1500 charge-discharge cycles.",
+      "abstract_en": "Inorganic solid electrolytes offer transformative opportunities for next-generation lithium batteries by enabling new chemistries and cell architectures. Among them, sulfide electrolytes are particularly attractive due to their high ionic conductivity and favorable mechanical processability. However, scalable synthesis of sulfide electrolytes with high ionic conductivity remains a significant bottleneck. Here, we report a liquid-phase synthesis platform based on a Li2S-SiS2-P2S5 ternary system, capable of producing electrolytes with high ionic conductivity at kilogram scale. Beyond fast ionic transport kinetics, the electrolytes prepared via this platform function effectively as catholytes for high-loading sulfur electrodes, promoting uniform ion transport and enhanced electrochemical kinetics. Building on this approach, a Li2S-SiS2-P2S5-LiI quaternary system is developed to produce lithium-metal compatible anolytes. As a result, we realize a long-cycling all-solid-state lithium-sulfur battery in which the catholyte, interlayer, and anolyte are all synthesized via liquid-phase methods. This work proposes a scalable route for producing sulfide electrolytes, potentially contributing to the industrial development of all-solid-state batteries. Sulfide electrolytes are promising candidates for solid-state batteries, but their scalable production remains challenging. Here, the authors develop a kilogram-scale liquid-phase synthesis platform for sulfide electrolytes used across all key components in all-solid-state lithium–sulfur batteries.",
       "oa_status": "gold",
-      "oa_url": "https://www.nature.com/articles/s41467-026-76505-4_reference.pdf",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76953-y_reference.pdf",
       "license": "cc-by-nc-nd",
-      "journal_id": null,
+      "journal_id": "S64187185",
       "journal_metric": 16.94,
-      "first_seen": "2026-08-14",
+      "first_seen": "2026-08-21",
       "image": {
-        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76505-4/MediaObjects/41467_2026_76505_Fig1_HTML.png",
-        "cached": "img/W7201844265.jpg",
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76953-y/MediaObjects/41467_2026_76953_Fig1_HTML.png",
+        "cached": "img/W7203453822.jpg",
         "license": "cc-by-nc-nd",
-        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76505-4"
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76953-y"
       },
-      "summary_ko": "Al4C3 연마제로 다결정 Li5.5PS4.5Cl1.5 황화물 고체전해질 결정립을 미세화·균일화하는 산업 친화적 전략을 제시. 입자 크기·분포를 줄여 고밀도 전극을 구현, 낮은 적층압력에서도 전고체 리튬 금속 전지의 사이클·율 특성을 개선한다.",
+      "summary_ko": "이 연구는 Li2S-SiS2-P2S5 삼원계 기반 액상 합성 플랫폼을 통해 킬로그램 규모로 고이온전도성 황화물 고체전해질을 제조하는 방법을 제시한다. 이 전해질은 황 양극용 catholyte로서 우수한 이온 전달 특성을 보이며, LiI를 추가한 사원계 조성으로는 리튬 금속과 호환되는 anolyte도 구현했다. 이를 통해 catholyte, 중간층, anolyte를 모두 액상 공정으로 제작한 장수명 전고체 리튬-황 전지를 실현했다.",
       "relevant": true
     },
     {
-      "id": "W7201833472",
+      "id": "W7151247738",
       "source": "openalex",
-      "title": "Electron-DeficientSpecies-Driven Interphase Transformationfor Practical Lithium Batteries",
-      "url": "https://doi.org/10.1021/jacs.6c09703",
-      "published": "2026-08-07",
+      "title": "Interfacial LithiumRedox Kinetics Regulated by SolventAsymmetry and Moment of Inertia in Li Metal Batteries",
+      "url": "https://doi.org/10.1021/jacs.5c21712",
+      "published": "2026-08-14",
       "topics": [
-        "li-metal",
-        "ncm"
+        "li-metal"
       ],
-      "doi": "10.1021/jacs.6c09703",
+      "doi": "10.1021/jacs.5c21712",
       "authors": [
-        "Xinru Wu",
-        "Zhihong Piao",
-        "Gongxun Lu",
-        "Guohuang Kang",
-        "Zhiyuan Han",
-        "Ruyu Shi"
+        "Il Rok Choi",
+        "Aditya Shah",
+        "Jeffrey Heo",
+        "Sanzeeda Baig Shuchi",
+        "John Holoubek",
+        "Jacob Florian"
       ],
       "venue": "Journal of the American Chemical Society",
-      "abstract_en": "Abstract Lithium metal batteries with Ni-rich layered cathodes are promising candidates due to their high energy density; however, the unstable interphase formed in traditional carbonates accelerates premature irreversible capacity loss. In this study, we exploit the electron-deficient nature of boron (B)-containing species, which can initiate the chain polymerization of unstable alkyl lithium. This process facilitates the continuous conversion of these components into stable B-containing polymers, enhancing mechanical strength and ionic conductivity and ultimately achieving dynamic interphase transformation. Simultaneously, the unexpected generation of smaller solvation structures rich in multiple salt anions promotes Li+ transportation and the formation of LiF-rich interphases. Such an interphase bestows Li||LiNi0.8Co0.1Mn0.1O2 cells with a stable operation of up to 450 cycles under 4.6 V. Even practical 1.5 Ah graphite pouch cells can maintain 84% capacity after 1600 cycles. Thanks to the broad applicability of this unique in situ mechanism, it can be generalized to various LiPF6-based carbonate electrolytes. Our work provides a low-cost and highly accessible strategy for modifying the interphase, paving the way for high energy-density batteries that can meet diverse and demanding operating conditions.",
+      "abstract_en": "Abstract Lithium metal batteries (LMBs) offer high energy density, but interfacial charge-transfer kinetics remain a bottleneck for high-rate operation. In this work, we construct a library of 12 ether solvents with systematic variations in symmetry and fluorination, confirming that molecular asymmetry is an important feature that results in enhanced Li+ redox kinetics and more stable solid electrolyte interphases on Li0. Furthermore, we developed a mechanistic understanding of the underlying process. We show that more tilted dipoles and lower moments of inertia strongly correlate with higher exchange current densities. Among the solvents in our study, the asymmetric F5MPE (1-methoxy-2-(2,2,3,3,3-pentafluoropropoxy) ethane) molecule, a previously unreported solvent molecule, enabled &gt;170 stable cycles in high-rate Li||NMC full cells, outperforming the previously reported best single-salt-single-solvent ether solvent, F5DEE molecule. Overall, this work links molecular-level information with the behavior at electrochemical interfaces and provides an understanding of molecular design considerations for next-generation electrolytes tailored for high-power, fast-charging LMBs.",
+      "oa_status": "green",
+      "oa_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15001710/v1",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-18",
+      "image": null,
+      "summary_ko": "리튬 금속 전지의 계면 전하 이동 동역학을 개선하기 위해 대칭성과 불소화 정도를 체계적으로 조절한 12종의 에테르계 용매 라이브러리를 구축하고 분자 구조적 영향을 분석했습니다. 연구 결과 분자의 비대칭성과 낮은 관성 모멘트가 교환 전류 밀도를 높이고 리튬 음극에 안정한 고체 전해질 계면(SEI)을 형성함을 규명했습니다. 신규 비대칭 용매인 F5MPE를 적용한 고율 Li||NMC 풀셀은 170회 이상의 안정적인 사이클 특성을 보여 차세대 고출력·급속 충전용 전해액 설계 지침을 제시했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W4416948233",
+      "source": "openalex",
+      "title": "Integrated polarization-entangled photon source for wavelength-multiplexed quantum networks",
+      "url": "https://doi.org/10.1038/s41467-026-76631-z",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76631-z",
+      "authors": [
+        "Xiaodong Shi",
+        "Y. L. Li",
+        "Jinyi Du",
+        "Lin Zhou",
+        "Yang Ran",
+        "Einly Lim"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Entangled photons are fundamental resources for quantum communication, computing, and networking. Among them, polarization-entangled photon pairs play an important role due to their straightforward state manipulation and direct use in quantum key distribution, teleportation, and network protocols. However, realizing compact, efficient, and scalable polarization-entangled sources that meet the requirements of practical deployment remains a major challenge. Here, we present a simple yet high-performance on-chip polarization-entangled photon-pair source on thin-film lithium niobate. Our device employs dual quasi-phase matching that sequentially supports type-0 and type-I spontaneous parametric down-conversion in a single nanophotonic waveguide, eliminating the need for interferometers, polarization rotators, or other complex circuits. The source directly produces high-fidelity Bell states with broad bandwidth, high brightness, and low noise. Using this integrated approach, we realize wavelength-multiplexed entanglement distribution in a four-user quantum network deployed over loopback metropolitan fiber links up to 50 km. Researchers use dual quasi-phase matching in a thin-film lithium niobate chip to directly generate polarization-entangled photons, enabling scalable quantum communication over a 50 km metropolitan fiber network.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76631-z",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76631-z/MediaObjects/41467_2026_76631_Fig1_HTML.png",
+        "cached": "img/W4416948233.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76631-z"
+      },
+      "summary_ko": "이 연구는 박막 리튬나이오베이트 칩 위에서 이중 준위상정합을 이용해 단일 나노광도파로에서 type-0과 type-I 스폰테이니어스 매개변수 하향변환을 동시에 지원하는 편광 얽힘 광자쌍 광원을 구현했다. 간섭계나 편광 회전기 없이도 고충실도 벨 상태를 넓은 대역폭과 높은 밝기로 직접 생성할 수 있으며, 최대 50km 도심 광섬유 루프백 구간에서 4-사용자 파장다중화 양자 네트워크의 얽힘 분배를 실증했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203491684",
+      "source": "openalex",
+      "title": "Heterogeneously integrated photonic terahertz transmitter on thin-film lithium niobate",
+      "url": "https://doi.org/10.1038/s41467-026-76733-8",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76733-8",
+      "authors": [
+        "Luyu Wang",
+        "Hanke Feng",
+        "Liga Bai",
+        "Zhouze Zhang",
+        "Zhe Ding",
+        "Yifan Wu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Terahertz (THz) communication unlocks massive capacity for future data-intensive networks. While photonics-based THz systems offer broad bandwidths, their reliance on discrete optical assemblies dictates substantial coupling losses and bulky footprints. Achieving complete on-chip integration without degrading the bandwidth or efficiency of discrete optoelectronic components remains a central challenge. Here, we demonstrate an integrated photonic THz transmitter by heterogeneously bonding an InP-based uni-traveling-carrier photodiode (UTC-PD) to a thin-film lithium niobate (TFLN) modulator chip. This architecture successfully merges TFLN’s excellent electro-optic response with robust III-V THz generation, featuring an integrated photodiode with a benchmark 3-dB bandwidth of 240 GHz and 0.67 A/W internal responsivity. In sub-THz wireless links, the transmitter delivers 40 Gbit/s at 150 GHz and 32 Gbit/s at 200 GHz using NRZ or PAM4 formats, establishing a scalable pathway for next-generation wireless interconnects. This study presents a chip-scale photonic terahertz transmitter on thin-film lithium niobate. By combining III-V photodiodes with TFLN technology, it achieves the exceptional data rates required for future wireless networks.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76733-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76733-8/MediaObjects/41467_2026_76733_Fig1_HTML.png",
+        "cached": "img/W7203491684.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76733-8"
+      },
+      "summary_ko": "이 연구는 InP 기반 UTC-PD를 박막 리튬나이오베이트(TFLN) 변조기 칩에 이종집적하여 완전 온칩 광자 테라헤르츠 송신기를 구현했다. 통합된 광다이오드는 240GHz의 3dB 대역폭과 0.67A/W의 내부 응답도를 가지며, TFLN의 우수한 전기광학 응답과 III-V 소재의 강건한 테라헤르츠 발생 특성을 결합했다. 서브테라헤르츠 무선 링크에서 150GHz에서 40Gbit/s, 200GHz에서 32Gbit/s의 데이터 전송을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203446208",
+      "source": "openalex",
+      "title": "Hard carbon anodes for sodium-ion batteries: A critical review from structural and mechanistic insights to practical optimization strategies",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112307",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112307",
+      "authors": [
+        "Zhuo Chen",
+        "Wanjie Gao",
+        "Jiarui He",
+        "Mingqiang Zhu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "소듐이온전지용 하드카본 음극의 구조 및 메커니즘적 이해에서부터 실용화를 위한 최적화 전략까지 다루는 리뷰 논문으로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7202355630",
+      "source": "openalex",
+      "title": "Epigenetic repression of IL-1β by C1QBP restricts Dectin-1-mediated host defense against murine invasive candidiasis",
+      "url": "https://doi.org/10.1038/s41467-026-76756-1",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76756-1",
+      "authors": [
+        "Hui Wang",
+        "Yi‐heng Yang",
+        "Jia-Jie Tang",
+        "Xian-Long Wang",
+        "Xin-Yi Liu",
+        "Han Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Invasive candidiasis, predominantly caused by Candida albicans, threatens immunocompromised individuals with high mortality. Dendritic cell-derived interleukin-1β, orchestrated via Dectin-1-mediated β-glucan recognition, is central to antifungal defense. While the Dectin-1/Syk/CARD9 axis governing Il1b transcription is defined, the epigenetic regulatory mechanisms remain elusive. Here, we identify Complement C1q binding protein (C1QBP) as a critical negative regulator of Dectin-1-mediated interleukin-1β production. C1QBP sequesters phosphorylated protein kinase C δ in the cytoplasm, preventing its nuclear transport. Nuclear phosphorylated-PKCδ activates the RNF20/RNF40 ubiquitin ligase complex, which recruits the methyltransferase DOT1L to catalyze histone H3 lysine 79 trimethylation at the Il1b locus to promote its transcription. DC-specific C1QBP depletion enhances interleukin-1β secretion, amplifies protective T helper 17 cell responses, and improves host resistance to systemic C. albicans infection in mice. Collectively, our findings establish C1QBP as a key checkpoint in a PKCδ-dependent epigenetic pathway that constrains antifungal immunity, highlighting its therapeutic potential for invasive fungal diseases. Engagement of Dectin-1 on dendritic cells drives IL-1β production and is a critical component of the immune response to invasive candidiasis. Here the authors show epigenetic repression of IL-1β by a complement binding protein can restrain the dectin1 driven immune response in a murine model of invasive candidiasis.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76756-1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76756-1/MediaObjects/41467_2026_76756_Fig1_HTML.png",
+        "cached": "img/W7202355630.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76756-1"
+      },
+      "summary_ko": "이 연구는 C1QBP가 인산화된 PKCδ의 핵 이동을 세포질에서 억제하여 RNF20/RNF40-DOT1L 경로를 통한 Il1b 유전자좌의 히스톤 H3K79 삼메틸화 및 전사를 저해함으로써 Dectin-1 매개 IL-1β 생성을 음성적으로 조절한다는 것을 밝혔다. 수지상세포에서 C1QBP를 특이적으로 결핍시키면 IL-1β 분비와 보호적 Th17 반응이 증가해 칸디다균에 대한 숙주 저항성이 개선되었다. 이 연구는 C1QBP를 항진균 면역을 제한하는 PKCδ 의존적 후성유전학적 경로의 핵심 조절점으로 제시한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203496696",
+      "source": "openalex",
+      "title": "Dual-additive enabled inorganic-rich solid electrolyte interphase for high-rate lithium negative electrodes",
+      "url": "https://doi.org/10.1038/s41467-026-76653-7",
+      "published": "2026-08-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76653-7",
+      "authors": [
+        "Yehui Wu",
+        "Xihao Wang",
+        "Shengchuang Du",
+        "Tiansheng Bai",
+        "Huijie Tian",
+        "Qunhui Yuan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Constructing a robust, highly conductive solid electrolyte interphase is the key to unlock the high-rate potential of lithium negative electrodes for broad applications. Here we propose a simple yet effective strategy, by introducing a sulfur-containing compound and LiNO 3 as dual additives into a conventional carbonate electrolyte. As an example, 3-sulfolene is found to enhance the dissolution of LiNO 3 , and it works with NO 3 − to regulate the Li + -solvation structure and facilitate the formation of a robust while uniform solid electrolyte interphase rich in Li 3 N/Li 2 S/Li 2 O inorganics, enabling rapid Li + transfer and high interfacial stability. Consequently, Li | |LiFePO 4 cells achieve 81.7% capacity retention after 6,000 cycles at 80 C, while Li | |LiNi 0.8 Co 0.1 Mn 0.1 O 2 cells maintain 81.3% capacity after 500 cycles at 10 C. Moreover, two pouch cells with specific energy exceeding 500 Wh kg −1 (calculated based on total mass of the pouch cells) retain 92.1% and 91.8% of initial capacities after 143 and 149 cycles (charged at 0.1 C and discharged at 0.3 C), respectively. This work provides a general dual-additive strategy to promote the formation of an inorganic-rich solid electrolyte interphase for high-rate lithium negative electrodes.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76653-7_reference.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76653-7/MediaObjects/41467_2026_76653_Fig1_HTML.png",
+        "cached": "img/W7203496696.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76653-7"
+      },
+      "summary_ko": "이 연구는 황 함유 화합물(3-술포렌)과 LiNO3를 이중 첨가제로 사용해 탄산염 전해질에서 무기물이 풍부한 고체 전해질 계면(SEI)을 형성하는 전략을 제시한다. 3-술포렌이 LiNO3의 용해도를 높이고 NO3−와 함께 Li+ 용매화 구조를 조절해 Li3N/Li2S/Li2O가 풍부한 균일하고 견고한 SEI 형성을 촉진한다. Li||LiFePO4 셀은 80C에서 6,000사이클 후 81.7%, Li||NCM811 셀은 10C에서 500사이클 후 81.3%의 용량 유지율을 달성했으며, 500Wh/kg급 파우치셀도 우수한 사이클 안정성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203464201",
+      "source": "openalex",
+      "title": "Design of Low‐Alloyed, Parasitic‐Reaction‐Regulating Lithiophilic Composite Interlayer for Anode‐free Lithium Batteries",
+      "url": "https://doi.org/10.1002/adfm.77628",
+      "published": "2026-08-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77628",
+      "authors": [
+        "Shengyu Gao",
+        "Yongxin Huang",
+        "Qianqian Meng",
+        "Botao Zhang",
+        "Ning Zhang",
+        "Xin Hu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Anode‐free lithium batteries represent an ideal high‐energy‐density battery system. However, their practical development has been hindered by severe active lithium loss, primarily caused by side reactions, significant volume expansion, and irreversible alloying with lithiophilic substrates. On this basis, we compared silver nanowires (AgNWs) and silver nanoparticles (AgNPs) as lithiophilic coating substrates, and developed a composite coating of AgNWs and lithium carboxymethyl cellulose (CMC‐Li) on copper current collectors. More precisely, lithiophilic AgNWs with a lower specific surface area lead to the formation of uniform and controllable lithium nuclei and less lithium loss. The polymer layer formed by the cross‐linking of CMC‐Li contributes to alleviating the volumetric expansion of the lithium deposition layer during cycling, reducing the continuous side reactions. The Li||Cu cells demonstrate an average Coulombic efficiency (CE) of 99.0% over 500 cycles at 1 mA cm ‒2 . When paired with a high‐loading NCM811 cathode, the anode‐free cell achieves 63.1% capacity retention after 100 cycles, with an average CE of 99.4%. Furthermore, the anode‐free pouch cell with the ultra‐thin coating can realize a volumetric energy density exceeding 800 Wh L ‒1 .",
       "oa_status": "closed",
       "oa_url": null,
       "license": null,
       "journal_id": null,
-      "journal_metric": 16.47,
-      "first_seen": "2026-08-14",
-      "image": null,
-      "summary_ko": "붕소(B) 함유 종의 전자결핍성을 이용해 불안정한 알킬리튬의 사슬중합을 유도, 안정한 B-고분자로 연속 전환하는 동적 계면상 전환을 구현. 고니켈 양극·리튬 금속 전지에서 카보네이트계의 조기 비가역 용량 손실을 억제한다.",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77628",
+        "cached": "img/W7203464201.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77628"
+      },
+      "summary_ko": "무음극(anode-free) 리튬 전지용으로 은 나노와이어(AgNW)와 CMC-Li를 결합한 친리튬성 복합 코팅을 Cu 집전체에 도입해 균일한 리튬 핵생성과 활성 리튬 손실 저감을 구현. 대상이 음극측 계면층이라 'High-Ni NCM 양극' 주제와는 무관해 관련성 게이트에서 제외.",
       "relevant": true
     },
     {
-      "id": "W7201847821",
+      "id": "W7203442946",
       "source": "openalex",
-      "title": "Asymmetric fluorinated sulfonamide electrolyte solvent for high-voltage and wide-temperature Li-metal batteries",
-      "url": "https://doi.org/10.1038/s41467-026-76496-2",
-      "published": "2026-08-07",
-      "topics": [
-        "li-metal",
-        "ncm"
-      ],
-      "doi": "10.1038/s41467-026-76496-2",
+      "title": "A superelastic titanium alloy showing nearly temperature-independent high strength and elastic modulus",
+      "url": "https://doi.org/10.1038/s41467-026-76613-1",
+      "published": "2026-08-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76613-1",
       "authors": [
-        "Luyi Chen",
-        "Jingwen Liu",
-        "Zehang Peng",
-        "Pengcheng Xue",
-        "Xiaoxian Guan",
-        "Zhiqing Liang"
+        "B.Q. Chen",
+        "Honghong Su",
+        "Shuanglei Li",
+        "Zhonghan Li",
+        "Ying Yang",
+        "Hong‐Hui Wu"
       ],
       "venue": "Nature Communications",
-      "abstract_en": "Stable cycling of Ni-rich positive electrodes under high voltages (≥ 4.6 V) is critically challenging due to severe interfacial parasitic reactions and structural degradation, especially under all-climate conditions (i.e., ≤ −20 °C and ≥ 55 °C). Herein, we rationally design and synthesize an asymmetric fluorinated sulfonamide solvent, N-ethyl-N-methyltrifluoromethane-sulfonamide, where the fluorination of sulfone backbone greatly promotes the oxidation stability, while the introduction of asymmetric amine group bestows the solvent with an low freezing point (below −150 °C). This obtained solvent, with 1 M lithium bis(fluorosulfonyl)imide, delivers high oxidation stability (above 5.0 V) and good Li reversibility (up to 99.8% in Li | |Cu cells). Coupled with its ability to form highly robust LiF-rich solid-electrolyte/cathode-electrolyte interphases, this single-salt single-solvent electrolyte enables stable cycling of Li | |Ni0.8Co0.1Mn0.1 cells under an high voltage of 4.8 V across an wide temperature of −60 to 100 °C. Remarkably, a prototype 5 Ah-level Li | | Ni0.8Co0.1Mn0.1 pouch cell at an cut-off voltage of 4.7 V and 0.1 C demonstrates a high specific energy (based on the mass of all components) of 514 Wh kg−1 over 20 cycles. Stable cycling of Ni-rich positive electrodes at high-voltage (≥ 4.6 V) remains challenging. Here, authors propose a single-salt single-solvent electrolyte based on an asymmetric fluorinated sulfonamide solvent, which sustains stable cycling of 4.8 V LillNCM811 cells from −60 to 100 °C.",
+      "abstract_en": "Lightweight superelastic alloys with temperature-insensitive properties are critical for deep-space exploration devices, yet their development is hindered by the challenge of simultaneously balancing strength, recoverable strain, and temperature sensitivity. Here, we overcome these limitations in a Ti50.5Zr40Nb6Sn2O1.5 alloy through Zr/O co-doping to induce local chemical orders (LCOs). This strategy yields an unprecedented combination of large recovery strain (εr > 4.5%), high superelastic stress (σc > 700 MPa), nearly temperature-independent strength (dσc/dT ≈ 0.59 MPa·K⁻¹), and stable elastic modulus over a wide temperature range from 123 K to 298 K. These properties arise from the elastic confinement imposed on the transformable matrix induced by the LCOs, which enhances resistance to dislocation slip and suppresses martensitic transformation, while the modulus hardening caused by LCOs due to anharmonic atomic vibrations compensates for matrix softening. This work provides a feasible and effective route for developing high-performance superelastic alloys with wide-temperature stability through LCO engineering. This study shows that Zr–O co-doped Ti-based alloys achieve superior strength, superelasticity and temperature insensitivity via oxygen-rich local chemical orders, offering a feasible approach to design high-performance Ti-based superelastic alloys.",
       "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1038/s41467-026-76496-2",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76613-1_reference.pdf",
       "license": "cc-by-nc-nd",
-      "journal_id": null,
+      "journal_id": "S64187185",
       "journal_metric": 16.94,
-      "first_seen": "2026-08-14",
+      "first_seen": "2026-08-21",
       "image": {
-        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76496-2/MediaObjects/41467_2026_76496_Fig1_HTML.png",
-        "cached": "img/W7201847821.jpg",
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76613-1/MediaObjects/41467_2026_76613_Fig1_HTML.png",
+        "cached": "img/W7203442946.jpg",
         "license": "cc-by-nc-nd",
-        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76496-2"
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76613-1"
       },
-      "summary_ko": "비대칭 플루오르화 설폰아마이드 용매를 설계해 산화 안정성과 저온 특성(어는점 -150°C 이하)을 동시에 확보. 고니켈 양극·리튬 금속 전지의 고전압(4.6V 이상)·전천후(-20~55°C) 안정 사이클을 가능케 한다.",
-      "relevant": true
+      "summary_ko": "이 연구는 Zr/O 공동 도핑을 통해 국소 화학적 질서(LCO)를 유도한 Ti50.5Zr40Nb6Sn2O1.5 합금에서 큰 회복 변형률(4.5% 초과), 높은 초탄성 응력(700MPa 초과), 온도에 거의 무관한 강도, 123K에서 298K에 이르는 넓은 온도범위에서 안정적인 탄성계수를 동시에 달성했다. LCO는 변태 가능한 모재에 탄성 구속을 가해 전위 슬립 저항을 높이고 마르텐사이트 변태를 억제하며, 비조화 원자 진동에 의한 계수 경화로 모재 연화를 상쇄한다. 이 연구는 LCO 엔지니어링을 통해 넓은 온도범위에서 안정적인 고성능 초탄성 합금을 설계하는 실현 가능한 경로를 제시한다.",
+      "relevant": false
     }
   ]
 }

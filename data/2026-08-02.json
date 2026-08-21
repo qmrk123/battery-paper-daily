@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "W7172210529",
+      "source": "openalex",
+      "title": "Accelerated electrochemical sintering drives high-rate silicon-based anodes in all-solid-state lithium batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112263",
+      "published": "2026-08-02",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112263",
+      "authors": [
+        "Yuxiang Lyu",
+        "Xitang Qian",
+        "Yunyi Chen",
+        "Shiyuan Liu",
+        "Siqi Lu",
+        "Siyu Zhou"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "전기화학적 소결을 가속화하여 전고체 리튬전지용 실리콘 기반 음극의 고율 성능을 구현하는 연구로 추정된다 (제목 기반 추정). Si 음극 및 고체전해질 연구로 6대 주제에서 제외된다.",
+      "relevant": false
+    }
+  ]
+}

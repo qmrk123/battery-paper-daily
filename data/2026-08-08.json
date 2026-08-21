@@ -1,0 +1,278 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 8,
+  "papers": [
+    {
+      "id": "W7201970228",
+      "source": "openalex",
+      "title": "Thermal stability and safety of rechargeable batteries: From heat generation and gas evolution to diagnostics and mitigation",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112277",
+      "published": "2026-08-08",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112277",
+      "authors": [
+        "Yosef Nikodimos",
+        "Zabish Bilew Muche",
+        "Vinay Boligarla",
+        "Tripti Agnihotri",
+        "Siyanand Chaudhary",
+        "Elango Balaji Tamilarasan"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "충전식 배터리의 열 발생, 가스 발생부터 진단 및 완화까지 열안정성과 안전성을 다룬 리뷰 논문으로 추정된다 (제목 기반 추정). 특정 소재/양극 화학에 국한되지 않는 일반 안전성 리뷰라 6대 분류 대상이 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7201967397",
+      "source": "openalex",
+      "title": "Resolving the Mechano‐Electrochemical Dilemma in Structural Batteries via In Situ Entropy Engineering",
+      "url": "https://doi.org/10.1002/aenm.71423",
+      "published": "2026-08-08",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71423",
+      "authors": [
+        "Haiqi Zhang",
+        "Zhanlin Feng",
+        "Weiye He",
+        "Jinrui Ye"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Structural batteries (SBs) offer a revolutionary approach to massless energy storage, but suffer from severe capacity degradation and mechanical failure due to coupled electrochemical and mechanical stresses, particularly when employing high‐energy layered cathodes. Herein, an in situ entropy engineering strategy is pioneered to construct a highly robust, nickel‐rich structural cathode (SC). Multi‐element co‐doping induces a strong lattice pinning effect, which thermodynamically suppresses lattice oxygen escape and intrinsically mitigates internal anisotropic strain during continuous lithiation/delithiation. Integrated onto carbon fiber current collectors, the resulting SBs exhibit an exceptional balance of energy and load‐bearing metrics. They deliver a superior specific capacity of 122.34 mAh g − 1 at 0.3C with 82.25% capacity retention over 200 cycles, significantly outperforming conventional NCM811 benchmarks. Furthermore, the SBs withstand macroscopic external stresses, yielding a tensile strength of 206.05 MPa and a flexural strength of 122.35 MPa, while demonstrating near‐zero capacity degradation under sustained static in situ mechanical loads. Experimental and theoretical insights jointly confirm that entropy‐driven lattice stabilization bridges the critical gap between high energy density and mechanical robustness, propelling the practical development of massless energy storage.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71423",
+        "cached": "img/W7201967397.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71423"
+      },
+      "summary_ko": "구조전지(massless 에너지저장)용 고니켈 양극에 in situ 엔트로피 공학(다원소 공도핑)을 적용해 격자 고정 효과로 산소 이탈과 이방성 변형을 억제. 전기화학·기계 응력이 결합된 구조전지의 용량·기계 열화를 완화한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201979591",
+      "source": "openalex",
+      "title": "Regulating Solvation Chemistry via Strongly Coordinating Anion and Weakly Solvating Cosolvent for Low‐Temperature Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.2602693",
+      "published": "2026-08-08",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/anie.2602693",
+      "authors": [
+        "G. Yu",
+        "Qian Yang",
+        "Tongtong Huo",
+        "Mingyue Li",
+        "Xuejie Bai",
+        "Xiaobo Zhang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Sodium metal batteries (SMBs) hold great promise for next‐generation energy storage systems due to their abundant sodium resources, high theoretical specific capacity, and low redox potential. However, they suffer from rapid capacity degradation at low operating temperatures, which inevitably hinders their practical application. In this work, we employ a strongly coordinating anion and a weakly solvating cosolvent to fabricate anion‐rich and varied solvation structures, aiming to enhance the low‐temperature electrochemical performance of SMBs. This unique solvation configuration efficiently reduces the Na + desolvation energy barrier, alleviates concentration polarization, accelerates liquid‐phase ion transport, and facilitates the in‐situ formation of a stable, highly ion‐conductive electrode‐electrolyte interphase. Benefiting from the synergistic regulation of interfacial stability and ion transport kinetics, dendrite‐free sodium deposition is achieved at −20°C, enabling stable cycling for over 500 h at 0.5 mA cm −2 and 0.5 mAh cm −2 . Additionally, the assembled SMBs exhibit excellent rate performance and cycling stability, delivering a high capacity retention of 70.54% and 68.28% after 1000 cycles at −20°C and −40°C, respectively. This work provides a novel perspective for the rational design of advanced electrolytes for high‐performance low‐temperature SMBs and lays a solid foundation for their practical application in cold environments.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2602693",
+        "cached": "img/W7201979591.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2602693"
+      },
+      "summary_ko": "강배위 음이온과 약용매화 공용매로 음이온이 풍부한 다양한 용매화 구조를 만들어 저온 소듐 금속 전지 성능을 개선. Na+ 탈용매화 에너지 장벽을 낮춰 저온 전기화학 성능을 높인다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201958772",
+      "source": "openalex",
+      "title": "Reflex Charging for Anion‐Derived Solid Electrolyte Interphase Formation",
+      "url": "https://doi.org/10.1002/anie.4035251",
+      "published": "2026-08-08",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.4035251",
+      "authors": [
+        "Gyeoul Seong",
+        "Min-Gyun Kim",
+        "E. Jung",
+        "Yerin Kang",
+        "Hong-I Kim",
+        "Kwon‐Hyung Lee"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium (Li) metal offers exceptional energy density but suffers from unstable interphases that lead to dendrite growth and poor reversibility. Because the interphase is established during the earliest stages of operation, controlling its formation is critical for stabilizing Li metal electrodes. Here, we demonstrate that a reflex charging strategy, in which short discharge pulses are introduced during charging, dynamically reprograms the interfacial environment. This approach sustains anion enrichment near the electrode surface and shifts Li + solvation from solvent‐dominated structures toward anion‐coordinated structures, thereby promoting the formation of an inorganic‐rich interphase. The resulting interphase reduces interfacial resistance and enables dense and uniform Li deposition. Consequently, the reflex charging‐based formation protocol exhibits markedly improved Li deposition/stripping reversibility, and greater resistance to degradation during cycling and calendar aging. In full cells paired with LiFePO 4 (LFP) cathodes, the system retains 73% capacity after 500 cycles, demonstrating practical performance benefits. These findings establish formation protocol as an effective operation‐driven lever for controlling interfacial chemistry, offering a practical route that complements conventional materials‐based strategies for stabilizing Li metal batteries (LMBs).",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4035251",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4035251",
+        "cached": "img/W7201958772.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4035251"
+      },
+      "summary_ko": "충전 중 짧은 방전 펄스를 넣는 'reflex charging' 전략으로 계면 환경을 동적으로 재프로그래밍. 전극 표면의 음이온 농축을 유지해 Li+ 용매화를 음이온 배위형으로 이동시켜 안정한 SEI 형성과 덴드라이트 억제를 유도한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201994790",
+      "source": "openalex",
+      "title": "Cost competitiveness of alternative heavy-duty truck technologies under real-world utilisation profiles",
+      "url": "https://doi.org/10.1038/s41467-026-76265-1",
+      "published": "2026-08-08",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76265-1",
+      "authors": [
+        "Johanna Hoppe",
+        "Falko Ueckerdt",
+        "Patrick Plötz",
+        "Steffen Link",
+        "Daniel Speth",
+        "Bastian Weißenburger"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Road freight transport is essential to modern economies, yet its decarbonization remains challenging. While previous studies often focused on average-duty or long-haul applications, the logistics sector is highly heterogeneous, spanning a wide range of truck usage patterns. This study assesses the economic viability of battery electric trucks (BETs) and fuel cell electric trucks (FCETs) using microdata from four million trucks across Europe. Under baseline assumptions for cost and technical maturity, BETs outperform diesel trucks in total cost of ownership for 70-90% of heavy-duty road freight activity by 2030. When accounting for limited charging infrastructure until 2030, 25% of kilometres, corresponding to 19% of vehicles, remain economically and technically feasible-substantially higher than the 5-9% share of the total truck fleet expected under the 2030 EU CO 2 standards. By 2035, infrastructure roll-out and improved costs increase the share of kilometres to 77%. In contrast, the window for FCET cost-competitiveness is narrow.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76265-1.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76265-1/MediaObjects/41467_2026_76265_Fig1_HTML.png",
+        "cached": "img/W7201994790.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76265-1"
+      },
+      "summary_ko": "실제 운행 패턴 데이터를 활용해 대형트럭의 배터리전기트럭과 수소연료전지트럭 비용 경쟁력을 분석한 연구로, 소재 연구가 아닌 시스템/정책 분석이라 배터리 소재 분류에 해당하지 않는다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202000425",
+      "source": "openalex",
+      "title": "Cavity-Enabled Supramolecular Regulation of Capacitive–Redox Bromine Electrochemistry in Zinc–Bromine Batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76539-8",
+      "published": "2026-08-08",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76539-8",
+      "authors": [
+        "Yongxing Ding",
+        "Mingming Han",
+        "Yuezheng Liu",
+        "Laixi Li",
+        "Wei Zhong",
+        "Siyuan Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The intrinsic trade-offs between high-rate capacitive processes and high-capacity redox reactions fundamentally limit advanced electrochemical energy storage. Here, we transcend this paradigm by introducing cavity-enabled supramolecular microreactors as a versatile platform for synergistic bromine capacitive-redox electrochemistry. These microreactors exhibit voltage-responsive dual functions, operating as a high-capacity ion-sequestration matrix at low voltages governed by their tailored electrostatic cavity landscape, and dynamically switching to an anchoring and conversion-promoting center at high voltages via spatially confined noncovalent interactions distinct from conventional bonding. Deployed in an aqueous zinc-bromine battery, this strategy delivers a specific capacity of 481.8 mAh g−1 at 0.83 A g−1 and retains 89.4% of its capacity after 1500 cycles at a specific current of 8.3 A g−1. Our work transcends the conventional material design philosophy, establishing a general approach for breaking the intrinsic limits of electrode materials through molecular-scale ion regulation. Aqueous zinc-bromine batteries face a trade-off between capacitive power and redox capacity. Here, authors design cavity enabled supramolecular that dynamically switch from ion storage at low voltages to polybromide stabilization at high voltages, delivering high capacity, power and cycling durability.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76539-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76539-8/MediaObjects/41467_2026_76539_Fig1_HTML.png",
+        "cached": "img/W7202000425.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76539-8"
+      },
+      "summary_ko": "공동(cavity) 구조 초분자체를 이용해 아연-브롬 전지에서 축전형-산화환원 브롬 전기화학을 제어한 연구이다. 아연 전지 계열로 6대 분류 대상이 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7201993760",
+      "source": "openalex",
+      "title": "A catalytically polymerized solid electrolyte enables 450 Wh kg−1 lithium–metal batteries with thermal–mechanical abuse tolerance",
+      "url": "https://doi.org/10.1038/s41467-026-76381-y",
+      "published": "2026-08-08",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76381-y",
+      "authors": [
+        "Jiawen Tang",
+        "Junyu Zhang",
+        "Jiacheng Liu",
+        "Yunsong Li",
+        "Ahu Shao",
+        "Zhiqiao Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Practical implementation of solid polymer electrolytes is constrained by interfacial instability and manufacturing scalability. Here, we report a roll-to-roll compatible, 9.6-μm-thick solid polymer electrolyte membrane synthesized via in situ 1,3-dioxolane polymerization catalyzed by Lewis-acidic Li 1.3 Al 0.3 Ti 1.7 (PO 4 ) 3 on a polyethylene matrix, achieving a 99.1% conversion rate. The resulting membrane demonstrates 191.7 MPa mechanical strength and 418.7 mS ionic conductance at 25 °C. To resolve multiscale interfacial incompatibilities, a dual-additive strategy is employed: tris(4-fluorophenyl) phosphine constructs a fluorine-rich interphase extending positive electrode tolerance to 4.8 V, while Mg(TFSI) 2 forms a Li–Mg alloy lowering the negative electrode Li⁺ diffusion barrier to 0.127 eV. Validated in 1.2 Ah pouch cells, this system attains specific energy and energy density of 456.7 Wh kg⁻ 1 and 911.1 Wh L⁻ 1 (based on the total mass and volume of the pouch cell, respectively), stable wide-temperature cycling (−20 to 55 °C), and prevents thermal propagation under abuse conditions.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76381-y_reference.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76381-y/MediaObjects/41467_2026_76381_Fig1_HTML.png",
+        "cached": "img/W7201993760.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76381-y"
+      },
+      "summary_ko": "촉매 중합형 고체 고분자 전해질을 롤투롤 공정으로 제조해 450 Wh/kg급 리튬금속전지에 적용한 연구이다. 이중 첨가제 전략으로 고전압 양극 계면과 Li-Mg 합금화를 통한 음극 계면을 동시에 안정화시켜 1.2 Ah 파우치셀에서 높은 에너지밀도를 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201971912",
+      "source": "openalex",
+      "title": "3D Micro‐Network Li/Al 4 Li 9 Composite Anodes Constructed by One‐Step Melt‐Spinning for High Energy Density Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71402",
+      "published": "2026-08-08",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71402",
+      "authors": [
+        "Chenxing Wang",
+        "Yanxia Liu",
+        "W. J. Liu",
+        "Mingdong Du",
+        "Mingyu Shi",
+        "Mingchang Zhang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium‐metal anodes are hindered by inhomogeneous lithium plating/stripping, interfacial side reactions, and volume expansion. The lithium alloy anodes are considered an effective strategy to resolve these problems, but they suffer from structural degradation during cycling. Herein, a 3D micro‐network Li/Al 4 Li 9 composite anode is fabricated via one‐step melt‐spinning. The microstructure evolution of the alloy ribbons is studied systematically by tuning the cooling conditions. Ultimately, a uniform Li/Al 4 Li 9 composite anode with a 3D micro‐network is achieved at a copper roller speed of 2200 rpm. The intrinsic Li/Al 4 Li 9 composite anode structure provides synergistic functions: first, the interconnected micro‐network provides continuous electron/ion transport pathways and abundant reaction interfaces, which lowers the nucleation barrier and uniform lithium plating/stripping; second, the Li/Al 4 Li 9 composite anode with Al 4 Li 9 skeleton shows high Young's modulus, which buffers volume expansion and uniform stress distribution. In situ optical microscopy and post‐cycling SEM images confirm the Li/Al 4 Li 9 composite anode exhibits excellent mitigate structural degradation ability. The Li/Al 4 Li 9 ||Li/Al 4 Li 9 cells in ether‐based electrolyte demonstrate stable cycling for 1600 h at 1 mA cm − 2 , 1 mAh cm − 2 , and Li/Al 4 Li 9 ||LiFePO 4 cells in carbonate‐based electrolyte retain 81.7% capacity after 204 cycles at 0.5 C. Impressively, the Li/Al 4 Li 9 composite anode is a promising anode for high‐energy‐density lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71402",
+        "cached": "img/W7201971912.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71402"
+      },
+      "summary_ko": "1단계 용융방사로 3D 마이크로네트워크 Li/Al4Li9 복합 음극을 제작. 냉각 조건(구리 롤러 2200 rpm)으로 미세구조를 제어해 균일한 도금/벗김을 유도하고 고에너지밀도 리튬 금속 전지의 구조 열화를 완화한다.",
+      "relevant": true
+    }
+  ]
+}

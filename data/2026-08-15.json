@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 5,
+  "papers": [
+    {
+      "id": "W7203561421",
+      "source": "openalex",
+      "title": "Tailoring Electrolyte Chemistry Through Precise Organic Synthesis for Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71447",
+      "published": "2026-08-15",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71447",
+      "authors": [
+        "Jingzhu Chen",
+        "Haoyu Wu",
+        "Sizhe Li",
+        "Yuheng Sun",
+        "Cheng Chang",
+        "Shiwei Liu"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Realizing next‐generation batteries with specific energies exceeding 500 Wh kg −1 requires coupling lithium metal anodes with high‐voltage cathodes. Conventional carbonate electrolytes fundamentally fail in these aggressive environments due to narrow electrochemical windows and catastrophic interfacial degradation. Overcoming these bottlenecks demands a paradigm shift from empirical formulation to rational molecular design. This review highlights synthetic molecular engineering as a systematic framework to tailor electrolyte chemistry at the atomic scale via precision organic synthesis—defined as deliberate covalent modification including de novo construction and targeted functionalization, focused herein on lithium metal systems. By employing precise organic synthesis through electronic regulation, steric hindrance modulation, and functional group integration, researchers actively program the physicochemical properties of salts, solvents, and additives. We systematically elucidate how these engineered components remodel primary solvation structures and direct the construction of robust interphases, navigating the long‐standing trade‐off between ionic conductivity and stability. We further benchmark performance against practical pouch‐cell constraints and distill conditional design rules specifying where each strategy succeeds and fails. Finally, integrating computational screening, perfluoroalkyl and polyfluoroalkyl substances (PFAS) sustainability considerations, and green synthesis will accelerate the industrial translation of advanced industrial lithium metal energy storage.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71447",
+        "cached": "img/W7203561421.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71447"
+      },
+      "summary_ko": "리튬 금속 배터리의 계면 열화를 극복하기 위해 정밀 유기 합성을 통한 전해액 분자 설계 전략을 고찰한 리뷰 논문입니다. 전자 구조 조절, 입체 장해 제어, 작용기 도입을 통해 염, 용매 및 첨가제의 물리화학적 특성을 프로그래밍하고 1차 용매화 구조와 계면(SEI/CEI) 형성을 제어하는 메커니즘을 설명합니다. 또한 파우치 셀 환경에서의 성능 벤치마킹과 조건별 설계 원칙을 제시하며, 전산 스크리닝 및 지속 가능성을 결합한 상용화 방향을 논의합니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203532084",
+      "source": "openalex",
+      "title": "Selective Electrodepositionof Cobalt from Lithium–IonBattery Cathodes via Speciation Control and Surface-Modified PorousElectrodes",
+      "url": "https://doi.org/10.1021/acsnano.6c04698",
+      "published": "2026-08-15",
+      "topics": [],
+      "doi": "10.1021/acsnano.6c04698",
+      "authors": [
+        "Jaeyoung Hong",
+        "김용환",
+        "Arjun V. Yennemadi",
+        "Matthew Moy",
+        "Junghyun Yoon",
+        "Kwanghyun Kim"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Electrochemical separations have emerged as cost-effective and sustainable pathways for battery recycling. To address the challenge of cobalt–nickel separation from lithium nickel manganese cobalt oxide (NMC) cathodes in spent batteries, we present a synergistic strategy that integrates ion speciation control with surface modification of nanoporous membrane electrodes to drive Co-selective electrodeposition. Introducing the chelating agent ethylenediaminetetraacetic acid (EDTA) to a Co–Ni solution converts most Ni2+ cations into NiEDTA2– anions while leaving the majority of Co as Co2+ cations. Continuum modeling reveals that selective complexation of Ni2+ ions in the bulk solution enhances the local concentration of electroactive Co2+ over Ni2+ near the electrode, which coupled with the intrinsically faster charge-transfer kinetics of Co electrodeposition yields highly Co-rich deposits. Coating the nanoporous polycarbonate membrane with the negative polyelectrolyte poly(styrenesulfonate) (PSS) is seen to further enhance the Co/Ni atomic ratio in the deposits, which our continuum model indicates is due to the PSS surface chemistry rather than its charge, which preferentially enriches Co2+ over Ni2+ in the pore channels. The combined effect of speciation and PSS surface chemistry allows electrodeposition of Co-rich nanorods/tubes in a Co-Ni-EDTA mixture solution with a peak Co/Ni atomic ratio close to 40. Furthermore, the proposed system could recover cobalt from commercial NMC cathodes with a metal-based purity of 98.8% through two sequential deposition steps. This strategy highlights the potential of combining speciation chemistry with electrokinetic control to enhance the selectivity in electrochemical metal recovery.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-08-19",
+      "image": null,
+      "summary_ko": "폐리튬이온전지 NMC 캐소드에서 코발트와 니켈을 전기화학적으로 분리 회수하는 기법을 제시했다. EDTA로 니켈을 음이온 착물로 전환하고 다공성 멤브레인 전극 표면을 PSS로 개질하여 코발트 선택적 전착을 유도했으며, Co/Ni 원자비 최대 약 40, 2단계 전착 후 금속 순도 98.8%의 코발트를 회수했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203554675",
+      "source": "openalex",
+      "title": "Reveal Non‐Uniform Passivation on Lithium Metal Anode With Operando Spectroscopic Ellipsometry",
+      "url": "https://doi.org/10.1002/aenm.71434",
+      "published": "2026-08-15",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71434",
+      "authors": [
+        "Jianyu Li",
+        "Hanrui Zhang",
+        "Dongliang Chen",
+        "Feifei Shi"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT The passivity of lithium (Li) metal anode is crucial for the safety and long‐term cycling performance of Li metal batteries (LMBs), yet the mechanism and evolution of native passivation remain poorly understood. In this work, we use operando spectroscopic ellipsometry (SE) with a real‐time, spatially resolved thickness‐mapping function to study freshly prepared Li metal anodes with/without texture control. The native passivation reaction is monitored inside an Argon glovebox with precise control of O 2 , CO 2, and H 2 O gas environment. We discovered that the nucleation and anisotropic reactivity of Li metal are the root causes for the non‐uniform distribution of the native passivation layer. The equilibrium thickness has been studied for texture effects (i.e., Li with (200) and (110) out‐of‐plane orientations) and temperature effects. The growth of the native layer is fitted by Fehlner–Mott model. We correlate the thickness of the native passivation layer with subsequent SEI evolution by analyzing electrochemical impedance spectroscopy distribution of relaxation times (EIS‐DRT) and critical current densities (CCD) in three different electrolytes. By elucidating the fundamental growth mechanisms and roles of the native passivation layer, this work reveals the origin of non‐uniform reactivities on Li metal anodes, providing a new framework for engineering stable, dendrite‐free lithium metal interfaces.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71434",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71434",
+        "cached": "img/W7203554675.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71434"
+      },
+      "summary_ko": "실시간 공간 분해 두께 매핑이 가능한 오페란도 분광 타원계측법(spectroscopic ellipsometry)을 사용하여 리튬 금속 음극 표면의 초기 부동태막 형성 및 불균일성을 분석한 연구입니다. 리튬 금속의 결정 배향((200) 및 (110))과 핵생성에 따른 이방성 반응성이 부동태막의 불균일한 두께 분포를 유발함을 Fehlner-Mott 모델을 통해 규명하였습니다. 또한 EIS-DRT 및 한계전류밀도(CCD) 측정을 통해 초기 부동태막의 두께와 후속 SEI 형성 거동 간의 상관관계를 입증하여 수지상 없는 리튬 계면 설계 지침을 제시했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203555874",
+      "source": "openalex",
+      "title": "Propelling metal sulfide cathodes toward all‑solid‑state batteries: Insights and advances",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112309",
+      "published": "2026-08-15",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112309",
+      "authors": [
+        "Wenyu Zhao",
+        "Xun‐Lu Li",
+        "Chao Zhou",
+        "Xijun Xu",
+        "Hengrui Zhang",
+        "Weijie Cao"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112309",
+        "cached": "img/W7203555874.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112309"
+      },
+      "summary_ko": "전고체 배터리를 위한 금속 황화물(metal sulfide) 계열 양극 소재의 발전 현황과 과제를 정리한 리뷰 논문으로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7203533170",
+      "source": "openalex",
+      "title": "Chemomechanically Adaptive MXene–Si–Ag Dual‐Seed Interlayer Enabling Low‐Pressure Sulfide all‐Solid‐State Batteries",
+      "url": "https://doi.org/10.1002/aenm.71461",
+      "published": "2026-08-15",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71461",
+      "authors": [
+        "Youngjin Song",
+        "Jeongsoo Hong",
+        "Hyoyeong Kim",
+        "Kyungmok Ko",
+        "Junha Lee",
+        "Sang‐Min Lee"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Sulfide‐based all‐solid‐state batteries (ASSBs) promise high safety and energy density; however, sustaining stable operation under low stack pressure remains challenging due to chemo‐mechanical instability at solid‐solid interfaces. Here, we report a chemomechanically adaptive MXene–Si–Ag hybrid interlayer that stabilizes Li metal‐based anode interfaces in sulfide ASSBs. A mechanically compliant MXene framework maintains intimate contact with the sulfide solid electrolyte and accommodates interfacial stress evolution, while immobile Si and mobile Ag function as complementary lithiophilic seeds. Si provides persistent interfacial anchoring and continuous ionic pathways owing to its negligible solubility in Li, whereas Ag dynamically redistributes along Li flux to regulate nucleation and interfacial reaction kinetics. This immobile‐mobile dual‐seed synergy homogenizes Li transport without requiring strict spatial overlap of the seeds. When paired with high‐loading NCM811 cathodes, the interlayer enables an areal capacity of 4.56 mAh cm −2 with 84.5% capacity retention over 500 cycles at 1C under 40 MPa. Notably, stable cycling is preserved even under ultralow stack pressure (0.21 MPa), delivering an initial Coulombic efficiency of 82.7% and 72.4% capacity retention after 200 cycles. This work demonstrates that coupling mechanical adaptability with dynamic lithiophilic regulation provides a practical pathway toward pressure‐tolerant, high‐energy sulfide ASSBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71461",
+      "license": "cc-by-nc",
+      "journal_id": null,
+      "journal_metric": 18.74,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71461",
+        "cached": "img/W7203533170.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71461"
+      },
+      "summary_ko": "황화물계 전고체 전지의 리튬 금속 음극 계면을 안정화하기 위해 화학역학적으로 적응 가능한 MXene-Si-Ag 하이브리드 중간층을 개발했습니다. 기계적으로 유연한 MXene 프레임워크가 계면 응력을 완화하고 고정형 Si와 이동형 Ag 듀얼 시드가 상호 보완적으로 작용하여 리튬 수송 및 핵생성을 균일화합니다. 고로딩 NCM811 양극과 조합하여 40 MPa 및 0.21 MPa의 초저압 환경에서도 우수한 용량 유지율과 사이클 안정성을 입증했습니다.",
+      "relevant": true
+    }
+  ]
+}

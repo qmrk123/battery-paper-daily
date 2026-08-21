@@ -1,7 +1,7 @@
 {
   "date": "2026-07",
-  "generated_at": "2026-08-20T08:59:41+00:00",
-  "count": 335,
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 336,
   "papers": [
     {
       "id": "W7172421225",
@@ -3119,6 +3119,42 @@
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02224-y"
       },
       "summary_ko": "형상기억 고분자 나노코팅을 통해 취성이 강한 배터리 양극 활물질 내부의 응력을 동적으로 분산시키는 연구로 보인다 (제목 기반 추정).",
+      "relevant": true
+    },
+    {
+      "id": "W7170201942",
+      "source": "openalex",
+      "title": "Dual Thermal Stabilization Toward Highly Safe and Durable All‐Solid‐State Lithium Metal Batteries Based on Sulfide Electrolytes",
+      "url": "https://doi.org/10.1002/ange.1775824",
+      "published": "2026-07-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/ange.1775824",
+      "authors": [
+        "Bingyue Ling",
+        "Ke Li",
+        "Yuefeng Meng",
+        "Zhengkeng Fang",
+        "Kun Qian",
+        "Xu Yang"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT The practical deployment of all‐solid‐state lithium (Li) metal batteries (ASSLMBs) based on sulfide electrolytes is constrained by the thermal–electrochemical coupled failure and safety issues under abusive conditions. Here, a dual thermal‐stabilization strategy is identified and rationalized as the optimal choice to tailor above issues. A fluorinated graphene (FG)‐interlayer is introduced to effectively enhance heat dissipation and deflect Li dendrite propagation inside the ASSLMBs, while an oxygen‐vacancy‐rich copper oxide (CuO 1−x ) additive is applied to efficiently capture reactive oxygen species released from charged cathodes and thus mitigate the electrolyte oxidation. As a demonstration model, the as‐modified Li 6 PS 5 Cl (LPSC)‐based full cells achieve stable cycling over 2000 cycles at 1 C with 96% capacity retention, and well retain the room‐temperature capacity even at 90°C. Accelerated rate calorimetry (ARC) tests on pouch cells further demonstrate enhanced thermal stability. This dual‐thermal‐stabilization paradigm can be extended to sulfide/chlorinated oxide bilayer electrolyte systems.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/ange.1775824",
+        "cached": "img/W7170201942.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.1775824"
+      },
+      "summary_ko": "황화물계 전고체 리튬 금속 전지의 열-전기화학 결합 실패 문제를 해결하기 위해 이중 열안정화 전략을 제시했다. 불소화 그래핀 계면층으로 방열을 강화하고 리튬 덴드라이트 전파를 억제하며, 산소공공이 풍부한 CuO1-x 첨가제로 충전된 양극에서 나오는 반응성 산소종을 포집해 전해질 산화를 완화한다. 개질된 Li6PS5Cl 기반 완전지는 1C에서 2000사이클 이상 96% 용량 유지를 달성했고 90°C에서도 상온 용량을 유지했다.",
       "relevant": true
     },
     {

@@ -1,0 +1,377 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 11,
+  "papers": [
+    {
+      "id": "W7201867313",
+      "source": "openalex",
+      "title": "Synergistic Bulk‐Surface Modulation Stabilizing LiCoO 2 at 4.65 V via Zr‐Pillaring and In Situ Lattice‐Matching Engineering",
+      "url": "https://doi.org/10.1002/anie.3474461",
+      "published": "2026-08-07",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.3474461",
+      "authors": [
+        "Guanming Yang",
+        "Jianhang Cui",
+        "Bingwu Zhou",
+        "Xin Meng",
+        "Yun Zhao",
+        "Wenglam Wong"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium cobalt oxide (LiCoO 2 , LCO) is a critical cathode material for high‐energy‐density lithium‐ion batteries, yet its application above 4.55 V (vs. Li/Li + ) is severely limited by structural degradation via the O3→H1‐3 phase transition, lattice oxygen loss, and cobalt dissolution. Here, we report a synergistic bulk‐surface modification strategy combining Zr‐pillaring (LZCO) with in situ LiCoPO 4 coating (LZCO@P) to stabilize LCO at 4.65 V. Zr‐pillaring stabilizes the lattice and suppresses phase transition by expanding the O 2p‐Co 3d band gap, as suggested by density functional theory (DFT), to mitigate oxygen redox activity. Lattice‐matched interfacial engineering between LZCO and LiCoPO 4 coating results from interfacial P–O tetrahedral formation, which enhances mechanical adhesion and reduces oxygen surface reactivity of LZCO. Consequently, LZCO@P achieves 80.8% capacity retention after 1000 cycles at 1 C (3.5–4.65 V) and 91.2% after 1000 cycles at 3 C (3.5–4.65 V). A practical Li||LZCO@P pouch cell retains 92.3% capacity after 160 cycles at 1 C (3.0–4.6 V). The synergistic bulk‐surface modification strategy contributes through different mechanisms and comprehensively improves the cycling stability of LZCO@P at 4.65 V.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3474461",
+        "cached": "img/W7201867313.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3474461"
+      },
+      "summary_ko": "LiCoO2(LCO)를 Zr 필라링과 in situ LiCoPO4 코팅으로 4.65V까지 안정화(O3→H1-3 전이·격자 산소 손실·Co 용출 억제). 대상이 LCO 고전압 양극이라 'Li-rich(리튬 과잉) 양극' 주제와는 무관해 관련성 게이트에서 제외.",
+      "relevant": true
+    },
+    {
+      "id": "W7201854433",
+      "source": "openalex",
+      "title": "Spatiotemporally coupled sulfur chemistry for stable silicon-90+ anodes",
+      "url": "https://doi.org/10.1038/s41467-026-76591-4",
+      "published": "2026-08-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76591-4",
+      "authors": [
+        "Mengyu Tian",
+        "Ziyu Song",
+        "Zhou Jin",
+        "Ronghan Qiao",
+        "Yuanjie Zhan",
+        "Liubin Ben"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Silicon-based materials stand as tantalizing battery anodes for markedly advancing performance indicators of today’s rechargeable lithium-ion batteries; however, their structural degradations, together with detestable side reactions residing in electrode-electrolyte interphases, greatly hinder the delivery of energy promises under practical conditions. Herein, we introduce the spatiotemporally coupled sulfur chemistry as an effective antidote to cope with the volume change and structural integrity of near-full silicon anodes, and concurrently modulate inherent properties of electrode-electrolyte interphases layers enlisting elasticity and ion diffusivity. The sulfur regulated approach is readily achieved by overlaying silicon with a homogenous layer of elemental sulfur, which is highly compatible with present production facilities for lithium-ion batteries industry. The prototype LiNi0.9Co0.05Mn0.05O2 | |Si90+ pouch cell at ampere-hour level (7.3 Ah) delivers great performances assessed simultaneously by energy density (1190 Wh L−1 for cell), specific energy (416 Wh kg−1 for cell), and cycle life (80% capacity retention after 1700 cycles). In light of the significantly improved battery performance and practical applicability, the sulfur regulated Si90+ anodes thus could be considered as a game-changer for offering reliable power source and rapidly turning emerging applications into reality. Silicon-based materials stand as tantalizing battery negative electrodes for rechargeable lithium-ion batteries. Herein, authors introduce the spatiotemporally coupled sulfur chemistry as an effective antidote to cope with the volume change and structural integrity of silicon-90 negative electrodes.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76591-4_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76591-4/MediaObjects/41467_2026_76591_Fig1_HTML.png",
+        "cached": "img/W7201854433.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76591-4"
+      },
+      "summary_ko": "실리콘 90% 이상 함량의 근순수 실리콘 음극에 원소 황을 코팅하는 시공간적으로 결합된 황 화학을 도입해 부피 변화와 전극-전해질 계면 안정성을 개선했다. LiNi0.9Co0.05Mn0.05O2와 조합한 파우치셀에서 암페어시급 성능을 검증했으며, 고니켈 NCM 양극과 함께 사용되었으나 핵심 기여는 실리콘 음극 소재이다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201851454",
+      "source": "openalex",
+      "title": "Oxygen‐Vacancy‐Rich Interlayers Trigger Lithium Metal Anodes With Extended Cycling Life",
+      "url": "https://doi.org/10.1002/adfm.77578",
+      "published": "2026-08-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77578",
+      "authors": [
+        "Wenhao Li",
+        "Kecheng Long",
+        "Wen Pan",
+        "Shaozhen Huang",
+        "Antai Zhu",
+        "Jiahua Liao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium metal anodes hold great promise for next‐generation high‐energy‐density batteries owing to their ultrahigh capacity and low electrochemical potential, yet their deployment is plagued by dendritic growth and unstable SEI. Herein, we construct an oxygen‐vacancy‐rich interlayer, consisting of antimony tin oxide (ATO) at the top surface and Li─Sn/Li─Sb/Li 2 O phases at the bottom surface, on the lithium anode by coating plasma treated ATO. With unreacted ATO providing rich oxygen vacancies at the top surface, the interlayers can facilitate lithium‐salt dissociation and accelerate anion decomposition at the initial cycle, yielding robust LiF‐rich SEI layers. Subsequently, the progressive lithiation of the remaining ATO results in the formation of Li 22 Sn 5 , Li 3 Sb, and Li 2 O phases. These phases act as a lithophilic interlayer, which homogenizes lithium nucleation and reduces nucleation overpotential during cycling. Benefiting from the hybrid interface design, Li@ATO symmetric cells stably operate for over 3000 h at 3 mA cm −2 and 3 mAh cm −2 , and a 400 Wh/kg Li@ATO‖NCM811 pouch cell cycles more than 130 cycles. This work highlights oxygen‐vacancy engineering as a key strategy to simultaneously regulate the SEI components, providing a new pathway toward practical high‐energy‐density lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77578",
+        "cached": "img/W7201851454.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77578"
+      },
+      "summary_ko": "플라즈마 처리한 ATO를 코팅해 상부 ATO(산소공공 풍부)와 하부 Li-Sn/Li-Sb/Li2O로 구성된 산소공공 풍부 계면층을 리튬 음극에 구축. 초기 사이클에 리튬염 해리와 음이온 분해를 촉진해 SEI를 안정화하고 리튬 금속 음극의 수명을 연장한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7196975604",
+      "source": "openalex",
+      "title": "Origin of elastic anisotropy in O3-type layered sodium cathode",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112270",
+      "published": "2026-08-07",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112270",
+      "authors": [
+        "Xiaomei He",
+        "Guoxu Jin",
+        "Qinsheng He",
+        "Chenyu Liang",
+        "Rong Xu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "O3형 층상 소듐 양극 소재의 탄성 이방성 기원을 규명한 연구로 추정된다 (제목 기반 추정). 소듐 금속 음극이 아닌 소듐 이온 양극 소재라 분류 대상에서 제외된다.",
+      "relevant": false
+    },
+    {
+      "id": "W7201860151",
+      "source": "openalex",
+      "title": "Indium Oxychloride as Current Collector Modifier for Limited‐Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.77554",
+      "published": "2026-08-07",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.77554",
+      "authors": [
+        "Nilesh Pande",
+        "Shruti Suriyakumar",
+        "Sweta Das",
+        "Hemant Kumar",
+        "Manikoth M. Shaijumon"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Alkali metals attract considerable interest as anodes for high‐energy‐density batteries due to their high theoretical capacity and low electrochemical potential. However, their practical implementation remains limited by the uncontrolled growth of metallic dendrites and the formation of unstable solid electrolyte interphase (SEI) layers during cycling, resulting in poor Coulombic efficiency and short lifespan. Herein, we address these issues in sodium metal batteries through a simple yet effective surface modification using an indium oxychloride coating on the current collector. Our experimental results demonstrate the formation of an artificial SEI hybrid layer composed of NaIn and sodium oxychloride (Na 3 OCl). This hybrid layer combines enhanced ion diffusion, improved interfacial stability, and space charge regulation to enable uniform dendrite‐free sodium deposition. Density functional theory (DFT) calculations further support the superior role of oxychloride chemistry over conventional alloy‐based modification approaches like NaIn, particularly in promoting horizontal plating and suppressing dendrite formation. We further provide clear evidence for our hypothesis using in situ optical microscopy studies, fabricating custom‐designed cells to directly monitor sodium deposition and interfacial evolution during cycling. The modified limited‐sodium anode exhibits ultra‐low polarization (25 mV) and achieves highly reversible plating/stripping for 2100 h at 1 mAh cm −2 in an ether‐based electrolyte, significantly outperforming anode with sodium plated on a pristine Cu current collector, which cycles only for 50 h. The surface‐modified anode shows high reversibility even at high current densities of 12 mA cm −2 . In full‐cell configuration with a Na 3 V 2 (PO 4 ) 3 (NVP) cathode, the system delivers capacities of 107 mAh g −1 at 0.1 C and 90 mAh g −1 at 5 C, while retaining 90.2% of its capacity over 900 cycles at 1 C rate, offering 99.1% Coulombic efficiency. This work showcases the potential of oxychloride‐based interface engineering in enabling safe and high‐performance limited‐sodium metal batteries, paving the way for next‐generation energy storage technologies.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77554",
+        "cached": "img/W7201860151.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77554"
+      },
+      "summary_ko": "집전체에 인듐 옥시클로라이드 코팅을 도입해 제한된 소듐(limited-Na) 금속 전지의 덴드라이트 성장과 불안정 SEI 문제를 완화. 간단한 표면 개질로 균일한 Na 도금과 쿨롱 효율을 개선한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201844265",
+      "source": "openalex",
+      "title": "Facile mechanical refinement of sulfide solid electrolytes for stable all-solid-state Li metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76505-4",
+      "published": "2026-08-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76505-4",
+      "authors": [
+        "Juner Kuang",
+        "Han Su",
+        "Jiaqi Zhu",
+        "Yu Zhong",
+        "Xiuli Wang",
+        "Jiangping Tu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "All-solid-state lithium metal batteries offer high energy density and enhanced safety, yet mechanical instability at both positive electrode/solid electrolyte and Li metal/solid electrolyte interfaces severely limits cycling stability and rate performance, particularly at a low stacking pressure. Here, we report a facile, industry-compatible strategy to refine polycrystalline Li5.5PS4.5Cl1.5 grains using Al4C3 abrasives. The resulting Al4C3-engineered Li5.5PS4.5Cl1.5 exhibits reduced average particle size and a narrowed size distribution. The refined electrolyte grains enable a high relative density in both anolytes and composite positive electrodes. Beyond particle refinement, Al4C3 in the anolyte stabilizes the Li/electrolyte interface through its high modulus, low electronic conductivity, and favorable interfacial mechanics, enabling a high critical current density/capacity of 3.2 mA cm‒2/3.2 mAh cm−2. Leveraging our designed electrolyte as both anolyte and catholyte, the all-solid-state lithium metal batteries demonstrate stable cycling performance under a low stack pressure of 4 MPa and a positive electrode loading of 1.4 mAh cm−2, sustaining over 1500 cycles at 1.4 mA cm‒2. This study provides a potentially simple and scalable approach to optimize solid electrolyte particles and interfacial mechanics. All-solid-state lithium metal batteries are promising for safe, high-energy storage, but interfacial instability limits performance. Here, authors use Al₄C₃-engineered Li₅.₅PS₄.₅Cl₁.₅ electrolytes to improve interfacial mechanics, enabling stable low-pressure operation and over 1500 charge-discharge cycles.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76505-4_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": null,
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76505-4/MediaObjects/41467_2026_76505_Fig1_HTML.png",
+        "cached": "img/W7201844265.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76505-4"
+      },
+      "summary_ko": "Al4C3 연마제로 다결정 Li5.5PS4.5Cl1.5 황화물 고체전해질 결정립을 미세화·균일화하는 산업 친화적 전략을 제시. 입자 크기·분포를 줄여 고밀도 전극을 구현, 낮은 적층압력에서도 전고체 리튬 금속 전지의 사이클·율 특성을 개선한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201833472",
+      "source": "openalex",
+      "title": "Electron-DeficientSpecies-Driven Interphase Transformationfor Practical Lithium Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c09703",
+      "published": "2026-08-07",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1021/jacs.6c09703",
+      "authors": [
+        "Xinru Wu",
+        "Zhihong Piao",
+        "Gongxun Lu",
+        "Guohuang Kang",
+        "Zhiyuan Han",
+        "Ruyu Shi"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Lithium metal batteries with Ni-rich layered cathodes are promising candidates due to their high energy density; however, the unstable interphase formed in traditional carbonates accelerates premature irreversible capacity loss. In this study, we exploit the electron-deficient nature of boron (B)-containing species, which can initiate the chain polymerization of unstable alkyl lithium. This process facilitates the continuous conversion of these components into stable B-containing polymers, enhancing mechanical strength and ionic conductivity and ultimately achieving dynamic interphase transformation. Simultaneously, the unexpected generation of smaller solvation structures rich in multiple salt anions promotes Li+ transportation and the formation of LiF-rich interphases. Such an interphase bestows Li||LiNi0.8Co0.1Mn0.1O2 cells with a stable operation of up to 450 cycles under 4.6 V. Even practical 1.5 Ah graphite pouch cells can maintain 84% capacity after 1600 cycles. Thanks to the broad applicability of this unique in situ mechanism, it can be generalized to various LiPF6-based carbonate electrolytes. Our work provides a low-cost and highly accessible strategy for modifying the interphase, paving the way for high energy-density batteries that can meet diverse and demanding operating conditions.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-14",
+      "image": null,
+      "summary_ko": "붕소(B) 함유 종의 전자결핍성을 이용해 불안정한 알킬리튬의 사슬중합을 유도, 안정한 B-고분자로 연속 전환하는 동적 계면상 전환을 구현. 고니켈 양극·리튬 금속 전지에서 카보네이트계의 조기 비가역 용량 손실을 억제한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7201878250",
+      "source": "openalex",
+      "title": "Deterministic wet etching of aspheric fiber microlenses with tunable conic geometry for tailored optical functionality",
+      "url": "https://doi.org/10.1038/s41467-026-75331-y",
+      "published": "2026-08-07",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75331-y",
+      "authors": [
+        "Sanggon Kim",
+        "Iason Keramidis",
+        "Isabel Plasencia-Fernández",
+        "Johanna Alonso",
+        "Louison Brochoire",
+        "Cyril Bories"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Efficient coupling between guided optical fiber modes and radiated fields in the surrounding medium remains a fundamental limitation across photonics, sensing, and biophotonics. Micro-lensed fibers offer a promising solution, yet scalable fabrication with predictable geometry and deterministic optical performance has remained elusive. Here, we introduce laser-controlled wet-chemical etching (LCWCE), a single-parameter strategy that directly sculpts micro-lenses, from hyperbolic to parabolic and prolate elliptical profiles, on standard optical fibers. Local laser illumination establishes an axially confined etching-rate gradient, enabling sub-micrometer control of curvature and working distance independent of fiber type or internal structure. A physics-separated multiphysics framework combining wave optics, heat-transfer, and temperature-dependent etching kinetics captures the observed geometry evolution and validates the underlying mechanism. LCWCE enables milliwatt-scale, minimal-power fiber-based optical trapping, as well as minimally invasive in vivo dendritic detection and single-cell neural interrogation beyond 1.5 mm depth in live brains, transforming ubiquitous optical fibers into scalable, high-performance photonic probes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-75331-y",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75331-y/MediaObjects/41467_2026_75331_Fig1_HTML.png",
+        "cached": "img/W7201878250.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75331-y"
+      },
+      "summary_ko": "레이저 제어 습식 화학 에칭을 이용해 비구면 광섬유 마이크로렌즈의 곡률을 정밀 제어하는 광학 소자 제작 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196959740",
+      "source": "openalex",
+      "title": "CAFs shape the immunosuppressive microenvironment of pancreatic cancer through the Lin28b-STING Axis",
+      "url": "https://doi.org/10.1038/s41467-026-76495-3",
+      "published": "2026-08-07",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76495-3",
+      "authors": [
+        "Minghe Fan",
+        "Ziyang Zhang",
+        "Wei Xu",
+        "Yuwei Liu",
+        "Ruoxuan Wang",
+        "Wenqin Hao"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Cancer-associated fibroblasts comprise diverse functionally distinct cellular subsets, with certain subpopulations exerting pivotal influence in shaping the pancreatic cancer immune microenvironment. Here we show that Lin28b+ cancer-associated fibroblasts contribute to establishing an immunologically cold tumor microenvironment in pancreatic ductal adenocarcinoma. Mechanistically, Lin28b directly binds to STING mRNA and promotes its degradation, thereby suppressing STING expression and downstream type I interferon signaling. Loss of Lin28b in cancer-associated fibroblasts activates the cGAS-STING-interferon signaling cascade, enhancing dendritic cell antigen presentation and CD8+ T cell cytotoxic function. Importantly, genetic inhibition of Lin28b in cancer-associated fibroblasts enhances sensitivity to anti-PD-L1 immune checkpoint blockade therapy. These findings reveal that targeting the Lin28b-STING axis represents a promising therapeutic strategy for overcoming the intrinsic resistance of pancreatic ductal adenocarcinoma to immunotherapy. Lin28b is an RNA-binding protein associated with cell transformation and human malignancies. Here, the authors show that Lin28b+ CAFs promote an immunosuppressive microenvironment in pancreatic cancer via inhibition of cGAS-STING signaling.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76495-3",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76495-3/MediaObjects/41467_2026_76495_Fig1_HTML.png",
+        "cached": "img/W7196959740.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76495-3"
+      },
+      "summary_ko": "췌장암 미세환경에서 암 연관 섬유아세포의 Lin28b-STING 축이 면역억제와 항PD-1 저항성에 미치는 영향을 규명한 종양면역학 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7201843600",
+      "source": "openalex",
+      "title": "Bulk delivery of a preassembled apical surface initiates epithelial lumen formation",
+      "url": "https://doi.org/10.1038/s41467-026-75503-w",
+      "published": "2026-08-07",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75503-w",
+      "authors": [
+        "Sujasha Ghosh",
+        "Eleanor Martin",
+        "Yuhong Chen",
+        "Natasha Amiera",
+        "Samaksh Singh",
+        "Kay En Low"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract During de novo lumenogenesis, epithelial cells establish luminal identity by directing apical cargo to an apical membrane initiation site (AMIS). Although this process has been widely studied, the mechanisms governing AMIS formation and its progression into a luminal precursor remain poorly understood. Here we combine quantitative light and electron microscopy with proximity proteomics to demonstrate that apical cargo is delivered to the AMIS in large apical precursor organelles, termed vacuolar apical compartments (VACs). VACs possess a microvilli-rich cortex and undergo exocytic fusion at the AMIS to generate a nascent lumen. Lumen initiation is tightly coordinated with the assembly and rearrangement of apical cell junctions and requires the Crumbs complex protein PatJ. Together, our results show that PatJ is a key structural determinant of the apical-lateral interface and indicate that VACs act as specialized transport organelles that deliver a preassembled apical surface to the AMIS, enabling rapid and efficient lumen initiation.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-75503-w",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75503-w/MediaObjects/41467_2026_75503_Fig1_HTML.png",
+        "cached": "img/W7201843600.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75503-w"
+      },
+      "summary_ko": "상피세포의 관강(lumen) 형성 초기 단계에서 정단막 전구 오르가넬(VAC)이 PatJ 단백질을 매개로 관강을 형성하는 과정을 규명한 세포생물학 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7201847821",
+      "source": "openalex",
+      "title": "Asymmetric fluorinated sulfonamide electrolyte solvent for high-voltage and wide-temperature Li-metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76496-2",
+      "published": "2026-08-07",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1038/s41467-026-76496-2",
+      "authors": [
+        "Luyi Chen",
+        "Jingwen Liu",
+        "Zehang Peng",
+        "Pengcheng Xue",
+        "Xiaoxian Guan",
+        "Zhiqing Liang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Stable cycling of Ni-rich positive electrodes under high voltages (≥ 4.6 V) is critically challenging due to severe interfacial parasitic reactions and structural degradation, especially under all-climate conditions (i.e., ≤ −20 °C and ≥ 55 °C). Herein, we rationally design and synthesize an asymmetric fluorinated sulfonamide solvent, N-ethyl-N-methyltrifluoromethane-sulfonamide, where the fluorination of sulfone backbone greatly promotes the oxidation stability, while the introduction of asymmetric amine group bestows the solvent with an low freezing point (below −150 °C). This obtained solvent, with 1 M lithium bis(fluorosulfonyl)imide, delivers high oxidation stability (above 5.0 V) and good Li reversibility (up to 99.8% in Li | |Cu cells). Coupled with its ability to form highly robust LiF-rich solid-electrolyte/cathode-electrolyte interphases, this single-salt single-solvent electrolyte enables stable cycling of Li | |Ni0.8Co0.1Mn0.1 cells under an high voltage of 4.8 V across an wide temperature of −60 to 100 °C. Remarkably, a prototype 5 Ah-level Li | | Ni0.8Co0.1Mn0.1 pouch cell at an cut-off voltage of 4.7 V and 0.1 C demonstrates a high specific energy (based on the mass of all components) of 514 Wh kg−1 over 20 cycles. Stable cycling of Ni-rich positive electrodes at high-voltage (≥ 4.6 V) remains challenging. Here, authors propose a single-salt single-solvent electrolyte based on an asymmetric fluorinated sulfonamide solvent, which sustains stable cycling of 4.8 V LillNCM811 cells from −60 to 100 °C.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76496-2",
+      "license": "cc-by-nc-nd",
+      "journal_id": null,
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76496-2/MediaObjects/41467_2026_76496_Fig1_HTML.png",
+        "cached": "img/W7201847821.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76496-2"
+      },
+      "summary_ko": "비대칭 플루오르화 설폰아마이드 용매를 설계해 산화 안정성과 저온 특성(어는점 -150°C 이하)을 동시에 확보. 고니켈 양극·리튬 금속 전지의 고전압(4.6V 이상)·전천후(-20~55°C) 안정 사이클을 가능케 한다.",
+      "relevant": true
+    }
+  ]
+}

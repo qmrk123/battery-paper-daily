@@ -1,0 +1,291 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 9,
+  "papers": [
+    {
+      "id": "W7196938977",
+      "source": "openalex",
+      "title": "The climate benefits of retiring a fully operational internal combustion engine vehicle",
+      "url": "https://doi.org/10.1126/science.adv5441",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1126/science.adv5441",
+      "authors": [
+        "J. Elliott Campbell",
+        "Roland Geyer"
+      ],
+      "venue": "Science",
+      "abstract_en": "Internal combustion engine (ICE) vehicles represent the single largest source of carbon dioxide emissions for most US households. Although battery electric vehicles (BEVs) considerably reduce use-phase emissions, the transition poses a fundamental life cycle optimization challenge: Is there a net climate benefit to retiring a functional ICE vehicle before its end of life? Retiring a functioning ICE vehicle incurs a fundamental trade-off between BEV manufacturing emissions and decreased vehicle operation emissions. In this study, we evaluated this trade-off across a comprehensive range of retirement scenarios and found that scrappage-and-replacement yields consistent emissions reductions across most contexts, including the retirement of new ICE vehicles. Although scrapping a functional asset remains economically prohibitive under current market conditions, these results demonstrate a major mitigation potential for policy interventions, such as enhanced scrappage subsidies, to address the emissions of an increasingly durable ICE fleet.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S3880285",
+      "journal_metric": 20.25,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "정상 작동 중인 내연기관차를 조기 폐차하고 전기차로 교체하는 것의 기후 편익을 생애주기 관점에서 분석한 정책 연구로, 배터리 소재 연구가 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196969872",
+      "source": "openalex",
+      "title": "Stress relief principles milestoning the industrial application of lithium metal battery systems",
+      "url": "https://doi.org/10.1038/s41467-026-76058-6",
+      "published": "2026-08-06",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76058-6",
+      "authors": [
+        "Xiaoyu Ji",
+        "Xiaofan Lv",
+        "Jiedong Li",
+        "Lei Li",
+        "Zuoliang Ning",
+        "Yuxiang Wu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Stress critically influences the cycling and safety of lithium metal batteries, especially in pouch cell or pack configurations. However, intrinsic coupling between stress and swelling persistently obscures the fundamental understanding of stress-strain effects. Herein, through real-time stress control, we identify that electro-chemo-mechanical responses of industrial-level cells are directly linked to stress relief principles of Li negative electrode. Li dendrites can hardly penetrate separators due to the plastic collapse of porous Li deposits. While densification of collapsed deposits occurs at 0.1 ~ 0.2 MPa, the dense architecture necessitates stress relief through creep or plastic deformation. Crucially, the separator penetration-induced short circuit originates from plastic deformation of densified Li, under stress exceeding its bulk yield strength (~1 MPa). These stress relief principles enlighten us achieving the stress-optimized 27 Ah, 402 Wh kg−1 module with nondeteriorative cycling performance compared to single cell, providing a scalable framework for addressing key challenges in high-energy battery systems. Stress strongly influences the cycling stability and safety of lithium metal batteries, yet its intrinsic coupling with electrode swelling has obscured the underlying stress–strain mechanisms. Here, the authors decouple stress from swelling in lithium metal pouch cells, revealing stress-relief mechanisms and enabling a 27 Ah battery module with a gravimetric energy density of 402 Wh kg⁻¹ and stable cycling over 240 cycles.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76058-6_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76058-6/MediaObjects/41467_2026_76058_Fig1_HTML.png",
+        "cached": "img/W7196969872.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76058-6"
+      },
+      "summary_ko": "산업용 리튬금속전지의 응력-팽창 결합 거동을 실시간 응력 제어로 규명한 연구이다. 다공성 Li 증착물의 소성 붕괴로 덴드라이트의 분리막 관통이 억제되며, 밀도화된 Li의 항복강도(~1 MPa)를 초과하는 응력에서 단락이 발생함을 밝혔다.",
+      "relevant": true
+    },
+    {
+      "id": "W7197010976",
+      "source": "openalex",
+      "title": "PPARα activation overcomes fibroinflammatory liver microenvironment-associated anti-PD-1 resistance in hepatocellular carcinoma by mediating GSDME-dependent pyroptosis",
+      "url": "https://doi.org/10.1038/s41467-026-75770-7",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75770-7",
+      "authors": [
+        "Peng Chen",
+        "Kai Xiong",
+        "Kuiyuan Huang",
+        "Zheyu Dong",
+        "Junjie Liang",
+        "Xiaoning Gan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract The fibroinflammatory liver microenvironment (FILM), characterized by collagen-rich stroma and immunosuppressive inflammation, is prevalent in hepatocellular carcinoma (HCC) and correlates with poor response to programmed cell death protein 1 (PD-1) blockade. Here, we show that FILM suppresses gasdermin E (GSDME)-dependent pyroptosis and promotes immune suppression and anti-PD-1 resistance. Mechanistically, FILM-associated cancer-associated fibroblasts recruit and polarize macrophages toward a nitric oxide synthase 2 (NOS2)⁺ inflammatory phenotype. NOS2+ macrophage-derived nitric oxide induces SP1 S-nitrosylation, impairs SP1 binding to the peroxisome proliferator-activated receptor alpha (PPARA) promoter and transcriptionally represses PPARA in HCC cells. PPARα downregulation reduces pyruvate dehydrogenase kinase 4 (PDK4) expression, mitochondrial reactive oxygen species production, caspase-3 activation and GSDME cleavage. Conversely, ligand activation of tumor intrinsic PPARα restores the PDK4–ROS–caspase-3–GSDME axis, enhances dendritic cell and CD8⁺ T cell activation, and sensitizes HCC to anti–PD-1 therapy. The clinically approved PPARα agonist fenofibrate enhances anti-PD-1 efficacy in HCC models in male mice and is associated with improved clinical benefit in a retrospective cohort of patients with HCC. We propose a FILM–NOS2–SP1–PPARα–PDK4 axis that controls pyroptotic immunogenicity and immunotherapy response, supporting PPARα activation as a strategy to overcome FILM-associated immune resistance in HCC.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-75770-7_reference.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75770-7/MediaObjects/41467_2026_75770_Fig1_HTML.png",
+        "cached": "img/W7197010976.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75770-7"
+      },
+      "summary_ko": "간세포암에서 섬유염증성 간 미세환경이 GSDME 매개 파이롭토시스를 억제해 항PD-1 저항성을 유발하며, PPARα 활성화로 이를 극복할 수 있음을 밝힌 종양학 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196983850",
+      "source": "openalex",
+      "title": "Microwave-assisted solvo-metallurgical recovery of lithium and transition metals from lithium-ion battery waste",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112275",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112275",
+      "authors": [
+        "Thilini Gunawardhana",
+        "Xuhui Zhu",
+        "Xiaofei Duan",
+        "Hamidreza Arandiyan",
+        "Yuan Wang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": "With the accelerating demand for critical minerals and the imminent surge of end-of-life lithium-ion batteries (LIBs), efficient recycling technologies are urgently needed to secure a sustainable resource supply and enable a circular battery economy. Deep eutectic solvents (DESs) offer an environmentally benign pathway for metal recovery, yet their practical implementation is constrained by inherently slow leaching rates. In this study, microwave-responsive DESs were rationally designed using choline chloride as a common, low-cost hydrogen-bond acceptor, while varying the hydrogen-bond donor to tune acidity, metal coordination, and leaching performance. Among the DESs investigated, choline chloride-lactic acid delivered the highest metal recovery, achieving >99% extraction of Co and Mn and >92% extraction of Li and Ni from industrial LIB black mass within only 30 min at 200 °C under microwave irradiation. The exceptional performance is attributed to rapid volumetric heating and enhanced solvent-solid interactions, which accelerate mass transfer and metal dissolution. Combined spectroscopic and thermal analyses revealed a ligand-assisted leaching mechanism involving proton-mediated metal-oxygen bond cleavage and stabilization of dissolved metal species through chloride-lactate coordination. The DES maintained high leaching efficiency over multiple recycling cycles and enabled downstream metal separation via selective precipitation. Life cycle assessment confirmed the environmental viability of the process and identified energy consumption as the primary hotspot for future optimization. This study establishes a rapid, energy-efficient, and environmentally benign microwave-assisted solvo-metallurgical strategy for the sustainable recovery of critical metals from spent LIBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.nanoen.2026.112275",
+      "license": "cc-by",
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "마이크로파를 이용한 심공융용매(DES) 기반 폐리튬이온전지에서 리튬과 전이금속을 회수하는 재활용 공정 연구이다. 소재 합성이 아닌 리사이클링 연구라 6대 분류 대상이 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196962042",
+      "source": "openalex",
+      "title": "Heterostructured Materials for Room‐Temperature Na‐S Batteries: Directional Design Strategies and Multifaceted Applications",
+      "url": "https://doi.org/10.1002/advs.76019",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1002/advs.76019",
+      "authors": [
+        "Yeqing Yang",
+        "Xue Li",
+        "Kunjie Zhu",
+        "Xiang Huang",
+        "Yunxiao Wang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "The development of room-temperature sodium-sulfur (RT Na-S) batteries is fundamentally constrained by many severe challenges, including the polysulfide shuttle effect, sluggish sulfur conversion kinetics, and unstable sodium metal anode. This comprehensive review systematically presents a universal and versatile materials design methodology, heterostructure engineering, to concurrently address these interlinked challenges. The electrochemical mechanisms of RT Na-S batteries based on different redox pathways are elaborated, with their corresponding key challenges. Followed by that, the multifunctional advantages and fundamental design principles of heterostructured materials are summarized. It is of greater importance that we pioneer to comprehensively elucidate various real applications of these tailored heterostructured materials in advanced RT Na-S batteries, involving host materials for sulfur and sodium, interface layer materials for sulfur cathode and sodium anode, solid-state electrolytes, and current collectors, etc. We conclude with critical perspectives on the unresolved scientific questions and practical hurdles, charting a pathway from laboratory-scale innovation to the realization of high-energy, long-cycle-life, and safe devices. By demonstrating how tailored heterointerfaces can regulate sulfur speciation, guide sodium electrodeposition, and accelerate reaction kinetics, this review establishes heterostructure engineering as a cornerstone for advancing RT Na-S batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.76019",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "실온 소듐-황 전지의 폴리설파이드 셔틀, 느린 황 전환 반응속도, 불안정한 소듐 금속 음극 문제를 헤테로구조 소재 설계로 해결하는 전략을 정리한 리뷰이다. 소듐 금속 음극을 다루지만 6대 분류의 na-metal은 소듐 금속 '전지' 전반이 아닌 음극 자체 연구를 우선하며, 본 리뷰는 헤테로구조 소재 전반을 폭넓게 다뤄 분류에서 제외한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196987790",
+      "source": "openalex",
+      "title": "Dilute electrolytes for suppressing metal anode corrosion during calendar aging and cycling in aqueous zinc batteries",
+      "url": "https://doi.org/10.1038/s41467-026-75100-x",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75100-x",
+      "authors": [
+        "Haoyang Wu",
+        "Bo Liu",
+        "Dingyi Zhao",
+        "Dongfang Cheng",
+        "Keyue Liang",
+        "Xintong Yuan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract While numerous improvements in cycling stability have been demonstrated for next-generation battery chemistries with metallic anodes, their calendar aging (e.g., capacity loss during idle periods of rest) performance painfully lags behind and remains a critical bottleneck hindering their practical deployment. In contrast to their commercial counterparts, metallic anodes exhibit substantial capacity loss during calendar aging. Despite several recent studies exploring the underlying reasons for calendar aging, few solutions have been proposed to mitigate this key issue. Here, we design a low concentration electrolyte (0.1 M ZnSO 4 ) that can reduce calendar aging losses in Zn metal chemistries by more than an order of magnitude (<1.5% capacity fade after 24 hours of aging) while still maintaining improved cycling stability (>3300 cycles at 4 C) with an average Coulombic efficiency of 99.8%. We find that solvated water molecules (rather than unsolvated water molecules) drive Zn corrosion, motivating our effort to minimize these reactive solvated water molecules through a holistic approach centered around concentration reduction, aided by isotopic solvent substitution and targeted additives. This strategy could be applicable to other battery chemistries and provides an approach that can address both calendar aging and cycling stability, both of which are necessary for practical applications.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-75100-x_reference.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75100-x/MediaObjects/41467_2026_75100_Fig1_HTML.png",
+        "cached": "img/W7196987790.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75100-x"
+      },
+      "summary_ko": "수계 아연 전지에서 저농도 전해질(0.1M ZnSO4)을 이용해 계류 노화(calendar aging) 중 금속 음극 부식을 억제하는 연구이다. 아연 금속 계열로 6대 분류 대상이 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7196952157",
+      "source": "openalex",
+      "title": "Defective indium oxide as plasmonic catalyst for efficient photo-driven methanol steam reforming",
+      "url": "https://doi.org/10.1038/s41467-026-76427-1",
+      "published": "2026-08-06",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76427-1",
+      "authors": [
+        "Chiran Wang",
+        "Pengfei Yan",
+        "Lin Wang",
+        "Ye Tao",
+        "Tian Zhang",
+        "Ninghao Zhai"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Expanding plasmonic catalysis from noble metals to earth-abundant oxides is important for sustainable solar-to-chemical conversion, but mechanisms remain poorly understood. Here, we show that lithium-reduction-induced defects modulate the electronic structure of indium oxide, increasing free-carrier concentration 2.5-fold and producing a near-infrared plasmon-like response. Computational and spectroscopic analyses suggest that oxygen vacancies act as preferential hot-electron traps, enhance near fields, and shift the kinetically sensitive step from methoxy dehydrogenation on pristine surfaces to intermediate dehydrogenation on defective surfaces. Injection of plasmon-induced hot electrons into intermediate antibonding orbitals may reduce the apparent activation energy from 75.7 to 27.8 kJ mol−1. In this work, we report a competitive methanol steam reforming catalyst with a hydrogen production rate of 214 μmol gcat−1 s−1 and show how defect and electronic engineering can tailor oxide-based plasmonic systems. This study presents a defect-engineered indium oxide plasmonic catalyst. Oxygen vacancies enable a near-infrared response and hot-electron injection, significantly enhancing hydrogen production via photo-driven methanol steam reforming.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76427-1_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76427-1/MediaObjects/41467_2026_76427_Fig1_HTML.png",
+        "cached": "img/W7196952157.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76427-1"
+      },
+      "summary_ko": "리튬 환원으로 결함을 유도한 산화인듐을 플라즈몬 촉매로 사용해 광구동 메탄올 수증기 개질 반응의 활성화 에너지를 낮춘 촉매 연구로, 배터리 소재가 아닌 촉매 화학이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7172542066",
+      "source": "openalex",
+      "title": "Anionic solvation reconstruction stabilizes interfacial chemistry for high-temperature and high-voltage Li metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76363-0",
+      "published": "2026-08-06",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76363-0",
+      "authors": [
+        "Zixiong Shi",
+        "Simil Thomas",
+        "Georgian Melinte",
+        "Christian G. Canlas",
+        "Dong Guo",
+        "Yongjiu Lei"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The development of high-voltage Li metal batteries is crucial to meeting increasing demand for high specific energy. However, their high-temperature operation remains a huge challenge due to reduced electrolyte oxidation stability and aggravated interfacial side reactions. Herein, a multimodal 19F nuclear magnetic resonance technique is developed to reveal temperature-mediated evolution of electrolyte anion solvation chemistry, thus identifying its vital roles in stabilizing high-voltage positive electrodes. A universal solvent screening strategy is proposed to customize an anion-anchored compact solvation structure electrolyte with large-size and anion-compressed solvation structure. This strategy simultaneously elevates anti-oxidation ability, stabilizes electrode–electrolyte interphase, and maintains structural integrity of the positive electrodes. Consequently, a 317 Wh kg–1 Li metal pouch cell based on the total cell mass achieves high thermal safety and cycling stability at 55 °C. Our work elucidates the reaction mechanisms of solvation structure and interfacial chemistry in high-temperature and high-voltage Li metal batteries, which offers insightful guidance for designing wide-temperature battery electrolytes. High-temperature Li metal batteries are limited by low interfacial stability. Here, the authors utilize an anionic solvation reconstruction strategy to design a compact solvation structure electrolyte, which concurrently elevates thermal stability and stabilizes electrode–electrolyte interphase.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76363-0_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76363-0/MediaObjects/41467_2026_76363_Fig1_HTML.png",
+        "cached": "img/W7172542066.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76363-0"
+      },
+      "summary_ko": "19F NMR 기법으로 온도에 따른 전해질 음이온 용매화 구조 변화를 규명하고, 음이온-앵커링 용매화 구조를 통해 고온·고전압 리튬금속전지의 계면 안정성을 확보했다. 317 Wh/kg급 파우치셀을 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7196961329",
+      "source": "openalex",
+      "title": "An Integrated Recycling Strategy for Selective Lithium Separation and Reconstruction of Mixed Spent Cathodes for Water Oxidation",
+      "url": "https://doi.org/10.1002/adfm.76449",
+      "published": "2026-08-06",
+      "topics": [
+        "ncm",
+        "lfp"
+      ],
+      "doi": "10.1002/adfm.76449",
+      "authors": [
+        "Xumeng Shi",
+        "Lun Li",
+        "Zhihan Xu",
+        "Shichun Liu",
+        "Guoqiang Shen",
+        "Haijiao Lu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Sustainable recycling of spent lithium‐ion batteries (LIBs) is critical for low‐carbon development and responsible resource utilization. Here, we report a green recycling strategy that simultaneously processes spent ternary (s‐NCM) and spent lithium iron phosphate (s‐LFP) cathode materials with diverse compositions, enabling compatibility with a wide range of feedstocks. An electrochemical pre‐delithiation step achieves highly selective lithium recovery with efficiencies above 99% and negligible transition‐metal loss (<0.15%). The delithiated residues are subsequently reconstructed into oxygen evolution reaction (OER) catalysts through a low‐cost, low‐energy process without external metal additives. Owing to the intrinsic Ni–Fe synergy derived from s‐NCM and s‐LFP, the resulting NiFe (rec‐NCM955/LFP) pre‐catalyst exhibits outstanding OER performance, delivering a low overpotential of 234 mV at 10 mA·cm −2 , a small Tafel slope of 28.4 mV·dec −1 , and stable operation at 500 mA·cm −2 for 200 h in an anion exchange membrane water electrolyzer. Economic and environmental analyses further confirm the scalability and industrial feasibility of this approach. This work offers an integrated and practical solution for selective lithium recovery and direct cathode upcycling, advancing circular LIB recycling and green hydrogen production.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.76449",
+        "cached": "img/W7196961329.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.76449"
+      },
+      "summary_ko": "폐NCM과 폐LFP 혼합 양극재에서 전기화학적 전리튬화로 99% 이상의 선택적 리튬 회수를 달성하고, 잔류물을 저비용으로 NiFe 기반 산소발생반응(OER) 촉매로 재구성하는 통합 재활용 전략을 제시했다.",
+      "relevant": true
+    }
+  ]
+}

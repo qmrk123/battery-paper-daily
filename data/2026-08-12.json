@@ -1,0 +1,207 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7202157491",
+      "source": "openalex",
+      "title": "Zinc displacement and metabolic interference: cobalt ion-mediated therapy for broad-spectrum CRKP-resistant pneumonia via inhalable microspheres",
+      "url": "https://doi.org/10.1038/s41467-026-76666-2",
+      "published": "2026-08-12",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76666-2",
+      "authors": [
+        "Zhaoyou Chu",
+        "Jun Liang",
+        "Yayun Wu",
+        "Wanyue Fu",
+        "Ling Xu",
+        "Hanqing Zhang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Currently, broad-spectrum carbapenem-resistant Klebsiella pneumoniae (CRKP) infectious pneumonia remains clinically difficult to treat. This study develops inhalable microspheres (SCM) loaded with meropenem (MEM), fabricated via microfluidics by cross-linking sodium alginate with Co2+, for synergistic therapy against drug-resistant bacterial pneumonia. The core discovery lies in Co2+’s dual mechanism of action, which addresses both metallo- and serine-mediated carbapenem resistance. Co2+ irreversibly inhibits NDM-1 by displacing its active-site Zn2+ to restore MEM’s bactericidal effect. For KPC-2-producing CRKP, Co2+ disrupts bacterial iron/sulfur metabolism, induces energy crisis and nutrient starvation, and reprograms bacterial metabolism toward inefficient fermentation. SCM shows potent in vitro activity against target strains and anti-biofilm capacity. In mouse models, treatment with inhaled SCM reduces bacterial levels in the lungs, improves survival rates, and lessens inflammatory damage. It also regulates the immune response in the lungs. Specifically, this therapy prevents the excessive migration of neutrophils to the lungs, inhibits excessive M1 polarization of macrophages and promotes their conversion to the M2 phenotype, while reverses T-cell exhaustion and maintains the homeostasis of NK cells. Transcriptome analysis confirms reversed infection-induced dysregulation and enhanced genes related to tissue repair. This work clarifies Co2+’s dual role (both an enzyme inhibitor and a metabolic disruptor) and provides an inhalable co-delivery strategy for CRKP. The global rise of carbapenem-resistant bacteria, driven by enzymes such as KPC-2 and OXA-48 as well as metallo-β-lactamases, poses a major challenge to antibiotic therapy. Here, the authors develop a cobalt-based microsphere platform for the delivery of meropenem, leveraging Co²⁺ as a metal-based resistance breaker to overcome multiple resistance mechanisms. In a mouse model of drug-resistant pneumonia, the treatment improved survival, reduced bacterial burden, and mitigated excessive inflammation, highlighting a promising strategy for combating multidrug-resistant infections.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76666-2_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76666-2/MediaObjects/41467_2026_76666_Fig1_HTML.png",
+        "cached": "img/W7202157491.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76666-2"
+      },
+      "summary_ko": "코발트 이온의 아연 치환 및 대사 교란 기전을 이용해 카바페넴 내성 폐렴간균 폐렴을 치료하는 흡입형 마이크로스피어 연구로, 배터리와 무관한 의약 분야이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202397661",
+      "source": "openalex",
+      "title": "Solvation‐Preserving Gelation of Localized High‐Concentration Electrolytes for Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.74634",
+      "published": "2026-08-12",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/adma.74634",
+      "authors": [
+        "Chong Xu",
+        "Lei Xu",
+        "Xiaohan Ban",
+        "Zongpu Shao",
+        "Yafei Liu",
+        "Yanbin Chen"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Localized high‐concentration electrolytes (LHCEs) exhibit excellent interfacial compatibility with lithium metal anodes and high‐nickel cathodes, whereas the introduction of polymer networks during gelation may alter their intrinsic solvation structures. Here, we report a solvation‐preserving gel electrolyte formed via in situ polymerization of a fluorinated polymer network within a 1,2‐Dimethoxyethane (DME)‐based LHCE. Unlike conventional gel polymer electrolytes, the fluorinated polymer exhibits limited Li + coordination, thereby largely preserving the localized high‐concentration solvation environment during gelation. This design couples the preserved LHCE solvation chemistry with a fluorinated polymer framework, enabling synergistic regulation of electrode–electrolyte interfaces and enhanced electrochemical performance. Meanwhile, the fluorinated polymer network further improves safety by reducing electrolyte flammability. Lithium symmetric cells achieve stable cycling over 2000 h, while LiNi 0.9 Co 0.05 Mn 0.05 O 2 (NCM9)|Li full cells deliver 82.2% capacity retention after 300 cycles and operate stably up to 4.5 V. At the pouch‐cell level, a gravimetric energy density of 394.3 Wh kg −1 is achieved under lean‐electrolyte conditions, while no thermal runaway is observed up to 300°C. This work demonstrates that preserving solvation structure via rational polymer network design enables simultaneous improvements in interfacial stability, safety, and practical performance in quasi‐solid‐state lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74634",
+        "cached": "img/W7202397661.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74634"
+      },
+      "summary_ko": "DME 기반 국재화 고농도 전해질(LHCE) 내에서 불소화 고분자 네트워크의 인시튜 중합을 통해 본래의 용매화 구조를 보존하는 겔 전해질을 개발했습니다. 불소화 고분자의 제한적인 Li+ 배위 특성 덕분에 LHCE 용매화 환경과 계면 안정성이 유지되며 난연성 및 안전성이 향상되었습니다. 이를 적용한 Li 대칭셀은 2000시간 이상 안정적으로 작동했고, NCM9||Li 풀셀은 4.5V 고전압 조건에서 300사이클 후 82.2%의 용량 유지율을 기록했습니다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202283298",
+      "source": "openalex",
+      "title": "Multi-element nanoscale doping of iron-rich sodium layered oxides enables ampere-hour-level Na-ion batteries",
+      "url": "https://doi.org/10.1038/s41565-026-02257-3",
+      "published": "2026-08-12",
+      "topics": [],
+      "doi": "10.1038/s41565-026-02257-3",
+      "authors": [
+        "Ruo-Xi Jin",
+        "Xincheng Lei",
+        "Xiao‐Chuan Su",
+        "Xing Zhang",
+        "Yao Zhao",
+        "Xiaodong Qi"
+      ],
+      "venue": "Nature Nanotechnology",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S7822423",
+      "journal_metric": 26.11,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02257-3/MediaObjects/41565_2026_2257_Fig1_HTML.png",
+        "cached": "img/W7202283298.jpg",
+        "license": null,
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02257-3"
+      },
+      "summary_ko": "철이 풍부한 소듐 층상 산화물에 다원소 나노스케일 도핑을 적용하여 암페어시급 나트륨이온전지를 구현한 연구로 추정된다 (제목 기반 추정). 나트륨이온 양극 소재는 분류 대상에서 제외된다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202183187",
+      "source": "openalex",
+      "title": "Amiloride mitigates respiratory distress caused by WFDC2 deficiency via inhibiting the epithelial sodium channel",
+      "url": "https://doi.org/10.1038/s41467-026-76582-5",
+      "published": "2026-08-12",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76582-5",
+      "authors": [
+        "Jae Won Roh",
+        "Soo Kyung Seo",
+        "Jiyoung Oh",
+        "Se Jin Kim",
+        "Ji Won Hong",
+        "Jiyeon Ohk"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Chronic airway diseases such as cystic fibrosis (CF) and primary ciliary dyskinesia (PCD) pose substantial clinical challenges. Here, we explore the p.C97W variant in WAP four-disulfide core domain protein 2 (WFDC2), proposed as a new genetic origin of respiratory distress, especially among Koreans. Whole-exome and whole-genome sequencing (WES/WGS) are performed on 64 patients from 62 families presenting with severe bronchiectasis and chronic rhinosinusitis. Pathogenic variants are found in 19.4% of families, including a novel homozygous WFDC2 missense variant (c.291 C > G, p.Cys97Trp) in five unrelated families. WFDC2 is expressed in lung epithelial cells, and the p.C97W variant impairs WFDC2 protein folding, secretion, and function. Wfdc2 p.C147W knock-in mice exhibit respiratory failure due to the hyperactive epithelial sodium channel (ENaC) linked to increased PRSS8 activity and recapitulate human disease. Treatment with amiloride, an ENaC inhibitor, improves survival and respiratory function in these mice. In conclusion, the p.C97W variant in WFDC2 is a critical genetic factor in severe chronic airway disease that shares clinical features with CF and PCD. Given its implications for diagnosis and treatment, genetic testing for WFDC2 mutations in individuals with CF- or PCD-like symptoms is recommended. This study identifies a WFDC2 mutation that causes a severe cystic-fibrosis-like airway disease in humans and mice. The mutation overactivates the epithelial sodium channel, and treatment with the drug amiloride improves survival and lung function in affected mice.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76582-5",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76582-5/MediaObjects/41467_2026_76582_Fig1_HTML.png",
+        "cached": "img/W7202183187.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76582-5"
+      },
+      "summary_ko": "WFDC2 결핍으로 인한 호흡곤란에서 상피 나트륨 채널(ENaC) 과활성을 아밀로라이드로 억제해 치료하는 유전질환 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7161629298",
+      "source": "openalex",
+      "title": "A materials-to-system platform for anoxic battery thermal runaway localization via one-dimensional conductive metal–organic framework films",
+      "url": "https://doi.org/10.1016/j.mattod.2026.103473",
+      "published": "2026-08-12",
+      "topics": [],
+      "doi": "10.1016/j.mattod.2026.103473",
+      "authors": [
+        "Xue Liu",
+        "Jian Wu",
+        "Qiang Zhao",
+        "Sier Na",
+        "Wenbo Xu",
+        "Nantao Hu"
+      ],
+      "venue": "Materials Today",
+      "abstract_en": null,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.2139/ssrn.6792240",
+      "license": null,
+      "journal_id": "S63322718",
+      "journal_metric": 13.18,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "1차원 전도성 금속-유기 골격체(MOF) 필름을 이용한 배터리 열폭주 국소화를 위한 소재-시스템 통합 플랫폼에 관한 연구로 추정된다 (제목 기반 추정). 전지 화학 소재가 아닌 열폭주 안전 소재 연구라 6대 분류에 해당하지 않는다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202367461",
+      "source": "openalex",
+      "title": "A Pyridine Mediator Enables High‐Efficiency, Long‐Cycling Anode‐Less/Free Lithium–Sulfur Batteries With Li 2 S Cathodes",
+      "url": "https://doi.org/10.1002/adma.74616",
+      "published": "2026-08-12",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.74616",
+      "authors": [
+        "Sijia Huang",
+        "Pengfei Sang",
+        "孙昊婧",
+        "Yongzhu Fu",
+        "Xiang Li"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Lithium sulfide (Li 2 S) is a promising high‐capacity cathode material. Importantly, it can provide lithium source, enabling lithium batteries with an anode‐less/free configuration. However, Li 2 S suffers from poor conductivity, high polarization, low material utilization, as well as the shuttle effect, severely restricting the long cycling performance of batteries. Herein, lithium pyridine‐2‐thiolate (PySLi) is proposed as a multifunctional mediator for Li 2 S‐based anode‐less/free batteries. It is revealed that PySLi can modify the reaction pathway of Li 2 S, comprehensively enhancing its electrochemical redox kinetics and stability. Results show that the energy efficiency of the Li||Li 2 S cell with PySLi stabilizes at ∼80% in the full‐scale range from 0.1 C to 3 C rate, which is much higher than that without PySLi (49% at 0.1 C and 22% at 3 C). The stability of the lithium metal anode is also improved, maintaining a high coulombic efficiency of >98% for 200 cycles and stable lithium stripping/plating behavior for 1000 h. Moreover, an anode‐free battery based on Li 2 S cathode works normally for 150 cycles, and an anode‐less pouch cell retains steady performance for 200 cycles. This multifunctional mediator provides a new strategy for the application of Li 2 S and stable anode‐less/free batteries with high energy density.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74616",
+        "cached": "img/W7202367461.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74616"
+      },
+      "summary_ko": "저전도·높은 분극·셔틀 문제를 가진 Li2S 양극 기반 무음극(anode-less/free) 리튬-황 전지를 위해 리튬 피리딘-2-싸이올레이트(PySLi) 다기능 매개체를 제안. PySLi가 Li2S의 반응 경로를 바꿔 산화환원 속도와 안정성을 높여 고효율·장수명을 구현한다.",
+      "relevant": true
+    }
+  ]
+}

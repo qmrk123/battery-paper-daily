@@ -1,0 +1,207 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7202221109",
+      "source": "openalex",
+      "title": "Structure of NHE6 and its lipid-mediated interactions regulating endosomal pH",
+      "url": "https://doi.org/10.1038/s41467-026-75877-x",
+      "published": "2026-08-11",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75877-x",
+      "authors": [
+        "Suk‐Kyeong Jung",
+        "Hyun Ku Yeo",
+        "Hang Li",
+        "Surabhi Kokane",
+        "Tom Reichenbach",
+        "Ashutosh Gulati"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Sodium-proton exchangers (NHEs) are found in all cells to regulate intracellular pH, sodium levels and cell volume. In humans, there are nine different NHE transporters (SLC9A1-9), which vary in tissue distribution, kinetics and regulation. NHE6 localizes to endosomal membranes and mutations in the protein are known to cause the X-linked neurological disorder Christianson syndrome. Despite its importance, the structural basis of NHE6 function and regulation is unclear. Here we report four cryo-electron microscopy structures of rat NHE6 between 2.2 and 3.3 Å resolution, revealing its homodimeric structure, ion binding and remodelling by lipids. We characterize a lipid-binding site between the protomers that accommodates the endosomal-specific phosphatidylinositol 3-phosphate (PI3P) lipid. Using solid-supported membrane (SSM)-based electrophysiology we demonstrate that NHE6 transports both Na + and K + ions and that PI3P enhances NHE6 stability and activity. Furthermore, we identify a phosphatidylinositol 4,5-bisphosphate (PI(4,5)P 2 ) lipid, which interacts with the C-terminal domain of NHE6 to stabilize an auto-inhibited state. We further demonstrate that NHE6 is non-functional when mislocalized to the plasma membrane where PI(4,5)P 2 is primarily located. We propose the lipid-dependent regulation has evolved to shut-down NHE6 activity during recycling of endosomes at the plasma membrane.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-75877-x.pdf",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-75877-x/MediaObjects/41467_2026_75877_Fig1_HTML.png",
+        "cached": "img/W7202221109.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75877-x"
+      },
+      "summary_ko": "내소체 pH 조절에 관여하는 나트륨-수소 교환체 NHE6의 저온전자현미경 구조와 지질(PI3P) 매개 상호작용을 규명한 생물물리 연구로, 배터리와 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202134277",
+      "source": "openalex",
+      "title": "Reversible Oxygen Redoxin High Voltage for Lithium-RichLayered Oxides",
+      "url": "https://doi.org/10.1021/jacs.6c07357",
+      "published": "2026-08-11",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1021/jacs.6c07357",
+      "authors": [
+        "Zhengbo Liu",
+        "Jun Wu",
+        "Ziliang Wang",
+        "Ting Lin",
+        "Jun Zeng",
+        "Tianqi Yang"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Lithium-rich layered oxides, characterized by Li ions in the transition-metal layers, can significantly increase battery energy density through the introduction of oxygen redox. However, these cathodes often suffer from substantial voltage hysteresis, leading to a considerable energy loss during discharge. Herein, we present an O3-type cathode, Li0.63[Li0.20Mn0.80]O2, through the spontaneous ion exchange of P3–Na0.60[Li0.20Mn0.80]O2 in the electrolyte, which retains the ribbon-ordered superstructure. This cathode exhibits a reversible oxygen reduction plateau within the 4.2–4.7 V voltage range, exhibiting minimal voltage loss (hysteresis) during the initial discharge. When the lower voltage limit is reduced to 3.0 V, the plateau disappears. In situ XRD and STEM indicate that there is no significant structural change. Further spectral tests and DFT calculations show that the reversible oxygen reaction is replaced by the Mn reaction during the charging process due to charge transfer, resulting in the disappearance of the discharging plateau. Our findings suggest the potential for lithium-rich layered oxide cathodes to operate without voltage hysteresis and suggest that structural degradation at high voltage is not the only factor causing irreversible oxygen reaction.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/jacs.6c07357",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-14",
+      "image": null,
+      "summary_ko": "P3-Na0.60[Li0.20Mn0.80]O2의 자발적 이온교환으로 리본 규칙초구조를 유지한 O3형 Li0.63[Li0.20Mn0.80]O2 양극을 합성. 4.2–4.7V에서 가역적 산소 산화환원 평탄부를 보이며 전압 히스테리시스에 따른 에너지 손실을 크게 줄였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202177904",
+      "source": "openalex",
+      "title": "Gas‐Induced Surface Reconstruction for Stable Lithium‐Rich Manganese‐Based Cathodes",
+      "url": "https://doi.org/10.1002/adfm.77686",
+      "published": "2026-08-11",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1002/adfm.77686",
+      "authors": [
+        "Wen-Bo Ma",
+        "Sijie Guo",
+        "Xin‐Cheng Lei",
+        "Qi‐wen Liu",
+        "Si‐Yuan Zhang",
+        "Qin-Tao Liao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium‐rich manganese‐based materials (LRM) are promising high‐energy cathodes with the ability to undergo anionic redox for higher capacity, whose potential is unfortunately challenged by the associated stability issues related to oxygen release. Herein, we demonstrate the possibility to improve the electrochemical stability of LRM through a facile gas‐induced surface reconstruction (GSR) strategy involving a direct sintering of a mixture of LRM and artificial graphite (AG). We identify that the emergence of a CO 2 atmosphere during this heating treatment triggered the transition of the surface lattices from a layer‐typed feature into well‐regulated domains dominated by rock‐salt‐like structures, thereby effectively suppressing the activity of surface oxygen to combat the notorious interfacial side reactions. This surface‐engineered cathode exhibited improved cycling performance to achieve a capacity retention of 93.1% after 150 cycles when tested at 0.5 C as compared to only 65.8% for the untreated sample. Meanwhile, a suppressed voltage decay from 3.6 mV per cycle for the unmodified material to only 2.2 mV per cycle was observed. Our study highlights the critical role of surface chemistry in improving structural and electrochemical stability, and offering insights into surface lattice reconstruction to enhance the practical viability of high‐energy lithium‐ion batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77686",
+        "cached": "img/W7202177904.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77686"
+      },
+      "summary_ko": "리튬 과잉 망간계(LRM) 양극을 인조흑연과 혼합·소결할 때 생기는 CO2 분위기가 표면 격자를 층상에서 스피넬형으로 전이시키는 기체유도 표면재구성(GSR) 전략을 제시. 산소 방출 관련 안정성 문제를 완화해 전기화학적 안정성을 개선한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202194811",
+      "source": "openalex",
+      "title": "Decoding a Galvanic Corrosion-Driven Lithium Stripping Mechanism in Lithium-Free Anode Systems",
+      "url": "https://doi.org/10.1021/acsenergylett.6c00721",
+      "published": "2026-08-11",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c00721",
+      "authors": [
+        "Shangshu Qian",
+        "Yikang Yu",
+        "Ming Zhao",
+        "Mingli Li",
+        "Le Yu",
+        "Yun Wang"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Li-free lithium metal batteries (LFLMBs) increase cell-level energy density by eliminating excess lithium but remain sensitive to Coulombic efficiency (CE) losses. Here, we identify galvanic corrosion at the Li/Cu interface as an overlooked failure mechanism that distorts CE measurements and alters lithium stripping pathways, leading to inactive lithium accumulation. Using operando visualization, modeling, and DFT calculations, we show that corrosion-driven processes disrupt electronic connectivity and induce nonuniform stripping. We further demonstrate that maintaining percolating electronic pathways regulates lithium removal and reduces dead lithium formation. Because such conductive frameworks can be introduced through metallurgical or coating approaches, this work establishes a design principle for improving lithium reversibility in both Li-free and conventional lithium metal anodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 16.36,
+      "first_seen": "2026-08-14",
+      "image": null,
+      "summary_ko": "무리튬(Li-free) 리튬 금속 전지에서 Li/Cu 계면의 갈바닉 부식이 쿨롱 효율 측정을 왜곡하고 리튬 벗김(stripping) 경로를 바꿔 비활성 리튬을 축적시키는 간과된 실패 기구임을 규명. operando 관찰과 DFT로 전자 전도 경로 유지가 균일한 벗김을 돕는다는 점을 제시한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202161552",
+      "source": "openalex",
+      "title": "Deciphering thermal failure in lithium metal batteries: mechanism elucidation and mitigation strategies",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105456",
+      "published": "2026-08-11",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105456",
+      "authors": [
+        "Zhanning He",
+        "Fangying Shen",
+        "Huihao Wu",
+        "Xue Xie",
+        "Zheng Wang",
+        "Mintao Su"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-18",
+      "image": {
+        "src": "https://doi.org/10.1016/j.ensm.2026.105456",
+        "cached": "img/W7202161552.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Energy storage materials - https://doi.org/10.1016/j.ensm.2026.105456"
+      },
+      "summary_ko": "리튬 금속 배터리에서 발생하는 열 폭주(thermal failure)의 메커니즘을 규명하고 이를 완화하기 위한 전략을 제시한 논문 (제목 기반 추정).",
+      "relevant": true
+    },
+    {
+      "id": "W7202181200",
+      "source": "openalex",
+      "title": "Battery smart sensing via a virtual reference electrode",
+      "url": "https://doi.org/10.1038/s41467-026-76535-y",
+      "published": "2026-08-11",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-76535-y",
+      "authors": [
+        "Jiayi Yu",
+        "Aki Takahashi",
+        "Min-Ho Kim",
+        "Rishi Upadhyay",
+        "Howard Zhang",
+        "Tianyu Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Battery safety is regulated by management systems that use current and cell voltage to define operating limits, but these signals can miss lithium metal plating. Negative electrode potential can reveal this failure mode, yet direct measurement requires an additional reference electrode that is difficult to implement in practical cells. Here, we introduce a virtual reference electrode that estimates negative electrode potential during battery operation without a physical reference electrode. Trained on measured negative electrode potentials from three-electrode cells, the model predicts this internal state using only signals available from two-electrode cells, with root-mean-squared and mean absolute errors of 0.023 and 0.018 volts, respectively. Electron microscopy validates the predicted transition between intercalation and lithium metal plating near the thermodynamic threshold. Integrated into adaptive charging, the virtual reference electrode adjusts current in response to predicted failure risk and extends cycle life by 8.25 times relative to a constant-current constant-voltage baseline under the tested low negative-to-positive capacity ratio. More broadly, this framework may enable virtual sensing of internal battery states without changing battery chemistry or architecture.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76535-y_reference.pdf",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76535-y/MediaObjects/41467_2026_76535_Fig1_HTML.png",
+        "cached": "img/W7202181200.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76535-y"
+      },
+      "summary_ko": "물리적 기준전극 없이 음극 전위를 추정하는 '가상 기준전극'을 제안해, 기존 BMS가 놓치는 리튬 금속 도금을 운전 중 감지. 3전극 셀 데이터로 학습한 모델이 가용 신호만으로 내부 상태(음극 전위)를 예측한다.",
+      "relevant": true
+    }
+  ]
+}

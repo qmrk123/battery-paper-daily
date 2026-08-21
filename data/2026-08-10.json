@@ -1,0 +1,247 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-21T03:10:54+00:00",
+  "count": 7,
+  "papers": [
+    {
+      "id": "W7202073084",
+      "source": "openalex",
+      "title": "Unlocking the Potential of Sparingly Soluble LiNO 3 in Carbonate Electrolytes With Pyridine as a Carrier Cosolvent for 450 Wh Kg −1 High‐Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.6581071",
+      "published": "2026-08-10",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.6581071",
+      "authors": [
+        "Fulu Chu",
+        "Zehao An",
+        "Junwei Meng",
+        "Chilin Li",
+        "Changzhou Yuan",
+        "Feixiang Wu"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT LiNO 3 is a highly effective electrolyte additive for ether‐based lithium metal batteries, but its extremely poor solubility in carbonate electrolytes has long restricted its application in high‐voltage high‐energy‐density systems. In this study, we develop a pyridine carrier cosolvent strategy to efficiently dissolve LiNO 3 in carbonate electrolytes. Pyridine coordinates with Li + to enter the solvation shell, weakening Li + ‐carbonate interactions to promote LiNO 3 dissolution and enable NO 3 − participation in interphase formation. The coordination effect also suppresses the intrinsic high reactivity of pyridine, realizing its controllable interfacial decomposition. The synergistic decomposition of pyridine and LiNO 3 constructs compact, inorganic‐dominated, rigid‐flexible interpenetrating electrode‐electrolyte interphases rich in Li 3 N, LiN x O y , and LiF with high mechanical strength. Benefiting from the optimized interphases, Li||Cu cells deliver a Coulombic efficiency (CE) of 97.3% at 2 mA cm −2 , and 4.5 V Li||NCM90 cells show outstanding cycling stability under practical thin‐lithium and lean‐electrolyte conditions. Remarkably, 5.6 Ah pouch cells achieve an energy density up to 453 Wh kg −1 with 95.5% capacity retention after 50 cycles. This work offers a facile approach for utilizing sparingly soluble functional additives and promotes the development of high‐voltage, high‐energy‐density lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6581071",
+        "cached": "img/W7202073084.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6581071"
+      },
+      "summary_ko": "카보네이트 전해질에 잘 녹지 않는 LiNO3를 피리딘 운반 공용매로 용해시키는 전략을 개발. 피리딘이 Li+ 용매화 껍질에 들어가 Li+–카보네이트 상호작용을 약화, LiNO3 용해와 NO3−의 계면상 형성 참여를 유도해 450 Wh/kg급 고전압 리튬 금속 전지를 구현한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202074528",
+      "source": "openalex",
+      "title": "Unlocking bipolar electrode-electrolyte solid-solid conversion in aqueous zinc-halogen batteries for high Zn utilization across various cell formats",
+      "url": "https://doi.org/10.1038/s41467-026-76348-z",
+      "published": "2026-08-10",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76348-z",
+      "authors": [
+        "Ao Liu",
+        "Sheng Chen",
+        "Hongyu Qin",
+        "Mangwei Cui",
+        "Youfa Liu",
+        "Shubing Wei"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The increasing demand for high-energy-density batteries pushes practical aqueous Zn-based batteries. However, high Zn utilization achieved in coin symmetric cells is unable to translate to full cells, especially large pouch cells, due to the poor reversibility of Zn and capacity output of high-loading positive electrodes. Here, solid-solid interfacial conversion mechanisms via chelation at electrodes-electrolyte interfaces effectively suppress parasitic reactions being widely prevalent under traditional solid-liquid conversion mechanisms. Consequently, high Zn utilization ( ≥ 78.3%) is unified across coin symmetric, coin full and pouch full cells. The Zn | |I2 pouch cell (10 cm×10 cm) demonstrates a specific energy of 116.8 Wh kg−1 (based on total mass) and over 850 cycles (85.1% capacity retention) at 10 mA cm−2. Furthermore, solid-solid interfacial conversion mechanisms exhibit universality across halogen positive electrodes, advancing practical aqueous Zn | |halogen batteries. Aqueous zinc batteries are promising for safe energy storage but suffer from low specific energy. Here, authors report solid-solid interfacial conversion mechanisms, achieving high zinc utilization across coin and pouch cells with a 4e ─ Zn | |I2 pouch cell delivering 116.8 Wh kg─1 and demonstrating universality for Br2 and CI2-based batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-76348-z_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76348-z/MediaObjects/41467_2026_76348_Fig1_HTML.png",
+        "cached": "img/W7202074528.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76348-z"
+      },
+      "summary_ko": "수계 아연-할로겐 전지에서 전극-전해질 계면의 고체-고체 킬레이션 변환 메커니즘을 이용해 코인셀부터 파우치셀까지 높은 Zn 이용률을 구현한 연구이다. 아연 전지 계열로 리튬 배터리 6대 분류 대상이 아니다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202090036",
+      "source": "openalex",
+      "title": "Phase-Steering inSingle-Crystal Layered Transition-MetalOxide Cathodes by Initial Manganese Valence",
+      "url": "https://doi.org/10.1021/acsnano.6c06826",
+      "published": "2026-08-10",
+      "topics": [
+        "ncm",
+        "li-rich"
+      ],
+      "doi": "10.1021/acsnano.6c06826",
+      "authors": [
+        "Young Geol Yu",
+        "JinHa Shim",
+        "Jin Bae Lee",
+        "Jin Ho Bang"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Controlling transient phase evolution during high-temperature synthesis remains a significant challenge in the development of structurally robust layered oxide cathodes. Here, we demonstrate that the initial manganese oxidation state acts as a decisive structural director for phase bifurcation. Using a precursor-free model platform to decouple intrinsic redox kinetics from structural inheritance, we reveal that lower-valence precursors (Mn2+/Mn3+) kinetically trap the system in a metastable spinel intermediate (Li2Mn2O4). This pathway induces core–shell segregation, sluggish interdiffusion, and defect accumulation, resulting in mechanical fragility and rapid electrochemical degradation. In contrast, starting with Mn4+ stabilizes a structurally coherent monoclinic intermediate (Li2MnO3), which drastically lowers activation energy barriers and enables an energetically favorable topotactic transformation into a robust, homogeneous single-crystalline lattice. Furthermore, we show that introducing excess lithium thermodynamically steers the phase equilibrium of lower-valence precursors toward the layered-compatible Li2MnO3 intermediate, bypassing kinetic bottlenecks to achieve bulk homogenization. By establishing a quantitative, mechanistic link between precursor redox states, transient intermediate chemistry, and final electrochemical performance, this work provides a kinetically guided framework for the precise engineering of advanced energy storage materials.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-08-21",
+      "image": null,
+      "summary_ko": "단결정 층상 전이금속 산화물 양극 합성에서 초기 망간 산화수(Mn2+/3+ vs Mn4+)가 상 분화 경로를 결정함을 규명했다. Mn4+ 전구체는 단사정 Li2MnO3 중간상을 거쳐 균일하고 견고한 구조로 토포탁틱 전환되는 반면, 저원자가 전구체는 준안정 스피넬(Li2Mn2O4)에 갇혀 코어-쉘 분리와 기계적 취약성을 유발한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202085180",
+      "source": "openalex",
+      "title": "Mechano-electrochemically stable fibrous zinc-ion batteries with unified aramid nanofibres skeleton",
+      "url": "https://doi.org/10.1038/s41467-026-75859-z",
+      "published": "2026-08-10",
+      "topics": [],
+      "doi": "10.1038/s41467-026-75859-z",
+      "authors": [
+        "Yinan Yang",
+        "Z. Chen",
+        "Xianda Ma",
+        "Bingyun Ma",
+        "Haochen Huang",
+        "Gang Xiao"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Hydrogel electrolyte-based fibrous zinc-ion batteries exhibit exceptional safety and flexibility, positioning them as promising candidates for wearable electronics. However, conventional hydrogel electrolyte-based fibrous batteries suffer from substantial interfacial mechanical mismatches between rigid electrodes and soft hydrogel electrolytes, leading to compromised mechano-electrochemical stability and inferior electrochemical performance under deformation. To address this critical issue, we simultaneously introduce aramid nanofibres into both electrodes and electrolyte via wet spinning, serving as a cognate skeleton to bridge the mechanical mismatch in hydrogel electrolyte-based fibrous zinc-ion batteries. This design enables highly concerted mechanical modulus across electrodes and electrolyte, effectively mitigating stress concentration-induced interfacial degradation during deformation. Furthermore, aramid nanofibres synergistically modulate anion migration kinetics and crystalline structure of hydrogel electrolytes, addressing intrinsic challenges in sluggish ion transport, parasitic byproduct formation, and uncontrolled zinc dendrite growth of deformed fibrous batteries. The resulting fibrous batteries exhibit robust mechano-electrochemical stability, sustaining stable operation over 100,000 deformation cycles (1% strain, 0.01% s−1) and maintaining high-capacity retention (90.3% ± 1.3%) in subsequent charge-discharge cycling. The potential application in textiles is further exemplified after weaving the fibrous batteries into an energy storage textile, offering a significant potential for durable, deformation-resistant flexible wearable electronics. Conventional fiber flexible batteries for wearable electronics often fail due to mechanical mismatch between rigid electrodes and soft electrolytes. Here, authors introduce aramid nanofibers into both electrodes and electrolytes of a fibrous Zn-ion battery, forming a unified skeleton that harmonizes mechanical and electrochemical properties.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-75859-z_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-75859-z/MediaObjects/41467_2026_75859_Fig1_HTML.png",
+        "cached": "img/W7202085180.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-75859-z"
+      },
+      "summary_ko": "아라미드 나노섬유 골격을 전극과 하이드로겔 전해질 양쪽에 도입해 섬유형 아연이온전지의 기계-전기화학적 안정성을 향상시킨 연구이다. 아연 전지 계열로 분류 대상에 해당하지 않는다.",
+      "relevant": false
+    },
+    {
+      "id": "W7202075942",
+      "source": "openalex",
+      "title": "Holistic Inside‐Out Reconfiguration of Ni‐Rich Cathodes via a Thermally Self‐Driven Strategy for Exceptional Chemomechanical Stability",
+      "url": "https://doi.org/10.1002/adma.74572",
+      "published": "2026-08-10",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.74572",
+      "authors": [
+        "Haixia Yu",
+        "Shucheng Xu",
+        "Hongyuan Song",
+        "Guihuan Chen",
+        "Ying Jiang",
+        "ZhongHan Song"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Ni‐rich layered oxides (LiNi x Co y Mn 1− x − y O 2 , x ≥ 0.8) are indispensable for high‐energy‐density lithium‐ion batteries, yet they suffer from severe chemomechanical degradation driven by the synergy of internal microcracking and interfacial parasitic side reactions. Existing strategies inherently suffer from decoupled regulation of mechanical and chemical instabilities that fail to address these issues holistically. Here, we develop an inside‐out structural reconfiguration strategy driven by the thermal decomposition of nitrates, concurrently tailoring the core, bulk, and surface of NCM811 in a single calcination step. This reconstruction generates a stress‐buffering central pore architecture that effectively homogenizes anisotropic lattice strain and suppresses crack nucleation. Concurrently, the regulated Nd 3+ diffusion forms a coherent Nd 4 [LiNi]O 8 (NLNO) perovskite phase within the bulk lattice, creating a pinning effect that stabilizes the layered framework and enhances charge transport. Furthermore, excess Nd‐species evolve into a conformal NLNO surface coating, acting as a physical barrier and oxygen reservoir to resist electrolyte attack and oxygen evolution. The modified cathode delivers an exceptional capacity retention (95.7% after 200 cycles at 4.5 V) and exceptional rate capability (157.1 mAh g −1 at 5 C). Even under stringent conditions (4.6 V or 45°C), a superior retention of 87.8% is maintained after 200 cycles, demonstrating remarkable chemomechanical robustness.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74572",
+        "cached": "img/W7202075942.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74572"
+      },
+      "summary_ko": "질산염의 열분해를 이용해 한 번의 소성으로 NCM811의 코어·벌크·표면을 동시에 재구성하는 inside-out 전략을 제시. 내부 미세균열과 계면 부반응을 개별이 아닌 통합적으로 제어해 화학기계적 안정성을 크게 향상한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202122563",
+      "source": "openalex",
+      "title": "Hierarchical Primary‐Secondary Coordination Synchronizes Ion Flux and Sulfur Redox in Solid Polymer Electrolytes",
+      "url": "https://doi.org/10.1002/adfm.77192",
+      "published": "2026-08-10",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.77192",
+      "authors": [
+        "Zhong‐Wei Zheng",
+        "Jingyu Li",
+        "Meng‐Che Tsai",
+        "Tsung‐I. Yeh",
+        "Wei-Ming Huang",
+        "Mohamed Gamal Mohamed"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium‐sulfur (Li‐S) batteries suffer from transport‐conversion imbalance, leading to concentration polarization, incomplete sulfur reduction, and unstable Li metal interfaces. Here, a coordination‐engineered polymer electrolyte with a hierarchical primary‐secondary Li + coordination architecture is developed to synchronize ion transport and sulfur redox kinetics. A CO 2 ‐derived poly(propylene carbonate)‐based ionic framework integrates crown ether primary coordination sites with distributed carbonate secondary motifs, promoting Li salt dissociation while sustaining dynamic Li + migration. Spectroscopic and electrochemical analyses reveal redistributed Li + solvation, weakened Li + ‐TFSI − association, and enhanced ionic conductivity on the order of 10 −4 S cm −1 , and a Li + transference number of 0.45 at 60°C. The synchronized Li + flux suppresses concentration polarization and stabilizes sulfur conversion and Li deposition. Solid‐state Li‐S cells with a sulfur loading of ≈2.0 mg cm − 2 deliver an initial discharge capacity of 766 mAh g − 1 and maintain ≈60% capacity retention during cycling at 0.1 C under liquid‐electrolyte‐free conditions. This work establishes hierarchical coordination engineering as a molecular strategy for coupling ion transport with redox conversion in solid‐state battery systems.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.77192",
+      "license": "cc-by",
+      "journal_id": null,
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-14",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77192",
+        "cached": "img/W7202122563.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77192"
+      },
+      "summary_ko": "Li-S 전지의 수송-전환 불균형을 해소하기 위해 1차·2차 Li+ 배위를 계층화한 고분자전해질을 설계. PPC 기반 골격에 크라운에터 1차 배위와 카보네이트 2차 배위를 결합해 염 해리와 Li+ 이동을 촉진하고 리튬 금속 계면과 황 산화환원 속도를 동기화한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7202159380",
+      "source": "openalex",
+      "title": "Electron‐Rich Fluorine‐Mediated Phosphorus Activation Enables Durable Phosphorus Anode for Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.77633",
+      "published": "2026-08-10",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77633",
+      "authors": [
+        "Xinpeng Han",
+        "Jinlong Liu",
+        "Yanting Li",
+        "Siyu Fang",
+        "Junhan Pan",
+        "Yuhao Chen"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Achieving high charging rate typically compromises cycling stability. Rather than fabricating chemically bonded black phosphorus (BP)/carbon composites, essentially activating topologically stable BP‐based anode redox kinetics is a more meaningful alternative, but unfortunately it has been rarely studied so far. Herein, we demonstrate that electron‐rich F‐mediated activation of BP anode enhances the chemisorption of polyphosphide intermediates via the formation of F‐doped BP at the interface between BP particle and fluorinated graphite (F‐graphite). Moreover, self‐expanding Li + transport channels are created through the in situ electrochemical formation of LiF nanoparticles between the F‐graphite layers. This process reduces the energy barrier of Li + transport, activates the kinetics of multiphase BP redox reactions and promotes the formation of a robust solid electrolyte interphase layer. By leveraging these synergistic advantages, a durable fast‐charging BP anode is achieved, delivering an ultra‐long cycle life of nearly 10 000 cycles at 1.6 A g −1 . When coupled with NCM 811 cathode, the full cell maintains high cycling stability for more than 1000 cycles. This work establishes a paradigm for enhancing polyphosphides adsorption‐conversion kinetics and establishing self‐expanding ion transport channels in multiphase energy storage, advancing the design of next‐generation batteries with both high stability and long cycle life.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-21",
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77633",
+        "cached": "img/W7202159380.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77633"
+      },
+      "summary_ko": "전자가 풍부한 불소 매개 활성화를 통해 흑린(BP) 음극의 산화환원 반응속도를 향상시킨 리튬이온전지용 인 음극 연구이다. F-그래파이트 계면에서 형성된 LiF 나노입자가 Li+ 수송 채널을 확장하고 견고한 SEI 형성을 촉진한다.",
+      "relevant": true
+    }
+  ]
+}
