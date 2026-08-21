@@ -12,8 +12,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 import re
 import shutil
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -24,6 +26,59 @@ PUBLIC = ROOT / "public"
 SITE_URL = "https://qmrk123.github.io/battery-paper-daily/"
 
 _PERIOD = re.compile(r"^\d{4}-\d{2}(-\d{2})?$")
+
+# Enough English/academic filler that the very-common-term cap doesn't have to; real
+# ubiquitous words (battery, electrode…) are dropped by the document-frequency cap.
+_STOP = set(
+    "the a an and or of for to in on with by from as at is are was were be been being "
+    "this that these those we our their its it can could may not have has had which "
+    "such via using used use study studies show shows shown report reports here also "
+    "than then thus into over under both more most high low new novel between during "
+    "toward towards results result method methods approach based due within without".split()
+)
+_TOKEN = re.compile(r"[a-z0-9]+")
+
+
+def _tokens(text: str) -> list[str]:
+    return [t for t in _TOKEN.findall((text or "").lower())
+            if len(t) >= 3 and t not in _STOP and not t.isdigit()]
+
+
+def compute_related(papers: list[dict], k: int = 6, top_terms: int = 25) -> None:
+    """Attach `related` (top-k similar paper ids) to each paper via TF-IDF cosine
+    over title+abstract. Pure-Python (no numpy/model/API) so it runs in any build.
+    Gives a lexical-semantic 'more like this' — clusters by material/method wording."""
+    n = len(papers)
+    if n < 2:
+        for p in papers:
+            p["related"] = []
+        return
+    tfs, df = [], Counter()
+    for p in papers:
+        tf = Counter(_tokens(f"{p.get('title','')} {p.get('abstract_en','')}"))
+        tfs.append(tf)
+        for t in tf:
+            df[t] += 1
+    lo, hi = 2, max(3, int(n * 0.30))                       # drop unique + ubiquitous terms
+    idf = {t: math.log(n / d) for t, d in df.items() if lo <= d <= hi}
+    vecs: list[dict[str, float]] = []
+    for tf in tfs:
+        w = {t: (1 + math.log(c)) * idf[t] for t, c in tf.items() if t in idf}
+        top = sorted(w.items(), key=lambda kv: kv[1], reverse=True)[:top_terms]
+        norm = math.sqrt(sum(v * v for _, v in top)) or 1.0
+        vecs.append({t: v / norm for t, v in top})
+    inv: dict[str, list[tuple[int, float]]] = defaultdict(list)
+    for i, v in enumerate(vecs):
+        for t, w in v.items():
+            inv[t].append((i, w))
+    for i, v in enumerate(vecs):
+        sims: dict[int, float] = defaultdict(float)
+        for t, w in v.items():
+            for j, w2 in inv[t]:
+                if j != i:
+                    sims[j] += w * w2
+        best = sorted(sims.items(), key=lambda kv: kv[1], reverse=True)[:k]
+        papers[i]["related"] = [papers[j].get("id") for j, s in best if s > 0.03]
 
 
 def _score(p: dict) -> tuple[bool, bool]:
@@ -49,6 +104,7 @@ def write_corpus(public_data: Path) -> list[dict]:
     papers = sorted(pool.values(),
                     key=lambda p: (p.get("published") or "", p.get("title") or ""),
                     reverse=True)
+    compute_related(papers)                                # attach 'related' ids in place
     (public_data / "corpus.json").write_text(
         json.dumps({"count": len(papers), "papers": papers}, ensure_ascii=False),
         encoding="utf-8")

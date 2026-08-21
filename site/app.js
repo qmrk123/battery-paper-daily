@@ -18,6 +18,7 @@ const state = {
   // ---- corpus search / filter (search mode) ----
   mode: "date",          // "date" | "search"
   corpus: null,          // all visible papers, lazily fetched from data/corpus.json
+  corpusById: {},        // id -> paper (for resolving 'related' ids)
   results: [],           // current search/filter result set
   query: "",
   range: 0,              // 0 = all time, else last-N-days on publication date
@@ -208,6 +209,7 @@ async function ensureCorpus() {
   } else {
     state.corpus = (await getJSON("data/corpus.json")).papers || [];
   }
+  state.corpusById = Object.fromEntries(state.corpus.map((p) => [p.id, p]));
 }
 
 function computeResults() {
@@ -416,6 +418,8 @@ function footBadges(p, accentTopic) {
   const out = [];
   out.push(`<button type="button" class="badge card__bm" data-bm="${esc(p.id)}" ` +
            `aria-pressed="${isBookmarked(p.id)}" title="북마크(리딩리스트)에 저장/해제">🔖</button>`);
+  out.push(`<button type="button" class="badge card__rel-btn" aria-expanded="false" ` +
+           `title="비슷한 논문 보기">🧭 관련</button>`);
   if (typeof p.journal_metric === "number") {
     out.push(`<span class="badge badge--metric" title="OpenAlex 2년 평균 피인용 (IF 유사 지표)">📈 ${p.journal_metric.toFixed(1)}</span>`);
   }
@@ -452,6 +456,8 @@ function initCardActions() {
   cards.addEventListener("click", (e) => {
     const bm = e.target.closest(".card__bm");
     if (bm) { e.preventDefault(); toggleBookmark(bm.dataset.bm); return; }
+    const rel = e.target.closest(".card__rel-btn");
+    if (rel) { e.preventDefault(); showRelated(rel); return; }
     const au = e.target.closest(".au-last");
     if (au && au.dataset.author) { e.preventDefault(); toggleWatch(au.dataset.author); return; }
     const link = e.target.closest(".card__title a");
@@ -462,6 +468,28 @@ function initCardActions() {
     const au = e.target.closest(".au-last");
     if (au && au.dataset.author) { e.preventDefault(); toggleWatch(au.dataset.author); }
   });
+}
+
+async function showRelated(btn) {
+  const card = btn.closest(".card");
+  let box = card.querySelector(".card__related");
+  if (box) {                                    // already loaded → just toggle
+    box.hidden = !box.hidden;
+    btn.setAttribute("aria-expanded", String(!box.hidden));
+    return;
+  }
+  btn.textContent = "🧭 …";
+  await ensureCorpus();
+  const p = state.corpusById[card.dataset.id];
+  const rel = ((p && p.related) || []).map((id) => state.corpusById[id]).filter(Boolean);
+  box = el("div", "card__related");
+  box.innerHTML = rel.length
+    ? rel.map((q) => `<a class="related__item" href="${esc(q.url)}" target="_blank" rel="noopener">` +
+        `<span class="related__venue">${esc(q.venue || "")}</span>${esc(q.title)}</a>`).join("")
+    : `<span class="related__empty">비슷한 논문을 찾지 못했습니다.</span>`;
+  card.querySelector(".card__body").appendChild(box);
+  btn.textContent = "🧭 관련";
+  btn.setAttribute("aria-expanded", "true");
 }
 
 function _bibKey(p) {

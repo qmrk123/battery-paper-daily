@@ -233,6 +233,22 @@ a { color: inherit; }
 .card.is-read { opacity: .62; }
 .card.is-read:hover { opacity: 1; }
 
+/* related-papers (🧭) lazy panel */
+.card__related {
+  margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border-strong);
+  display: flex; flex-direction: column; gap: 7px;
+}
+.related__item {
+  font-size: .78rem; line-height: 1.35; color: var(--text-dim);
+  text-decoration: none; display: block;
+}
+.related__item:hover { color: var(--text); }
+.related__venue {
+  font-family: var(--font-mono); font-size: .64rem; color: var(--text-faint);
+  margin-right: 6px;
+}
+.related__empty { font-size: .78rem; color: var(--text-faint); }
+
 /* ---------- tabs ---------- */
 .tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
