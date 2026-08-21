@@ -23,6 +23,7 @@ const state = {
   query: "",
   range: 0,              // 0 = all time, else last-N-days on publication date
   filters: { oa: false, img: false, bmk: false, watch: false },
+  reco: false,           // recommendation feed (papers similar to your bookmarks)
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -119,6 +120,8 @@ async function boot() {
   $("#colophon-meta").textContent =
     `updated ${(index.updated_at || "").replace("T", " ").slice(0, 16)} · ${dates.length}일치`;
   await loadDay(dates[0]);
+  // watchers get the corpus eagerly so the "⭐ 워치 (N)" new-paper badge shows on load
+  if (watched.size) { await ensureCorpus(); updateWatchBadge(); }
 }
 
 /* ---------- date stepper (▲ newer / ▼ older, one option at a time) ---------- */
@@ -195,8 +198,40 @@ function baseList() {
 }
 function searchActive() {
   const f = state.filters;
-  return state.query.trim() !== "" || state.range > 0 ||
+  return state.reco || state.query.trim() !== "" || state.range > 0 ||
          f.oa || f.img || f.bmk || f.watch;
+}
+
+// Recommendation feed: papers most often surfaced as "related" to your bookmarks,
+// ranked by how many bookmarks point to them (then recency). Reuses precomputed
+// related ids — no model/embeddings needed.
+function recommend() {
+  const score = new Map();
+  bookmarks.forEach((id) => {
+    const p = state.corpusById[id];
+    ((p && p.related) || []).forEach((rid) => {
+      if (!bookmarks.has(rid)) score.set(rid, (score.get(rid) || 0) + 1);
+    });
+  });
+  return [...score.entries()]
+    .map(([id, s]) => ({ p: state.corpusById[id], s }))
+    .filter((x) => x.p)
+    .sort((a, b) => b.s - a.s || (b.p.published || "").localeCompare(a.p.published || ""))
+    .map((x) => x.p);
+}
+
+// How many recent (14d) papers by a watched author you haven't opened yet.
+function watchNewCount() {
+  if (!state.corpus || !watched.size) return 0;
+  const cutoff = Date.now() - 14 * 864e5;
+  return state.corpus.filter((p) => isWatchedPaper(p) && !readIds.has(p.id) &&
+    Date.parse((p.published || p.first_seen || "") + "T00:00:00Z") >= cutoff).length;
+}
+function updateWatchBadge() {
+  const chip = $("#f-watch");
+  if (!chip) return;
+  const n = watchNewCount();
+  chip.textContent = n > 0 ? `⭐ 워치 (${n})` : "⭐ 워치";
 }
 
 async function ensureCorpus() {
@@ -213,6 +248,7 @@ async function ensureCorpus() {
 }
 
 function computeResults() {
+  if (state.reco) return recommend();
   const toks = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const cutoff = state.range > 0 ? Date.now() - state.range * 864e5 : 0;
   return state.corpus.filter((p) => {
@@ -242,6 +278,7 @@ async function refresh() {
   } else {
     state.mode = "date";
   }
+  updateWatchBadge();
   updateCounts();
   render();
 }
@@ -270,20 +307,25 @@ function initSearch() {
   chip("#f-img", "img");
   chip("#f-watch", "watch");
   chip("#f-bmk", "bmk");
+  $("#f-reco").addEventListener("click", () => {
+    state.reco = !state.reco;
+    $("#f-reco").setAttribute("aria-pressed", String(state.reco));
+    refresh();
+  });
   $("#export-bib").addEventListener("click", () => exportCurrent("bib"));
   $("#export-ris").addEventListener("click", () => exportCurrent("ris"));
 }
 
 function exitSearch() {
   // picking a specific date drops the corpus-search overlay and resets its controls
-  state.query = ""; state.range = 0;
+  state.query = ""; state.range = 0; state.reco = false;
   state.filters = { oa: false, img: false, bmk: false, watch: false };
   state.mode = "date";
   const box = $("#search"), clear = $("#search-clear"), range = $("#range");
   if (box) box.value = "";
   if (clear) clear.hidden = true;
   if (range) range.value = "0";
-  ["#f-oa", "#f-img", "#f-watch", "#f-bmk"].forEach((id) => {
+  ["#f-oa", "#f-img", "#f-watch", "#f-bmk", "#f-reco"].forEach((id) => {
     const b = $(id); if (b) b.setAttribute("aria-pressed", "false");
   });
 }
@@ -322,11 +364,17 @@ function render() {
 
   if (!list.length) {
     wrap.innerHTML = "";
-    return status(state.mode === "search"
+    let msg;
+    if (state.reco) msg = bookmarks.size
+      ? "추천할 유사 논문을 찾지 못했습니다."
+      : "논문을 🔖 북마크하면, 비슷한 논문 추천이 여기 나타납니다.";
+    else msg = state.mode === "search"
       ? "검색·필터에 맞는 논문이 없습니다."
-      : "이 날짜에는 해당 소재의 새 논문이 없습니다.", true);
+      : "이 날짜에는 해당 소재의 새 논문이 없습니다.";
+    return status(msg, true);
   }
-  if (state.mode === "search") status(`🔍 전체 검색 · ${list.length}건`);
+  if (state.reco) status(`✨ 북마크 기반 추천 · ${list.length}건`);
+  else if (state.mode === "search") status(`🔍 전체 검색 · ${list.length}건`);
   else $("#status").textContent = "";
   wrap.innerHTML = "";
   list.forEach((p, i) => wrap.appendChild(card(p, i)));
