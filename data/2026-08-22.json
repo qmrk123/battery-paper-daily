@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-21T21:26:36+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "W4416056717",
+      "source": "openalex",
+      "title": "Microstructural insights into fast ion transport in solid electrolytes via multiscale modeling",
+      "url": "https://doi.org/10.1038/s41467-026-76216-w",
+      "published": "2026-08-20",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76216-w",
+      "authors": [
+        "Yongliang Ou",
+        "Lena Scholz",
+        "Sanath Keshav",
+        "Yuji Ikeda",
+        "Marvin A. Kraft",
+        "Sergiy V. Divinski"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Improving solid electrolytes is critical for high-performance all-solid-state batteries, yet the microstructural features that enable fast ion transport remain poorly understood. Here, we use multiscale modeling to resolve polycrystalline ion transport from atomic-scale hopping at grain boundaries to continuum-scale percolation, thereby providing insights into realistic solid-electrolyte microstructures. Accurate lightweight machine-learning potentials—developed via closed-loop active learning for exemplar argyrodites Li 6 PS 5 X , X ∈ {Cl, Br, I}—are employed to integrate molecular dynamics with finite element simulations. We find that diffusion barriers of the anion-ordered bulk scale linearly with anion radius. Grain boundaries exert opposite effects depending on the bulk: enhancing ion diffusion in low-diffusivity phases but suppressing it in fast-diffusing ones. Li 6 PS 5 I exhibits non-Arrhenius transport behavior consistent with experimental observations. Our results clarify the pivotal role of grain boundaries in ion transport and guide a priori microstructural design of advanced solid electrolytes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76216-w",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-22",
+      "image": null,
+      "summary_ko": "아르기로다이트 고체전해질(Li6PS5X, X=Cl/Br/I)을 대상으로 원자 단위 입계 거동부터 연속체 스케일 침투까지 다중스케일 모델링을 수행해 이온 수송 메커니즘을 분석했다. 클로즈드루프 능동학습으로 개발한 경량 머신러닝 포텐셜을 분자동역학·유한요소 시뮬레이션에 결합하여, 벌크 확산장벽이 음이온 반경에 선형 비례하며 입계가 벌크 확산도에 따라 이온 수송을 촉진하거나 억제하는 상반된 효과를 가짐을 규명했다. Li6PS5I는 실험 관측과 부합하는 비-아레니우스 수송 거동을 보였다.",
+      "relevant": false
+    }
+  ]
+}
