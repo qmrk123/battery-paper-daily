@@ -11,8 +11,11 @@
 #   python -m pipeline.main --topic <id> --dry-run --show-filtered
 
 defaults:
-  # rolling publication-date window (days) queried each run; dedup handles overlap
-  window_days: 7
+  # rolling publication-date window (days) queried each run; dedup handles overlap.
+  # 14 (not 7) so papers OpenAlex indexes a few days late — Elsevier/Cell journals
+  # lag most — still fall inside the window and aren't missed. seen.json dedups the
+  # extra overlap, so wider is safe (only slightly more API calls).
+  window_days: 14
   # max OpenAlex results pulled per topic per run (pagination cap)
   max_per_topic: 200
   # OpenAlex work types to keep
