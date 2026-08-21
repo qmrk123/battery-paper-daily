@@ -85,9 +85,15 @@ def main(argv=None) -> int:
                     key=lambda p: (p.published or "", p.title), reverse=True)
     store.save_day(run_date, merged, generated_at=now)
     store.save_seen(seen)
+    # Keep the running month's aggregate archive in sync with its daily files so the
+    # current month can be browsed all at once (older months already stand alone as
+    # monthly archives from the backfill). write_index runs last to pick it up.
+    month = run_date[:7]
+    n_month = store.rebuild_month(month, generated_at=now)
     store.write_index(cfg.topic_meta(), updated_at=now)
 
     print(f"\nwrote data/{run_date}.json ({len(merged)} papers), "
+          f"data/{month}.json ({n_month} aggregated), "
           f"seen.json ({len(seen)} ids), index.json")
     return 0
 

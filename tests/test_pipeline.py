@@ -115,3 +115,34 @@ def test_paper_roundtrip_and_topic_merge():
     p.merge_topics(["li-metal", "na-metal"])
     assert p.topics == ["li-metal", "na-metal"]
     assert Paper.from_dict(p.to_dict()).topics == ["li-metal", "na-metal"]
+
+
+def test_rebuild_month_aggregates_dedups_and_scopes(tmp_path):
+    import json
+    from pipeline.store import Store
+    st = Store(data_dir=tmp_path)
+
+    def day(name, papers):
+        (tmp_path / name).write_text(
+            json.dumps({"date": name[:-5], "generated_at": "t",
+                        "count": len(papers), "papers": papers}),
+            encoding="utf-8")
+
+    # W1 appears in two days; the copy carrying a summary must win the dedup
+    day("2026-08-01.json", [
+        {"id": "W1", "title": "A", "published": "2026-08-01"},
+        {"id": "W2", "title": "B", "published": "2026-08-01", "summary_ko": "요약"},
+    ])
+    day("2026-08-02.json", [
+        {"id": "W1", "title": "A", "published": "2026-08-02", "summary_ko": "richer"},
+        {"id": "W3", "title": "C", "published": "2026-08-02"},
+    ])
+    day("2026-07-30.json", [{"id": "W9", "title": "Z", "published": "2026-07-30"}])
+
+    n = st.rebuild_month("2026-08", generated_at="t")
+    out = json.loads((tmp_path / "2026-08.json").read_text(encoding="utf-8"))
+    ids = {p["id"] for p in out["papers"]}
+    assert n == 3 and ids == {"W1", "W2", "W3"}           # July file out of scope; W1 deduped
+    w1 = next(p for p in out["papers"] if p["id"] == "W1")
+    assert w1["summary_ko"] == "richer"                   # richer record kept
+    assert out["papers"][0]["published"] == "2026-08-02"  # newest-published first

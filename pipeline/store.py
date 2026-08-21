@@ -74,6 +74,39 @@ class Store:
             "updated_at": updated_at,
         })
 
+    def rebuild_month(self, month: str, generated_at: str) -> int:
+        """Aggregate all data/<month>-DD.json daily files into data/<month>.json so
+        the running month can be browsed at once, alongside its per-day files (older
+        months already exist only as standalone monthly archives from the backfill).
+        Dedup by id, preferring the record that carries a summary / cached image.
+        `month` is a YYYY-MM key; returns the aggregated paper count."""
+        pool: dict[str, dict] = {}
+        for f in sorted(self.data_dir.glob(f"{month}-*.json")):
+            obj = _read_json(f, None) or {}
+            for p in obj.get("papers", []):
+                pid = p.get("id")
+                if not pid:
+                    continue
+                pool[pid] = _richer(pool[pid], p) if pid in pool else p
+        papers = sorted(pool.values(),
+                        key=lambda p: (p.get("published") or "", p.get("title") or ""),
+                        reverse=True)
+        _write_json(self.data_dir / f"{month}.json", {
+            "date": month,
+            "generated_at": generated_at,
+            "count": len(papers),
+            "papers": papers,
+        })
+        return len(papers)
+
+
+def _richer(a: dict, b: dict) -> dict:
+    """Prefer the record carrying a Korean summary / cached image (used when the same
+    paper id shows up in more than one daily file)."""
+    def score(p: dict) -> tuple[bool, bool]:
+        return bool(p.get("summary_ko")), bool(p.get("image") and p["image"].get("cached"))
+    return a if score(a) >= score(b) else b
+
 
 def _is_period(s: str) -> bool:
     """Accept a day key YYYY-MM-DD or a month key YYYY-MM."""
