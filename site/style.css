@@ -199,6 +199,39 @@ a { color: inherit; }
   color: var(--ncm); border-color: color-mix(in srgb, var(--ncm) 55%, var(--border));
   background: color-mix(in srgb, var(--ncm) 12%, transparent);
 }
+.toolbar__spacer { flex: 1 1 0; min-width: 0; }
+.chip--action { color: var(--text); font-weight: 600; }
+
+/* watched-author chip glows amber (matches the ⭐ marker), bookmark chip violet */
+#f-watch[aria-pressed="true"] {
+  color: var(--na-metal); border-color: color-mix(in srgb, var(--na-metal) 55%, var(--border));
+  background: color-mix(in srgb, var(--na-metal) 12%, transparent);
+}
+#f-bmk[aria-pressed="true"] {
+  color: var(--li-rich); border-color: color-mix(in srgb, var(--li-rich) 55%, var(--border));
+  background: color-mix(in srgb, var(--li-rich) 12%, transparent);
+}
+
+/* ---------- personal state on cards ---------- */
+/* bookmark toggle (sits in the card foot) */
+.card__bm {
+  cursor: pointer; background: none; font-size: .8rem; line-height: 1;
+  filter: grayscale(1) opacity(.55);
+}
+.card__bm:hover { filter: none; }
+.card.is-bookmarked .card__bm { filter: none; border-color: color-mix(in srgb, var(--li-rich) 45%, var(--border)); }
+
+/* watched author: the bold last-author name is clickable to follow the group */
+.au-last { cursor: pointer; }
+.au-last:hover { text-decoration: underline dotted; text-underline-offset: 2px; }
+.au-last.is-watched { color: var(--na-metal); }
+.au-last.is-watched::after { content: " ⭐"; font-size: .85em; }
+
+/* a card whose author you follow gets an amber left edge; bookmarked adds a corner tag */
+.card.is-watched { border-color: color-mix(in srgb, var(--na-metal) 45%, var(--border)); }
+.card.is-watched::before { background: var(--na-metal); }
+.card.is-read { opacity: .62; }
+.card.is-read:hover { opacity: 1; }
 
 /* ---------- tabs ---------- */
 .tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }

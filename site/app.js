@@ -21,13 +21,41 @@ const state = {
   results: [],           // current search/filter result set
   query: "",
   range: 0,              // 0 = all time, else last-N-days on publication date
-  filters: { oa: false, img: false },
+  filters: { oa: false, img: false, bmk: false, watch: false },
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const el = (tag, cls) => { const n = document.createElement(tag); if (cls) n.className = cls; return n; };
 const esc = (s) => (s == null ? "" : String(s).replace(/[&<>"]/g,
   (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])));
+
+/* ---------- personal state (localStorage: bookmarks / watched groups / read) ---------- */
+const LS = {
+  read(key) { try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); } catch (e) { return new Set(); } },
+  write(key, s) { try { localStorage.setItem(key, JSON.stringify([...s])); } catch (e) {} },
+};
+const bookmarks = LS.read("bpd-bookmarks");   // paper ids saved to the reading list
+const watched = LS.read("bpd-watch");         // author display names being followed
+const readIds = LS.read("bpd-read");          // paper ids already opened
+
+const isBookmarked = (id) => bookmarks.has(id);
+const isRead = (id) => readIds.has(id);
+const isWatchedPaper = (p) => (p.authors || []).some((a) => watched.has(a));
+
+function toggleBookmark(id) {
+  if (bookmarks.has(id)) bookmarks.delete(id); else bookmarks.add(id);
+  LS.write("bpd-bookmarks", bookmarks); refresh();
+}
+function toggleWatch(name) {
+  if (watched.has(name)) watched.delete(name); else watched.add(name);
+  LS.write("bpd-watch", watched); refresh();
+}
+function markRead(id) {
+  if (!id || readIds.has(id)) return;
+  readIds.add(id); LS.write("bpd-read", readIds);
+  const c = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (c) c.classList.add("is-read");
+}
 
 /* ---------- theme ---------- */
 function initTheme() {
@@ -84,6 +112,7 @@ async function boot() {
   sel.addEventListener("change", () => { exitSearch(); loadDay(sel.value); updateStepButtons(); });
   initDateStep();
   initSearch();
+  initCardActions();
 
   buildTabs();
   $("#colophon-meta").textContent =
@@ -164,8 +193,9 @@ function baseList() {
   return state.mode === "search" ? state.results : state.papers;
 }
 function searchActive() {
+  const f = state.filters;
   return state.query.trim() !== "" || state.range > 0 ||
-         state.filters.oa || state.filters.img;
+         f.oa || f.img || f.bmk || f.watch;
 }
 
 async function ensureCorpus() {
@@ -187,6 +217,8 @@ function computeResults() {
     if (p.relevant === false) return false;
     if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) return false;
     if (state.filters.img && !(p.image && p.image.cached)) return false;
+    if (state.filters.bmk && !bookmarks.has(p.id)) return false;
+    if (state.filters.watch && !isWatchedPaper(p)) return false;
     if (cutoff) {
       const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
       if (!ts || ts < cutoff) return false;
@@ -234,18 +266,24 @@ function initSearch() {
   });
   chip("#f-oa", "oa");
   chip("#f-img", "img");
+  chip("#f-watch", "watch");
+  chip("#f-bmk", "bmk");
+  $("#export-bib").addEventListener("click", () => exportCurrent("bib"));
+  $("#export-ris").addEventListener("click", () => exportCurrent("ris"));
 }
 
 function exitSearch() {
   // picking a specific date drops the corpus-search overlay and resets its controls
-  state.query = ""; state.range = 0; state.filters = { oa: false, img: false };
+  state.query = ""; state.range = 0;
+  state.filters = { oa: false, img: false, bmk: false, watch: false };
   state.mode = "date";
   const box = $("#search"), clear = $("#search-clear"), range = $("#range");
   if (box) box.value = "";
   if (clear) clear.hidden = true;
   if (range) range.value = "0";
-  $("#f-oa") && $("#f-oa").setAttribute("aria-pressed", "false");
-  $("#f-img") && $("#f-img").setAttribute("aria-pressed", "false");
+  ["#f-oa", "#f-img", "#f-watch", "#f-bmk"].forEach((id) => {
+    const b = $(id); if (b) b.setAttribute("aria-pressed", "false");
+  });
 }
 
 function updateCounts() {
@@ -266,13 +304,19 @@ function setActive(id) {
 }
 
 /* ---------- render ---------- */
-function render() {
-  const wrap = $("#cards");
+// The exact list on screen now: active-topic + visibility applied to the base set.
+// Shared by render() and the BibTeX/RIS export so they always match.
+function currentList() {
   const src = baseList();
-  const list = (state.active === "all"
+  return (state.active === "all"
     ? src
     : src.filter((p) => (p.topics || []).includes(state.active))
   ).filter(visible);
+}
+
+function render() {
+  const wrap = $("#cards");
+  const list = currentList();
 
   if (!list.length) {
     wrap.innerHTML = "";
@@ -292,6 +336,10 @@ function card(p, i) {
   const code = TOPIC_CODE[accentTopic] || "··";
 
   const c = el("article", "card");
+  c.dataset.id = p.id;
+  if (isBookmarked(p.id)) c.classList.add("is-bookmarked");
+  if (isWatchedPaper(p)) c.classList.add("is-watched");
+  if (isRead(p.id)) c.classList.add("is-read");
   c.style.setProperty("--accent", `var(${accentVar})`);
   c.style.animationDelay = `${Math.min(i * 22, 300)}ms`;
 
@@ -332,7 +380,10 @@ function authorsLine(p) {
   // the first author (lead) + the last 3 rather than the first few. Short lists
   // shown in full; the complete author list is on hover (title=).
   const full = a.join(", ");
-  const last = `<strong class="au-last">${esc(a[a.length - 1])}</strong>`;
+  const lastName = a[a.length - 1];
+  const wcls = watched.has(lastName) ? " is-watched" : "";
+  const last = `<strong class="au-last${wcls}" data-author="${esc(lastName)}" ` +
+               `role="button" tabindex="0" title="이 저자·그룹 워치/해제">${esc(lastName)}</strong>`;
   let shown;
   if (a.length === 1) {
     shown = last;
@@ -363,6 +414,8 @@ function abstractBlock(p) {
 
 function footBadges(p, accentTopic) {
   const out = [];
+  out.push(`<button type="button" class="badge card__bm" data-bm="${esc(p.id)}" ` +
+           `aria-pressed="${isBookmarked(p.id)}" title="북마크(리딩리스트)에 저장/해제">🔖</button>`);
   if (typeof p.journal_metric === "number") {
     out.push(`<span class="badge badge--metric" title="OpenAlex 2년 평균 피인용 (IF 유사 지표)">📈 ${p.journal_metric.toFixed(1)}</span>`);
   }
@@ -391,6 +444,68 @@ function fail(msg, err) {
   if (err) console.error(err);
   $("#cards").innerHTML = "";
   status(msg);
+}
+
+/* ---------- card interactions (delegated) + citation export ---------- */
+function initCardActions() {
+  const cards = $("#cards");
+  cards.addEventListener("click", (e) => {
+    const bm = e.target.closest(".card__bm");
+    if (bm) { e.preventDefault(); toggleBookmark(bm.dataset.bm); return; }
+    const au = e.target.closest(".au-last");
+    if (au && au.dataset.author) { e.preventDefault(); toggleWatch(au.dataset.author); return; }
+    const link = e.target.closest(".card__title a");
+    if (link) { const c = link.closest(".card"); if (c) markRead(c.dataset.id); }  // opens in a new tab; also dims as read
+  });
+  cards.addEventListener("keydown", (e) => {                 // Enter/Space follows a focused author
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const au = e.target.closest(".au-last");
+    if (au && au.dataset.author) { e.preventDefault(); toggleWatch(au.dataset.author); }
+  });
+}
+
+function _bibKey(p) {
+  const surname = ((p.authors && p.authors[0]) || "anon").split(/\s+/).pop().replace(/[^A-Za-z]/g, "") || "anon";
+  const year = (p.published || "").slice(0, 4) || "nd";
+  return `${surname}${year}_${String(p.id || "").replace(/[^A-Za-z0-9]/g, "")}`;
+}
+function toBibtex(list) {
+  return list.map((p) => {
+    const rows = [
+      ["title", p.title], ["author", (p.authors || []).join(" and ")],
+      ["journal", p.venue], ["year", (p.published || "").slice(0, 4)],
+      ["doi", p.doi], ["url", p.url],
+    ].filter(([, v]) => v);
+    return `@article{${_bibKey(p)},\n` +
+      rows.map(([k, v]) => `  ${k} = {${v}}`).join(",\n") + "\n}";
+  }).join("\n\n") + "\n";
+}
+function toRIS(list) {
+  return list.map((p) => {
+    const L = ["TY  - JOUR"];
+    (p.authors || []).forEach((au) => L.push(`AU  - ${au}`));
+    if (p.title) L.push(`TI  - ${p.title}`);
+    if (p.venue) L.push(`JO  - ${p.venue}`);
+    const y = (p.published || "").slice(0, 4); if (y) L.push(`PY  - ${y}`);
+    if (p.doi) L.push(`DO  - ${p.doi}`);
+    if (p.url) L.push(`UR  - ${p.url}`);
+    L.push("ER  - ");
+    return L.join("\n");
+  }).join("\n\n") + "\n";
+}
+function downloadText(name, text) {
+  const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = el("a"); a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+function exportCurrent(kind) {
+  const list = currentList();
+  if (!list.length) return status("내보낼 논문이 없습니다.", true);
+  const stamp = state.mode === "search" ? "search" : ($("#date-select").value || "feed");
+  if (kind === "ris") downloadText(`battery-papers_${stamp}.ris`, toRIS(list));
+  else downloadText(`battery-papers_${stamp}.bib`, toBibtex(list));
 }
 
 boot();
