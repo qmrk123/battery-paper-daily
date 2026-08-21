@@ -1,0 +1,93 @@
+{
+ "title": "최근 2주 논문 브리핑 (8/7–8/18)",
+ "range": "2026-08-07 ~ 2026-08-18",
+ "overall": "이번 기간은 리튬 금속 음극 연구가 압도적 다수를 차지했으며, 대부분 전해액 용매화 구조·계면(SEI) 설계로 수렴해 450~769 Wh/kg급 고에너지·급속충전·전고체 셀 구현을 겨냥한다. 양극 측(고니켈·리튬 과잉)은 벌크에서 표면까지 통합적 구조 안정화와 산소/음이온 산화환원 가역성 제어가 핵심이며, 황·황화물 화학은 음극 계면·고체전해질·Li-S 양극 전반에서 반복적으로 등장한다.",
+ "sections": [
+  {
+   "topic": "li-metal",
+   "heading": "리튬 금속 음극",
+   "text": "전해액 용매화 구조 제어가 이번 기간의 지배적 흐름으로, 국재화 고농도(LHCE) 겔화, 이중 첨가제(3-술포렌/LiNO3), 피리딘 공용매를 통한 LiNO3 용해, reflex charging 등 다양한 경로로 무기물이 풍부하거나 음이온 유래인 견고한 SEI를 형성한다. 성능 목표는 고전압·고로딩·희박 전해액 조건에서의 고에너지밀도로 뚜렷이 이동해, 전해액 주입량-용량 활용률 정량화로 769 Wh/kg 파우치셀을, 이중 첨가제로 80C·6,000사이클급 초고율 수명을 달성했다. 동시에 황화물계 전고체(저압 구동 중간층·고체전해질 미세화)와 오페란도 진단(분광 타원계측·가상 기준전극·갈바닉 부식 규명)으로 계면 불균일성을 실시간 규명하려는 시도가 병행된다.",
+   "highlights": [
+    {
+     "title": "Quantifying the Correlation Between Capacity Utilization and Electrolyte Dosage for Ultrahigh‐Energy‐Density 769 Wh Kg −1 Rechargeable Lithium Metal Batteries",
+     "url": "https://doi.org/10.1002/adma.74644",
+     "venue": "Advanced Materials"
+    },
+    {
+     "title": "Dual-additive enabled inorganic-rich solid electrolyte interphase for high-rate lithium negative electrodes",
+     "url": "https://doi.org/10.1038/s41467-026-76653-7",
+     "venue": "Nature Communications"
+    },
+    {
+     "title": "Interfacial LithiumRedox Kinetics Regulated by SolventAsymmetry and Moment of Inertia in Li Metal Batteries",
+     "url": "https://doi.org/10.1021/jacs.5c21712",
+     "venue": "Journal of the American Chemical Society"
+    }
+   ]
+  },
+  {
+   "topic": "ncm",
+   "heading": "NCM 양극",
+   "text": "고니켈 양극의 화학기계적 안정성 확보가 공통 주제로, 질산염 열분해를 이용한 inside-out 재구성이나 in situ 엔트로피(다원소 공도핑) 공학처럼 코어·벌크·표면을 한 번에 통합 제어하는 전략이 부각된다. 계면(CEI) 안정화 측면에서는 저장 열화의 전해질 분해·Ni 용출 상관관계를 규명하고 머신러닝 포텐셜로 첨가제를 스크리닝하거나, LHCE 겔 전해질로 4.5V 고전압 수명을 개선했다. 또한 단결정 합성에서 초기 망간 산화수가 상 분화 경로를 결정한다는 점을 밝혀 결함 없는 미세구조 제어의 기초를 제시했다.",
+   "highlights": [
+    {
+     "title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes",
+     "url": "https://doi.org/10.1021/jacs.6c06113",
+     "venue": "Journal of the American Chemical Society"
+    },
+    {
+     "title": "Holistic Inside‐Out Reconfiguration of Ni‐Rich Cathodes via a Thermally Self‐Driven Strategy for Exceptional Chemomechanical Stability",
+     "url": "https://doi.org/10.1002/adma.74572",
+     "venue": "Advanced Materials"
+    }
+   ]
+  },
+  {
+   "topic": "other-cathode",
+   "heading": "기타 양극",
+   "text": "황·황화물 화학과 전고체가 이 범주를 주도한다. 액상 합성으로 킬로그램 규모의 고이온전도성 황화물 고체전해질(catholyte/anolyte)을 제조해 장수명 전고체 Li-S 전지를 실현하거나, 피리딘-싸이올레이트 매개체와 계층적 배위 고분자전해질로 Li2S 양극의 느린 산화환원과 수송-전환 불균형을 해소한다. 별도로 Zr 필라링·in situ 코팅으로 LiCoO2를 4.65V까지 안정화하는 고전압 산화물 연구도 포함된다.",
+   "highlights": [
+    {
+     "title": "Liquid-phase synthesis of a series of superionic sulfide electrolytes for all-solid-state lithium-sulfur battery",
+     "url": "https://doi.org/10.1038/s41467-026-76953-y",
+     "venue": "Nature Communications"
+    },
+    {
+     "title": "A Pyridine Mediator Enables High‐Efficiency, Long‐Cycling Anode‐Less/Free Lithium–Sulfur Batteries With Li 2 S Cathodes",
+     "url": "https://doi.org/10.1002/adma.74616",
+     "venue": "Advanced Materials"
+    }
+   ]
+  },
+  {
+   "topic": "li-rich",
+   "heading": "Li-rich(리튬 과잉) 양극",
+   "text": "산소/음이온 산화환원의 가역성 확보와 전압 히스테리시스·산소 방출 억제가 일관된 목표다. 접근법은 불소 도핑을 통한 크로스스케일 입자구조 제어와 TM-O 공유결합 강화, CO2 분위기를 이용한 층상→스피넬 기체유도 표면재구성, 이온교환으로 리본 규칙초구조를 유지한 O3형 합성 등으로 다양하다. 특히 P3→O3 이온교환 양극은 4.2–4.7V에서 가역적 산소 산화환원 평탄부를 보이며 에너지 손실을 크게 줄였다.",
+   "highlights": [
+    {
+     "title": "Reversible Oxygen Redoxin High Voltage for Lithium-RichLayered Oxides",
+     "url": "https://doi.org/10.1021/jacs.6c07357",
+     "venue": "Journal of the American Chemical Society"
+    },
+    {
+     "title": "Reinforcing Particle Architectural Stability of Li‐Rich Cathode With Enhanced Anionic Redox Reaction Reversibility",
+     "url": "https://doi.org/10.1002/anie.6490997",
+     "venue": "Angewandte Chemie International Edition"
+    }
+   ]
+  },
+  {
+   "topic": "na-metal",
+   "heading": "소듐 금속 음극",
+   "text": "덴드라이트 억제와 균일한 Na 도금이 공통 과제로, 단백질 매개 팁 흡착으로 팁 전기장을 조절하거나 집전체 표면 개질(인듐 옥시클로라이드)로 SEI를 안정화하는 계면 전략과, 강배위 음이온·약용매화 공용매로 저온 성능을 높이는 용매화 공학이 함께 제시된다. 응용은 초고율(50C, 16,000사이클)·저온·제한 소듐(anode-lean) 조건으로 확장되고 있다.",
+   "highlights": [
+    {
+     "title": "Suppressing Sodium Dendrites Through Protein‐Mediated Tip Adsorption Effect",
+     "url": "https://doi.org/10.1002/adma.74672",
+     "venue": "Advanced Materials"
+    }
+   ]
+  }
+ ],
+ "generated_from": 1127
+}

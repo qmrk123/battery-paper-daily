@@ -132,6 +132,47 @@ jobs:
         if: github.event_name != 'push' && steps.summarize.outcome == 'failure'
         run: echo "::warning::Claude summarization failed — check CLAUDE_CODE_OAUTH_TOKEN (expired/empty?) or the action. Papers keep null summaries and retry next run."
 
+      - name: Weekly AI brief (Claude, subscription auth)
+        if: github.event_name != 'push' && steps.haveclaude.outputs.ok == 'true'
+        # Insight layer: a rolling Korean synthesis of the last ~2 weeks by topic,
+        # written to data/digest.json (the site shows it as the 🗞 브리핑 banner). A
+        # failure or malformed file never blocks the run — the frontend just hides
+        # the banner and the previous digest.json stays committed.
+        continue-on-error: true
+        uses: anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34  # beta @ 2026-08-19
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash,Read,Write,Edit"
+          model: claude-opus-4-8
+          timeout_minutes: "12"
+          prompt: |
+            Regenerate the site's Korean "최근 2주 브리핑" (rolling two-week brief).
+            1) Run: python scripts/prep_digest.py
+               It writes _digest_input.json — an array of recent papers, each
+               {id, title, venue, url, topics, summary_ko, published}.
+            2) Read _digest_input.json. Group papers by topic and write an INSIGHTFUL
+               Korean synthesis of the TREND (not a list): common themes, notable
+               approaches/materials, directions. Technical, concise, no hype. NEVER
+               invent facts absent from the summaries.
+            3) Write data/digest.json (UTF-8, valid JSON, no markdown fences) with EXACTLY:
+               {
+                 "title": "최근 2주 논문 브리핑 (M/D–M/D)",
+                 "range": "YYYY-MM-DD ~ YYYY-MM-DD",
+                 "overall": "1-2 Korean sentences across all topics",
+                 "sections": [
+                   {"topic": "li-metal", "heading": "리튬 금속 음극",
+                    "text": "2-4 Korean sentences",
+                    "highlights": [{"title": "...", "url": "...", "venue": "..."}]}
+                 ]
+               }
+               Headings: li-metal=리튬 금속 음극, na-metal=소듐 금속 음극, ncm=NCM 양극,
+               li-rich=Li-rich(리튬 과잉) 양극, lfp=LFP/올리빈, other-cathode=기타 양극.
+               Include ONLY topics with >=2 papers, ordered by paper count (most first).
+               1-3 highlights per section, each copied verbatim (title/url/venue) from
+               the input. Derive the title's date range and "range" from the input's
+               published dates. Do NOT run any git command.
+            Finish with the number of sections written.
+
       - name: Graphical-abstract thumbnails (best-effort, CC-OA only)
         if: github.event_name != 'push'
         continue-on-error: true

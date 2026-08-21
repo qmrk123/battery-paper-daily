@@ -18,5 +18,8 @@ public/
 # local TDM test dumps (pipeline/tdm_images.py --test)
 _tdm_test/
 
+# transient input for the weekly-brief LLM step (scripts/prep_digest.py)
+_digest_input.json
+
 # NOTE: data/ IS committed (daily JSON + seen.json are the site's content).
 #       site/img cached thumbnails ARE committed (only CC-licensed images are cached; see pipeline/images.py).

@@ -120,8 +120,35 @@ async function boot() {
   $("#colophon-meta").textContent =
     `updated ${(index.updated_at || "").replace("T", " ").slice(0, 16)} · ${dates.length}일치`;
   await loadDay(dates[0]);
+  loadDigest();
   // watchers get the corpus eagerly so the "⭐ 워치 (N)" new-paper badge shows on load
   if (watched.size) { await ensureCorpus(); updateWatchBadge(); }
+}
+
+/* ---------- weekly AI brief (data/digest.json) ---------- */
+async function loadDigest() {
+  const host = $("#digest");
+  if (!host) return;
+  let d;
+  try { d = EMB ? EMB.digest : await getJSON("data/digest.json"); }
+  catch (e) { host.hidden = true; return; }
+  if (!d || !(d.sections || []).length) { host.hidden = true; return; }
+  const sections = d.sections.map((s) => {
+    const hls = (s.highlights || []).map((h) =>
+      `<a class="digest__hl" href="${esc(h.url)}" target="_blank" rel="noopener">` +
+      `<span class="digest__hl-venue">${esc(h.venue || "")}</span>${esc(h.title || "")}</a>`).join("");
+    return `<div class="digest__section"><h4 class="digest__h">${esc(s.heading)}</h4>` +
+      `<p class="digest__text">${esc(s.text)}</p>` +
+      (hls ? `<div class="digest__hls">${hls}</div>` : "") + `</div>`;
+  }).join("");
+  host.innerHTML =
+    `<details class="digest__wrap" open>` +
+    `<summary class="digest__summary"><span class="digest__badge">🗞 브리핑</span>` +
+    `<span class="digest__title">${esc(d.title || "주간 브리핑")}</span></summary>` +
+    (d.overall ? `<p class="digest__overall">${esc(d.overall)}</p>` : "") +
+    `<div class="digest__grid">${sections}</div></details>`;
+  host.dataset.ready = "1";
+  host.hidden = state.mode !== "date";       // only in the default (date) view
 }
 
 /* ---------- date stepper (▲ newer / ▼ older, one option at a time) ---------- */
@@ -279,6 +306,8 @@ async function refresh() {
     state.mode = "date";
   }
   updateWatchBadge();
+  const dg = $("#digest");
+  if (dg && dg.dataset.ready) dg.hidden = state.mode !== "date";   // hide the brief while searching
   updateCounts();
   render();
 }
