@@ -81,6 +81,42 @@ def compute_related(papers: list[dict], k: int = 6, top_terms: int = 25) -> None
         papers[i]["related"] = [papers[j].get("id") for j, s in best if s > 0.03]
 
 
+# Faceted tags — orthogonal to the 6 material topics. Precise technical jargon, so
+# keyword rules (no LLM/cost) tag the whole corpus deterministically. Each tag needs
+# ALL of its regex groups to match (each group is an any-of alternation).
+FACETS: dict[str, tuple[str, list[str]]] = {
+    # 기법 (method)
+    "insitu-tem":     ("기법", [r"in[ -]?situ|operando", r"\bs?tem\b|microscop|electron microsc"]),
+    "cryo":           ("기법", [r"\bcryo"]),
+    "stem-haadf":     ("기법", [r"\bhaadf\b|\babf\b|\bstem\b|scanning transmission"]),
+    "eels":           ("기법", [r"\beels\b|energy[- ]loss"]),
+    "xrd":            ("기법", [r"\bxrd\b|x-ray diffraction|rietveld"]),
+    "xas":            ("기법", [r"\bxas\b|\bxanes\b|\bexafs\b|x-ray absorption|\bxps\b"]),
+    "nmr":            ("기법", [r"\bnmr\b|nuclear magnetic"]),
+    "dft":            ("기법", [r"\bdft\b|first[- ]principles|density functional|ab initio"]),
+    "ml":             ("기법", [r"machine learning|neural network|deep learning|interatomic potential|\bmlip\b"]),
+    # 문제·현상 (problem / phenomenon)
+    "cation-mixing":  ("문제", [r"cation mixing|rock[- ]?salt|antisite"]),
+    "cracking":       ("문제", [r"\bcrack|fracture|pulveriz|chemo[- ]?mechanic|particle break"]),
+    "oxygen-redox":   ("문제", [r"oxygen redox|anion(ic)? redox|lattice oxygen|oxygen release"]),
+    "dendrite":       ("문제", [r"dendrit"]),
+    "sei-cei":        ("문제", [r"\bsei\b|\bcei\b|electrolyte interphase|passivat"]),
+    "thermal-gas":    ("문제", [r"thermal runaway|gas(sing| evolution| generation| release)|exotherm"]),
+    "fast-charge":    ("문제", [r"fast[- ]?charg|high[- ]?rate|rate capability|extreme fast"]),
+    "coating-doping": ("문제", [r"\bcoating|surface modif|\bdoping\b|dopant"]),
+    "single-crystal": ("문제", [r"single[- ]?crystal|monocrystal"]),
+}
+_FACET_RX = {k: [re.compile(g, re.I) for g in groups] for k, (_, groups) in FACETS.items()}
+
+
+def tag_facets(papers: list[dict]) -> None:
+    """Attach `facets` (list of tag keys) to each paper from title+abstract."""
+    for p in papers:
+        text = f"{p.get('title','')} {p.get('abstract_en','')}"
+        p["facets"] = [k for k, groups in _FACET_RX.items()
+                       if all(g.search(text) for g in groups)]
+
+
 def _score(p: dict) -> tuple[bool, bool]:
     return bool(p.get("summary_ko")), bool(p.get("image") and p["image"].get("cached"))
 
@@ -105,6 +141,7 @@ def write_corpus(public_data: Path) -> list[dict]:
                     key=lambda p: (p.get("published") or "", p.get("title") or ""),
                     reverse=True)
     compute_related(papers)                                # attach 'related' ids in place
+    tag_facets(papers)                                     # attach 'facets' tag keys in place
     (public_data / "corpus.json").write_text(
         json.dumps({"count": len(papers), "papers": papers}, ensure_ascii=False),
         encoding="utf-8")

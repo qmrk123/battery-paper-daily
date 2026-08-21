@@ -22,6 +22,7 @@ const state = {
   results: [],           // current search/filter result set
   query: "",
   range: 0,              // 0 = all time, else last-N-days on publication date
+  facet: "",             // selected precise-tag key ("" = any)
   filters: { oa: false, img: false, bmk: false, watch: false },
   reco: false,           // recommendation feed (papers similar to your bookmarks)
 };
@@ -225,7 +226,7 @@ function baseList() {
 }
 function searchActive() {
   const f = state.filters;
-  return state.reco || state.query.trim() !== "" || state.range > 0 ||
+  return state.reco || state.query.trim() !== "" || state.range > 0 || state.facet !== "" ||
          f.oa || f.img || f.bmk || f.watch;
 }
 
@@ -284,6 +285,7 @@ function computeResults() {
     if (state.filters.img && !(p.image && p.image.cached)) return false;
     if (state.filters.bmk && !bookmarks.has(p.id)) return false;
     if (state.filters.watch && !isWatchedPaper(p)) return false;
+    if (state.facet && !(p.facets || []).includes(state.facet)) return false;
     if (cutoff) {
       const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
       if (!ts || ts < cutoff) return false;
@@ -327,6 +329,7 @@ function initSearch() {
   range.addEventListener("change", () => {
     state.range = parseInt(range.value, 10) || 0; refresh();
   });
+  $("#facet").addEventListener("change", () => { state.facet = $("#facet").value; refresh(); });
   const chip = (id, key) => $(id).addEventListener("click", () => {
     state.filters[key] = !state.filters[key];
     $(id).setAttribute("aria-pressed", String(state.filters[key]));
@@ -347,13 +350,14 @@ function initSearch() {
 
 function exitSearch() {
   // picking a specific date drops the corpus-search overlay and resets its controls
-  state.query = ""; state.range = 0; state.reco = false;
+  state.query = ""; state.range = 0; state.reco = false; state.facet = "";
   state.filters = { oa: false, img: false, bmk: false, watch: false };
   state.mode = "date";
   const box = $("#search"), clear = $("#search-clear"), range = $("#range");
   if (box) box.value = "";
   if (clear) clear.hidden = true;
   if (range) range.value = "0";
+  if ($("#facet")) $("#facet").value = "";
   ["#f-oa", "#f-img", "#f-watch", "#f-bmk", "#f-reco"].forEach((id) => {
     const b = $(id); if (b) b.setAttribute("aria-pressed", "false");
   });

@@ -58,6 +58,31 @@
         <option value="30">최근 30일</option>
         <option value="90">최근 90일</option>
       </select>
+      <select id="facet" class="filter-select" aria-label="정밀 태그 필터">
+        <option value="">🔬 정밀 태그</option>
+        <optgroup label="기법">
+          <option value="insitu-tem">in-situ TEM</option>
+          <option value="cryo">cryo-EM</option>
+          <option value="stem-haadf">STEM/HAADF</option>
+          <option value="eels">EELS</option>
+          <option value="xrd">XRD</option>
+          <option value="xas">XAS/XPS</option>
+          <option value="nmr">NMR</option>
+          <option value="dft">DFT/계산</option>
+          <option value="ml">머신러닝</option>
+        </optgroup>
+        <optgroup label="문제·현상">
+          <option value="cation-mixing">양이온 혼합/암염</option>
+          <option value="cracking">균열/기계</option>
+          <option value="oxygen-redox">산소 산화환원</option>
+          <option value="dendrite">덴드라이트</option>
+          <option value="sei-cei">SEI/CEI</option>
+          <option value="thermal-gas">열/가스</option>
+          <option value="fast-charge">급속충전</option>
+          <option value="coating-doping">코팅/도핑</option>
+          <option value="single-crystal">단결정</option>
+        </optgroup>
+      </select>
       <button id="f-oa" class="chip" type="button" aria-pressed="false"
               title="오픈액세스만">OA</button>
       <button id="f-img" class="chip" type="button" aria-pressed="false"
