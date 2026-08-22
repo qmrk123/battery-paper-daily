@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-21T21:26:36+00:00",
+  "generated_at": "2026-08-22T21:28:00+00:00",
   "count": 1,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76216-w/MediaObjects/41467_2026_76216_Fig1_HTML.png",
+        "cached": "img/W4416056717.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76216-w"
+      },
       "summary_ko": "아르기로다이트 고체전해질(Li6PS5X, X=Cl/Br/I)을 대상으로 원자 단위 입계 거동부터 연속체 스케일 침투까지 다중스케일 모델링을 수행해 이온 수송 메커니즘을 분석했다. 클로즈드루프 능동학습으로 개발한 경량 머신러닝 포텐셜을 분자동역학·유한요소 시뮬레이션에 결합하여, 벌크 확산장벽이 음이온 반경에 선형 비례하며 입계가 벌크 확산도에 따라 이온 수송을 촉진하거나 억제하는 상반된 효과를 가짐을 규명했다. Li6PS5I는 실험 관측과 부합하는 비-아레니우스 수송 거동을 보였다.",
       "relevant": false
     }

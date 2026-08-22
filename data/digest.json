@@ -1,42 +1,32 @@
 {
-  "title": "최근 2주 논문 브리핑 (8/7–8/18)",
-  "range": "2026-08-07 ~ 2026-08-18",
-  "overall": "이번 2주간은 전해액 용매화 구조·계면(SEI/CEI) 설계와 고체·준고체 전해질을 통한 고전압·고에너지밀도·극한환경 구동이 리튬 금속 연구의 중심축을 이뤘고, NCM과 Li-rich 양극에서는 격자 산소 안정화와 화학기계적 내구성 확보가 공통 화두로 부상했다.",
+  "title": "최근 2주 논문 브리핑 (8/10–8/21)",
+  "range": "2026-08-10 ~ 2026-08-21",
+  "overall": "이번 2주간 연구는 전해질·계면 분자설계로 SEI/CEI를 정밀 제어해 리튬 금속의 균일 증착과 고전압 안정성을 확보하려는 흐름이 가장 두드러졌으며, 양극에서는 산소 산화환원 가역성과 상전이 경로 규명을 통한 구조 안정화가 공통 화두였다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해액 분자 설계가 지배적 흐름으로, 용매의 비대칭성·불소화·관성 모멘트 조절(F5MPE), 카보네이트 내 LiNO3 가용화(피리딘 공용매·3-술포렌 이중 첨가제), reflex charging 등 음이온 유래·무기물 풍부 SEI를 유도하는 다양한 전략이 제시되어 450~769 Wh/kg급 고전압 파우치셀 실증으로 이어졌다. 고체·준고체 전해질에서는 촉매 중합 SPE, Li2O 풍부 계면, 정전기적 부유(Mg1-xLixF2/PEO), 이온 수송 위상 재구성으로 극저온·0°C·저압 구동과 열·기계 남용 내성을 확보했다. 아울러 오페란도 타원계측·가상 기준전극·갈바닉 부식 해석 등 실패 기구를 정량 진단하는 계측 연구와, 3D 복합 음극·계층적 호스트·산소공공 계면층 같은 음극 구조 설계가 데드 리튬 억제와 장수명을 겨냥했다.",
+      "text": "가장 활발한 분야로, 전해질 용매화 구조와 계면 화학을 정밀하게 조율해 무기물(LiF·Li2O·Li3N)이 풍부한 견고한 SEI를 유도하는 분자설계가 주류를 이뤘다. 비대칭 에테르·시아노 관능화·이중 첨가제(LiNO3 계열)로 고전압/고율 안정성을 확보하거나, 피리딘 공용매로 난용성 LiNO3를 활용하는 등 첨가제·용매 전략이 다양하게 제시되었다. 분리막(유전율·고엔트로피 무기공막)과 준고체·전고체 전해질을 통한 극저온·초광온도 구동, 그리고 데드 리튬·갈바닉 부식·가스 발생·열폭주 등 실패 기구를 오페란도 기법으로 규명하려는 진단 연구도 병행되었다. 769 Wh/kg 파우치셀, 저 N/P·고로딩 급속충전 등 실용 셀 수준의 검증이 강조된 점이 특징이다.",
       "highlights": [
-        {"title": "Quantifying the Correlation Between Capacity Utilization and Electrolyte Dosage for Ultrahigh‐Energy‐Density 769 Wh Kg −1 Rechargeable Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.74644", "venue": "Advanced Materials"},
+        {"title": "Understanding and suppressing gas evolution in lithium metal batteries with ether-based electrolytes", "url": "https://doi.org/10.1038/s41557-026-02219-1", "venue": "Nature Chemistry"},
         {"title": "Dual-additive enabled inorganic-rich solid electrolyte interphase for high-rate lithium negative electrodes", "url": "https://doi.org/10.1038/s41467-026-76653-7", "venue": "Nature Communications"},
-        {"title": "A catalytically polymerized solid electrolyte enables 450 Wh kg−1 lithium–metal batteries with thermal–mechanical abuse tolerance", "url": "https://doi.org/10.1038/s41467-026-76381-y", "venue": "Nature Communications"}
-      ]
-    },
-    {
-      "topic": "ncm",
-      "heading": "NCM 양극",
-      "text": "고니켈 양극의 화학기계적 안정성과 계면 열화 억제가 공통 목표로, 질산염 열분해를 활용한 단일 소성 inside-out 재구성이나 in situ 엔트로피 공학(다원소 공도핑)을 통해 미세균열·산소 이탈·이방성 변형을 통합 제어하려는 시도가 두드러졌다. 저장 중 열화 규명에서는 DFT·머신러닝 포텐셜 기반 첨가제 스크리닝으로 LiBOB 등 효과적 CEI 형성제를 도출했고, 단결정 합성에서는 초기 Mn 산화수가 상 분화 경로를 좌우함이 밝혀졌다. 전반적으로 전산·데이터 기반 설계와 열구동 공정을 결합해 격자·계면을 동시에 안정화하는 방향이 부각된다.",
-      "highlights": [
-        {"title": "Holistic Inside‐Out Reconfiguration of Ni‐Rich Cathodes via a Thermally Self‐Driven Strategy for Exceptional Chemomechanical Stability", "url": "https://doi.org/10.1002/adma.74572", "venue": "Advanced Materials"},
-        {"title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes", "url": "https://doi.org/10.1021/jacs.6c06113", "venue": "Journal of the American Chemical Society"},
-        {"title": "Phase-Steering inSingle-Crystal Layered Transition-MetalOxide Cathodes by Initial Manganese Valence", "url": "https://doi.org/10.1021/acsnano.6c06826", "venue": "ACS Nano"}
+        {"title": "Quantifying the Correlation Between Capacity Utilization and Electrolyte Dosage for Ultrahigh‐Energy‐Density 769 Wh Kg −1 Rechargeable Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.74644", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "전고체 지향 소재와 고전압 안정화가 두 축을 이뤘다. 액상 합성으로 킬로그램 규모 초이온전도성 황화물 전해질을 제조해 catholyte·anolyte를 모두 습식 공정화한 전고체 Li-S 전지, 금속 황화물 양극 리뷰 등 황계 화학이 활발했으며, 고분자 전해질에서는 1·2차 배위를 계층화해 이온 플럭스와 황 산화환원을 동기화했다. 한편 Zr 필라링과 in situ 격자정합 코팅으로 LiCoO2를 4.65 V까지 안정화하는 등 층상 양극의 고전압 구동 전략도 제시됐다.",
+      "text": "Li-S 전지와 전고체 시스템이 중심으로, 소프트 촉매·계층적 배위 고분자전해질을 통한 황 산화환원 속도 개선과 폴리설파이드 셔틀 억제가 반복 등장했다. 전고체 방향에서는 킬로그램 규모 액상 합성 황화물 전해질과 금속 황화물 양극 등 확장성·계면 호환성 확보가 과제로 다뤄졌다. 고전압 스피넬 LNMO의 산화환원-구조 상호작용을 제일원리로 분석하는 등 기초 메커니즘 규명도 포함되었다.",
       "highlights": [
         {"title": "Liquid-phase synthesis of a series of superionic sulfide electrolytes for all-solid-state lithium-sulfur battery", "url": "https://doi.org/10.1038/s41467-026-76953-y", "venue": "Nature Communications"},
-        {"title": "Synergistic Bulk‐Surface Modulation Stabilizing LiCoO 2 at 4.65 V via Zr‐Pillaring and In Situ Lattice‐Matching Engineering", "url": "https://doi.org/10.1002/anie.3474461", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Hierarchical Primary‐Secondary Coordination Synchronizes Ion Flux and Sulfur Redox in Solid Polymer Electrolytes", "url": "https://doi.org/10.1002/adfm.77192", "venue": "Advanced Functional Materials"}
+        {"title": "Revealing the Structural-Redox Interplay in the High-Voltage Spinel LiNi0.5Mn1.5O4 Cathode", "url": "https://doi.org/10.1021/jacs.6c05598", "venue": "Journal of the American Chemical Society"},
+        {"title": "Bidirectional Soft Catalysts for Improved Power Performance of Li‐S Batteries", "url": "https://doi.org/10.1002/advs.77302", "venue": "Advanced Science"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "가역적 산소 산화환원 확보와 입자 구조 안정화가 핵심 주제로, 불소 도핑으로 (010)면 표면 에너지를 낮춰 등축형 1차 입자와 치밀한 2차 입자를 유도하거나, 기체유도 표면재구성으로 층상→스피넬 전이를 통해 산소 방출을 완화하는 전략이 제시됐다. 또한 이온교환으로 리본 규칙초구조를 유지한 O3형 양극이 전압 히스테리시스에 따른 에너지 손실을 크게 줄이는 등, TM-O 공유결합성 제어와 표면·규칙구조 설계를 통해 음이온 산화환원의 가역성과 장기 고전압 수명을 높이려는 흐름이 뚜렷하다.",
+      "text": "음이온(산소) 산화환원의 가역성 확보와 이에 수반되는 전압 히스테리시스·산소 방출 억제가 공통 초점이었다. 불소 도핑으로 결정면 에너지와 TM-O 공유결합성을 조절해 입자 구조를 치밀화하는 크로스스케일 전략, 기체유도 표면재구성으로 표면을 스피넬형으로 전이시키는 방법, 엔트로피 조절 기반 열안정화 등 구조 안정화 접근이 다양하게 제시되었다. 이온교환으로 규칙초구조를 유지해 산소 산화환원 평탄부를 안정화한 사례도 주목된다.",
       "highlights": [
         {"title": "Reinforcing Particle Architectural Stability of Li‐Rich Cathode With Enhanced Anionic Redox Reaction Reversibility", "url": "https://doi.org/10.1002/anie.6490997", "venue": "Angewandte Chemie International Edition"},
         {"title": "Reversible Oxygen Redoxin High Voltage for Lithium-RichLayered Oxides", "url": "https://doi.org/10.1021/jacs.6c07357", "venue": "Journal of the American Chemical Society"},
@@ -44,12 +34,22 @@
       ]
     },
     {
+      "topic": "ncm",
+      "heading": "NCM 양극",
+      "text": "고니켈 양극의 화학기계적 열화와 상전이 메커니즘 규명이 중심으로, 저장 중 계면 Ni 용출·전해질 분해 상관관계를 데이터 기반으로 분석하고 CEI 첨가제를 스크리닝하는 연구가 제시되었다. 질산염 열분해를 이용한 inside-out 재구성, 과리튬화 NCM의 다중 금속 순차 환원 경로, 초기 Mn 산화수에 따른 단결정 상 분화 제어 등 합성·구조 설계 원리를 규명하려는 흐름이 두드러졌다.",
+      "highlights": [
+        {"title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes", "url": "https://doi.org/10.1021/jacs.6c06113", "venue": "Journal of the American Chemical Society"},
+        {"title": "Holistic Inside‐Out Reconfiguration of Ni‐Rich Cathodes via a Thermally Self‐Driven Strategy for Exceptional Chemomechanical Stability", "url": "https://doi.org/10.1002/adma.74572", "venue": "Advanced Materials"},
+        {"title": "Unraveling Phase Evolution Pathways and Sequential Multi‐Metal Reduction Mechanisms in Over‐Lithiated NCM Cathodes", "url": "https://doi.org/10.1002/aenm.71435", "venue": "Advanced Energy Materials"}
+      ]
+    },
+    {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "덴드라이트 억제와 저온 구동이 중심으로, 단백질 매개 팁 흡착으로 전기장 분포를 조절해 균일 전착과 견고한 SEI를 유도하거나, 집전체 표면 개질(인듐 옥시클로라이드)로 제한된 소듐 조건의 균일 도금을 확보했다. 저온에서는 강배위 음이온·약용매화 공용매로 음이온 풍부 용매화 구조를 형성해 Na+ 탈용매화 장벽을 낮추는 전해질 전략이 제시되어, 계면·용매화 제어를 통한 고율·장수명·저온 성능 향상이 공통 방향으로 나타난다.",
+      "text": "소듐 덴드라이트 억제와 안정적 SEI 형성을 위한 전해질·계면 전략이 다뤄졌다. 단백질 매개 팁 흡착으로 전기장을 균일화해 초고율(50C) 장수명을 구현하거나, 불소·전이금속이 없는 저이온쌍 전해질로 지속가능한 소듐전지를 설계하는 접근이 제시되었다.",
       "highlights": [
         {"title": "Suppressing Sodium Dendrites Through Protein‐Mediated Tip Adsorption Effect", "url": "https://doi.org/10.1002/adma.74672", "venue": "Advanced Materials"},
-        {"title": "Regulating Solvation Chemistry via Strongly Coordinating Anion and Weakly Solvating Cosolvent for Low‐Temperature Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.2602693", "venue": "Angewandte Chemie International Edition"}
+        {"title": "A Fluorine‐Free, Low Ion Pair Electrolyte for Transition Metal‐Free and Halogen‐Free Sodium Batteries", "url": "https://doi.org/10.1002/aenm.71422", "venue": "Advanced Energy Materials"}
       ]
     }
   ]
