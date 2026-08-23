@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-22T21:25:53+00:00",
+  "generated_at": "2026-08-23T21:27:02+00:00",
   "count": 18,
   "papers": [
     {
@@ -87,7 +87,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76823-7/MediaObjects/41467_2026_76823_Fig1_HTML.png",
+        "cached": "img/W7203922994.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76823-7"
+      },
       "summary_ko": "CD11b 작용제 GB1275가 종양미세환경에서 호중구·대식세포 등 선천면역세포의 침윤을 억제해 종양용해 세균이 제거되는 것을 막고, 세균 매개 항암 면역치료의 효능을 높인다는 내용이다. 이는 배터리 소재와 무관한 종양면역치료 연구이다.",
       "relevant": false
     },
@@ -145,7 +150,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76958-7/MediaObjects/41467_2026_76958_Fig1_HTML.png",
+        "cached": "img/W7203888844.jpg",
+        "license": null,
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76958-7"
+      },
       "summary_ko": "이온선택성 하이드로겔 펌프를 이용해 태양광 구동으로 고처리량 리튬 추출을 구현하는 기술로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -206,7 +216,12 @@
       "journal_id": "S202193212",
       "journal_metric": 18.45,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-026-02219-1/MediaObjects/41557_2026_2219_Figa_HTML.png",
+        "cached": "img/W7203837460.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-026-02219-1"
+      },
       "summary_ko": "에테르계 전해질을 사용하는 리튬 금속전지의 가스 발생 메커니즘을 정량적으로 규명, CO/CO2는 캐소드에서 CH4는 애노드에서 발생함을 밝혔다. 고농도 에테르 전해질에서 애노드 활성화를 통해 리튬 증착 형태를 개선하고 계면 반응을 억제함으로써 가스 발생 개시 시점과 셀 수명을 크게 연장할 수 있음을 보였다. 전해질 조성 변경 없이도 안전성을 높일 수 있는 실용적 전략을 제시한다.",
       "relevant": true
     },
@@ -234,7 +249,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76797-6/MediaObjects/41467_2026_76797_Fig1_HTML.png",
+        "cached": "img/W7203824119.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76797-6"
+      },
       "summary_ko": "금속면역학적 하이드로겔 기반 암 백신(IT-Vax)을 개발하여 수술 후 면역관문억제제 치료의 효능과 면역기억 형성을 높이는 연구로, 배터리 소재와는 관련이 없다.",
       "relevant": false
     },
@@ -262,7 +282,12 @@
       "journal_id": "S2764528046",
       "journal_metric": 30.47,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-02112-8/MediaObjects/41560_2026_2112_Fig1_HTML.png",
+        "cached": "img/W7203825046.jpg",
+        "license": null,
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02112-8"
+      },
       "summary_ko": "철 기반의 가역적 격자산소 산화환원 반응을 이용해 에너지밀도 200 Wh kg-1급 소듐이온전지를 구현한 것으로 보인다. 이는 소듐이온 양극 소재 연구로 소듐 금속 음극과는 무관하다. (제목 기반 추정)",
       "relevant": false
     },
@@ -348,7 +373,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76800-0/MediaObjects/41467_2026_76800_Fig1_HTML.png",
+        "cached": "img/W7203839421.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76800-0"
+      },
       "summary_ko": "리튬탄탈레이트-실리콘나이트라이드 이종접합 마흐젠더 변조기를 개발해 광통신·테라헤르츠 무선통신·레이더 센싱에서 초광대역 성능을 구현한 광전자 소자 연구로, 배터리 소재와는 관련이 없다.",
       "relevant": false
     },

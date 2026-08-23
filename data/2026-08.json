@@ -1,8 +1,145 @@
 {
   "date": "2026-08",
-  "generated_at": "2026-08-22T21:25:53+00:00",
-  "count": 199,
+  "generated_at": "2026-08-23T21:24:20+00:00",
+  "count": 206,
   "papers": [
+    {
+      "id": "W7203985504",
+      "source": "openalex",
+      "title": "Time-Temperature-Transformation Diagrams to Navigate the Nucleation and Quenchability of Metastable α-Li₃PS4",
+      "url": "https://doi.org/10.1038/s41467-026-76661-7",
+      "published": "2026-08-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76661-7",
+      "authors": [
+        "Akira Miura",
+        "Woohyeon Baek",
+        "Yuta Fujii",
+        "Kiyoharu Tadanaga",
+        "Rana Hossain",
+        "Aichi Yamashita"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "α-Li₃PS₄ is a promising solid-state electrolyte with the highest ionic conductivity among its polymorphs. However, its formation presents a thermodynamic paradox: the α-phase is the equilibrium phase at high temperature and transforms to the stable γ-Li3PS4 polymorph when cooled to room temperature; however, α-Li3PS4 can be synthesized and quenched in a metastable state via rapid heating at relatively low temperatures. The origin of this synthesizability and anomalous stability has remained elusive. Here, we address this paradox by presenting an experimental and computational time-temperature-transformation (TTT) diagram, constructed from a temperature-size phase diagram and experimental high-time-resolution isothermal measurements. Our density functional theory calculations reveal that at the nanoscale, the α-phase is stabilized by its low surface energy, which drastically lowers its nucleation barrier across a wide temperature range. This size-dependent stabilization is directly visualized using in-situ sub-second synchrotron X-ray diffraction and electron microscopy, capturing the rapid nucleation of nano-sized α-Li3PS4 and its subsequent slow transformation. This work presents a generalizable framework that integrates thermodynamic and kinetic factors for understanding nucleation and phase transformation mechanisms, providing a rational strategy for the targeted synthesis of functional metastable materials. Here authors investigate the mechanisms underlying the synthesis and retention of metastable α-Li₃PS₄, a solid-state electrolyte with high ionic conductivity, which can be formed and quenched at low temperatures despite being a high-temperature equilibrium phase.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76661-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "고체전해질 α-Li3PS4의 준안정상 형성 메커니즘을 시간-온도-변태(TTT) 다이어그램으로 규명한 연구이다. 밀도범함수이론 계산과 방사광 X선 회절, 전자현미경 관찰을 통해 나노 크기에서 낮은 표면 에너지가 핵생성 장벽을 낮춰 α상을 안정화시킴을 밝혔다. 이는 준안정 기능성 물질의 합성 전략에 일반적으로 적용 가능한 틀을 제시한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203974635",
+      "source": "openalex",
+      "title": "Tertiary Amide Deep Eutectic Gel Electrolyte Eliminates Hydrogen Evolution and Enables Safe, Wide‐Temperature Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.77932",
+      "published": "2026-08-22",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77932",
+      "authors": [
+        "Yejing Li",
+        "Yaru Shi",
+        "Libin Hu",
+        "Maofan Wang",
+        "Zhendong Zhang",
+        "Shoushuang Huang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Deep eutectic gel electrolytes (DEEs) based on amide‐Li + Lewis acid‐base coordination are promising for lithium metal batteries, yet they suffer from parasitic hydrogen evolution from reactive N‐H groups, poor interfacial stability, and inherent flammability. Here, we report a rationally designed tertiary amide deep eutectic gel electrolyte (PLDF‐GPE) by replacing conventional primary/secondary amides with N, N‐diethyltrifluoroacetamide and N, N‐dimethylacrylamide, thereby eliminating active N‐H hydrogen atoms, suppressing hydrogen evolution at the Li anode interface while maintaining a robust C═O…Li + coordination network that ensures deep eutectic behavior. The tertiary amide design exhibits a temperature‐responsive solvation structure that dynamically adjusts Li + coordination to lower desolvation barriers, enabling stable operation over a wide temperature range (−20°C to 80°C). Crucially, the fluorine‐ and nitrogen‐rich components preferentially decompose to form a LiF/Li 3 N‐enriched SEI/CEI that enhances interfacial compatibility. Moreover, PLDF‐GPE generates N─C═O• and F• radicals during combustion, which combine with active hydrogen radicals (H•) and impart intrinsic non‐flammability. Consequently, Li||Li symmetric cells achieve 1800 h of stable cycling, Li||NCM811 cells retain 65.7% capacity after 600 cycles at 0.25 C, and Li||LiFePO 4 cells operate reliably at an extreme temperature of 160°C. This molecular design strategy offers a transformative pathway toward safe, wide‐temperature lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "1차/2차 아마이드 대신 3차 아마이드(N,N-디에틸트리플루오로아세트아마이드, N,N-디메틸아크릴아마이드)를 사용해 N-H 활성 수소를 제거한 딥유텍틱 젤 전해질(PLDF-GPE)을 개발했다. 이를 통해 리튬 음극 계면에서의 수소 발생을 억제하고 LiF/Li3N이 풍부한 SEI/CEI를 형성해 -20~80°C의 넓은 온도 범위에서 안정적으로 작동한다. Li‖Li 대칭셀은 1800시간 안정 사이클링을, Li‖NCM811 셀은 0.25C에서 600사이클 후 65.7% 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W4415289534",
+      "source": "openalex",
+      "title": "Structure-guided allosteric modulation of the delta opioid receptor",
+      "url": "https://doi.org/10.1038/s41467-026-76730-x",
+      "published": "2026-08-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76730-x",
+      "authors": [
+        "Jesse I. Mobbs",
+        "Manh-Dung Nguyen",
+        "Owindeep Deo",
+        "Damian Bartuzi",
+        "Hariprasad Venugopal",
+        "Sadia Alvi"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Opioid analgesics remain essential for pain management but are associated with significant adverse effects, including respiratory depression, tolerance, and dependence. The δ-opioid receptor (δOR) represents a promising therapeutic target for developing safer opioid analgesics with reduced adverse effects compared to conventional μ-opioid receptor-targeting drugs. Positive allosteric modulators (PAMs) offer advantages over direct agonists by enhancing endogenous opioid signaling while preserving natural spatiotemporal activation patterns, potentially avoiding tolerance and dependence issues. Here, we present high-resolution cryo-EM structures of δOR complexed with the peptide agonist DADLE and the PAM MIPS3614, revealing a novel lipid-facing allosteric binding site formed by transmembrane helices 2, 3, and 4. MIPS3614 stabilizes the active receptor conformation through a critical hydrogen bond with residue N131 3 .35 in the conserved sodium binding site, a key regulatory region controlling GPCR activation. Comprehensive mutagenesis, molecular dynamics simulations, and structure-activity relationships validate this proposed mechanism. Structure-guided optimization yielded MIPS3983 with enhanced binding affinity and retained cooperativity. Our findings establish the first molecular framework for δOR allosteric modulation and provide a structural foundation for the rational design of safer opioid therapeutics.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76730-x",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "델타 오피오이드 수용체(δOR)에 대한 알로스테릭 조절 기전을 규명한 연구로, 배터리 소재와 무관한 생명과학 논문이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203999340",
+      "source": "openalex",
+      "title": "Glucagon-like Peptide-1 Receptor Agonists and Risk of Tuberculosis in Type 2 Diabetes",
+      "url": "https://doi.org/10.1038/s41467-026-77068-0",
+      "published": "2026-08-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77068-0",
+      "authors": [
+        "Kuang‐Ming Liao",
+        "Jheng‐Yan Wu",
+        "Chih‐Cheng Lai"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Tuberculosis remains a leading cause of illness and death worldwide, and individuals with type 2 diabetes have an increased risk of developing this infection. However, whether different glucose-lowering medications influence this risk is unclear. Here we show that use of glucagon-like peptide-1 receptor agonists is associated with a lower risk of tuberculosis compared with several commonly prescribed alternatives. We conducted a multicenter cohort study using TriNetX electronic health records from 143 healthcare organizations across multiple countries between 2017–2025. Patients receiving glucagon-like peptide-1 receptor agonists were compared with those receiving sulfonylureas, metformin, dipeptidyl peptidase-4 inhibitors, or sodium-glucose cotransporter-2 inhibitors. Propensity score matching and time-to-event analyses were applied over up to 5 years of follow-up. Use of glucagon-like peptide-1 receptor agonists is consistently associated with reduced tuberculosis risk compared with other agents. Incidence rates per 1,000 person-years ae lower than with sulfonylureas (0.68 vs 1.67; hazard ratio 0.53, 95% confidence interval 0.47–0.59), metformin (0.65 vs 1.31; 0.60, 0.51–0.70), dipeptidyl peptidase-4 inhibitors (0.73 vs 1.71; 0.49, 0.43–0.56) and sodium-glucose cotransporter-2 inhibitors (0.89 vs 1.02; 0.82, 0.72–0.92). These findings suggest that this class of medications may provide additional protection against tuberculosis in patients with type 2 diabetes. A large international study found that certain diabetes drugs (GLP-1 receptor agonists) may link to a lower risk of tuberculosis than other common treatments. These medications may offer added protection against tuberculosis in type 2 diabetes.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-77068-0_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "GLP-1 수용체 작용제 사용이 제2형 당뇨병 환자에서 결핵 위험 감소와 연관됨을 보인 역학 연구로, 배터리 소재와 무관한 의학 논문이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7203988848",
+      "source": "openalex",
+      "title": "Enhanced axonal mitochondrial motility and neural activity-induced energy deficits destabilize synaptic transmission in models of bipolar disorder",
+      "url": "https://doi.org/10.1038/s41467-026-76722-x",
+      "published": "2026-08-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-76722-x",
+      "authors": [
+        "Sunan Li",
+        "Gui-Jing Xiong",
+        "Zezhi Li",
+        "Zu‐Hang Sheng"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Synaptic communication requires mitochondria to supply ATP and buffer calcium at presynaptic terminals. In bipolar disorder, manic episodes are associated with elevated mood and neural activity, but the underlying cellular mechanisms remain unclear. Here we show that hiPSC-derived cortical neurons from donors with bipolar disorder exhibit increased axonal mitochondrial motility and frequent mitochondrial entry–exit transitions, reducing stable mitochondrial retention at presynaptic terminals. This destabilizes local ATP maintenance and calcium buffering, increasing synaptic variability without altering mean synaptic strength. Knockdown of the bipolar disorder risk gene AKAP11 in mouse neurons reproduced these synaptoenergetic deficits. HiPSC-derived neurons from donors with bipolar disorder exhibited reduced expression of the mitochondrial anchor protein syntaphilin(SNPH), and snph knockout mice displayed manic-like behavioral phenotypes. Lithium restored presynaptic mitochondrial retention, improved ATP maintenance, rescued synaptic variability, and reversed behavioral phenotypes. These findings support impaired presynaptic mitochondrial retention and activity-induced synaptoenergetic deficits as cellular mechanisms contributing to bipolar disorder.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76722-x",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "양극성 장애 모델에서 축삭 미토콘드리아 이동성 증가가 시냅스 전달을 불안정하게 만드는 기전을 규명한 신경과학 연구로, 배터리 소재와 무관하다.",
+      "relevant": false
+    },
     {
       "id": "W7203865335",
       "source": "openalex",
@@ -61,6 +198,36 @@
       "first_seen": "2026-08-23",
       "image": null,
       "summary_ko": "엔트로피 변화 조절을 통해 리치(Li-rich) 소재의 구조적 열 안정성을 향상시키는 전략을 다룬 것으로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7203955759",
+      "source": "openalex",
+      "title": "Lattice engineering of Li2NiO2 via metal doping for high-rate prelithiation with suppressed gas evolution",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112330",
+      "published": "2026-08-21",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112330",
+      "authors": [
+        "Jiangdong Sun",
+        "Liang Xiao",
+        "Kuikui Xiao",
+        "Youtan Pan",
+        "Dong Cai",
+        "Shuo Yang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "금속 도핑을 통한 Li2NiO2의 격자 공학으로 고율 프리리티에이션 첨가제의 가스 발생을 억제하는 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
     {
@@ -234,7 +401,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76216-w/MediaObjects/41467_2026_76216_Fig1_HTML.png",
+        "cached": "img/W4416056717.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76216-w"
+      },
       "summary_ko": "아르기로다이트 고체전해질(Li6PS5X, X=Cl/Br/I)을 대상으로 원자 단위 입계 거동부터 연속체 스케일 침투까지 다중스케일 모델링을 수행해 이온 수송 메커니즘을 분석했다. 클로즈드루프 능동학습으로 개발한 경량 머신러닝 포텐셜을 분자동역학·유한요소 시뮬레이션에 결합하여, 벌크 확산장벽이 음이온 반경에 선형 비례하며 입계가 벌크 확산도에 따라 이온 수송을 촉진하거나 억제하는 상반된 효과를 가짐을 규명했다. Li6PS5I는 실험 관측과 부합하는 비-아레니우스 수송 거동을 보였다.",
       "relevant": false
     },
@@ -465,6 +637,34 @@
       "image": null,
       "summary_ko": "제일원리 계산을 통해 고전압 스피넬 LiNi0.5Mn1.5O4(LNMO) 양극의 충전 단계별 전자 및 구조적 변화를 분석했다. 산화환원은 Ni에 국한되지만 Ni-O 및 Mn-O 결합의 재혼성화를 유발하며, 산소 전하 변화는 산소 산화환원이 아니라 Ni-O 결합 변화에 따른 분극에서 기인함을 밝혔다. 산화 상태 증가에 따른 NiO6 팔면체의 단계적 부피 수축과 국소 Li/공공 배치에 좌우되는 얀-텔러 왜곡 등 추가 뒤틀림 모드도 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "W7203740793",
+      "source": "openalex",
+      "title": "Lignin side-chain engineering induces inter-pore reconstruction in bamboo-derived hard carbon for 2 Ah sodium-ion pouch cells with 10 C rate capability",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105469",
+      "published": "2026-08-19",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105469",
+      "authors": [
+        "Yilin Wang",
+        "Shengbin Zhang",
+        "Hao Liu",
+        "LI Chang-an",
+        "Tianle Wang",
+        "Nairui Bai"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-24",
+      "image": null,
+      "summary_ko": "리그닌 측쇄 공학을 이용해 대나무 유래 경질탄소의 기공 간 재구조화를 유도, 2Ah 소듐이온 파우치셀에서 10C 고율 특성을 구현한 연구로 추정된다 (제목 기반 추정). 소듐이온 음극 소재 연구로 본 사이트의 6대 분류(리튬/소듐 금속 음극, NCM, Li-rich, LFP, 기타 양극) 대상에는 해당하지 않는다.",
+      "relevant": false
     },
     {
       "id": "W7203757633",
