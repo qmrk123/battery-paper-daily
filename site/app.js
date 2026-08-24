@@ -30,11 +30,14 @@ const state = {
   defaultDate: "",       // newest date (kept out of the URL to keep the default link clean)
 };
 
-// Top-tier journals: the apex general trio + the battery-flagship energy journals
-// (Nature Communications intentionally excluded).
+// Top-tier journals: apex general trio + their prestige sisters + battery-flagship
+// energy journals. Deliberately EXCLUDED: Nature Communications, Science Advances.
 const NSC_VENUES = new Set([
   "Nature", "Science", "Cell",
   "Nature Energy", "Joule", "Energy & Environmental Science",
+  "Nature Materials", "Nature Chemistry", "Nature Nanotechnology",
+  // Science family minus Science Advances (none carry battery papers yet, but future-proof)
+  "Science Translational Medicine", "Science Signaling", "Science Immunology", "Science Robotics",
 ]);
 
 // Neural search is loaded lazily on first use (transformers.js + model + doc vectors).
