@@ -279,23 +279,39 @@ function computeResults() {
   if (state.reco) return recommend();
   const toks = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const cutoff = state.range > 0 ? Date.now() - state.range * 864e5 : 0;
-  return state.corpus.filter((p) => {
-    if (p.relevant === false) return false;
-    if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) return false;
-    if (state.filters.img && !(p.image && p.image.cached)) return false;
-    if (state.filters.bmk && !bookmarks.has(p.id)) return false;
-    if (state.filters.watch && !isWatchedPaper(p)) return false;
-    if (state.facet && !(p.facets || []).includes(state.facet)) return false;
+  const scored = [];
+  for (const p of state.corpus) {
+    if (p.relevant === false) continue;
+    if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) continue;
+    if (state.filters.img && !(p.image && p.image.cached)) continue;
+    if (state.filters.bmk && !bookmarks.has(p.id)) continue;
+    if (state.filters.watch && !isWatchedPaper(p)) continue;
+    if (state.facet && !(p.facets || []).includes(state.facet)) continue;
     if (cutoff) {
       const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
-      if (!ts || ts < cutoff) return false;
+      if (!ts || ts < cutoff) continue;
     }
+    let score = 0;
     if (toks.length) {
-      const hay = `${p.title || ""} ${p.abstract_en || ""} ${(p.authors || []).join(" ")} ${p.venue || ""} ${p.doi || ""}`.toLowerCase();
-      if (!toks.every((tk) => hay.includes(tk))) return false;
+      // AND across tokens; weight a hit by where it lands (title > venue/author > abstract)
+      const title = (p.title || "").toLowerCase();
+      const meta = `${p.venue || ""} ${(p.authors || []).join(" ")} ${p.doi || ""}`.toLowerCase();
+      const abs = (p.abstract_en || "").toLowerCase();
+      let ok = true;
+      for (const t of toks) {
+        if (title.includes(t)) score += 3;
+        else if (meta.includes(t)) score += 2;
+        else if (abs.includes(t)) score += 1;
+        else { ok = false; break; }
+      }
+      if (!ok) continue;
     }
-    return true;
-  }).sort((a, b) => (b.published || "").localeCompare(a.published || ""));
+    scored.push({ p, score });
+  }
+  // query present -> rank by relevance then recency; otherwise pure recency
+  scored.sort((a, b) => (toks.length ? b.score - a.score : 0) ||
+    (b.p.published || "").localeCompare(a.p.published || ""));
+  return scored.map((x) => x.p);
 }
 
 async function refresh() {
