@@ -25,6 +25,7 @@ const state = {
   facet: "",             // selected precise-tag key ("" = any)
   filters: { oa: false, img: false, bmk: false, watch: false },
   reco: false,           // recommendation feed (papers similar to your bookmarks)
+  defaultDate: "",       // newest date (kept out of the URL to keep the default link clean)
 };
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -112,15 +113,18 @@ async function boot() {
     months.forEach((m) => g.appendChild(opt(m, monthLabel(m)))); sel.appendChild(g);
   }
   sel.value = days[0] || months[0];
+  state.defaultDate = sel.value;
   sel.addEventListener("change", () => { exitSearch(); loadDay(sel.value); updateStepButtons(); });
   initDateStep();
   initSearch();
   initCardActions();
 
   buildTabs();
+  applyURLState();                 // restore search/filter/tab/date from a shared ?query
   $("#colophon-meta").textContent =
     `updated ${(index.updated_at || "").replace("T", " ").slice(0, 16)} · ${dates.length}일치`;
-  await loadDay(dates[0]);
+  await loadDay(sel.value);
+  updateStepButtons();
   loadDigest();
   // watchers get the corpus eagerly so the "⭐ 워치 (N)" new-paper badge shows on load
   if (watched.size) { await ensureCorpus(); updateWatchBadge(); }
@@ -328,6 +332,7 @@ async function refresh() {
   if (dg && dg.dataset.ready) dg.hidden = state.mode !== "date";   // hide the brief while searching
   updateCounts();
   render();
+  stateToURL();
 }
 
 function initSearch() {
@@ -362,6 +367,7 @@ function initSearch() {
   });
   $("#export-bib").addEventListener("click", () => exportCurrent("bib"));
   $("#export-ris").addEventListener("click", () => exportCurrent("ris"));
+  $("#share-link").addEventListener("click", (e) => copyShareLink(e.currentTarget));
 }
 
 function exitSearch() {
@@ -379,6 +385,59 @@ function exitSearch() {
   });
 }
 
+/* ---------- shareable URL (public search/filter state <-> ?query) ---------- */
+// Personal state (bookmarks/watch/reco) is deliberately NOT encoded — it lives only
+// in the viewer's own localStorage and is meaningless to share.
+function stateToURL() {
+  const p = new URLSearchParams();
+  const q = state.query.trim();
+  if (q) p.set("q", q);
+  if (state.range) p.set("r", String(state.range));
+  if (state.facet) p.set("f", state.facet);
+  if (state.filters.oa) p.set("oa", "1");
+  if (state.filters.img) p.set("img", "1");
+  if (state.active !== "all") p.set("topic", state.active);
+  const sel = $("#date-select");
+  if (!searchActive() && sel && sel.value && sel.value !== state.defaultDate) p.set("d", sel.value);
+  const qs = p.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
+}
+
+function applyURLState() {
+  const p = new URLSearchParams(location.search);
+  if (![...p.keys()].length) return;
+  const topic = p.get("topic");
+  if (topic === "all" || state.topicById[topic]) state.active = topic;
+  const sel = $("#date-select"), d = p.get("d");
+  if (d && [...sel.options].some((o) => o.value === d)) sel.value = d;
+  state.query = p.get("q") || "";
+  state.range = parseInt(p.get("r") || "0", 10) || 0;
+  state.facet = p.get("f") || "";
+  state.filters.oa = p.get("oa") === "1";
+  state.filters.img = p.get("img") === "1";
+  const box = $("#search"), clear = $("#search-clear");
+  if (box) box.value = state.query;
+  if (clear) clear.hidden = !state.query;
+  if ($("#range")) $("#range").value = String(state.range || 0);
+  if ($("#facet")) $("#facet").value = state.facet;
+  if ($("#f-oa")) $("#f-oa").setAttribute("aria-pressed", String(state.filters.oa));
+  if ($("#f-img")) $("#f-img").setAttribute("aria-pressed", String(state.filters.img));
+  document.querySelectorAll(".tab").forEach((t) =>
+    t.setAttribute("aria-selected", String(t.dataset.topic === state.active)));
+}
+
+async function copyShareLink(btn) {
+  stateToURL();
+  const label = btn.textContent;
+  try {
+    await navigator.clipboard.writeText(location.href);
+    btn.textContent = "✓ 복사됨";
+  } catch (e) {
+    btn.textContent = "주소창 확인";     // clipboard blocked (e.g. non-secure context)
+  }
+  setTimeout(() => { btn.textContent = label; }, 1400);
+}
+
 function updateCounts() {
   const vis = baseList().filter(visible);
   const count = (id) => id === "all"
@@ -394,6 +453,7 @@ function setActive(id) {
   document.querySelectorAll(".tab").forEach((t) =>
     t.setAttribute("aria-selected", String(t.dataset.topic === id)));
   render();
+  stateToURL();
 }
 
 /* ---------- render ---------- */
