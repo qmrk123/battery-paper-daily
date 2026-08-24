@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77875",
+        "cached": "img/W7203865335.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77875"
+      },
       "summary_ko": "Co 함유 공유결합성 유기골격체(Co-COF)를 분리막 개질제로 도입해 Li+ 플럭스를 균일화하고 탈용매화를 촉진함으로써 계면 이온 전달 속도를 높였다. Co 활성 사이트가 PF6- 음이온을 적절히 고정해 Li+ 이동수를 높이고 LiF가 풍부한 안정적 SEI 형성을 유도한다. Li||Li 대칭전지는 700시간 이상 안정적으로 구동되었고, LiFePO4||Li 전지는 1C에서 450사이클 후 90.1%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S63322718",
       "journal_metric": 13.18,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.mattod.2026.103490",
+        "cached": "img/W7203902284.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Materials Today - https://doi.org/10.1016/j.mattod.2026.103490"
+      },
       "summary_ko": "엔트로피 변화 조절을 통해 리치(Li-rich) 소재의 구조적 열 안정성을 향상시키는 전략을 다룬 것으로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -122,7 +134,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77302",
+        "cached": "img/W7203891960.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77302"
+      },
       "summary_ko": "Li-S 배터리용 바인더 일체형 소프트 촉매(폴리비닐알코올-Cu 착물)를 도입해 황 산화환원 반응속도를 개선했다. PVA-Cu는 최적의 황 결합에너지와 Cu-S d-p 혼성화를 통해 가장 높은 촉매 활성을 보였으며, 3 mg cm-2 로딩에서 1C, 300사이클 후 82% 용량 유지율을 달성했다. 파우치셀에서도 0.5C에서 790 mAh g-1의 안정적 방전 용량을 확인했다.",
       "relevant": true
     },
@@ -186,7 +204,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71435",
+        "cached": "img/W7203828695.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71435"
+      },
       "summary_ko": "과리튬화된 NCM(Li1+xNCM333/523/811) 양극의 상전이 경로와 다중 금속 순차 환원 메커니즘을 규명했다. 삽입 반응 영역에서는 조성에 따라 Co3+ 및 Mn4+ 또는 Ni3+/Co3+ 순차 환원이 일어나며, 더 깊은 리튬화에서는 모든 조성이 불안정한 금속종 형성과 격자 변형을 동반하는 전환반응 영역으로 수렴한다. 이는 기존 삽입화학을 넘어서는 고용량 NCM 설계 원리를 제시한다.",
       "relevant": true
     },
@@ -345,7 +369,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77746",
+        "cached": "img/W7203839414.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77746"
+      },
       "summary_ko": "산호 구조에서 영감을 받은 계층적 다공성 복합 분리막(APA)을 개발하여 방향족 나노섬유(ANF), POSS, AMT를 결합해 리튬-황(Li-S) 배터리의 폴리설파이드 셔틀과 리튬 덴드라이트 문제를 동시에 억제했다. Li-S 셀은 2.0C에서 945 mAh g-1의 초기 용량과 2000사이클 이상 매우 낮은 용량 감쇠율(사이클당 0.023%)을 보였으며, Li||Li 대칭전지는 고전류밀도에서 4000시간 이상 안정적으로 구동되었다. LFP/Li 및 NCM/Li 시스템과도 호환됨을 확인했다.",
       "relevant": true
     },
@@ -436,7 +466,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74706",
+        "cached": "img/W7203780293.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74706"
+      },
       "summary_ko": "편측 시아노기로 비대칭성을 부여한 글라임계 전해질(glyme-CN)을 설계하여 고전압 니켈리치 삼원계 양극과의 산화 안정성을 확보했다. 전자끄는 시아노기가 에테르 산소의 고립전자쌍 손실을 억제해 산화안정성을 높이고 음이온 유래 계면화학을 촉진한다. 최적 전해질 TF는 5.2V의 전기화학적 안정성 창, Li||Cu 셀에서 98.9%의 쿨롱효율, Li||LiFePO4 전지에서 4000사이클 후 90.8%의 용량 유지율을 달성했으며, 4.3V LiNi0.8Co0.1Mn0.1O2 양극에서도 800사이클 후 64.2%의 용량을 유지했다.",
       "relevant": true
     },
@@ -494,7 +530,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71463",
+        "cached": "img/W7203757633.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71463"
+      },
       "summary_ko": "금속 플루오라이드(MxFy)를 활용한 계면 공학으로 덴드라이트 없는 안정적 리튬 금속전지를 구현하는 전략을 정리한 리뷰 논문이다. MxFy는 리튬과의 전환·합금화 반응을 통해 전도성 LiF를 포함한 우수한 계면상을 형성, Li+ 플럭스를 조절하고 균일한 증착을 유도한다. 인공 계면층, 리튬친화성 3차원 호스트, 분리막 개질층, 전해질 첨가제 등 다양한 응용과 파우치셀 실용화 관점의 향후 방향을 다룬다.",
       "relevant": true
     },
@@ -524,7 +566,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71480",
+        "cached": "img/W7203787721.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71480"
+      },
       "summary_ko": "무기공 고엔트로피 고분자 분리막(HES)을 개발하여 -70°C~150°C의 초광범위 온도에서 리튬 금속전지의 장기 구동을 최초로 구현했다. HES는 우수한 전해질 습윤성과 열안정성을 가지며, 풍부한 이온 통로가 이온 전달을 균일화·가속화하고 안정적인 무기/붕소 풍부 SEI 및 CEI 형성을 돕는다. Li||Li 셀은 -70°C에서 2200시간, 25°C에서 6548시간, 150°C에서 700시간 구동되었고, Li||V2O5 전지도 전 온도 범위에서 작동 가능함을 확인했다.",
       "relevant": true
     },
@@ -554,7 +602,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71422",
+        "cached": "img/W7203780113.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71422"
+      },
       "summary_ko": "불소가 없는 소듐 테트라페닐보레이트-다이글라임 전해질을 개발하여 불소·전이금속이 없는 나트륨전지를 구현했다. 벌키한 페닐 치환기의 입체 효과로 이온쌍 형성이 최소화되어 우수한 이온전도도를 확보했으며, 하드카본 음극은 1C에서 2000사이클 이상 98% 이상의 용량 유지율을, 소듐 금속 음극은 0.5 mA/cm2 조건에서 1000사이클 동안 99.93%의 스트리핑-플레이팅 효율을 보였다. PTCDI||하드카본 완전지는 1C에서 500사이클 후 약 85%의 용량 유지율과 4분 이내 80% 급속충전 특성을 나타냈다.",
       "relevant": true
     }

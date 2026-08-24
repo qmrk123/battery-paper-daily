@@ -57,7 +57,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77932",
+        "cached": "img/W7203974635.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77932"
+      },
       "summary_ko": "1차/2차 아마이드 대신 3차 아마이드(N,N-디에틸트리플루오로아세트아마이드, N,N-디메틸아크릴아마이드)를 사용해 N-H 활성 수소를 제거한 딥유텍틱 젤 전해질(PLDF-GPE)을 개발했다. 이를 통해 리튬 음극 계면에서의 수소 발생을 억제하고 LiF/Li3N이 풍부한 SEI/CEI를 형성해 -20~80°C의 넓은 온도 범위에서 안정적으로 작동한다. Li‖Li 대칭셀은 1800시간 안정 사이클링을, Li‖NCM811 셀은 0.25C에서 600사이클 후 65.7% 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -166,7 +172,13 @@
       "journal_id": "S2497301991",
       "journal_metric": 18.35,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1016/j.nanoen.2026.112330",
+        "cached": "img/W7203955759.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Nano Energy - https://doi.org/10.1016/j.nanoen.2026.112330"
+      },
       "summary_ko": "금속 도핑을 통한 Li2NiO2의 격자 공학으로 고율 프리리티에이션 첨가제의 가스 발생을 억제하는 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
