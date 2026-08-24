@@ -30,8 +30,12 @@ const state = {
   defaultDate: "",       // newest date (kept out of the URL to keep the default link clean)
 };
 
-// Apex "dream" journals — the exact flagship titles, not their sister journals.
-const NSC_VENUES = new Set(["Nature", "Science", "Cell"]);
+// Top-tier journals: the apex general trio + the battery-flagship energy journals
+// (Nature Communications intentionally excluded).
+const NSC_VENUES = new Set([
+  "Nature", "Science", "Cell",
+  "Nature Energy", "Joule", "Energy & Environmental Science",
+]);
 
 // Neural search is loaded lazily on first use (transformers.js + model + doc vectors).
 let _sem = null, _semLoading = null;
