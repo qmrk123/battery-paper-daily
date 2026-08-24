@@ -21,5 +21,11 @@ _tdm_test/
 # transient input for the weekly-brief LLM step (scripts/prep_digest.py)
 _digest_input.json
 
+# neural-search embedder deps (scripts/embed/) — only the .mjs + data/embeddings.json ship
+scripts/embed/node_modules/
+scripts/embed/package-lock.json
+.cache/
+node_modules/
+
 # NOTE: data/ IS committed (daily JSON + seen.json are the site's content).
 #       site/img cached thumbnails ARE committed (only CC-licensed images are cached; see pipeline/images.py).

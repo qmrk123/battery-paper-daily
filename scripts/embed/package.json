@@ -1,0 +1,9 @@
+{
+  "name": "bpd-embed",
+  "private": true,
+  "type": "module",
+  "description": "One-off/CI corpus embedder for neural semantic search (all-MiniLM-L6-v2).",
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2"
+  }
+}

@@ -25,8 +25,12 @@ const state = {
   facet: "",             // selected precise-tag key ("" = any)
   filters: { oa: false, img: false, bmk: false, watch: false },
   reco: false,           // recommendation feed (papers similar to your bookmarks)
+  semantic: false,       // neural free-text search (ranks by embedding similarity)
   defaultDate: "",       // newest date (kept out of the URL to keep the default link clean)
 };
+
+// Neural search is loaded lazily on first use (transformers.js + model + doc vectors).
+let _sem = null, _semLoading = null;
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const el = (tag, cls) => { const n = document.createElement(tag); if (cls) n.className = cls; return n; };
@@ -279,22 +283,28 @@ async function ensureCorpus() {
   state.corpusById = Object.fromEntries(state.corpus.map((p) => [p.id, p]));
 }
 
+// non-query filters shared by keyword and neural search
+function passesFilters(p, cutoff) {
+  if (p.relevant === false) return false;
+  if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) return false;
+  if (state.filters.img && !(p.image && p.image.cached)) return false;
+  if (state.filters.bmk && !bookmarks.has(p.id)) return false;
+  if (state.filters.watch && !isWatchedPaper(p)) return false;
+  if (state.facet && !(p.facets || []).includes(state.facet)) return false;
+  if (cutoff) {
+    const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
+    if (!ts || ts < cutoff) return false;
+  }
+  return true;
+}
+
 function computeResults() {
   if (state.reco) return recommend();
   const toks = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const cutoff = state.range > 0 ? Date.now() - state.range * 864e5 : 0;
   const scored = [];
   for (const p of state.corpus) {
-    if (p.relevant === false) continue;
-    if (state.filters.oa && !(p.oa_status && p.oa_status.toLowerCase() !== "closed")) continue;
-    if (state.filters.img && !(p.image && p.image.cached)) continue;
-    if (state.filters.bmk && !bookmarks.has(p.id)) continue;
-    if (state.filters.watch && !isWatchedPaper(p)) continue;
-    if (state.facet && !(p.facets || []).includes(state.facet)) continue;
-    if (cutoff) {
-      const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
-      if (!ts || ts < cutoff) continue;
-    }
+    if (!passesFilters(p, cutoff)) continue;
     let score = 0;
     if (toks.length) {
       // AND across tokens; weight a hit by where it lands (title > venue/author > abstract)
@@ -318,12 +328,51 @@ function computeResults() {
   return scored.map((x) => x.p);
 }
 
+// Load transformers.js + the query encoder + precomputed doc vectors, once.
+function ensureSemantic() {
+  if (_sem) return Promise.resolve();
+  if (_semLoading) return _semLoading;
+  _semLoading = (async () => {
+    status("🧠 의미검색 모델 불러오는 중… (최초 1회 ~25MB, 이후 캐시)");
+    const mod = await import("https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2");
+    mod.env.allowLocalModels = false;
+    const extractor = await mod.pipeline("feature-extraction", "Xenova/all-MiniLM-L6-v2", { quantized: true });
+    const j = await getJSON("data/embeddings.json");
+    const u8 = Uint8Array.from(atob(j.b64), (c) => c.charCodeAt(0));
+    _sem = { extractor, ids: j.ids, dim: j.dim, buf: new Int8Array(u8.buffer) };
+  })().catch((e) => { _semLoading = null; throw e; });
+  return _semLoading;
+}
+
+// Embed the free-text query and rank the corpus by cosine similarity (filters applied).
+async function semanticResults() {
+  const cutoff = state.range > 0 ? Date.now() - state.range * 864e5 : 0;
+  await ensureSemantic();
+  const out = await _sem.extractor(state.query.trim(), { pooling: "mean", normalize: true });
+  const q = out.data, { ids, dim, buf } = _sem;
+  const ranked = [];
+  for (let i = 0; i < ids.length; i++) {
+    const p = state.corpusById[ids[i]];
+    if (!p || !passesFilters(p, cutoff)) continue;
+    let dot = 0; const off = i * dim;
+    for (let k = 0; k < dim; k++) dot += q[k] * buf[off + k];   // ∝ cosine (query & docs ~normalized)
+    ranked.push([p, dot]);
+  }
+  ranked.sort((a, b) => b[1] - a[1]);
+  return ranked.slice(0, 80).map((x) => x[0]);
+}
+
 async function refresh() {
   if (searchActive()) {
     state.mode = "search";
     status("전체 아카이브 검색 중…");
     await ensureCorpus();
-    state.results = computeResults();
+    if (state.semantic && state.query.trim()) {
+      try { state.results = await semanticResults(); }
+      catch (e) { console.error("semantic search failed → keyword fallback", e); state.results = computeResults(); }
+    } else {
+      state.results = computeResults();
+    }
   } else {
     state.mode = "date";
   }
@@ -363,6 +412,11 @@ function initSearch() {
   $("#f-reco").addEventListener("click", () => {
     state.reco = !state.reco;
     $("#f-reco").setAttribute("aria-pressed", String(state.reco));
+    refresh();
+  });
+  $("#f-sem").addEventListener("click", () => {
+    state.semantic = !state.semantic;
+    $("#f-sem").setAttribute("aria-pressed", String(state.semantic));
     refresh();
   });
   $("#export-bib").addEventListener("click", () => exportCurrent("bib"));
@@ -493,6 +547,7 @@ function render() {
     return status(msg, true);
   }
   if (state.reco) status(`✨ 북마크 기반 추천 · ${list.length}건`);
+  else if (state.semantic && state.query.trim()) status(`🧠 의미검색 · ${list.length}건`);
   else if (state.mode === "search") status(`🔍 전체 검색 · ${list.length}건`);
   else $("#status").textContent = "";
   wrap.innerHTML = "";

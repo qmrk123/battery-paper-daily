@@ -180,6 +180,31 @@ jobs:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
         run: python -m pipeline.images
 
+      # Neural free-text search: embed any NEW papers with all-MiniLM-L6-v2 so the
+      # site can rank the corpus by meaning client-side. Only-new reuses cached
+      # vectors; the whole step is best-effort so a Node/model hiccup never blocks
+      # the data commit (semantic search just keeps the last embeddings).
+      - name: Set up Node (embeddings)
+        if: github.event_name != 'push'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache embedder deps + model
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: |
+            scripts/embed/node_modules
+            scripts/embed/.cache
+          key: embed-${{ hashFiles('scripts/embed/package.json') }}
+      - name: Neural-search embeddings (only-new, best-effort)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        working-directory: scripts/embed
+        run: |
+          npm install --no-audit --no-fund --silent
+          node embed_corpus.mjs ../.. --only-new
+
       - name: Commit data back (persists the seen-ledger + daily files)
         if: github.event_name != 'push'
         run: |

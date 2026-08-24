@@ -215,6 +215,10 @@ a { color: inherit; }
   color: var(--li-metal); border-color: color-mix(in srgb, var(--li-metal) 55%, var(--border));
   background: color-mix(in srgb, var(--li-metal) 12%, transparent);
 }
+#f-sem[aria-pressed="true"] {
+  color: var(--lfp); border-color: color-mix(in srgb, var(--lfp) 55%, var(--border));
+  background: color-mix(in srgb, var(--lfp) 12%, transparent);
+}
 
 /* ---------- personal state on cards ---------- */
 /* bookmark toggle (sits in the card foot) */
