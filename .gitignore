@@ -29,3 +29,6 @@ node_modules/
 
 # NOTE: data/ IS committed (daily JSON + seen.json are the site's content).
 #       site/img cached thumbnails ARE committed (only CC-licensed images are cached; see pipeline/images.py).
+
+# scheduled image-task diagnostic log
+_imagetask.log
