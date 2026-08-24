@@ -429,13 +429,23 @@ function applyURLState() {
 async function copyShareLink(btn) {
   stateToURL();
   const label = btn.textContent;
+  let ok = false;
   try {
     await navigator.clipboard.writeText(location.href);
-    btn.textContent = "✓ 복사됨";
+    ok = true;
   } catch (e) {
-    btn.textContent = "주소창 확인";     // clipboard blocked (e.g. non-secure context)
+    // legacy fallback for contexts where the async Clipboard API is blocked
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = location.href;
+      ta.style.position = "fixed"; ta.style.top = "0"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      ok = document.execCommand("copy");
+      ta.remove();
+    } catch (e2) { ok = false; }
   }
-  setTimeout(() => { btn.textContent = label; }, 1400);
+  btn.textContent = ok ? "✓ 복사됨" : "주소창에서 복사하세요";
+  setTimeout(() => { btn.textContent = label; }, 1500);
 }
 
 function updateCounts() {
