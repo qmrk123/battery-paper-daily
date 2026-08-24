@@ -26,8 +26,12 @@ const state = {
   filters: { oa: false, img: false, bmk: false, watch: false },
   reco: false,           // recommendation feed (papers similar to your bookmarks)
   semantic: false,       // neural free-text search (ranks by embedding similarity)
+  nsc: false,            // only the apex journals (Nature / Science / Cell)
   defaultDate: "",       // newest date (kept out of the URL to keep the default link clean)
 };
+
+// Apex "dream" journals — the exact flagship titles, not their sister journals.
+const NSC_VENUES = new Set(["Nature", "Science", "Cell"]);
 
 // Neural search is loaded lazily on first use (transformers.js + model + doc vectors).
 let _sem = null, _semLoading = null;
@@ -234,7 +238,7 @@ function baseList() {
 }
 function searchActive() {
   const f = state.filters;
-  return state.reco || state.query.trim() !== "" || state.range > 0 || state.facet !== "" ||
+  return state.reco || state.nsc || state.query.trim() !== "" || state.range > 0 || state.facet !== "" ||
          f.oa || f.img || f.bmk || f.watch;
 }
 
@@ -291,6 +295,7 @@ function passesFilters(p, cutoff) {
   if (state.filters.bmk && !bookmarks.has(p.id)) return false;
   if (state.filters.watch && !isWatchedPaper(p)) return false;
   if (state.facet && !(p.facets || []).includes(state.facet)) return false;
+  if (state.nsc && !NSC_VENUES.has((p.venue || "").trim())) return false;
   if (cutoff) {
     const ts = Date.parse((p.published || p.first_seen || "") + "T00:00:00Z");
     if (!ts || ts < cutoff) return false;
@@ -419,6 +424,11 @@ function initSearch() {
     $("#f-sem").setAttribute("aria-pressed", String(state.semantic));
     refresh();
   });
+  $("#f-nsc").addEventListener("click", () => {
+    state.nsc = !state.nsc;
+    $("#f-nsc").setAttribute("aria-pressed", String(state.nsc));
+    refresh();
+  });
   $("#export-bib").addEventListener("click", () => exportCurrent("bib"));
   $("#export-ris").addEventListener("click", () => exportCurrent("ris"));
   $("#share-link").addEventListener("click", (e) => copyShareLink(e.currentTarget));
@@ -426,7 +436,7 @@ function initSearch() {
 
 function exitSearch() {
   // picking a specific date drops the corpus-search overlay and resets its controls
-  state.query = ""; state.range = 0; state.reco = false; state.facet = "";
+  state.query = ""; state.range = 0; state.reco = false; state.facet = ""; state.nsc = false;
   state.filters = { oa: false, img: false, bmk: false, watch: false };
   state.mode = "date";
   const box = $("#search"), clear = $("#search-clear"), range = $("#range");
@@ -434,7 +444,7 @@ function exitSearch() {
   if (clear) clear.hidden = true;
   if (range) range.value = "0";
   if ($("#facet")) $("#facet").value = "";
-  ["#f-oa", "#f-img", "#f-watch", "#f-bmk", "#f-reco"].forEach((id) => {
+  ["#f-oa", "#f-img", "#f-watch", "#f-bmk", "#f-reco", "#f-nsc"].forEach((id) => {
     const b = $(id); if (b) b.setAttribute("aria-pressed", "false");
   });
 }
