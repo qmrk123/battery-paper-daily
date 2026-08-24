@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-23T21:24:20+00:00",
+  "generated_at": "2026-08-24T21:34:49+00:00",
   "count": 7,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76661-7/MediaObjects/41467_2026_76661_Fig1_HTML.png",
+        "cached": "img/W7203985504.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76661-7"
+      },
       "summary_ko": "고체전해질 α-Li3PS4의 준안정상 형성 메커니즘을 시간-온도-변태(TTT) 다이어그램으로 규명한 연구이다. 밀도범함수이론 계산과 방사광 X선 회절, 전자현미경 관찰을 통해 나노 크기에서 낮은 표면 에너지가 핵생성 장벽을 낮춰 α상을 안정화시킴을 밝혔다. 이는 준안정 기능성 물질의 합성 전략에 일반적으로 적용 가능한 틀을 제시한다.",
       "relevant": false
     },
@@ -91,7 +96,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76730-x/MediaObjects/41467_2026_76730_Fig1_HTML.png",
+        "cached": "img/W4415289534.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76730-x"
+      },
       "summary_ko": "델타 오피오이드 수용체(δOR)에 대한 알로스테릭 조절 기전을 규명한 연구로, 배터리 소재와 무관한 생명과학 논문이다.",
       "relevant": false
     },
@@ -116,7 +126,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77068-0/MediaObjects/41467_2026_77068_Fig1_HTML.png",
+        "cached": "img/W7203999340.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77068-0"
+      },
       "summary_ko": "GLP-1 수용체 작용제 사용이 제2형 당뇨병 환자에서 결핵 위험 감소와 연관됨을 보인 역학 연구로, 배터리 소재와 무관한 의학 논문이다.",
       "relevant": false
     },
@@ -142,7 +157,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76722-x/MediaObjects/41467_2026_76722_Fig1_HTML.png",
+        "cached": "img/W7203988848.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76722-x"
+      },
       "summary_ko": "양극성 장애 모델에서 축삭 미토콘드리아 이동성 증가가 시냅스 전달을 불안정하게 만드는 기전을 규명한 신경과학 연구로, 배터리 소재와 무관하다.",
       "relevant": false
     },

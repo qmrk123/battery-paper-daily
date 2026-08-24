@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-24T21:32:34+00:00",
+  "count": 5,
+  "papers": [
+    {
+      "id": "W7204024242",
+      "source": "openalex",
+      "title": "Leveraging Data‐Driven and Fundamental Insights for Electrolyte Innovation in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.74635",
+      "published": "2026-08-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.74635",
+      "authors": [
+        "Minh Van Duong",
+        "Mitchell E. Kaiser",
+        "Xia Cao",
+        "Trung Thien Nguyen",
+        "Au Nguyen",
+        "Mỹ Loan Phụng Lê"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The rise of data science and decades of accumulated battery research have paved the way for the general use of computing in research. Here, the largest experimental coulombic efficiency (CE) dataset curated from over 100 scientific articles under strict selection criteria was analyzed to extract insights that would have been difficult to achieve through traditional scientific methods alone. By splitting the dataset according to CE measured using the Aurbach or cycle methods, normalizing electrolyte formulations by mass, and utilizing advanced data analytics coupled with physically informed feature engineering, we discovered that higher sF, lower sC, and sO values, influenced by fluorination degree, carbon chain length, and oxygen amount, respectively, contribute to improved CE. Surprisingly, boiling becomes a governing factor when all other features are identical, with lower boiling corresponding to higher CE. By leveraging insights gained and the model's accurate CE prediction ( R 2 = 0.85), a new electrolyte enabled a high CE of 99.57% in Li||Cu cells, excellent oxidative stability of ∼4.8 V versus Li + /Li, and 80% of capacity retention after more than 700 cycles in Li||NMC811 cells. The versatile machine learning workflow and the crafted features presented in this work can inspire the design of liquid electrolytes for other battery chemistries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-08-25",
+      "image": null,
+      "summary_ko": "100편 이상의 논문에서 수집한 대규모 쿨롱 효율(CE) 데이터셋을 데이터 분석 기법과 물리적 특성 공학을 결합해 분석했다. 전해질을 질량 기준으로 정규화하고 불소화도, 탄소 사슬 길이, 산소 함량 등 조성 인자와 CE의 관계를 규명하여 리튬 금속전지 전해질 설계에 활용 가능한 통찰을 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204025379",
+      "source": "openalex",
+      "title": "Deuterated Aprotic Electrolytes Enable Rechargeable Lithium Batteries With High (Electro)Chemical and Thermal Stability",
+      "url": "https://doi.org/10.1002/anie.6024891",
+      "published": "2026-08-23",
+      "topics": [],
+      "doi": "10.1002/anie.6024891",
+      "authors": [
+        "Yu‐Hui Zhu",
+        "Shuang‐Jie Tan",
+        "Zhi‐Wei Yuan",
+        "Ya‐Hui Wang",
+        "Xusheng Zhang",
+        "Yao Zhao"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Electrolytes with exceptional (electro)chemical and thermal stability are essential prerequisites for high‐energy‐density rechargeable lithium batteries. Conventional aprotic ether and ester solvents contain polarizable C─H bonds that trigger parasitic proton transfer reactions on the high‐voltage cathode surface, driving exothermic electrolyte decomposition and impairing battery cycling stability and safety. Here, we show that deuterium substitution at polarizable C–H moieties introduces kinetic and thermodynamic isotope effects to retard proton transfer and lower solvent oxidation Gibbs free energy. Consequently, the deuterated electrolytes exhibit improved anodic stability and mitigated decomposition during high‐voltage charge–discharge of layered oxide cathodes, forming a compact and robust cathode–electrolyte interphase with suppressed CO 2 release. The deuterated solvents also have lower combustion enthalpies than their protiated analogs, which translates to substantially reduced heat generation as confirmed by calorimetric measurements. Using deuterated tetrahydrofuran and dimethyl carbonate as model solvents, we validate that such electrolytes enable reversible cathode electrochemistry, as well as markedly improved cycling performance and thermal safety of Li||LiNi 0.8 Co 0.1 Mn 0.1 O 2 batteries. This subatomic modification strategy offers a rational electrolyte design framework toward high‐performance batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-25",
+      "image": null,
+      "summary_ko": "비양성자성 전해질 용매의 극성 C–H 결합을 중수소로 치환하여 동위원소 효과를 통해 고전압 양극 표면에서의 양성자 전달 반응과 용매 산화를 억제했다. 이를 통해 중수소화 전해질은 산화 안정성과 열 안정성이 향상된 리튬전지 구현을 가능케 한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7204057359",
+      "source": "openalex",
+      "title": "Anchored Oxygen‐Release‐Suppression Phase Stabilizing High‐Voltage Ni‐Rich Cathode Materials",
+      "url": "https://doi.org/10.1002/anie.9916183",
+      "published": "2026-08-23",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/anie.9916183",
+      "authors": [
+        "Ziqi Liu",
+        "Yiming Zhang",
+        "Yong Chen",
+        "Meng Yao",
+        "Yangyang Wang",
+        "Du Yuan"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT The Ni‐rich LiNi x Co y Mn 1−x−y O 2 (x ≥ 0.9) cathode materials (NCMs) have been considered promising for next‐generation Li‐ion batteries owing to their high‐energy density. However, their practical application is hindered by gas evolution and rapid capacity degradation, primarily caused by irreversible oxygen release and structural instability. Herein, a facile one‐step anchoring strategy is proposed to overcome this challenge by engineering a precisely tailored dual‐architecture LiNi 0.9 Co 0.05 Mn 0.05 O 2 (DA‐NCM). This strategy constructs a dual‐phase surface architecture on Ni‐rich cathodes, where perovskite‐phase La 4 LiNiO 8 mitigates surface oxygen instability and interfacial degradation, and inert La 2 Mo 2 O 9 anchors the lattice to avoid the detachment of La 4 LiNiO 8 during cycling via enhanced La─O bond pinning effect. This dual‐architecture design provides a robust strategy for stabilizing the interface, surface, and bulk phase of Ni‐rich cathodes, enabling durable oxygen regulation, suppressed structural degradation, and stable high‐voltage operation under demanding cycling conditions. Thus, our DA‐NCM cathodes demonstrate excellent capacity retention of 95.7% at 4.3 V and 93.6% at 4.5 V after 200 cycles and remarkable stability even at an elevated temperature (50°C) and high voltage (4.5 V), confirming their markedly enhanced electrochemical stability. This precision design of dual architecture provides a new pathway for developing high‐energy‐density cathode materials with long cycle life.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/anie.9916183",
+      "license": "cc-by",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-25",
+      "image": null,
+      "summary_ko": "LiNi0.9Co0.05Mn0.05O2 Ni-rich 양극재 표면에 페로브스카이트상 La4LiNiO8와 La2Mo2O9로 이루어진 이중상 구조를 한 단계 공정으로 형성했다. La4LiNiO8가 표면 산소 불안정성과 계면 열화를 완화하고 La2Mo2O9가 격자를 고정해 코팅층 탈리를 방지함으로써 가스 발생과 용량 저하를 억제한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204036357",
+      "source": "openalex",
+      "title": "A Stage‐Coupled View of Interfacial Reconstruction in Anode‐Free Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.3647021",
+      "published": "2026-08-23",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/anie.3647021",
+      "authors": [
+        "Jiawen Dai",
+        "Rui Zhang",
+        "Shengan Wu",
+        "Yougen Tang",
+        "Haiyan Wang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) remove the excess metal anode and increase projected cell‐level energy density, but they place reversibility on a transient negative‐electrode interface. In each cycle, Na is deposited on a foreign current collector and removed to a highly depleted state. Cell failure is governed by whether continuity can be preserved across a sequence of short‐lived interfacial states, including bulk coordination, interfacial desolvation, heterogeneous nucleation, metallic coalescence, Na isolation, and recurrent solid electrolyte interphase (SEI) renewal. AFSMBs are therefore better understood as dynamically reconstructed interfacial systems, where non‐uniformity introduced during interfacial entry can propagate through later plating and stripping. This review examines AFSMBs through three coupled stages: solvation‐controlled interfacial entry, current collector regulated Na reconstruction, and SEI renewal controlled by reaction–pathway selectivity and mechanical coherence. Current density, stripping depth, pressure, temperature, sodium inventory, and cell architecture are treated as boundary conditions that determine whether local interfacial gains persist under practical operation. By linking coordination chemistry, metallic continuity, interphase renewal, and device‐level constraints, this review provides a mechanistic framework for predictive AFSMB design.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-08-25",
+      "image": null,
+      "summary_ko": "무전극(anode-free) 소듐 금속전지의 계면을 벌크 배위, 계면 탈용매화, 불균일 핵생성, 금속 응집, 소듐 고립, SEI 재형성 등 여러 단계가 연속적으로 결합된 시스템으로 재해석했다. 초기 계면 형성 단계의 불균일성이 이후의 도금/탈리 거동으로 전파되어 셀 실패를 좌우한다는 관점을 제시한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204042545",
+      "source": "openalex",
+      "title": "Nanofiber-Reinforced Composite Polymer Electrolyte Enables Continuous Lithium-Ion Transport and Anion-Rich Solvation Structure for 670 Wh kg–1 Lithium Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c09551",
+      "published": "2026-08-21",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/jacs.6c09551",
+      "authors": [
+        "Po Bian",
+        "Xingchen Song",
+        "Zhaozhong Wang",
+        "Jie Zhu",
+        "Yutong Ding",
+        "Jinping Zhang"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Solid-state electrolytes are highly promising for high-energy lithium-metal batteries, yet their practical applications are severely restricted by insufficient oxidative stability, sluggish Li+ transport, and unstable electrode/electrolyte interphases under high-voltage operation. Herein, we report an in situ fabricated composite polymer electrolyte, denoted as LAFE, which integrates a designed main-chain fluorinated polyether matrix with an interconnected three-dimensional framework of Li- and F-codoped hydroxyapatite nanofibers (LANs). Distinct from conventional particle-filled composite electrolytes, the lithium-active LAN framework forms continuous Li+-conducting pathways while simultaneously providing abundant interfacial migration sites through strong Li+–LAN interactions, coupling bulk conduction with site-mediated Li+ hopping. The Li+-affinity contrast between LANs and the fluorinated polyether further induces heterogeneous Li-rich and Li-deficient domains, reconstructing the local solvation environment toward an anion-rich structure. This solvation regulation expands the electrochemical stability window to 3.0–5.7 V and promotes preferential anion-derived inorganic-rich LiF/Li3N/B–O-containing SEI and CEI layers, thereby suppressing Li dendrite growth, electrolyte oxidation, and high-voltage cathode degradation while strengthening abuse tolerance by immobilizing the electrolyte within a solidified framework. Consequently, LAFE enables Li||LiNi0.8Co0.1Mn0.1O2 cells to operate stably for 1000 cycles under 4.5–4.7 V and 5 C. At the pouch-cell level, 7 Ah Li||LiCoO2 and 10 Ah Li||Li-rich Mn-based oxide cells deliver energy densities of 677 Wh kg–1 and 632 Wh kg–1, respectively, while 5 Ah Li|| Ni0.8Co0.1Mn0.1O2 pouch cells pass nail penetration without leakage or combustion. This work establishes a lithium-active composite-electrolyte design principle for high-voltage, high-rate, and safe high-energy lithium-metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-08-25",
+      "image": null,
+      "summary_ko": "주쇄에 불소화 폴리에터를 사용하고 Li·F가 공동 도핑된 하이드록시아파타이트 나노섬유(LAN)의 3차원 골격을 결합한 복합 고분자 전해질(LAFE)을 제작했다. LAN 골격이 연속적인 Li+ 전달 경로와 음이온이 풍부한 용매화 구조를 제공하여 고전압에서의 산화 안정성과 리튬 이온 수송성을 동시에 개선함으로써 고에너지밀도 리튬 금속전지에 적용 가능하다.",
+      "relevant": true
+    }
+  ]
+}
