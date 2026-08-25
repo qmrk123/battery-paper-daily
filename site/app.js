@@ -36,6 +36,7 @@ const NSC_VENUES = new Set([
   "Nature", "Science", "Cell",
   "Nature Energy", "Joule", "Energy & Environmental Science",
   "Nature Materials", "Nature Chemistry", "Nature Nanotechnology",
+  "Nature Reviews Materials", "Nature Reviews Chemistry",
   // Science family minus Science Advances (none carry battery papers yet, but future-proof)
   "Science Translational Medicine", "Science Signaling", "Science Immunology", "Science Robotics",
 ]);
