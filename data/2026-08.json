@@ -29,7 +29,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74635",
+        "cached": "img/W7204024242.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74635"
+      },
       "summary_ko": "100편 이상의 논문에서 수집한 대규모 쿨롱 효율(CE) 데이터셋을 데이터 분석 기법과 물리적 특성 공학을 결합해 분석했다. 전해질을 질량 기준으로 정규화하고 불소화도, 탄소 사슬 길이, 산소 함량 등 조성 인자와 CE의 관계를 규명하여 리튬 금속전지 전해질 설계에 활용 가능한 통찰을 제시했다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9916183",
+        "cached": "img/W7204057359.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9916183"
+      },
       "summary_ko": "LiNi0.9Co0.05Mn0.05O2 Ni-rich 양극재 표면에 페로브스카이트상 La4LiNiO8와 La2Mo2O9로 이루어진 이중상 구조를 한 단계 공정으로 형성했다. La4LiNiO8가 표면 산소 불안정성과 계면 열화를 완화하고 La2Mo2O9가 격자를 고정해 코팅층 탈리를 방지함으로써 가스 발생과 용량 저하를 억제한다.",
       "relevant": true
     },
@@ -116,7 +128,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3647021",
+        "cached": "img/W7204036357.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3647021"
+      },
       "summary_ko": "무전극(anode-free) 소듐 금속전지의 계면을 벌크 배위, 계면 탈용매화, 불균일 핵생성, 금속 응집, 소듐 고립, SEI 재형성 등 여러 단계가 연속적으로 결합된 시스템으로 재해석했다. 초기 계면 형성 단계의 불균일성이 이후의 도금/탈리 거동으로 전파되어 셀 실패를 좌우한다는 관점을 제시한다.",
       "relevant": true
     },
