@@ -83,7 +83,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-26",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77950",
+        "cached": "img/W7204138013.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77950"
+      },
       "summary_ko": "니켈리치 준고체 리튬금속전지를 위해 나노초강산 ZrO2-SO42-를 포함하는 9마이크로미터 두께의 복합 준고체 전해질(MLZPE)을 제안했다. 초강산 표면이 에틸렌카보네이트와 우선적으로 상호작용해 Li+-용매 배위를 약화시켜 Li+ 이동수를 0.698, 이온전도도를 0.107 mS/cm까지 높였다. 동시에 in-situ 중합된 PMBA가 초강산 표면에 화학적으로 고정되어 전해질 분해를 억제하고, LiF/Li3N이 풍부한 계면을 형성해 사이클링 중 가역적으로 재구성되는 적응형 계면을 구현했다. 그 결과 NCM83||Li 준고체전지는 0.5C에서 200사이클 후 92.6%의 용량 유지율을 보였다.",
       "relevant": true
     },
