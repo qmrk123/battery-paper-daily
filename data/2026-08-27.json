@@ -184,7 +184,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5503056",
+        "cached": "img/W7204175556.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5503056"
+      },
       "summary_ko": "리튬 금속 파우치셀에서 계면 응력 집중이 못 관통 등 극한 조건에서 열폭주를 유발하는 문제를 해결하기 위해, 이중 고정 고분자 프레임워크 기반의 겔 폴리머 전해질(NFGPE)을 설계했다. TAIC와 CTFMA를 도입해 부피 수축을 보상하고 응력을 분산시키며, CTFMA가 양극 표면에 앵커링되어 계면을 안정화한다. 이를 통해 고에너지·고안전성 리튬 금속 파우치셀을 구현한다.",
       "relevant": true
     },
@@ -249,7 +255,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77897",
+        "cached": "img/W7204161016.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77897"
+      },
       "summary_ko": "상온 리튬-공기 전지에서 리튬 금속 음극이 전해질, 공기 유입, 산화환원 매개체 셔틀링에 취약한 문제를 해결하기 위해, 유연한 외부층과 강성 내부층으로 구성된 하이브리드 SEI(H-SEI)를 제안했다. 고농도 리튬염 겔 용액의 음이온이 Li+ 용매화 구조를 조절해 치밀하고 무기물이 풍부한 내부 SEI를 형성시키고, 동시에 겔 단량체의 in situ 중합으로 유연한 외부 겔 폴리머층을 형성해 리튬 금속 표면을 안정화한다.",
       "relevant": true
     },
@@ -279,7 +291,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3002971",
+        "cached": "img/W7204170228.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3002971"
+      },
       "summary_ko": "리튬-황 전지의 성능을 저해하는 리튬 폴리설파이드 셔틀과 느린 황 산화환원 동역학 문제를 해결하기 위해, 그래프다이인(GDY)에 담지된 이종핵 Co-Pt 이원자 촉매(DACs)를 제안했다. GDY의 sp 혼성 탄소와 Co-Pt 이원자 간 전자 결합이 p-d-d 오비탈 공명을 유발해 폴리설파이드와의 d-p 오비탈 혼성을 강화함으로써, 부위 분리된 산화환원 상보적 촉매 거동으로 순차적인 황 산화환원 반응을 가속한다.",
       "relevant": true
     },
