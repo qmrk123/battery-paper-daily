@@ -1339,6 +1339,10 @@
   "metric": 0.03,
   "name": "Bulletin of NTU KhPI Series Problems of Electrical Machines and Apparatus Perfection The Theory and Practice"
  },
+ "S4210218516": {
+  "metric": 9.11,
+  "name": "Research"
+ },
  "S4210218533": {
   "metric": 5.04,
   "name": "Chemical Synthesis"
@@ -2130,6 +2134,10 @@
  "S7407050768": {
   "metric": 0.04,
   "name": "University of Liverpool"
+ },
+ "S7407050953": {
+  "metric": 0.0,
+  "name": "Cornell University Library"
  },
  "S7407051455": {
   "metric": 0.01,
