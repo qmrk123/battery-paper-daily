@@ -1587,6 +1587,10 @@
   "metric": 0.07,
   "name": "JuSER (Forschungszentrum Jülich)"
  },
+ "S4306401127": {
+  "metric": 0.02,
+  "name": "OSF Preprints (OSF Preprints)"
+ },
  "S4306401280": {
   "metric": 0.07,
   "name": "DOAJ (DOAJ: Directory of Open Access Journals)"

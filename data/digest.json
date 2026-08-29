@@ -1,22 +1,22 @@
 {
   "title": "최근 2주 논문 브리핑 (8/20–8/27)",
   "range": "2026-08-20 ~ 2026-08-27",
-  "overall": "이번 2주간의 연구는 전해질 용매화 구조 설계와 계면(SEI/CEI) 공학을 통해 리튬·소듐 금속 음극과 고전압·고Ni 양극의 안정성을 동시에 확보하려는 흐름이 지배적이었다. 특히 음이온 우세 용매화, 불소·질소가 풍부한 무기 계면 형성, 그리고 열·기계적 열화 억제를 결합한 고에너지·고안전 셀 구현 연구가 두드러졌다.",
+  "overall": "리튬·소듐 금속 음극 연구는 용매화 구조와 첨가제 설계로 무기물(LiF/NaF/Li3N)이 풍부한 견고한 계면을 형성해 덴드라이트와 부반응을 억제하는 방향으로 수렴하고 있으며, 양극 분야에서는 고전압 Ni-rich·Li-rich의 산소 방출·열폭주 억제와 Li-S/Se/Te 등 전환형 화학의 촉매·메커니즘 규명이 병행되고 있다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 용매화 구조 조절이 이번 기간 리튬 금속 연구의 핵심 축으로, 첨가제·약배위 분자·불소화 고분자를 통해 음이온 우세 용매화를 유도하고 LiF/Li3N이 풍부한 견고한 SEI를 형성하는 전략이 반복적으로 등장했다. 젤·복합 고분자 전해질(GPE, 나노섬유 강화, 딥유텍틱 겔)과 MXene·COF 기반 호스트/분리막 개질을 통해 계면 응력 분산과 이온 수송 개선을 동시에 노렸으며, 550~670 Wh/kg급 고에너지 파우치셀과 난연성·광온도역 구동을 함께 달성했다. 또한 에테르계 전해질의 가스 발생 기구 규명과 대규모 쿨롱효율 데이터 분석 등 메커니즘·데이터 기반 설계 통찰도 제시되었다.",
+      "text": "이번 기간의 리튬 금속 연구는 용매화 구조 조절을 통한 음이온 우세 계면 설계와 LiF/Li3N이 풍부한 견고한 SEI 형성이라는 공통 주제로 수렴한다. 젤·복합 고분자 전해질(PVDF-HFP, LiPF6 기반 젤, 나노섬유 강화 복합체)과 딥유텍틱·에테르계 전해질을 통해 이온 이동수 향상과 계면 안정화를 동시에 노리는 접근이 두드러지며, 600~670 Wh/kg급 고에너지 파우치셀과 넓은 온도 범위 구동을 목표로 한다. 나아가 (110) 우선배향 비에피택셜 증착, 부동태 MXene 호스트, 데이터 기반 쿨롱효율 분석, 에테르 전해질 가스 발생 기구 규명 등 증착 형태·계면 부반응의 근본 메커니즘을 파고드는 연구가 함께 진행되고 있다.",
       "highlights": [
         {"title": "Additive strongly-coordinated solvation structure towards high-voltage 600 Wh/kg-class lithium metal pouch cell", "url": "https://doi.org/10.1038/s41467-026-77095-x", "venue": "Nature Communications"},
         {"title": "Understanding and suppressing gas evolution in lithium metal batteries with ether-based electrolytes", "url": "https://doi.org/10.1038/s41557-026-02219-1", "venue": "Nature Chemistry"},
-        {"title": "Nanofiber-Reinforced Composite Polymer Electrolyte Enables Continuous Lithium-Ion Transport and Anion-Rich Solvation Structure for 670 Wh kg–1 Lithium Batteries", "url": "https://doi.org/10.1021/jacs.6c09551", "venue": "Journal of the American Chemical Society"}
+        {"title": "Plastic‐Deformation‐Driven Nonepitaxial Deposition of (110)‐Texture Enables Stable Lithium and Sodium Metal Anodes", "url": "https://doi.org/10.1002/adma.74659", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지가 이 범주의 다수를 차지하며, 폴리설파이드 셔틀과 느린 황 산화환원 동역학을 겨냥한 촉매 설계가 집중적으로 다뤄졌다. 이종핵 이원자 촉매, 소프트 촉매, 이종계면·화산형 이종구조 등 사슬 길이에 따라 차별화된 계단식 촉매작용을 유도하는 접근이 두드러졌다. 이와 함께 Li-Se/Li-Te 등 고원자가 칼코겐 산화환원, 저온 Li||CFx, 산화물계 전고체 복합 양극 필름 등 새로운 양극 화학과 오퍼란도 메커니즘 규명 연구가 병행되었다.",
+      "text": "기타 양극 분야는 리튬-황을 중심으로 한 전환형 화학의 촉매 설계가 주류를 이룬다. 그래프다이인 담지 이종핵 이원자 촉매, 사슬 길이 의존형 계단식 촉매, 이종계면 전자 이동 강화, 바인더 일체형 소프트 촉매 등 폴리설파이드 셔틀 억제와 황 산화환원 동역학 가속을 위한 다양한 촉매·계면 전략이 제시되었다. 이와 더불어 리튬-셀레늄의 고원자가 산화환원 구현, 리튬-텔루륨의 오퍼란도 반응 경로 규명, 저온 Li||CFx 전극·계면 이중 개질, 산화물계 전고체용 LCO/LLZO 복합 필름 등 새로운 전환형·전고체 양극 화학으로 외연이 확장되고 있다.",
       "highlights": [
         {"title": "Unlocking High-Valent Chalcogen Redox with Halide-Rich Electrolytes for High-Energy Lithium Batteries", "url": "https://doi.org/10.1038/s41467-026-77258-w", "venue": "Nature Communications"},
         {"title": "Direct visualization of complex mechanisms in lithium tellurium batteries", "url": "https://doi.org/10.1038/s41467-026-76636-8", "venue": "Nature Communications"},
@@ -26,7 +26,7 @@
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 전지에서는 전해질 공용매화·첨가제·구배형 분리막을 통해 NaF가 풍부한 SEI/CEI를 형성하고 덴드라이트를 억제하는 전략이 주를 이뤘다. 특히 -60°C에서 80°C에 이르는 광온도역 및 고전압·급속 충전 안정성을 목표로 한 계면 설계가 두드러졌으며, 배위 화학 기반 첨가제로 10 mA/cm² 고전류밀도에서 수천 사이클을 구현했다. 무전극(anode-free) 구조의 계면 재구성을 단계 결합 관점에서 재해석하거나 상온 Na-S 전지의 폴리설파이드 셔틀을 함께 억제하는 통합적 접근도 제시되었다.",
+      "text": "소듐 금속 연구는 전해질 용매화 조절과 첨가제를 통해 NaF가 풍부한 계면(SEI/CEI)을 형성하고 고전압·저온·급속충전 성능을 확보하는 데 집중된다. 공용매화 이온쌍 제어, 배위형 첨가제(게르마늄·피리딘 보레이트), 경쟁적 음이온 흡착 등 다양한 계면 화학이 제안되어 5~10 mA/cm²의 고전류밀도와 수천 시간·수천 사이클 수명을 달성했다. 또한 소듐-황 전지의 폴리설파이드 셔틀과 덴드라이트를 동시에 억제하는 구배형 분리막·전해질 설계와, 무전극(anode-free) 셀의 다단계 계면 재구성 관점이 함께 제시되었다.",
       "highlights": [
         {"title": "A Dual‐Interface Stabilizing Additive for High‐voltage Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.5330124", "venue": "Angewandte Chemie International Edition"},
         {"title": "Coordination Chemistry Enabled Multifunctional Electrolytes for High‐Rate and Long‐Cycle Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/aenm.71442", "venue": "Advanced Energy Materials"},
@@ -36,7 +36,7 @@
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고Ni 층상 양극 연구는 표면 산소 방출 억제와 열·구조 안정성 확보에 집중되었다. 페로브스카이트 이중상 표면 코팅, 격자 고정, 도미노형 열폭주 전파를 차단하는 올리빈 복합화 등 표면-벌크 연계 열화를 겨냥한 설계가 등장했다. 전해질 측면에서는 쌍극자 상호작용과 난연 올리고머 첨가제로 계면 동역학과 안전성을 개선했으며, 과리튬화 NCM의 상전이·다중 금속 순차 환원 기구 규명을 통해 고용량 설계 원리도 제시되었다.",
+      "text": "NCM 양극 연구는 고전압·고니켈 조건에서의 산소 방출, 열폭주, 계면 열화를 억제하는 표면·구조 공학이 핵심이다. 페로브스카이트상 코팅을 통한 산소 방출 억제, 나노 올리빈 복합화를 통한 열폭주 도미노 전파 차단, 단결정화와 구조/계면 시너지를 통한 광온도 초안정 사이클링 등이 제안되었다. 아울러 쌍극자 상호작용 기반 용매화 조절로 계면 동역학을 개선하고, 과리튬화 NCM의 상전이 경로와 다중 금속 순차 환원 기구를 규명해 고용량 설계 원리를 확장하려는 시도가 병행된다.",
       "highlights": [
         {"title": "Interrupting Surface‐to‐Bulk Domino Propagation: A Thermal Failure Mitigation Strategy for Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adma.74738", "venue": "Advanced Materials"},
         {"title": "Anchored Oxygen‐Release‐Suppression Phase Stabilizing High‐Voltage Ni‐Rich Cathode Materials", "url": "https://doi.org/10.1002/anie.9916183", "venue": "Angewandte Chemie International Edition"},
@@ -46,7 +46,7 @@
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 망간계 층상 양극에서는 음이온 산화환원과 전이금속 이동에 따른 화학적 열화와 기계적 손상을 동시에 완화하는 통합 전략이 제시되었다. 공극 형성으로 응력을 흡수하고 La 도핑으로 골격을 견고화하거나 엔트로피 변화를 조절해 구조적 열 안정성을 높이는 접근이 나타났으며, 580 Wh/kg급 비에너지와 함께 고전압 파우치셀에서의 실용적 성능이 보고되었다.",
+      "text": "리튬 과잉 양극 연구는 음이온 산화환원과 전이금속 이동에서 비롯되는 화학적 열화와 부피 변화에 따른 기계적 열화를 분리·완화하는 데 초점을 둔다. 공극 형성과 La 도핑을 결합해 응력을 흡수하고 골격을 강화하는 전략, 엔트로피 변화 조절을 통한 구조적 열 안정성 향상 등이 제시되었으며, 600 Wh/kg급 고에너지 파우치셀 구현과 과리튬화 상전이 기구 규명 연구가 이를 뒷받침한다.",
       "highlights": [
         {"title": "Decoupling Chemo‐Mechanical Failure for Robust Li‐Rich Cathodes", "url": "https://doi.org/10.1002/adfm.78033", "venue": "Advanced Functional Materials"},
         {"title": "Modulating entropy change for bolstering structural thermal stability of li-rich materials", "url": "https://doi.org/10.1016/j.mattod.2026.103490", "venue": "Materials Today"}

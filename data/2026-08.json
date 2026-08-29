@@ -1,8 +1,36 @@
 {
   "date": "2026-08",
-  "generated_at": "2026-08-29T03:08:20+00:00",
-  "count": 266,
+  "generated_at": "2026-08-29T23:03:31+00:00",
+  "count": 272,
   "papers": [
+    {
+      "id": "W7204491519",
+      "source": "openalex",
+      "title": "Yolk-shell zeolite nanoreactors enable multi-poison resistance for NOx reduction",
+      "url": "https://doi.org/10.1038/s41467-026-77159-y",
+      "published": "2026-08-27",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77159-y",
+      "authors": [
+        "YongLong Li",
+        "Guobo Li",
+        "Rongxing Li",
+        "Jian Ji",
+        "Xiaonan Hu",
+        "Fengbo Yu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The practical application of selective catalytic reduction with ammonia (NH3-SCR) for NOx abatement from stationary sources is severely restricted by catalyst deactivation induced by SO2 and alkali metal poisons in flue gas. Although integrating transition metal oxides with zeolites is widely pursued to enhance catalyst poisoning tolerance, most reported strategies have inherent limitations. Conventional loading approaches deliver high active phase loading but leave active sites directly exposed to poisons, whereas confinement strategies offer shielding protection but typically suffer from limited active phase content. Herein, we demonstrate the concept of a zeolite-confined nanoreactor by constructing a yolk-shell structured catalyst, in which high-content (> 10 wt.%) MnFeOx nanoparticles are encapsulated within a hollow ZSM-5 zeolite shell. In situ extended X-ray absorption fine structure spectroscopy (EXAFS) and diffuse reflectance infrared Fourier-transform spectroscopy (DRIFTS), combined with density functional theory (DFT) calculations, reveal a synergistic dual-shielding mechanism: the ZSM-5 zeolite shell physically hinders SO2 from accessing and poisoning the inner active oxides core, while its intrinsic framework Brønsted acid sites chemically suppress SO2 adsorption and trap alkali metal species. Consequently, the catalyst maintains over 95% NOx conversion at 250 °C under co-poisoning by SO2 and potassium. This work establishes hollow zeolite-confined nanoreactors as an effective and versatile platform for developing durable NOx emission control catalysts applicable to industrially relevant multi-poisoning conditions. Ammonia selective catalytic reduction for stationary NOx removal is limited by catalyst deactivation caused by SO2 and alkali metals in flue gas. Here, the authors develop a zeolite-confined yolk-shell nanoreactor that enables stable long-term operation under industrially relevant poisoning conditions.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-77159-y_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "제올라이트로 감싼 욜크-쉘 구조의 나노반응기를 이용해 SO2와 알칼리 금속에 의한 NH3-SCR 촉매 피독을 억제하는 연구이다. ZSM-5 제올라이트 쉘이 SO2의 물리적 접근을 차단하고 산성 자리가 알칼리 금속을 포집하는 이중 보호 메커니즘을 규명했다. SO2와 칼륨이 공존하는 조건에서도 250°C에서 95% 이상의 NOx 전환율을 유지했다.",
+      "relevant": false
+    },
     {
       "id": "W4401047215",
       "source": "openalex",
@@ -233,7 +261,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77167-y/MediaObjects/41467_2026_77167_Fig1_HTML.png",
+        "cached": "img/W7204477019.jpg",
+        "license": null,
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77167-y"
+      },
       "summary_ko": "카르보닐기가 교차 배열된 공유결합 유기 골격체(COF)를 이용해 고율·안정적인 재충전형 칼슘-유기 전지용 전극 재료를 개발한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -261,7 +294,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-76948-9/MediaObjects/41467_2026_76948_Fig1_HTML.png",
+        "cached": "img/W7204468442.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76948-9"
+      },
       "summary_ko": "CD97(ADGRE5)이 수지상세포 매개 제2형 면역반응을 조절해 알레르기 천식 발생에 관여함을 밝힌 연구로, Cd97 결손 마우스는 더 심한 천식 표현형을 보였다. 인간 천식 환자의 기도 점막에서도 알레르겐 유발 악화 후 ADGRE5 발현이 감소해 CD97이 천식 치료 표적이 될 수 있음을 시사한다.",
       "relevant": false
     },
@@ -885,6 +923,34 @@
       "relevant": true
     },
     {
+      "id": "W7204212964",
+      "source": "openalex",
+      "title": "Electrochemical strategies for sustainable recycling of spent lithium iron phosphate batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112350",
+      "published": "2026-08-25",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112350",
+      "authors": [
+        "Quanhui Yang",
+        "Junfeng Li",
+        "Shiqin Liu",
+        "Jialin Liu",
+        "Weifeng Liu",
+        "Dongju Fu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "폐리튬인산철(LFP) 배터리의 지속 가능한 전기화학적 재활용 전략에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7204215046",
       "source": "openalex",
       "title": "Dual-phase engineering of CFx electrode and interphase enables low-temperature Li||CFx batteries",
@@ -945,6 +1011,33 @@
       "first_seen": "2026-08-28",
       "image": null,
       "summary_ko": "니트릴 가소제를 도입해 PEO 기반 준고체 전해질의 Li+ 용매화 껍질을 동적으로 재구성하는 디스크립터 기반 전략을 제시했다. 니트릴 리간드가 첫번째 Li+ 용매화 껍질에 경쟁적으로 진입해 Li+-에테르 산소 배위를 약화시키고 리간드 교환 기반 수송으로 전환시켜, 상온 이온전도도를 기존 PEO 대비 약 3자리수 향상된 10.9 mS cm-1까지 끌어올렸다. 이 전해질은 Li‖NCM811 고전압 전지에서 산화 분해를 억제하고 치밀한 CEI 형성을 촉진해 고속충전 및 저온 구동 안정성을 향상시켰다.",
+      "relevant": false
+    },
+    {
+      "id": "W7204205316",
+      "source": "openalex",
+      "title": "Balancing accuracy and early predictability: a flexible framework for battery lifetime prediction via analytical mapping discovery",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105489",
+      "published": "2026-08-25",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105489",
+      "authors": [
+        "Ruohan Guo",
+        "Jinpeng Tian",
+        "Wanzhou Sun",
+        "Weixiang Shen",
+        "C. Y. Chung"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "정확도와 조기 예측 가능성을 함께 고려한 배터리 수명 예측용 유연한 분석적 매핑 프레임워크를 제안한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -1571,6 +1664,36 @@
         "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77932"
       },
       "summary_ko": "1차/2차 아마이드 대신 3차 아마이드(N,N-디에틸트리플루오로아세트아마이드, N,N-디메틸아크릴아마이드)를 사용해 N-H 활성 수소를 제거한 딥유텍틱 젤 전해질(PLDF-GPE)을 개발했다. 이를 통해 리튬 음극 계면에서의 수소 발생을 억제하고 LiF/Li3N이 풍부한 SEI/CEI를 형성해 -20~80°C의 넓은 온도 범위에서 안정적으로 작동한다. Li‖Li 대칭셀은 1800시간 안정 사이클링을, Li‖NCM811 셀은 0.25C에서 600사이클 후 65.7% 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7203969133",
+      "source": "openalex",
+      "title": "Synergistic structure/interface engineering enables ultra-stable wide-temperature cycling of single-crystal Ni-rich cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105486",
+      "published": "2026-08-22",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105486",
+      "authors": [
+        "Yilei Zhang",
+        "Nanrui Li",
+        "Jie Biao",
+        "Yinxuan Liang",
+        "Jinhui Zhang",
+        "Yanbing He"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "구조 및 계면 엔지니어링의 시너지를 통해 단결정 니켈리치 양극재의 광범위 온도 영역 초안정 사이클링을 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -2312,6 +2435,36 @@
       "relevant": false
     },
     {
+      "id": "W7203947319",
+      "source": "openalex",
+      "title": "In situ electrochemically driven A-site substitution suppresses the Jahn–Teller distortion for long-life manganese-based Prussian blue cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105480",
+      "published": "2026-08-20",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105480",
+      "authors": [
+        "Yixuan Wang",
+        "Bin Ye",
+        "Ling Li",
+        "Hong Kang",
+        "Jialong Shen",
+        "Junpeng Sun"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "전기화학적으로 유도된 A-site 치환을 통해 망간 기반 프러시안 블루 양극재의 얀-텔러 왜곡을 억제하여 장수명을 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7203824553",
       "source": "openalex",
       "title": "From Glass Waste to High‐Performance Solid Composite Electrolytes for Sustainable Solid‐State Lithium Batteries",
@@ -2654,6 +2807,34 @@
       },
       "summary_ko": "무기공 고엔트로피 고분자 분리막(HES)을 개발하여 -70°C~150°C의 초광범위 온도에서 리튬 금속전지의 장기 구동을 최초로 구현했다. HES는 우수한 전해질 습윤성과 열안정성을 가지며, 풍부한 이온 통로가 이온 전달을 균일화·가속화하고 안정적인 무기/붕소 풍부 SEI 및 CEI 형성을 돕는다. Li||Li 셀은 -70°C에서 2200시간, 25°C에서 6548시간, 150°C에서 700시간 구동되었고, Li||V2O5 전지도 전 온도 범위에서 작동 가능함을 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "W7203748147",
+      "source": "openalex",
+      "title": "Enabling fast and reversible kinetics via TM–O bond modulation in homogeneous solid-solution medium-entropy NASICON for sodium ion batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.019",
+      "published": "2026-08-19",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.08.019",
+      "authors": [
+        "Muhammad Tayyab Ahsan",
+        "Meng Li",
+        "Zihong Wu",
+        "Xiao-lin Tai",
+        "Kewei Pei",
+        "Yuhao Liang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": "Na 4 MnCr(PO 4 ) 3 (NMCP) and Na 2 VTi(PO 4 ) 3 (NVTP) are promising binary electrode materials for sodium-ion batteries (SIBs) due to their high theoretical specific capacity and high voltage redox potential associated with V/Mn redox couples. However, the Jahn–Teller distortion induced by Mn 3+ in NMCP and inactive V 4+ /V 5+ in NVTP lead to inadequate rate capability and cyclic instability, rendering their utilization impractical. To overcome these intrinsic bottlenecks, we rationally designed and synthesized homogeneous solid-solution medium-entropy Na 3.0 V 0.5 Mn 0.5 Ti 0.5 Cr 0.5 (PO 4 ) 3 (NVMTCP) NASICON. The synergetic effect of medium-entropy modulation and charge redistribution around the TM–O 6 bond at the octahedral site enhances intrinsic lattice stability and electronic conductivity. Consequently, it stabilizes and activates reversible V 3+ /V 4+ /V 5+ and Mn 2+ /Mn 3+ /Mn 4+ redox couples. NVMTCP exhibits a high specific capacity of 175.3 mA h g −1 and excellent cyclic stability with 91% capacity retention after 5000 cycles at 2 A g −1 . Comprehensive X-ray analysis and theoretical calculations demonstrate shorter and stronger TM–O 6 bonding, which facilitates faster electronic kinetics, enabling a smooth phase transition and mitigating the biphasic reaction with a small volume change of 5.3% during sodiation–desodiation. The proposed strategy could be applied to design low-cost, ultra-stable, and high-performance NASICON electrode materials for the commercialization of SIBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.jechem.2026.08.019",
+      "license": "cc-by",
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-08-30",
+      "image": null,
+      "summary_ko": "소듐이온전지용 NASICON 전극 소재에서 Mn3+의 얀-텔러 왜곡과 V4+/V5+의 비활성 문제를 해결하기 위해 중간엔트로피 고용체 Na3V0.5Mn0.5Ti0.5Cr0.5(PO4)3를 설계했다. TM-O6 결합을 강화해 전자 전도성과 격자 안정성을 높였으며 175.3 mAh/g의 비용량과 5000회 사이클 후 91%의 용량 유지율을 달성했다. 상전이가 매끄럽고 부피 변화가 5.3%로 작아 저비용·고성능 NASICON 전극 설계 전략을 제시한다.",
+      "relevant": false
     },
     {
       "id": "W7203780113",
