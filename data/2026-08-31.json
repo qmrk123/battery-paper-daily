@@ -1,0 +1,157 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-30T23:17:25+00:00",
+  "count": 5,
+  "papers": [
+    {
+      "id": "W7204647515",
+      "source": "openalex",
+      "title": "Macrocyclic molecular engineering enables high-energy and durable organic electrode for lithium-ion batteries",
+      "url": "https://doi.org/10.1038/s41467-026-76984-5",
+      "published": "2026-08-29",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1038/s41467-026-76984-5",
+      "authors": [
+        "Huiling Peng",
+        "Yaheng Geng",
+        "Yu Han",
+        "Jin Xiao",
+        "Zehao Yu",
+        "Zichao Yan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Organic electrode materials are promising candidates for lithium-ion batteries, but their practical adoption is constrained by the persistent trade-off between capacity and cycling stability. While small-molecule organic compounds deliver high capacities yet suffer from dissolution, covalent organic frameworks enhance stability at the expense of active-site accessibility. Here, we introduce a macrocyclic molecular design synergizing framework-like robustness with small-molecule redox efficiency. The designed hexagonal monocyclic benzoquinone integrates a π-conjugated core with densely packed electroactive moieties (carbonyl, imine, and hydroxyl), enabling a high theoretical capacity of 812 mAh g −1 . As a positive electrode, it achieves near-theoretical capacity (806 mAh g −1 at 0.05 A g −1 ) with a high specific energy of 1507 Wh kg HPBQ −1 , while maintaining 81% capacity after 1000 cycles at 5 A g −1 . Mechanistic studies explore a potential 36-electron transfer mechanism per macrocyclic unit during initial discharge, followed by irreversible hydroxyl-to-carbonyl conversion upon charging, which generates a phenanthrenequinone-based macrocycle capable of reversible 48-electron transfer per macrocyclic unit in subsequent cycles. This molecular architecture has the potential to overcome the longstanding capacity-stability trade-off in organic electrodes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-76984-5",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-08-31",
+      "image": null,
+      "summary_ko": "대환형(macrocyclic) 벤조퀴논 분자를 설계하여 프레임워크 수준의 견고함과 소분자 수준의 산화환원 효율을 동시에 확보한 유기 리튬이온전지 양극재를 개발했다. 812 mAh/g의 이론용량에 근접한 806 mAh/g(0.05 A/g)의 실제 용량과 1507 Wh/kg의 높은 비에너지를 구현했으며, 5 A/g에서 1000사이클 후에도 81%의 용량을 유지했다. 초기 방전 시 36전자 전이, 이후 가역적인 48전자 전이 메커니즘을 규명해 유기 전극의 용량-안정성 트레이드오프 문제를 해결할 가능성을 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7162333480",
+      "source": "openalex",
+      "title": "Local Acidity as a Corrosiveness Descriptor of Fluorinated Ether Solvents in Lithium–Metal Batteries",
+      "url": "https://doi.org/10.1002/ange.1576222",
+      "published": "2026-08-29",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/ange.1576222",
+      "authors": [
+        "Dongmin Park",
+        "Kyunam Lee",
+        "June Lee",
+        "Jisub Kim",
+        "Jihoon Oh",
+        "Insu Hwang"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT Electrolyte engineering based on solvent fluorination has proven effective for stabilizing lithium (Li) metal batteries by weakening the Li + ‐solvent interaction. However, the influence of fluorination on the chemical reactivity of an electrolyte toward Li metal remains poorly understood. Here, the effects of fluorination are systematically investigated by increasing the degree of fluorination (from 2 to 5 substituents) of the terminal alkyl moieties of the 1‐ethoxy‐2‐methoxyethane (EME) and 1‐(2‐methoxyethoxy)propane (MEP) backbones (denoted F2EME, F4MEP, and F5MEP). Fluorination‐induced corrosion deviates from that suggested by conventionally calculated lowest unoccupied molecular orbital (LUMO)‐based rationales; instead, it is quantitatively described by the local pK a as a site‐specific thermodynamic descriptor of the fluorination‐induced electronic effect. Among the three derivatives, F4MEP is identified as the optimal solvent; it is sufficiently fluorinated to promote the formation of an anion‐rich solvation structure for an inorganic‐rich, protective Li metal interphase, yet it is not severely corrosive as it is not over‐fluorinated. Consequently, an F4MEP‐based 20 µm‐Li||LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) full‐cell retains 80% of its capacity over 368 cycles. This study establishes the local pK a as a descriptor for evaluating the solvent corrosiveness and highlights the necessity of optimizing the degree of fluorination for high‐performance Li metal battery electrolytes.",
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.26434/chemrxiv.15003809/v1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-08-31",
+      "image": null,
+      "summary_ko": "불소화 에테르 용매(EME/MEP 유도체)의 불소 치환 정도가 리튬 금속 계면 반응성에 미치는 영향을 국소 pKa라는 부위별 열역학적 지표로 규명했다. 기존 LUMO 기반 예측과 달리 국소 산성도가 부식성을 더 잘 설명하며, 적절히 불소화된 F4MEP가 무기물 위주의 보호성 계면을 형성하는 최적 용매로 확인되었다. F4MEP 기반 전해질을 사용한 20 μm Li‖NCM811 완전셀은 368사이클 후 80%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204654683",
+      "source": "openalex",
+      "title": "Interfacial Interaction‐Engineered Dual Lithiophilic Ultrathin Interlayers for Dendrite‐Suppressed Lithium Metal Textile Anodes",
+      "url": "https://doi.org/10.1002/advs.77494",
+      "published": "2026-08-29",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.77494",
+      "authors": [
+        "Chanseok Lee",
+        "Donghyeon Nam",
+        "Sang Hun Baeck",
+        "Boyeon Kim",
+        "Yongkwon Song",
+        "Jaemin Kim"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Lithium (Li) metal, known for its exceptional theoretical capacity and low redox potential, represents a promising anode material for next‐generation Li‐based batteries. However, its practical implementation is often compromised by uncontrolled dendritic Li growth during cycling, leading to safety hazards and accelerated degradation. In this study, we present a novel dual‐interface engineering strategy aimed at mitigating Li dendrite formation through the incorporation of ultrathin lithiophilic interlayers on both the electrode (∼44 nm) and separator (∼2 nm). We utilize a Ni‐electroplated textile as a conductive host, onto which lithiophilic Ag nanoparticles and amine‐based molecular linkers are uniformly assembled via a ligand‐exchange‐mediated approach, resulting in an ultrathin lithiophilic interlayer. Simultaneously, the separator is modified through a hydrogen‐bonding‐driven assembly of NH 2 ‐functionalized poly(ethylene imine) and COOH‐functionalized poly(acrylic acid), forming a ∼2 nm interlayer that redistributes Li + flux. This synergistic interfacial design enables symmetric cells to operate stably for over 2200 h at 1 mA cm − 2 /1 mAh cm − 2 , while lithium iron phosphate‐based full cells retain approximately 72% capacity after 5000 cycles at 1 C. Our findings underscore dual‐interface engineering as an effective and scalable approach for the development of safe and durable Li metal batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77494",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-31",
+      "image": null,
+      "summary_ko": "Ni 전기도금 섬유(textile)를 전도성 호스트로 사용하고 Ag 나노입자와 아민계 리간드로 형성한 초박막 친리튬 계면층(~44 nm)을 전극에, 수소결합 기반 폴리에틸렌이민/폴리아크릴산 계면층(~2 nm)을 분리막에 도입하는 이중 계면 엔지니어링 전략을 제시했다. 이를 통해 리튬 이온 플럭스를 균일화하여 덴드라이트 성장을 억제했으며, 대칭셀은 1 mA/cm²·1 mAh/cm² 조건에서 2200시간 이상 안정적으로 구동되었다. LFP 기반 완전셀은 1C에서 5000사이클 후 약 72%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204652691",
+      "source": "openalex",
+      "title": "Comprehensive Review of Synthesis, Structure, and Electrochemical Performance of LiFePO 4",
+      "url": "https://doi.org/10.1002/advs.77203",
+      "published": "2026-08-28",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/advs.77203",
+      "authors": [
+        "Lihui Yin",
+        "Yao Jiang",
+        "Jun Wang",
+        "Bin Li",
+        "Feng Liu",
+        "Cairong Jiang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Driven by the growth of the electric vehicle (EV) market, lithium‐ion batteries have gained more attention. Olivine‐structured lithium iron phosphate (LiFePO 4 , LFP) nanomaterials are the most effective cathode materials for lithium‐ion battery applications. In this paper, we review recent advances in LFP cathodes through a unified crystal structure–synthesis–performance–manufacturing framework. We discuss how precursor chemistry, synthesis routes, morphology control, carbon engineering, and doping strategies govern phase formation, charge transport, and electrochemical behavior. Particular attention is given to Fe 2+ stabilization, synthesis strategy for specific morphology and performance, and emerging recycling and regeneration technologies. We further highlight opportunities in solid‐state batteries, data‐driven materials discovery, and operation under extreme conditions, with fast charging and high‐tap‐density electrode design. By connecting fundamental materials design with industrial implementation, this review provides a roadmap for translating laboratory innovations into next‐generation LFP technologies for sustainable transportation and grid‐scale energy storage.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77203",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-08-31",
+      "image": null,
+      "summary_ko": "올리빈 구조 LiFePO4(LFP) 양극재의 결정구조-합성-성능-제조를 통합적으로 다룬 리뷰 논문이다. 전구체 화학, 합성 경로, 형상 제어, 탄소 엔지니어링, 도핑 전략이 상형성, 전하수송, 전기화학 거동에 미치는 영향을 정리했으며, Fe2+ 안정화와 재활용·재생 기술을 특히 강조했다. 고체전지 적용, 데이터 기반 소재 발굴, 극한 조건 구동, 급속충전 및 고밀도 전극 설계 등 향후 방향도 제시한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7204231407",
+      "source": "openalex",
+      "title": "Built-in-field-regulated low-temperature failure in LiFePO4 cathodes through joule-heating-induced riveting engineering",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105487",
+      "published": "2026-08-26",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.105487",
+      "authors": [
+        "Rui Tang",
+        "Yuefeng Su",
+        "Jinyang Dong",
+        "Yibiao Guan",
+        "Qi Shi",
+        "Yun Lu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-08-31",
+      "image": null,
+      "summary_ko": "LiFePO4 양극에서 발생하는 저온 실패 현상을 줄히팅 기반 리베팅(riveting) 엔지니어링을 통해 형성한 내장 전기장(built-in field)으로 억제하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}

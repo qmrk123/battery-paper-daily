@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-29T23:03:31+00:00",
+  "generated_at": "2026-08-30T23:19:53+00:00",
   "count": 6,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-30",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77159-y/MediaObjects/41467_2026_77159_Fig1_HTML.png",
+        "cached": "img/W7204491519.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77159-y"
+      },
       "summary_ko": "제올라이트로 감싼 욜크-쉘 구조의 나노반응기를 이용해 SO2와 알칼리 금속에 의한 NH3-SCR 촉매 피독을 억제하는 연구이다. ZSM-5 제올라이트 쉘이 SO2의 물리적 접근을 차단하고 산성 자리가 알칼리 금속을 포집하는 이중 보호 메커니즘을 규명했다. SO2와 칼륨이 공존하는 조건에서도 250°C에서 95% 이상의 NOx 전환율을 유지했다.",
       "relevant": false
     },
