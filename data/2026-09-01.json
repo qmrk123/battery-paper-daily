@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T00:29:07+00:00",
+  "count": 3,
+  "papers": [
+    {
+      "id": "W7204280278",
+      "source": "openalex",
+      "title": "Unveiling the multiple mechanistic effects of K regulation on the local structure of Li-containing sodium layered oxide cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105495",
+      "published": "2026-08-26",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105495",
+      "authors": [
+        "Ce-Heng Duan",
+        "Jia‐Qi Huang",
+        "Xiao-Juan Chen",
+        "Zhuozheng Hong",
+        "Huai-Chao Yi",
+        "Xing-Yu Du"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-01",
+      "image": null,
+      "summary_ko": "이 연구는 칼륨(K) 조절이 리튬을 포함한 소듐 층상 산화물 양극재의 국소 구조에 미치는 다양한 메커니즘적 영향을 규명한다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7204165109",
+      "source": "openalex",
+      "title": "Balancing diffusion kinetics and structure stability in medium-nickel layered cathode via Li/Ni cation mixing modulation",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112353",
+      "published": "2026-08-25",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112353",
+      "authors": [
+        "Yali Wen",
+        "Yu Tang",
+        "Kaining Zhang",
+        "Zhengbo Liu",
+        "Lunhua He",
+        "Shuoxiao Zhang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-01",
+      "image": null,
+      "summary_ko": "이 연구는 Li/Ni 양이온 혼합 조절을 통해 중니켈 함량 층상 양극재의 확산 동역학과 구조 안정성 사이의 균형을 다룬다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7204699782",
+      "source": "openalex",
+      "title": "Oxygen Redox Kinetics Regulation by Intermediate-Enriched Electrochemical Interfaces in Li–O2 Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c06386",
+      "published": "2026-08-24",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.6c06386",
+      "authors": [
+        "Yiming Zhang",
+        "Lanling Zhao",
+        "Jun Wang",
+        "Deyuan Li",
+        "Zhaorui Zhou",
+        "Jianfeng Mao"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Li–O2 batteries with high theoretical energy density are limited by low kinetics due to the insulating discharge product, which passivates the cathode surface, and hindering oxygen reduction/evolution reactions (ORR/OER). Herein, methylamine-intercalated MoS2 (MIMS) nanoflowers were synthesized and applied as the cathode to promote the catalytic reactions of Li–O2 batteries. The introduction of electron-rich methylamine facilitates charge injection into Mo 4d orbitals of MoS2, triggering its phase transition from 2H to 1T. This results in an elevated d-band center to enhance the adsorption energies toward key intermediate LiO2, boosting formation of film-like Li2O2. In situ EIS data combined with distribution of relaxation times (DRT) and distribution of capacitive times (DCT) analyses reveal the distinct electrocatalytic mechanisms of MIMS and MS cathodes, effectively illustrating the enhanced capacitive contribution and reduced interfacial impedance induced by dynamic oxygen intermediate evolution at the electrochemical interfaces on MIMS cathodes. The resultant Li–O2 batteries show a reduced voltage gap (0.85 V), high discharge/charge capacities (19083/18839 mAh g–1), and long-term stability (620 cycles at 1000 mA g–1). Besides, the fabricated pouch cells deliver a high energy density of 726.7 Wh kg–1 and stable operation over 1000 h, showing promise for practical use. These findings demonstrate the contribution of intercalation to the regulation of the interfacial chemistry and electrochemical performance of Li–O2 batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-09-01",
+      "image": null,
+      "summary_ko": "메틸아민이 삽입된 MoS2(MIMS) 나노플라워를 Li-O2 전지 양극 촉매로 적용하여 2H에서 1T로의 상전이를 유도하고 중간체 LiO2 흡착을 강화함으로써 필름형 Li2O2 생성을 촉진했다. 이를 통해 전압 격차 감소(0.85V), 높은 방전/충전 용량(19083/18839 mAh g-1), 620사이클의 장기 안정성을 달성했으며, 파우치셀에서도 726.7 Wh kg-1의 에너지 밀도로 1000시간 이상 안정적으로 작동함을 보였다.",
+      "relevant": true
+    }
+  ]
+}
