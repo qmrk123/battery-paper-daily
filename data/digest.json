@@ -1,60 +1,61 @@
 {
-  "title": "최근 2주 논문 브리핑 (8/21–8/29)",
-  "range": "2026-08-21 ~ 2026-08-29",
-  "overall": "이번 2주간의 연구는 리튬·소듐 금속 음극의 계면(SEI/CEI) 설계와 전해질 용매화 구조 조절에 압도적으로 집중되었으며, 고전압·고에너지·광온도 구동과 안전성을 동시에 확보하려는 흐름이 뚜렷하다. 양극 측에서는 Ni-rich·Li-rich의 열/구조 안정화와 Li-S·Li-Se 등 전환형 화학의 반응 메커니즘 규명이 주요 축을 이룬다.",
+  "title": "최근 2주 논문 브리핑 (8/23–8/31)",
+  "range": "2026-08-23 ~ 2026-08-31",
+  "overall": "이번 2주간 금속 음극 연구는 용매화 구조 재설계와 무기물(LiF/NaF·Li3N) 풍부 계면 형성을 통한 안정화에 집중되었고, 양극 측에서는 산소 산화환원 제어와 열폭주 억제, 고용량 유기·전환형 소재 개발이 두드러졌다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 용매화 구조 재설계가 압도적 주류로, 음이온 우세 용매화·약배위 첨가제·불소화 에테르를 통해 LiF/Li3N이 풍부한 무기 계면을 유도하는 접근이 반복적으로 등장한다. 젤·고분자 전해질(PVDF-HFP, 젤폴리머, 딥유텍틱 젤)로 인화성 억제와 응력 완화를 함께 노리며 고전압·광온도 파우치셀 실증까지 이어지는 점이 특징이다. 국소 pKa나 대규모 쿨롱효율 데이터 분석 등 예측 지표·데이터 기반 설계가 부상하고, MXene 호스트·(110) 배향 증착·COF 분리막 등 물리적 계면·구조 제어도 병행된다.",
+      "text": "대부분의 연구가 용매화 구조 재구성을 핵심 전략으로 삼아, 약배위 분자·불소화 방향족·음이온 수용체 첨가제 등으로 음이온 참여를 늘리고 LiF·Li3N이 풍부한 무기 계면을 유도해 고전압(4.5V급)·고에너지(최대 600 Wh/kg급) 셀의 수명을 확보했다. 겔·준고체 고분자 전해질(PVDF-HFP, MGPE, NFGPE)에서는 잔류 용매 배위 제어와 in situ 중합을 결합해 이온전도와 안전성(난연·못관통)을 동시에 달성하려는 흐름이 뚜렷하다. 전고체 방면에서는 보이드 억제, 산화환원 매개(Bi3+/Li3Bi) 적응형 이중층 계면 등 계면 동역학 제어가 부각되었고, 결정 슬립 기반 (110) 배향 증착이나 데이터 기반 쿨롱효율 분석 등 메커니즘·방법론적 접근도 등장했다.",
       "highlights": [
         {"title": "Additive strongly-coordinated solvation structure towards high-voltage 600 Wh/kg-class lithium metal pouch cell", "url": "https://doi.org/10.1038/s41467-026-77095-x", "venue": "Nature Communications"},
-        {"title": "Local Acidity as a Corrosiveness Descriptor of Fluorinated Ether Solvents in Lithium\u2013Metal Batteries", "url": "https://doi.org/10.1002/ange.1576222", "venue": "Angewandte Chemie"},
-        {"title": "Void suppressive lithium anodes for all-solid-state batteries", "url": "https://doi.org/10.1038/s41563-026-02729-w", "venue": "Nature Materials"}
-      ]
-    },
-    {
-      "topic": "other-cathode",
-      "heading": "기타 양극",
-      "text": "Li-S 전지의 폴리설파이드 셔틀·전환 동역학 개선이 다수를 차지하며, 이원자 촉매·이종계면·사슬길이 의존 계단식 촉매 등 전환 반응을 가속하는 촉매 설계가 집중적으로 탐구된다. 나아가 Li-Se·Li-Te·Li-O2 등 다른 전환형 화학의 반응 경로를 오퍼란도로 규명하거나 고원자가 산화환원을 여는 시도가 나타난다. 유기 전극(대환형 퀴논)과 산화물계 전고체 복합 양극(LCO/LLZO) 등 소재·공정 다변화도 관측된다.",
-      "highlights": [
-        {"title": "Direct visualization of complex mechanisms in lithium tellurium batteries", "url": "https://doi.org/10.1038/s41467-026-76636-8", "venue": "Nature Communications"},
-        {"title": "Unlocking High-Valent Chalcogen Redox with Halide-Rich Electrolytes for High-Energy Lithium Batteries", "url": "https://doi.org/10.1038/s41467-026-77258-w", "venue": "Nature Communications"},
-        {"title": "Macrocyclic molecular engineering enables high-energy and durable organic electrode for lithium-ion batteries", "url": "https://doi.org/10.1038/s41467-026-76984-5", "venue": "Nature Communications"}
+        {"title": "Void suppressive lithium anodes for all-solid-state batteries", "url": "https://doi.org/10.1038/s41563-026-02729-w", "venue": "Nature Materials"},
+        {"title": "Local Acidity as a Corrosiveness Descriptor of Fluorinated Ether Solvents in Lithium–Metal Batteries", "url": "https://doi.org/10.1002/ange.1576222", "venue": "Angewandte Chemie"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속전지 역시 전해질 용매화·계면 첨가제 설계가 핵심으로, 공용매화·배위형 첨가제·경쟁적 음이온 흡착을 통해 NaF가 풍부한 견고한 SEI/CEI를 형성하는 전략이 공통적이다. 이를 바탕으로 고전압·급속충전·-60~80°C의 극저온 광온도 구동을 겨냥하며, 대칭셀 수천 시간·완전셀 수천 사이클의 장수명 실증이 두드러진다. 무전극(anode-free) 계면을 단계 결합 관점으로 재해석하거나 Na-S 전지의 셔틀·덴드라이트를 분리막·전해질로 동시 제어하는 접근도 등장한다.",
+      "text": "소듐 금속전지 연구는 전해질 설계에 집중되어, 음이온 수용체·공용매화·배위형 첨가제로 Na+ 용매화를 조절하고 NaF가 풍부한 견고한 SEI/CEI를 형성하는 전략이 공통적으로 나타났으며, 특히 고전압·저온(-30°C) 안정성과 초고율(최대 100C)·초장수명(수천 사이클) 구현이 강조되었다. NASICON 고체전해질의 입계·계면 제어와 준고체 젤 전해질을 통한 전고체·준고체화 시도도 함께 진행되었다. 아울러 소듐-황 전지에서는 희석제-용매 상호작용 조절과 구배형 분리막으로 폴리설파이드 셔틀과 덴드라이트를 동시에 억제하려는 접근이 관찰된다.",
       "highlights": [
-        {"title": "Coordination Chemistry Enabled Multifunctional Electrolytes for High\u2010Rate and Long\u2010Cycle Sodium\u2010Metal Batteries", "url": "https://doi.org/10.1002/aenm.71442", "venue": "Advanced Energy Materials"},
-        {"title": "A Dual\u2010Interface Stabilizing Additive for High\u2010voltage Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.5330124", "venue": "Angewandte Chemie International Edition"},
-        {"title": "A Stage\u2010Coupled View of Interfacial Reconstruction in Anode\u2010Free Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.3647021", "venue": "Angewandte Chemie International Edition"}
+        {"title": "A Dual‐Interface Stabilizing Additive for High‐voltage Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.5330124", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Coordination Chemistry Enabled Multifunctional Electrolytes for High‐Rate and Long‐Cycle Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/aenm.71442", "venue": "Advanced Energy Materials"},
+        {"title": "Na 2 Ti 3 O 7 ‐Assisted Grain‐Boundary Tailoring of NASICON Electrolytes for Room‐to‐Subzero‐Temperature All‐Solid‐State Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.8268615", "venue": "Angewandte Chemie International Edition"}
+      ]
+    },
+    {
+      "topic": "other-cathode",
+      "heading": "기타 양극",
+      "text": "차세대 고용량 양극으로 유기 전극(대환형 벤조퀴논)과 전환형 칼코겐(Se·Te·S) 소재가 다수 등장해, 다전자 산화환원과 고비에너지(최대 2003 Wh/kg급)를 지향했다. 리튬-황·리튬-공기 전지에서는 이원자·상전이 촉매를 통한 산화환원 동역학 가속과 중간체 흡착 제어가 핵심 주제였으며, 오퍼란도 분석으로 Li-Te 등 복잡한 반응 경로를 규명하는 메커니즘 연구도 포함되었다. 전고체 지향의 복합 양극 필름(LCO/LLZO)과 결함공학(FeOF), 저온 Li||CFx 계면 설계 등 제조·계면 측면의 다양화도 확인된다.",
+      "highlights": [
+        {"title": "Macrocyclic molecular engineering enables high-energy and durable organic electrode for lithium-ion batteries", "url": "https://doi.org/10.1038/s41467-026-76984-5", "venue": "Nature Communications"},
+        {"title": "Unlocking High-Valent Chalcogen Redox with Halide-Rich Electrolytes for High-Energy Lithium Batteries", "url": "https://doi.org/10.1038/s41467-026-77258-w", "venue": "Nature Communications"},
+        {"title": "Direct visualization of complex mechanisms in lithium tellurium batteries", "url": "https://doi.org/10.1038/s41467-026-76636-8", "venue": "Nature Communications"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "Ni-rich 양극의 표면 산소 방출·열폭주·구조 붕괴를 억제하는 안정화 전략이 중심으로, 표면 이중상 코팅(페로브스카이트 La계), 나노 올리빈 복합화, 구조/계면 시너지 엔지니어링이 대표적이다. 열화가 표면에서 벌크로 전파되는 '도미노' 기구 규명처럼 실패 메커니즘 이해에 기반한 설계가 강조되며, 열폭주 지연·광온도 구동 등 안전성·내구성 지표가 함께 제시된다. 중니켈 조성에서는 Li/Ni 양이온 혼합 조절로 확산 동역학과 구조 안정성의 균형을 꾀한다.",
+      "text": "NCM 양극 연구는 단결정화와 입계·양이온 혼합 등 구조 인자가 저온 리튬 확산과 안정성에 미치는 영향을 정량적으로 규명하는 데 초점을 맞췄다. 열 안전성 측면에서는 표면에서 벌크로 전파되는 '도미노' 열폭주 기구를 밝히고 나노 올리빈 복합화로 이를 차단하는 전략이 제시되었다. 또한 고전압 리튬 금속전지와의 조합에서 니트릴계·난연성 전해질과 준고체 전해질을 활용해 NCM811·NCM83 계면을 안정화하는 접근이 다수 나타났다.",
       "highlights": [
-        {"title": "Interrupting Surface\u2010to\u2010Bulk Domino Propagation: A Thermal Failure Mitigation Strategy for Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adma.74738", "venue": "Advanced Materials"},
-        {"title": "Anchored Oxygen\u2010Release\u2010Suppression Phase Stabilizing High\u2010Voltage Ni\u2010Rich Cathode Materials", "url": "https://doi.org/10.1002/anie.9916183", "venue": "Angewandte Chemie International Edition"}
+        {"title": "Interrupting Surface‐to‐Bulk Domino Propagation: A Thermal Failure Mitigation Strategy for Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adma.74738", "venue": "Advanced Materials"},
+        {"title": "Synthesis‐Dependent Grain Boundary Density Governs Low‐Temperature Lithium Diffusion in Single‐Crystal NCM Cathodes", "url": "https://doi.org/10.1002/advs.77448", "venue": "Advanced Science"},
+        {"title": "Balancing diffusion kinetics and structure stability in medium-nickel layered cathode via Li/Ni cation mixing modulation", "url": "https://doi.org/10.1016/j.nanoen.2026.112353", "venue": "Nano Energy"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 망간계 층상 양극의 고질적 문제인 산소 산화환원 불안정성과 화학-기계적 열화를 함께 다루는 연구가 나타난다. 공극 형성·La 도핑으로 응력을 흡수하고 골격을 견고화하거나, 엔트로피 변화 조절로 구조적 열 안정성을 높이는 등 격자·응력 수준의 제어가 주요 방향이다. 고비에너지(580 Wh/kg급) 구현과 사이클 유지율 개선을 동시에 겨냥한다.",
+      "text": "리튬 과잉 층상 양극 연구는 산소 산화환원 활성화가 유발하는 계면 라디칼 손상과 화학-기계적 열화를 완화하는 데 집중되었다. 불소화 폴리이미드 계면층으로 전자 장벽을 높여 산소 방출을 억제하거나, 공극 형성과 La 도핑을 결합해 응력을 흡수하고 골격을 견고화하는 전략이 제시되어, 580 Wh/kg급 비에너지와 함께 장기 사이클 안정성을 확보했다.",
       "highlights": [
-        {"title": "Decoupling Chemo\u2010Mechanical Failure for Robust Li\u2010Rich Cathodes", "url": "https://doi.org/10.1002/adfm.78033", "venue": "Advanced Functional Materials"},
-        {"title": "Modulating entropy change for bolstering structural thermal stability of li-rich materials", "url": "https://doi.org/10.1016/j.mattod.2026.103490", "venue": "Materials Today"}
+        {"title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium‐Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/anie.6759160", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Decoupling Chemo‐Mechanical Failure for Robust Li‐Rich Cathodes", "url": "https://doi.org/10.1002/adfm.78033", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "lfp",
       "heading": "LFP/올리빈",
-      "text": "올리빈 LiFePO4의 구조-합성-성능을 통합 정리한 리뷰와 함께, 저온 실패를 완화하려는 공정·구조 엔지니어링이 제시된다. 도핑·탄소 엔지니어링·형상 제어 등 기존 최적화 축을 재정리하는 한편, 줄히팅 기반 리베팅으로 형성한 내장 전기장으로 저온 성능 저하를 억제하는 접근이 시도된다.",
+      "text": "올리빈계 LFP 연구는 결정구조-합성-성능-제조를 아우르는 통합 리뷰와, 저온 실패 현상을 억제하기 위한 계면 엔지니어링으로 나뉘어 나타났다. 특히 줄히팅 기반 리베팅으로 내장 전기장을 형성해 저온 성능 저하를 완화하는 접근이 제시되어, 급속충전·극한 조건 구동 등 실용화 방향을 시사한다.",
       "highlights": [
         {"title": "Comprehensive Review of Synthesis, Structure, and Electrochemical Performance of LiFePO 4", "url": "https://doi.org/10.1002/advs.77203", "venue": "Advanced Science"},
         {"title": "Built-in-field-regulated low-temperature failure in LiFePO4 cathodes through joule-heating-induced riveting engineering", "url": "https://doi.org/10.1016/j.ensm.2026.105487", "venue": "Energy storage materials"}
