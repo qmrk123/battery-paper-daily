@@ -57,7 +57,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77440",
+        "cached": "img/W7204435581.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77440"
+      },
       "summary_ko": "소듐-황(Na-S) 전지에서 나트륨 덴드라이트 성장과 폴리설파이드 셔틀 문제를 해결하기 위해 희석제-용매 상호작용을 조절한 국소 고농도 전해질(LHCE-DEE/TTEE)을 설계했다. DME 대신 중간 정도의 용매화력을 가진 DEE를 사용해 Na+ 수송 마찰을 줄이고 음이온이 풍부한 용매화 클러스터를 형성했으며, Na||Na 대칭 셀에서 2500시간의 안정적 사이클링과 고면적황부하 파우치셀에서도 안정성을 입증했다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78015",
+        "cached": "img/W7204483304.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78015"
+      },
       "summary_ko": "PVDF-HFP 고분자 전해질에서 잔류 DMF 용매가 Li+와 강하게 배위해 이온수송과 계면 탈용매화를 저해하는 문제를 해결하기 위해, 약배위성 분자인 T3AM을 도입해 TFSI- 음이온이 Li+ 배위에 더 많이 참여하도록 재구성했다. 이온전도도 0.34 mS/cm, Li+ 이동수 0.55를 달성했고, Li||Li 대칭셀에서 1500시간, Li||NCM811 완전셀에서 60°C·1C 조건 340사이클 후 80% 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -117,7 +129,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74738",
+        "cached": "img/W7204453855.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74738"
+      },
       "summary_ko": "층상 전이금속 산화물 양극의 열폭주가 표면에서 시작해 벌크 구조 붕괴로 전파되는 '도미노' 열화 기구를 규명하고, 마이크로 크기 층상산화물에 나노 올리빈 LMFP를 복합화하는 전략으로 이를 억제했다. 이 설계는 3.75 g/cm³의 압밀밀도와 1000사이클 후 86% 용량 유지율을 달성했으며, 양극 및 암페어아워급 셀에서 각각 61.3°C, 21.4°C의 열폭주 지연 효과로 대피 시간을 16분 이상 확보했다.",
       "relevant": true
     },
@@ -147,7 +165,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77436",
+        "cached": "img/W7204465050.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77436"
+      },
       "summary_ko": "상온 소듐-황(RT Na-S) 전지의 폴리설파이드 셔틀과 나트륨 덴드라이트 문제를 동시에 해결하기 위해 ZIF-67(양극측)과 ZnF2(음극측)를 비대칭 코팅한 구배형 분리막을 개발했다. ZIF-67은 폴리설파이드를 물리·화학적으로 포집·촉매 전환시키고 ZnF2는 Na+ 플럭스를 균일화해 NaF가 풍부한 견고한 SEI 형성을 유도하며, 1.0 mA/cm²에서 2000시간 이상의 안정적 도금/탈리와 완전셀에서 400사이클 후 76%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -177,7 +201,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78033",
+        "cached": "img/W7204446621.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78033"
+      },
       "summary_ko": "리튬 과잉 망간계 층상 양극(LRM)의 화학적 열화(음이온 산화환원, 전이금속 이동)와 기계적 열화를 동시에 해결하기 위해 공극 형성과 La 도핑을 결합한 전략을 제안했다. 형성된 공극은 응력을 흡수해 기계적 손상을 완화하고 La 도핑은 La-O 공유결합을 강화해 골격을 견고화하고 과도한 산소 산화를 억제함으로써, 580.5 Wh/kg의 비에너지와 300사이클·1C 후 82.1%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -301,7 +331,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6028878",
+        "cached": "img/W7204485197.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6028878"
+      },
       "summary_ko": "고전압 리튬금속전지에서 LiPF6/FEC 전해질의 PF5-FEC 분해 경로를 억제하는 다기능 젤 고분자 전해질(MGPE)을 개발했다. 불소화 방향족 첨가제로 Li+ 용매화 구조를 조절하고 PF6- 결합력이 강한 불소화 고분자 네트워크를 in situ 중합해 양쪽 전극에 LiF가 풍부한 계면을 형성함으로써, Li||LiCoO2 셀에서 4.5V·400사이클 후 82.6%, 1.3Ah 파우치셀에서 30사이클 후 80.7%의 용량 유지율을 달성했다.",
       "relevant": true
     },

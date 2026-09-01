@@ -59,7 +59,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.1576222",
+        "cached": "img/W7162333480.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.1576222"
+      },
       "summary_ko": "불소화 에테르 용매(EME/MEP 유도체)의 불소 치환 정도가 리튬 금속 계면 반응성에 미치는 영향을 국소 pKa라는 부위별 열역학적 지표로 규명했다. 기존 LUMO 기반 예측과 달리 국소 산성도가 부식성을 더 잘 설명하며, 적절히 불소화된 F4MEP가 무기물 위주의 보호성 계면을 형성하는 최적 용매로 확인되었다. F4MEP 기반 전해질을 사용한 20 μm Li‖NCM811 완전셀은 368사이클 후 80%의 용량을 유지했다.",
       "relevant": true
     },
@@ -89,7 +95,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77494",
+        "cached": "img/W7204654683.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77494"
+      },
       "summary_ko": "Ni 전기도금 섬유(textile)를 전도성 호스트로 사용하고 Ag 나노입자와 아민계 리간드로 형성한 초박막 친리튬 계면층(~44 nm)을 전극에, 수소결합 기반 폴리에틸렌이민/폴리아크릴산 계면층(~2 nm)을 분리막에 도입하는 이중 계면 엔지니어링 전략을 제시했다. 이를 통해 리튬 이온 플럭스를 균일화하여 덴드라이트 성장을 억제했으며, 대칭셀은 1 mA/cm²·1 mAh/cm² 조건에서 2200시간 이상 안정적으로 구동되었다. LFP 기반 완전셀은 1C에서 5000사이클 후 약 72%의 용량을 유지했다.",
       "relevant": true
     },
@@ -119,7 +131,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77203",
+        "cached": "img/W7204652691.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77203"
+      },
       "summary_ko": "올리빈 구조 LiFePO4(LFP) 양극재의 결정구조-합성-성능-제조를 통합적으로 다룬 리뷰 논문이다. 전구체 화학, 합성 경로, 형상 제어, 탄소 엔지니어링, 도핑 전략이 상형성, 전하수송, 전기화학 거동에 미치는 영향을 정리했으며, Fe2+ 안정화와 재활용·재생 기술을 특히 강조했다. 고체전지 적용, 데이터 기반 소재 발굴, 극한 조건 구동, 급속충전 및 고밀도 전극 설계 등 향후 방향도 제시한다.",
       "relevant": true
     },
@@ -205,7 +223,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77440",
+        "cached": "img/W7204435581.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77440"
+      },
       "summary_ko": "소듐-황(Na-S) 전지에서 나트륨 덴드라이트 성장과 폴리설파이드 셔틀 문제를 해결하기 위해 희석제-용매 상호작용을 조절한 국소 고농도 전해질(LHCE-DEE/TTEE)을 설계했다. DME 대신 중간 정도의 용매화력을 가진 DEE를 사용해 Na+ 수송 마찰을 줄이고 음이온이 풍부한 용매화 클러스터를 형성했으며, Na||Na 대칭 셀에서 2500시간의 안정적 사이클링과 고면적황부하 파우치셀에서도 안정성을 입증했다.",
       "relevant": true
     },
@@ -235,7 +259,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78015",
+        "cached": "img/W7204483304.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78015"
+      },
       "summary_ko": "PVDF-HFP 고분자 전해질에서 잔류 DMF 용매가 Li+와 강하게 배위해 이온수송과 계면 탈용매화를 저해하는 문제를 해결하기 위해, 약배위성 분자인 T3AM을 도입해 TFSI- 음이온이 Li+ 배위에 더 많이 참여하도록 재구성했다. 이온전도도 0.34 mS/cm, Li+ 이동수 0.55를 달성했고, Li||Li 대칭셀에서 1500시간, Li||NCM811 완전셀에서 60°C·1C 조건 340사이클 후 80% 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -265,7 +295,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74738",
+        "cached": "img/W7204453855.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74738"
+      },
       "summary_ko": "층상 전이금속 산화물 양극의 열폭주가 표면에서 시작해 벌크 구조 붕괴로 전파되는 '도미노' 열화 기구를 규명하고, 마이크로 크기 층상산화물에 나노 올리빈 LMFP를 복합화하는 전략으로 이를 억제했다. 이 설계는 3.75 g/cm³의 압밀밀도와 1000사이클 후 86% 용량 유지율을 달성했으며, 양극 및 암페어아워급 셀에서 각각 61.3°C, 21.4°C의 열폭주 지연 효과로 대피 시간을 16분 이상 확보했다.",
       "relevant": true
     },
@@ -295,7 +331,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77436",
+        "cached": "img/W7204465050.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77436"
+      },
       "summary_ko": "상온 소듐-황(RT Na-S) 전지의 폴리설파이드 셔틀과 나트륨 덴드라이트 문제를 동시에 해결하기 위해 ZIF-67(양극측)과 ZnF2(음극측)를 비대칭 코팅한 구배형 분리막을 개발했다. ZIF-67은 폴리설파이드를 물리·화학적으로 포집·촉매 전환시키고 ZnF2는 Na+ 플럭스를 균일화해 NaF가 풍부한 견고한 SEI 형성을 유도하며, 1.0 mA/cm²에서 2000시간 이상의 안정적 도금/탈리와 완전셀에서 400사이클 후 76%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -325,7 +367,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78033",
+        "cached": "img/W7204446621.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78033"
+      },
       "summary_ko": "리튬 과잉 망간계 층상 양극(LRM)의 화학적 열화(음이온 산화환원, 전이금속 이동)와 기계적 열화를 동시에 해결하기 위해 공극 형성과 La 도핑을 결합한 전략을 제안했다. 형성된 공극은 응력을 흡수해 기계적 손상을 완화하고 La 도핑은 La-O 공유결합을 강화해 골격을 견고화하고 과도한 산소 산화를 억제함으로써, 580.5 Wh/kg의 비에너지와 300사이클·1C 후 82.1%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -547,7 +595,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6028878",
+        "cached": "img/W7204485197.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6028878"
+      },
       "summary_ko": "고전압 리튬금속전지에서 LiPF6/FEC 전해질의 PF5-FEC 분해 경로를 억제하는 다기능 젤 고분자 전해질(MGPE)을 개발했다. 불소화 방향족 첨가제로 Li+ 용매화 구조를 조절하고 PF6- 결합력이 강한 불소화 고분자 네트워크를 in situ 중합해 양쪽 전극에 LiF가 풍부한 계면을 형성함으로써, Li||LiCoO2 셀에서 4.5V·400사이클 후 82.6%, 1.3Ah 파우치셀에서 30사이클 후 80.7%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -577,7 +631,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77878",
+        "cached": "img/W7204276580.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77878"
+      },
       "summary_ko": "용매 접근과 Li+ 수송을 분리하기 위해 표면이 부동태화된 다공성 MXene 호스트(SP-MXH)를 리튬-황전지용 리튬 금속 음극에 적용했다. pEGDMA 유래 초박막 부동태층이 용매 침투와 표면 부반응을 억제하면서 Li+ 이동수를 약 0.48에서 0.59로 높여 균일한 내부 리튬 도금을 유도했고, 99.6%의 쿨롱효율과 1000사이클 이상의 안정적 사이클 특성을 보였다. 완전지에서는 폴리설파이드 셔틀을 억제해 100사이클 후에도 SEI 내 Li2S2/Li2S 축적을 약 5%로 제한하며 황 기준 2100 Wh kg-1의 에너지밀도와 300사이클 후 70%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -608,7 +668,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74659",
+        "cached": "img/W7204252095.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74659"
+      },
       "summary_ko": "특정 기판이나 전기화학 조건에 의존하지 않고, 응력에 의한 결정 슬립을 통해 리튬(및 소듐) 금속의 (110) 우선배향 비에피택셜 증착을 구현하는 메커니즘을 제시했다. 이 방식은 Li‖Li 대칭전지에서 2000시간 이상, Li‖NCM811 완전지에서 500사이클 이상의 안정적 구동을 가능하게 했으며, 별도의 기판 개질이나 계면 공학 없이도 광범위한 시스템에 적용 가능하다. 동일한 응력 기반 (110) 배향 형성 원리가 소듐 금속 음극에도 확장 적용됨을 확인했다.",
       "relevant": true
     },
@@ -727,7 +793,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77962",
+        "cached": "img/W7204273910.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77962"
+      },
       "summary_ko": "NaPF6 기반 전해질에서 카보네이트/에테르 공용매화를 이용해 저온 소듐 금속전지의 벌크 수송, 탈용매화, 고전압 안정성, 계면 강건성을 동시에 만족시키는 전략을 제시했다. PC/THF 비율 조절을 통해 이온쌍 형성을 조절하고 산화반응성을 낮추면서 Na+ 탈용매화 장벽을 감소시켜, NaF가 풍부한 SEI/CEI를 형성함을 XPS·XRD로 확인했다. 고전압 Na-rich 층상산화물 Na2NiFeMnO6를 적용한 완전지는 상온에서 거의 이론용량에 가까운 가역용량을 나타냈고 280사이클 동안 용량 감소가 미미했으며, -30°C에서도 가역적인 소듐화/탈소듐화가 가능했다.",
       "relevant": true
     },
@@ -756,7 +828,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71442",
+        "cached": "img/W7204269545.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71442"
+      },
       "summary_ko": "소듐 금속전지의 불안정한 SEI 문제를 해결하기 위해 용매 배위형 첨가제인 테트라메톡시게르만(Ge(OCH3)4)을 전해질에 도입했다. 이 첨가제는 Na+-용매 배위력을 약화시켜 Na+ 수송 속도를 높이고, Na 금속 표면에 Ge/GeO2를 포함한 SEI를 형성해 핵생성 에너지 장벽을 낮춤으로써 균일한 Na+ 증착을 유도한다. Na‖Na 대칭전지는 10 mA cm-2의 고전류밀도에서 3500사이클 이상 안정적으로 구동했고, NVP‖Na 완전지는 100C의 초고율에서도 구동 가능했으며 20C에서 4400사이클 동안 93.3%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -816,7 +894,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5330124",
+        "cached": "img/W7204275415.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5330124"
+      },
       "summary_ko": "고전압 소듐 금속전지의 계면 불안정성을 해결하기 위해 피리딘 3-트리플루오로보레이트칼륨(KPBF3)을 이중계면 안정화 첨가제로 제안했다. 피리딘 모이어티가 음이온의 LUMO 에너지를 낮추고 Na+와의 결합력을 높여 PBF3-의 우선적 환원 분해를 유도, NaF가 풍부한 견고한 SEI를 형성해 덴드라이트 성장을 억제하고, B-F 결합 해리를 통해 얇고 균일한 NaF 기반 CEI를 형성해 고전압 안정성을 크게 향상시켰다. Na‖Na 대칭전지는 5 mA cm-2에서 6000시간의 초장수명 사이클을, Na‖Na3V2(PO4)2F3 전지는 10C·4.3V에서 10000사이클 후 90.8%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -908,7 +992,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74775",
+        "cached": "img/W7204247942.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74775"
+      },
       "summary_ko": "NCM811-리튬 금속전지의 전해질 인화성과 전극 계면 호환성 문제를 동시에 해결하기 위해 다관능성 불포화 올리고머 전해질 첨가제(PE)를 설계했다. 유연 세그먼트가 리튬이온 수송을 돕고, 인 함유 세그먼트가 기상·응축상 양쪽에서 난연 효과를 내며, P=O와 C=C의 시너지로 음이온 우세 용매화 구조를 형성해 LiF/LixPOy가 풍부한 계면층을 리튬 금속 음극과 고전압 NCM811 양극 표면에 동시에 형성한다. NCM811‖Li 전지는 1C에서 500사이클 이상 80%의 용량을 유지했고, 5C에서도 160사이클 후 76%의 용량을 유지하면서 전해질 인화성도 크게 낮아졌다.",
       "relevant": true
     },
@@ -971,7 +1061,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-08-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71490",
+        "cached": "img/W7204259819.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71490"
+      },
       "summary_ko": "단일 용액 분무 증착법으로 최대 750°C의 저온 공정에서 LiCoO2/LLZO 복합 양극 필름을 제작해 산화물계 전고체전지의 확장성 있는 제조 경로를 제시했다. 치밀하고 균열 없는 나노결정 상분리 미세구조가 형성되며, 입방정 LLZO와 층상 LiCoO2가 독립적으로 결정화되고 코발트의 LLZO 확산은 거의 관찰되지 않았다. 리튬 금속을 적용한 완전지는 초기 방전용량 111.7 mAh g-1(CAM 기준)을 나타냈고 100사이클 후 93%의 용량을 유지했으며, 용량 감소는 주로 계면 임피던스 증가에 기인함을 확인했다.",
       "relevant": true
     },

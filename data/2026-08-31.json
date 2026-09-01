@@ -59,7 +59,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.1576222",
+        "cached": "img/W7162333480.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.1576222"
+      },
       "summary_ko": "불소화 에테르 용매(EME/MEP 유도체)의 불소 치환 정도가 리튬 금속 계면 반응성에 미치는 영향을 국소 pKa라는 부위별 열역학적 지표로 규명했다. 기존 LUMO 기반 예측과 달리 국소 산성도가 부식성을 더 잘 설명하며, 적절히 불소화된 F4MEP가 무기물 위주의 보호성 계면을 형성하는 최적 용매로 확인되었다. F4MEP 기반 전해질을 사용한 20 μm Li‖NCM811 완전셀은 368사이클 후 80%의 용량을 유지했다.",
       "relevant": true
     },
@@ -89,7 +95,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77494",
+        "cached": "img/W7204654683.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77494"
+      },
       "summary_ko": "Ni 전기도금 섬유(textile)를 전도성 호스트로 사용하고 Ag 나노입자와 아민계 리간드로 형성한 초박막 친리튬 계면층(~44 nm)을 전극에, 수소결합 기반 폴리에틸렌이민/폴리아크릴산 계면층(~2 nm)을 분리막에 도입하는 이중 계면 엔지니어링 전략을 제시했다. 이를 통해 리튬 이온 플럭스를 균일화하여 덴드라이트 성장을 억제했으며, 대칭셀은 1 mA/cm²·1 mAh/cm² 조건에서 2200시간 이상 안정적으로 구동되었다. LFP 기반 완전셀은 1C에서 5000사이클 후 약 72%의 용량을 유지했다.",
       "relevant": true
     },
@@ -119,7 +131,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-08-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77203",
+        "cached": "img/W7204652691.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77203"
+      },
       "summary_ko": "올리빈 구조 LiFePO4(LFP) 양극재의 결정구조-합성-성능-제조를 통합적으로 다룬 리뷰 논문이다. 전구체 화학, 합성 경로, 형상 제어, 탄소 엔지니어링, 도핑 전략이 상형성, 전하수송, 전기화학 거동에 미치는 영향을 정리했으며, Fe2+ 안정화와 재활용·재생 기술을 특히 강조했다. 고체전지 적용, 데이터 기반 소재 발굴, 극한 조건 구동, 급속충전 및 고밀도 전극 설계 등 향후 방향도 제시한다.",
       "relevant": true
     },
