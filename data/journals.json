@@ -179,6 +179,10 @@
   "metric": 6.97,
   "name": "The Chemical Record"
  },
+ "S135184319": {
+  "metric": 5.59,
+  "name": "ACS Photonics"
+ },
  "S135187643": {
   "metric": 18.38,
   "name": "Journal of Material Science and Technology"
@@ -1671,6 +1675,10 @@
   "metric": 8.69,
   "name": "中国科学通报：英文版"
  },
+ "S4377196123": {
+  "metric": 0.0,
+  "name": "Scientific periodicals of Ukraine"
+ },
  "S4377196266": {
   "metric": 0.03,
   "name": "elib (German Aerospace Center)"
@@ -1702,6 +1710,10 @@
  "S4387278552": {
   "metric": 4.32,
   "name": "Carbon Footprints"
+ },
+ "S4387278709": {
+  "metric": 0.3,
+  "name": "Jurnal Ilmiah Telsinas Elektro Sipil dan Teknik Informasi"
  },
  "S4387278853": {
   "metric": 0.18,
@@ -1871,6 +1883,10 @@
   "metric": 9.82,
   "name": "FlexMat."
  },
+ "S4404669065": {
+  "metric": 2.14,
+  "name": "Energy storage and applications"
+ },
  "S4404669861": {
   "metric": 0.19,
   "name": "Сибирский пожарно-спасательный вестник."
@@ -1942,6 +1958,10 @@
  "S5406942988": {
   "metric": 0.2,
   "name": "Journal of Molecular Science"
+ },
+ "S5406946469": {
+  "metric": 0.47,
+  "name": "Nigerian Journal of Physics"
  },
  "S5407003487": {
   "metric": 2.62,
@@ -2083,6 +2103,10 @@
   "metric": 3.61,
   "name": "Particuology"
  },
+ "S6309402219": {
+  "metric": 0.84,
+  "name": "Preprints.org"
+ },
  "S63322718": {
   "metric": 13.18,
   "name": "Materials Today"
@@ -2214,6 +2238,10 @@
  "S75741262": {
   "metric": 4.62,
   "name": "Langmuir"
+ },
+ "S7637673": {
+  "metric": 12.71,
+  "name": "Current Opinion in Solid State and Materials Science"
  },
  "S77047749": {
   "metric": 4.12,

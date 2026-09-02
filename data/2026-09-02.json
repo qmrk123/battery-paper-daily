@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-01T23:08:16+00:00",
+  "generated_at": "2026-09-02T23:08:03+00:00",
   "count": 10,
   "papers": [
     {
@@ -99,7 +99,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77363-w/MediaObjects/41467_2026_77363_Fig1_HTML.png",
+        "cached": "img/W7204853838.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77363-w"
+      },
       "summary_ko": "황화물 유리 고체전해질의 이온전도도를 원자구조만으로 예측하기 위해 최대유량(max-flow) 알고리즘 기반 프레임워크를 제안했다. 분자동역학 시뮬레이션으로 검증한 결과 정적 구조에서 계산된 최대유량과 이온전도도 사이에 양의 상관관계가 있음을 확인했으며, 특히 고전도성 황화물 유리 전해질에서 효과적이었다.",
       "relevant": false
     },
@@ -163,7 +168,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77277-7/MediaObjects/41467_2026_77277_Fig1_HTML.png",
+        "cached": "img/W7204786965.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77277-7"
+      },
       "summary_ko": "허약한 심혈관질환 노인 환자를 대상으로 재활운동, 교육, 영양관리, 지압마사지, 약물관리를 포함한 다학제 프로그램(RENAP)과 표준치료를 비교한 다기관 무작위대조시험이다. RENAP군은 12개월 후 Fried 허약 지표와 SPPB 점수에서 유의한 개선을 보였으며 중대한 치료 관련 이상반응은 없었다.",
       "relevant": false
     },
