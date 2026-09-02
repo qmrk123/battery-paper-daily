@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77968",
+        "cached": "img/W7204853103.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77968"
+      },
       "summary_ko": "소듐 금속전지의 탄산염 전해질에서 미량 수분에 의한 NaPF6 가수분해와 계면 불안정을 해결하기 위해 음이온 수용체 첨가제 LiTDI를 도입했다. LiTDI는 H2O/HF를 포집하고 PF6-와 배위해 Na+ 용매화 구조를 재구성함으로써 NaF/Na3N이 풍부한 SEI와 F/N이 풍부한 CEI를 형성시킨다. 그 결과 Na 대칭전지는 1 mA cm-2에서 400시간 안정 사이클링을, Na||Na3V2(PO4)3 완전전지는 2000회 후 80.36%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77448",
+        "cached": "img/W7204855811.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77448"
+      },
       "summary_ko": "공침법과 분무열분해법으로 합성한 중니켈 NCM613 단결정 양극재의 입계 밀도 차이가 저온 리튬 확산 거동에 미치는 영향을 비교했다. 분무열분해로 합성한 시료는 입계 밀도가 낮아 -10°C에서도 리튬 이동 불균일성과 표면 미세균열이 억제되어 전기화학적 열화가 완화됨을 확인했다.",
       "relevant": true
     },
@@ -117,7 +129,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.8268615",
+        "cached": "img/W7204772015.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.8268615"
+      },
       "summary_ko": "NASICON형 Na3Zr2Si2PO12(NZSP) 고체전해질의 치밀화, 입계 저항, Na 금속 계면 불안정 문제를 해결하기 위해 Na2Ti3O7을 반응성 소결조제로 도입해 TiO2 나노결정과 Na 보충종을 계면에 형성시켰다. 최적 조성(NZSP-Ti4)은 94.20%의 상대밀도와 상온 1.65 mS cm-1의 이온전도도, 0.27 eV의 활성화 에너지를 보였으며, 1.55 mA cm-2의 임계전류밀도와 1600시간 이상의 Na 대칭전지 사이클링을 달성했다.",
       "relevant": true
     },
@@ -175,7 +193,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78047",
+        "cached": "img/W7204858022.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78047"
+      },
       "summary_ko": "저온 준고체 소듐금속전지용 젤 고분자 전해질에서 폴리(비닐렌카보네이트)의 극성 C-O기가 Na+ 용매화 껍질에서 용매를 끌어내고 잔류 VC 단량체가 용매를 밀어내는 pull-expulsion 동역학을 제안했다. 이를 통해 음이온 참여가 늘어난 고분자 풍부 구배 계면이 형성되어 25°C에서 2.31 mS cm-1의 이온전도도를 얻었고, -30°C에서도 Na3V2(PO4)3||Na 완전전지가 1000회 사이클 후 97%의 용량 유지율과 20C의 우수한 율속 성능을 보였다.",
       "relevant": true
     },
@@ -205,7 +229,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6759160",
+        "cached": "img/W7204811129.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6759160"
+      },
       "summary_ko": "리튬 과잉 층상산화물(LLO) 양극의 산소 활성화로 인한 계면 라디칼 손상을 억제하기 위해 말단이 불소화된 폴리이미드(FPI) 계면층을 도입했다. 전자흡인성 CF3 말단기가 계면 전자장벽을 높여 라디칼 매개 열화와 산소 방출을 억제하면서도 백본의 이온전도 특성은 유지시켜, LLO-FPI는 1000회 사이클 후 80.8%의 용량 유지율을, Si/C||LLO-FPI 파우치셀은 409 Wh kg-1과 100회 사이클 90.1%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -236,7 +266,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78090",
+        "cached": "img/W7204765459.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78090"
+      },
       "summary_ko": "니트릴계 전해질의 고전압 안정성을 활용하면서 리튬 금속 부식 문제를 해결하기 위해 숙시노니트릴 전해질에 [EMIm]+BF4- 이온성 액체를 첨가하는 이중이온 매개 계면 전기장 전략을 제안했다. 양이온에 의한 계면 정전기장이 니트릴 분자를 음극 표면에서 배제해 부식을 방지하고 Li+ 플럭스를 균일화하며, 양극 표면에는 무기물이 풍부한 CEI가 형성되어 부반응을 억제한다. 4.5V로 충전된 Li||NCM811 파우치셀은 120회 이상 95.2%의 용량 유지율로 안정 작동했고 못뚫림 시험에서도 발화 없이 견뎠다.",
       "relevant": true
     },
