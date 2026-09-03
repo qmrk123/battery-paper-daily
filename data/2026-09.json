@@ -1,7 +1,7 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-02T23:05:49+00:00",
-  "count": 35,
+  "generated_at": "2026-09-03T23:04:03+00:00",
+  "count": 42,
   "papers": [
     {
       "id": "W7205015818",
@@ -76,6 +76,36 @@
       "relevant": true
     },
     {
+      "id": "W7206186590",
+      "source": "openalex",
+      "title": "Electrolyte Engineering Assisted by Pseudo‐Diluent for Stable and High‐Voltage Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78186",
+      "published": "2026-09-02",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.78186",
+      "authors": [
+        "Yiwen Gao",
+        "Yan Wang",
+        "Wenbo Wang",
+        "Guangye Wu",
+        "Tengteng Qing",
+        "Zhen Pei"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Practical sodium metal batteries (SMBs) remain hindered by Na dendritic growth and limited cathode areal loading (<1 mAh cm −2 ). Typical localized high concentration electrolytes (LHCEs) can offer wide electrochemical windows and improved physical properties, while critical challenges persist: (a) sluggish Na + interfacial exchange kinetics arising from a constrained Na + hopping mechanism, and (b) protracted solid electrolyte interphase (SEI) formation. Herein, a quasi‐localized high concentration electrolyte (q‐LHCE1) is designed by introducing a pseudo‐diluent, 2,2,2‐trifluoroethyl trifluoromethanesulfonate (TFE‐OTf), into sodium bis(fluorosulfonyl)imide (NaFSI)/diglyme (G2) system. TFE‐OTf not only strengthens cation‐anion interactions to promote a NaF‐dominated poly‐inorganic SEI, but also participates in the inner solvation sheath to enhance connectivity among solvation clusters. The resultant q‐LHCE1 enables superior cycling stability for 4.0 V Na|| NaNi 0.33 Fe 0.33 Mn 0.33 O 2 (NFM) cells with a high cathode loading of 14 mg cm −2 , and retains 80% of its initial capacity over 430 cycles at 0.3 C. The constructed NFM||Na cell with limited Na reservoir (N/P = 10.6) also achieves 96.8% capacity retention after 40 cycles at 0.1 C. This work sheds light on the Na + interfacial exchange kinetics and poly‐inorganic SEI formation, and offers a promising strategy for practical SMBs applications.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "실용적 소듐 금속 배터리(SMB)에서는 나트륨 덴드라이트 성장과 낮은 캐소드 면적당 용량이 문제로 지적된다. 저자들은 NaFSI/디글라임 국소 고농도 전해질에 TFE-OTf를 유사 희석제로 도입한 q-LHCE1을 설계하여 NaF 위주의 무기물 SEI 형성과 용매화 클러스터 간 연결성을 강화했다. 이를 통해 고부하(14 mg cm⁻²) NFM 캐소드를 사용한 4.0V Na||NFM 셀에서 0.3C로 430사이클 후 80% 용량 유지율을, 제한된 나트륨 저장량(N/P=10.6) 조건에서도 40사이클 후 96.8% 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
       "id": "W7205011824",
       "source": "openalex",
       "title": "Electric/Thermal Coupling Field Promotes Phonon Delocalization to Accelerate Defect‐Repair Kinetics in Spent LiFePO 4",
@@ -101,6 +131,34 @@
       "first_seen": "2026-09-03",
       "image": null,
       "summary_ko": "폐 LiFePO4 고상 재생 과정에서 포논 국소화가 결함 복구 속도를 저해하는 핵심 요인임을 이론 계산으로 규명하고, 전기·열 결합장을 도입해 포논 비국소화를 촉진하는 전략을 제안했다. 이를 통해 700°C에서 5초 만에 Li-Fe 안티사이트 결함을 복구했으며, 재생된 캐소드는 0.1C에서 151.2 mAh/g의 용량과 1100회 사이클 후 84.3%의 용량 유지율을 나타냈다.",
+      "relevant": false
+    },
+    {
+      "id": "W7205013750",
+      "source": "openalex",
+      "title": "Biomechanical energy harvesting to improve post-stroke mobility",
+      "url": "https://doi.org/10.1038/s41467-026-77394-3",
+      "published": "2026-09-02",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77394-3",
+      "authors": [
+        "Qiqi Pan",
+        "Yuyan Luo",
+        "Zhihe Long",
+        "Haobing Liang",
+        "Yi Zheng",
+        "Yuanyi Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Foot drop is a common post-stroke gait impairment that reduces toe clearance and compromises walking safety. Existing assistive interventions are often limited by passive compensation, external power requirements, and manual tuning. Here, we introduce a wearable, gait-timing-adaptive, self‑powered neuroprosthesis (SPN) that augments ankle dorsiflexion and corrects gait patterns, avoiding labor-intensive parameter tuning and eliminating the charging and reliability burdens of external batteries. The SPN leverages gait’s out‑of‑phase mechanics: it harvests mechanical energy during stance on the non‑paretic limb and immediately converts it into electrical stimulation of the tibialis anterior on the paretic limb during swing, increasing dorsiflexion when foot clearance is required. In ambulatory stroke survivors with preserved walking capacity, foot drop, and lower-limb impairment (Fugl-Meyer LE Score: 13-27/34, Modified Ashworth Scale-Ankle Plantarflexors: 0-2), the SPN assistance produced immediate, clinically meaningful gains during outdoor walking: dorsiflexion angle improved from −1.1° to 6.8°, walking distance increased by 67.3%, speed by 43.5%, and gait variability decreased by 71.9%. These findings demonstrate the SPN’s potential to restore dorsiflexion, enhance mobility, and improve overall quality of life for individuals recovering from stroke, particularly those at later stages of life. Foot drop after stroke reduces toe clearance and walking safety. Here, Pan et al. report a gait-timing-adaptive, self-powered neuroprosthesis that harvests gait energy to augment ankle dorsiflexion, improving outdoor walking distance and speed, and reducing gait variability in stroke survivors.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77394-3",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "뇌졸중 후 발목저하(foot drop) 환자를 위해 보행 타이밍에 적응하는 자가발전형 신경보철(SPN)을 개발했다. 비마비측 다리의 보행 에너지를 수확해 마비측 전경골근을 자극함으로써 배터리 충전이나 외부 전원 없이 발목 배굴을 보조한다. 실제 보행 실험에서 배굴각, 보행거리, 속도가 개선되고 보행 변동성이 감소했다.",
       "relevant": false
     },
     {
@@ -282,6 +340,34 @@
       "relevant": false
     },
     {
+      "id": "W7206218367",
+      "source": "openalex",
+      "title": "Revealing the Dominant Role of Spatial Lithium Distribution in the Kinetics of Lithium-Ion Batteries via Operando Neutron Depth Profiling",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105501",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105501",
+      "authors": [
+        "Yuanhan Sun",
+        "Hao Liu",
+        "Liang Zhao",
+        "Wenxin Tong",
+        "Tao Zeng",
+        "Wenqing Yao"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "오퍼란도 중성자 심도 프로파일링을 이용해 리튬이온전지 내 공간적 리튬 분포가 반응 속도론에 미치는 지배적 역할을 규명한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7204955074",
       "source": "openalex",
       "title": "Multi-element surface modification of Cu2S enables oriented potassium deposition and a K2S-rich solid electrolyte interphase for ultrastable dendrite-free potassium metal batteries",
@@ -393,6 +479,34 @@
       "image": null,
       "summary_ko": "계면 엔지니어링을 통해 코발트 프리 Li-rich Mn계 캐소드의 산소 산화환원 가역성을 안정화하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "W7205707893",
+      "source": "openalex",
+      "title": "Engineering battery architectures for multifunctionality and high performance",
+      "url": "https://doi.org/10.1016/j.joule.2026.102642",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.joule.2026.102642",
+      "authors": [
+        "Man Chen",
+        "Xiaolin Guo",
+        "Yanyu Chen",
+        "Karim Zaghib",
+        "Jagjit Nanda",
+        "Hui Wang"
+      ],
+      "venue": "Joule",
+      "abstract_en": "Next-generation batteries demand architectural innovations that overcome the design limits of electrochemistry alone in conventional lithium-ion batteries (LIBs). This review summarizes architectural design strategies for LIBs and emerging battery systems, classifying them into 1D fiber-based, 2D planar, and 3D architectures. 1D designs, such as coaxial fibers, twisted assemblies, and winding configurations, offer flexibility and mechanical resilience for wearable and microscale batteries. 2D architectures, including interdigitated, pillar-based, and mesh frameworks, are reviewed alongside deformable (serpentine and origami/kirigami) and nature-inspired (e.g., accordion-like) geometries that enhance stretchability and flexibility while preserving electrochemical performance. 3D structural batteries, focused on volumetric design and energy densification, are examined for their potential to combine mechanical resilience with electrochemical functionality. Each architectural class is assessed for its design principles, performance trade-offs, and fabrication feasibility. By correlating architectural designs with advancements in additive manufacturing, this review outlines pathways to address electro-chemo-mechanical coupling challenges and guide the development of next-generation architected batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.joule.2026.102642",
+      "license": "cc-by",
+      "journal_id": "S2898305631",
+      "journal_metric": 27.22,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "차세대 리튬이온전지를 위한 1D 섬유형, 2D 평면형, 3D 구조 아키텍처 설계 전략을 종합적으로 정리한 리뷰 논문이다. 각 구조군의 설계 원칙, 성능 트레이드오프, 제작 가능성을 평가하고 적층제조 기술과의 연계를 통해 차세대 아키텍처 배터리 개발 방향을 제시한다.",
+      "relevant": false
     },
     {
       "id": "W7204909406",
@@ -705,7 +819,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77363-w/MediaObjects/41467_2026_77363_Fig1_HTML.png",
+        "cached": "img/W7204853838.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77363-w"
+      },
       "summary_ko": "황화물 유리 고체전해질의 이온전도도를 원자구조만으로 예측하기 위해 최대유량(max-flow) 알고리즘 기반 프레임워크를 제안했다. 분자동역학 시뮬레이션으로 검증한 결과 정적 구조에서 계산된 최대유량과 이온전도도 사이에 양의 상관관계가 있음을 확인했으며, 특히 고전도성 황화물 유리 전해질에서 효과적이었다.",
       "relevant": false
     },
@@ -769,7 +888,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-02",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77277-7/MediaObjects/41467_2026_77277_Fig1_HTML.png",
+        "cached": "img/W7204786965.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77277-7"
+      },
       "summary_ko": "허약한 심혈관질환 노인 환자를 대상으로 재활운동, 교육, 영양관리, 지압마사지, 약물관리를 포함한 다학제 프로그램(RENAP)과 표준치료를 비교한 다기관 무작위대조시험이다. RENAP군은 12개월 후 Fried 허약 지표와 SPPB 점수에서 유의한 개선을 보였으며 중대한 치료 관련 이상반응은 없었다.",
       "relevant": false
     },
@@ -881,6 +1005,90 @@
       },
       "summary_ko": "니트릴계 전해질의 고전압 안정성을 활용하면서 리튬 금속 부식 문제를 해결하기 위해 숙시노니트릴 전해질에 [EMIm]+BF4- 이온성 액체를 첨가하는 이중이온 매개 계면 전기장 전략을 제안했다. 양이온에 의한 계면 정전기장이 니트릴 분자를 음극 표면에서 배제해 부식을 방지하고 Li+ 플럭스를 균일화하며, 양극 표면에는 무기물이 풍부한 CEI가 형성되어 부반응을 억제한다. 4.5V로 충전된 Li||NCM811 파우치셀은 120회 이상 95.2%의 용량 유지율로 안정 작동했고 못뚫림 시험에서도 발화 없이 견뎠다.",
       "relevant": true
+    },
+    {
+      "id": "W7206196950",
+      "source": "openalex",
+      "title": "Breaking Low-Temperature Bottlenecks via p–d–π-Type Local Environment toward High-Performance Polymer-Based All-Solid-State Lithium Battery",
+      "url": "https://doi.org/10.1021/jacs.6c11263",
+      "published": "2026-08-30",
+      "topics": [],
+      "doi": "10.1021/jacs.6c11263",
+      "authors": [
+        "Tenghui Wang",
+        "Butian Chen",
+        "Tao Liu",
+        "Zecheng Fang",
+        "Yuehui Liu",
+        "Xinglong Jiang"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Polymer-based composite solid electrolytes (CSEs) suffer from extremely slow bulk/interface Li+ transport and poor interfacial stability at room temperature (RT) and low temperature (LT) in all-solid-state lithium batteries (ASSLBs). Herein, we design a novel p–d–π-type local environment in polymer CSEs to break the bulk/interfacial Li+ kinetic bottlenecks and construct LT high-performance ASSLBs. The customized anion-rich association state from ternary lithium salts (FSI–, DFOB–, and NFSA–) breaks the strong ion-association environment, and the cations–π interactions trigged by nickel phthalocyanine supplies extra Li+ transport sites, which considerably enhances the ionic conductivity (25 °C: 1.31 mS·cm–1; 0 °C: 0.70 mS·cm–1; −40 °C: 0.10 mS·cm–1). Moreover, the delocalized π-electrons and Ni(3d)–O(2p) orbital hybridization accelerate the interfacial charge transference and the formation of LiF–LiNxOy/B–O/B–F-rich interphases, greatly improving the dual-interface compatibility and long-term stability. ASSLBs with the LiFePO4 cathode demonstrate large rate capacity (115.6 mAh·g–1@6.0C), superhigh cycling stability (90.3% retention after 1000 cycles at 4.0C) at RT, and prominent LT performance (0 °C: 106.52 mAh·g–1@1.0C, 100% retention after 500cycles; −20 °C: 100% retention after 200 cycles at 0.2C). The pouch cell shows a capacity retention of 90.75% after 700 cycles at 3.0C. ASSLBs employing LiNi0.9Co0.05Mn0.05O2 cathode display a 100% retention after 500 cycles at 1.0C, and it can work even at −37.8 °C. This work addresses the critical challenges of polymer ASSLBs in high-rate and LT and should promote their practical applications.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "고체 고분자 복합 전해질(CSE)의 저온 리튬이온 수송 문제를 해결하기 위해 니켈 프탈로시아닌 기반 p-d-π 국소 환경을 도입한 새로운 전해질을 설계했다. 삼원 리튬염(FSI, DFOB, NFSA)에 의한 음이온 풍부 배위 환경과 양이온-π 상호작용으로 이온전도도를 향상시키고, LiF 등 무기물 계면 형성을 촉진해 계면 안정성을 개선했다. LFP 및 고니켈 NCM 캐소드를 적용한 전고체 전지에서 고율 및 저온 환경에서도 우수한 사이클 안정성을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7204639315",
+      "source": "openalex",
+      "title": "Electrostatic potential redistribution in in-situ polymerized electrolytes for fast-charging quasi-solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105503",
+      "published": "2026-08-29",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105503",
+      "authors": [
+        "Yutong Jing",
+        "Cheng Li",
+        "Daming Liu",
+        "Shen Liu",
+        "Tingquan Shao",
+        "Dianlong Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "준고체 리튬 금속 전지의 급속충전을 위해 제자리 중합 전해질 내 정전기 포텐셜 재분배를 이용한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7204571893",
+      "source": "openalex",
+      "title": "Functionalized separators for aqueous zinc-ion batteries: from multidimensional regulation to full-cell stabilization",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105500",
+      "published": "2026-08-28",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105500",
+      "authors": [
+        "Junyi Yin",
+        "Shun Zhang",
+        "Zhiqi Wu",
+        "Renkui Xu",
+        "Yunpeng Liu",
+        "Huajun Tian"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-04",
+      "image": null,
+      "summary_ko": "수계 아연이온전지용 기능화 분리막을 다차원적으로 제어하여 완전지 안정성을 높이는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7204280278",
