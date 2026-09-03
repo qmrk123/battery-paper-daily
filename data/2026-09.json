@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78093",
+        "cached": "img/W7205015818.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78093"
+      },
       "summary_ko": "리튬 금속 전지용 겔 전해질에 다공성 유기 고분자(PPOP)를 첨가제로 도입하여 음이온 이동을 억제하고 Li+ 이동수를 0.41에서 0.87로 향상시키면서 이온전도도 1.01 mS/cm를 유지했다. 동시에 치밀한 SEI 형성을 촉진하여 계면 안정성을 높였으며, Li||Li 대칭 셀에서 9000시간 이상의 안정적인 사이클링을 달성했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3543240",
+        "cached": "img/W7204999536.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3543240"
+      },
       "summary_ko": "기하학적 구조 매칭 원리를 기반으로 Y/Y2O3 금속/산화물 이종계면을 알루미늄 집전체 위에 스퍼터링으로 형성하여 소듐 금속 전지의 극저온 성능을 개선했다. 이 이종계면은 Na+ 플럭스를 균일화하고 PF6- 흡착을 유도해 무기물 위주의 SEI 형성을 촉진하며, Na@Y/Y2O3@Al||NVP 완전셀은 -40°C에서도 우수한 사이클 안정성을 보였다.",
       "relevant": true
     },
@@ -195,7 +207,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78120",
+        "cached": "img/W7204934987.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78120"
+      },
       "summary_ko": "Nb5+ 도핑을 통한 벌크 유연 모티프 완충과 표면 엔지니어링을 결합하여 단결정 Ni-rich 층상산화물(LiNi0.83Co0.07Mn0.10O2)의 기계화학적 내구성을 개선했다. NbO6 팔면체가 Jahn-Teller 왜곡을 완화하고 표면의 Li3NbO4 이온전도층이 계면 반응을 억제하여, 150사이클 후 91.54%, 300사이클 후 92.5%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -225,7 +243,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71538",
+        "cached": "img/W7204888051.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71538"
+      },
       "summary_ko": "poly(1,3-dioxolane) 전해질에서 첨가제의 단계적 환원 반응을 조절해 안쪽은 단단하고 바깥쪽은 유연한 이중층 SEI를 준고체 소듐 금속 전지 음극에 구축했다. 이 SEI는 탈용매화와 Na+ 수송을 촉진하고 균일한 Na 도금을 유도하여, Na||NVP 완전셀에서 20C에서 5500회, 25C 1000회 후 97.5% 용량 유지율의 우수한 성능을 달성했다.",
       "relevant": true
     },
@@ -396,7 +420,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77552",
+        "cached": "img/W7204909406.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77552"
+      },
       "summary_ko": "탄성 코어-전도성 쉘 구조의 슬러리 첨가제(ASA)를 도입해 NCM811 고전압 캐소드 표면에 상분리된 모자이크형 계면을 형성했다. PBA 성분이 부피 변화로 인한 응력을 완충하고 SAN 성분이 Li+ 계면 친화성과 전자전도성을 향상시켜, 4.5V 조건의 NCM811||흑연 파우치셀에서 용량 유지율이 개선되었다.",
       "relevant": true
     },
@@ -542,7 +572,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77931",
+        "cached": "img/W7204908138.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77931"
+      },
       "summary_ko": "3D 나노튜브형 구리 집전체에 초박막 MXene(Ti3C2Tx)을 코팅하여 무음극 리튬 금속 전지의 계면을 개선했다. 이 음이온 친화적 계면이 균일한 Li 핵생성과 PF6- 흡착을 유도해 LiF가 풍부한 무기 SEI를 형성하며, MXene-NT Cu||NCM811 완전셀은 125사이클에서 78.1 mAh/g, 쿨롱효율 99.06%를 달성해 베어 Cu 대비 우수한 성능을 보였다.",
       "relevant": true
     },
