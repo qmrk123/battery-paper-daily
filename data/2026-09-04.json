@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78186",
+        "cached": "img/W7206186590.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78186"
+      },
       "summary_ko": "실용적 소듐 금속 배터리(SMB)에서는 나트륨 덴드라이트 성장과 낮은 캐소드 면적당 용량이 문제로 지적된다. 저자들은 NaFSI/디글라임 국소 고농도 전해질에 TFE-OTf를 유사 희석제로 도입한 q-LHCE1을 설계하여 NaF 위주의 무기물 SEI 형성과 용매화 클러스터 간 연결성을 강화했다. 이를 통해 고부하(14 mg cm⁻²) NFM 캐소드를 사용한 4.0V Na||NFM 셀에서 0.3C로 430사이클 후 80% 용량 유지율을, 제한된 나트륨 저장량(N/P=10.6) 조건에서도 40사이클 후 96.8% 용량 유지율을 달성했다.",
       "relevant": true
     },
