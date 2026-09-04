@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-09-03T23:04:03+00:00",
+  "generated_at": "2026-09-04T22:54:35+00:00",
   "count": 7,
   "papers": [
     {
@@ -63,7 +63,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-04",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77394-3/MediaObjects/41467_2026_77394_Fig1_HTML.png",
+        "cached": "img/W7205013750.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77394-3"
+      },
       "summary_ko": "뇌졸중 후 발목저하(foot drop) 환자를 위해 보행 타이밍에 적응하는 자가발전형 신경보철(SPN)을 개발했다. 비마비측 다리의 보행 에너지를 수확해 마비측 전경골근을 자극함으로써 배터리 충전이나 외부 전원 없이 발목 배굴을 보조한다. 실제 보행 실험에서 배굴각, 보행거리, 속도가 개선되고 보행 변동성이 감소했다.",
       "relevant": false
     },
