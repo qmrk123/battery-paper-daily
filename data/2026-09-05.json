@@ -88,7 +88,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-05",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71528",
+        "cached": "img/W7207570520.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71528"
+      },
       "summary_ko": "전고체 리튬전지용 층상 산화물 양극(NMC, NCA, LNO, 리튬과잉계)의 다중스케일 열화를 진단-메커니즘-완화(D-M-M) 프레임워크로 정리한 리뷰다. 계면 열화(화학적 분해, 공간전하층, 저항성 계면상)와 벌크 열화(상전이, 양이온 무질서, 산소 손실, 미세균열)를 다중 진단 기법으로 교차 검증했다. 머신러닝을 활용한 진단 데이터 해석과 예측형 양극 설계 가능성도 논의하며, 후막 전극·저압·대형셀 등 실제 조건으로 프레임워크를 확장했다.",
       "relevant": true
     },
