@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-04T22:52:02+00:00",
+  "generated_at": "2026-09-05T22:46:04+00:00",
   "count": 11,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-05",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77254-0/MediaObjects/41467_2026_77254_Fig1_HTML.png",
+        "cached": "img/W7207864931.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77254-0"
+      },
       "summary_ko": "인간 엔도솜 이온교환체 NHE6와 NHE9의 고해상도 냉동전자현미경 구조를 규명했다. 나트륨 결합 부위를 매핑해 양성자-양이온 교환 메커니즘을 밝히고, NHE6에서는 PIP2 매개 조절 기전의 증거를 제시했다. 두 단백질의 스플라이스 변이체 간 구조적 다양성도 확인했다.",
       "relevant": false
     },
