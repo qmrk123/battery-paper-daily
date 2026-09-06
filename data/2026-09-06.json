@@ -57,7 +57,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78273",
+        "cached": "img/W7208790719.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78273"
+      },
       "summary_ko": "건식 전극 공정에서 다결정 및 단결정 NCM811 입자의 표면 거칠기 차이가 PTFE 섬유화 거동에 미치는 영향을 원자간력현미경으로 정량 분석했다. 다결정 입자는 섬유화에는 유리하나 사이클 중 구조 열화에 취약하고, 단결정 입자는 그 반대 특성을 보여 두 입자를 배합하는 그레이딩 전략을 제안했다. 10 wt% 단결정을 포함한 배합(PS91)이 수송 특성과 사이클 안정성 간 최적 균형을 이루었으며, 0.33C에서 50사이클 후 152.04 mAh g⁻¹의 방전 용량을 유지했다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1445925",
+        "cached": "img/W7208710863.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1445925"
+      },
       "summary_ko": "TiO2/FePS3 p-n 접합 광전극을 이용한 광보조 리튬-황 전지에서 오퍼란도 X선 분광법으로 빛에 의한 산화환원 선택성을 규명했다. 저에너지 및 고에너지 오퍼란도 분광 분석과 DFT 계산을 통해 광생성 캐리어와 전기촉매 전자가 협력적으로 다황화물 전환을 촉진함을 밝혔다. 이를 통해 고황 로딩 및 저전해질 조건에서도 우수한 가역 용량과 사이클 안정성을 구현했다.",
       "relevant": true
     },
@@ -117,7 +129,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78185",
+        "cached": "img/W7208705023.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78185"
+      },
       "summary_ko": "생분해성 폴리부틸렌숙시네이트@폴리락트산(PBS@PLA) 복합 분리막을 개발해 리튬 금속 전지의 이온-쌍극자 상호작용 기반 계면 리튬 이온 플럭스를 조절했다. PBS 영역은 전해액 함침성과 이온전도도를 높이고 PLA 영역은 리튬 이온 분포를 조절해 LiF가 풍부한 안정적 SEI 형성을 촉진한다. 2.1 mS cm⁻¹의 이온전도도와 10 mA cm⁻² 고전류에서의 안정적 도금/탈리를 구현했으며, Li||NCM811 완전셀에서 5C, 300사이클 후 80.2%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -147,7 +165,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71543",
+        "cached": "img/W7208714849.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71543"
+      },
       "summary_ko": "황화물계 전고체 전지에서 나노 In2O3를 전도성 첨가제로 도입해 고로딩 NCM811 캐소드의 Li+/전자 수송 동역학과 계면 안정성을 개선했다. 나노 In2O3는 LPSC 고체전해질과 NCM811 입자 간 혼합 균일성과 접촉 효율을 높이고 저굴곡도의 Li+ 수송 네트워크와 빠른 전자 경로를 형성한다. 18.34 mg cm⁻²의 고로딩 캐소드에서 3C 조건 131 mAh g⁻¹의 용량과 500사이클 후 97.6%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -207,7 +231,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71533",
+        "cached": "img/W7208754458.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71533"
+      },
       "summary_ko": "무음극(anode-free) 소듐 금속 전지의 저온·고속충전 조건에서의 실패 메커니즘을 체계적으로 분석한 리뷰로, 전해질 용매화 구조 설계, 소듐친화성 집전체 계면, 전소듐화(pre-sodiation) 전략, AI 기반 전해질 스크리닝의 네 가지 시너지 영역을 통합적으로 다뤄야 함을 제시했다. 각 전략의 트레이드오프를 평가하고 가역적 소듐 보상, 다중스케일 AI 플랫폼, 완전셀 통합에 대한 전망을 제공한다.",
       "relevant": true
     },
@@ -237,7 +267,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71518",
+        "cached": "img/W7208709388.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71518"
+      },
       "summary_ko": "리튬 리치 층상 산화물 캐소드에서 리튬층에 정전기적 피닝(pinning) 효과를 도입해 전이금속 이동과 이로 인한 도미노식 구조 열화를 억제했다. 이 구조는 산소 리간드 주변 전자 분포를 조절해 산소 산화환원을 안정화하고 층간 간격을 적응적으로 조절해 탈리튬화 과정 중 구조 변화를 완충한다. 개질된 캐소드는 반쪽셀에서 400사이클 후 89.1%, 완전셀에서 1000사이클 후 96.2%의 용량 유지율을 달성했으며, 구배형 쉴딩 구조를 통해 0.5C에서 219.8 mAh g⁻¹의 용량과 400사이클 후 90.8%의 유지율을 추가로 확보했다.",
       "relevant": true
     },
