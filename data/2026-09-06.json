@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-05T22:43:36+00:00",
+  "generated_at": "2026-09-06T22:48:04+00:00",
   "count": 12,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77543-8/MediaObjects/41467_2026_77543_Fig1_HTML.png",
+        "cached": "img/W7167633426.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77543-8"
+      },
       "summary_ko": "마그네슘 금속 음극에서 쌍정(twin) 결함을 유도해 확산 속도를 높이고 계면 부반응을 억제하는 전략을 제시했다. 순환-다방향 변형으로 형성된 쌍정 구조가 전기화학적 담쾰러 수를 낮춰 확산 제한을 완화하고 패시베이션을 억제함을 이론 계산과 형태 분석으로 규명했다. 비대칭 코인셀에서 2000회 사이클 동안 99.53%의 쿨롱 효율을 달성했으며, 이 전략은 아연 금속 시스템에도 확장 적용 가능함을 보였다.",
       "relevant": false
     },

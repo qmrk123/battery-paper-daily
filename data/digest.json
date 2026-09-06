@@ -1,7 +1,7 @@
 {
-  "title": "최근 2주 논문 브리핑 (8/27–9/4)",
-  "range": "2026-08-27 ~ 2026-09-04",
-  "overall": "이번 2주간 연구는 전해질 용매화 구조와 계면상(SEI/CEI) 설계를 통해 리튬·소듐 금속 음극과 고전압·리튬 과잉 양극의 계면 안정성을 확보하는 방향으로 수렴했다. 특히 오퍼란도 분광·산란 진단과 무기물 위주 계면 형성, 응력 완화형 구조 설계가 공통된 열쇠로 부상했다.",
+  "title": "최근 2주 논문 브리핑 (8/27–9/5)",
+  "range": "2026-08-27 ~ 2026-09-05",
+  "overall": "이번 2주간 연구는 전해질 용매화 구조와 계면상(SEI/CEI) 설계를 통해 리튬·소듐 금속 음극과 고전압·리튬 과잉 양극의 계면 안정성을 확보하는 방향으로 수렴했다. 특히 오퍼란도 분광·산란 진단, 무기물 위주 계면 형성, 응력 완화형 미시구조 설계가 소재를 가로지르는 공통 열쇠로 부상했다.",
   "sections": [
     {
       "topic": "li-metal",
@@ -16,31 +16,31 @@
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 전지는 저온·고전압·무음극 등 실용 조건에서의 안정성 확보가 핵심 화두였다. 국소 고농도 전해질과 유사 희석제, 음이온 수용체 첨가제로 NaF가 풍부한 무기 SEI와 연결성 높은 용매화 클러스터를 형성해 극저온(-40 °C)에서도 균일한 소듐 증착을 유도하는 전략이 다수 보고됐다. 준고체 젤 전해질의 구배형 이중층 SEI 설계, NASICON 고체전해질의 입계·계면 엔지니어링, Na-S 전지의 폴리설파이드 셔틀 억제형 분리막 등 계면 제어가 전 영역에 걸쳐 강조됐다.",
+      "text": "소듐 금속 전지는 저온·고전압·무음극 등 실용 조건에서의 안정성 확보가 핵심 화두였다. 국소 고농도 전해질과 유사 희석제, 음이온 수용체 첨가제로 NaF가 풍부한 무기 SEI와 연결성 높은 용매화 클러스터를 형성해 극저온(-40 °C)에서도 균일한 소듐 증착을 유도하는 전략이 다수 보고됐다. 준고체 젤 전해질의 구배형 이중층 SEI 설계와 pull-expulsion 용매화 조절, NASICON 고체전해질의 반응성 소결·입계 엔지니어링, 공유결합 계면층을 통한 급속충전 전고체화 등 계면 제어가 전 영역에 걸쳐 강조됐다.",
       "highlights": [
         {"title": "Geometry\u2010Guided Screening of Metal/Oxide Heterointerfaces Enables Superior Sodium Metal Batteries at \u221240 \u00b0C", "url": "https://doi.org/10.1002/anie.3543240", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Synergistic Gradient Interphase Engineering for Ultra\u2010Stable and High\u2010Rate Quasi\u2010Solid\u2010State Sodium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71538", "venue": "Advanced Energy Materials"},
+        {"title": "Covalently Anchored Multifunctional Interlayer Enables Ultrastable and Fast \u2010 Charging Composite Solid \u2010 State Sodium Metal Batteries", "url": "https://doi.org/10.1002/adma.74923", "venue": "Advanced Materials"},
         {"title": "Na 2 Ti 3 O 7 \u2010Assisted Grain\u2010Boundary Tailoring of NASICON Electrolytes for Room\u2010to\u2010Subzero\u2010Temperature All\u2010Solid\u2010State Sodium Metal Batteries", "url": "https://doi.org/10.1002/anie.8268615", "venue": "Angewandte Chemie International Edition"}
-      ]
-    },
-    {
-      "topic": "li-rich",
-      "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 양극 연구는 산소 산화환원의 가역성 확보와 화학-기계적 열화의 동시 억제에 집중됐다. 정전기적 피닝, 이방성 결합 조절, 말단 불소화 폴리이미드 계면층 등으로 전이금속 이동과 산소 방출을 억제해 산소 레독스를 안정화하는 접근과, 계층적 쌍정 구조·공극 형성·La 도핑처럼 응력을 분산·완충해 상전이를 막는 구조 설계가 양대 축을 이뤘다. 코발트 프리 망간계에서 연질-강성 계면으로 탈용매화·전하이동 속도를 제어하는 시도도 확인됐다.",
-      "highlights": [
-        {"title": "Breaking the Degradation Domino in Li\u2010Rich Layered Oxide Cathode Via Precise Electrostatic Pinning and Gradient Shielding", "url": "https://doi.org/10.1002/aenm.71518", "venue": "Advanced Energy Materials"},
-        {"title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium\u2010Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/anie.6759160", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Decoupling Chemo\u2010Mechanical Failure for Robust Li\u2010Rich Cathodes", "url": "https://doi.org/10.1002/adfm.78033", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "Ni-rich NCM 양극은 단결정화와 표면·벌크 도핑, 슬러리·전극 공정 최적화를 통한 기계화학적 내구성 확보가 중심이었다. 건식 전극 공정의 PTFE 섬유화와 사이클 안정성을 다결정-단결정 입자 배합으로 조율하거나, Nb 도핑·탄성 첨가제로 응력을 완충하는 전략, 입계 밀도가 저온 리튬 확산에 미치는 영향 규명 등 미시구조 제어가 두드러졌다. 전고체 조건에서는 나노 In2O3 전도 첨가제와 다중스케일 열화 진단 프레임워크가, 열 안전성 측면에서는 표면-벌크 도미노 전파를 차단하는 설계가 제시됐다.",
+      "text": "Ni-rich NCM 양극은 단결정화와 표면·벌크 도핑, 슬러리·전극 공정 최적화를 통한 기계화학적 내구성 확보가 중심이었다. 건식 전극 공정의 PTFE 섬유화와 사이클 안정성을 다결정-단결정 입자 배합으로 조율하거나, Nb 도핑·탄성 코어-쉘 첨가제로 응력을 완충하는 전략, 입계 밀도가 저온 리튬 확산에 미치는 영향 규명 등 미시구조 제어가 두드러졌다. 전구체 기능화로 합성 경로를 분리해 표면 이종구조를 구현하는 접근과, 전고체 조건의 나노 In2O3 전도 첨가제·다중스케일 열화 진단 프레임워크도 제시됐다.",
       "highlights": [
+        {"title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High\u2010Voltage Nickel\u2010Based Cathodes", "url": "https://doi.org/10.1002/adma.74909", "venue": "Advanced Materials"},
         {"title": "Reconciling PTFE Fibrillation and Cycling Stability in Dry\u2010Process NCM Cathodes via Polycrystalline\u2010Single\u2010Crystal Particle Grading", "url": "https://doi.org/10.1002/adfm.78273", "venue": "Advanced Functional Materials"},
-        {"title": "Interrupting Surface\u2010to\u2010Bulk Domino Propagation: A Thermal Failure Mitigation Strategy for Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adma.74738", "venue": "Advanced Materials"},
         {"title": "Nanoscale In 2 O 3 Induced Fast Kinetics and Stable Interface for High\u2010Loading Solid\u2010State Cathode", "url": "https://doi.org/10.1002/aenm.71543", "venue": "Advanced Energy Materials"}
+      ]
+    },
+    {
+      "topic": "li-rich",
+      "heading": "Li-rich(리튬 과잉) 양극",
+      "text": "리튬 과잉 양극 연구는 산소 산화환원의 가역성 확보와 화학-기계적 열화의 동시 억제에 집중됐다. 정전기적 피닝, 이방성 결합 조절, 말단 불소화 폴리이미드 계면층 등으로 전이금속 이동과 산소 방출을 억제해 산소 레독스를 안정화하는 접근과, 계층적 쌍정 구조처럼 응력을 분산·완충해 상전이를 막는 구조 설계가 양대 축을 이뤘다. 코발트 프리 망간계에서 연질-강성 계면으로 탈용매화·전하이동 속도를 제어하거나, 엔트로피 안정화 층상 산화물로 산소 레독스를 가역화하는 시도도 확인됐다.",
+      "highlights": [
+        {"title": "Breaking the Degradation Domino in Li\u2010Rich Layered Oxide Cathode Via Precise Electrostatic Pinning and Gradient Shielding", "url": "https://doi.org/10.1002/aenm.71518", "venue": "Advanced Energy Materials"},
+        {"title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium\u2010Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/anie.6759160", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Intelligent Response and Dynamic Stress Equilibrium Structure Endow Lithium-Rich Oxide Cathodes with Long Cycle Life", "url": "https://doi.org/10.1021/acsenergylett.6c02095", "venue": "ACS Energy Letters"}
       ]
     },
     {

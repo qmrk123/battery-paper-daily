@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-06T22:46:35+00:00",
+  "count": 4,
+  "papers": [
+    {
+      "id": "W7208805991",
+      "source": "openalex",
+      "title": "Interface Engineering via Ceria Coating Reconciles Ion Transport and Lithium Compatibility in Composite Polymer Electrolytes",
+      "url": "https://doi.org/10.1002/aenm.71551",
+      "published": "2026-09-05",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71551",
+      "authors": [
+        "Quanzhi Lin",
+        "Senlin Liao",
+        "Weixian Wang",
+        "Qi Zeng",
+        "Yajie Yang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Composite polymer electrolytes (CPEs) exhibit considerable potential for solid−state lithium−metal batteries (SLBs). However, incompatibilities between the various components in the electrolyte continue to hinder the full realization of its performance and practical applications. In this work, a multifunctional ceria interfacial layer is proposed to achieve uniform dispersion of ceramic fillers and facilitated interfacial transport of lithium ions in CPEs. At the same time, the physical barrier provided by this multifunctional interface layer prevents direct contact between the ceramic filler and the lithium metal, thereby avoiding potentially harmful side reactions that could further lead to a performance deterioration in battery cycling. Owing to the introduction of this multifunctional interface layer, the CPE exhibits high ionic conductivity (0.772 mS cm −1 ) and Li–ion transference number (0.626), with a wide electrochemical window (5.03 V). Furthermore, the Li|CPE|Li symmetric cell exhibits a lithium deposition/stripping capacity exceeding 1500 h at room temperature, indicating the CPE's excellent ability to suppress interfacial side reactions. Li|CPE|NCM811 cells retained a capacity of 77% after 350 cycles, whilst pouch cells retained 76% after 300 stable cycles at room temperature and 0.5 C. The method of optimizing ceramic fillers offers new insights into the design of novel composite solid–state electrolytes for SLBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-09-07",
+      "image": null,
+      "summary_ko": "복합 고분자 전해질(CPE)에서 세리아(ceria) 계면층을 도입해 세라믹 필러의 균일 분산과 리튬 이온 수송을 개선하고, 필러와 리튬 금속 간 직접 접촉을 차단해 부반응을 억제했다. 이온전도도 0.772 mS/cm, 리튬 이온 수송수 0.626, 전기화학적 안정성 창 5.03V를 달성했으며, Li|CPE|Li 대칭셀은 상온에서 1500시간 이상 안정적으로 구동되었다. Li|CPE|NCM811 셀은 350사이클 후 77%, 파우치셀은 300사이클 후 76%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7208821875",
+      "source": "openalex",
+      "title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes",
+      "url": "https://doi.org/10.1002/adma.74909",
+      "published": "2026-09-05",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.74909",
+      "authors": [
+        "Chunyu Xu",
+        "Hengyu Ren",
+        "Xiaohu Wang",
+        "Zijin Xu",
+        "Haocheng Ji",
+        "Haocong Yi"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Nickel‐based layered cathodes are promising candidates for high‐performance, high‐energy lithium‐ion batteries, yet their high‐voltage application is jointly limited by synthesis‐inherited structural defects and an unstable lattice oxygen framework. Here, we show that both limitations can be overcome by decoupled synthesis pathway (DSP) via La/Nb oxalate functionalization of the Ni 0.6 Co 0.1 Mn 0.3 (OH) 2 precursor. Unlike the conventional coupled synthesis pathway (CSP) where precursor dehydration and Li 2 CO 3 decomposition overlap in temperature, the DSP introduces a low‑temperature decomposition of La/Nb oxalates at 200°C, which effectively avoids localized contact between the precursor and Li 2 CO 3 and shifts Li 2 CO 3 ‐related reactions to high temperatures. This allows sequential precursor dehydroxylation, rock‑salt (RS) intermediate formation, and layered‑phase transformation over a broad temperature window. The resulting LiNi 0.6 Co 0.1 Mn 0.3 O 2 cathode with La/Nb functionalization (NCM‐LN) features a uniform surface LaNiO 3 perovskite heterostructure and a Nb‑doped layered bulk with suppressed RS and spinel defects. Consequently, under 4.5 V operation (vs. Li + /Li), NCM‐LN exhibits homogeneous Li + (de)intercalation, and a stabilized oxygen framework. In graphite||NCM‐LN full cells, NCM‐LN retains 80.1% of its capacity after 2000 cycles at 1C, substantially outperforming the pristine cathode. This decoupling strategy is broadly effective across various Ni‑based systems, providing a generalizable route toward high‑energy, long‑life cathode materials.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-09-07",
+      "image": null,
+      "summary_ko": "전구체에 La/Nb 옥살레이트를 도입해 탈수 반응과 Li2CO3 분해 반응의 온도 구간을 분리하는 새로운 합성 경로(DSP)를 제안했다. 이를 통해 표면에 LaNiO3 페로브스카이트 이종구조와 Nb 도핑 층상 벌크를 갖는 NCM622계 양극재(NCM-LN)를 합성했으며, 암염상/스피넬 결함이 억제되었다. 4.5V 고전압에서 균일한 리튬 (탈)삽입과 안정화된 산소 골격구조를 나타냈고, 흑연||NCM-LN 완전셀은 1C, 2000사이클 후 80.1%의 용량 유지율을 보여 기존 양극재 대비 우수한 성능을 나타냈다.",
+      "relevant": true
+    },
+    {
+      "id": "W7208828887",
+      "source": "openalex",
+      "title": "Covalently Anchored Multifunctional Interlayer Enables Ultrastable and Fast ‐ Charging Composite Solid ‐ State Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.74923",
+      "published": "2026-09-05",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adma.74923",
+      "authors": [
+        "Shuangwu Xu",
+        "Shaoe Xiang",
+        "Pengcheng Mao",
+        "Huapeng Sun",
+        "Jian Tu",
+        "Dan Sun"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The practical application of composite solid‐state sodium metal batteries is critically limited by poor organic–inorganic compatibility, causing particle agglomeration, high interfacial resistance, and dendrite growth. Here, a covalent surface grafting strategy constructs a multifunctional interlayer covalently anchored on Na 3 Zr 2 Si 2 PO 12 , featuring a cross‑linked siloxane network and terminal ─NH 2 groups. Covalent anchorage transforms inert particle surfaces into dispersible units, while ─NH 2 groups anchor TFSI – and confine residual solvent via hydrogen bonding and Lewis acid‑base interactions. This dual regulation decouples ion transport from side reactions, yielding a high Na + transference number (0.58) and a stable, NaF‑rich, thin solid‑electrolyte interphase (SEI). The optimized electrolyte enables symmetric cells with exceptional cycling stability and high critical current density (CCD). Full cells achieve fast‑charging (92 mAh g −1 at 15 C) and ultralong cycle life (76.4% retention after 7000 cycles at 10 C). A flexible pouch cell retains 97% capacity after 150 cycles. This work establishes that precise molecular‑level interfacial design, rather than simple physical blending, is key to high‑performance, dendrite‑resistant solid‑state sodium batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-09-07",
+      "image": null,
+      "summary_ko": "Na3Zr2Si2PO12 고체전해질 입자 표면에 가교된 실록산 네트워크와 말단 -NH2기를 갖는 다관능성 계면층을 공유결합으로 형성해 유기-무기 상용성을 개선했다. -NH2기가 TFSI 음이온을 고정하고 잔류 용매를 억제함으로써 이온 수송과 부반응을 분리시켜 높은 나트륨 이온 수송수(0.58)와 NaF가 풍부한 안정적 SEI를 형성했다. 완전셀은 15C에서 92 mAh/g의 급속충전 성능과 10C에서 7000사이클 후 76.4%의 용량 유지율을 보였으며, 파우치셀은 150사이클 후 97%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7208825396",
+      "source": "openalex",
+      "title": "Halide-Engineered Grain Boundaries Enable Uniform Li-Ion Transport for High-performances All-solid-state Lithium Metal Batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112376",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112376",
+      "authors": [
+        "Zijian Li",
+        "Zihan Sun",
+        "Wentao Lu",
+        "Zhongkai Wu",
+        "Weiping Zhou",
+        "Zhenzhi Cheng"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-07",
+      "image": null,
+      "summary_ko": "할라이드계 고체전해질의 결정립계를 공학적으로 제어하여 전고체 리튬 금속전지에서 균일한 리튬 이온 수송을 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    }
+  ]
+}
