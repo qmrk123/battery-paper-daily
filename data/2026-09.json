@@ -1,7 +1,7 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-06T22:46:35+00:00",
-  "count": 69,
+  "generated_at": "2026-09-07T23:20:48+00:00",
+  "count": 72,
   "papers": [
     {
       "id": "W7208805991",
@@ -134,7 +134,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-06",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77543-8/MediaObjects/41467_2026_77543_Fig1_HTML.png",
+        "cached": "img/W7167633426.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77543-8"
+      },
       "summary_ko": "마그네슘 금속 음극에서 쌍정(twin) 결함을 유도해 확산 속도를 높이고 계면 부반응을 억제하는 전략을 제시했다. 순환-다방향 변형으로 형성된 쌍정 구조가 전기화학적 담쾰러 수를 낮춰 확산 제한을 완화하고 패시베이션을 억제함을 이론 계산과 형태 분석으로 규명했다. 비대칭 코인셀에서 2000회 사이클 동안 99.53%의 쿨롱 효율을 달성했으며, 이 전략은 아연 금속 시스템에도 확장 적용 가능함을 보였다.",
       "relevant": false
     },
@@ -887,6 +892,36 @@
       "first_seen": "2026-09-05",
       "image": null,
       "summary_ko": "리튬-황 전지의 계면 거동 제어를 목표로 한 PVDF 기반 전해질에 관한 연구다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7128430621",
+      "source": "openalex",
+      "title": "Operando Characterisation of SEI Formation in Ni-Rich Lithium-Ion Cells to Explore Ethylene Carbonate-Free Electrolyte Systems",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105516",
+      "published": "2026-09-01",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105516",
+      "authors": [
+        "Arthur Fordham",
+        "Brandon Frost",
+        "Roksana Jackowska",
+        "Marcus Tuchel",
+        "Yuhan Liu",
+        "Tongjun Luo"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.26434/chemrxiv.10002013/v1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-08",
+      "image": null,
+      "summary_ko": "니켈리치 리튬이온 전지에서 에틸렌카보네이트를 배제한 전해질 시스템을 탐색하기 위해 오퍼란도 기법으로 SEI 형성 과정을 분석한 연구이다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -1931,6 +1966,34 @@
       "relevant": false
     },
     {
+      "id": "W7204223011",
+      "source": "openalex",
+      "title": "Real-CIF-guided generative discovery of MOF/PVDF-HFP solid-state electrolytes under coupled electrochemical–mechanical constraints",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112352",
+      "published": "2026-08-26",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112352",
+      "authors": [
+        "Zelong Zhuang",
+        "Chenxu Li",
+        "Jie Cui",
+        "Xiaojin Yang",
+        "Lei Wang",
+        "Siyu Shi"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-08",
+      "image": null,
+      "summary_ko": "실제 결정구조(CIF) 데이터를 활용한 생성형 설계 기법으로 MOF/PVDF-HFP 복합 고체 전해질을 개발하고, 전기화학적·기계적 제약 조건을 함께 고려한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7204245263",
       "source": "openalex",
       "title": "Modulating electronic structure and distribution of redox-active sites in bipolar porous organic polymers for high-rate, ultralong-life, and wide-temperature sodium-ion batteries",
@@ -1985,6 +2048,37 @@
       "image": null,
       "summary_ko": "상용 VO2의 아연이온전지 활성화 메커니즘을 용해-증착 지배적 과정으로 규명하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7204155505",
+      "source": "openalex",
+      "title": "Graphdiyne‐Based Heteronuclear Dual‐Atom Catalysts Enable High‐Energy‐Density Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/ange.3002971",
+      "published": "2026-08-25",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/ange.3002971",
+      "authors": [
+        "Zhongqiang Wang",
+        "Wenjing Zhang",
+        "Huang Xiao",
+        "Min Liu",
+        "Cong Tian",
+        "Congying Song"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT The practical application of lithium–sulfur (Li–S) batteries are hindered by lithium (Li) polysulfides (LiPSs) shuttling, sluggish sulfur (S) redox kinetics, and Li dendrite growth. Here, we report heteronuclear Co‐Pt dual‐atom catalysts (DACs) anchored on graphdiyne (GDY) (Co‐Pt DAs/GDY) to boost S redox conversion kinetics and promote uniform Li deposition to enable high‐energy‐density Li–S batteries. The unique electronic coupling between sp ‐hybridized carbon of GDY and Co‐Pt dual atoms triggers a p ‐ d ‐ d orbital resonance. This resonance optimizes the interfacial electronic configuration to promote strong d ‐ p orbital hybridization with LiPSs, endowing dual‐atom sites with site‑isolated redox‑complementary catalytic behavior toward sequential S redox reactions. Meanwhile, adjacent Pt atoms tailor Co sites to a high‐spin state, further strengthening their adsorption and catalytic capabilities. Benefiting from these features, the redox kinetics and electrochemical performance of S cathodes are significantly enhanced, S@Co‐Pt DAs/GDY cathodes deliver a remarkable areal capacity of 21.3 mA h cm −2 and an excellent cycling stability under realistic conditions. Moreover, Co‐Pt DAs/GDY exhibits strong Li‐ion affinity and offers dual‐atom Li nucleation sites, enabling stable cycling of Li@Co‐Pt DAs/GDY anodes for more than 9200 h. Assembled Ah‐level Li–S pouch cells achieve a high‐energy‐density of 502 Wh kg −1 (based on the total cell mass).",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-09-08",
+      "image": null,
+      "summary_ko": "리튬-황 전지의 고질적 문제인 폴리설파이드 셔틀과 느린 황 산화환원 반응 속도를 해결하기 위해 그래프다이인에 담지된 Co-Pt 이종원자 이중원자 촉매(Co-Pt DAs/GDY)를 제시한다. Co-Pt 간 전자 결합에 의한 p-d-d 오비탈 공명으로 폴리설파이드 흡착·촉매 활성이 향상되며, 동시에 균일한 리튬 핵생성 자리를 제공해 리튬 덴드라이트 성장을 억제한다. 이 촉매를 적용한 S 양극은 21.3 mA h cm⁻²의 면적 용량을, Li 음극은 9200시간 이상의 안정적 사이클 수명을 보였고, Ah급 파우치셀에서 502 Wh kg⁻¹의 에너지 밀도를 달성했다.",
+      "relevant": true
     },
     {
       "id": "W7204802549",
