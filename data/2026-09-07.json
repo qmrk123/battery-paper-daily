@@ -28,7 +28,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71551",
+        "cached": "img/W7208805991.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71551"
+      },
       "summary_ko": "복합 고분자 전해질(CPE)에서 세리아(ceria) 계면층을 도입해 세라믹 필러의 균일 분산과 리튬 이온 수송을 개선하고, 필러와 리튬 금속 간 직접 접촉을 차단해 부반응을 억제했다. 이온전도도 0.772 mS/cm, 리튬 이온 수송수 0.626, 전기화학적 안정성 창 5.03V를 달성했으며, Li|CPE|Li 대칭셀은 상온에서 1500시간 이상 안정적으로 구동되었다. Li|CPE|NCM811 셀은 350사이클 후 77%, 파우치셀은 300사이클 후 76%의 용량을 유지했다.",
       "relevant": true
     },
@@ -58,7 +64,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74909",
+        "cached": "img/W7208821875.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74909"
+      },
       "summary_ko": "전구체에 La/Nb 옥살레이트를 도입해 탈수 반응과 Li2CO3 분해 반응의 온도 구간을 분리하는 새로운 합성 경로(DSP)를 제안했다. 이를 통해 표면에 LaNiO3 페로브스카이트 이종구조와 Nb 도핑 층상 벌크를 갖는 NCM622계 양극재(NCM-LN)를 합성했으며, 암염상/스피넬 결함이 억제되었다. 4.5V 고전압에서 균일한 리튬 (탈)삽입과 안정화된 산소 골격구조를 나타냈고, 흑연||NCM-LN 완전셀은 1C, 2000사이클 후 80.1%의 용량 유지율을 보여 기존 양극재 대비 우수한 성능을 나타냈다.",
       "relevant": true
     },
@@ -88,7 +100,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74923",
+        "cached": "img/W7208828887.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74923"
+      },
       "summary_ko": "Na3Zr2Si2PO12 고체전해질 입자 표면에 가교된 실록산 네트워크와 말단 -NH2기를 갖는 다관능성 계면층을 공유결합으로 형성해 유기-무기 상용성을 개선했다. -NH2기가 TFSI 음이온을 고정하고 잔류 용매를 억제함으로써 이온 수송과 부반응을 분리시켜 높은 나트륨 이온 수송수(0.58)와 NaF가 풍부한 안정적 SEI를 형성했다. 완전셀은 15C에서 92 mAh/g의 급속충전 성능과 10C에서 7000사이클 후 76.4%의 용량 유지율을 보였으며, 파우치셀은 150사이클 후 97%의 용량을 유지했다.",
       "relevant": true
     },
