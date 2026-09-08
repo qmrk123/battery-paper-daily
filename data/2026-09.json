@@ -1,8 +1,98 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-07T23:20:48+00:00",
-  "count": 72,
+  "generated_at": "2026-09-08T23:15:28+00:00",
+  "count": 81,
   "papers": [
+    {
+      "id": "W7211886513",
+      "source": "openalex",
+      "title": "Safe electrolyte design with isolated solvation nanoclusters for high-energy lithium metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-77589-8",
+      "published": "2026-09-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-77589-8",
+      "authors": [
+        "Jimin Tang",
+        "Zhuangzhuang Cui",
+        "Zhuojun Wei",
+        "Guowei Zeng",
+        "Chunyu Wang",
+        "Zizhun Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The pursuit of high-energy-density lithium metal batteries is often hampered by severe safety hazards and limited cycle life, leading to increased environmental impact and higher costs. Here, we demonstrate that tuning the underappreciated miscibility between electrolyte components could provide an effective approach. By introducing a non-coordinating, non-flammable cyclic fluorinated diluent, we minimize diluent-ion pair intermolecular forces, thereby enabling the formation of isolated solvation nanoclusters. The designed microstructure could facilitate enhanced Li+ transport to suppress dendrite growth and foster an inorganic-rich interphase to enhance interfacial electrochemical and thermal stability. This electrolyte design enables 50 μm Li | |2.5 mAh cm−2 LiNi0.8Mn0.1Co0.1O2 cells to retain 80% capacity after 800 cycles and over 95% capacity following an 8-month calendar aging test. Moreover, the Ah-level pouch cells could achieve a specific energy exceeding 500 Wh kg−1 based on the total mass of the pouch cell, while withstanding fully charged nail penetration and 200% overcharge without fire or swelling. Therefore, the nanocluster electrolyte reduces lifetime safety costs and material consumption per unit energy delivered, collectively enhancing practical sustainability for high-energy-density, safe, and long-lasting lithium metal batteries. Lithium metal batteries face safety and lifespan challenges. Here, authors develop a nanocluster electrolyte that suppresses dendrites, forms stable interphases, and enables >800 cycles in high loading cells and >500 Wh kg-1 in Ah-level pouch cells, with nail penetration and overcharge tolerance.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77589-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "비배위성·난연성 고리형 불소화 희석제를 도입해 전해질 성분 간 혼화성을 조절함으로써 고립된 용매화 나노클러스터를 형성하는 고에너지 리튬 금속 전지용 전해질을 설계했다. 이 구조는 Li+ 이동을 촉진해 덴드라이트 성장을 억제하고 무기물 위주의 계면상을 형성해 계면 안정성을 높인다. 50 μm Li와 NCM811 양극 조합 셀은 800사이클 후 80% 용량을 유지했고, Ah급 파우치셀은 500 Wh/kg 이상의 비에너지와 못 관통·과충전 안전성을 동시에 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7211894965",
+      "source": "openalex",
+      "title": "Quantifying the Interfacial Energy Gap for Reversible Lithium–Metal Anodes",
+      "url": "https://doi.org/10.1021/jacs.6c14457",
+      "published": "2026-09-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/jacs.6c14457",
+      "authors": [
+        "Rui Qiu",
+        "Xueliang Zhang",
+        "Hairong Gong",
+        "Jialing Huang",
+        "Jiawei Lai",
+        "Kui Ding"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Lithium–metal batteries (LMBs) hold great promise for high-energy-density energy storage yet suffer from low Li plating/stripping Coulombic efficiency (CE), which originates from persistent electrolyte decomposition at the electrolyte/anode interface. Such parasitic reactions are driven by interfacial electron transfer, closely tied to both the passivation capability of solid electrolyte interphase (SEI) and reductive stability of electrolytes. Herein, the interfacial energy gap (ΔEgap) between Fermi level of Li/SEI and lowest unoccupied molecular orbital level of electrolyte is proposed as a descriptor to quantify the driving force for interfacial electron transfer, demonstrating that a reduced ΔEgap could effectively suppress interfacial parasitic reaction and thus enhance Li CE. Machine learning modeling coupled with Shapley additive analysis identifies the solvent minimum electrostatic potential (ESPmin) as the dominant governing factor of ΔEgap. Guided by these insights, we design two out-of-sample solvents with small ΔEgap, achieving high CEs exceeding 99%. Combined experimental and simulation results elucidate an ESPmin-governed interfacial regulation mechanism. This work provides a quantitative and interpretable strategy for rational electrolyte design toward highly reversible LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "Li/SEI 페르미 준위와 전해질 LUMO 준위 간 계면 에너지 갭(ΔEgap)을 리튬 금속 음극의 계면 전자전달 구동력을 정량화하는 지표로 제안했다. 머신러닝과 Shapley 분석으로 용매의 최소 정전 포텐셜(ESPmin)이 ΔEgap을 좌우하는 핵심 인자임을 밝히고, 이를 바탕으로 설계한 두 용매에서 99% 이상의 쿨롱 효율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7211891471",
+      "source": "openalex",
+      "title": "A Three-Descriptor Framework for Solvation Design of Low-Temperature Electrolytes in Lithium Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c08135",
+      "published": "2026-09-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/jacs.6c08135",
+      "authors": [
+        "Linlin Xue",
+        "Jiantao Guo",
+        "Yuqiang Wu",
+        "Yang Dong",
+        "Jinhan Li",
+        "Meng Yao"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Low-temperature operation of lithium–metal batteries is limited by kinetic penalties in electrolytes, yet electrolyte discovery for subzero operation remains largely empirical, lacking a predictive basis linking molecular structure to Li+–solvent interactions. Here, we establish a three-descriptor topology–electronic coupling framework combining O–O bond separation, lone pair orbital contribution and net oxygen charge to predict Li+–solvent binding energetics by screening a diverse ether, ester, ketone, carbonate, and sulfone solvent library. 2,2,2-trifluoroethylmethanesulfonate (TM) featuring S═O moiety and −CF3 group is identified as a solvent model that favors weakly point-contact Li+ coordination, which effectively lowers the desolvation barrier, induces anion-involved solvation structures, and promotes the formation of an inorganic LiF-rich interphase. A newly formulated electrolyte consisting of lithium bis(fluorosulfonyl)imide (LiFSI), 1,1,2,2-tetrafluoroethyl-2,2,3,3-tetrafluoropropyl ether (TTE), and TM delivers 99.38% Li plating/stripping Coulombic efficiency and enables reversible Li||Ni0.8Mn0.1Co0.1O2 cells at −60 °C with a cutoff voltage of 4.6 V. This multi-factor solvent-screening strategy advances electrolyte design from empirical trial-and-error toward descriptor-guided development.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "O-O 결합 거리, 론페어 오비탈 기여도, 산소 순전하로 구성된 3-지표 프레임워크로 저온 리튬 금속 전지 전해질의 Li+-용매 결합 에너지를 예측했다. 발굴된 술포네이트 용매 TM을 활용한 전해질은 -60°C에서도 Li‖NCM811 셀을 가역적으로 구동하며 99.38%의 Li 도금/탈리 쿨롱 효율을 달성했다.",
+      "relevant": true
+    },
     {
       "id": "W7208805991",
       "source": "openalex",
@@ -837,6 +927,34 @@
       "relevant": false
     },
     {
+      "id": "W7211871824",
+      "source": "openalex",
+      "title": "Safety duality of lithium-ion cells with a hybrid solid-liquid electrolyte architecture under thermal and electrical abuse",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.074",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.08.074",
+      "authors": [
+        "X Y Zhang",
+        "Long Chen",
+        "Zhongwei Shi",
+        "Yue Wang",
+        "Yuhao Zhu",
+        "Xiangjun Li"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "하이브리드 고체-액체 전해질 구조를 가진 리튬이온 셀의 열적·전기적 남용 조건에서의 안전성 양면성을 다룬 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7206218367",
       "source": "openalex",
       "title": "Revealing the Dominant Role of Spatial Lithium Distribution in the Kinetics of Lithium-Ion Batteries via Operando Neutron Depth Profiling",
@@ -1248,6 +1366,34 @@
       "relevant": true
     },
     {
+      "id": "W7211891238",
+      "source": "openalex",
+      "title": "Direct regeneration and upcycling: Closing the loop for spent lithium iron phosphate batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112371",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112371",
+      "authors": [
+        "Meiting Huang",
+        "Hao Mu",
+        "Ruyue Guo",
+        "Liping Luo",
+        "Peng Chen",
+        "Yuanyang Li"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "폐 리튬인산철(LFP) 배터리의 직접 재생 및 업사이클링을 통해 자원 순환 루프를 닫는 방법을 다룬 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7204898319",
       "source": "openalex",
       "title": "Covalent organic polymer with Fe-N4 single-atom anchored on hierarchically porous carbon as efficient oxygen reduction composite electrocatalyst for long-term stable zinc-air batteries",
@@ -1273,6 +1419,64 @@
       "first_seen": "2026-09-03",
       "image": null,
       "summary_ko": "Fe-N4 단일원자를 고정한 공유결합성 유기 고분자 기반 다공성 탄소 전극촉매를 개발하여 아연-공기 전지의 산소환원반응 성능과 장기 안정성을 향상시킨 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7211877997",
+      "source": "openalex",
+      "title": "Coupling Ion-Transport Bridging with Surface Heterogeneity Healing in Polycrystalline Ultrahigh-Ni Cathodes Toward 4.6 V Halide All-Solid-State Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105518",
+      "published": "2026-09-01",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105518",
+      "authors": [
+        "Qiankun Meng",
+        "Yanfeng Zhang",
+        "Le Kang",
+        "Pengfei Liu",
+        "Enyue Zhao",
+        "Xiaoling Xiao"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "다결정 초고니켈 양극에서 이온수송 브릿징과 표면 불균일성 치유를 결합해 4.6V급 할라이드 전고체 전지 성능을 향상시키는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7211915847",
+      "source": "openalex",
+      "title": "Coordination−Engineered Low−Concentration Electrolytes via Solvation Network Regulation for Wide Temperature High−Rate Sodium Ion Pouch Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105519",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105519",
+      "authors": [
+        "Haomiao Zhao",
+        "Pengyu Li",
+        "Gaojing Xia",
+        "Pujun Zhang",
+        "Shu Zhang",
+        "Mengqiang Wu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "용매화 네트워크 조절을 통해 배위구조를 설계한 저농도 전해질로 광범위 온도·고율 소듐이온 파우치 전지 성능을 향상시키는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -1427,6 +1631,36 @@
         "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77931"
       },
       "summary_ko": "3D 나노튜브형 구리 집전체에 초박막 MXene(Ti3C2Tx)을 코팅하여 무음극 리튬 금속 전지의 계면을 개선했다. 이 음이온 친화적 계면이 균일한 Li 핵생성과 PF6- 흡착을 유도해 LiF가 풍부한 무기 SEI를 형성하며, MXene-NT Cu||NCM811 완전셀은 125사이클에서 78.1 mAh/g, 쿨롱효율 99.06%를 달성해 베어 Cu 대비 우수한 성능을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7211899069",
+      "source": "openalex",
+      "title": "Anion capture enabling Li-rich manganese-based cathodes with negligible voltage decay",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.072",
+      "published": "2026-09-01",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1016/j.jechem.2026.08.072",
+      "authors": [
+        "Wei Su",
+        "Dongxiao Wang",
+        "Weiguang Lin",
+        "Zhao Pinsheng",
+        "Hui Song",
+        "Enhui Han"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "음이온 포집 전략을 통해 리튬리치 망간계 양극의 전압 감쇠를 억제하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -2019,6 +2253,34 @@
       "first_seen": "2026-09-05",
       "image": null,
       "summary_ko": "양극성 다공성 유기 고분자의 전자구조와 산화환원 활성 자리 분포를 조절해 고율, 장수명, 광범위 온도 범위의 소듐이온전지 특성을 구현하는 연구다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7204254726",
+      "source": "openalex",
+      "title": "Descriptor‐Guided Dynamic Solvation‐Shell Reconstruction Enables PEO‐Based Polymer Electrolytes With 10.9 mS cm −1 Ionic Conductivity",
+      "url": "https://doi.org/10.1002/ange.3211208",
+      "published": "2026-08-26",
+      "topics": [],
+      "doi": "10.1002/ange.3211208",
+      "authors": [
+        "Yutong Zhai",
+        "Botian Zheng",
+        "Ning Wang",
+        "Pingbo Xu",
+        "Tianxiao Ma",
+        "Tong Wu"
+      ],
+      "venue": "Angewandte Chemie",
+      "abstract_en": "ABSTRACT High‐voltage polymer electrolyte lithium metal batteries have long been constrained by the intrinsically low ionic conductivity of polymer electrolytes and unstable high‐voltage cathode interfaces, especially at low temperatures where ion transport and interfacial kinetics become sluggish. Here, we propose a descriptor‐guided dynamic solvation‐shell reconstruction strategy for poly(ethylene oxide) (PEO)‐based quasi‐solid electrolytes by introducing nitrile plasticizers with competitive Li + affinity and fast local Li + diffusivity. These nitrile ligands competitively enter the first Li + solvation shell, weaken persistent Li + ‐ether oxygen coordination, and shift Li + migration from polymer‐cage‐confined hopping to ligand‐exchange‐assisted transport. The optimized electrolyte achieves a room‐temperature ionic conductivity of 10.9 mS cm −1 , nearly three orders of magnitude higher than that of the pristine PEO electrolyte. Meanwhile, the nitrile‐containing solvation shell regulates interfacial decomposition pathways, suppresses oxidative PEO degradation in high‐voltage Li‖NCM811 cells, and promotes the formation of compact cathode electrolyte interphases. Benefiting from simultaneously enhanced bulk Li + transport and high‐voltage interfacial stability, the optimized electrolyte enables stable fast‐charging cycling and low‐temperature operation in Li‖NCM811 cells. This work establishes descriptor‐guided dynamic first‐solvation‐shell reconstruction as a molecular design principle for high‐conductivity, high‐voltage‐stable PEO‐based quasi‐solid electrolytes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210200754",
+      "journal_metric": 2.14,
+      "first_seen": "2026-09-09",
+      "image": null,
+      "summary_ko": "PEO 기반 고전압 리튬 금속 전지용 준고체 전해질에서 니트릴계 가소제를 도입해 Li+ 용매화 셸을 동적으로 재구성하는 전략을 제안했다. 니트릴 리간드가 1차 용매화 셸에 경쟁적으로 진입해 폴리머-리튬 배위를 약화시키고 리간드 교환 기반 이온수송을 유도함으로써 상온 이온전도도 10.9 mS/cm을 달성했으며, Li‖NCM811 셀에서 고전압 안정성과 저온 구동 특성을 동시에 개선했다.",
       "relevant": false
     },
     {
