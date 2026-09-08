@@ -88,7 +88,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-09-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.3002971",
+        "cached": "img/W7204155505.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.3002971"
+      },
       "summary_ko": "리튬-황 전지의 고질적 문제인 폴리설파이드 셔틀과 느린 황 산화환원 반응 속도를 해결하기 위해 그래프다이인에 담지된 Co-Pt 이종원자 이중원자 촉매(Co-Pt DAs/GDY)를 제시한다. Co-Pt 간 전자 결합에 의한 p-d-d 오비탈 공명으로 폴리설파이드 흡착·촉매 활성이 향상되며, 동시에 균일한 리튬 핵생성 자리를 제공해 리튬 덴드라이트 성장을 억제한다. 이 촉매를 적용한 S 양극은 21.3 mA h cm⁻²의 면적 용량을, Li 음극은 9200시간 이상의 안정적 사이클 수명을 보였고, Ah급 파우치셀에서 502 Wh kg⁻¹의 에너지 밀도를 달성했다.",
       "relevant": true
     }
