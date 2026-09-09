@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-08T23:15:28+00:00",
+  "generated_at": "2026-09-09T23:04:34+00:00",
   "count": 9,
   "papers": [
     {
@@ -29,7 +29,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-09",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77589-8/MediaObjects/41467_2026_77589_Fig1_HTML.png",
+        "cached": "img/W7211886513.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77589-8"
+      },
       "summary_ko": "비배위성·난연성 고리형 불소화 희석제를 도입해 전해질 성분 간 혼화성을 조절함으로써 고립된 용매화 나노클러스터를 형성하는 고에너지 리튬 금속 전지용 전해질을 설계했다. 이 구조는 Li+ 이동을 촉진해 덴드라이트 성장을 억제하고 무기물 위주의 계면상을 형성해 계면 안정성을 높인다. 50 μm Li와 NCM811 양극 조합 셀은 800사이클 후 80% 용량을 유지했고, Ah급 파우치셀은 500 Wh/kg 이상의 비에너지와 못 관통·과충전 안전성을 동시에 달성했다.",
       "relevant": true
     },
