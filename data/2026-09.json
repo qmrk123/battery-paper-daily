@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78321",
+        "cached": "img/W7211924831.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78321"
+      },
       "summary_ko": "세라믹(LLZTO)과 플루오린화 고분자(PVDF-HFP) 계면을 이중작용 실란(PFDTES)으로 화학적으로 연결하여 필러 응집과 계면 결함을 줄인 복합 고체전해질을 제시한다. 이를 통해 30°C에서 5.05×10⁻⁴ S/cm의 이온전도도와 0.72의 Li⁺ 이동수, 5.12V의 전기화학적 안정성을 달성했다. LiF/Li₃N이 풍부한 계면 형성으로 6000시간 이상 안정적인 리튬 플레이팅/스트리핑이 가능했고, LFP|PLF-CSE|Li 셀은 1000회 사이클 후 92.9%의 용량을 유지했다.",
       "relevant": true
     },
@@ -88,7 +94,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71550",
+        "cached": "img/W7211936095.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71550"
+      },
       "summary_ko": "테트라메틸암모늄(TMA) 브로마이드를 포함한 음이온-전달 전해질을 이용해 리튬금속 음극과 황 양극 양쪽에 LiF가 풍부한 균일한 계면을 동시에 형성하는 전략을 제시한다. TMA+ 양이온이 PF6- 음이온을 전극 표면으로 운반해 국부적으로 분해를 촉진하고, 형성된 고탄성률 계면이 덴드라이트 성장과 부반응을 억제한다. Li-SPAN 전지에서 1C, 350회 사이클 후 92%의 용량유지율과 0.5C에서 300회 후 1039 mAh/g의 가역용량을 달성했다.",
       "relevant": true
     },
@@ -235,7 +247,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71556",
+        "cached": "img/W7211929488.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71556"
+      },
       "summary_ko": "PVDF 기반 고체 고분자 전해질의 전극/전해질 계면 저하 문제를 해결하기 위해 3차원 다공성 소수층 MoS2를 필러로 도입하여 FSI- 및 용매와의 Li+ 결합을 약화시키고 음이온 중심의 Li+ 솔베이션 구조로 재편했다. 이 전해질은 1.13 mS/cm의 이온전도도와 0.68의 Li+ 이동수를 보이며 리튬금속 음극과의 우수한 호환성을 나타냈다. LiNi0.8Co0.1Mn0.1O2||Li 셀은 2C에서 1500회 사이클 후 90.5%의 용량유지율을 달성했고, 54 mAh 파우치셀로 실용적 적용 가능성을 확인했다.",
       "relevant": true
     },
