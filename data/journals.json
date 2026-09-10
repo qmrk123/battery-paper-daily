@@ -347,6 +347,10 @@
   "metric": 5.74,
   "name": "Chinese Chemical Letters"
  },
+ "S168707975": {
+  "metric": 2.66,
+  "name": "Journal of Renewable and Sustainable Energy"
+ },
  "S168745376": {
   "metric": 4.2,
   "name": "Ultrasonics"
@@ -454,6 +458,10 @@
  "S189509794": {
   "metric": 2.79,
   "name": "Journal of Materials Science Materials in Electronics"
+ },
+ "S189701308": {
+  "metric": 5.31,
+  "name": "Journal of Chemical Theory and Computation"
  },
  "S189917590": {
   "metric": 2.36,
@@ -1083,6 +1091,10 @@
   "metric": 0.21,
   "name": "Bulletin of scientific research results"
  },
+ "S4210184591": {
+  "metric": 3.56,
+  "name": "Advanced Industrial and Engineering Polymer Research"
+ },
  "S4210185304": {
   "metric": 3.64,
   "name": "Arabian Journal for Science and Engineering"
@@ -1659,6 +1671,10 @@
   "metric": 0.72,
   "name": "IntechOpen eBooks"
  },
+ "S4306525036": {
+  "metric": 0.65,
+  "name": "PubMed"
+ },
  "S4306525896": {
   "metric": 0.19,
   "name": "Research Square"
@@ -1990,6 +2006,10 @@
  "S5407040505": {
   "metric": 0.98,
   "name": "Materials and Interfaces"
+ },
+ "S5407042868": {
+  "metric": 4.2,
+  "name": "Discover Applied Sciences"
  },
  "S5407042882": {
   "metric": 13.75,

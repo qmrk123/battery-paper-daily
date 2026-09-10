@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-09T23:02:11+00:00",
+  "generated_at": "2026-09-10T23:03:17+00:00",
   "count": 9,
   "papers": [
     {
@@ -128,7 +128,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-10",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77440-0/MediaObjects/41467_2026_77440_Fig1_HTML.png",
+        "cached": "img/W7211924418.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77440-0"
+      },
       "summary_ko": "머신러닝 설계와 900°C 저온 열-압력 결합 탄화 공정을 통해 나트륨 저장 사이트와 빠른 Na+ 확산을 동시에 확보한 하드카본 미세구조를 구현했다. 이를 적용한 소듐이온 파우치셀은 1.5-4.3V에서 208.1 Wh/kg의 비에너지를 달성했으며, 기존 1300°C 대비 탄화 온도를 낮춰 에너지 소비 49.7%, 탄소 배출 47.5%를 절감했다.",
       "relevant": false
     },
@@ -156,7 +161,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-10",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77387-2/MediaObjects/41467_2026_77387_Fig1_HTML.png",
+        "cached": "img/W7211869575.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77387-2"
+      },
       "summary_ko": "고면적용량과 폴리아이오다이드 셔틀링 문제를 해결하기 위해 상분리 공정으로 형성된 폴리아마이드 열가소성 엘라스토머 골격을 갖는 두꺼운(>2mm) 유연 아이오딘 전극을 개발했다. 폴리아마이드의 아마이드기가 폴리아이오다이드를 효과적으로 고정하여 재활용을 돕고, 70 mg/cm² 고로딩 전극이 0.62 A/g에서 11.5 mAh/cm²의 평균 면적용량을 1600회 이상 사이클에서 유지했다. 이 통합 전극으로 제작한 약 1.6Ah급 파우치셀은 1200회 사이클 동안 안정적으로 작동해 실용적 응용 가능성을 입증했다.",
       "relevant": false
     },

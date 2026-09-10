@@ -1,8 +1,187 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-09T23:02:11+00:00",
-  "count": 90,
+  "generated_at": "2026-09-10T23:01:07+00:00",
+  "count": 104,
   "papers": [
+    {
+      "id": "W7212019434",
+      "source": "openalex",
+      "title": "Single cell multi-omics guided hydrogel enables closed-loop therapy for renal osteodystrophy",
+      "url": "https://doi.org/10.1038/s41467-026-77551-8",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77551-8",
+      "authors": [
+        "Lei Fan",
+        "Kenan Sun",
+        "Feiping Xia",
+        "Guanghong Wu",
+        "Hao Xie",
+        "Bolin Chen"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Fracture repair in renal osteodystrophy remains challenging because impaired bone quality compromises fixation stability, while current systemic therapies regulating bone metabolism do not sufficiently address the disease-specific mechanisms underlying defective repair. An integrated strategy combining early fracture stabilization with mechanism-guided local treatment is therefore needed. Here, integrated single-cell RNA sequencing and multi-omics analyses identify inflammatory macrophages as a key pathogenic population, characterized by glycolytic reprogramming driven by hypoxia-inducible factor 1 alpha and phosphofructokinase-2/fructose-2,6-bisphosphatase 3, together with acidic metabolite accumulation. We show that this inflammatory acidic niche suppresses bone formation, enhances bone resorption and impairs regeneration. Guided by this mechanism, we develop a microenvironment-responsive adhesive hydrogel formed from a gelatin–boronic acid conjugate and sodium alginate and loaded with Epimedium-derived extracellular vesicle-like nanoparticles. We demonstrate that the hydrogel provides early local stabilization, enables microenvironment-responsive nanoparticle release and regulates the pathological niche. In vitro and in vivo, we find that the system suppresses inflammatory macrophage activation, promotes osteogenesis, inhibits osteoclastogenesis and accelerates fracture healing in a renal osteodystrophy model. These findings reveal a disease-specific mechanism of defective bone repair and provide a closed-loop therapeutic strategy that integrates local stabilization with microenvironment-directed treatment for fractures associated with renal osteodystrophy. Using single-cell multi-omics, the authors uncover an inflammatory acidic environment that impairs bone repair in renal osteodystrophy. They develop a closed-loop hydrogel therapy integrating fracture stabilization with local microenvironment regulation.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77551-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "신장성 골이영양증 환자의 골절 회복에서 염증성 대식세포의 해당작용 재프로그래밍과 산성 대사산물 축적이 골 형성을 억제하고 골 흡수를 촉진함을 단일세포 멀티오믹스로 규명했다. 이를 바탕으로 젤라틴-보론산 접합체와 알긴산나트륨으로 구성된 미세환경 반응형 접착 하이드로겔에 음양곽 유래 세포외소포체 유사 나노입자를 담지하여 국소 안정화와 병리적 미세환경 조절을 동시에 구현하는 폐루프 치료 전략을 제시했다. 동물 모델에서 염증성 대식세포 활성을 억제하고 골형성을 촉진하여 골절 치유를 가속화함을 확인했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7212000770",
+      "source": "openalex",
+      "title": "Host‐Guest Recognition‐Enabled Covalent Organic Framework Artificial Interphase for Anion Regulation and Selective Li + Transport in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78250",
+      "published": "2026-09-09",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78250",
+      "authors": [
+        "Cuiping Luo",
+        "Wenwei Li",
+        "Qi An",
+        "Kun Zeng",
+        "Yunyu Zhao",
+        "Yunchun Zha"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The practical application of lithium metal batteries is severely restricted by dendritic lithium growth and the continuous evolution of unstable solid electrolyte interphases, both of which originate from sluggish Li + desolvation kinetics. Herein, a host‐guest recognition‐enabled covalent organic framework is developed to regulate interfacial ion migration. By nanoconfined copolymerization of ionic‐liquid monomers within the channels, multi‐cation molecular chains (MCMC) are integrated into the framework to construct a DVA‐COF‐MCMC interphase with selective Li + transport capability. The cationic recognition sites selectively immobilize bis(trifluoromethanesulfonyl)imide anions through strong host‐guest interactions, disrupting Li + ‐anion coordination and establishing Li + ‐exclusive transport pathways. Theoretical calculations and in situ characterizations reveal that the recognition‐driven ion regulation redistributes the local charge environment, lowers the Li + dissociation energy barrier, and promotes the formation of a homogeneous LiF‐rich solid electrolyte interphase. Consequently, the modified lithium anode delivers a high Li + transference number (0.81), a wide electrochemical stability window (4.8 V), and stable Li plating/stripping (1200 h). Full cells paired with LiFePO 4 and LiNi 0.9 Co 0.05 Mn 0.05 O 2 cathodes exhibit outstanding rate capability. This work transforms covalent organic framework interfacial engineering from passive channel confinement to active channel recognition, offering a new paradigm for high‐performance lithium metal batteries (LMBs).",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "공유결합성 유기골격체(COF) 채널 내에 이온성 액체 단량체를 나노구속 공중합하여 다중 양이온 분자사슬을 도입한 호스트-게스트 인식형 인터페이스(DVA-COF-MCMC)를 개발했다. 양이온 인식 자리가 TFSI- 음이온을 선택적으로 고정해 Li+-음이온 배위를 차단하고 Li+ 전용 수송 경로를 형성하며, 균일한 LiF 풍부 SEI 형성을 유도한다. 이 계면은 Li+ 이동수 0.81, 전기화학적 안정성 창 4.8V, 1200시간의 안정적인 Li 도금/탈리 성능을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7212066233",
+      "source": "openalex",
+      "title": "Fluorinated Gel Polymer Electrolyte With Dynamically Reconfigurable Hydrogen‐Bond Networks for High‐Voltage and Wide‐Temperature Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78272",
+      "published": "2026-09-09",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/adfm.78272",
+      "authors": [
+        "Qingjie Zhou",
+        "Qingsong Liu",
+        "Kai Feng",
+        "Shilin Xu",
+        "Wang Huang",
+        "Zixu Sun"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT In situ formed gel polymer electrolytes (GPEs) improve safety and interfacial compatibility in high‐energy lithium metal batteries (LMBs), yet, simultaneously achieving long‐term cyclability, high energy density, superior rate capability, and all‐climate adaptability remains challenging. We report a viscoelastic and self‐healing GPE synthesized via a thermally triggered concurrent reaction: (i) radical copolymerization, (ii) in‐situ generation of primary amines via isocyanate hydrolysis and their subsequent nucleophilic addition to residual isocyanates to form urea, and (iii) nucleophilic ring‐opening of fluoroethylene carbonate. The dynamic hydrogen‐bond network enables autonomous healing of microcracks induced by electrode volume fluctuations, preserving intimate electrode–electrolyte contact. Polymer−solvent interactions facilitate Li + desolvation while suppressing solvent decomposition. The polymer‐DFOB − ‐derived interphase suppresses side reactions and accommodates cathode volume changes. In Li||LiNi 0.83 Co 0.11 Mn 0.06 O 2 (NCM83) cells, the GPE‐based cell delivers 151.7 mAh g −1 at 5 C with 81.1% retention after 800 cycles. Notably, the cells exhibit exceptional wide‐temperature durability, delivering 82.9 mAh g −1 after 600 cycles at −40°C and 165.9 mAh g −1 over 200 cycles at 70°C. Even at 10 mg cm −2 , the cell achieves 197.2 mAh g −1 at 0.5 C with 92.4% retention after 200 cycles. This work establishes a feasible molecular‐level paradigm for realizing high‐energy‐density, fast‐charging, and all‐climate‐adaptable LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "열 유도 라디칼 공중합, 이소시아네이트 가수분해에 의한 우레아 형성, 플루오로에틸렌카보네이트의 개환 반응이 동시에 일어나는 불소화 젤 고분자 전해질을 개발했다. 동적 수소결합 네트워크가 전극 부피 변화로 인한 미세균열을 자가치유하고, 폴리머-DFOB- 유래 계면이 부반응을 억제한다. NCM83 셀에서 5C, 800사이클 후 81.1%의 용량유지율을 보였고, -40°C 및 70°C의 광범위한 온도 범위에서도 우수한 성능을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7212007675",
+      "source": "openalex",
+      "title": "Controlling iodine reaction topology under Constraints: Mechanistic design principles for Extreme-Environment Zinc–Iodine batteries",
+      "url": "https://doi.org/10.1016/j.mattod.2026.103510",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1016/j.mattod.2026.103510",
+      "authors": [
+        "Zongyou Jiang",
+        "Xing Yang",
+        "Jing Zhang",
+        "Jiansheng Yang",
+        "Jinhai He",
+        "Xuntao Wang"
+      ],
+      "venue": "Materials Today",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S63322718",
+      "journal_metric": 13.18,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "극한 환경용 아연-요오드 전지에서 요오드 반응 경로를 제어하기 위한 메커니즘적 설계 원칙을 다룬 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7212003281",
+      "source": "openalex",
+      "title": "Physics‐Guided Descriptors Enable Data‐Efficient Prediction of Battery Coulombic Efficiency",
+      "url": "https://doi.org/10.1002/advs.76510",
+      "published": "2026-09-08",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.76510",
+      "authors": [
+        "Qintao Sun",
+        "Xuewei Gu",
+        "Yulin Jie",
+        "Hao Yang",
+        "Shuhong Jiao",
+        "Chao Tang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Lithium metal batteries promise energy densities beyond 500 Wh kg −1 ; but their practical deployment remains limited by low Coulombic efficiency and uncontrolled electrolyte‐interface reactions. Here, we show that physics‐guided machine learning can identify the molecular origin of Coulombic efficiency (CE) from small experimental datasets by embedding 3D electrolyte structures into data‐driven descriptors. Among the descriptors examined, the physics‐derived solvent‐surrounding‐Li + descriptor (Li SSL ) enables accurate CE prediction, achieving a test‐set R 2 of 91.15%. Explainable machine learning further reveals Li SSL as the dominant factor governing model performance, indicating that high‐efficiency lithium deposition requires suppression of direct Li +– solvent interactions. This insight establishes a molecular design principle for electrolytes: weakening solvent participation in the primary Li + solvation environment promotes higher CE. Our work provides a physics‐informed, data‐driven framework for accelerating electrolyte discovery toward high‐energy lithium metal batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.76510",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "물리 기반 설명 변수를 활용한 머신러닝으로 소규모 실험 데이터셋에서 리튬금속전지의 쿨롱효율(CE)을 예측하는 방법을 제시했다. 3차원 전해질 구조를 임베딩한 설명 변수 중 용매-Li+ 주변 배위를 나타내는 Li_SSL 지표가 CE 예측에서 R² 91.15%의 정확도를 달성했으며, Li+-용매 직접 상호작용을 억제하는 것이 높은 CE 달성의 핵심임을 규명했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7212081728",
+      "source": "openalex",
+      "title": "Perfluorinated Sulfonyl Fluoride Mediated Solvation and Interphase Dual Engineering in a Weakly‐Solvating Electrolyte for High‐Voltage Li‐Metal Pouch Cell",
+      "url": "https://doi.org/10.1002/adfm.78341",
+      "published": "2026-09-08",
+      "topics": [
+        "li-metal",
+        "ncm",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.78341",
+      "authors": [
+        "Xiangyi Tan",
+        "Xin Huang",
+        "Hongwei Yu",
+        "Weiguo Li",
+        "Gupei Ding",
+        "Xufeng Zang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The practical deployment of high‐voltage Ni‐rich lithium‐metal batteries is hindered by severe electrolyte decomposition at both electrodes. Herein, we design a weakly‐solvating electrolyte (WSE) with fluoroethylene carbonate (FEC) and 2,2,2‐trifluoroethyl methyl carbonate (FEMC) as solvents. This electrolyte promotes an anion‐dominated solvation sheath and forms inorganic‐rich interphases (LiF, Li 2 CO 3 , and Li x PO y F z ), yet these species remain largely confined to the surface, leaving inner layers rich in organic decomposition products. To address this, we introduce 3 wt% nonafluorobutanesulfonyl fluoride (NFBSF) as a multifunctional additive (WSE‐3SF). Combined theoretical and experimental analyses reveal that NFBSF does not coordinate Li + . Instead, it preferentially interacts with FEMC, creating a local low‐polarity environment that enhances PF 6 − incorporation into the solvation shell. This tailored solvation, together with direct NFBSF decomposition via selective S‐C/S‐F bond cleavage, yields robust interphases uniformly enriched in LiF, LiPO 2 F 2 , and sulfonate/sulfonyl fluoride species. Moreover, WSE‐3SF imparts improved physicochemical properties to the electrolyte. Consequently, the Li||Cu cell delivers a Coulombic efficiency of 98.5%, 5 V‐class Li||LiNi 0.5 Mn 1.5 O 4 cell maintains cycling over 1000 cycles, and 4.5 V‐class 4.2 Ah Li||LiNi 0.88 Co 0.07 Mn 0.05 O 2 pouch cell retains 96.3% capacity after 95 cycles. This work establishes a synergy between weakly solvating solvents and a purpose‐designed sulfuryl fluoride additive for high‐voltage Li metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "플루오로에틸렌카보네이트(FEC)와 FEMC를 용매로 사용하는 약한 용매화 전해질(WSE)에 노나플루오로부탄술포닐 플루오라이드(NFBSF)를 첨가제로 도입하여 음이온 중심 용매화 및 무기물이 풍부한 계면을 형성하는 전략을 제시했다. NFBSF는 Li+와 배위하지 않고 FEMC와 우선적으로 상호작용하여 PF6- 음이온의 용매화 셸 참여를 촉진하고, S-C/S-F 결합 선택적 분해를 통해 LiF, LiPO2F2 등이 풍부한 견고한 계면을 형성한다. Li||Cu 셀에서 98.5%의 쿨롱효율을 보였고, 5V급 LiNi0.5Mn1.5O4 셀은 1000사이클 이상 안정적으로 작동했으며, 4.5V급 NCM88 파우치셀은 95사이클 후 96.3%의 용량을 유지했다.",
+      "relevant": true
+    },
     {
       "id": "W7211924831",
       "source": "openalex",
@@ -40,6 +219,37 @@
       "relevant": true
     },
     {
+      "id": "W7212009024",
+      "source": "openalex",
+      "title": "Interpenetrating Interface Engineering via Competitive Coordination in Ultrathin Asymmetric Solid‐State Electrolytes for High‐Energy Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78110",
+      "published": "2026-09-08",
+      "topics": [
+        "li-metal",
+        "li-rich"
+      ],
+      "doi": "10.1002/adfm.78110",
+      "authors": [
+        "Jiang‐Kui Hu",
+        "Xi-Long Wang",
+        "Hong Yuan",
+        "Shi‐Jie Yang",
+        "Zi-Hao Zuo",
+        "Zhao Cao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Asymmetric solid‐state electrolytes (ASEs) have been proven to achieve simultaneous compatibility with high‐voltage cathodes and lithium metal anodes, making them attractive for high‐energy‐density solid‐state lithium metal batteries (SSLMBs). However, conventional ASE configuration typically introduces an additional electrolyte/electrolyte interface, which results in high Li‐ion (Li + ) migration resistance and compromised electrochemical performance. Herein, we propose an interpenetrating interface engineering strategy to construct a seamless and integrated ASE. The unique interface layer is formed by a reduction‐resistant poly(1,3‐dioxolane) (PDOL) penetrating into an oxidation‐tolerant poly(vinylidene fluoride‐co‐hexafluoropropylene) (PVDF‐HFP) polymer layer. In addition to achieving synchronized interfacial stability at both the cathode and the anode, the competitive coordination of PDOL with Li + in the interpenetrating interface layer promotes efficient Li + transport along PDOL chains, effectively reducing the Li + cross‐interface transport energy barrier and lowering the total interfacial resistance. The resulting ASE, with an ultra‐thin thickness of 10 µm, enables a pouch cell incorporating an ultrathin Li metal anode and high‐loading Li‐rich Mn‐based oxide cathode (7 mAh cm −2 ) to achieve a high energy density of 521.6 Wh kg −1 and 1161.4 Wh L −1 . This interpenetrating interface design strategy provides a new pathway for developing next‐generation SSLMBs with high energy density.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "환원에 강한 폴리(1,3-디옥솔란)(PDOL)이 산화에 강한 PVDF-HFP 층으로 침투하는 상호침투형 계면공학을 통해 비대칭 고체전해질(ASE)의 계면 저항 문제를 해결했다. PDOL과 Li+의 경쟁적 배위가 사슬을 따라 효율적인 Li+ 수송을 촉진하여 계면 통과 에너지 장벽을 낮춘다. 10μm의 초박형 ASE와 리튬리치 망간계 산화물 고로딩 양극(7mAh/cm²)을 결합한 파우치셀에서 521.6 Wh/kg, 1161.4 Wh/L의 높은 에너지밀도를 달성했다.",
+      "relevant": true
+    },
+    {
       "id": "W7211952232",
       "source": "openalex",
       "title": "Full Component Utilization: Targeted Separation of Mn/Li From Spent LiMn 2 O 4 for Reconstructing High‐Performance Single‐Crystal Cathode Materials",
@@ -66,6 +276,68 @@
       "image": null,
       "summary_ko": "폐 LiMn2O4 양극재에서 망간과 리튬을 선택적으로 분리하는 오스트발트 숙성 기반 전략을 통해 고성능 단결정 양극재(R-LMO)를 재생하는 방법을 제시한다. 산소 공공 도입으로 격자 변형과 얀-텔러 효과에 의한 비가역적 상전이를 억제하여 상용 LMO(1000회, 1C에서 68.6%) 대비 향상된 용량유지율(81.2%)을 달성했다. 외부 이온 오염이나 화학 폐기물 발생 없이 코발트 없는 지속가능한 양극재 재활용 경로를 제공한다.",
       "relevant": false
+    },
+    {
+      "id": "W7212062176",
+      "source": "openalex",
+      "title": "Cyano‐Driven Solvation Structure Reconstruction and Interfacial Passivation for 4.5 V Solid‐State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.3609669",
+      "published": "2026-09-08",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/anie.3609669",
+      "authors": [
+        "吴保占",
+        "Jinlin Li",
+        "Xin‐Gai Wang",
+        "Xin‐Gai Wang",
+        "Jianxin Deng",
+        "Letian Chen"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Solid polymer electrolytes hold great promise for high‐energy‐density lithium metal batteries, yet their practical implementation is still hindered by sluggish room‐temperature Li + transport and insufficient high‐voltage tolerance ( i.e ., unstable above 4.3 V) especially when coupled with Ni‐rich layered cathodes. Herein, we report a cyano‐coordinating strategy to reconstruct the Li + solvation environment by precisely regulating the content of cyanoacrylate adhesive. This abandonment of ether‐oxygen polymers as the main material, that is, the competitive Li + –C≡N coordination reorganizes the primary solvation shell of Li + . This regulated solvation sheath simultaneously provides continuous low‐barrier hopping sites of Li + and improves the oxidative stability of the electrolytes. More importantly, the strong coordination anchoring between −C≡N and transition‐metal cations ( i.e ., TM δ+ –N≡C), suppresses irreversible dissolution of transition‐metal cations during cycling. The Li//NCM811 cells retain 88.2% of their initial capacity after 500 cycles at 4.3 V and 3 C and 80.1% after 350 cycles at 4.5 V and 1 C. Meanwhile, the cells exhibited a high operating voltage over 3.85 V, showing great potential for high‐energy‐density solid‐state batteries. This study establishes molecular coordination reconstruction to synergistically regulate the solvation behavior and high‐voltage interfacial chemistry of polymer electrolytes, providing a general design rationale for high‐energy‐density and long‐life solid‐state lithium‐metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "에테르-산소 고분자를 주 소재로 사용하지 않고 시아노아크릴레이트 접착제 함량을 정밀 조절하여 Li+-C≡N 배위 경쟁을 통해 Li+ 솔베이션 구조를 재편하는 전략을 제시했다. 재편된 솔베이션 셸이 연속적인 저장벽 Li+ 홉핑 자리를 제공하고 전해질의 산화 안정성을 향상시키며, -C≡N과 전이금속 양이온의 강한 배위 결합이 사이클링 중 전이금속 용출을 억제한다. Li//NCM811 셀은 4.3V, 3C에서 500사이클 후 88.2%, 4.5V, 1C에서 350사이클 후 80.1%의 용량유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7212015988",
+      "source": "openalex",
+      "title": "Backbone‐Mediated Coordination‐Environment Reshaping in Gel Polymer Electrolytes for High‐Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.5855662",
+      "published": "2026-09-08",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/anie.5855662",
+      "authors": [
+        "Yajie Hu",
+        "Jianxing Wang",
+        "Ting Li",
+        "Jinyu Tian",
+        "Ying Xu",
+        "Yifan Deng"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Conventional linear polyether electrolytes feature abundant ether‐oxygen sites that dominate the primary Li + solvation shell, limiting anion participation and undermining ion transport and high‐voltage stability. A backbone‐mediated coordination‐environment reshaping strategy is proposed by incorporating diglycidyl 1,2‐cyclohexanedicarboxylate (DCD) into the copolymerization of 1,3‐dioxolane (DOL), yielding an in situ crosslinked gel polymer electrolyte, P(DCD‐DOL). The weakly coordinating ester carbonyl groups and the spatially restricted ether‐oxygen sites in the crosslinked network jointly weaken backbone–Li + coordination and promote anion/solvent participation in the Li + solvation shell. Multiscale characterizations and theoretical simulations confirm that P(DCD‐DOL) effectively optimizes the Li + solvation structure, leading to a high Li + transference number of 0.64, an oxidative stability window of 5.20 V, and inorganic‐rich electrode–electrolyte interphases. Consequently, Li||NCM811 cells with P(DCD‐DOL) retain 84.21% capacity after 500 cycles at 4.3 V, and 80.62% after 200 cycles at 4.5 V. Moreover, a 0.9 Ah pouch cell achieves an energy density of 305 Wh kg −1 and retains 82.33% capacity over 180 cycles. This work highlights polymer backbone engineering as an effective route to regulate Li + coordination and interfacial chemistry in high‐voltage lithium metal batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.5855662",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "1,3-디옥솔란(DOL)과 디글리시딜 1,2-사이클로헥산디카르복실레이트(DCD)를 공중합하여 골격 매개 배위환경 재구성 전략을 통한 젤 고분자 전해질 P(DCD-DOL)을 개발했다. 약하게 배위하는 에스터 카르보닐기와 공간적으로 제한된 에테르-산소 자리가 골격-Li+ 배위를 약화시켜 음이온/용매의 솔베이션 셸 참여를 촉진하며, Li+ 이동수 0.64, 산화 안정성 창 5.20V를 달성했다. Li||NCM811 셀은 4.3V에서 500사이클 후 84.21%, 4.5V에서 200사이클 후 80.62%의 용량유지율을 보였고, 0.9Ah 파우치셀은 305Wh/kg의 에너지밀도로 180사이클 동안 82.33%를 유지했다.",
+      "relevant": true
     },
     {
       "id": "W7211936095",
@@ -158,7 +430,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-09",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77589-8/MediaObjects/41467_2026_77589_Fig1_HTML.png",
+        "cached": "img/W7211886513.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77589-8"
+      },
       "summary_ko": "비배위성·난연성 고리형 불소화 희석제를 도입해 전해질 성분 간 혼화성을 조절함으로써 고립된 용매화 나노클러스터를 형성하는 고에너지 리튬 금속 전지용 전해질을 설계했다. 이 구조는 Li+ 이동을 촉진해 덴드라이트 성장을 억제하고 무기물 위주의 계면상을 형성해 계면 안정성을 높인다. 50 μm Li와 NCM811 양극 조합 셀은 800사이클 후 80% 용량을 유지했고, Ah급 파우치셀은 500 Wh/kg 이상의 비에너지와 못 관통·과충전 안전성을 동시에 달성했다.",
       "relevant": true
     },
@@ -968,6 +1245,32 @@
       "relevant": false
     },
     {
+      "id": "W7211999583",
+      "source": "openalex",
+      "title": "Vertically Aligned Architectures for Fast Ion Transport in Solid-State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105523",
+      "published": "2026-09-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105523",
+      "authors": [
+        "Sai Ge",
+        "Huan Ye"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "고체상 리튬금속전지에서 빠른 이온 수송을 위한 수직 정렬 구조 설계에 관한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7204922802",
       "source": "openalex",
       "title": "Unlocking rechargeable battery materials with artificial intelligence: From data-descriptor-model workflows to closed-loop discovery",
@@ -992,6 +1295,34 @@
       "first_seen": "2026-09-03",
       "image": null,
       "summary_ko": "인공지능을 활용해 데이터-기술자-모델 워크플로우부터 폐쇄 루프 발견에 이르기까지 충전식 전지 소재 개발을 가속화하는 접근법을 다룬 것으로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7212078148",
+      "source": "openalex",
+      "title": "Understanding solvent-free electrode viscoelastic behaviour and its effect on springback in Li-ion battery manufacture",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105482",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105482",
+      "authors": [
+        "Benjamin Meyer",
+        "Wenjia Du",
+        "Enzo Liotti",
+        "Ed Darnbrough",
+        "J. Lewis-Fell",
+        "Paul R. Shearing"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "리튬이온전지 제조 공정에서 무용매 전극의 점탄성 거동과 이것이 스프링백 현상에 미치는 영향을 규명하는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -1290,6 +1621,36 @@
       "relevant": false
     },
     {
+      "id": "W7212030064",
+      "source": "openalex",
+      "title": "Mitigating voltage fade and cycling degradation in Co-free Li-rich Mn-based cathodes via phase regulation by high-temperature lithiation tuning",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.086",
+      "published": "2026-09-01",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1016/j.jechem.2026.08.086",
+      "authors": [
+        "Qingjun Zhu",
+        "Cui Baowen",
+        "Lijun Gao",
+        "Xuan He",
+        "Xiaokang Ju",
+        "Wenlong Luo"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "고온 리튬화 조건을 통한 상 조절로 코발트 프리 리튬리치 망간계 양극의 전압 감쇠와 사이클 열화를 완화하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7208739655",
       "source": "openalex",
       "title": "Mitigating structural strain and transition metal-oxygen framework evolution for enhanced cycling performance of P2/O3 sodium oxide cathodes",
@@ -1521,6 +1882,36 @@
       "relevant": true
     },
     {
+      "id": "W7212064548",
+      "source": "openalex",
+      "title": "Gene‐editing‐inspired heterocyclic meta‐aramid resin coating for high‐performance lithium metal battery separators",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.077",
+      "published": "2026-09-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.jechem.2026.08.077",
+      "authors": [
+        "Weijing Chen",
+        "Siqi Li",
+        "Shangjie Yu",
+        "Xinzhi Zhang",
+        "Lizhi Song",
+        "Shan Wang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "유전자 편집에서 착안한 헤테로고리 메타-아라미드 수지 코팅을 적용해 고성능 리튬금속전지용 분리막을 개발하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7211927301",
       "source": "openalex",
       "title": "Framework Robustness Enabled by Gradient Strontium Doping for Lithium-Rich Manganese-Based Cathodes",
@@ -1613,6 +2004,34 @@
       },
       "summary_ko": "탄성 코어-전도성 쉘 구조의 슬러리 첨가제(ASA)를 도입해 NCM811 고전압 캐소드 표면에 상분리된 모자이크형 계면을 형성했다. PBA 성분이 부피 변화로 인한 응력을 완충하고 SAN 성분이 Li+ 계면 친화성과 전자전도성을 향상시켜, 4.5V 조건의 NCM811||흑연 파우치셀에서 용량 유지율이 개선되었다.",
       "relevant": true
+    },
+    {
+      "id": "W7212046654",
+      "source": "openalex",
+      "title": "Dual-site defect-suppressed Na4Fe3(PO4)2P2O7 cathode for ultra-stable sodium-ion batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.085",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.08.085",
+      "authors": [
+        "Tongyin Shen",
+        "Quan Lu",
+        "Yujin Wei",
+        "Jianxun Zhu",
+        "Mingru Su",
+        "Chenteng Sun"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-11",
+      "image": null,
+      "summary_ko": "이중 자리 결함 억제 전략을 적용한 Na4Fe3(PO4)2P2O7 양극 소재로 초안정적인 소듐이온전지를 구현하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7211924064",
