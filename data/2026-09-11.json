@@ -57,7 +57,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78250",
+        "cached": "img/W7212000770.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78250"
+      },
       "summary_ko": "공유결합성 유기골격체(COF) 채널 내에 이온성 액체 단량체를 나노구속 공중합하여 다중 양이온 분자사슬을 도입한 호스트-게스트 인식형 인터페이스(DVA-COF-MCMC)를 개발했다. 양이온 인식 자리가 TFSI- 음이온을 선택적으로 고정해 Li+-음이온 배위를 차단하고 Li+ 전용 수송 경로를 형성하며, 균일한 LiF 풍부 SEI 형성을 유도한다. 이 계면은 Li+ 이동수 0.81, 전기화학적 안정성 창 4.8V, 1200시간의 안정적인 Li 도금/탈리 성능을 달성했다.",
       "relevant": true
     },
@@ -88,7 +94,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78272",
+        "cached": "img/W7212066233.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78272"
+      },
       "summary_ko": "열 유도 라디칼 공중합, 이소시아네이트 가수분해에 의한 우레아 형성, 플루오로에틸렌카보네이트의 개환 반응이 동시에 일어나는 불소화 젤 고분자 전해질을 개발했다. 동적 수소결합 네트워크가 전극 부피 변화로 인한 미세균열을 자가치유하고, 폴리머-DFOB- 유래 계면이 부반응을 억제한다. NCM83 셀에서 5C, 800사이클 후 81.1%의 용량유지율을 보였고, -40°C 및 70°C의 광범위한 온도 범위에서도 우수한 성능을 유지했다.",
       "relevant": true
     },
@@ -146,7 +158,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.76510",
+        "cached": "img/W7212003281.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.76510"
+      },
       "summary_ko": "물리 기반 설명 변수를 활용한 머신러닝으로 소규모 실험 데이터셋에서 리튬금속전지의 쿨롱효율(CE)을 예측하는 방법을 제시했다. 3차원 전해질 구조를 임베딩한 설명 변수 중 용매-Li+ 주변 배위를 나타내는 Li_SSL 지표가 CE 예측에서 R² 91.15%의 정확도를 달성했으며, Li+-용매 직접 상호작용을 억제하는 것이 높은 CE 달성의 핵심임을 규명했다.",
       "relevant": true
     },
@@ -178,7 +196,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78341",
+        "cached": "img/W7212081728.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78341"
+      },
       "summary_ko": "플루오로에틸렌카보네이트(FEC)와 FEMC를 용매로 사용하는 약한 용매화 전해질(WSE)에 노나플루오로부탄술포닐 플루오라이드(NFBSF)를 첨가제로 도입하여 음이온 중심 용매화 및 무기물이 풍부한 계면을 형성하는 전략을 제시했다. NFBSF는 Li+와 배위하지 않고 FEMC와 우선적으로 상호작용하여 PF6- 음이온의 용매화 셸 참여를 촉진하고, S-C/S-F 결합 선택적 분해를 통해 LiF, LiPO2F2 등이 풍부한 견고한 계면을 형성한다. Li||Cu 셀에서 98.5%의 쿨롱효율을 보였고, 5V급 LiNi0.5Mn1.5O4 셀은 1000사이클 이상 안정적으로 작동했으며, 4.5V급 NCM88 파우치셀은 95사이클 후 96.3%의 용량을 유지했다.",
       "relevant": true
     },
@@ -209,7 +233,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78110",
+        "cached": "img/W7212009024.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78110"
+      },
       "summary_ko": "환원에 강한 폴리(1,3-디옥솔란)(PDOL)이 산화에 강한 PVDF-HFP 층으로 침투하는 상호침투형 계면공학을 통해 비대칭 고체전해질(ASE)의 계면 저항 문제를 해결했다. PDOL과 Li+의 경쟁적 배위가 사슬을 따라 효율적인 Li+ 수송을 촉진하여 계면 통과 에너지 장벽을 낮춘다. 10μm의 초박형 ASE와 리튬리치 망간계 산화물 고로딩 양극(7mAh/cm²)을 결합한 파우치셀에서 521.6 Wh/kg, 1161.4 Wh/L의 높은 에너지밀도를 달성했다.",
       "relevant": true
     },
@@ -240,7 +270,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3609669",
+        "cached": "img/W7212062176.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3609669"
+      },
       "summary_ko": "에테르-산소 고분자를 주 소재로 사용하지 않고 시아노아크릴레이트 접착제 함량을 정밀 조절하여 Li+-C≡N 배위 경쟁을 통해 Li+ 솔베이션 구조를 재편하는 전략을 제시했다. 재편된 솔베이션 셸이 연속적인 저장벽 Li+ 홉핑 자리를 제공하고 전해질의 산화 안정성을 향상시키며, -C≡N과 전이금속 양이온의 강한 배위 결합이 사이클링 중 전이금속 용출을 억제한다. Li//NCM811 셀은 4.3V, 3C에서 500사이클 후 88.2%, 4.5V, 1C에서 350사이클 후 80.1%의 용량유지율을 달성했다.",
       "relevant": true
     },
@@ -271,7 +307,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5855662",
+        "cached": "img/W7212015988.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5855662"
+      },
       "summary_ko": "1,3-디옥솔란(DOL)과 디글리시딜 1,2-사이클로헥산디카르복실레이트(DCD)를 공중합하여 골격 매개 배위환경 재구성 전략을 통한 젤 고분자 전해질 P(DCD-DOL)을 개발했다. 약하게 배위하는 에스터 카르보닐기와 공간적으로 제한된 에테르-산소 자리가 골격-Li+ 배위를 약화시켜 음이온/용매의 솔베이션 셸 참여를 촉진하며, Li+ 이동수 0.64, 산화 안정성 창 5.20V를 달성했다. Li||NCM811 셀은 4.3V에서 500사이클 후 84.21%, 4.5V에서 200사이클 후 80.62%의 용량유지율을 보였고, 0.9Ah 파우치셀은 305Wh/kg의 에너지밀도로 180사이클 동안 82.33%를 유지했다.",
       "relevant": true
     },
