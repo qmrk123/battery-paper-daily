@@ -115,7 +115,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-12",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78361",
+        "cached": "img/W7212148720.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78361"
+      },
       "summary_ko": "무음극 소듐금속전지(AFSMB)의 덴드라이트 및 불안정한 SEI 문제를 해결하기 위해 구리 집전체에 소듐친화적인 Ag 계면을 형성하는 전략을 제안한다. Ag 계면은 균일한 전기장 분포와 소듐친화성을 통해 균일한 Na 증착을 유도하고 얇고 견고한 SEI 형성을 촉진한다. Ag-Cu||Na 비대칭셀은 1100회 이상 사이클에서 99.87%의 쿨롱효율을 보였고, 완전셀은 500회 사이클 후 70%의 용량을 유지하며 -20°C에서도 150회 이상 안정적으로 구동되었다.",
       "relevant": true
     },
@@ -146,7 +152,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-12",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71536",
+        "cached": "img/W7212110317.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71536"
+      },
       "summary_ko": "리튬-황전지(LSB)에서 폴리설파이드와 리튬 금속의 부반응을 억제하기 위해 내부 전기장을 활용한 강유전체 β-PVDF 보호층(PPFBN)을 제안한다. 코로나 폴링으로 분극을 정렬하고 절연성 나노시트로 전하 이완을 억제해 내부 전기장을 유지함으로써 Li+ 이동은 촉진하고 폴리설파이드 음이온의 접근은 차단한다. PPFBN을 적용한 Li/Li 대칭셀은 폴리설파이드 함유 전해질에서 1000시간 이상 안정적으로 구동되었고, 완전셀은 500회 사이클 후 80.4%의 용량을 유지했다.",
       "relevant": true
     },
