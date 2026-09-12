@@ -1,6 +1,6 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-11T23:05:12+00:00",
+  "generated_at": "2026-09-12T22:53:00+00:00",
   "count": 116,
   "papers": [
     {
@@ -113,7 +113,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77551-8/MediaObjects/41467_2026_77551_Fig1_HTML.png",
+        "cached": "img/W7212019434.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77551-8"
+      },
       "summary_ko": "신장성 골이영양증 환자의 골절 회복에서 염증성 대식세포의 해당작용 재프로그래밍과 산성 대사산물 축적이 골 형성을 억제하고 골 흡수를 촉진함을 단일세포 멀티오믹스로 규명했다. 이를 바탕으로 젤라틴-보론산 접합체와 알긴산나트륨으로 구성된 미세환경 반응형 접착 하이드로겔에 음양곽 유래 세포외소포체 유사 나노입자를 담지하여 국소 안정화와 병리적 미세환경 조절을 동시에 구현하는 폐루프 치료 전략을 제시했다. 동물 모델에서 염증성 대식세포 활성을 억제하고 골형성을 촉진하여 골절 치유를 가속화함을 확인했다.",
       "relevant": false
     },

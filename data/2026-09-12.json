@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated_at": "2026-09-11T23:05:12+00:00",
+  "generated_at": "2026-09-12T22:55:37+00:00",
   "count": 12,
   "papers": [
     {
@@ -29,7 +29,12 @@
       "journal_id": "S2764528046",
       "journal_metric": 30.47,
       "first_seen": "2026-09-12",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-02120-8/MediaObjects/41560_2026_2120_Fig1_HTML.png",
+        "cached": "img/W7212165100.jpg",
+        "license": null,
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02120-8"
+      },
       "summary_ko": "이황화이염소(S2Cl2)를 활용한 새로운 리튬 배터리 화학을 제안하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
@@ -85,7 +90,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-12",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77590-1/MediaObjects/41467_2026_77590_Fig1_HTML.png",
+        "cached": "img/W7212182480.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77590-1"
+      },
       "summary_ko": "α-피넨 첨가제를 활용한 준건식 공정으로 얇고 대면적인 황화물 고체전해질 필름(Li5.5PS4.5Cl1.5)을 제작하는 방법을 제시한다. 이 공정은 기공률을 12.24%에서 7.78%로 낮추고 25°C에서 4.79 mS/cm의 이온전도도를 달성했다. 관련 완전셀은 500회 사이클 후 93%의 용량 유지율을 보였으며, 50mAh 파우치셀은 1000회 사이클 후 83%를 유지했다.",
       "relevant": false
     },

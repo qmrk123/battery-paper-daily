@@ -1,12 +1,12 @@
 {
   "title": "최근 2주 논문 브리핑 (9/1–9/10)",
   "range": "2026-09-01 ~ 2026-09-10",
-  "overall": "전 주제에 걸쳐 용매화 구조 재편과 계면(SEI/CEI) 설계가 핵심 흐름으로, 음이온 중심 용매화·LiF(NaF) 풍부 무기 계면·고체/젤 전해질을 통해 고전압·저온·무음극 조건에서의 안정성을 확보하려는 연구가 두드러진다. 아울러 머신러닝 기반 전해질 스크리닝과 오퍼란도 진단이 설계 지표를 정량화하는 방법론으로 부상하고 있다.",
+  "overall": "이번 2주는 용매화 구조 재편과 계면상(SEI) 정밀 설계가 리튬·소듐 금속 음극과 고전압/고니켈 양극을 관통하는 핵심 주제로, 음이온 중심 용매화와 LiF/NaF가 풍부한 무기 계면 형성이 공통 문법으로 자리잡았다. 동시에 머신러닝 기반 전해질 스크리닝과 오퍼란도 진단이 설계 지표를 정량화하는 도구로 빠르게 확산되고 있다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "용매화 셸에서 Li+-용매 직접 배위를 억제하고 음이온(FSI-/PF6-)을 계면으로 유도해 LiF가 풍부한 무기 SEI를 형성하는 전략이 지배적이며, 이를 위해 약한 용매화 전해질, 겔·고체 고분자 전해질, COF·다공성 고분자 첨가제, 기능성 분리막 등 다양한 매개체가 동원된다. 세라믹-고분자 계면을 실란으로 화학 연결하거나 경쟁적 배위를 활용한 상호침투 구조로 고체전해질의 계면 저항을 낮추는 접근도 활발하다. 특히 물리 기반 설명 변수, 계면 에너지 갭(ΔEgap), 3-지표 프레임워크 등 머신러닝 기반 설계 지표가 쿨롱효율·저온 성능 예측에 도입되고, 오퍼란도 WAXS로 SEI·리튬 증착을 직접 매핑하는 등 정량 진단이 강조된다. 무음극 셀의 농도 분극과 계면 진화 규명도 실용화 관점에서 다뤄진다.",
+      "text": "전해질·계면 설계가 압도적 비중을 차지하며, 공통적으로 Li+와 음이온/용매의 배위를 약화시켜 음이온 중심 용매화를 유도하고 LiF가 풍부한 무기 SEI를 형성하는 전략으로 수렴한다. 젤/고체 고분자 전해질(COF, PDOL, PVDF-HFP)에서 골격·필러(MoS2, ceria, LLZTO)를 통해 Li+ 이동수를 0.6~0.87 수준으로 끌어올리고 5V급 산화 안정성을 확보하는 흐름이 두드러진다. 특히 물리 기반 설명변수·계면 에너지 갭(ΔEgap)·3-지표 프레임워크 등 머신러닝 기반 전해질 설계가 데이터 효율화와 저온(-60°C) 구동으로 이어지고 있으며, 무음극(anode-free) 구성과 오퍼란도 WAXS 진단이 실용성·기구 규명을 보강한다.",
       "highlights": [
         {"title": "Safe electrolyte design with isolated solvation nanoclusters for high-energy lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-77589-8", "venue": "Nature Communications"},
         {"title": "Quantifying the Interfacial Energy Gap for Reversible Lithium–Metal Anodes", "url": "https://doi.org/10.1021/jacs.6c14457", "venue": "Journal of the American Chemical Society"},
@@ -14,29 +14,19 @@
       ]
     },
     {
-      "topic": "ncm",
-      "heading": "NCM 양극",
-      "text": "고전압(4.3~4.5V) Ni-rich NCM의 구조·계면 안정화가 중심 과제로, 전구체 기능화를 통한 합성 경로 분리(DSP)로 표면 이종구조와 도핑층을 동시에 형성하거나, Nb 도핑으로 Jahn-Teller 왜곡을 완충하는 벌크·표면 병행 전략이 제시된다. 슬러리 첨가제로 응력 완충과 전자전도를 동시에 부여하는 계면 모자이크 설계도 등장한다. 전해질 측면에서는 시아노·에스터 등 기능기로 용매화를 재편해 4.5V급 셀의 사이클 유지율을 높이는 접근이 다수이며, 전고체 조건에서는 나노 In2O3 도전조제로 고로딩 캐소드의 Li+/전자 수송을 개선한다. 건식 전극 공정에서 다결정·단결정 입자 배합으로 PTFE 섬유화와 사이클 안정성을 절충하는 공정 연구, 층상 양극의 다중스케일 열화를 진단-완화 프레임워크로 정리한 리뷰도 포함된다.",
-      "highlights": [
-        {"title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes", "url": "https://doi.org/10.1002/adma.74909", "venue": "Advanced Materials"},
-        {"title": "Nanoscale In 2 O 3 Induced Fast Kinetics and Stable Interface for High‐Loading Solid‐State Cathode", "url": "https://doi.org/10.1002/aenm.71543", "venue": "Advanced Energy Materials"},
-        {"title": "Reconciling PTFE Fibrillation and Cycling Stability in Dry‐Process NCM Cathodes via Polycrystalline‐Single‐Crystal Particle Grading", "url": "https://doi.org/10.1002/adfm.78273", "venue": "Advanced Functional Materials"}
-      ]
-    },
-    {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지가 이 범주의 다수를 차지하며, 폴리설파이드 부반응 억제를 위한 강유전체 보호층, 음이온-전달 전해질을 통한 LiF 풍부 계면 형성, PVDF 기반 계면 맞춤 전해질 등 전해질·계면 전략이 폭넓게 탐색된다. 아울러 TiO2/FePS3 p-n 접합이나 Co 단일원자 광전극을 활용한 광보조 Li-S 전지에서 오퍼란도 X선 분광으로 빛 유도 산화환원 선택성을 규명하는 등 광촉매 접근이 부상한다. 코발트 프리 5V급 LNMO의 계면 반발 엔지니어링, 이황화이염소 기반 신규 화학 등 고전압·저코발트 양극 다변화도 관찰된다.",
+      "text": "리튬-황(Li-S) 전지가 이 범주의 중심으로, 폴리설파이드 셔틀 억제를 위한 강유전체 보호층·음이온 전달 전해질·PVDF 기반 전해질 등 계면 제어가 반복 등장한다. TiO2 기반 광전극(FePS3 p-n 접합, Co 단일원자/N-도핑)을 이용한 광보조 Li-S 전지와 오퍼란도 X선 분광을 통한 산화환원 선택성 규명이 새로운 방향으로 부상했다. 또한 코발트 프리 5V급 LNMO 양극의 계면 반발 공학 등 고전압 안정화 연구도 포함된다.",
       "highlights": [
-        {"title": "Internal Electric Field‐Guided, Low‐Adsorption Ferroelectric Anode Protective Layers for Sustainable Suppression of Polysulfide Side Reactions in Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/aenm.71536", "venue": "Advanced Energy Materials"},
         {"title": "Operando X‐ray Spectroscopy Unveils Light‐Driven Redox Selectivity for Photo‐Assisted Li–S Batteries", "url": "https://doi.org/10.1002/anie.1445925", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Interfacial Molecular Repulsion Engineering for Durable 5 V-Class Cobalt-Free Lithium-Ion Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c01601", "venue": "ACS Energy Letters"}
+        {"title": "Interfacial Molecular Repulsion Engineering for Durable 5 V-Class Cobalt-Free Lithium-Ion Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c01601", "venue": "ACS Energy Letters"},
+        {"title": "Anion‐Transferring Electrolyte Enables In Situ Construction of Uniform LiF‐Rich Interphases for Long‐Cycling Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/aenm.71550", "venue": "Advanced Energy Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "무음극(anode-free) 및 극저온·고속충전 조건에서의 안정 구동이 핵심 목표로, 집전체에 소듐친화적 Ag·Y/Y2O3 이종계면을 형성해 균일한 Na 증착과 NaF 풍부 무기 SEI를 유도하는 계면 설계가 반복된다. 전해질 측면에서는 유사 희석제 기반 국소 고농도 전해질로 용매화 클러스터 연결성을 강화하거나, 다관능성 계면층을 NASICON 고체전해질에 공유 결합해 급속충전 내구성을 확보하는 접근이 제시된다. 준고체 전해질에서 단계적 환원으로 경-연 이중층 SEI를 구축하는 전략, 실패 메커니즘과 AI 스크리닝을 통합한 리뷰도 포함된다.",
+      "text": "소듐친화성 계면(Ag, Y/Y2O3 이종계면)과 NaF가 풍부한 SEI 설계를 통해 무음극·저온(-40°C) 구동과 급속충전을 동시에 노리는 연구가 주를 이룬다. 고체/준고체 전해질(NASICON, 실록산 공유결합 계면층, PDOL 이중층 SEI)에서 음이온 고정과 단계적 환원을 활용해 높은 나트륨 이동수와 초장수명(수천 사이클)을 확보하는 흐름이 뚜렷하다. 유사 희석제 기반 전해질 공학은 고부하 캐소드에서의 고전압·실용 셀 성능으로 확장되고 있다.",
       "highlights": [
         {"title": "Covalently Anchored Multifunctional Interlayer Enables Ultrastable and Fast ‐ Charging Composite Solid ‐ State Sodium Metal Batteries", "url": "https://doi.org/10.1002/adma.74923", "venue": "Advanced Materials"},
         {"title": "Geometry‐Guided Screening of Metal/Oxide Heterointerfaces Enables Superior Sodium Metal Batteries at −40 °C", "url": "https://doi.org/10.1002/anie.3543240", "venue": "Angewandte Chemie International Edition"},
@@ -44,9 +34,19 @@
       ]
     },
     {
+      "topic": "ncm",
+      "heading": "NCM 양극",
+      "text": "고니켈 층상 양극의 4.5V급 고전압 안정화가 핵심으로, 전구체 기능화·도핑(La/Nb)·표면 이종구조 형성을 통해 산소 골격과 구조 안정성을 확보하는 연구가 두드러진다. 건식 전극 공정에서 다결정-단결정 입자 그레이딩, 탄성 코어-전도성 쉘 슬러리 첨가제 등 전극·공정 관점의 접근이 확대되고 있다. 또한 황화물계 전고체 전지에서 나노 In2O3 도입으로 고로딩 캐소드의 Li+/전자 수송 동역학을 개선하는 계면 설계도 부각된다.",
+      "highlights": [
+        {"title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes", "url": "https://doi.org/10.1002/adma.74909", "venue": "Advanced Materials"},
+        {"title": "Nanoscale In 2 O 3 Induced Fast Kinetics and Stable Interface for High‐Loading Solid‐State Cathode", "url": "https://doi.org/10.1002/aenm.71543", "venue": "Advanced Energy Materials"},
+        {"title": "Reconciling PTFE Fibrillation and Cycling Stability in Dry‐Process NCM Cathodes via Polycrystalline‐Single‐Crystal Particle Grading", "url": "https://doi.org/10.1002/adfm.78273", "venue": "Advanced Functional Materials"}
+      ]
+    },
+    {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "산소 산화환원 가역성 확보와 전이금속 이동에 따른 층상→스피넬/암염상 전이 억제가 공통 과제로, 정전기적 피닝과 구배형 쉴딩으로 전이금속 이동을 막거나, 계층적 쌍정 구조의 프리스트레스로 사이클 중 응력을 완충하는 구조 설계가 제시된다. 계면 엔지니어링을 통해 코발트 프리 Li-rich Mn계의 산소 산화환원을 안정화하는 접근도 등장한다. 전고체 조건에서 리튬과잉계를 포함한 층상 양극의 다중스케일 열화를 진단-완화 프레임워크로 정리한 연구도 이 범주와 맞닿아 있다.",
+      "text": "산소 산화환원 가역성 확보와 전이금속 이동 억제가 핵심 과제로, 정전기적 피닝·구배 쉴딩·계층적 쌍정 구조 등 격자 수준의 응력·전자분포 제어 전략이 수렴한다. 이를 통해 스피넬/암염상 전이를 완화하고 수백~1000 사이클 이상의 장수명을 달성하며, 코발트 프리 Mn계 및 파우치셀 실증으로 실용성을 검증하는 흐름이 나타난다.",
       "highlights": [
         {"title": "Breaking the Degradation Domino in Li‐Rich Layered Oxide Cathode Via Precise Electrostatic Pinning and Gradient Shielding", "url": "https://doi.org/10.1002/aenm.71518", "venue": "Advanced Energy Materials"},
         {"title": "Intelligent Response and Dynamic Stress Equilibrium Structure Endow Lithium-Rich Oxide Cathodes with Long Cycle Life", "url": "https://doi.org/10.1021/acsenergylett.6c02095", "venue": "ACS Energy Letters"},
