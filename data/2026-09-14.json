@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-13T23:00:11+00:00",
+  "generated_at": "2026-09-14T23:46:15+00:00",
   "count": 19,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77461-9/MediaObjects/41467_2026_77461_Fig1_HTML.png",
+        "cached": "img/W7212361969.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77461-9"
+      },
       "summary_ko": "종양 표적 IL-10과 IL-2를 병용하여 항종양 면역을 강화하면서 면역 관련 부작용을 최소화하는 전략을 제시했다. IL-10/IL-10 수용체 축이 수지상세포 기능을 촉진하여 병용요법의 효능을 매개함을 규명했다.",
       "relevant": false
     },
@@ -200,7 +205,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77676-w/MediaObjects/41467_2026_77676_Fig1_HTML.png",
+        "cached": "img/W7212264500.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77676-w"
+      },
       "summary_ko": "오존/과탄산소다(O3/SPC) 시스템을 이용해 방향족 오염물질을 전기친화적 탄산 라디칼로 선택적으로 분해함으로써 생분해 가능한 내인성 탄소원(아세트산·포름산)으로 전환하는 공정을 제안했다. 실제 농약 폐수에 적용 시 BOD5/COD 비율을 0.01에서 0.45로 크게 높였고, O3/H2O2 대비 탄소배출을 40.2% 감축했다.",
       "relevant": false
     },

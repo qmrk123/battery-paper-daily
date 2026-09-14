@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-14T23:44:02+00:00",
+  "count": 4,
+  "papers": [
+    {
+      "id": "W7212419643",
+      "source": "openalex",
+      "title": "Anion‐Programmed Lewis‐Acidity‐Amplified Cellulose Separators for Dual Interphase Regulation in Li||NCM811 Batteries",
+      "url": "https://doi.org/10.1002/adma.75004",
+      "published": "2026-09-13",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75004",
+      "authors": [
+        "Zihan Guo",
+        "Zichan Yuan",
+        "Rongfu Xu",
+        "Huang Yi",
+        "Ningxin Chen",
+        "Zhaohui Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Separators in lithium metal batteries are typically treated as passive ion‐transport membranes, despite their strategic position between two unstable electrode‐electrolyte interfaces. Inspired by Lewis acid‐base regulation in liquid/ solid state electrolyte systems, we report an anion‐programmed, separator‐level Lewis acid‐base engineering strategy that uses sequential Lewis acid‐base interaction to amplify another Lewis‐acidity environment. In this design, ZrF 6 2− anions immobilized on cellulose‐bound Zr 4+ sites (ZrF‐CNF) redistribute electron density around the Zr 4+ ‐centered coordination environment, amplifying Lewis acidity while introducing polar fluorinated domains. Such ZrF‐CNF separator couples Li + desolvation/transport with PF 6 − enrichment/activation, thereby directing anion‐derived interphase formation at both electrodes. In Li||LiNi 0.8 Mn 0.1 Co 0.1 O 2 (NCM811) cells, ZrF‐CNF separator enables homogeneous Li deposition and a gradient LiF‐rich SEI on lithium metal, while forming a thin, dense LiF‐rich CEI on NCM811 particles. This dual‐interface regulation delivers stable Li||Li cycling over 2400 h at 1 mA cm −2 /1 mAh cm −2 , and 80.1% capacity retention over 800 cycles in Li||NCM811 cells at 1C. Furthermore, a 2.1 Ah pouch cell with ZrF‐CNF separator delivers an energy density of 383.1 Wh kg −1 and retains 94% capacity after 100 cycles at 0.3C. This work moves cellulose separators beyond physical ion transport and establishes a chemically programmable biopolymer framework for stabilizing energy‐dense lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-09-15",
+      "image": null,
+      "summary_ko": "셀룰로오스에 결합된 Zr4+ 사이트에 ZrF6^2- 음이온을 고정해 루이스 산성도를 증폭시킨 ZrF-CNF 분리막을 개발했다. 이 분리막은 Li+ 탈용매화와 PF6- 농화·활성화를 결합시켜 리튬 금속 표면에는 균일한 LiF 기반 SEI를, NCM811 입자 표면에는 얇고 치밀한 LiF 기반 CEI를 동시에 형성한다. Li||Li 대칭전지에서 2400시간 이상 안정적 사이클링을 보였고, Li||NCM811 전지는 800사이클 후 80.1% 용량 유지율을, 2.1 Ah 파우치셀은 383.1 Wh/kg의 에너지밀도를 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7212421691",
+      "source": "openalex",
+      "title": "Screening and Experimental Validation of Bifunctional Organic Lithium Salts for Direct Regeneration of Spent LiFePO4 Cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105527",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105527",
+      "authors": [
+        "Yuan Feng",
+        "Zhenhang Zhong",
+        "Ruiqi Gao",
+        "Shidong Li",
+        "Ao Liu",
+        "Hao Zhang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-15",
+      "image": null,
+      "summary_ko": "이관능성 유기 리튬염을 스크리닝하여 폐기된 LiFePO4 정극의 직접 재생에 적용하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7212452688",
+      "source": "openalex",
+      "title": "Interfacial Engineering of Intrinsic and Extrinsic Interfaces in All-Solid-State Batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112370",
+      "published": "2026-09-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112370",
+      "authors": [
+        "Junjun Hu",
+        "Ryan Dickson",
+        "Beibei Jiang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-15",
+      "image": null,
+      "summary_ko": "전고체전지에서 내재적 및 외재적 계면을 공학적으로 제어하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7212440780",
+      "source": "openalex",
+      "title": "Doping-controlled silicon interlayers steer solid-electrolyte interphase formation in lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105528",
+      "published": "2026-09-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105528",
+      "authors": [
+        "Myeong‐Hwa Ryou",
+        "Suseong Hyun",
+        "Yerin Kang",
+        "Young‐Kuk Hong",
+        "Hyunseok Moon",
+        "Hyun-Jin Lee"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-15",
+      "image": null,
+      "summary_ko": "도핑을 제어한 실리콘 계면층을 도입해 리튬 금속전지의 고체전해질계면(SEI) 형성을 조절하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}
