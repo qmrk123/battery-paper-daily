@@ -57,7 +57,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5076332",
+        "cached": "img/W7212387034.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5076332"
+      },
       "summary_ko": "완전 공액된 골격과 소디오필릭 킬레이션 자리(C=O, C=N)를 가진 공유결합유기골격체(COF, C6O6-TAPT)를 산업 규모 소듐 금속 음극에 코팅해 Na+ 플럭스를 균질화하고 덴드라이트 및 CO2 부식을 억제했다. Na-CO2 전지는 1.4V의 낮은 분극과 100mA/g에서 1100시간 이상의 안정적 사이클링, 저 N/P비(10)에서도 11552 mAh/g의 높은 방전용량을 보였다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71576",
+        "cached": "img/W7212369785.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71576"
+      },
       "summary_ko": "PVDF-HFP 전기방사 지지체와 LATP@KH 나노입자를 샌드위치 구조로 삽입한 30μm 두께의 황화물 고체전해질 막을 개발했다. Ti4+/Ti3+ 산화환원 반응이 침투 덴드라이트를 제자리에서 소모시켜, 2.75 mS/cm의 이온전도도와 2000시간 이상 안정적인 Li 대칭셀 사이클링, LiIn||NCM811 완전셀에서 300사이클 후 99.8% 용량 유지를 달성했다.",
       "relevant": true
     },
@@ -117,7 +129,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71548",
+        "cached": "img/W7212396487.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71548"
+      },
       "summary_ko": "루이스 산인 트리부틸포스포늄 테트라플루오로보레이트(TBPFB)를 이용해 리튬 음극과 NCM811 양극 양쪽의 자연 산화막을 동시에 제거하고 LiF, Li3PO4 등 다기능 무기 계면을 재구성하는 양측 개질 전략을 제시했다. Li||Li 대칭셀은 1700시간 이상, Li||NCM811 완전셀은 500사이클 후 77% 용량을 유지했으며, 2Ah 파우치셀은 423.1 Wh/kg의 에너지밀도에서 100사이클 후 90% 이상의 용량을 보였다.",
       "relevant": true
     },
@@ -148,7 +166,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2370748",
+        "cached": "img/W7212387058.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2370748"
+      },
       "summary_ko": "구형-시트형 이종 계면층(2DLP-PASF)을 전기영동 증착으로 구리 집전체 위에 형성해 부피 변화에 적응하고 Li+ 선택성을 부여했다. 라포나이트 나노시트를 지지하는 탄성 PASF 입자가 응력을 완충하고 -SO3Li 자리가 음이온을 반발시켜 폴리설파이드 셔틀을 억제하며, PASF 내 작용기가 Li3N/LiF 풍부한 2차 SEI를 형성해 무음극 리튬황전지(AFLSB)의 성능을 크게 개선했다.",
       "relevant": true
     },
@@ -236,7 +260,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78260",
+        "cached": "img/W7212291625.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78260"
+      },
       "summary_ko": "2D 층상 몬모릴로나이트를 기반으로 용융 삽입, 전기방사, 제자리 열중합을 결합해 층간-계면 이중 이온전도 네트워크를 갖는 복합 고체전해질을 제작했다. 상온 이온전도도 1.6 mS/cm와 Li+ 이동수율 0.68을 달성했으며, Li 대칭셀은 6000시간 이상, LiFePO4||Li 완전셀은 3000사이클 후 약 70% 용량을 유지했다.",
       "relevant": true
     },
@@ -542,7 +572,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-09-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.6759160",
+        "cached": "img/W7204782636.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.6759160"
+      },
       "summary_ko": "말단이 플루오린화된 폴리이미드(FPI) 계면을 리튬 리치 층상 산화물(LLO) 캐소드에 도입하여, 전자 끌어당김성 CF3 말단기로 계면 전자 장벽을 높여 산화적 라디칼 공격과 산소 방출을 억제했다. 이를 통해 1000사이클 후 80.8%의 용량 유지율을 달성했으며, Si/C||LLO-FPI 파우치셀은 409 Wh/kg의 에너지 밀도와 100사이클 후 90.1%의 용량 유지율을 보였다.",
       "relevant": true
     }
