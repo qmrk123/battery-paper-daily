@@ -30,7 +30,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75004",
+        "cached": "img/W7212419643.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75004"
+      },
       "summary_ko": "셀룰로오스에 결합된 Zr4+ 사이트에 ZrF6^2- 음이온을 고정해 루이스 산성도를 증폭시킨 ZrF-CNF 분리막을 개발했다. 이 분리막은 Li+ 탈용매화와 PF6- 농화·활성화를 결합시켜 리튬 금속 표면에는 균일한 LiF 기반 SEI를, NCM811 입자 표면에는 얇고 치밀한 LiF 기반 CEI를 동시에 형성한다. Li||Li 대칭전지에서 2400시간 이상 안정적 사이클링을 보였고, Li||NCM811 전지는 800사이클 후 80.1% 용량 유지율을, 2.1 Ah 파우치셀은 383.1 Wh/kg의 에너지밀도를 달성했다.",
       "relevant": true
     },
