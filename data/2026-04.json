@@ -1,6 +1,6 @@
 {
   "date": "2026-04",
-  "generated_at": "2026-09-15T05:00:22+00:00",
+  "generated_at": "2026-09-15T06:07:15+00:00",
   "count": 193,
   "papers": [
     {
@@ -1446,7 +1446,7 @@
       "url": "https://doi.org/10.1038/s41565-026-02152-x",
       "published": "2026-04-23",
       "topics": [
-        "li-metal"
+        "other-cathode"
       ],
       "doi": "10.1038/s41565-026-02152-x",
       "authors": [
@@ -1471,7 +1471,7 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02152-x"
       },
-      "summary_ko": "고전위 리튬 금속전지의 양극 활물질 계면 극성을 조절하는 연구이다 (제목 기반 추정).",
+      "summary_ko": "양극 활물질 표면에 쌍극자 자기조립단분자막(SAM)을 도입해 계면 극성을 조절하는 분자공학 전략을 제시하고, 계면 극성을 전극-전해질 상호작용의 기술자(descriptor)로 확립했다. In-situ 나노스케일 SEIRA 분광으로 계면 쿨롱 상호작용을 직접 관측해 계면 안정성을 조절했다.",
       "relevant": true
     },
     {

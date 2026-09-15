@@ -1,6 +1,6 @@
 {
   "date": "2026-01",
-  "generated_at": "2026-09-15T05:00:22+00:00",
+  "generated_at": "2026-09-15T06:07:15+00:00",
   "count": 337,
   "papers": [
     {
@@ -1230,7 +1230,7 @@
         "license": null,
         "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102268"
       },
-      "summary_ko": "비수계 전지에서 구리이온 매개(copper-ion mediation)를 이용해 고전압 황 전기화학을 구현하는 연구이다. (제목 기반 추정)",
+      "summary_ko": "구리 이온을 전하 운반체로 도입해 비수계 전해질에서 잘 녹지 않는 CuxS 방전 중간체를 형성함으로써 황 산화환원 전위를 1.2 V 이상 끌어올린 황 전지 화학을 제시했다. 전도성 CuxS가 빠른 반응 속도와 폴리설파이드 셔틀 억제를 동시에 달성해, 하이브리드 Li-S 풀셀에서 3.3 V 방전 전압과 980 Wh/kg급 에너지밀도를 구현했다.",
       "relevant": true
     },
     {
@@ -2054,7 +2054,7 @@
         "license": null,
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-025-01961-z"
       },
-      "summary_ko": "분자 수준에서 정렬된 전자 채널을 이용해 실용적 리튬금속전지의 초고속 충전을 구현하는 연구이다. (제목 기반 추정)",
+      "summary_ko": "고립전자쌍(LPE)과 Li+가 평면 배위를 이루는 PAEC 용매화 구조를 설계(신규 에테르 용매 MTP)해 계면 전하이동 속도를 획기적으로 높였다. 초고속 충전·희박 전해질 조건에서 2 Ah Li||NMC811 파우치셀을 4C로 15분 완충(전력밀도 1,747.6 W/kg)했고, 400 Wh/kg급 셀이 4C에서 100사이클 이상 안정 구동했다.",
       "relevant": true
     },
     {
@@ -2147,7 +2147,7 @@
         "license": null,
         "attribution": "Joule - https://doi.org/10.1016/j.joule.2025.102259"
       },
-      "summary_ko": "경쟁적 음이온 배위를 통해 리튬-황 전지의 전하이동 장벽을 극복하는 연구이다. (제목 기반 추정)",
+      "summary_ko": "리튬염 음이온이 약용매화 용매와 경쟁해 리튬 폴리설파이드(LiPS) 내부 용매화 껍질을 점유하는 메커니즘을 규명하고, 음이온 배위 강화로 LiPS 전하이동 장벽을 낮췄다. FSI 음이온 배위로 활성화 분극을 줄여 Ah급 파우치셀에서 총중량 기준 622 Wh/kg의 높은 에너지밀도와 안정적 고율 사이클을 달성했다.",
       "relevant": true
     },
     {
@@ -2793,9 +2793,7 @@
       "title": "Lithium metal-mediated electrochemical reduction of per- and poly-fluoroalkyl substances",
       "url": "https://doi.org/10.1038/s41557-025-02057-7",
       "published": "2026-01-20",
-      "topics": [
-        "li-metal"
-      ],
+      "topics": [],
       "doi": "10.1038/s41557-025-02057-7",
       "authors": [
         "Bidushi Sarkar",
@@ -2819,8 +2817,8 @@
         "license": null,
         "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-025-02057-7"
       },
-      "summary_ko": "리튬 금속이 매개하는 전기화학적 환원 반응을 이용해 과불화/폴리불화 알킬 물질(PFAS)을 분해하는 연구로 추정됨 (제목 기반 추정). 리튬 금속 전극 화학을 환경오염물질 분해에 응용.",
-      "relevant": true
+      "summary_ko": "전기증착된 리튬 금속의 강한 환원 환경을 이용해 과불화화합물(PFAS)을 전기화학적으로 분해하는 공정을 제시했다(PFOA 95% 분해·94% 탈불소화, 22종 이상 PFAS 적용). 전지 소재가 아닌 리튬금속 전기화학 기반 환경정화 연구로, 소재 탭 범위 밖이다.",
+      "relevant": false
     },
     {
       "id": "W7124923145",
@@ -3564,8 +3562,7 @@
       "url": "https://doi.org/10.1038/s41560-025-01937-z",
       "published": "2026-01-16",
       "topics": [
-        "li-metal",
-        "na-metal"
+        "li-metal"
       ],
       "doi": "10.1038/s41560-025-01937-z",
       "authors": [
@@ -3589,7 +3586,7 @@
         "license": null,
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-025-01937-z"
       },
-      "summary_ko": "차세대 이차전지를 위해 계면 용매화 구조(solvation structure)를 활용하는 전략을 다룬 연구/리뷰로 추정됨 (제목 기반 추정). 리튬·소듐 금속 음극 등 다양한 금속 전지에 적용 가능한 일반 개념.",
+      "summary_ko": "계면 용매화 구조(ISS)의 열역학·속도론적 특성(계면 배위구조·이온 이동·탈용매화)을 규명하고, 음이온·첨가제가 풍부한 ISS를 설계해 중농도 전해질에서도 견고하고 전도성 높은 SEI 형성을 유도했다. 극한 조건에서도 쿨롱효율·안정성 창·탈용매화 속도를 개선했다.",
       "relevant": true
     },
     {
@@ -5253,7 +5250,7 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-025-09867-2"
       },
-      "summary_ko": "고전압 무음극(anode-free) 소듐-황 전지에 관한 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "고원자가 S/SCl4 양극 화학과 무음극(anode-free) 구성을 결합한 3.6 V급 소듐-황 전지를 보고했다. 소듐 다이시안아마이드(NaDCA)가 불연성 클로로알루미네이트 전해질에서 가역적 S/SCl4 전환과 Na 도금/벗김을 동시에 가능케 해, 전극 총질량 기준 최대 1,198 Wh/kg·23,773 W/kg를 구현했다.",
       "relevant": true
     },
     {

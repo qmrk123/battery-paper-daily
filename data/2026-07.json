@@ -1,6 +1,6 @@
 {
   "date": "2026-07",
-  "generated_at": "2026-09-15T05:00:22+00:00",
+  "generated_at": "2026-09-15T06:07:15+00:00",
   "count": 336,
   "papers": [
     {
@@ -1517,10 +1517,7 @@
       "title": "Solvent-bridged electrolytes for high-energy Li-ion batteries under extreme conditions",
       "url": "https://doi.org/10.1038/s41557-026-02221-7",
       "published": "2026-07-27",
-      "topics": [
-        "li-metal",
-        "other-cathode"
-      ],
+      "topics": [],
       "doi": "10.1038/s41557-026-02221-7",
       "authors": [
         "Yawei Chen",
@@ -1544,8 +1541,8 @@
         "license": null,
         "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-026-02221-7"
       },
-      "summary_ko": "극한 조건에서 고에너지 리튬이온전지를 위한 용매 가교(solvent-bridged) 전해질을 다룬 연구로 보인다 (제목 기반 추정).",
-      "relevant": true
+      "summary_ko": "용매교량형(solvent-bridged) 전해질(PF6−와 Li+를 함께 용매화하는 고리형 에테르 + 구조형 선형 에테르)로 Li+–음이온 직접 상호작용을 완화해 높은 이온전도도를 유지하면서 LiF 풍부 SEI를 형성했다. 마이크론 실리콘 음극을 고율(>4C)·저온에서 안정 구동했다(Si 음극 대상이라 소재 탭 범위 밖).",
+      "relevant": false
     },
     {
       "id": "W7171454421",
@@ -3093,7 +3090,8 @@
       "url": "https://doi.org/10.1038/s41565-026-02224-y",
       "published": "2026-07-23",
       "topics": [
-        "ncm"
+        "ncm",
+        "lfp"
       ],
       "doi": "10.1038/s41565-026-02224-y",
       "authors": [
@@ -3118,7 +3116,7 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02224-y"
       },
-      "summary_ko": "형상기억 고분자 나노코팅을 통해 취성이 강한 배터리 양극 활물질 내부의 응력을 동적으로 분산시키는 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "iCVD로 형상기억 고분자 나노코팅을 도입해 충방전 중 국소·동적 응력을 능동적으로 분산시키는 방법을 제시했다. 균형 잡힌 강성·변형성의 코팅이 다양한 Ni-rich 층상 산화물과 LiFePO4 양극에서 응력 구배와 그로 인한 균열·열화를 효과적으로 완화했다.",
       "relevant": true
     },
     {
@@ -7455,7 +7453,7 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02221-1"
       },
-      "summary_ko": "두꺼운 리튬리치 양극 제조를 위한 결맞은 쌍정(coherent twin) 구조 활용에 관한 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "결정 성장 제어로 리튬 과잉 층상 산화물에 결맞음 쌍정계면(CTB)을 도입, 기존 2차원 층상 채널을 넘는 준3차원 Li 이온 확산 경로를 만들어 나노스케일 Li 수송을 가속하고 반응 불균일을 완화했다. 이로써 두꺼운 전극에서의 구조 응력·산소 산화환원 비가역·전극수준 수송 한계를 개선했다.",
       "relevant": true
     },
     {
@@ -8242,7 +8240,7 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-026-10732-z"
       },
-      "summary_ko": "단일상 구배 용매화 전해질을 이용해 리튬 금속 전지를 안정화하는 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "정적 상태에선 Li+ 용매화에 거의 참여하지 않다가 고전압 풀셀의 강한 전기장 하에서 양극 표면에서 배위능이 활성화되는 표적 리간드 반용매(TLAS)를 음이온 풍부 에테르 전해질에 도입했다. 동적 용매화로 장기 사이클 중 산화 분해와 용매화 구조 열화를 억제해 고전압 리튬금속 풀셀을 안정화했다.",
       "relevant": true
     },
     {
@@ -8712,7 +8710,7 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02212-2"
       },
-      "summary_ko": "정전기적 용매화 화학 조절을 통해 암페어시(Ah)급 고에너지 리튬 금속 전지를 구현하는 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "용매 특성과 전해질 물성을 잇는 지침을 위해 극성 지수(polarity index)를 설계하고, 나노스케일 분자간 정전기장을 만드는 매개자 강화 전해질(MEE) 전략을 제안했다. 분리된 용매 표면전하가 용매화 Li 이온 수용을 돕고 음이온 환원 장벽을 낮춰, 안정적 용매화·계면 형성으로 고에너지 리튬금속전지를 구현했다.",
       "relevant": true
     },
     {
@@ -10899,7 +10897,7 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-026-10734-x"
       },
-      "summary_ko": "이축 응력을 받는 고체전해질에서 리튬 덴드라이트의 개시와 편향을 다룬 연구로 보인다 (제목 기반 추정).",
+      "summary_ko": "면내 이축압축법으로 가넷 LLZTO 고체전해질에서 덴드라이트가 표면이 아닌 내부에서 개시됨을 직접 입증했다. 이축압축이 덴드라이트 전파를 전기장에 수직으로 굴절시켜, 표면 개시 기구가 무력화된 장기 사이클에서도 내부 개시 증거를 제공했다.",
       "relevant": true
     },
     {

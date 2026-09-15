@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-09-15T05:00:22+00:00",
+  "generated_at": "2026-09-15T06:07:15+00:00",
   "count": 70,
   "papers": [
     {
@@ -361,7 +361,7 @@
       "url": "https://doi.org/10.1016/j.joule.2026.102585",
       "published": "2026-08-01",
       "topics": [
-        "na-metal"
+        "li-metal"
       ],
       "doi": "10.1016/j.joule.2026.102585",
       "authors": [
@@ -387,7 +387,7 @@
         "license": null,
         "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102585"
       },
-      "summary_ko": "실용적인 소듐 금속 전지를 위한 소형 동족체 용매에 관한 연구로 보인다. (제목 기반 추정)",
+      "summary_ko": "작은 동족(congeneric) 용매를 설계해 더 큰 용매 대비 최대 ~20배 높은 이온전도도와 ~0.4 V 높은 전극전위, 확산 대비 균형 잡힌 산화환원 속도를 구현했다. 분자 설계와 3D Zernike 모델로 스크리닝한 N,N-다이메틸설파모일 플루오라이드가 금속전지 도금/벗김의 고율 가역성을 크게 높였다.",
       "relevant": true
     },
     {

@@ -1,6 +1,6 @@
 {
   "date": "2026-06",
-  "generated_at": "2026-09-15T05:00:22+00:00",
+  "generated_at": "2026-09-15T06:07:15+00:00",
   "count": 274,
   "papers": [
     {
@@ -3918,7 +3918,7 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-025-09473-2"
       },
-      "summary_ko": "고에너지 리튬-황 전지에서 경쟁적인 계면 반응을 규명한 연구로 추정된다 (제목 기반 추정).",
+      "summary_ko": "in-situ 액상셀 전자현미경으로 리튬-황 전지 전극-전해질 계면의 농도구동 상분리를 직접 관찰해, 고농도 계면층(HCIL) 내 표면·용액 경로 경쟁이 전하이동과 Li2S 석출 위치를 지배함을 규명했다. 희박 전해질 조건의 Li2S 석출·용해 기구를 밝혀 고에너지 Li-S 설계 지침을 제시했다.",
       "relevant": true
     },
     {
@@ -3989,7 +3989,7 @@
         "license": null,
         "attribution": "Nature — https://doi.org/10.1038/s41586-025-09553-3"
       },
-      "summary_ko": "리튬리치 양극을 강화하기 위한 신속 포메이션 공정에 관한 연구이다. (제목 기반 추정)",
+      "summary_ko": "리튬 과잉 층상 양극에서 통상의 저율 형성(formation)이 오히려 수명을 단축할 수 있음을 보이고, 빠른 형성이 비용 절감과 함께 용량·안정성을 높임을 규명했다. 초기 충전 후 잔류 리튬이 '자기고정(self-pinning)' 효과로 격자 변형을 막아 가역성을 강화함을 다중스케일 싱크로트론 분석으로 밝혔다.",
       "relevant": true
     },
     {
@@ -8122,7 +8122,7 @@
         "license": null,
         "attribution": "Joule - https://doi.org/10.1016/j.joule.2026.102541"
       },
-      "summary_ko": "전고체 리튬-황 전지에서 삼상 경계(triple-phase boundary)와 굴곡도(tortuosity) 사이의 상충 관계를 규명한 연구입니다. 고에너지밀도 전고체 Li-S 전지 설계에 필요한 미세구조 최적화 방향을 제시합니다 (제목 기반 추정).",
+      "summary_ko": "전고체 리튬-황 전지의 낮은 삼상계면 밀도와 굴곡진 이온/전자 경로 문제를, 숙주 입자 크기(전극 수송)와 기공 크기(입자 속도론)를 분리하는 2-길이척도 설계로 해결했다. 마이크로다공·마이크론 탄소 숙주가 황 재분포를 억제하고 삼상계면을 늘려 >1,500 mAh/gS, >9 mAh/cm²를 달성했다.",
       "relevant": true
     },
     {
@@ -8905,9 +8905,7 @@
       "title": "Anomalous ultrafast lithium-ion transport through boron nitride nanotube membranes",
       "url": "https://doi.org/10.1038/s41565-026-02182-5",
       "published": "2026-06-01",
-      "topics": [
-        "li-metal"
-      ],
+      "topics": [],
       "doi": "10.1038/s41565-026-02182-5",
       "authors": [
         "Semih Cetindag",
@@ -8931,8 +8929,8 @@
         "license": null,
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02182-5"
       },
-      "summary_ko": "질화붕소 나노튜브 막을 통한 비정상적으로 빠른 리튬이온 수송에 관한 연구이다. (제목 기반 추정)",
-      "relevant": true
+      "summary_ko": "대전된 질화붕소 나노튜브(BNNT) 내 알칼리 금속 이온의 수계 수송을 연구해, 탄소나노튜브와 근본적으로 다른 초고속 양이온 선택 확산(피크식 확산의 최대 31배)과 벌크와 반대되는 Li+ 우선 수송을 발견했다. 전지 전극이 아닌 나노유체 이온수송 연구로, 소재 탭 범위 밖이다.",
+      "relevant": false
     },
     {
       "id": "W7163078354",
