@@ -84,17 +84,17 @@
       "emoji": "🔵"
     },
     {
-      "id": "other-cathode",
-      "label_ko": "기타 양극재",
-      "label_en": "Other Li cathode (LCO, spinel, PB, organic, S, O2, ...)",
-      "emoji": "⚪"
-    },
-    {
       "id": "na-cathode",
       "label_ko": "소듐 양극재",
       "label_en": "Na-ion cathode (layered oxide, polyanion, Prussian blue, ...)",
       "emoji": "🟠"
+    },
+    {
+      "id": "other-cathode",
+      "label_ko": "기타 양극재",
+      "label_en": "Other Li cathode (LCO, spinel, PB, organic, S, O2, ...)",
+      "emoji": "⚪"
     }
   ],
-  "updated_at": "2026-09-15T05:00:22+00:00"
+  "updated_at": "2026-09-15T05:39:01+00:00"
 }
