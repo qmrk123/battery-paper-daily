@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated_at": "2026-09-15T06:07:15+00:00",
+  "generated_at": "2026-09-15T06:14:34+00:00",
   "count": 12,
   "papers": [
     {
@@ -227,7 +227,7 @@
       "journal_metric": 16.06,
       "first_seen": "2026-09-12",
       "image": null,
-      "summary_ko": "PVDF 기반 전고체 리튬금속전지의 성능 향상을 위한 상 정렬(phase ordering) 및 계면 안정화 전략을 다루는 연구로 추정된다. (제목 기반 추정)",
+      "summary_ko": "고체 리튬금속전지용 PVDF 전해질의 낮은 이온전도도·계면 불안정을, 단사정 Li2ZrF6(m-Li2ZrF6)를 도입한 상(phase)공학과 in-situ 계면 재구성으로 개선했다. m-Li2ZrF6의 (100)면이 β-PVDF와 격자정합해 α→β 상전이를 유도, 리튬염 해리를 촉진하고 0.86 mS/cm(25 °C)의 이온전도도를 달성했다.",
       "relevant": true
     },
     {
