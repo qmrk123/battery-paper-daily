@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T23:07:31+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 14,
   "papers": [
     {
@@ -442,7 +442,9 @@
       "title": "Dual-site defect-suppressed Na4Fe3(PO4)2P2O7 cathode for ultra-stable sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.08.085",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.08.085",
       "authors": [
         "Tongyin Shen",
@@ -462,7 +464,7 @@
       "first_seen": "2026-09-11",
       "image": null,
       "summary_ko": "이중 자리 결함 억제 전략을 적용한 Na4Fe3(PO4)2P2O7 양극 소재로 초안정적인 소듐이온전지를 구현하는 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-06T22:48:04+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 12,
   "papers": [
     {
@@ -288,7 +288,9 @@
       "title": "Mitigating structural strain and transition metal-oxygen framework evolution for enhanced cycling performance of P2/O3 sodium oxide cathodes",
       "url": "https://doi.org/10.1016/j.jechem.2026.08.067",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.08.067",
       "authors": [
         "Liang Gao",
@@ -308,7 +310,7 @@
       "first_seen": "2026-09-06",
       "image": null,
       "summary_ko": "P2/O3 소듐 산화물 캐소드의 구조적 변형과 전이금속-산소 골격 변화를 완화하여 사이클 성능을 개선하는 연구로 추정된다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7166147005",

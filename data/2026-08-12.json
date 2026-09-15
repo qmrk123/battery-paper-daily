@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-21T03:10:54+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 6,
   "papers": [
     {
@@ -79,7 +79,9 @@
       "title": "Multi-element nanoscale doping of iron-rich sodium layered oxides enables ampere-hour-level Na-ion batteries",
       "url": "https://doi.org/10.1038/s41565-026-02257-3",
       "published": "2026-08-12",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1038/s41565-026-02257-3",
       "authors": [
         "Ruo-Xi Jin",
@@ -104,7 +106,7 @@
         "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02257-3"
       },
       "summary_ko": "철이 풍부한 소듐 층상 산화물에 다원소 나노스케일 도핑을 적용하여 암페어시급 나트륨이온전지를 구현한 연구로 추정된다 (제목 기반 추정). 나트륨이온 양극 소재는 분류 대상에서 제외된다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7202183187",

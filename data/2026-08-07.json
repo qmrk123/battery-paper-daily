@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-21T03:10:54+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 11,
   "papers": [
     {
@@ -116,7 +116,9 @@
       "title": "Origin of elastic anisotropy in O3-type layered sodium cathode",
       "url": "https://doi.org/10.1016/j.nanoen.2026.112270",
       "published": "2026-08-07",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.112270",
       "authors": [
         "Xiaomei He",
@@ -135,7 +137,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "O3형 층상 소듐 양극 소재의 탄성 이방성 기원을 규명한 연구로 추정된다 (제목 기반 추정). 소듐 금속 음극이 아닌 소듐 이온 양극 소재라 분류 대상에서 제외된다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7201860151",

@@ -101,11 +101,14 @@ jobs:
                seen.json, journals.json). If there are none, print "nothing to
                summarize" and STOP.
             2) For EACH such paper, from ONLY its "title" and "abstract_en" decide:
-               - topics: which of these SIX apply by ACTUAL content (multiple
+               - topics: which of these SEVEN apply by ACTUAL content (multiple
                  allowed; [] if none):
                  li-metal = 리튬 금속 음극(anode): Li-metal batteries, dendrites,
                    anode-free Li, plating/stripping, Li-anode SEI/host/collector.
-                 na-metal = 소듐 금속 음극(anode).
+                 na-metal = 소듐 금속 음극(anode): Na metal anode, anode-free Na, Na dendrite.
+                 na-cathode = 소듐(Na-ion) 양극재(cathode): Na layered oxides (P2/O3-type
+                   NaxMO2), polyanionic (Na3V2(PO4)3/NASICON, phosphate/sulfate/
+                   fluorophosphate), Prussian blue analogues — the Na-ion positive electrode.
                  ncm = NCM/NMC layered oxide cathode (Ni-Co-Mn layered, ALL Ni %).
                  li-rich = Li-rich/Li-excess layered or disordered-rocksalt (DRX)
                    cathode; anionic/oxygen redox.
@@ -113,8 +116,9 @@ jobs:
                  other-cathode = any OTHER Li cathode: LiCoO2, spinel (LMO/LNMO),
                    Prussian blue, organic, Li-S(황), Li-O2(산소), conversion, polyanion.
                  Rules: never confuse anode vs cathode ("anode-free lithium" =
-                 li-metal, NOT cathode). Na-ion CATHODE materials, Si/graphite
-                 anodes, solid-electrolyte-only studies, cell/pack engineering,
+                 li-metal, NOT cathode; Na-ion CATHODE = na-cathode, NOT na-metal).
+                 Na-ion ANODES (hard carbon/alloy), Si/graphite anodes,
+                 solid-electrolyte-only studies, cell/pack engineering,
                  recycling / metal-recovery, and pure physics/catalysis => [].
                - summary_ko: a KOREAN 2-4 sentence summary of the key contribution —
                  technical, concise, no hype, and NEVER invent numbers or claims

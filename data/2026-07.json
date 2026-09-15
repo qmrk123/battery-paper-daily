@@ -1,6 +1,6 @@
 {
   "date": "2026-07",
-  "generated_at": "2026-08-21T03:10:54+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 336,
   "papers": [
     {
@@ -2045,7 +2045,7 @@
       "url": "https://doi.org/10.1016/j.nanoen.2026.112243",
       "published": "2026-07-25",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.nanoen.2026.112243",
       "authors": [
@@ -3807,7 +3807,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105402",
       "published": "2026-07-21",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105402",
       "authors": [
@@ -3842,7 +3842,9 @@
       "title": "Modulating the Lattice Stability in Sodium-Layered Oxide Cathodes through Inductive Effect",
       "url": "https://doi.org/10.1021/acsenergylett.6c01916",
       "published": "2026-07-21",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1021/acsenergylett.6c01916",
       "authors": [
         "C Liu",
@@ -3858,7 +3860,7 @@
       "first_seen": "2026-08-19",
       "image": null,
       "summary_ko": "나트륨 층상 산화물 캐소드(NaNiO2 기반)에 Li, K를 소량 도핑하여 격자 안정성과 가스 발생 거동을 조사한 연구입니다. Li 도핑이 용량 손실을 최소화하면서 가스 발생을 크게 줄이는 것을 확인했습니다. 소듐 캐소드 소재 연구로 소듐 금속 음극 주제에는 해당하지 않습니다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7169835766",
@@ -4206,7 +4208,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105399",
       "published": "2026-07-20",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105399",
       "authors": [
@@ -6042,7 +6044,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105393",
       "published": "2026-07-14",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105393",
       "authors": [
@@ -7298,7 +7300,9 @@
       "title": "Heavy Lanthanide‐Induced Epitaxial Rock‐Salt Shells Enable Chemo‐Mechanically Robust Sodium‐Ion Cathodes",
       "url": "https://doi.org/10.1002/aenm.71289",
       "published": "2026-07-10",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1002/aenm.71289",
       "authors": [
         "Yanran Shen",
@@ -7324,7 +7328,7 @@
         "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71289"
       },
       "summary_ko": "중란탄족 원소를 이용한 에피택셜 암염형(rock-salt) 쉘로 나트륨 이온 캐소드의 화학-기계적 강건성을 높인 연구입니다. 골드슈미트 허용인자를 근거로 이온반경 불일치를 유도해 표면 산소를 잠그고 균열 전파를 억제했습니다. 소듐 이온 캐소드 소재로 소듐 금속 음극 주제에는 해당하지 않습니다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7167916577",
@@ -8855,7 +8859,9 @@
       "title": "Spontaneous Nanostructuring of extended π-conjugated carbonyls enables high-capacity, long-life, and fast-charging cathodes for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105365",
       "published": "2026-07-06",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105365",
       "authors": [
         "Xing Wu",
@@ -8875,7 +8881,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "확장된 π-공액 카르보닐의 자발적 나노구조화를 통한 고용량·장수명·고속충전 나트륨이온전지 양극 연구로 보인다 (나트륨이온 양극이라 분류 대상 아님, 제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7167472150",
@@ -10042,7 +10048,7 @@
       "url": "https://doi.org/10.1016/j.jechem.2026.06.055",
       "published": "2026-07-01",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1016/j.jechem.2026.06.055",
       "authors": [

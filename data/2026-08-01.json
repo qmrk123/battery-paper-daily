@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-21T03:10:54+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 70,
   "papers": [
     {
@@ -9,7 +9,9 @@
       "title": "Trace copper-mediated crystal structure modulation enables superior stable sodium storage in NASICON cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105445",
       "published": "2026-08-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105445",
       "authors": [
         "Zheng Hu",
@@ -29,7 +31,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "미량 구리 도핑을 통한 결정구조 조절로 NASICON형 소듐 캐소드의 저장 안정성을 향상시키는 연구로 추정된다 (제목 기반 추정). Na-ion 캐소드 재료로 6대 주제에서 제외된다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7202182360",
@@ -664,7 +666,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105474",
       "published": "2026-08-01",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105474",
       "authors": [
@@ -726,7 +728,9 @@
       "title": "Oxygen orbital tuning enables high-capacity and high-stability P2-type layered cathode for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105444",
       "published": "2026-08-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105444",
       "authors": [
         "Weiliang Li",
@@ -746,7 +750,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "소듐이온전지용 고용량·고안정성 P2형 층상 양극의 산소 오비탈 조절에 관한 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7202144504",
@@ -918,7 +922,9 @@
       "title": "Minimal Rare-Earth Pillar Engineering for Durable Layered Oxide Cathodes in Sodium-Ion Batteries",
       "url": "https://doi.org/10.1016/j.nanoen.2026.112312",
       "published": "2026-08-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.112312",
       "authors": [
         "Yingbin Hong",
@@ -938,7 +944,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "소듐이온전지용 내구성 층상 산화물 양극을 위한 최소량 희토류 필러 엔지니어링에 관한 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7197029586",
@@ -1150,7 +1156,9 @@
       "title": "Interface engineering with electronic modulation to stabilize O3-type layered cathodes for high-voltage sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105432",
       "published": "2026-08-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105432",
       "authors": [
         "Yongjie Jiang",
@@ -1170,7 +1178,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "고전압 소듐이온전지용 O3형 층상 양극 안정화를 위한 전자 조절 계면 엔지니어링 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7202390175",
@@ -1584,7 +1592,9 @@
       "title": "Dualistic roles of water molecules in Mn-based oxide cathodes for sodium ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105429",
       "published": "2026-08-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105429",
       "authors": [
         "Yaping Yan",
@@ -1604,7 +1614,7 @@
       "first_seen": "2026-08-21",
       "image": null,
       "summary_ko": "소듐이온전지용 Mn계 산화물 양극에서 물 분자가 갖는 이중적 역할을 분석한 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7203534794",

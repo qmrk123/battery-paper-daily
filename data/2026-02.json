@@ -1,6 +1,6 @@
 {
   "date": "2026-02",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 196,
   "papers": [
     {
@@ -100,7 +100,9 @@
       "title": "Highly reversible and fast-kinetics anionic redox in sodium layered cathodes enabled by high-entropy engineering",
       "url": "https://doi.org/10.1016/j.nanoen.2026.111843",
       "published": "2026-02-28",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.111843",
       "authors": [
         "Xiaoguang Fu",
@@ -120,7 +122,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "고엔트로피 엔지니어링을 통해 나트륨 층상 캐소드에서 빠른 반응속도와 높은 가역성을 지닌 음이온 산화환원을 구현한 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7132855857",
@@ -1391,7 +1393,9 @@
       "title": "Charge-compensated lattice engineering enables high-power and long-life Na-Rich Na3.4Cu0.2Mg0.2V1.6(PO4)3 cathode for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105003",
       "published": "2026-02-22",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105003",
       "authors": [
         "Ziting Chen",
@@ -1411,7 +1415,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "전하보상 격자 엔지니어링을 통해 고출력·장수명의 Na-rich Na3.4Cu0.2Mg0.2V1.6(PO4)3 캐소드를 나트륨이온전지용으로 개발한 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7130955628",
@@ -2149,7 +2153,9 @@
       "title": "Engineering spherical, low-strain, and air-stable alluaudite cathodes to enable high-performance sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.104998",
       "published": "2026-02-17",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104998",
       "authors": [
         "Bijiao He",
@@ -2168,7 +2174,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "구형이며 저변형, 공기안정성을 갖춘 알루아우다이트 양극을 설계하여 고성능 소듐이온전지를 구현한 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7129690857",
@@ -2518,7 +2524,7 @@
       "url": "https://doi.org/10.1002/adfm.74509",
       "published": "2026-02-15",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1002/adfm.74509",
       "authors": [
@@ -3461,7 +3467,9 @@
       "title": "Stablizing the oxygen redox and crystal structure of O3-type layered oxides for sodium-ion batteries under Harsh conditions",
       "url": "https://doi.org/10.1016/j.ensm.2026.104982",
       "published": "2026-02-11",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104982",
       "authors": [
         "Zhuomin Liu",
@@ -3481,7 +3489,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "가혹 조건에서 소듐이온전지용 O3형 층상산화물의 산소 산화환원과 결정구조를 안정화하는 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7128710859",
@@ -3525,7 +3533,9 @@
       "title": "Polyquaternium mediated dual regulation of polyanionic cathodes achieving electron-ion synergistic interfaces for low-temperature sodium-ion storage",
       "url": "https://doi.org/10.1016/j.jechem.2026.02.004",
       "published": "2026-02-11",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.02.004",
       "authors": [
         "Yiran Yang",
@@ -3545,7 +3555,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "폴리쿼터늄을 이용한 폴리음이온계 양극의 이중 조절로 전자-이온 시너지 계면을 구현, 저온 소듐이온 저장 성능을 향상시킨 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7128488555",
@@ -3661,7 +3671,9 @@
       "title": "Na7V4(P2O7)4(PO4)/NaV3(PO4)3@NC heterostructures: A near-zero strain design for ultrastable sodium-ion battery cathodes",
       "url": "https://doi.org/10.1016/j.jechem.2026.02.006",
       "published": "2026-02-11",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.02.006",
       "authors": [
         "Xuntao Zhang",
@@ -3680,7 +3692,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "Na7V4(P2O7)4(PO4)/NaV3(PO4)3@NC 이종구조를 이용해 무변형에 가까운 초안정 소듐이온전지 양극을 설계한 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7128598880",
@@ -4260,7 +4272,9 @@
       "title": "Structural innovation and electrochemical progress in phosphate-based polyanionic oxide cathodes for high-performance sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.mattod.2026.103218",
       "published": "2026-02-09",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.mattod.2026.103218",
       "authors": [
         "Zeeshan Qayyum",
@@ -4280,7 +4294,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "소듐이온 배터리용 인산염 기반 폴리음이온 산화물 양극재의 구조 혁신과 전기화학적 발전을 다룬 리뷰로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7128496808",
@@ -4649,7 +4663,7 @@
       "url": "https://doi.org/10.1016/j.nanoen.2026.111787",
       "published": "2026-02-07",
       "topics": [
-        "li-rich"
+        "na-cathode"
       ],
       "doi": "10.1016/j.nanoen.2026.111787",
       "authors": [
@@ -4870,7 +4884,9 @@
       "title": "Engineering Na‐Rich P2‐Type Layered Oxides Through Li/Ti Dual Doping for Oxygen Redox Activation and Superior Structural Stability",
       "url": "https://doi.org/10.1002/aenm.202506119",
       "published": "2026-02-06",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1002/aenm.202506119",
       "authors": [
         "Rishika Jakhar",
@@ -4896,7 +4912,7 @@
         "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.202506119"
       },
       "summary_ko": "Li/Ti 이중 도핑을 통해 소듐이온전지용 Na 리치 P2형 층상 산화물 양극의 산소 산화환원 활성화와 구조 안정성을 향상시켰다. 소듐이온 양극재 연구로 Na 금속 음극과는 무관하다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7128056730",
@@ -5181,7 +5197,9 @@
       "title": "Charge redistribution and local crystal reconstruction in Fe-based polyanion cathodes towards all-climate sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.104968",
       "published": "2026-02-05",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104968",
       "authors": [
         "Yutian Yang",
@@ -5201,7 +5219,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "전기후 대응 소듐이온전지용 Fe계 폴리음이온 양극에서 전하 재분배와 국부 결정 재구성을 다룬 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7127654850",
@@ -5465,7 +5483,9 @@
       "title": "Frustrated oxygen loss enabled by magnesium migration in O3-type anionic redox cathodes for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.104963",
       "published": "2026-02-04",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104963",
       "authors": [
         "Shaoyu Yang",
@@ -5485,7 +5505,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "O3형 소듐이온전지 음이온 산화환원 양극에서 마그네슘 이동에 의한 산소 손실 억제(frustrated oxygen loss) 메커니즘을 다룬 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7127563306",
@@ -5493,7 +5513,9 @@
       "title": "Entropy-stabilized engineering enables stable high-voltage phosphate cathode materials for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.104964",
       "published": "2026-02-04",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104964",
       "authors": [
         "Xiaohao Liu",
@@ -5513,7 +5535,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "엔트로피 안정화 공학을 통해 소듐이온전지용 고전압 인산염 양극재의 안정성을 확보한 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7127585864",
@@ -5892,7 +5914,9 @@
       "title": "Review on single-crystalline oxide cathode materials for next-generation Na-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.104957",
       "published": "2026-02-02",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104957",
       "authors": [
         "Guang-xu Wei",
@@ -5911,7 +5935,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "차세대 소듐이온전지를 위한 단결정 산화물 양극 소재에 관한 리뷰로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7127144521",
@@ -6099,7 +6123,9 @@
       "title": "Regulating rate performance of P2 layered oxide cathodes by transition metal ordering and phase transition",
       "url": "https://doi.org/10.1016/j.ensm.2026.104955",
       "published": "2026-02-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.104955",
       "authors": [
         "Haikong Jin",
@@ -6119,7 +6145,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "P2형 층상 산화물 소듐이온전지 양극에서 Ti/Mg/공공을 도입해 전이금속 정렬과 상전이를 조절, 율속 성능을 개선했다. NNMO-MT 조성은 5C에서 121.4 mAh/g(1C 대비 95.4%)의 높은 율속 용량을 보였으며, 낮은 TM 정렬도와 P2-OP4 상전이(P2-O2 대신)가 우수한 율속 성능의 원인으로 분석되었다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7127154942",

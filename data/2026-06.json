@@ -1,6 +1,6 @@
 {
   "date": "2026-06",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 274,
   "papers": [
     {
@@ -801,7 +801,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105342",
       "published": "2026-06-29",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105342",
       "authors": [
@@ -1094,7 +1094,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105333",
       "published": "2026-06-26",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105333",
       "authors": [
@@ -1442,7 +1442,7 @@
       "url": "https://doi.org/10.1038/s41467-026-74885-1",
       "published": "2026-06-26",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1038/s41467-026-74885-1",
       "authors": [
@@ -2279,8 +2279,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105328",
       "published": "2026-06-23",
       "topics": [
-        "na-metal",
-        "ncm"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105328",
       "authors": [
@@ -3477,7 +3476,7 @@
       "url": "https://doi.org/10.1016/j.jechem.2026.06.019",
       "published": "2026-06-19",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.jechem.2026.06.019",
       "authors": [
@@ -4867,7 +4866,8 @@
       "url": "https://doi.org/10.1002/adfm.76483",
       "published": "2026-06-13",
       "topics": [
-        "ncm"
+        "ncm",
+        "na-cathode"
       ],
       "doi": "10.1002/adfm.76483",
       "authors": [
@@ -5065,7 +5065,7 @@
       "url": "https://doi.org/10.1038/s41467-026-74282-8",
       "published": "2026-06-12",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1038/s41467-026-74282-8",
       "authors": [
@@ -6070,7 +6070,7 @@
       "url": "https://doi.org/10.1016/j.mattod.2026.103408",
       "published": "2026-06-09",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1016/j.mattod.2026.103408",
       "authors": [
@@ -6519,7 +6519,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105294",
       "published": "2026-06-07",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105294",
       "authors": [
@@ -8275,7 +8275,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105284",
       "published": "2026-06-01",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105284",
       "authors": [
@@ -8834,7 +8834,7 @@
       "url": "https://doi.org/10.1016/j.jechem.2026.05.044",
       "published": "2026-06-01",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.jechem.2026.05.044",
       "authors": [

@@ -1,6 +1,6 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-14T23:44:02+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 139,
   "papers": [
     {
@@ -2384,7 +2384,9 @@
       "title": "Mitigating structural strain and transition metal-oxygen framework evolution for enhanced cycling performance of P2/O3 sodium oxide cathodes",
       "url": "https://doi.org/10.1016/j.jechem.2026.08.067",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.08.067",
       "authors": [
         "Liang Gao",
@@ -2404,7 +2406,7 @@
       "first_seen": "2026-09-06",
       "image": null,
       "summary_ko": "P2/O3 소듐 산화물 캐소드의 구조적 변형과 전이금속-산소 골격 변화를 완화하여 사이클 성능을 개선하는 연구로 추정된다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7212246781",
@@ -2904,7 +2906,9 @@
       "title": "Dual-site defect-suppressed Na4Fe3(PO4)2P2O7 cathode for ultra-stable sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.08.085",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.08.085",
       "authors": [
         "Tongyin Shen",
@@ -2924,7 +2928,7 @@
       "first_seen": "2026-09-11",
       "image": null,
       "summary_ko": "이중 자리 결함 억제 전략을 적용한 Na4Fe3(PO4)2P2O7 양극 소재로 초안정적인 소듐이온전지를 구현하는 연구로 보인다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7212440780",
@@ -3373,7 +3377,9 @@
       "title": "All-in-one Polymer additives boost excellent cycling stability of high-mass-loading cathodes in Sodium batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105524",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105524",
       "authors": [
         "Xiaowen Qv",
@@ -3393,7 +3399,7 @@
       "first_seen": "2026-09-12",
       "image": null,
       "summary_ko": "소듐전지에서 고질량 로딩 양극의 사이클 안정성을 향상시키는 올인원 고분자 첨가제를 다루는 연구로 추정된다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7204787499",
@@ -4001,7 +4007,9 @@
       "title": "Unveiling the multiple mechanistic effects of K regulation on the local structure of Li-containing sodium layered oxide cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105495",
       "published": "2026-08-26",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105495",
       "authors": [
         "Ce-Heng Duan",
@@ -4021,7 +4029,7 @@
       "first_seen": "2026-09-01",
       "image": null,
       "summary_ko": "이 연구는 칼륨(K) 조절이 리튬을 포함한 소듐 층상 산화물 양극재의 국소 구조에 미치는 다양한 메커니즘적 영향을 규명한다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7204223011",

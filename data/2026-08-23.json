@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T21:27:02+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 18,
   "papers": [
     {
@@ -288,7 +288,9 @@
       "title": "Iron-mediated reversible lattice-oxygen redox enables stable 200 Wh kg−1 sodium-ion batteries",
       "url": "https://doi.org/10.1038/s41560-026-02112-8",
       "published": "2026-08-20",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1038/s41560-026-02112-8",
       "authors": [
         "Shiyong Chu",
@@ -313,7 +315,7 @@
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02112-8"
       },
       "summary_ko": "철 기반의 가역적 격자산소 산화환원 반응을 이용해 에너지밀도 200 Wh kg-1급 소듐이온전지를 구현한 것으로 보인다. 이는 소듐이온 양극 소재 연구로 소듐 금속 음극과는 무관하다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7203824553",

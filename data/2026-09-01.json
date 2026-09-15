@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-09-01T23:10:44+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 3,
   "papers": [
     {
@@ -9,7 +9,9 @@
       "title": "Unveiling the multiple mechanistic effects of K regulation on the local structure of Li-containing sodium layered oxide cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105495",
       "published": "2026-08-26",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105495",
       "authors": [
         "Ce-Heng Duan",
@@ -29,7 +31,7 @@
       "first_seen": "2026-09-01",
       "image": null,
       "summary_ko": "이 연구는 칼륨(K) 조절이 리튬을 포함한 소듐 층상 산화물 양극재의 국소 구조에 미치는 다양한 메커니즘적 영향을 규명한다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7204165109",

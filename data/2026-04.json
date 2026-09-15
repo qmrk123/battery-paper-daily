@@ -1,6 +1,6 @@
 {
   "date": "2026-04",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 193,
   "papers": [
     {
@@ -343,7 +343,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105171",
       "published": "2026-04-28",
       "topics": [
-        "other-cathode"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105171",
       "authors": [
@@ -2340,7 +2340,9 @@
       "title": "Synergistic Na3V2(PO4)3Na4Fe3(PO4)2P2O7 heterostructure cathode for superior-rate and ultrastable sodium storage",
       "url": "https://doi.org/10.1016/j.ensm.2026.105144",
       "published": "2026-04-20",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105144",
       "authors": [
         "Fangjie Ji",
@@ -2360,7 +2362,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "Na3V2(PO4)3와 Na4Fe3(PO4)2P2O7의 이종구조 양극재로 고율 및 초장수명 나트륨 저장 특성을 구현하는 연구이다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7155021170",
@@ -3176,7 +3178,9 @@
       "title": "Single-crystal low-defect manganese-based Prussian blue for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105122",
       "published": "2026-04-15",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105122",
       "authors": [
         "Ling Li",
@@ -3196,7 +3200,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "소듐이온전지용 단결정 저결함 망간계 프러시안 블루 양극재를 다루는 연구이다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7154509147",
@@ -3393,7 +3397,9 @@
       "title": "Structural and interfacial stabilization of sodium-deficient O3-type layered oxide cathodes via optimized lithium doping",
       "url": "https://doi.org/10.1016/j.ensm.2026.105118",
       "published": "2026-04-14",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105118",
       "authors": [
         "Arun Krishnan",
@@ -3413,7 +3419,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "코발트 프리, 저니켈 Fe-Mn-Ni-Cu 층상 산화물을 이용한 소듐 결핍형 O3형 층상 산화물 양극재를 리튬 도핑으로 최적화한 연구이다. 리튬 치환이 TM-O 결합을 강화하고 얀-텔러 왜곡을 억제하여 오퍼란도 XRD에서 가역적인 O3-P3-OP2 상전이와 최소한의 격자 부피 변화를 확인했다. XPS, ToF-SIMS, FIB-SEM 분석으로 전해질 분해 감소와 계면 안정성 향상을 확인했으며, 0.2C에서 200사이클 후 88% 용량 유지율과 우수한 율속 특성을 달성했다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7154370984",
@@ -3685,7 +3691,9 @@
       "title": "Realizing high capacity and reversibility in layered oxide cathodes via dual-site doping for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.04.003",
       "published": "2026-04-13",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.04.003",
       "authors": [
         "Meijing Xiao",
@@ -3705,7 +3713,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "이중 자리 도핑을 통해 소듐이온전지용 층상 산화물 양극재의 고용량 및 가역성을 구현하는 연구이다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7153982262",
@@ -4230,7 +4238,9 @@
       "title": "Delocalized electronic engineering by ionic potential enabling fluorophosphates cathode towards ultrahigh rate capacity and stability for sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.nanoen.2026.111950",
       "published": "2026-04-10",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.111950",
       "authors": [
         "Qingbo Zhou",
@@ -4250,7 +4260,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "이온 전위 조절을 통한 비편재화 전자구조 설계로 소듐이온전지용 불소인산염 양극의 초고율 용량과 안정성을 향상시키는 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7152833626",
@@ -4878,7 +4888,7 @@
       "url": "https://doi.org/10.1016/j.nanoen.2026.111937",
       "published": "2026-04-07",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.nanoen.2026.111937",
       "authors": [
@@ -5890,7 +5900,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105076",
       "published": "2026-04-01",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105076",
       "authors": [
@@ -6059,7 +6069,7 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105078",
       "published": "2026-04-01",
       "topics": [
-        "na-metal"
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105078",
       "authors": [

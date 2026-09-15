@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-30T23:19:53+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 6,
   "papers": [
     {
@@ -157,7 +157,9 @@
       "title": "Enabling fast and reversible kinetics via TM–O bond modulation in homogeneous solid-solution medium-entropy NASICON for sodium ion batteries",
       "url": "https://doi.org/10.1016/j.jechem.2026.08.019",
       "published": "2026-08-19",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.08.019",
       "authors": [
         "Muhammad Tayyab Ahsan",
@@ -177,7 +179,7 @@
       "first_seen": "2026-08-30",
       "image": null,
       "summary_ko": "소듐이온전지용 NASICON 전극 소재에서 Mn3+의 얀-텔러 왜곡과 V4+/V5+의 비활성 문제를 해결하기 위해 중간엔트로피 고용체 Na3V0.5Mn0.5Ti0.5Cr0.5(PO4)3를 설계했다. TM-O6 결합을 강화해 전자 전도성과 격자 안정성을 높였으며 175.3 mAh/g의 비용량과 5000회 사이클 후 91%의 용량 유지율을 달성했다. 상전이가 매끄럽고 부피 변화가 5.3%로 작아 저비용·고성능 NASICON 전극 설계 전략을 제시한다.",
-      "relevant": false
+      "relevant": true
     }
   ]
 }

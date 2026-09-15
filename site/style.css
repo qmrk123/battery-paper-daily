@@ -16,6 +16,7 @@
   /* topic hues (shared across themes; surfaces adapt) */
   --li-metal: #ff4d5e;   /* crimson  (Li flame) */
   --na-metal: #f0a92b;   /* amber    (Na flame) */
+  --na-cathode: #ff7a45; /* coral-orange (Na cathode) */
   --ncm:      #24c98a;   /* nickel green */
   --li-rich:  #a78bfa;   /* redox violet */
   --lfp:      #22b8d0;   /* olivine teal */

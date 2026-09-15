@@ -1,6 +1,6 @@
 {
   "date": "2026-03",
-  "generated_at": "2026-08-20T08:59:41+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 196,
   "papers": [
     {
@@ -771,7 +771,9 @@
       "title": "Phase regulation of Na4Fe3(PO4)2P2O7 for advanced sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.nanoen.2026.111918",
       "published": "2026-03-27",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.111918",
       "authors": [
         "Jinqiang Gao",
@@ -791,7 +793,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "Na4Fe3(PO4)2P2O7 소재의 상 조절을 통해 고성능 소듐이온전지 양극 특성을 개선한 연구로 보임 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7141960185",
@@ -1402,7 +1404,9 @@
       "title": "Strengthening Na−O interaction to stabilize sodium O3-layered cathodes by orbital hybridization regulation",
       "url": "https://doi.org/10.1016/j.nanoen.2026.111915",
       "published": "2026-03-25",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.111915",
       "authors": [
         "Mengmeng Yan",
@@ -1422,7 +1426,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "오비탈 혼성 조절을 통해 Na-O 상호작용을 강화하여 소듐 O3층상 양극을 안정화하는 연구로 보임 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7140315062",
@@ -2386,7 +2390,9 @@
       "title": "Resolving water-induced deactivity and fragility of Prussian blue by eutectic chemistry for upgraded sodium storage",
       "url": "https://doi.org/10.1016/j.jechem.2026.03.024",
       "published": "2026-03-20",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.03.024",
       "authors": [
         "Mingwei Jiang",
@@ -2406,7 +2412,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "공융화학을 이용해 프러시안블루의 수분 유발 비활성화 및 취성 문제를 해결하여 소듐 저장 성능을 향상시킨 연구로 보임 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7139909587",
@@ -3217,7 +3223,9 @@
       "title": "High-entropy-doped layered oxides toward 200 Wh kg−¹ sodium-ion batteries with long cycle life",
       "url": "https://doi.org/10.1016/j.ensm.2026.105041",
       "published": "2026-03-16",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105041",
       "authors": [
         "Lina Zhang",
@@ -3237,7 +3245,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "고엔트로피 도핑된 층상 산화물을 이용해 200 Wh/kg급 장수명 소듐이온전지를 구현하는 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7136857910",
@@ -3911,7 +3919,9 @@
       "title": "Ligand-field-mediated d-π* orbital synergy and electron re-localization in a medium-entropy Prussian blue cathode for superior sodium-ion storage",
       "url": "https://doi.org/10.1016/j.jechem.2026.02.052",
       "published": "2026-03-13",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.jechem.2026.02.052",
       "authors": [
         "Shuangyan Qiao",
@@ -3930,7 +3940,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "중간엔트로피 프러시안블루 양극에서 리간드장 매개 d-π* 오비탈 상승작용과 전자 재국소화를 통해 우수한 소듐이온 저장 특성을 구현하는 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7135420541",
@@ -4610,7 +4620,9 @@
       "title": "Electrolyte-dominated reversible Na ion storage in Na0.4V2O5 using the DME-based electrolyte for high-performance Na-ion batteries",
       "url": "https://doi.org/10.1016/j.nanoen.2026.111862",
       "published": "2026-03-10",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.nanoen.2026.111862",
       "authors": [
         "Hyokyeong Kang",
@@ -4630,7 +4642,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "DME 기반 전해질을 사용한 Na0.4V2O5 소재에서 전해질 주도의 가역적 나트륨이온 저장 거동을 다룬 고성능 소듐이온전지 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7134846582",
@@ -5014,7 +5026,9 @@
       "title": "Solvent intercalation in layered cathodes for ultrafast sodium-ion batteries",
       "url": "https://doi.org/10.1038/s41560-026-01995-x",
       "published": "2026-03-06",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1038/s41560-026-01995-x",
       "authors": [
         "Xingyu Wang",
@@ -5039,7 +5053,7 @@
         "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-01995-x"
       },
       "summary_ko": "층상 양극 소재에 용매를 삽입시켜 초고속 소듐이온전지를 구현하는 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7134109689",
@@ -5788,7 +5802,8 @@
       "url": "https://doi.org/10.1016/j.ensm.2026.105017",
       "published": "2026-03-01",
       "topics": [
-        "ncm"
+        "ncm",
+        "na-cathode"
       ],
       "doi": "10.1016/j.ensm.2026.105017",
       "authors": [
@@ -5851,7 +5866,9 @@
       "title": "Synergistic bulk/interface engineering enables high- voltage cycling of O3-type layered oxides cathode material in sodium-ion batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105018",
       "published": "2026-03-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105018",
       "authors": [
         "Wei Huang (36889)",
@@ -5871,7 +5888,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "소듐이온전지용 O3형 층상 산화물 양극의 고전압 사이클링 안정성을 벌크/계면 동시 엔지니어링으로 개선한 연구이다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7134170300",
@@ -6098,7 +6115,9 @@
       "title": "Heterointerface charge reorganization enables high-voltage sodium storage in NASICON-type cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105024",
       "published": "2026-03-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105024",
       "authors": [
         "Shuoshuo Cheng",
@@ -6118,7 +6137,7 @@
       "first_seen": "2026-08-20",
       "image": null,
       "summary_ko": "NASICON형 소듐 전지 양극에서 이종계면 전하 재배열을 통해 고전압 소듐 저장 특성을 구현한 연구로 보인다 (제목 기반 추정).",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7134935383",

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generated_at": "2026-09-12T22:55:37+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 12,
   "papers": [
     {
@@ -323,7 +323,9 @@
       "title": "All-in-one Polymer additives boost excellent cycling stability of high-mass-loading cathodes in Sodium batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105524",
       "published": "2026-09-01",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1016/j.ensm.2026.105524",
       "authors": [
         "Xiaowen Qv",
@@ -343,7 +345,7 @@
       "first_seen": "2026-09-12",
       "image": null,
       "summary_ko": "소듐전지에서 고질량 로딩 양극의 사이클 안정성을 향상시키는 올인원 고분자 첨가제를 다루는 연구로 추정된다. (제목 기반 추정)",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7204712462",

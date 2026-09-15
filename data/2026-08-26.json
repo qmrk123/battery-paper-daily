@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-25T21:31:31+00:00",
+  "generated_at": "2026-09-15T05:00:22+00:00",
   "count": 9,
   "papers": [
     {
@@ -187,7 +187,9 @@
       "title": "Distinct Charge Compensation Induced by Cationic Ordering-Disordering Transition in Layered Oxide Cathode",
       "url": "https://doi.org/10.1021/acsnano.6c04886",
       "published": "2026-08-22",
-      "topics": [],
+      "topics": [
+        "na-cathode"
+      ],
       "doi": "10.1021/acsnano.6c04886",
       "authors": [
         "Qianjie Niu",
@@ -207,7 +209,7 @@
       "first_seen": "2026-08-26",
       "image": null,
       "summary_ko": "P2형 Na0.6Li0.2Mn0.8O2(NLMO) 소듐 층상 산화물 양극에서 양이온 정렬-무질서 전이에 따른 전하 보상 메커니즘을 규명했다. 초기 사이클에서는 리본 초구조 내 O-Mn2 자리에 비편재화된 전자 정공을 통한 가역적 음이온 산화환원이 일어나지만, 반복 사이클에 따른 Li/O 손실이 구조를 불안정화시켜 Mn이 면내 이동하며 O-Mn3 배치로 전환되고 거시적인 정렬-무질서 전이가 유도된다. 이러한 구조 변화는 벌크 Mn2+/Mn3+ 산화환원을 활성화하여 감소한 음이온 산화환원 기여를 보상한다.",
-      "relevant": false
+      "relevant": true
     },
     {
       "id": "W7203833233",
