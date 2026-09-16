@@ -229,7 +229,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75023",
+        "cached": "img/W7212655416.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75023"
+      },
       "summary_ko": "아연 단원자와 은 나노클러스터를 동시 기능화한 3차원 전도성 호스트 집전체(Zn1-Agn@CP)와 프리리튬화 공정을 결합해 초박막 리튬 금속 전지의 안정성을 높였다. 단원자 Zn과 Ag 클러스터가 전하 분포를 조절해 균일한 리튬 이온 플럭스와 무기물 위주의 SEI 형성을 유도, 리튬 도금/탈리 가역성과 덴드라이트 억제를 개선했다.",
       "relevant": true
     },
@@ -287,7 +293,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78434",
+        "cached": "img/W7213196403.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78434"
+      },
       "summary_ko": "소듐 금속 전지의 비인화성 인산염 전해질에서 용매-용매 앵커링 전략으로 안전성과 계면 안정성 간 트레이드오프를 해소했다. FEC가 TMP와 방향성 분자간 상호작용을 형성해 Na+-TMP 배위를 약화시키고 탈용매화를 촉진하며, 우선적 FEC 환원으로 얇고 NaF가 풍부한 전극-전해질 계면을 형성해 지속적인 인산염 분해를 억제했다.",
       "relevant": true
     },
@@ -382,7 +394,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77588",
+        "cached": "img/W7212567188.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77588"
+      },
       "summary_ko": "메조기공 실리카(mSiO2)층과 소수성 폴리우레탄(PU)층으로 구성된 비대칭 야누스 분리막(mGP)을 개발해 리튬-산소 전지의 수명을 800사이클까지 연장했다. mSiO2 나노채널이 Li+ 플럭스를 균일화하고 중간생성물의 셔틀 효과를 억제하며, PU층이 덴드라이트 관통과 수분에 의한 음극 부식을 방지한다.",
       "relevant": true
     },
@@ -809,7 +827,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2928007",
+        "cached": "img/W7212110488.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2928007"
+      },
       "summary_ko": "Li-rich 층상 산화물(Li[Li0.2Ni0.2Mn0.6]O2)에서 영감을 얻어 새로운 O3형 소듐 층상 산화물(NaLi0.2Ni0.2Mn0.6O2)을 설계해 205.2 mAh/g의 가역적 산소 레독스를 구현하면서도 전압 히스테리시스와 전압 감쇠를 완화했다. 원자 단위 주사투과전자현미경 분석 결과 깊은 탈소듐화 시 알칼리층에 역벌집형 국소 정렬 구조가 전기화학적으로 in-situ 형성되어 사이클 후에도 유지됨을 확인했다.",
       "relevant": true
     },
@@ -1153,7 +1177,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.4463321",
+        "cached": "img/W7211934338.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.4463321"
+      },
       "summary_ko": "P2/O3 비상 층간 정합 구조와 전이금속층 내 펜스형 초격자 구조를 결합한 이중스케일 전략으로 소듐이온전지용 층상 산화물 양극재의 구조 안정성을 개선했다. P2/O3 상간 상호결착 효과가 변형 축적과 상전이를 억제하고, 펜스형 초구조가 얀-텔러 왜곡과 전이금속 이동을 억제해 산소 손실과 용량 저하를 완화한다.",
       "relevant": true
     },
@@ -2036,7 +2066,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74904",
+        "cached": "img/W7207668535.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74904"
+      },
       "summary_ko": "펜타시아나이드 전구체를 이용해 -CN 공공과 말단 -NH2기를 도입한 개질 프러시안 블루(PPB) 양극재를 개발, 저스핀 및 고스핀 Fe 자리를 모두 중간스핀 상태로 전환시키는 이중 자리 스핀 상태 조절을 구현했다. PPB는 우수한 율속 특성(0.05/2 A g-1에서 129/92 mAh g-1)과 4000사이클 후 70% 용량 유지율을 나타내며 기존 헥사시아나이드 기반 프러시안블루 대비 성능이 크게 향상되었다.",
       "relevant": true
     },
