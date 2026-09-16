@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-15T23:28:37+00:00",
+  "generated_at": "2026-09-16T23:39:29+00:00",
   "count": 17,
   "papers": [
     {
@@ -29,7 +29,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77648-0/MediaObjects/41467_2026_77648_Fig1_HTML.png",
+        "cached": "img/W7212629782.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77648-0"
+      },
       "summary_ko": "리튬 금속 전극의 고체 전해질 계면(SEI) 내 고체 부산물과 데드리튬 축적을 정량화하기 위해 가역적 형광 영상/적정법을 개발했다. 리튬 금속에 대한 고선택성 형광 프로브(디리튬 3-히드록시-2-나프토에이트)를 이용해 SEI 내 고체 부산물의 지속적 생성이 데드리튬 축적 및 전극 실패의 근본 원인임을 규명했다.",
       "relevant": true
     },
@@ -57,7 +62,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77727-2/MediaObjects/41467_2026_77727_Fig1_HTML.png",
+        "cached": "img/W7212908079.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77727-2"
+      },
       "summary_ko": "인간 OCTN1 수송체의 저온전자현미경(cryo-EM) 구조를 아포 및 에르고티오네인 결합 상태에서 규명하여 나트륨 의존적 기질 수송의 구조적 메커니즘을 밝혔다. 구조 기반 가상 스크리닝을 통해 메벤다졸 등 OCTN1을 표적으로 하는 후보 물질을 발굴했다.",
       "relevant": false
     },
@@ -85,7 +95,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77600-2/MediaObjects/41467_2026_77600_Fig1_HTML.png",
+        "cached": "img/W7213161074.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77600-2"
+      },
       "summary_ko": "배터리 없이 동작하는 무선 인체 센서 네트워크를 위한 이중모드 메타물질 섬유를 개발했다. 액체금속 섬유로 디지털 자수된 초광대역 전자기 경로를 통해 근접장 무선 전력전송과 블루투스 통신을 동시에 지원하며, 기존 대비 데이터 처리량을 37.8배 향상시키고 무선 전력전송 효율을 두 배로 높였다.",
       "relevant": false
     },
@@ -141,7 +156,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-77800-w/MediaObjects/41467_2026_77800_Fig1_HTML.png",
+        "cached": "img/W7212483581.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77800-w"
+      },
       "summary_ko": "학습이 해마 CA1 추체뉴런의 억제성 시냅스 재조직에 미치는 영향을 2주간 추적 관찰한 연구로, 수지상돌기 시냅스는 재조직되고 축삭초기분절 시냅스는 안정화됨을 규명했다. 공포조건화 학습이 서로 다른 아세포 구획의 억제성 시냅스에 구획별로 다른 영향을 미침을 수학적 모델링으로 확인했다.",
       "relevant": false
     },
@@ -199,7 +219,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77525-w/MediaObjects/41467_2026_77525_Fig1_HTML.png",
+        "cached": "img/W7212910523.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77525-w"
+      },
       "summary_ko": "뇌세포 및 신경교세포의 나노스케일 구조와 세포외 신호전달을 시뮬레이션하는 BRAINCELL 모델링 플랫폼을 개발했다. 수지상돌기 가시 등 복잡한 나노구조를 경험적 통계로 확률적으로 생성하고, 동적인 세포외 이온·신호분자 농도 변화를 반영해 뉴런-아교세포 상호작용을 사실적으로 모사한다.",
       "relevant": false
     },
