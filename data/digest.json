@@ -1,64 +1,43 @@
 {
-  "title": "최근 2주 논문 브리핑 (9/5–9/16)",
-  "range": "2026-09-05 ~ 2026-09-16",
-  "overall": "이번 2주는 리튬 금속 음극의 전해질·고체전해질·계면 설계가 압도적 비중을 차지했으며, 음이온 중심 용매화 재편과 LiF 풍부 SEI/CEI 동시 형성이 공통 화두였다. 소듐 층상 산화물에서는 상전이·산소 레독스 제어, NCM에서는 단결정 결함·고전압 안정화가 주요 흐름으로 나타났다.",
+  "title": "최근 2주 논문 브리핑 (9/8–9/17)",
+  "range": "2026-09-08 ~ 2026-09-17",
+  "overall": "리튬 금속 음극에서는 전해질·계면 화학 설계가 압도적 주류로, 용매화 구조 조절과 LiF·무기물 풍부 SEI/CEI 구축이 핵심 축을 이뤘다. 소듐 금속·기타 양극·NCM 분야에서도 계면 조절과 결함·상전이 이해를 통한 안정화 전략이 공통적으로 부각되었다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "핵심 흐름은 용매화 구조를 음이온 중심으로 재편해 LiF·Li3N 등 무기물이 풍부한 SEI/CEI를 형성하는 것으로, 약한 용매화 전해질·불소화 첨가제·고립 용매화 나노클러스터부터 COF·MOF·젤/복합 고분자 전해질, 기능성 분리막까지 다양한 경로가 동원됐다. 고체·준고체 방향에서는 세라믹-고분자 계면의 분자 브리징, 상호침투 비대칭 구조, 몬모릴로나이트·황화물 막으로 이온전도도와 계면 저항, 덴드라이트 억제를 동시에 겨냥했다. 진단·설계 측면에서는 2D EXSY ssNMR·형광 적정으로 데드리튬/SEI 기여도를 정량화하고, 계면 에너지 갭·3-지표·물리기반 머신러닝 프레임워크로 쿨롱효율을 예측하는 연구가 두드러졌다. 전반적으로 Ah급 파우치셀에서 400~500 Wh/kg급 고에너지와 장수명을 함께 입증하려는 실용화 지향이 강했다.",
+      "text": "이번 기간 리튬 금속 연구의 핵심은 용매화 구조 재설계를 통한 음이온 유래·무기물 풍부(LiF, Li3N, Li3PO4) 계면 형성에 집중되었다. 용매 분극률·쌍극자 조절, 약한 용매화 전해질, 루이스 산 첨가제, COF/MOF 분리막, 이온성 액체 등 다양한 수단으로 Li+ 이동수를 0.6~0.82까지 높이고 탈용매화를 촉진해 덴드라이트를 억제하는 흐름이 뚜렷하다. 고체·젤 고분자 전해질에서는 세라믹-고분자 계면 가교, 층간 이중 전도망, 상호침투형 비대칭 구조로 이온전도도와 계면 저항을 동시에 개선했으며, 형광 적정·2D EXSY NMR·오퍼란도 분광 등 진단 기법과 물리 기반 머신러닝으로 데드리튬·SEI 실패 메커니즘을 정량적으로 규명하려는 시도가 병행되었다.",
       "highlights": [
-        {"title": "Safe electrolyte design with isolated solvation nanoclusters for high-energy lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-77589-8", "venue": "Nature Communications"},
+        {"title": "Solvent polarizability governs Li⁺ transport kinetics for high energy lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-77667-x", "venue": "Nature Communications"},
         {"title": "Disentangling Lithium Failure Mechanisms in Liquid Electrolytes by 2D Exchange Solid-State NMR", "url": "https://doi.org/10.1021/jacs.6c12458", "venue": "Journal of the American Chemical Society"},
         {"title": "Molecular Bridging of Ceramic–Polymer Interfaces Enables Fast Ion Transport and Long‐Life Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78321", "venue": "Advanced Functional Materials"}
       ]
     },
     {
-      "topic": "na-cathode",
-      "heading": "소듐 층상 산화물 양극",
-      "text": "소듐 층상 산화물에서 O3-P3 상전이 억제와 입자 변형(제로 스트레인) 최소화가 구조 안정성의 핵심 과제로 다뤄졌으며, P2/O3 이상 정합과 펜스형 초구조, DFT 기반 상 비율 최적화 등 다중스케일 설계가 제시됐다. 산소 레독스의 가역성 확보를 위해 Sc 도핑으로 O-O 다이머 형성을 억제하거나 역벌집형 국소 정렬 구조를 in-situ 형성하는 접근이 등장했다. 대량생산 관점에서는 XRD 피크 강도비를 이용한 격자 소듐 온라인 정량 진단 플랫폼이 제안되어 실용화 지향 연구가 병행됐다.",
-      "highlights": [
-        {"title": "Reconciling the O3-P3 phase transition in layered oxides to reduce particle strain for stable sodium battery cycling", "url": "https://doi.org/10.1038/s41467-026-77622-w", "venue": "Nature Communications"},
-        {"title": "Atomic-Scale Intergrowth Regulation Enables Long-Cycling Zero-Strain Sodium Layered Oxide Cathodes", "url": "https://doi.org/10.1021/acsenergylett.6c01278", "venue": "ACS Energy Letters"},
-        {"title": "Restraining O–O Dimerization for Highly Reversible Oxygen Redox in a Sodium-Ion Layered-Oxide Cathode", "url": "https://doi.org/10.1021/jacs.6c09685", "venue": "Journal of the American Chemical Society"}
-      ]
-    },
-    {
-      "topic": "ncm",
-      "heading": "NCM 양극",
-      "text": "니켈리치 양극의 내구성 한계를 입계가 아닌 내재적 평면 결함(DLPB)에서 규명하고, 전구체 기능화 기반 합성 경로 분리(DSP)로 암염상·스피넬 결함을 억제해 4.5V 고전압 안정성을 확보하려는 연구가 나타났다. 표면 코팅 측면에서는 LBLS 고속 이온전도막으로 NCM622의 저온 사이클 안정성을 크게 개선했다. 다수의 NCM811 결과가 리튬 금속 전해질·고체전해질 연구와 연계되어 완전셀·파우치셀 수준의 장기 용량유지 검증으로 이어졌다.",
-      "highlights": [
-        {"title": "Intrinsic Planar Defects Govern Durability in Single-Crystal Ni-Rich Cathodes", "url": "https://doi.org/10.1021/jacs.6c08205", "venue": "Journal of the American Chemical Society"},
-        {"title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes", "url": "https://doi.org/10.1002/adma.74909", "venue": "Advanced Materials"},
-        {"title": "Li 2 O–B 2 O 3 –Li 2 SO 4 Fast‐Ion Conducting Coating Enables Stable Low‐Temperature Cycling of Ni‐Rich NCM622 via Interfacial Degradation Suppression", "url": "https://doi.org/10.1002/adfm.78497", "venue": "Advanced Functional Materials"}
-      ]
-    },
-    {
-      "topic": "other-cathode",
-      "heading": "기타 양극",
-      "text": "리튬-황 계열이 다수로, 강유전체 보호층·이온선택성 이종 계면층·음이온-전달 전해질로 폴리설파이드 셔틀과 음극 부반응을 억제하고 LiF 풍부 계면을 형성하는 전략이 중심이었다. 자유 염화물 이온성 액체를 활용한 3전자 Li||S2Cl2 화학은 작동전압과 황 비용량을 크게 끌어올려 새로운 고비에너지 양극 화학의 가능성을 보였고, 리튬-산소 전지는 야누스 분리막으로 수명을 800사이클까지 연장했다. 이와 별개로 리튬 보충제(Li6MnO4)의 저전압 탈리튬화 설계도 제시됐다.",
-      "highlights": [
-        {"title": "Lithium–disulfur dichloride batteries", "url": "https://doi.org/10.1038/s41560-026-02120-8", "venue": "Nature Energy"},
-        {"title": "Anion‐Transferring Electrolyte Enables In Situ Construction of Uniform LiF‐Rich Interphases for Long‐Cycling Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/aenm.71550", "venue": "Advanced Energy Materials"},
-        {"title": "A Multifunctional Mesoporous Janus Separator With Optimized Mass Transport Regulation Enabling 800‐Cycle Lithium‐Oxygen Batteries", "url": "https://doi.org/10.1002/advs.77588", "venue": "Advanced Science"}
-      ]
-    },
-    {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 덴드라이트와 불안정 SEI 문제를 소디오필릭 계면(Ag, 극성 작용기 COF)으로 완화해 균일한 Na 증착과 견고한 SEI를 유도하는 연구가 공통적으로 나타났다. 비인화성 인산염 전해질에서는 용매-용매 앵커링으로 안전성과 계면 안정성 간 트레이드오프를 해소했으며, 무음극·저온(-20°C) 조건과 Na-CO2 전지 등 응용 범위 확장을 지향했다.",
+      "text": "소듐 금속 음극 연구는 균일한 Na 증착과 견고한 SEI 형성을 위한 계면 공학에 초점을 맞췄다. 소디오필릭 Ag 계면이나 극성 작용기·COF 코팅을 산업 규모 음극에 적용해 Na+ 플럭스를 균질화하고 덴드라이트와 CO2 부식을 억제하는 접근이 공통적이며, 비인화성 인산염 전해질에서는 용매-용매 앵커링으로 안전성과 계면 안정성의 트레이드오프를 해소했다. 무음극·저온(-20°C)·Na-CO2 등 실용적 극한 조건에서의 장수명 검증이 함께 제시되었다.",
       "highlights": [
         {"title": "Solvent–Solvent Anchoring Decouples Non‐Flammability and Interfacial Stability in Sodium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78434", "venue": "Advanced Functional Materials"},
         {"title": "Robust SEI and Uniform Na Deposition Enabled by Sodiophilic Interface for Durable Anode‐Free Sodium Metal Batteries Across Ambient and Subzero Conditions", "url": "https://doi.org/10.1002/adfm.78361", "venue": "Advanced Functional Materials"}
       ]
     },
     {
-      "topic": "li-rich",
-      "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 층상 산화물에서 in-situ 형성되는 국소 정렬 구조로 산소 레독스의 전압 히스테리시스와 감쇠를 완화하려는 접근과, 리튬리치 망간계 고로딩 양극을 초박형 비대칭 고체전해질과 결합해 521.6 Wh/kg급 고에너지밀도를 구현하는 연구가 제시됐다. 산소 레독스 가역성과 고체전해질 계면 저항 저감이 핵심 과제로 부각됐다.",
+      "topic": "other-cathode",
+      "heading": "기타 양극",
+      "text": "기타 양극 분야에서는 리튬-황·리튬-산소 등 전환형 화학과 리튬 보충제·신규 황 화학이 다뤄졌다. 야누스 분리막이나 강유전체 보호층으로 폴리설파이드 셔틀과 중간생성물 확산을 차단하는 계면 전략이 공통적이며, 자유 염화물 이온성 액체를 매개로 한 3전자 Li||S2Cl2 화학처럼 작동전압과 비용량을 근본적으로 끌어올리는 신규 전환 화학도 등장했다. 사면체 배위장 왜곡을 통한 저전압 리튬 추출로 리튬 보충제의 실용성을 높이는 소재 설계도 보고되었다.",
       "highlights": [
-        {"title": "Electrochemically In Situ Formed Inverse‐Honeycomb Local Ordering for Low‐Voltage‐Hysteresis Oxygen Redox in Na/Li Layered Oxide Cathodes", "url": "https://doi.org/10.1002/anie.2928007", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Interpenetrating Interface Engineering via Competitive Coordination in Ultrathin Asymmetric Solid‐State Electrolytes for High‐Energy Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78110", "venue": "Advanced Functional Materials"}
+        {"title": "Lithium–disulfur dichloride batteries", "url": "https://doi.org/10.1038/s41560-026-02120-8", "venue": "Nature Energy"},
+        {"title": "Tetrahedral‐Field Distortion Engineering of Redox‐Active Orbital Energy Levels Enables Low‐Voltage Delithiation of Li 6 MnO 4", "url": "https://doi.org/10.1002/adfm.78510", "venue": "Advanced Functional Materials"}
+      ]
+    },
+    {
+      "topic": "ncm",
+      "heading": "NCM 양극",
+      "text": "Ni-rich NCM 양극 연구는 표면 계면 열화 억제와 내재적 결함 이해라는 두 방향으로 진행되었다. 빠른 이온전도성 코팅으로 저온 사이클 안정성을 크게 개선한 사례와 함께, 단결정 양극에서도 무질서 층상 상경계 같은 내재적 평면 결함이 반응 불균일과 열화를 유발함을 규명해, 다단계 리튬화 등 결함 치유 전략의 필요성을 제시했다.",
+      "highlights": [
+        {"title": "Li 2 O–B 2 O 3 –Li 2 SO 4 Fast‐Ion Conducting Coating Enables Stable Low‐Temperature Cycling of Ni‐Rich NCM622 via Interfacial Degradation Suppression", "url": "https://doi.org/10.1002/adfm.78497", "venue": "Advanced Functional Materials"},
+        {"title": "Intrinsic Planar Defects Govern Durability in Single-Crystal Ni-Rich Cathodes", "url": "https://doi.org/10.1021/jacs.6c08205", "venue": "Journal of the American Chemical Society"}
       ]
     }
   ]

@@ -1,8 +1,299 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-16T23:36:56+00:00",
-  "count": 166,
+  "generated_at": "2026-09-17T23:29:08+00:00",
+  "count": 181,
   "papers": [
+    {
+      "id": "W7213456080",
+      "source": "openalex",
+      "title": "Transcriptome-based classification in mice with ASD-risk mutations",
+      "url": "https://doi.org/10.1126/science.adz6688",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1126/science.adz6688",
+      "authors": [
+        "Junyeop Daniel Roh",
+        "Yukyung Jun",
+        "Heesu Jeon",
+        "Junyoung Kim",
+        "Yunho Yi",
+        "Minji Kim"
+      ],
+      "venue": "Science",
+      "abstract_en": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with a strong genetic component. Large-scale human genetic studies have identified >1200 ASD-risk genes. We report a sex-balanced atlas of 1008 prefrontal RNA sequencing (RNA-seq) profiles from 17 mouse lines carrying ASD-risk mutations. Our analysis identified two opposing transcriptomic states. The two groups differed in sex bias, regional specificity, developmental stability, cell type remodeling, and responses to fluoxetine and lithium. Single-nucleus RNA-seq revealed broader cell type remodeling in group 1 than in group 2, and cell type–specific modules showed reciprocal associations that mirrored bulk transcriptomic signatures. The framework classifies independent mouse lines and identifies subgroups with conserved synaptic directionality, supporting molecular stratification.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S3880285",
+      "journal_metric": 20.25,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "자폐스펙트럼장애(ASD) 위험 돌연변이를 가진 17개 마우스 계통에서 1008건의 전전두엽 RNA-seq 프로파일을 확보하여 성별 균형 아틀라스를 구축했다. 분석 결과 두 가지 상반된 전사체 상태가 확인되었으며, 이들은 성별 편향, 영역 특이성, 발달 안정성, 세포유형 리모델링, 플루옥세틴·리튬 반응성에서 차이를 보였다. 단일세포 RNA-seq는 그룹 1에서 더 광범위한 세포유형 리모델링이 나타남을 보여주었고, 이 프레임워크는 독립적인 마우스 계통을 분류하고 보존된 시냅스 방향성을 가진 하위그룹을 식별할 수 있음을 확인했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7125804378",
+      "source": "openalex",
+      "title": "Suspended thin-film lithium niobate modulator for broadband mid-infrared light modulation and frequency comb generation",
+      "url": "https://doi.org/10.1038/s41467-026-77674-y",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77674-y",
+      "authors": [
+        "Chun-Ho Lee",
+        "Xinyi Ren",
+        "Xinzhou Su",
+        "Wonho Lee",
+        "Zile Jiang",
+        "Yue Yu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract The mid-infrared (MIR) spectral regime is central to applications including remote sensing, precision spectroscopy, higher harmonic generation, and free-space optical communication. However, coherent and broadband MIR modulation remains challenging owing to high optical loss, limited bandwidth, and large drive voltages in existing platforms. Here, we overcome the challenges by deploying a suspended thin-film lithium-niobate (TFLN) based electro-optic (EO) platform co-designed with high-performance traveling-wave microwave (MW) electrodes. We demonstrate a record-low V π , D C of 2.3 to 4.3 V over a broadband MIR bandwidth from 2.4 to 3.6 μm, and a 2.3-dB EO bandwidth of 40 GHz (extracted 3-dB bandwidth of 52 GHz), yielding a figure-of-merit of 19.3 GHz/V–more than an order of magnitude higher than the state-of-the-art. We demonstrate, for the first time, high-frequency V π , M W of 4.5-6.5 V in the 27-34 GHz range, and frequency-agile MIR EO frequency comb generation with a 10-dB optical bandwidth over 0.8 THz using a suspended phase modulator of 4-cm active modulation length. We further validate the platform in a free-space optical communication link. Our results establish a monolithic MIR photonic platform capable of powerful EO modulation and spectral synthesis, and present a significant step towards reconfigurable MIR sensing and communication systems on chip.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77674-y",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "중적외선(MIR) 대역에서 광대역 전기광학 변조와 주파수 콤 생성을 위해 서스펜디드 박막 리튬나이오베이트(TFLN) 플랫폼을 개발했다. 2.4~3.6 μm 대역에서 기록적으로 낮은 Vπ(2.3~4.3V)와 52 GHz의 3dB 대역폭을 달성했으며, 27~34 GHz 대역에서 고주파 변조 및 0.8 THz 광대역 주파수 콤 생성을 시연했다. 자유공간 광통신 링크에서도 플랫폼의 성능을 검증했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213459272",
+      "source": "openalex",
+      "title": "Steric‐Hindrance Polyoxometalate Li 4 SiW 12 O 40 Enabling Fast Li + Conduction and Ultrastable Li Metal Interface Chemistry for Solid‐State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.77849",
+      "published": "2026-09-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.77849",
+      "authors": [
+        "Di Zhao",
+        "Jiafeng Li",
+        "Ruixiao Zhu",
+        "Xiaoxuan Li",
+        "Zhiwei Zhang",
+        "Xiaobin Hui"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Solid‐state lithium metal batteries (SLMBs) hold promise for next‐generation high‐energy‐density energy storage batteries, but encounter critical challenges of intrinsically sluggish Li + transfer kinetics and poor electrolyte/electrode interfacial stability. Herein, a Keggin‐type polyoxometalate (POM), lithium silicotungstate (Li 4 SiW 12 O 40 , SiWLi), acting as a functional additive is introduced into the cationic poly(ionic liquid) (PIL) electrolyte to modulate the Li + coordination environment. The cationic groups of PIL and SiW 12 O 40 4− anions of SiWLi collectively promote the sufficient dissociation of LiTFSI through electrostatic interactions. Profiting from the anchoring effect of PIL toward TFSI − and the strong steric‐hindrance effect of large‐size SiW 12 O 40 4− , anions movement is effectively restrained to achieve a high Li + transference number of 0.82. Moreover, the introduction of SiW 12 O 40 4− helps to construct more contact ion pairs coordination, inducing an anions‐derived LiF‐rich SEI layer to facilitate the stable Li metal anode without dendrite formation. The designed composite solid‐state electrolyte supports the stable operation of Li||Li cells for over 3000 h at 0.3 mAh cm −2 . When paired with LiFePO 4 (LFP) cathodes, the full cells deliver specific capacities of 145.03 mAh g −1 (99.5% retention after 600 cycles). This work provides an effective strategy for using steric‐hindrance POMs to regulate Li + solvation structure, boosting the design of high‐performance SLMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "Keggin형 폴리옥소메탈레이트 Li4SiW12O40(SiWLi)를 양이온성 폴리이온성 액체(PIL) 전해질에 첨가제로 도입하여 Li+ 배위 환경을 조절했다. PIL 양이온과 SiW12O40 4- 음이온의 정전기적 상호작용으로 LiTFSI 해리가 촉진되고, 큰 입체장애 효과로 음이온 이동이 억제되어 0.82의 높은 Li+ 이동수를 달성했다. 음이온 유래 LiF가 풍부한 SEI가 형성되어 덴드라이트 없이 3000시간 이상 안정적인 Li||Li 셀 구동이 가능했으며, LFP 양극과 조합한 완전셀은 600사이클 후 99.5%의 용량 유지율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213462365",
+      "source": "openalex",
+      "title": "Solvent polarizability governs Li⁺ transport kinetics for high energy lithium metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-77667-x",
+      "published": "2026-09-17",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1038/s41467-026-77667-x",
+      "authors": [
+        "Chuangchao Sun",
+        "Linxiang Chen",
+        "Junyi Hua",
+        "Shengpeng Zhang",
+        "Yong Li",
+        "Liyi Zhao"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Fast Li+ kinetics are essential for high energy lithium metal batteries, yet the factors governing these kinetics remain unclear. Here, we decipher a quantitative structure-kinetics relationship by demonstrating that polarizability dictates Li+ desolvation and transport. Specifically, the inert solvents with low polarizability generate weak induced dipoles under interfacial electric fields, which keeps the structural integrity of anion-rich solvates. These intact solvates improve the Li+ kinetics via coupling Li+ hopping and electrostatic repulsion to anions, as evidenced by the linear relationship between polarizability and desolvation energy. Meanwhile, the induced more inorganic-rich solid-electrolyte interphase further accelerates the Li+ kinetics. Accordingly, the tailored electrolyte enables Li | |LiNi0.8Co0.1Mn0.1O2 cells to achieve a stable cycling (0.2 C charge/0.5 C discharge, 1 C = 200 mA g−1 based on the NCM811 positive electrode) with 95% capacity retention after 200 cycles at −35 °C and powers a 7.5-Ah lithium metal pouch cell (0.1 C charge/0.3 C discharge, 1 C = 200 mA g−1 based on the NCM811 positive electrode) with a specific energy of 541.6 Wh kg−1 (based on the full cell mass). This work decodes the polarizability-governed Li+ kinetics and establishes practical electrolyte guidelines for realizing high energy lithium metal batteries. Understanding factors that influence Li+ transport in liquid electrolytes is required for high-energy lithium metal batteries. Here, authors show that low polarizability solvents form anion-rich solvates, lower desolvation energy, and stable interphases enabling cycling at −35 °C, in Ah-scale pouch cells with 541.6 Wh kg-1 specific energy, and in initially anode-free pouch cells",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77667-x",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "고에너지 리튬 금속 전지에서 Li+ 수송 속도론을 지배하는 요인으로 용매의 분극률(polarizability)을 규명했다. 분극률이 낮은 비활성 용매는 계면 전기장 하에서 유도 쌍극자가 약해 음이온이 풍부한 용매화 구조의 무결성을 유지하며, 이는 Li+ 홉핑과 음이온과의 정전기적 반발을 결합해 탈용매화 에너지와 선형 관계를 이루어 Li+ 속도론을 개선한다. 이렇게 설계된 전해질은 Li||NCM811 셀에서 -35°C의 저온에서도 200사이클 후 95%의 용량 유지율을 보였고, 7.5Ah급 리튬 금속 파우치셀에서 541.6 Wh/kg의 비에너지를 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213440726",
+      "source": "openalex",
+      "title": "Nano-NucleOTAC-mediated Z-DNA transformation disrupts mycobacterium tuberculosis biofilms and activates antibacterial immunity",
+      "url": "https://doi.org/10.1038/s41467-026-77825-1",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77825-1",
+      "authors": [
+        "Deliang Liu",
+        "Pengfei Zhao",
+        "Yang Zhou",
+        "Zhuojun He",
+        "Zhiqiang Lin",
+        "Guiqin Dai"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The biofilms of Mycobacterium Tuberculosis (Mtb) use extracellular DNA (eDNA) as a protective structural scaffold that shields resident bacteria from host immunity and antibiotics, promoting persistent infection. An FDA-approved DNase can partially hydrolyze eDNA but has limited affinity and nucleolytic activity against Z-form DNA (Z-DNA). After confirming the abundance of Z-DNA in Mtb biofilms, we develop Nano-NucleOTAC, a nano-nucleolysis targeting chimera that combines an eDNA-binding ligand (lactoferrin), a DNA intercalator (chloroquine) and DNase. Nano-NucleOTAC anchors to Z-DNA in Mtb H37Ra biofilms, enabling effective biofilm degradation via Z-DNA transformation and enzymatic cleavage. Following treatment, dispersed Mtb H37Ra clusters induce neutrophil extracellular trap (NET) formation and cytokine secretion (TNF, IL-1β, and IL-10) to recruit macrophages, while NET remodeling and nucleolysis enhance macrophage bactericidal effect vs. DNase alone. In mouse lung infection models, Nano-NucleOTAC improves lung drug retention, reduces pathology, and reactivates host immune responses. It also demonstrates high efficacy against Mtb strains of varying virulence (H37Ra, H37Rv) and non-tuberculous mycobacteria (Mycobacterium smegmatis). In clinical sputum samples, Nano-NucleOTAC potentiates rifampicin efficacy, and enhances neutrophil and macrophage antibacterial immunity in bronchoalveolar lavage fluid (BALF) and pus. This safe, versatile nucleic-acid-targeting strategy modulates bacterial biophysical barriers and host immunity to address biofilm-associated multidrug-resistant infections. Extracellular DNA (eDNA) from tuberculosis can protect bacteria from host immune responses and antibiotics and can contain Z form eDNA which is harder for DNase to hydrolyze. Here the authors use a nanoparticle system to more specifically target eDNA and the Z form and show cleavage of Z-DNA and improvement of immune responses against TB infection in mice.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77825-1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "결핵균(Mtb) 바이오필름의 세포외 DNA(eDNA)에 풍부한 Z-DNA를 표적하는 나노입자 Nano-NucleOTAC(락토페린-클로로퀸-DNase 결합체)를 개발했다. 이 물질은 Z-DNA로의 전환과 효소 절단을 통해 바이오필름을 효과적으로 분해하고, 호중구 세포외 트랩 형성과 대식세포의 살균 작용을 강화했다. 마우스 폐 감염 모델과 임상 객담 시료에서 리팜피신 효능을 증대시키고 다양한 항산균 및 비결핵항산균에 대해 높은 효과를 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213454767",
+      "source": "openalex",
+      "title": "Materials design and integration strategies for next-generation smart batteries",
+      "url": "https://doi.org/10.1038/s41578-026-00957-9",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1038/s41578-026-00957-9",
+      "authors": [
+        "Hailong Wang",
+        "Qianjin Xiong",
+        "Nuo Sun",
+        "Qinlang Rong",
+        "Zhenguo Wu",
+        "Stefano Passerini"
+      ],
+      "venue": "Nature Reviews Materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764917516",
+      "journal_metric": 33.73,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "차세대 스마트 배터리를 위한 소재 설계 및 통합 전략을 다루는 논문으로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7213446733",
+      "source": "openalex",
+      "title": "Electron delocalization-driven high dielectric electrolyte for solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-77650-6",
+      "published": "2026-09-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-77650-6",
+      "authors": [
+        "Xufei An",
+        "Ke Yang",
+        "Likun Chen",
+        "Jinshuo Mi",
+        "Guanyou Xiao",
+        "Wenting Cui"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77650-6",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "전자 비편재화를 활용해 고유전율 특성을 갖는 전해질을 설계하여 고체상 리튬 금속 전지에 적용하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7213224961",
+      "source": "openalex",
+      "title": "WLG coordinates multi-stress tolerance in rice by regulating DST-dependent H2O2 homeostasis and stomatal aperture",
+      "url": "https://doi.org/10.1038/s41467-026-77791-8",
+      "published": "2026-09-16",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77791-8",
+      "authors": [
+        "Zhipeng Wang",
+        "Shengchang Wang",
+        "Zhichuang Yue",
+        "Xuege Feng",
+        "Yongqiang Chen",
+        "Yang Yuan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abiotic stresses reduce rice growth and yield, yet the mechanisms underlying multiple stress tolerance are unknown. Here, we show that the E3 ubiquitin ligase WIDTH OF LEAF AND GRAIN (WLG) enhances drought, salt, and heat tolerance by ubiquitinating and degrading DROUGHT AND SALT TOLERANCE (DST). This degradation represses PEROXIDASE 24 PRECURSOR (Prx24) expression, increasing guard-cell H2O2 accumulation, reducing stomatal conductance and transpiration rate, thereby improving water retention and limiting sodium uptake under abiotic stress conditions. Elevated H2O2 also induces the expression of heat shock proteins, contributing to enhanced tolerance to heat stress. DST, in turn, transcriptionally represses WLG, establishing a negative feedback loop that fine-tunes H2O2 homeostasis and stress responses. Moreover, WLGhap.B promotes stronger DST degradation than WLGhap.A. Our findings elucidated the WLG-DST-Prx24 module as a central regulatory mechanism governing H2O2 dynamics under multiple abiotic stresses, highlighting the potential of WLGhap.B for developing multiple stress-resistant rice varieties in a changing climate. Abiotic stresses reduce rice growth. Here, the authors show that E3 ubiquitin ligase WLG enhances tolerance to drought, salt, and heat via a molecular mechanism that increases guard cell hydrogen peroxide accumulation and limits water loss.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-77791-8_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "벼에서 E3 유비퀴틴 라이가아제 WLG가 DST를 유비퀴틴화·분해시켜 Prx24 발현을 억제하고 공변세포의 H2O2 축적을 늘려 기공 전도도와 증산율을 낮춤으로써 가뭄·염분·고온에 대한 복합 스트레스 내성을 향상시킨다는 것을 밝혔다. DST는 반대로 WLG 발현을 억제하여 음성 피드백 루프를 형성하며, WLGhap.B 대립유전자가 WLGhap.A보다 DST 분해를 더 강하게 촉진해 다중 스트레스 저항성 벼 품종 개발에 활용될 수 있음을 제시했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213449086",
+      "source": "openalex",
+      "title": "Unveiling the Interfacial Dynamics of Crosslinked Biodegradable Polycaprolactone Solid Polymer Electrolytes and Li Metal During Lithium Plating and Stripping via Operando ATR‐FTIR Spectroscopy",
+      "url": "https://doi.org/10.1002/advs.77788",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.77788",
+      "authors": [
+        "Jian‐Fen Wang",
+        "Matthias Weiling",
+        "Felix Pfeiffer",
+        "Marian Cristian Stan",
+        "Martin Winter",
+        "Masoud Baghernejad"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Polycaprolactones (PCL) have gained attention as a biodegradable and environmentally sustainable solid polymer electrolyte (SPE) for solid‐state battery applications. While poly(ethylene oxide) (PEO) systems are widely studied, the interfacial mechanisms of PCL‐based SPEs in contact with Li metal remain insufficiently explored. In this work, operando attenuated total reflection Fourier‐transform infrared (ATR‐FTIR) spectroscopy was employed to monitor the chemical environment at the interface of Li metal and crosslinked PCL‐based SPEs (cl‐PCL 5 LiTFSI) during Li plating/stripping, enabling both spectral assignment and electrochemical comparison between the crosslinked and non‐crosslinked systems. During galvanostatic cycling experiments, cells with cl‐PCL 5 LiTFSI SPEs exhibited increased cycling stability compared to cells containing PCL 5 LiTFSI SPEs, which can be attributed to the enhanced mechanical strength of the polymer network. Overall, the results show the development of localized ordered PCL domains and the redistribution of TFSI − anion during Li plating/stripping, revealing the possible degradation and dynamic changes occurring at the SPE|Li metal interface. The phenomenon of interfacial evolution of the SPEs was visualized through converting specific characteristic bands of PCL and LiTFSI from operando spectra into penetration depth‐dependent band ratio maps.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77788",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "오퍼란도 ATR-FTIR 분광법을 이용해 가교된 생분해성 폴리카프로락톤(PCL) 고체 고분자 전해질과 리튬 금속 계면의 동적 변화를 리튬 도금/탈리 과정에서 관찰했다. 가교된 cl-PCL5LiTFSI 전해질은 비가교 PCL5LiTFSI 대비 향상된 기계적 강도로 더 안정적인 사이클 성능을 보였으며, 리튬 도금/탈리 동안 국부적으로 정렬된 PCL 도메인 형성과 TFSI- 음이온의 재분배가 관찰되었다. 침투 깊이별 밴드비 매핑을 통해 SPE|Li 계면의 열화 및 동적 변화 과정을 시각화했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213423183",
+      "source": "openalex",
+      "title": "Toward Highly Stable Lithium Metal Anodes: Nucleation Chemistry, Interfacial Engineering, and Structural Design",
+      "url": "https://doi.org/10.1002/adfm.78389",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78389",
+      "authors": [
+        "Xianchao Zhao",
+        "Chaofan Liang",
+        "Weimin Chen",
+        "Lanying Chen",
+        "Chenchen Ping",
+        "Dou Mao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium metal anodes (LMAs), with ultrahigh theoretical capacity and extremely low electrochemical potentials, are key enablers for next‐generation high‐energy‐density batteries (LMBs). However, their practical deployment remains severely impeded by nonuniform Li nucleation, dendritic growth, drastic volume fluctuation, parasitic side reactions, and solid electrolyte interphase (SEI) instability. This review provides a comprehensive, mechanism‐oriented overview of recent advances in stabilizing LMAs. We first summarize fundamental thermodynamic and kinetic principles underlying Li nucleation and growth, establishing the theoretical basis for understanding deposition heterogeneity and interfacial failure. Representative strategies in interfacial engineering and host architecture design are then discussed, emphasizing how these approaches regulate Li + flux, guide uniform deposition, suppress dendrites, and accommodate volume changes. Furthermore, we highlight advanced characterization techniques and multiscale simulations for probing the dynamic evolution of Li metal and its interphase, providing critical insight into structure‐property relationships and failure mechanisms. Additionally, key challenges toward practical LMBs, including realistic full‐cell evaluation, scalable manufacturing, and data‐driven research paradigms, are critically discussed. Finally, perspectives are offered on integrating materials design, mechanistic understanding, advanced diagnostics, and intelligent methodologies to accelerate the transition of LMAs from fundamental research to practical applications, providing a comprehensive blueprint for developing safe and high‐energy‐density LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "리튬 금속 음극(LMA)의 핵생성 화학, 계면 공학, 구조 설계에 관한 리뷰 논문이다. Li 핵생성·성장의 열역학·속도론적 원리를 정리하고, Li+ 플럭스를 조절하여 균일한 증착을 유도하고 덴드라이트를 억제하는 계면 공학 및 호스트 구조 설계 전략을 논의했다. 첨단 분석 기법과 다중스케일 시뮬레이션, 실용화를 위한 완전셀 평가·확장 가능한 제조·데이터 기반 연구 방향도 함께 제시했다.",
+      "relevant": true
+    },
     {
       "id": "W7213262009",
       "source": "openalex",
@@ -87,6 +378,127 @@
       "first_seen": "2026-09-17",
       "image": null,
       "summary_ko": "층상 산화물 소듐전지 양극의 O3-P3 상전이를 조율하여 입자 변형을 줄임으로써 안정적인 사이클링을 구현하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7213472940",
+      "source": "openalex",
+      "title": "Process‐Oriented Interphase Regulation in Lithium Metal Batteries with Non‐Aqueous Liquid Electrolytes",
+      "url": "https://doi.org/10.1002/aenm.71582",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71582",
+      "authors": [
+        "Yingrui Liu",
+        "Shuang Liu",
+        "Sai Che",
+        "Chong Xu",
+        "Quan Xu",
+        "Yongfeng Li"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) are promising candidates for high‐energy‐density energy storage systems. However, their practical applications are severely hindered by interfacial instability and uncontrolled lithium deposition, which lead to dendrite growth, low Coulombic efficiency, and rapid capacity decay. In this review, we systematically analyze interfacial processes in LMBs with non‐aqueous liquid electrolytes from a process‐oriented perspective. We employ a six‐step kinetic framework involving ion transport, desolvation, interphase transport, charge transfer, nucleation, and morphological evolution. We first discuss the fundamental structure and dynamic evolution of electrode‐electrolyte interphases, followed by an overview of advanced characterization techniques across multiple length and time scales. Furthermore, recent strategies for regulating interfacial stability are critically summarized, including electrolyte additives, artificial protective layers, and solvation regulation designs. Instead of categorizing these strategies solely by materials, we emphasize their roles in regulating key kinetic steps and clarify the underlying mechanisms within the six‐step process. Finally, we highlight current challenges and future directions toward practical LMBs, including full‐cell and pouch‐cell validation, high energy density, cost reduction, and manufacturing compatibility. This work aims to provide a unified framework for understanding, characterizing, and regulating interfacial stability in lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "비수계 액체 전해질을 사용하는 리튬 금속 전지(LMB)의 계면 안정성을 이온 수송, 탈용매화, 계면 수송, 전하 이동, 핵생성, 형태 진화의 6단계 속도론적 프레임워크로 체계적으로 분석한 리뷰이다. 전극-전해질 계면의 구조 및 동적 진화, 첨단 분석 기법을 정리하고 전해질 첨가제, 인공 보호층, 용매화 조절 등 계면 안정화 전략을 핵심 속도론 단계별 역할 중심으로 재구성했다. 완전셀·파우치셀 검증, 고에너지밀도, 비용 절감 등 실용화를 위한 과제와 방향을 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213441924",
+      "source": "openalex",
+      "title": "Fluorinated Gel Polymer Electrolytes for Lithium Metal Batteries: From Passive Protection to Adaptive Interfacial Regulation",
+      "url": "https://doi.org/10.1002/adma.74955",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.74955",
+      "authors": [
+        "Min Wang",
+        "Yijing Liu",
+        "Mengjie Li",
+        "Yunshan Zheng",
+        "Cuiping Han",
+        "Baohua Li"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) are promising candidates for next‐generation high‐energy‐density energy storage. However, their practical application is hindered by dendritic lithium growth and unstable electrode–electrolyte interfaces. Fluorinated gel polymer electrolytes (FGPEs) have emerged as attractive electrolyte systems because they combine enhanced safety with liquid‐like interfacial contact. Through fluorine‐mediated regulation of Li + solvation and interfacial chemistry, FGPEs can improve the stability of lithium metal anodes. This review discusses the transition of FGPEs from passive interfacial protection to dynamic interfacial regulation. A unified framework for designing adaptive interfaces is proposed, emphasizing their ability to respond to electrochemical, mechanical, and ion‐transport variations during battery operation. Recent advances in weak intermolecular interactions, molecular interfacial engineering, and functional fillers are summarized with a focus on their roles in regulating solvation structures, interphase chemistry, and Li + transport. Furthermore, emerging insights from operando characterization, multiscale simulations, and multiphysics modeling are discussed to elucidate the dynamic evolution of the solid electrolyte interphase (SEI) and lithium deposition behavior. By linking molecular interactions with interfacial evolution and electrochemical performance, this review provides design principles for developing advanced FGPEs toward practical high‐energy‐density LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "불소화 젤 고분자 전해질(FGPE)이 수동적 계면 보호에서 적응형 계면 조절로 발전해온 과정을 다룬 리뷰이다. 불소 매개 Li+ 용매화 및 계면 화학 조절을 통해 리튬 금속 음극의 안정성을 향상시키는 FGPE의 설계 원리를 정리했으며, 약한 분자간 상호작용, 분자 수준 계면 공학, 기능성 충전제를 활용한 최신 연구 동향을 소개했다. 오퍼란도 분석과 다중스케일 시뮬레이션을 통한 SEI 및 리튬 증착 거동의 동적 진화 이해를 바탕으로 실용적 고에너지밀도 LMB 개발을 위한 설계 지침을 제공했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213424311",
+      "source": "openalex",
+      "title": "Engineering Li + Solvation and Anion Microenvironment via Dipole Modulation for Interface‐Stable High‐Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78454",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/adfm.78454",
+      "authors": [
+        "Shahid Ali",
+        "Gaoxue Jiang",
+        "Sun Mingji",
+        "Yong Jiang",
+        "Yimei Ouyang",
+        "Qiyao Zou"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Carbonate electrolytes underpin the success of current Li‐ion batteries but still remain challenging for high‐voltage Li||NCM811 batteries. Specifically, the carbonate electrolytes fail to stabilize the electrode/electrolyte interface and support high‐power output of Li||NCM811 batteries. Herein, we report an additive, methyl 2,2‐difluoro‐2(fluorosulfonyl)acetate (MDFA), to form weakly solvating electrolytes and weaken EC–PF 6 − interaction via dipole modulation, promoting stable CEI/SEI to restrain the interface degeneration of the NCM811 cathode and Li anode. MDFA also facilitates rich inorganic F‐ and S‐ species in CEI/SEI and boosts charge transfer at cathode/anode interfaces. Finally, this MDFA‐engineered electrolyte enables the Li||NCM811 (4.5 V) battery to achieve a capacity retention of 93% after 250 cycles, and a marked high‐rate performance even at an extreme rate of 20 C with a high capacity of 125 mAh g −1 after 100 cycles. This work provides a novel insight into overcoming interfacial challenges in carbonate‐based high specific power Li||NCM811 batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "메틸 2,2-디플루오로-2(플루오로설포닐)아세테이트(MDFA) 첨가제를 활용해 약하게 용매화하는 전해질을 형성하고 EC-PF6- 상호작용을 쌍극자 조절로 약화시켜 고전압 Li||NCM811 전지의 계면 안정성을 향상시켰다. MDFA는 무기 F계 및 S계 종이 풍부한 CEI/SEI 형성을 촉진하고 전극/전극 계면에서의 전하 이동을 촉진한다. 이 전해질을 적용한 Li||NCM811(4.5V) 전지는 250사이클 후 93%의 용량 유지율을 보였고, 20C의 극한 고율에서도 100사이클 후 125 mAh/g의 높은 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213453338",
+      "source": "openalex",
+      "title": "Electrolyte Design Resisting Anionic Redox‐Induced Oxygen Attacks for Robust Layered Sodium Cathodes",
+      "url": "https://doi.org/10.1002/adma.74979",
+      "published": "2026-09-16",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adma.74979",
+      "authors": [
+        "Honghe Yu",
+        "Junying Weng",
+        "Xunzhu Zhou",
+        "Shaozheng Tian",
+        "Xiaozhong Wu",
+        "Huanhuan Dong"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Anionic redox reactions (ARR) are an effective strategy to enhance the reversible capacity of layered oxide cathode materials, thereby enabling high‐energy‐density sodium‐ion batteries (SIBs). However, ARR generates highly reactive and unstable oxygen species that may trigger nucleophilic attacks and compromise cathode–electrolyte interface (CEI) stability, causing structural degradation and rapid capacity fading. In this study, we introduce dimethyl 2‐fluoromalonate (2MDF) as a multifunctional cosolvent into a conventional carbonate electrolyte to stabilize ARR in Na 0.67 Li 0.24 Mn 0.64 Mg 0.06 Ti 0.06 O 2 (NLMMT) cathode. 2MDF, characterized by its low coordination ability, preferential oxidation characteristics, and fluorinated ester groups, simultaneously modulates Na + solvation, promotes formation of a robust inorganic‐rich CEI, and suppresses nucleophilic attack by reactive oxygen species. Density functional theory calculations and electrochemical analyses reveal that 2MDF forms weaker interactions with reactive oxygen species than conventional carbonates, enabling superior interfacial stability and preferential sacrificial oxidation. Consequently, the NLMMT cathode exhibits a high reversible capacity of 255.3 mAh g −1 at 20 mA g −1 and outstanding cycling stability, retaining 72% capacity after 400 cycles at 400 mA g −1 in the voltage range of 1.5–4.5 V. This study establishes a rational electrolyte design strategy that balances oxidative stability and nucleophilic resistance, providing general guidance for achieving reversible ARR in high‐energy SIBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "층상 나트륨 산화물 양극 Na0.67Li0.24Mn0.64Mg0.06Ti0.06O2(NLMMT)에서 음이온 산화환원반응(ARR)으로 발생하는 반응성 산소종의 친핵성 공격을 억제하기 위해 디메틸 2-플루오로말로네이트(2MDF)를 다기능 공용매로 도입했다. 2MDF는 낮은 배위력과 우선 산화 특성, 불소화 에스터기를 통해 Na+ 용매화를 조절하고 무기물이 풍부한 견고한 CEI 형성을 촉진하며 밀도범함수이론 계산으로 반응성 산소종과의 약한 상호작용을 확인했다. 그 결과 NLMMT 양극은 20 mA/g에서 255.3 mAh/g의 높은 가역 용량과 400 mA/g에서 400사이클 후 72%의 용량 유지율을 달성했다.",
       "relevant": true
     },
     {
@@ -296,7 +708,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77648-0/MediaObjects/41467_2026_77648_Fig1_HTML.png",
+        "cached": "img/W7212629782.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77648-0"
+      },
       "summary_ko": "리튬 금속 전극의 고체 전해질 계면(SEI) 내 고체 부산물과 데드리튬 축적을 정량화하기 위해 가역적 형광 영상/적정법을 개발했다. 리튬 금속에 대한 고선택성 형광 프로브(디리튬 3-히드록시-2-나프토에이트)를 이용해 SEI 내 고체 부산물의 지속적 생성이 데드리튬 축적 및 전극 실패의 근본 원인임을 규명했다.",
       "relevant": true
     },
@@ -324,7 +741,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77727-2/MediaObjects/41467_2026_77727_Fig1_HTML.png",
+        "cached": "img/W7212908079.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77727-2"
+      },
       "summary_ko": "인간 OCTN1 수송체의 저온전자현미경(cryo-EM) 구조를 아포 및 에르고티오네인 결합 상태에서 규명하여 나트륨 의존적 기질 수송의 구조적 메커니즘을 밝혔다. 구조 기반 가상 스크리닝을 통해 메벤다졸 등 OCTN1을 표적으로 하는 후보 물질을 발굴했다.",
       "relevant": false
     },
@@ -352,7 +774,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77600-2/MediaObjects/41467_2026_77600_Fig1_HTML.png",
+        "cached": "img/W7213161074.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77600-2"
+      },
       "summary_ko": "배터리 없이 동작하는 무선 인체 센서 네트워크를 위한 이중모드 메타물질 섬유를 개발했다. 액체금속 섬유로 디지털 자수된 초광대역 전자기 경로를 통해 근접장 무선 전력전송과 블루투스 통신을 동시에 지원하며, 기존 대비 데이터 처리량을 37.8배 향상시키고 무선 전력전송 효율을 두 배로 높였다.",
       "relevant": false
     },
@@ -408,7 +835,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-77800-w/MediaObjects/41467_2026_77800_Fig1_HTML.png",
+        "cached": "img/W7212483581.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77800-w"
+      },
       "summary_ko": "학습이 해마 CA1 추체뉴런의 억제성 시냅스 재조직에 미치는 영향을 2주간 추적 관찰한 연구로, 수지상돌기 시냅스는 재조직되고 축삭초기분절 시냅스는 안정화됨을 규명했다. 공포조건화 학습이 서로 다른 아세포 구획의 억제성 시냅스에 구획별로 다른 영향을 미침을 수학적 모델링으로 확인했다.",
       "relevant": false
     },
@@ -502,8 +934,41 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77525-w/MediaObjects/41467_2026_77525_Fig1_HTML.png",
+        "cached": "img/W7212910523.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77525-w"
+      },
       "summary_ko": "뇌세포 및 신경교세포의 나노스케일 구조와 세포외 신호전달을 시뮬레이션하는 BRAINCELL 모델링 플랫폼을 개발했다. 수지상돌기 가시 등 복잡한 나노구조를 경험적 통계로 확률적으로 생성하고, 동적인 세포외 이온·신호분자 농도 변화를 반영해 뉴런-아교세포 상호작용을 사실적으로 모사한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213166272",
+      "source": "openalex",
+      "title": "Advanced interfacial characterization techniques for aqueous zinc-ion batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112405",
+      "published": "2026-09-14",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112405",
+      "authors": [
+        "Nuo Xu",
+        "Jing Wei",
+        "Leixin Yang",
+        "Qianyi Ma",
+        "Shuo Yang",
+        "Dan Luo"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-18",
+      "image": null,
+      "summary_ko": "수계 아연이온 전지의 계면을 분석하기 위한 첨단 계면 특성분석 기법들을 다루는 논문으로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
