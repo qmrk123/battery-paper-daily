@@ -115,7 +115,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78510",
+        "cached": "img/W7213348055.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78510"
+      },
       "summary_ko": "리튬 보충제 소재 Li6MnO4의 지나치게 높은 탈리튬화 전위 문제를 해결하기 위해 Co2+ 부분치환을 통한 사면체 배위장 왜곡 전략을 개발했다. 산화환원 활성 오비탈 에너지 준위를 높여 산소 전하보상을 촉진하고 Li-O 상호작용을 약화시킴으로써 저전압 리튬 추출을 구현했다. 최적화된 Li6Mn0.8Co0.2O4는 3.0-4.3V 구간에서 775.6 mAh/g의 유효 리튬보충 용량을 나타냈으며, NCM||Si/C 풀셀의 초기 가역용량을 16 mAh/g 높이고 장기 용량유지율을 19.4% 개선했다.",
       "relevant": true
     },
@@ -201,7 +207,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78497",
+        "cached": "img/W7213355196.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78497"
+      },
       "summary_ko": "Ni-rich NCM622의 저온 사이클 안정성을 높이기 위해 Li2O-B2O3-Li2SO4(LBLS) 3원계 이온전도성 코팅을 적용했다. 3-4nm 두께의 치밀한 비정질 보호막과 표면 근처 B3+ 구배 도핑을 통해 계면 부반응을 억제하고 Li+ 확산계수를 높였으며, DFT/AIMD 계산은 Li2SO4가 풍부한 상이 Li2O가 풍부한 상보다 Li+ 수송에 유리함을 보였다. NCM@LBLS는 -20°C, 0.2C, 500사이클 후 91.14 mAh/g(용량유지율 70.1%)을 나타내 미코팅 NCM622(48.0%) 대비 크게 개선되었다.",
       "relevant": true
     },
@@ -284,7 +296,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71583",
+        "cached": "img/W7213243464.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71583"
+      },
       "summary_ko": "무음극 리튬금속전지(AFLMB)에서 구리 집전체의 미세구조가 리튬 증착 거동을 좌우함을 규명했다. HLCu와 nmCu를 모델 계면으로 사용해 국소적 핵생성-선택적 성장(LS)과 분산 핵생성-경쟁적 응집(DCC)이라는 두 가지 상이한 리튬 증착 양상을 확인했으며, AFM·iSCAT·ToF-SIMS·오퍼란도 EIS-DRT 분석으로 핵생성 자리와 계면 반응속도론의 차이를 규명했다. DCC 모드는 치밀하고 연속적인 리튬층을 형성한 반면 LS 모드는 느슨하고 불균일한 증착과 강한 가스 발생을 유발해, 집전체의 물리적 구조가 무음극 전지 수명을 결정하는 핵심 요소임을 보였다.",
       "relevant": true
     }
