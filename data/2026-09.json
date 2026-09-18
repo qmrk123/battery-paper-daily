@@ -1,6 +1,6 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-17T23:29:08+00:00",
+  "generated_at": "2026-09-18T23:06:20+00:00",
   "count": 181,
   "papers": [
     {
@@ -335,7 +335,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77821-5/MediaObjects/41467_2026_77821_Fig1_HTML.png",
+        "cached": "img/W7213262009.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77821-5"
+      },
       "summary_ko": "스캐닝 X선 현미경의 긴 촬영 시간 문제를 해결하기 위해 희소·확률적 에너지 샘플링과 스펙트럼-단층촬영 결합 재구성 알고리즘을 개발해 데이터 요구량을 두 자릿수 줄였다. 이를 사이클된 리튬이온전지 입자에 적용해 표면 Co 산화상태 감소와 Mn 고갈의 3차원 상관관계를 규명했으며, 나노스케일 3D 화학 이미징에 폭넓게 활용 가능함을 보였다.",
       "relevant": false
     },
@@ -394,7 +399,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77622-w/MediaObjects/41467_2026_77622_Fig1_HTML.png",
+        "cached": "img/W7213363736.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77622-w"
+      },
       "summary_ko": "층상 산화물 소듐전지 양극의 O3-P3 상전이를 조율하여 입자 변형을 줄임으로써 안정적인 사이클링을 구현하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -603,7 +613,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76774-z/MediaObjects/41467_2026_76774_Fig1_HTML.png",
+        "cached": "img/W7213320440.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76774-z"
+      },
       "summary_ko": "배터리 방전 폐열로 MOF-303 흡착제를 재생시키고 동시에 흡착 과정이 배터리 온도를 낮추는 열적 공생 구조의 대기 중 물 생성 시스템을 제안했다. -12~-20A 방전 조건에서 46분 내 MOF 온도가 50°C를 넘어서며 배터리 최고온도를 약 10°C 낮췄고, 태양열 방식 대비 117% 향상된 1.39 g/g/day의 물 생산율을 달성했다.",
       "relevant": false
     },
@@ -695,7 +710,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-76501-8/MediaObjects/41467_2026_76501_Fig1_HTML.png",
+        "cached": "img/W7213338709.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-76501-8"
+      },
       "summary_ko": "음전하를 띤 실리카 표면에 대한 페리틴 단백질의 흡착 메커니즘을 규명하기 위해 켈빈프로브힘현미경(KPFM)으로 단백질의 쌍극자 모멘트를 직접 측정했다. 양의 쌍극자 값은 단백질의 음전하 말단이 표면을 향함을 나타내며, 완충용액 내 나트륨 양이온이 이 흡착 메커니즘에서 핵심적 역할을 함을 밝혔다.",
       "relevant": false
     },
@@ -720,7 +740,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77811-7/MediaObjects/41467_2026_77811_Fig1_HTML.png",
+        "cached": "img/W7213328023.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77811-7"
+      },
       "summary_ko": "정자 운동성과 남성 생식력에 중요한 인간 나트륨/수소 교환체 NHA1(SLC9B1)의 안쪽으로 열린 형태의 저온전자현미경 구조를 3.6Å 해상도로 규명했다. 구조 비교와 돌연변이 실험을 통해 엘리베이터형 수송 메커니즘과 이온 수송에 관여하는 핵심 잔기들을 확인했다.",
       "relevant": false
     },

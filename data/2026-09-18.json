@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "generated_at": "2026-09-17T23:29:08+00:00",
+  "generated_at": "2026-09-18T23:09:09+00:00",
   "count": 15,
   "papers": [
     {
@@ -55,7 +55,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77674-y/MediaObjects/41467_2026_77674_Fig1_HTML.png",
+        "cached": "img/W7125804378.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77674-y"
+      },
       "summary_ko": "중적외선(MIR) 대역에서 광대역 전기광학 변조와 주파수 콤 생성을 위해 서스펜디드 박막 리튬나이오베이트(TFLN) 플랫폼을 개발했다. 2.4~3.6 μm 대역에서 기록적으로 낮은 Vπ(2.3~4.3V)와 52 GHz의 3dB 대역폭을 달성했으며, 27~34 GHz 대역에서 고주파 변조 및 0.8 THz 광대역 주파수 콤 생성을 시연했다. 자유공간 광통신 링크에서도 플랫폼의 성능을 검증했다.",
       "relevant": false
     },
@@ -122,7 +127,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77667-x/MediaObjects/41467_2026_77667_Fig1_HTML.png",
+        "cached": "img/W7213462365.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77667-x"
+      },
       "summary_ko": "고에너지 리튬 금속 전지에서 Li+ 수송 속도론을 지배하는 요인으로 용매의 분극률(polarizability)을 규명했다. 분극률이 낮은 비활성 용매는 계면 전기장 하에서 유도 쌍극자가 약해 음이온이 풍부한 용매화 구조의 무결성을 유지하며, 이는 Li+ 홉핑과 음이온과의 정전기적 반발을 결합해 탈용매화 에너지와 선형 관계를 이루어 Li+ 속도론을 개선한다. 이렇게 설계된 전해질은 Li||NCM811 셀에서 -35°C의 저온에서도 200사이클 후 95%의 용량 유지율을 보였고, 7.5Ah급 리튬 금속 파우치셀에서 541.6 Wh/kg의 비에너지를 구현했다.",
       "relevant": true
     },
@@ -150,7 +160,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77825-1/MediaObjects/41467_2026_77825_Fig1_HTML.png",
+        "cached": "img/W7213440726.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77825-1"
+      },
       "summary_ko": "결핵균(Mtb) 바이오필름의 세포외 DNA(eDNA)에 풍부한 Z-DNA를 표적하는 나노입자 Nano-NucleOTAC(락토페린-클로로퀸-DNase 결합체)를 개발했다. 이 물질은 Z-DNA로의 전환과 효소 절단을 통해 바이오필름을 효과적으로 분해하고, 호중구 세포외 트랩 형성과 대식세포의 살균 작용을 강화했다. 마우스 폐 감염 모델과 임상 객담 시료에서 리팜피신 효능을 증대시키고 다양한 항산균 및 비결핵항산균에 대해 높은 효과를 보였다.",
       "relevant": false
     },
@@ -178,7 +193,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00957-9/MediaObjects/41578_2026_957_Fig1_HTML.png",
+        "cached": "img/W7213454767.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00957-9"
+      },
       "summary_ko": "차세대 스마트 배터리를 위한 소재 설계 및 통합 전략을 다루는 논문으로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -208,7 +228,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77650-6/MediaObjects/41467_2026_77650_Fig1_HTML.png",
+        "cached": "img/W7213446733.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77650-6"
+      },
       "summary_ko": "전자 비편재화를 활용해 고유전율 특성을 갖는 전해질을 설계하여 고체상 리튬 금속 전지에 적용하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -236,7 +261,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77791-8/MediaObjects/41467_2026_77791_Fig1_HTML.png",
+        "cached": "img/W7213224961.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77791-8"
+      },
       "summary_ko": "벼에서 E3 유비퀴틴 라이가아제 WLG가 DST를 유비퀴틴화·분해시켜 Prx24 발현을 억제하고 공변세포의 H2O2 축적을 늘려 기공 전도도와 증산율을 낮춤으로써 가뭄·염분·고온에 대한 복합 스트레스 내성을 향상시킨다는 것을 밝혔다. DST는 반대로 WLG 발현을 억제하여 음성 피드백 루프를 형성하며, WLGhap.B 대립유전자가 WLGhap.A보다 DST 분해를 더 강하게 촉진해 다중 스트레스 저항성 벼 품종 개발에 활용될 수 있음을 제시했다.",
       "relevant": false
     },
