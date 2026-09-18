@@ -85,7 +85,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.77849",
+        "cached": "img/W7213459272.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.77849"
+      },
       "summary_ko": "Keggin형 폴리옥소메탈레이트 Li4SiW12O40(SiWLi)를 양이온성 폴리이온성 액체(PIL) 전해질에 첨가제로 도입하여 Li+ 배위 환경을 조절했다. PIL 양이온과 SiW12O40 4- 음이온의 정전기적 상호작용으로 LiTFSI 해리가 촉진되고, 큰 입체장애 효과로 음이온 이동이 억제되어 0.82의 높은 Li+ 이동수를 달성했다. 음이온 유래 LiF가 풍부한 SEI가 형성되어 덴드라이트 없이 3000시간 이상 안정적인 Li||Li 셀 구동이 가능했으며, LFP 양극과 조합한 완전셀은 600사이클 후 99.5%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -260,7 +266,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77788",
+        "cached": "img/W7213449086.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77788"
+      },
       "summary_ko": "오퍼란도 ATR-FTIR 분광법을 이용해 가교된 생분해성 폴리카프로락톤(PCL) 고체 고분자 전해질과 리튬 금속 계면의 동적 변화를 리튬 도금/탈리 과정에서 관찰했다. 가교된 cl-PCL5LiTFSI 전해질은 비가교 PCL5LiTFSI 대비 향상된 기계적 강도로 더 안정적인 사이클 성능을 보였으며, 리튬 도금/탈리 동안 국부적으로 정렬된 PCL 도메인 형성과 TFSI- 음이온의 재분배가 관찰되었다. 침투 깊이별 밴드비 매핑을 통해 SPE|Li 계면의 열화 및 동적 변화 과정을 시각화했다.",
       "relevant": true
     },
@@ -290,7 +302,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78389",
+        "cached": "img/W7213423183.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78389"
+      },
       "summary_ko": "리튬 금속 음극(LMA)의 핵생성 화학, 계면 공학, 구조 설계에 관한 리뷰 논문이다. Li 핵생성·성장의 열역학·속도론적 원리를 정리하고, Li+ 플럭스를 조절하여 균일한 증착을 유도하고 덴드라이트를 억제하는 계면 공학 및 호스트 구조 설계 전략을 논의했다. 첨단 분석 기법과 다중스케일 시뮬레이션, 실용화를 위한 완전셀 평가·확장 가능한 제조·데이터 기반 연구 방향도 함께 제시했다.",
       "relevant": true
     },
@@ -320,7 +338,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71582",
+        "cached": "img/W7213472940.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71582"
+      },
       "summary_ko": "비수계 액체 전해질을 사용하는 리튬 금속 전지(LMB)의 계면 안정성을 이온 수송, 탈용매화, 계면 수송, 전하 이동, 핵생성, 형태 진화의 6단계 속도론적 프레임워크로 체계적으로 분석한 리뷰이다. 전극-전해질 계면의 구조 및 동적 진화, 첨단 분석 기법을 정리하고 전해질 첨가제, 인공 보호층, 용매화 조절 등 계면 안정화 전략을 핵심 속도론 단계별 역할 중심으로 재구성했다. 완전셀·파우치셀 검증, 고에너지밀도, 비용 절감 등 실용화를 위한 과제와 방향을 제시했다.",
       "relevant": true
     },
@@ -350,7 +374,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74955",
+        "cached": "img/W7213441924.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74955"
+      },
       "summary_ko": "불소화 젤 고분자 전해질(FGPE)이 수동적 계면 보호에서 적응형 계면 조절로 발전해온 과정을 다룬 리뷰이다. 불소 매개 Li+ 용매화 및 계면 화학 조절을 통해 리튬 금속 음극의 안정성을 향상시키는 FGPE의 설계 원리를 정리했으며, 약한 분자간 상호작용, 분자 수준 계면 공학, 기능성 충전제를 활용한 최신 연구 동향을 소개했다. 오퍼란도 분석과 다중스케일 시뮬레이션을 통한 SEI 및 리튬 증착 거동의 동적 진화 이해를 바탕으로 실용적 고에너지밀도 LMB 개발을 위한 설계 지침을 제공했다.",
       "relevant": true
     },
@@ -381,7 +411,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78454",
+        "cached": "img/W7213424311.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78454"
+      },
       "summary_ko": "메틸 2,2-디플루오로-2(플루오로설포닐)아세테이트(MDFA) 첨가제를 활용해 약하게 용매화하는 전해질을 형성하고 EC-PF6- 상호작용을 쌍극자 조절로 약화시켜 고전압 Li||NCM811 전지의 계면 안정성을 향상시켰다. MDFA는 무기 F계 및 S계 종이 풍부한 CEI/SEI 형성을 촉진하고 전극/전극 계면에서의 전하 이동을 촉진한다. 이 전해질을 적용한 Li||NCM811(4.5V) 전지는 250사이클 후 93%의 용량 유지율을 보였고, 20C의 극한 고율에서도 100사이클 후 125 mAh/g의 높은 용량을 유지했다.",
       "relevant": true
     },
@@ -411,7 +447,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.74979",
+        "cached": "img/W7213453338.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.74979"
+      },
       "summary_ko": "층상 나트륨 산화물 양극 Na0.67Li0.24Mn0.64Mg0.06Ti0.06O2(NLMMT)에서 음이온 산화환원반응(ARR)으로 발생하는 반응성 산소종의 친핵성 공격을 억제하기 위해 디메틸 2-플루오로말로네이트(2MDF)를 다기능 공용매로 도입했다. 2MDF는 낮은 배위력과 우선 산화 특성, 불소화 에스터기를 통해 Na+ 용매화를 조절하고 무기물이 풍부한 견고한 CEI 형성을 촉진하며 밀도범함수이론 계산으로 반응성 산소종과의 약한 상호작용을 확인했다. 그 결과 NLMMT 양극은 20 mA/g에서 255.3 mAh/g의 높은 가역 용량과 400 mA/g에서 400사이클 후 72%의 용량 유지율을 달성했다.",
       "relevant": true
     },
