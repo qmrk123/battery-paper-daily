@@ -1,8 +1,122 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-18T23:06:20+00:00",
-  "count": 181,
+  "generated_at": "2026-09-19T22:44:46+00:00",
+  "count": 186,
   "papers": [
+    {
+      "id": "W7213537735",
+      "source": "openalex",
+      "title": "Ociperlimab and tislelizumab in advanced esophageal squamous cell carcinoma (AdvanTIG-203): a phase II study",
+      "url": "https://doi.org/10.1038/s41467-026-77705-8",
+      "published": "2026-09-18",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77705-8",
+      "authors": [
+        "Feng Wang",
+        "Chen-Yuan Lin",
+        "Jong-Mu Sun",
+        "Chang-Hsien Lu",
+        "Xueqiang Zhu",
+        "Zhendong Chen"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Patients with esophageal squamous cell carcinoma (ESCC) have an unmet need for new therapies that improve survival. In this phase II trial, patients received ociperlimab and tislelizumab (A) or placebo and tislelizumab (B) (NCT04732494). The primary endpoint was objective response rate (ORR) assessed by the investigator per RECIST v1.1. A total of 125 patients were randomized to A (N = 62) and B (N = 63). The primary endpoint was not met, with an ORR (95% confidence interval [CI]) assessed by the investigator of 30.6% (19.6–43.7) for A and 20.6% (11.5–32.7) for B (stratified risk difference: 9.9% [95% CI − 5.4 to 25.3]; stratified 2-sided p = 0.2114). At the final analysis, median OS (95% CI) was 10.2 (7.9–19.5) months for A and 9.3 (6.4–14.8) months for B (stratified HR [95% CI]: 0.92 [0.58–1.45]). A total of 25.8% (16/62) and 20.6% (13/63) of patients in A and B, respectively, experienced grade ≥3 treatment-related treatment-emergent adverse events. Exploratory biomarker analyses showed that patients with an inflamed tumor microenvironment, shown by the enriched expression of natural killer (NK) cells, T cells, macrophages, dendritic cells, and B-cell signatures, and NK cell signature enrichment, may benefit from ociperlimab plus tislelizumab. Adding ociperlimab to tislelizumab did not provide significant efficacy improvement in recurrent/metastatic second-line ESCC; the addition of ociperlimab to tislelizumab was generally well-tolerated. Trial registration: Clinicaltrials.gov: NCT04732494. PD-1/PD-L1 inhibitors improving survival outcomes in Esophageal Squamous Cell Carcinoma (ESCC) but the survival rates of some subsets ESCC population are still poor. Here this group reports a phase 2 randomized trial evaluating the efficacy and safety of ociperlimab and tislelizumab in patients with PD-L1 TAP ≥ 10%, unresectable, locally advanced, recurrent or metastatic ESCC.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77705-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-20",
+      "image": null,
+      "summary_ko": "식도편평세포암(ESCC) 환자를 대상으로 오시펄리맙+티슬렐리주맙 병용요법(A군)과 위약+티슬렐리주맙(B군)을 비교한 2상 임상시험이다. 1차 평가변수인 객관적반응률(ORR)에서 유의한 차이를 보이지 못했으며(30.6% vs 20.6%), 전체생존기간도 유사했다(10.2개월 vs 9.3개월). 탐색적 분석에서는 종양미세환경이 염증성인 환자에서 병용요법의 이점이 있을 가능성이 시사되었다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213536895",
+      "source": "openalex",
+      "title": "Distinct migratory dendritic cell subsets cooperate to prime tissue-resident memory-like CD8⁺ T cells in mouse tumors",
+      "url": "https://doi.org/10.1038/s41467-026-77641-7",
+      "published": "2026-09-18",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77641-7",
+      "authors": [
+        "Nathan Vaudiau",
+        "Pierre Bourdely",
+        "Maria Semitekolou",
+        "Agathe Ok",
+        "Louise Gorline",
+        "Amady Coulibaly"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Tumor-infiltrating tissue-resident memory (TRM)-like CD8+ T cells correlate with positive prognosis and better responses to cancer immunotherapy, yet the mechanisms underlying their specification remain ill-understood. Here, we use the KP (KrasG12D, p53-/-) mouse model of lung adenocarcinoma to investigate how different dendritic cell (DC) subsets shape tumor-specific CD8+ T cell responses. Selective ablation of XCR1+ DC1s or IRF4-dependent CD11b+ DC2s reveal that DC1s, but not DC2s, are required for the generation of tumor-infiltrating effector and exhausted CD8+ T cells. By contrast, both migratory DC1s and migratory DC2s contribute to the specification of CD103+CD69+ TRM-like CD8+ T cells in tumor-draining lymph nodes. Mechanistically, low peptide/MHC-I density on migratory DC2s favors TGFβ-dependent TRM differentiation, while high peptide/MHC-I density on DC1s promote proliferative expansion of TRM-like cells; in addition, IL-12 secreted by DC1s enhances CXCR6 expression. Together, our findings uncover complementary functions of migratory DC subsets in shaping anti-tumor TRM-like CD8+ T cell responses, and also implicate targeting multiple DC subsets for optimizing cancer immunotherapy. Tissue-resident memory (TRM) CD8+ T cells in the tumor microenvironment are relevant for anti-tumor immunity and immune checkpoint blockade response. Here, the authors conditionally ablate type 1 and type 2 dendritic cells in a lung cancer mouse model, finding both to be critical for the differentiation and expansion of TRM-like T cells.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77641-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-20",
+      "image": null,
+      "summary_ko": "폐선암 마우스 모델을 이용해 이동성 수지상세포(DC1, DC2) 아형이 종양 특이적 CD8+ T세포 반응에 미치는 역할을 분석했다. DC1은 종양 내 이펙터/소진 CD8+ T세포 생성에 필수적인 반면, DC1과 DC2 모두 종양 배출림프절에서 조직상주기억(TRM)-유사 CD8+ T세포 분화에 기여했다. DC2의 낮은 펩타이드/MHC-I 밀도는 TGFβ 의존적 TRM 분화를, DC1의 높은 밀도와 IL-12 분비는 TRM 세포 증식과 CXCR6 발현을 촉진하는 것으로 나타났다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213557644",
+      "source": "openalex",
+      "title": "Coupled Evolution of Charged-State Stacking and Redox Partitioning in O3-Type Sodium Cathodes",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02124",
+      "published": "2026-09-18",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1021/acsenergylett.6c02124",
+      "authors": [
+        "Seungmin Lee",
+        "Jing Wang",
+        "Kangxuan Xia",
+        "Jihyeon Gim",
+        "Tongchao Liu",
+        "Eungje Lee"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Elevated-voltage operation in layered Na-ion cathodes often increases capacity but accelerates degradation, yet the structural origin of this trade-off remains unclear. Here, we investigate the coupled evolution of charged-state structure and redox partitioning in O3-type NaNi1/3Fe1/3Mn1/3O2. Charging to 4.2 V delivers greater capacity but promotes O/P intergrowth with deeply desodiated O-type slabs and accelerates capacity decay, whereas a 4.0 V cutoff stabilizes a reversible P3 framework. Synchrotron X-ray diffraction, transition-metal X-ray absorption spectroscopy, Na K-edge spectroscopy, and electrochemical impedance spectroscopy combined with distribution of relaxation times analysis (EIS-DRT) reveal distinct charge-compensation pathways associated with these structures. The P3 framework is associated with a progressive decrease in the Ni contribution and a comparatively more reversible local Fe environment. In contrast, stacking evolution at 4.2 V is associated with sustained Ni-dominant redox, greater Fe local-environment reconstruction, and persistent kinetic limitations. These results identify the charged-state stacking as a key structural descriptor linking redox partitioning and Na-ion transport kinetics.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-09-20",
+      "image": null,
+      "summary_ko": "O3형 층상 Na이온 양극재 NaNi1/3Fe1/3Mn1/3O2에서 충전 전압에 따른 적층 구조 변화와 산화환원 분배의 상관관계를 규명했다. 4.2V 충전 시 용량은 늘지만 O/P 혼합 적층과 깊은 탈소듐화 O형 슬랩이 형성되어 열화가 가속되는 반면, 4.0V 컷오프에서는 가역적인 P3 구조가 안정적으로 유지된다. 방사광 XRD, XAS, Na K-edge 분광 및 EIS-DRT 분석으로 P3 구조에서는 Fe가 더 가역적으로 거동하고, 4.2V 적층 변화는 Ni 중심의 지속적 산화환원 및 동역학적 제한과 연관됨을 확인했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213546944",
+      "source": "openalex",
+      "title": "ConvexGating infers gating strategies from clusters in single cell cytometry data",
+      "url": "https://doi.org/10.1038/s41467-026-77360-z",
+      "published": "2026-09-18",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77360-z",
+      "authors": [
+        "Vincent D. Friedrich",
+        "Karola Mai",
+        "Thomas P. Hofer",
+        "Elfriede Nößner",
+        "Lorenzo Bonaguro",
+        "Celia Hartmann"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Manual expert gating remains common practice for defining specific cell populations in flow cytometry data, but increasing numbers of measured parameters and high inter-rater variability limit consistency across studies. Cluster-based approaches use the full marker space to define cell populations more consistently, but their outputs cannot be directly implemented on a cell sorter. Here we develop ConvexGating, an artificial intelligence tool to address this gap by automatically learning interpretable gating strategies for sorting in an unbiased, data-driven manner, generating low-contamination strategies for both known and previously unknown cell populations, including plasmacytoid dendritic cells identified solely as CD57-CD13-CD45RA+ CD123+ cells. We show that ConvexGating derives sorting strategies for CD8+ subtypes and adipose progenitor cell populations, which we validate experimentally by single-cell sequencing of sorted cells. We also demonstrate that the method transfers effectively to Cytometry by Time of Flight and Cellular Indexing of Transcriptomes and Epitopes by Sequencing data and improves marker panel design for cell sorting.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77360-z",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-20",
+      "image": null,
+      "summary_ko": "유세포분석 데이터에서 클러스터 기반으로 게이팅 전략을 자동 추론하는 AI 도구 ConvexGating을 개발했다. 기존 클러스터 기반 방법과 달리 세포 분류기에서 직접 구현 가능한 해석 가능한 게이팅 전략을 생성하며, 알려지지 않은 세포집단까지 낮은 오염도로 식별한다. CD8+ 아형 및 지방 전구세포 분류에 대해 단일세포 시퀀싱으로 검증했고 CyTOF, CITE-seq 데이터에도 적용 가능함을 보였다.",
+      "relevant": false
+    },
     {
       "id": "W7213456080",
       "source": "openalex",
@@ -55,7 +169,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77674-y/MediaObjects/41467_2026_77674_Fig1_HTML.png",
+        "cached": "img/W7125804378.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77674-y"
+      },
       "summary_ko": "중적외선(MIR) 대역에서 광대역 전기광학 변조와 주파수 콤 생성을 위해 서스펜디드 박막 리튬나이오베이트(TFLN) 플랫폼을 개발했다. 2.4~3.6 μm 대역에서 기록적으로 낮은 Vπ(2.3~4.3V)와 52 GHz의 3dB 대역폭을 달성했으며, 27~34 GHz 대역에서 고주파 변조 및 0.8 THz 광대역 주파수 콤 생성을 시연했다. 자유공간 광통신 링크에서도 플랫폼의 성능을 검증했다.",
       "relevant": false
     },
@@ -122,7 +241,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77667-x/MediaObjects/41467_2026_77667_Fig1_HTML.png",
+        "cached": "img/W7213462365.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77667-x"
+      },
       "summary_ko": "고에너지 리튬 금속 전지에서 Li+ 수송 속도론을 지배하는 요인으로 용매의 분극률(polarizability)을 규명했다. 분극률이 낮은 비활성 용매는 계면 전기장 하에서 유도 쌍극자가 약해 음이온이 풍부한 용매화 구조의 무결성을 유지하며, 이는 Li+ 홉핑과 음이온과의 정전기적 반발을 결합해 탈용매화 에너지와 선형 관계를 이루어 Li+ 속도론을 개선한다. 이렇게 설계된 전해질은 Li||NCM811 셀에서 -35°C의 저온에서도 200사이클 후 95%의 용량 유지율을 보였고, 7.5Ah급 리튬 금속 파우치셀에서 541.6 Wh/kg의 비에너지를 구현했다.",
       "relevant": true
     },
@@ -150,7 +274,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77825-1/MediaObjects/41467_2026_77825_Fig1_HTML.png",
+        "cached": "img/W7213440726.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77825-1"
+      },
       "summary_ko": "결핵균(Mtb) 바이오필름의 세포외 DNA(eDNA)에 풍부한 Z-DNA를 표적하는 나노입자 Nano-NucleOTAC(락토페린-클로로퀸-DNase 결합체)를 개발했다. 이 물질은 Z-DNA로의 전환과 효소 절단을 통해 바이오필름을 효과적으로 분해하고, 호중구 세포외 트랩 형성과 대식세포의 살균 작용을 강화했다. 마우스 폐 감염 모델과 임상 객담 시료에서 리팜피신 효능을 증대시키고 다양한 항산균 및 비결핵항산균에 대해 높은 효과를 보였다.",
       "relevant": false
     },
@@ -178,7 +307,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00957-9/MediaObjects/41578_2026_957_Fig1_HTML.png",
+        "cached": "img/W7213454767.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00957-9"
+      },
       "summary_ko": "차세대 스마트 배터리를 위한 소재 설계 및 통합 전략을 다루는 논문으로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -208,7 +342,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77650-6/MediaObjects/41467_2026_77650_Fig1_HTML.png",
+        "cached": "img/W7213446733.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77650-6"
+      },
       "summary_ko": "전자 비편재화를 활용해 고유전율 특성을 갖는 전해질을 설계하여 고체상 리튬 금속 전지에 적용하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -236,7 +375,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77791-8/MediaObjects/41467_2026_77791_Fig1_HTML.png",
+        "cached": "img/W7213224961.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77791-8"
+      },
       "summary_ko": "벼에서 E3 유비퀴틴 라이가아제 WLG가 DST를 유비퀴틴화·분해시켜 Prx24 발현을 억제하고 공변세포의 H2O2 축적을 늘려 기공 전도도와 증산율을 낮춤으로써 가뭄·염분·고온에 대한 복합 스트레스 내성을 향상시킨다는 것을 밝혔다. DST는 반대로 WLG 발현을 억제하여 음성 피드백 루프를 형성하며, WLGhap.B 대립유전자가 WLGhap.A보다 DST 분해를 더 강하게 촉진해 다중 스트레스 저항성 벼 품종 개발에 활용될 수 있음을 제시했다.",
       "relevant": false
     },
@@ -649,6 +793,36 @@
       "image": null,
       "summary_ko": "나트륨이온전지 하드카본 음극의 계면 불안정성을 해결하기 위해 비닐트리메틸실란(VTMS)을 다기능 전해질 첨가제로 도입했다. VTMS는 HF를 포집하고 용매 배위구조를 교란해 Na+ 탈용매화 장벽을 낮추며 규소가 풍부한 견고한 계면 피막을 형성한다. HC∥NFM 풀셀은 -20°C에서 200사이클 후 70.7 mAh/g을 유지했고, 상온 파우치셀은 200사이클 후 73.4%의 용량유지율과 175 Wh/kg의 에너지밀도를 나타냈다.",
       "relevant": false
+    },
+    {
+      "id": "W7213243584",
+      "source": "openalex",
+      "title": "Rational construction of a dissolution-resistant SEI via competitive reduction mechanism for stable sodium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105535",
+      "published": "2026-09-15",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105535",
+      "authors": [
+        "Dengji Xiao",
+        "Dedong Shan",
+        "Houfu Tu",
+        "Pin Yi",
+        "Yu Chen",
+        "Benwei Lou"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-20",
+      "image": null,
+      "summary_ko": "경쟁적 환원 메커니즘을 통해 용해 저항성 SEI를 구축하여 안정적인 소듐 금속전지를 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7213355196",
