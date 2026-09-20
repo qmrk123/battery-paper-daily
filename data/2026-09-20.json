@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "generated_at": "2026-09-19T22:44:46+00:00",
+  "generated_at": "2026-09-20T23:06:45+00:00",
   "count": 5,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77705-8/MediaObjects/41467_2026_77705_Fig1_HTML.png",
+        "cached": "img/W7213537735.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77705-8"
+      },
       "summary_ko": "식도편평세포암(ESCC) 환자를 대상으로 오시펄리맙+티슬렐리주맙 병용요법(A군)과 위약+티슬렐리주맙(B군)을 비교한 2상 임상시험이다. 1차 평가변수인 객관적반응률(ORR)에서 유의한 차이를 보이지 못했으며(30.6% vs 20.6%), 전체생존기간도 유사했다(10.2개월 vs 9.3개월). 탐색적 분석에서는 종양미세환경이 염증성인 환자에서 병용요법의 이점이 있을 가능성이 시사되었다.",
       "relevant": false
     },
@@ -55,7 +60,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77641-7/MediaObjects/41467_2026_77641_Fig1_HTML.png",
+        "cached": "img/W7213536895.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77641-7"
+      },
       "summary_ko": "폐선암 마우스 모델을 이용해 이동성 수지상세포(DC1, DC2) 아형이 종양 특이적 CD8+ T세포 반응에 미치는 역할을 분석했다. DC1은 종양 내 이펙터/소진 CD8+ T세포 생성에 필수적인 반면, DC1과 DC2 모두 종양 배출림프절에서 조직상주기억(TRM)-유사 CD8+ T세포 분화에 기여했다. DC2의 낮은 펩타이드/MHC-I 밀도는 TGFβ 의존적 TRM 분화를, DC1의 높은 밀도와 IL-12 분비는 TRM 세포 증식과 CXCR6 발현을 촉진하는 것으로 나타났다.",
       "relevant": false
     },
@@ -113,7 +123,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-77360-z/MediaObjects/41467_2026_77360_Fig1_HTML.png",
+        "cached": "img/W7213546944.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77360-z"
+      },
       "summary_ko": "유세포분석 데이터에서 클러스터 기반으로 게이팅 전략을 자동 추론하는 AI 도구 ConvexGating을 개발했다. 기존 클러스터 기반 방법과 달리 세포 분류기에서 직접 구현 가능한 해석 가능한 게이팅 전략을 생성하며, 알려지지 않은 세포집단까지 낮은 오염도로 식별한다. CD8+ 아형 및 지방 전구세포 분류에 대해 단일세포 시퀀싱으로 검증했고 CyTOF, CITE-seq 데이터에도 적용 가능함을 보였다.",
       "relevant": false
     },
