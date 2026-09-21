@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-20T23:05:11+00:00",
+  "generated_at": "2026-09-21T23:55:34+00:00",
   "count": 5,
   "papers": [
     {
@@ -57,7 +57,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-21",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77864-8/MediaObjects/41467_2026_77864_Fig1_HTML.png",
+        "cached": "img/W7139966411.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77864-8"
+      },
       "summary_ko": "박막 리튬나이오베이트 플랫폼에서 광학 링 공진기와 집적형 음향-광학 빔 조향 기술을 결합해 공진 강화 빔 조향을 구현한 연구이다. 제안된 소자는 최대 26%의 빔 조향 효율과 18도의 시야각을 달성했으며, 전기광학 제어로 링 공진기 공진을 처핑된 레이저 주파수에 동기화해 주파수 변조 연속파(FMCW) 라이다 동작을 시연했다. 압전 및 전기광학 특성을 결합한 소형·고효율 다기능 빔 조향 플랫폼을 제시한다.",
       "relevant": false
     },

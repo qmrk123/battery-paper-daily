@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-21T23:54:17+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "W7213296580",
+      "source": "openalex",
+      "title": "A high dielectric and corrosion-resistant layer to alleviate inactive lithium in lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105530",
+      "published": "2026-09-15",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105530",
+      "authors": [
+        "Ouwei Sheng",
+        "Mutian Yang",
+        "Xiang Li",
+        "Zhenqian Zhang",
+        "Yuqiao He",
+        "Tao Yang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-22",
+      "image": null,
+      "summary_ko": "리튬 금속 전지에서 비활성 리튬(inactive lithium) 형성을 완화하기 위해 높은 유전율과 부식 저항성을 갖는 계면 보호층을 제안한 연구이다. 이 층은 리튬 금속 표면을 안정화하여 부반응과 리튬 손실을 억제하는 것을 목표로 한다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}
