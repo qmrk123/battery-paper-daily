@@ -1315,6 +1315,10 @@
   "metric": 9.44,
   "name": "Energy Materials"
  },
+ "S4210213087": {
+  "metric": 9.65,
+  "name": "ACS Materials Letters"
+ },
  "S4210213184": {
   "metric": 0.05,
   "name": "Journal of the Institute of Electronics and Information Engineers"
@@ -2234,6 +2238,10 @@
  "S7407054031": {
   "metric": 0.01,
   "name": "International Journal of Advanced Engineering and Technology Research"
+ },
+ "S7407055479": {
+  "metric": 0.01,
+  "name": "International Journal of Creative and Open Research in Engineering and Management"
  },
  "S7407055934": {
   "metric": 0.8,
