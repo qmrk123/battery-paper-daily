@@ -85,7 +85,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2561729",
+        "cached": "img/W7213979963.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2561729"
+      },
       "summary_ko": "고전압 리튬 금속전지를 위한 알콕시에틸 아세테이트 전해질 연구. 카르보닐기와 트리플루오로메틸기를 글라이콜에터 골격에 도입한 불소화 용매 TFE-EA를 설계하여 카르보닐 중심 용매화를 유도하고 에터 산소의 반응성을 낮췄다. 이 전해질은 산화 안정성과 리튬 도금/탈리 효율을 개선하여 4.5V까지 구동되는 Li||NMC811 셀에서 우수한 용량 유지율과 쿨롱효율을 보였다.",
       "relevant": true
     },
@@ -197,7 +203,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78403",
+        "cached": "img/W7213932771.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78403"
+      },
       "summary_ko": "펄스전류 증착(PCD)으로 균일한 리튬 도금과 무기물이 풍부한 그래디언트 SEI를 형성한 연구. 펄스전류가 미세하고 균일한 결정핵 생성을 유도해 집전체를 매끄럽게 덮고, 극성 분자의 계층적 분포로 무기물 우세의 얇은 SEI를 형성해 이온전달 속도를 높였다. 기존 정전류 증착 대비 대칭셀에서 2800시간의 수명과 LFP 완전셀에서 500사이클 후 80.14%의 용량 유지율을 달성했으며 공정 시간은 89.8% 단축됐다.",
       "relevant": true
     },
@@ -224,7 +236,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71612",
+        "cached": "img/W7213967399.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71612"
+      },
       "summary_ko": "황화물 기반 전고체 리튬 금속전지의 계면 안정화를 위한 인터레이어 소재를 물성 기반으로 분류·해석한 관점 논문. 금속, 고분자, 세라믹, 복합체 계열 인터레이어를 강성, 연성, 파괴인성, 전자전도도, 전기화학적/화학적 안정성, 리튬친화성, 이온전달 등 전기화학-기계적 관점에서 재해석했다. 이를 통해 리튬/황화물 계면 안정화를 위한 소재 설계 프레임워크를 제시한다.",
       "relevant": true
     },
@@ -254,7 +272,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75070",
+        "cached": "img/W7213929210.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75070"
+      },
       "summary_ko": "니켈리치 층상 양극과 황화물 고체전해질 계면에서 전자상태 연속성을 확보해 계면 안정성과 리튬 이동 속도를 동시에 개선한 연구. 단결정 LiNi0.94Co0.04Mn0.02O2에 Y, Zr, Nb, Mo를 공동 도핑하여 LiNbO3/Li2MoO4 외부 부동태층과 Y/Zr 농화 암염 내부층으로 이루어진 자기조립 이종계면을 형성했다. 4d 오비탈 기반 전자상태의 연속적 분포가 계면 리튬 이동을 가속하여 0.1C에서 204.4 mAh g-1, 0.5C 1000사이클 후 86.7%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -284,7 +308,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5600863",
+        "cached": "img/W7213890479.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5600863"
+      },
       "summary_ko": "표면 결합 분자 통합(SMI) 전략으로 4.5V 이상 고전압 LiCoO2 양극의 내구성을 확보한 연구. 모노리튬화 크레아티놀 인산염(CPLi)을 코발트 배위불포화 자리에 인산 산소와 구아니딘 질소를 통해 결합시켜 Co-O-P 및 Co-N 결합의 조밀한 계면을 형성했다. Li||LCO-CPLi 셀은 4.6V, 2C에서 1000사이클 후 84.5%의 용량을 유지했으며 2800사이클(2C) 및 2500사이클(10C) 후에도 약 100 mAh g-1을 유지했다.",
       "relevant": true
     },
@@ -314,7 +344,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71568",
+        "cached": "img/W7213953547.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71568"
+      },
       "summary_ko": "리튬 과잉 망간계 산화물(LRMO)의 표면 산소 안정화를 위해 Li-P-F-O 결합 위상을 도입한 전고체 리튬전지 연구. DFT 스크리닝으로 인산염 작용기가 표면 산소 안정화에 가장 효과적임을 확인하고, LRMO와 LiPO2F2의 원스텝 기계화학 반응으로 P-O, P-F, Li-F 결합을 포함한 비정질 계면을 형성했다. 이를 통해 산소 손실과 전해질 산화, 계면 저항 증가를 억제하여 25°C에서 248.5 mAh g-1, 10C 2000사이클 후 85%의 용량 유지율을 달성했으며 고부하 리튬금속 파우치셀은 277 Wh kg-1의 비에너지를 나타냈다.",
       "relevant": true
     },
@@ -344,7 +380,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71584",
+        "cached": "img/W7213899084.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71584"
+      },
       "summary_ko": "화학결합 계면을 이용해 근진공 조건에서도 작동 가능한 리튬 금속전지를 구현한 연구. 폴리(ε-카프로락톤) 세그먼트의 카르보닐기와 리튬 금속 간 Li-O 결합 계면을 형성하여 외부 적층 압력 없이도 전극-전해질 밀착 접촉을 유지했다. 이 PPE 전해질은 높은 접착에너지와 전기이중층 정전용량 증가로 우수한 리튬 이동수(0.7)와 99.78%의 쿨롱효율을 달성했으며, NCM 양극 파우치셀은 -0.1MPa 조건에서 40사이클 후 90.12%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -374,7 +416,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78560",
+        "cached": "img/W7213866412.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78560"
+      },
       "summary_ko": "Al3+/Ta5+ 공동 도핑을 통해 니켈리치 층상 양극의 균일한 Li+ 전달을 구현한 연구. LiNi0.94Ta0.01Al0.05O2를 형성하여 결정립을 미세화하고 Li/Ni 양이온 혼합을 억제함으로써 고전압 상전이를 완화하고 리튬 삽입/탈리를 용이하게 했다. 이를 통해 니켈 원자가와 Ni-O 배위환경을 유지하고 결정립계 무결성을 보존하여 니켈리치 양극의 수명 및 율속 성능을 향상시켰다.",
       "relevant": true
     },
@@ -2675,7 +2723,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.3609669",
+        "cached": "img/W7212019024.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.3609669"
+      },
       "summary_ko": "시아노기 배위를 통한 용매화 구조 재구성으로 4.5V급 고체상 리튬 금속전지의 계면을 안정화한 연구. 에터 산소 고분자 대신 시아노아크릴레이트 접착제 함량을 정밀 조절하여 Li+-C≡N 배위로 1차 용매화 셸을 재구성해 낮은 이동장벽의 홉핑 자리를 제공하고 산화 안정성을 높였다. 또한 TMδ+-N≡C 배위 고정을 통해 전이금속 용출을 억제하여 Li//NCM811 셀이 4.3V·3C에서 500사이클 후 88.2%, 4.5V·1C에서 350사이클 후 80.1%의 용량을 유지했다.",
       "relevant": true
     },
@@ -2733,7 +2787,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-09-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.5855662",
+        "cached": "img/W7212085449.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.5855662"
+      },
       "summary_ko": "백본 매개 배위환경 재구성을 통해 고전압 리튬 금속전지용 겔 고분자 전해질을 개발한 연구. 디글리시딜 1,2-사이클로헥산디카르복실레이트(DCD)를 1,3-디옥솔레인(DOL)과 공중합하여 에스터 카르보닐기와 공간적으로 제한된 에터 산소 자리로 백본-Li+ 배위를 약화시키고 음이온/용매의 용매화 참여를 촉진했다. P(DCD-DOL) 전해질은 0.64의 높은 리튬 이동수와 5.20V의 산화안정성 창을 나타냈으며 Li||NCM811 셀은 4.3V에서 500사이클 후 84.21%, 0.9Ah 파우치셀은 305 Wh kg-1의 에너지밀도와 180사이클 후 82.33%의 용량 유지율을 보였다.",
       "relevant": true
     },
