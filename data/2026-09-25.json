@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-24T23:48:47+00:00",
+  "count": 4,
+  "papers": [
+    {
+      "id": "W7214122921",
+      "source": "openalex",
+      "title": "Unlocking High‐Voltage and Low‐Temperature Capability in Lithium Metal Batteries via Coupling Bulk Solvation Tailoring with Interfacial Electrostatic “Anchor‐and‐Shield” Strategy",
+      "url": "https://doi.org/10.1002/adfm.78590",
+      "published": "2026-09-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78590",
+      "authors": [
+        "Meinan Zhao",
+        "Zixian Gao",
+        "Qi Yu",
+        "Zihan Xu",
+        "Zhipeng Jiang",
+        "Yongtao Li"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Ether electrolytes in Li‐metal batteries are severely constrained by parasitic anodic oxidation and solvent ring‐opening polymerization (ROP). To overcome this, we propose an “anchor‐and‐shield” strategy using 0.05 M TBABH 4 in 1 M LiFSI DME/DOL. Nucleophilic BH 4 − incorporates into the Li + solvation shell, neutralizing localized Lewis acidity to inhibit ROP propagation. Operando SERS and MD simulations show that TBA + cations enrich in the electrochemical double layer, anchoring FSI − anions via electrostatic interactions to reverse the conventional anion‐lean interphase. This promotes FSI − decomposition, forming a robust inorganic‐rich SEI. Consequently, the DOL dissociation energy decreases to 0.49 eV, boosting the exchange current to 15.84 mA cm −2 and extending Li‐Li lifespan beyond 1800 h. Li‐NCM811 full cells retain 80% capacity after 450 cycles at 25°C and 300 cycles at −20°C. Remarkably, under harsh conditions (50 µm Li, 20 mg cm −2 cathode), the full cell achieves stable operation for over 86 cycles with 80% capacity retention. This strategy enables high‐voltage Li batteries across a wide temperature range down to sub‐zero environments.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-25",
+      "image": null,
+      "summary_ko": "에테르 전해질에서 리튬 금속 전지의 기생 산화 및 용매 개환중합 문제를 해결하기 위해 TBABH4를 첨가한 \"anchor-and-shield\" 전략을 제안했다. TBA+ 양이온이 전기이중층에 농축되어 FSI- 음이온을 계면으로 유도함으로써 무기물이 풍부한 SEI를 형성하고, DOL 해리 에너지를 낮춰 교환전류밀도를 크게 높였다. 이를 통해 Li-Li 대칭셀이 1800시간 이상 안정적으로 작동했으며, Li-NCM811 완전셀은 상온 450사이클, -20°C 300사이클 후에도 80% 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214083608",
+      "source": "openalex",
+      "title": "Ordered Electric Double‐Layer Architectures via Anion‐Dominated Solvation for 4.5 V Sodium‐Metal Capacitors",
+      "url": "https://doi.org/10.1002/adfm.78622",
+      "published": "2026-09-23",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.78622",
+      "authors": [
+        "Shengrui Gao",
+        "Yinghao Zhang",
+        "Bo Xiong",
+        "Jie Li",
+        "Dongxiao Li",
+        "Biao Zhong"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Elevating the operating voltage of sodium metal capacitors (SMCs) to 4.5 V is crucial for achieving higher energy density, however, conventional carbonate‐based electrolytes suffer from cathode interfacial decomposition, disordering of the electric double‐layer (EDL) structure, and poor anode compatibility under high voltage. This study proposes an anion‐centered solvation reconstruction strategy. By introducing a low‐solvation molecular modulator that selectively coordinates with PF 6 − anions, an anion‐dominated ordered EDL architecture is constructed on the cathode surface. This structure effectively suppresses EDL disordering and solvent oxidation under high voltage. Molecular energy‐level alignment enables sequential interfacial engineering: an ultra‐thin, high‐voltage‐adapted CEI‐EDL coupled interface on the cathode, and an F/B‐rich solid electrolyte interphase (SEI) on the anode for homogeneous sodium plating/stripping. With this designed all‐fluorinated electrolyte, the resulting SMCs achieve remarkably boosted performance within 2–4.5 V, delivering a high energy density of 185 at 300 W kg −1 , and an outstanding power density of 112.8 at 15 000 W kg −1 . This work not only demonstrates a viable high‐voltage SMCs system but, more importantly, establishes a distinctive anion‐centric solvation engineering paradigm, providing a novel approach for developing advanced storage devices with high‐energy/power density.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-25",
+      "image": null,
+      "summary_ko": "4.5V 고전압 소듐 금속 커패시터를 위해 음이온 중심의 용매화 재구성 전략을 제안했다. PF6- 음이온과 선택적으로 배위하는 저용매화 분자 조절제를 도입해 양극 표면에 음이온 우세의 정렬된 전기이중층을 형성하여 EDL 무질서화와 용매 산화를 억제했다. 동시에 음극에는 F/B가 풍부한 SEI가 형성되어 균일한 소듐 플레이팅/스트리핑이 가능해졌고, 결과적으로 2-4.5V 구간에서 높은 에너지·출력 밀도를 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214111043",
+      "source": "openalex",
+      "title": "A quadruped robot designed to complete a marathon on a single battery charge",
+      "url": "https://doi.org/10.1038/s41586-026-11102-5",
+      "published": "2026-09-23",
+      "topics": [],
+      "doi": "10.1038/s41586-026-11102-5",
+      "authors": [
+        "Choongin Lee",
+        "Donghoon Youm",
+        "Jeongsoo Park",
+        "Jeong Hyun Lee",
+        "Suyoung Choi",
+        "Gwanghyeon Ji"
+      ],
+      "venue": "Nature",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S137773608",
+      "journal_metric": 18.34,
+      "first_seen": "2026-09-25",
+      "image": null,
+      "summary_ko": "배터리 한 번 충전으로 마라톤 거리를 완주하도록 설계된 사족보행 로봇에 관한 내용이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7214123563",
+      "source": "openalex",
+      "title": "Manipulating Fluorinated Nanochannels in Porous Aromatic Frameworks for Ultra‐Stable Sodium‐Ion Transport",
+      "url": "https://doi.org/10.1002/anie.7843737",
+      "published": "2026-09-22",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/anie.7843737",
+      "authors": [
+        "Zihao Wang",
+        "Chuan-Wei Zhou",
+        "Heng‐guo Wang",
+        "Jiangtao Jia",
+        "Guangshan Zhu"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Quasi‐solid‐state sodium metal batteries suffer from sluggish Na + transport and unstable interphases due to strong ion pairing and unfavorable solvation structures. Herein, fluorinated nanochannels are constructed by grafting flexible perfluoroalkyl chains into porous aromatic frameworks (PAF‐1‐F), generating a weakly coordinating environment that promotes ion‐pair dissociation and fluorine‐polarization‐assisted Na + transport. The resulting PAF‐1‐F quasi‐solid‐state electrolyte exhibits an impressive ionic conductivity of 2.79 × 10 −4 S cm −1 , a high Na + transference number of 0.562, and a wide electrochemical stability window of 4.98 V. The fluorine‐rich nanochannels further induce the formation of uniform NaF‐rich interphases, enabling stable Na plating/stripping for over 5700 h with suppressed dendritic growth. When evaluated in full cells, the PAF‐1‐F quasi‐solid‐state electrolyte achieves stable cycling over 1300 cycles with 91.3% capacity retention and maintains durable operation for more than 4000 cycles even at −20°C. This work establishes nanochannel‐mediated weak coordination as a strategy for coupling ion transport and interfacial stability in quasi‐solid‐state electrolytes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-09-25",
+      "image": null,
+      "summary_ko": "다공성 방향족 골격체(PAF-1)에 유연한 과불소알킬 사슬을 그래프팅해 불소화 나노채널을 구축, 이온쌍 해리와 불소 분극 기반 Na+ 수송을 촉진했다. 이 준고체 전해질은 2.79×10⁻⁴ S/cm의 이온전도도, 0.562의 높은 Na+ 이동수, 4.98V의 넓은 전기화학적 안정성 창을 보였다. 균일한 NaF 계면 형성으로 5700시간 이상 안정적인 소듐 플레이팅/스트리핑과 덴드라이트 억제가 가능했으며, 완전셀에서 1300사이클 91.3% 용량 유지 및 -20°C 4000사이클 이상 구동을 달성했다.",
+      "relevant": true
+    }
+  ]
+}
