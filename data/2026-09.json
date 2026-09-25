@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78590",
+        "cached": "img/W7214122921.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78590"
+      },
       "summary_ko": "에테르 전해질에서 리튬 금속 전지의 기생 산화 및 용매 개환중합 문제를 해결하기 위해 TBABH4를 첨가한 \"anchor-and-shield\" 전략을 제안했다. TBA+ 양이온이 전기이중층에 농축되어 FSI- 음이온을 계면으로 유도함으로써 무기물이 풍부한 SEI를 형성하고, DOL 해리 에너지를 낮춰 교환전류밀도를 크게 높였다. 이를 통해 Li-Li 대칭셀이 1800시간 이상 안정적으로 작동했으며, Li-NCM811 완전셀은 상온 450사이클, -20°C 300사이클 후에도 80% 용량을 유지했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78622",
+        "cached": "img/W7214083608.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78622"
+      },
       "summary_ko": "4.5V 고전압 소듐 금속 커패시터를 위해 음이온 중심의 용매화 재구성 전략을 제안했다. PF6- 음이온과 선택적으로 배위하는 저용매화 분자 조절제를 도입해 양극 표면에 음이온 우세의 정렬된 전기이중층을 형성하여 EDL 무질서화와 용매 산화를 억제했다. 동시에 음극에는 F/B가 풍부한 SEI가 형성되어 균일한 소듐 플레이팅/스트리핑이 가능해졌고, 결과적으로 2-4.5V 구간에서 높은 에너지·출력 밀도를 달성했다.",
       "relevant": true
     },
@@ -144,7 +156,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.7843737",
+        "cached": "img/W7214123563.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.7843737"
+      },
       "summary_ko": "다공성 방향족 골격체(PAF-1)에 유연한 과불소알킬 사슬을 그래프팅해 불소화 나노채널을 구축, 이온쌍 해리와 불소 분극 기반 Na+ 수송을 촉진했다. 이 준고체 전해질은 2.79×10⁻⁴ S/cm의 이온전도도, 0.562의 높은 Na+ 이동수, 4.98V의 넓은 전기화학적 안정성 창을 보였다. 균일한 NaF 계면 형성으로 5700시간 이상 안정적인 소듐 플레이팅/스트리핑과 덴드라이트 억제가 가능했으며, 완전셀에서 1300사이클 91.3% 용량 유지 및 -20°C 4000사이클 이상 구동을 달성했다.",
       "relevant": true
     },
