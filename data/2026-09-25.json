@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-24T23:48:47+00:00",
+  "generated_at": "2026-09-25T23:57:18+00:00",
   "count": 4,
   "papers": [
     {
@@ -99,7 +99,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-09-25",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11102-5/MediaObjects/41586_2026_11102_Fig1_HTML.png",
+        "cached": "img/W7214111043.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11102-5"
+      },
       "summary_ko": "배터리 한 번 충전으로 마라톤 거리를 완주하도록 설계된 사족보행 로봇에 관한 내용이다. (제목 기반 추정)",
       "relevant": false
     },
