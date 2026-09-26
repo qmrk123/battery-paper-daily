@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-25T23:55:16+00:00",
+  "generated_at": "2026-09-26T23:28:19+00:00",
   "count": 15,
   "papers": [
     {
@@ -88,7 +88,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77909-y/MediaObjects/41467_2026_77909_Fig1_HTML.png",
+        "cached": "img/W7214206356.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77909-y"
+      },
       "summary_ko": "Cu1.8S/Ru 이종구조를 황 침출시켜 만든 CuRu-Cu2O 나노복합체로 질산염 환원 기반 암모니아 합성을 구현한 연구다. 0V(RHE)에서 95.4%의 암모니아 패러데이 효율을 30사이클 이상 안정적으로 유지했으며, 아연-질산염 전지에서 50시간 이상 구동을 시연했다.",
       "relevant": false
     },
@@ -286,7 +291,12 @@
       "journal_id": "S103895331",
       "journal_metric": 22.23,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41563-026-02757-6/MediaObjects/41563_2026_2757_Fig1_HTML.png",
+        "cached": "img/W7214163595.jpg",
+        "license": null,
+        "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02757-6"
+      },
       "summary_ko": "리튬 금속 음극의 덴드라이트 형성을 억제하기 위한 접종(inoculation) 기반 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
@@ -342,7 +352,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78096-6/MediaObjects/41467_2026_78096_Fig1_HTML.png",
+        "cached": "img/W7214164781.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78096-6"
+      },
       "summary_ko": "파나마와 일본 남서부 화산호의 감람석 함유 용융포유물에 대한 붕소동위원소 및 지구화학 분석을 수행했다. 고온 섭입대에서 슬랩 탄산염의 60% 이상이 얕은 깊이의 탈탄산 작용을 우회하여 깊은 곳까지 운반됨을 규명했다.",
       "relevant": false
     },
@@ -421,7 +436,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00958-8/MediaObjects/41578_2026_958_Fig1_HTML.png",
+        "cached": "img/W7214199007.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00958-8"
+      },
       "summary_ko": "차세대 배터리를 위한 전해질 설계 전략을 다루는 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
     },

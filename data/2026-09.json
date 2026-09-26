@@ -1,8 +1,68 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-25T23:55:16+00:00",
-  "count": 227,
+  "generated_at": "2026-09-26T23:25:57+00:00",
+  "count": 235,
   "papers": [
+    {
+      "id": "W7214308872",
+      "source": "openalex",
+      "title": "Lattice distortion strain modulation of twin-defective noble-metal-free high-entropy alloy electrocatalyst for Li−O2 batteries",
+      "url": "https://doi.org/10.1038/s41467-026-77604-y",
+      "published": "2026-09-25",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1038/s41467-026-77604-y",
+      "authors": [
+        "Lei Li",
+        "Minghao Hua",
+        "Jiafeng Li",
+        "Yun Guo",
+        "Yingjian Nie",
+        "Boya Zhang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77604-y",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "Li-O2 전지용 노블메탈-프리 고엔트로피 합금 전기촉매에서 쌍정 결함을 이용해 격자 변형을 변조하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7214276981",
+      "source": "openalex",
+      "title": "Coupling Ionic Network Reconstruction With Interfacial Electrostatics Shielding Resolves the Interphase Stability‐Transport Trade‐Off for High‐Temperature Durable Li‐SPAN Batteries",
+      "url": "https://doi.org/10.1002/adfm.78698",
+      "published": "2026-09-25",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.78698",
+      "authors": [
+        "Yuan Li",
+        "Zhiwei Ni",
+        "Shenglin L. Xiong",
+        "Baojuan J. Xi",
+        "Jinkui Feng"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT High‐performance lithium‐sulfurized polyacrylonitrile (SPAN) batteries require an electrolyte that simultaneously delivers robust lithium metal stability and efficient bulk ionic transport. However, existing electrolyte engineering strategies generally improve interfacial stability at the expense of bulk transport properties. Herein, by introducing 1‐methyl‐1‐propylpyrrolidinium bis(fluorosulfonyl)imide (PY13FSI), we achieved a reconstruction of the ionic network, coupled with the electrostatic shielding effect at the interface, breaking the traditional trade‐off between interphase stability and bulk transport kinetics. While forming inorganic‐rich LiF/Li 3 N interphases on both the cathode and anode to block lithium polysulfide shuttling and homogenize lithium deposition, the electrolyte simultaneously delivers a high ionic conductivity approaching 10 mS cm −1 and an impressive Li + transference number of 0.71. Consequently, Li||SPAN cells deliver outstanding long‐term cycling stability and rate capability, retaining 94.1% capacity retention after 1100 cycles at 1 C. Meanwhile, stable cycling performance is observed at 60°C. Commercially viable full cells (with a thin Li anode and high‐loading cathode) still demonstrate exceptional performance with a capacity retention of 90.8% after 200 cycles. This work presents an effective strategy to break the conventional trade‐off between interphase stability and bulk ionic transport, offering fresh insights into the future design of advanced electrolytes for high‐energy‐density battery systems.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "이 연구는 리튬-황화폴리아크릴로니트릴(Li-SPAN) 전지의 계면 안정성과 벌크 이온 수송 간 트레이드오프를 해결하기 위해 PY13FSI 이온성 액체 첨가제로 이온 네트워크를 재구성하였다. 양극과 음극 모두에 무기물 기반 LiF/Li3N 계면층을 형성해 폴리설파이드 셔틀을 억제하고 리튬 증착을 균일화하며, 약 10 mS cm−1의 이온전도도와 0.71의 Li+ 이동수를 동시에 달성했다. 이를 통해 Li‖SPAN 셀은 1100회 사이클 후 94.1%의 용량을 유지했고 60°C 고온에서도 안정적으로 작동했다.",
+      "relevant": true
+    },
     {
       "id": "W7214185998",
       "source": "openalex",
@@ -230,6 +290,37 @@
       "relevant": false
     },
     {
+      "id": "W7214319922",
+      "source": "openalex",
+      "title": "Polymer Side‐Chain Electronic Effects Regulating Solvation Sheath for Low‐Temperature and High‐Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78605",
+      "published": "2026-09-24",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.78605",
+      "authors": [
+        "Xianbin Wu",
+        "Zhenxiang Zhu",
+        "Haotian Yang",
+        "Dayao Zhang",
+        "Zhen Hua Geng",
+        "Cunman Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Gel polymer electrolytes (GPEs) rich in ether oxygen side chains have attracted particular interests in high‑energy‑density lithium metal batteries (LMBs). However, the strong coordination between their polymer framework and lithium ions (Li + ) leads to a high desolvation energy barrier at low temperatures. Herein, by comparing the side‑chain electronic effects, this work constructs an ether‐oxygen‐based gel polymer electrolyte (E‐GPE) with electron‐donating ether oxygen side chains and a fluorinated GPE (F‐GPE) with electron‐withdrawing trifluoromethyl side chains, with N,N‐dimethyl trifluoroacetamide (FDMA) as a low‐temperature additive. Density functional theory (DFT) calculations reveal that the electron‐donating side chains in E‐GPE enhance the binding energy between the polymer framework and Li + , thereby impeding Li + desolvation. Conversely, the electron‐withdrawing side chains in F‐GPE weaken the binding energy between the polymer framework and Li + , lowering the Li + desolvation barrier and inducing the formation of LiF‐rich interphase. Consequently, Li/F‐GPE/Li cells stably cycle for over 1000 h at −20°C, and Li/F‐GPE/LiCoO 2 coin cells retain 88.7% of their original capacity after 400 cycles at −20°C. Furthermore, pouch cells steadily power a light‐emitting diode (LED) after shear damage, demonstrating potential safety. This work provides a new design paradigm for developing GPEs for high‐energy‐density LMBs in extreme environments.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.78605",
+      "license": "cc-by",
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "이 연구는 저온·고전압 리튬 금속 전지용 젤 고분자 전해질(GPE)의 곁사슬 전자적 효과를 비교하였다. 전자를 끄는 트리플루오로메틸 곁사슬을 가진 F-GPE는 Li+ 탈용매화 장벽을 낮추고 LiF가 풍부한 계면을 형성해, -20°C에서 1000시간 이상 안정적인 사이클링과 Li/LiCoO2 셀에서 400회 사이클 후 88.7%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
       "id": "W7214214222",
       "source": "openalex",
       "title": "Lithium‐Induced Inverted Honeycomb‐Ordered Superlattice Enables Durable O3‐Type Sodium Oxide Cathodes",
@@ -263,6 +354,38 @@
         "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75121"
       },
       "summary_ko": "리튬 도입을 통해 O3형 소듐 층상 산화물(NaNi1/3Fe1/3Mn1/3O2) 내에 역전된 허니콤 초격자 구조를 구축하여 전이금속-산소 공유결합을 강화하고 비가역적 층간 미끄러짐을 억제했다. 가역적 음이온 산소 레독스와 O1 중간상 형성을 유도하고 Li3PO4 코팅을 결합해, 4.5V에서 500사이클 후 94.0%, 하드카본 완전셀에서 200사이클 후 95.5%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214233186",
+      "source": "openalex",
+      "title": "Li+ Shuttle bus enables safe fast ion transport in solid polymer electrolytes",
+      "url": "https://doi.org/10.1038/s41467-026-78041-7",
+      "published": "2026-09-24",
+      "topics": [
+        "li-metal",
+        "lfp",
+        "ncm"
+      ],
+      "doi": "10.1038/s41467-026-78041-7",
+      "authors": [
+        "Hao Chen",
+        "Jiawen Huang",
+        "Si-Hao Peng",
+        "Zhi-Hua Liu",
+        "Zhi‐Wei Zeng",
+        "P. K. Tang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Solid polymer electrolytes are important for lithium metal batteries, but their limited Li+ transference efficiency hinders large-scale deployment. Here we report a Li⁺ shuttle bus strategy that immobilizes anions at one-dimensional charged interface, promotes lithium salt dissociation, and guides Li⁺ enrichment. The effect of Coulombic repulsion among densely coordinated Li⁺ species weakens solvation structure for Li+, achieving fast, collective and one-dimensional ion shuttling at the microscopic scale. Consequently, the designed solid polymer electrolyte exhibits a high ionic conductivity of 0.92 × 10−3 S cm−1 at 28 °C. Li | |LiFePO4 cells operate nearly 5000 cycles at 5 C and maintain 77% capacity after 900 cycles at −40 °C. Li | |LiNi0.8Co0.1Mn0.1O2 pouch cell further realizes high specific energy (508 Wh kg−1, 200 cycles, 95.2% retention). This work establishes a Li⁺ shuttle-bus strategy for constructing solid polymer electrolytes with fast-charging capability and wide-temperature adaptability, offering findings into the design of solid-state lithium metal batteries. Solid polymer electrolytes suffer from sluggish Li⁺ transport. Here, authors develop a shuttle-bus strategy that weakens Li⁺ solvation through Coulombic repulsion, enabling collective ion transport and Li | |NCM811 pouch cells with 508 Wh kg⁻¹ and 95.2% capacity retention after 200 cycles.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78041-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "이 연구는 고체 고분자 전해질에서 음이온을 1차원 하전 계면에 고정해 리튬염 해리를 촉진하고 Li+의 집단적 1차원 이동을 유도하는 'Li+ 셔틀버스' 전략을 제안하였다. 이 전해질은 28°C에서 0.92×10−3 S cm−1의 이온전도도를 보이며, Li‖LiFePO4 셀은 5C에서 약 5000회 사이클, -40°C에서 900회 사이클 후 77% 용량을 유지했다. Li‖NCM811 파우치셀은 508 Wh kg−1의 에너지밀도로 200회 사이클 후 95.2%의 용량 유지율을 보였다.",
       "relevant": true
     },
     {
@@ -521,7 +644,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-09-25",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11102-5/MediaObjects/41586_2026_11102_Fig1_HTML.png",
+        "cached": "img/W7214111043.jpg",
+        "license": null,
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11102-5"
+      },
       "summary_ko": "배터리 한 번 충전으로 마라톤 거리를 완주하도록 설계된 사족보행 로봇에 관한 내용이다. (제목 기반 추정)",
       "relevant": false
     },
@@ -886,6 +1014,35 @@
       "relevant": true
     },
     {
+      "id": "W7213778695",
+      "source": "openalex",
+      "title": "Ultrathin composite polymer electrolyte via in-situ polymerized poly(vinylene carbonate) within an electrospun scaffold for high energy lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105544",
+      "published": "2026-09-20",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105544",
+      "authors": [
+        "Dongmei Xie",
+        "Ji-Wan Kim",
+        "Jusung Song",
+        "Leiwu Tian",
+        "Dong‐Won Kim"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "전기방사 스캐폴드 내에서 폴리(비닐렌 카보네이트)를 제자리 중합하여 만든 초박막 복합 고분자 전해질로 고에너지밀도 리튬 금속 전지 성능을 향상시키는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7213757610",
       "source": "openalex",
       "title": "Polymerization-induced microphase separation constructing molecular interlocked PVDF-HFP-based composite solid polymer electrolytes for lithium metal batteries",
@@ -949,6 +1106,63 @@
         "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71568"
       },
       "summary_ko": "리튬 과잉 망간계 산화물(LRMO)의 표면 산소 안정화를 위해 Li-P-F-O 결합 위상을 도입한 전고체 리튬전지 연구. DFT 스크리닝으로 인산염 작용기가 표면 산소 안정화에 가장 효과적임을 확인하고, LRMO와 LiPO2F2의 원스텝 기계화학 반응으로 P-O, P-F, Li-F 결합을 포함한 비정질 계면을 형성했다. 이를 통해 산소 손실과 전해질 산화, 계면 저항 증가를 억제하여 25°C에서 248.5 mAh g-1, 10C 2000사이클 후 85%의 용량 유지율을 달성했으며 고부하 리튬금속 파우치셀은 277 Wh kg-1의 비에너지를 나타냈다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213770766",
+      "source": "openalex",
+      "title": "Facet-anisotropy-engineered CdS photoelectrodes enable 5.24 mA cm−2 photo-charging current in Zn-Air/Sulfion hybrid batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112422",
+      "published": "2026-09-20",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112422",
+      "authors": [
+        "Lingqiao Kong",
+        "Bingzhen Yan",
+        "Jiazheng Nan",
+        "Jingyuan Qiao",
+        "Linhong Xia",
+        "Shuai Zhang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "CdS 광전극의 결정면 이방성을 설계하여 Zn-Air/Sulfion 하이브리드 전지에서 5.24 mA cm−2의 광충전 전류를 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7213767786",
+      "source": "openalex",
+      "title": "Deriving uniform hybrid SEI layer via silver trifluoroacetate toward durable Li metal pouch batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112421",
+      "published": "2026-09-20",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112421",
+      "authors": [
+        "Aoyuan Chen",
+        "Wujie Yang",
+        "Zhenjie Zhang",
+        "Ping He",
+        "Haoshen Zhou"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "은 트리플루오로아세테이트를 이용해 리튬 금속 파우치셀에 균일한 하이브리드 SEI층을 형성시켜 내구성을 향상시키는 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -1912,6 +2126,36 @@
         "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78510"
       },
       "summary_ko": "리튬 보충제 소재 Li6MnO4의 지나치게 높은 탈리튬화 전위 문제를 해결하기 위해 Co2+ 부분치환을 통한 사면체 배위장 왜곡 전략을 개발했다. 산화환원 활성 오비탈 에너지 준위를 높여 산소 전하보상을 촉진하고 Li-O 상호작용을 약화시킴으로써 저전압 리튬 추출을 구현했다. 최적화된 Li6Mn0.8Co0.2O4는 3.0-4.3V 구간에서 775.6 mAh/g의 유효 리튬보충 용량을 나타냈으며, NCM||Si/C 풀셀의 초기 가역용량을 16 mAh/g 높이고 장기 용량유지율을 19.4% 개선했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213285702",
+      "source": "openalex",
+      "title": "Taming Jahn-Teller distortion toward robust sodium storage in Mn-rich layered oxide cathode",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105531",
+      "published": "2026-09-15",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105531",
+      "authors": [
+        "Yanzhe Zhang",
+        "Wenshuo Zhao",
+        "Jianqi Sun",
+        "Yongli Wang",
+        "Wenwen Sun",
+        "Yang Li"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-27",
+      "image": null,
+      "summary_ko": "Mn이 풍부한 층상 산화물 소듐 이온 양극재에서 얀-텔러 왜곡을 억제하여 안정적인 소듐 저장 특성을 구현하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
     {

@@ -1,12 +1,12 @@
 {
-  "title": "최근 2주 논문 브리핑 (9/14–9/24)",
-  "range": "2026-09-14 ~ 2026-09-24",
-  "overall": "이번 2주간 연구는 전해질 용매화 구조와 계면(SEI/CEI) 화학의 정밀 설계에 집중되었으며, 니켈리치·리튬과잉 양극에서는 표면 산소 안정화와 도핑·코팅을 통한 고전압 내구성 확보가 공통 과제로 부상했다.",
+  "title": "최근 2주 논문 브리핑 (9/16–9/25)",
+  "range": "2026-09-16 ~ 2026-09-25",
+  "overall": "리튬·소듐 금속전지 연구는 전해질 용매화 구조 조절과 무기물(LiF/Li3N/NaF)이 풍부한 계면층 설계를 통해 고전압·저온 안정성을 확보하는 방향으로 수렴하고 있으며, 층상 산화물 양극에서는 가역적 산소 산화환원과 표면·구조 안정화가 공통 과제로 부각되었다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 용매화 구조 조절이 가장 지배적인 주제로, 용매 분극률·고유전율·쌍극자 조절과 불소화 용매/첨가제(TBABH4, MDFA, 알콕시에틸 아세테이트)를 통해 음이온 유래의 무기물(LiF/Li3N) 풍부 SEI를 유도하고 Li+ 이동수(0.7~0.82)와 고전압·저온·고율 성능을 끌어올리는 접근이 반복 확인된다. 계면 안정화 측면에서는 펄스전류 증착, 화학결합(Li-O) 계면, 폴리옥소메탈레이트·2D MBene 등 첨가·호스트 설계가 균일 리튬 증착과 무음극·근진공 등 극한 조건 구동으로 이어졌고, 겔·고체 고분자 전해질(불소화 GPE, PVDF-HFP, PCL) 연구도 두드러졌다. 동시에 쿨롱효율만으로는 수명 예측이 어렵다는 진단(SEI 열화-전해질 고갈-리튬 보상)과 형광 적정 기반 데드리튬 정량화 등 실패 메커니즘 규명, 그리고 핵생성·계면·속도론을 체계화한 다수의 리뷰가 함께 제시되었다.",
+      "text": "전해질 용매화 구조 조절이 압도적 주류로, 용매의 분극률·고유전율·쌍극자와 곁사슬 전자효과를 설계 변수로 삼아 탈용매화 장벽을 낮추고 음이온 우세 용매화를 유도하는 접근이 반복적으로 나타난다. 그 결과 형성되는 LiF/Li3N 등 무기물이 풍부한 SEI를 매개로 저온·고전압(4.5V급)·무음극 셀에서 장수명을 확보하려는 시도가 두드러지며, 겔·고체 고분자 전해질(불소화 GPE, PVDF-HFP, PCL, PVC)과 폴리옥소메탈레이트·이온성 액체 첨가제로 Li+ 이동수를 0.7~0.82까지 끌어올린 사례가 다수다. 펄스전류 증착, 화학결합(Li-O) 계면, 2D MBene 등 계면·호스트 설계도 균일 증착과 근진공 등 극한 조건 구동으로 이어졌다. 아울러 쿨롱효율만으로는 수명 예측이 어렵다는 기초적 통찰(SEI 열화-전해질 고갈-리튬 보상)과, 핵생성·계면·속도론을 체계화한 다수의 리뷰가 함께 제시되어 분야가 성숙 단계에 접어들었음을 시사한다.",
       "highlights": [
         {"title": "Unlocking cycle life of lithium metal batteries", "url": "https://doi.org/10.1126/science.aee1630", "venue": "Science"},
         {"title": "Solvent polarizability governs Li⁺ transport kinetics for high energy lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-77667-x", "venue": "Nature Communications"},
@@ -14,40 +14,50 @@
       ]
     },
     {
+      "topic": "na-cathode",
+      "heading": "소듐 양극",
+      "text": "층상 산화물 양극의 가역적 음이온(산소) 산화환원 안정화가 핵심 화두로, O-O 다이머 형성 억제(Sc 도핑), 리튬 도입을 통한 역전 허니콤 초격자, 전해질 차원의 반응성 산소종 친핵공격 억제 등 소재·전해질 양면의 다각적 전략이 동시에 제시되었다. 이와 함께 O3-P3 상전이 조율과 충전전압에 따른 적층·산화환원 분배의 상관관계 규명 등 방사광 분석 기반의 구조 열화 메커니즘 연구가 강화되고 있다. Mn리치 NASICON 등 폴리음이온계에서도 산화환원 분리를 통한 고에너지밀도 확보가 시도되어 층상·폴리음이온 양 계열 모두에서 진전이 관찰된다.",
+      "highlights": [
+        {"title": "Lithium‐Induced Inverted Honeycomb‐Ordered Superlattice Enables Durable O3‐Type Sodium Oxide Cathodes", "url": "https://doi.org/10.1002/adma.75121", "venue": "Advanced Materials"},
+        {"title": "Restraining O–O Dimerization for Highly Reversible Oxygen Redox in a Sodium-Ion Layered-Oxide Cathode", "url": "https://doi.org/10.1021/jacs.6c09685", "venue": "Journal of the American Chemical Society"},
+        {"title": "Reconciling the O3-P3 phase transition in layered oxides to reduce particle strain for stable sodium battery cycling", "url": "https://doi.org/10.1038/s41467-026-77622-w", "venue": "Nature Communications"}
+      ]
+    },
+    {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "니켈리치 양극의 고전압 열화를 억제하기 위한 표면·계면 및 벌크 격자 안정화가 중심으로, 폴리실록산 기반 CEI, LBLS 삼원계 이온전도성 코팅, Al/Ta 및 Y/Zr/Nb/Mo 공동 도핑을 통해 Li/Ni 혼합 억제와 균일한 Li+ 전달, 저온·장수명 성능을 확보했다. 황화물 전고체계에서는 전자상태 연속성을 갖는 자기조립 이종계면으로 계면 저항을 낮추는 전략이 제시되었고, 단결정 양극에서는 입계가 없더라도 내재적 평면 결함(DLPB)이 반응 불균일성과 내구성을 좌우한다는 근본 규명이 이루어졌다.",
+      "text": "니켈리치 양극은 표면·계면 공학과 벌크 도핑의 두 축으로 접근되며, in-situ 중합 폴리실록산 CEI로 고전압에서의 Ni4+ 산화환원 완충과 격자 열화 억제를 노린다. Al/Ta 공동 도핑처럼 결정립 미세화와 Li/Ni 혼합 억제로 균일한 Li+ 전달을 확보하는 벌크 전략도 병행된다. 특히 황화물 전고체 배터리와의 접목에서 다원소(Y/Zr/Nb/Mo) 공동 도핑으로 전자상태 연속성을 갖는 자기조립 이종계면을 형성해 계면 리튬 이동을 가속하는 연구가 부각된다.",
       "highlights": [
         {"title": "Electronic‐State Continuity Across a Heterointerphase of High‐Capacity Ni‐Rich Cathode for Stable Sulfide‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/adma.75070", "venue": "Advanced Materials"},
-        {"title": "Intrinsic Planar Defects Govern Durability in Single-Crystal Ni-Rich Cathodes", "url": "https://doi.org/10.1021/jacs.6c08205", "venue": "Journal of the American Chemical Society"},
+        {"title": "“Spike-Accessed” Polymer-Based Interphase-Engineered Surface-to-Bulk Lattice Stabilization for Ni-Rich Positive Electrodes", "url": "https://doi.org/10.1021/jacs.6c15426", "venue": "Journal of the American Chemical Society"},
         {"title": "Al 3+ /Ta 5+ Co‐Doping Promotes Homogeneous Li + Transport Enabling High Performance Ni‐Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adfm.78560", "venue": "Advanced Functional Materials"}
+      ]
+    },
+    {
+      "topic": "other-cathode",
+      "heading": "기타 양극",
+      "text": "고전압 LiCoO2의 내구성 확보를 위해 물리적 코팅을 넘어 표면 결합 분자 통합(Co-O-P, Co-N)으로 계면을 화학적으로 고정하는 전략이 제시되어 4.6V 고전압 장수명을 달성했다. 스피넬 템플릿 기반 고상 반응으로 리튬·소듐 층상 산화물의 조성 균질성을 제어하는 합성 전략과, Li-SPAN·Li-O2 등 차세대 계에서의 계면 안정화·촉매 설계도 다뤄져 전통적 층상계 밖의 화학 다변화가 진행 중이다.",
+      "highlights": [
+        {"title": "Beyond Physical Protection Paradigm: Surface‐bonded Molecular Integration for Durable High‐voltage LiCoO 2", "url": "https://doi.org/10.1002/anie.5600863", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Spinel‐Based Solid‐State Reactions: From Spinel Oxides to Lithium or Sodium Layered Oxides", "url": "https://doi.org/10.1002/anie.9169593", "venue": "Angewandte Chemie International Edition"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 계면 안정화를 위해 음이온 중심 용매화 재구성과 나노채널·SEI 설계가 제안되었다. 고전압 커패시터에서는 음이온 우세의 정렬된 전기이중층으로 EDL 무질서화와 용매 산화를 억제했고, 다공성 방향족 골격의 불소화 나노채널과 경쟁적 환원 기반 용해 저항성 SEI는 NaF가 풍부한 계면을 형성해 장시간 안정적 플레이팅/스트리핑과 덴드라이트 억제를 달성했다.",
+      "text": "소듐 금속계는 음이온 중심 용매화 재구성을 통해 정렬된 전기이중층을 형성하고 4.5V급 고전압 구동을 노리는 연구와, 다공성 방향족 골격에 불소화 나노채널을 구축해 균일한 NaF 계면과 초장수명 플레이팅/스트리핑을 구현한 연구가 제시되었다. 두 연구 모두 불소 기반 계면화학과 용매화 구조 제어라는 리튬계와 유사한 설계 철학을 공유한다.",
       "highlights": [
         {"title": "Manipulating Fluorinated Nanochannels in Porous Aromatic Frameworks for Ultra‐Stable Sodium‐Ion Transport", "url": "https://doi.org/10.1002/anie.7843737", "venue": "Angewandte Chemie International Edition"},
         {"title": "Ordered Electric Double‐Layer Architectures via Anion‐Dominated Solvation for 4.5 V Sodium‐Metal Capacitors", "url": "https://doi.org/10.1002/adfm.78622", "venue": "Advanced Functional Materials"}
       ]
     },
     {
-      "topic": "other-cathode",
-      "heading": "기타 양극",
-      "text": "고전압 LiCoO2와 리튬 보충제 등 비주류 양극 소재에서 표면 결합·배위장 설계가 두드러졌다. 표면 결합 분자 통합(SMI)으로 Co-O-P/Co-N 결합 계면을 형성해 4.6V LiCoO2의 장수명을 확보했고, Li6MnO4는 사면체 배위장 왜곡(Co 부분치환)으로 산화환원 오비탈 준위를 높여 저전압 탈리튬화를 구현했다. 또한 스피넬 템플릿 기반 고상 반응은 리튬·소듐 층상 산화물의 조성 균질성 제어 전략을 제시했다.",
-      "highlights": [
-        {"title": "Beyond Physical Protection Paradigm: Surface‐bonded Molecular Integration for Durable High‐voltage LiCoO 2", "url": "https://doi.org/10.1002/anie.5600863", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Tetrahedral‐Field Distortion Engineering of Redox‐Active Orbital Energy Levels Enables Low‐Voltage Delithiation of Li 6 MnO 4", "url": "https://doi.org/10.1002/adfm.78510", "venue": "Advanced Functional Materials"}
-      ]
-    },
-    {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 층상산화물의 핵심 과제인 표면 산소 안정화와 가역적 음이온 산화환원 확보에 초점이 맞춰졌다. 분극성이 큰 Cs+ 양이온으로 미배위 표면 산소를 전하 차폐하거나, Li-P-F-O 결합 위상을 갖는 비정질 인산염 계면을 도입해 산소 손실과 전해질 산화를 억제함으로써 전고체계에서 고율·장수명 성능을 달성했다.",
+      "text": "Li-rich 층상 산화물의 미배위 표면 산소가 유발하는 비가역적 산소 산화환원과 가스 발생을 억제하는 표면 안정화가 공통 주제다. 분극성이 큰 Cs+ 이온의 국소 전하 차폐나 Li-P-F-O 결합 위상을 갖는 비정질 인산염 계면 도입으로 표면 산소를 고정하여, 특히 전고체 시스템에서 고율 장수명(10C 2000사이클)을 달성했다.",
       "highlights": [
-        {"title": "Shielding Surface Oxygen via Cationic Charge Anchorage To Stabilize Reversible Anionic Redox in Lithium-Rich Layered Oxides", "url": "https://doi.org/10.1021/acsenergylett.6c02183", "venue": "ACS Energy Letters"},
-        {"title": "Li─P─F─O Bonding Topology Governs Oxygen Redox and Interfacial Stability in High‐Rate LRMO‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/aenm.71568", "venue": "Advanced Energy Materials"}
+        {"title": "Li─P─F─O Bonding Topology Governs Oxygen Redox and Interfacial Stability in High‐Rate LRMO‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/aenm.71568", "venue": "Advanced Energy Materials"},
+        {"title": "Shielding Surface Oxygen via Cationic Charge Anchorage To Stabilize Reversible Anionic Redox in Lithium-Rich Layered Oxides", "url": "https://doi.org/10.1021/acsenergylett.6c02183", "venue": "ACS Energy Letters"}
       ]
     }
   ]

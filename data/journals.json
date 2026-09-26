@@ -2255,6 +2255,10 @@
   "metric": 0.8,
   "name": "Watt"
  },
+ "S7407056096": {
+  "metric": 0.82,
+  "name": "Discover Industrial Chemistry and Materials"
+ },
  "S7407056157": {
   "metric": 0.19,
   "name": "Safety Science and Technology"
