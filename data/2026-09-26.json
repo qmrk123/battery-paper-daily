@@ -119,7 +119,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9169593",
+        "cached": "img/W7214230087.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9169593"
+      },
       "summary_ko": "스피넬 산화물과 층상 산화물이 공유하는 조밀 산소 골격 구조를 활용해, 스피넬 템플릿 기반 고상 반응 전략으로 리튬화·소듐화 경로를 제어했다. XRD와 DFT를 통해 반전위치 결함 형성에너지가 양이온 혼합 중간상 형성을 좌우하는 핵심 인자임을 규명하고, 다성분 층상 양극재의 원소 균질성 향상과 불순물 억제 전략을 제시했다.",
       "relevant": true
     },
@@ -149,7 +155,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78642",
+        "cached": "img/W7214155836.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78642"
+      },
       "summary_ko": "불소화 아크릴레이트(TFEMA)와 아미노작용기 실리카를 결합한 겔 폴리머 전해질을 설계해 리튬 용매화 구조를 이온쌍(SSIP/CIP) 쪽으로 조절하고 TFSI- 이동성을 억제했다. 이를 통해 Li+ 이동수 0.76, 이온전도도 1.03 mS/cm를 달성했으며, LiF/Li3N이 풍부한 안정적 SEI 형성으로 Li||LFP 완전셀이 5C, 2000사이클 후 85%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -179,7 +191,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78616",
+        "cached": "img/W7214149398.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78616"
+      },
       "summary_ko": "Ni 도핑을 통해 Mn리치 NASICON형 나트륨이온전지 양극재(Na3.6Mn1.25Ti0.7Ni0.05(PO4)3)에서 Mn/Ti 산화환원 반응의 분리를 구현하여 Mn2+/Mn3+ 반응 속도를 가속화하고 고전압 영역의 전압 히스테리시스를 억제했다. 그 결과 166.3 mAh/g의 용량과 467.6 Wh/kg의 에너지밀도를 달성하며 다전자 반응 나트륨 양극재 설계에 새로운 접근법을 제시했다.",
       "relevant": true
     },
@@ -237,7 +255,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75121",
+        "cached": "img/W7214214222.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75121"
+      },
       "summary_ko": "리튬 도입을 통해 O3형 소듐 층상 산화물(NaNi1/3Fe1/3Mn1/3O2) 내에 역전된 허니콤 초격자 구조를 구축하여 전이금속-산소 공유결합을 강화하고 비가역적 층간 미끄러짐을 억제했다. 가역적 음이온 산소 레독스와 O1 중간상 형성을 유도하고 Li3PO4 코팅을 결합해, 4.5V에서 500사이클 후 94.0%, 하드카본 완전셀에서 200사이클 후 95.5%의 용량 유지율을 달성했다.",
       "relevant": true
     },
