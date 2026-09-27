@@ -1,8 +1,99 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-26T23:25:57+00:00",
-  "count": 235,
+  "generated_at": "2026-09-27T23:43:50+00:00",
+  "count": 243,
   "papers": [
+    {
+      "id": "W7214493676",
+      "source": "openalex",
+      "title": "Enhancing cycling stability by promoting high-voltage structural reversibility in high-nickel positive electrode materials",
+      "url": "https://doi.org/10.1038/s41467-026-78069-9",
+      "published": "2026-09-26",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1038/s41467-026-78069-9",
+      "authors": [
+        "Hekang Zhu",
+        "Chris W. Cook",
+        "Zhenjiang Yu",
+        "Shaoquan Li",
+        "Matthew J. A. Leesmith",
+        "Nathan R. Halcovitch"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Cycling stability remains a critical challenge in the development of high-nickel positive electrode materials for lithium-ion batteries. Although existing strategies such as delaying the formation of the H3 phase or operating below a cut-off voltage have shown promise, they limit the exploitation of the full energy density. In this study, we introduce nanorod high-nickel materials, including LiNiO 2 , which demonstrate high-voltage cycling stability up to 4.95 V, more stable than traditional microcrystal counterparts. Our comparative analysis reveals that enhanced structural reversibility in the bulk structure is the key factor contributing to this improved cycling performance. The nanorod structure demonstrates an ability to endure the substantial lattice mismatch present in the Li layer at the H2-H3 interphase, thereby facilitating a comprehensive recovery from H3 to the H2 phase during discharge. This work offers insights into optimizing high-nickel positive electrode materials, improving cycling stability in high-energy battery applications.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78069-9",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "고니켈 양극재의 고전압(4.95V) 사이클 안정성을 개선하기 위해 나노로드 형태의 고니켈 소재(LiNiO2 포함)를 도입했다. 나노로드 구조는 H2-H3 상전이 계면에서 발생하는 격자 불일치를 견디며 방전 시 H3에서 H2 상으로의 완전한 구조적 가역성을 가능하게 해, 기존 마이크로결정 소재보다 우수한 사이클 안정성을 보였다. 이는 고에너지밀도 배터리를 위한 고니켈 양극재 설계에 새로운 통찰을 제공한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214456955",
+      "source": "openalex",
+      "title": "Chemical-Delithiation-Induced Surface Reconstruction in Layered Oxide Cathodes for High-Performance All-Solid-State Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c11457",
+      "published": "2026-09-26",
+      "topics": [
+        "li-rich",
+        "ncm"
+      ],
+      "doi": "10.1021/jacs.6c11457",
+      "authors": [
+        "Yijun Song",
+        "Jie Liu",
+        "Tianwei Cui",
+        "Shiqi Wang",
+        "Min Zhang",
+        "Yue Zhou"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Developing all-solid-state batteries (ASSBs) based on high-capacity cathodes (e.g., Ni-rich and Li-rich layered oxides) offers a promising route toward next-generation batteries with high energy density and safety. However, under high voltage, the cathode/solid electrolyte (SE) interface suffers from severe chemical degradation due to enhanced cathode–catholyte interactions. Here, we propose a chemical-delithiation-induced surface reconstruction strategy for Li-rich layered oxide cathodes, as a proof of concept, to effectively eliminate cathode-catholyte interfacial chemical degradation in ASSBs. We found that chemical-delithiation treatment by NO2BF4 induces a surface reconstruction of Li-rich layered oxide, forming a cation-disordered subsurface layer, which can then incorporate fluorine alike disordered rock-salt cathodes. Such surface reconstruction passivates the oxidative surface of Li-rich cathode in which oxygen redox is prevalent at high potential, thus eliminating the interfacial chemical degradation during cycling. As a result, the treated Li-rich layered cathode achieved a reversible capacity of ∼300.3 mA h g–1 that is comparable to liquid cells and a capacity retention of 82.3% over 1500 cycles at 1 C. By extending this strategy to Ni-rich layered oxides, we further demonstrate its universality in interfacial chemical design for high-energy-density ASSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "전고체전지(ASSB)용 Li-rich 층상 산화물 양극의 고전압 계면 화학적 열화를 억제하기 위해 화학적 탈리튬화 기반 표면 재구성 전략을 제안했다. NO2BF4 처리로 양극 표면에 양이온 무질서 서브표면층을 형성하고 불소를 도입함으로써 산소 산화환원에 따른 계면 열화를 효과적으로 차단, 처리된 Li-rich 양극은 약 300.3 mAh/g의 가역 용량과 1500회 사이클 후 82.3%의 용량 유지율을 달성했다. 이 전략은 Ni-rich 층상 산화물에도 확장 적용 가능함을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214456199",
+      "source": "openalex",
+      "title": "Spatially Orchestrated Ion‐Electron‐Thermal Transport in an Ultralight Fibrous Copper Current Collector for Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78695",
+      "published": "2026-09-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78695",
+      "authors": [
+        "Jianyu Chen",
+        "Ning Yi",
+        "Tiantian Zhan",
+        "Jiamin Zhu",
+        "Ming Ni",
+        "Fanlai Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium metal batteries promise exceptional energy density but remain constrained by nonuniform Li deposition, severe volume fluctuations, and localized electrochemical‐thermal instability. Here, an ultralight conductive‐gradient current collector (UCG CC) is developed to spatially orchestrate ionic, electronic, and thermal transport through an asymmetric fibrous architecture. The UCG CC is fabricated by unilaterally depositing Cu onto a porous polyacrylonitrile nanofiber membrane, producing a Cu‐rich conductive region with a gradual decrease in Cu content across the electrode thickness. The cyano‐rich fibrous scaffold homogenizes Li + flux, whereas the interconnected Cu network redistributes electron transport, lowers local current density, and facilitates lateral heat dissipation. This spatially differentiated transport architecture directs Li nucleation toward the Cu‐rich bottom region and enables progressive pore filling, thereby suppressing separator‐facing Li accumulation and accommodating electrode‐volume variation. With an areal density of only 1.24 mg cm −2 , the UCG CC enables stable Li plating/stripping for over 2000 h in symmetric cells. Li/UCG CC||LFP full cells retain 82.66% of their capacity after 300 cycles, while pouch cells exhibit stable operation, homogeneous temperature evolution. This work establishes a mass‐efficient fibrous current‐collector platform for coordinating ion‐electron‐thermal transport in high‐energy lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "리튬 금속전지의 불균일한 Li 증착과 부피 변화 문제를 해결하기 위해, 비대칭 섬유 구조를 가진 초경량 전도성 구배 구리 집전체(UCG CC)를 개발했다. Cu 함량이 두께 방향으로 점진적으로 변하는 다공성 폴리아크릴로니트릴 나노섬유 지지체는 Li+ 플럭스를 균일화하고 전자 전달 경로를 재분배하여 Li 핵생성을 Cu가 풍부한 하부 영역으로 유도한다. 1.24 mg/cm²의 낮은 면밀도에서도 대칭 셀에서 2000시간 이상 안정적인 Li 도금/탈리를 구현했고, Li/UCG CC||LFP 완전지는 300사이클 후 82.66%의 용량을 유지했다.",
+      "relevant": true
+    },
     {
       "id": "W7214308872",
       "source": "openalex",
@@ -31,6 +122,36 @@
       "first_seen": "2026-09-27",
       "image": null,
       "summary_ko": "Li-O2 전지용 노블메탈-프리 고엔트로피 합금 전기촉매에서 쌍정 결함을 이용해 격자 변형을 변조하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7214469599",
+      "source": "openalex",
+      "title": "Dual‐Functional PDA/CMC‐Li Supramolecular Bridging Networks Unlock Trans‐Phase Li + Conduction in Composite Solid Electrolytes for High‐Performance Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78716",
+      "published": "2026-09-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78716",
+      "authors": [
+        "Leyuan Ma",
+        "Miaofa Yuan",
+        "Kangdong Tian",
+        "Ruifeng Li",
+        "Xuehui Li",
+        "Yumei Gong"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Composite solid electrolytes (CSEs) hold immense promise for high‐energy‐density solid‐state lithium metal batteries, yet their practical application remains severely hampered by filler agglomeration and sluggish interfacial Li + transport. Herein, dual‐functional supramolecular bridging networks are constructed by employing lithiated carboxymethyl cellulose (CMC‐Li) as dynamic bridges to interconnect polydopamine (PDA)‐modified Li 6.28 Al 0.24 La 3 Zr 2 O 12 (LLZAO) fillers within a PVDF‐HFP matrix. This synergistic architecture helps promote a more uniform filler dispersion and actively mediates ion solvation dynamics via simultaneous anion trapping and cation extraction. Crucially, this dual‐regulation fundamentally mitigates the space‐charge layer (SCL) effect at organic‐inorganic boundaries, actively unlocking a highly efficient trans‐phase Li + percolation pathway through the LLZAO ceramic bulk, thereby bypassing conventionally sluggish interfacial routes. The resulting spatially homogeneous ion flux may reduce localized current hotspots and suppress lithium dendrite proliferation. Consequently, the optimized PVPL electrolyte empowers Li||Li symmetrical cells to maintain stable plating/stripping over 1400 h. Furthermore, LiFePO 4 ||PVPL||Li full cells deliver 83% capacity retention after 400 cycles at 2 C, while NCM811||PVPL||Li cells maintain 88% capacity retention over 200 cycles. This dual‐functional bridging strategy establishes a generalizable and effective paradigm for engineering advanced CSEs with optimized structural and Li + transport kinetics.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "고에너지밀도 고체 리튬 금속전지용 복합 고체전해질(CSE)에서 충전재 응집과 계면 Li+ 수송 저하 문제를 해결하기 위해, 리튬화된 카르복시메틸셀룰로오스(CMC-Li)를 동적 가교제로 사용해 PDA로 개질된 LLZAO 충전재를 PVDF-HFP 매트릭스 내에서 연결하는 이중 기능성 초분자 가교 네트워크를 구축했다. 이 구조는 충전재 분산을 균일화하고 공간전하층 효과를 완화하여 LLZAO 세라믹 내부를 통한 상간 Li+ 전도 경로를 활성화함으로써 리튬 덴드라이트 성장을 억제한다. Li||Li 대칭 셀은 1400시간 이상 안정적인 도금/탈리를 유지했으며, LiFePO4||PVPL||Li 완전지는 400사이클 후 83%, NCM811||PVPL||Li 셀은 200사이클 후 88%의 용량 유지율을 보였다.",
       "relevant": true
     },
     {
@@ -154,7 +275,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77909-y/MediaObjects/41467_2026_77909_Fig1_HTML.png",
+        "cached": "img/W7214206356.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77909-y"
+      },
       "summary_ko": "Cu1.8S/Ru 이종구조를 황 침출시켜 만든 CuRu-Cu2O 나노복합체로 질산염 환원 기반 암모니아 합성을 구현한 연구다. 0V(RHE)에서 95.4%의 암모니아 패러데이 효율을 30사이클 이상 안정적으로 유지했으며, 아연-질산염 전지에서 50시간 이상 구동을 시연했다.",
       "relevant": false
     },
@@ -421,7 +547,12 @@
       "journal_id": "S103895331",
       "journal_metric": 22.23,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41563-026-02757-6/MediaObjects/41563_2026_2757_Fig1_HTML.png",
+        "cached": "img/W7214163595.jpg",
+        "license": null,
+        "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02757-6"
+      },
       "summary_ko": "리튬 금속 음극의 덴드라이트 형성을 억제하기 위한 접종(inoculation) 기반 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
@@ -477,7 +608,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78096-6/MediaObjects/41467_2026_78096_Fig1_HTML.png",
+        "cached": "img/W7214164781.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78096-6"
+      },
       "summary_ko": "파나마와 일본 남서부 화산호의 감람석 함유 용융포유물에 대한 붕소동위원소 및 지구화학 분석을 수행했다. 고온 섭입대에서 슬랩 탄산염의 60% 이상이 얕은 깊이의 탈탄산 작용을 우회하여 깊은 곳까지 운반됨을 규명했다.",
       "relevant": false
     },
@@ -556,7 +692,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-09-26",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00958-8/MediaObjects/41578_2026_958_Fig1_HTML.png",
+        "cached": "img/W7214199007.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00958-8"
+      },
       "summary_ko": "차세대 배터리를 위한 전해질 설계 전략을 다루는 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
     },
@@ -990,6 +1131,34 @@
       "relevant": true
     },
     {
+      "id": "W7213888489",
+      "source": "openalex",
+      "title": "Cellulose swelling chemistry enables biomass-derived hard carbons with high-rate plateau capability for sodium ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105551",
+      "published": "2026-09-21",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105551",
+      "authors": [
+        "Kai Gu",
+        "Junan Feng",
+        "Taiping Zeng",
+        "Jingye Wang",
+        "Guilin Feng",
+        "Wen Xi"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "Cellulose-rich biomass combines low cost, natural abundance and flexible microstructural tunability, thereby positioning itself as one of the most attractive precursors for fabricating high-performance hard carbons (HCs) anodes used in sodium-ion batteries (SIBs). However, constructing closed-pore structures within the robust macromolecular cellulose of biomass remains challenging for extending the plateau capacity and enhancing the diffusion kinetics of HCs. Herein, we propose an innovative swelling pretreatment strategy for cellulose using lithium hydroxide (LiOH) as the swelling reagent. Molecular dynamics simulations reveal that hydrated lithium ions penetrate the crystalline regions of cellulose and remain trapped during low-temperature drying, subsequently generating steam vapor upon carbonization to create closed pores. As a proof of concept, after swelling treatment with a moderate LiOH solution, the optimized ramie-derived HCs enables a superior rate capability of 195.7 mAh g −1 at an ultra-high rate of 6,000 mA g −1 . Combined in-/ex-situ characterization and GITT analysis delineate a three-stage sodium ions diffusion/storage process in HCs, uncovering the competitive kinetics between side reactions and the closed-pore dominated sodium cluster formation mechanism, which provides crucial insight for optimizing high-rate performance in SIBs. Overall, this study advances the mechanistic understanding of high-rate sodium storage and presents a novel material design strategy, offering valuable guidance for the development of next-generation biomass-derived anode materials for SIBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105551",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "바이오매스 유래 셀룰로오스를 LiOH 수용액으로 팽윤 전처리하여 소듐이온전지용 하드카본 음극의 폐쇄기공 구조를 형성하는 전략을 제안했다. 수화된 리튬이온이 셀룰로오스 결정 영역에 침투해 저온 건조 중 갇혔다가 탄화 시 수증기를 생성함으로써 폐쇄기공을 형성하며, 최적화된 라미 유래 하드카본은 6,000 mA/g의 초고속 조건에서 195.7 mAh/g의 우수한 율속 특성을 보였다. 이 연구는 하드카본의 고율 소듐 저장 메커니즘에 대한 이해를 심화시킨다.",
+      "relevant": false
+    },
+    {
       "id": "W7213890479",
       "source": "openalex",
       "title": "Beyond Physical Protection Paradigm: Surface‐bonded Molecular Integration for Durable High‐voltage LiCoO 2",
@@ -1212,6 +1381,34 @@
       },
       "summary_ko": "화학결합 계면을 이용해 근진공 조건에서도 작동 가능한 리튬 금속전지를 구현한 연구. 폴리(ε-카프로락톤) 세그먼트의 카르보닐기와 리튬 금속 간 Li-O 결합 계면을 형성하여 외부 적층 압력 없이도 전극-전해질 밀착 접촉을 유지했다. 이 PPE 전해질은 높은 접착에너지와 전기이중층 정전용량 증가로 우수한 리튬 이동수(0.7)와 99.78%의 쿨롱효율을 달성했으며, NCM 양극 파우치셀은 -0.1MPa 조건에서 40사이클 후 90.12%의 용량 유지율을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "W7213791691",
+      "source": "openalex",
+      "title": "Chaotic anion-driven rapid proton diffusion and freezing point depression for acid-free electrolyte toward superior aqueous proton battery",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105548",
+      "published": "2026-09-20",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105548",
+      "authors": [
+        "Tianjiang Sun",
+        "Weijia Zhang",
+        "Yutong Chen",
+        "Mengyao Shi",
+        "Qiong Sun",
+        "Min Cheng"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "산성 성분이 없는 전해질에서 무질서한(카오틱) 음이온이 빠른 양성자 확산과 어는점 강하를 유도하여 수계 양성자전지의 성능을 향상시키는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7213866412",
@@ -1661,6 +1858,35 @@
       },
       "summary_ko": "결핵균(Mtb) 바이오필름의 세포외 DNA(eDNA)에 풍부한 Z-DNA를 표적하는 나노입자 Nano-NucleOTAC(락토페린-클로로퀸-DNase 결합체)를 개발했다. 이 물질은 Z-DNA로의 전환과 효소 절단을 통해 바이오필름을 효과적으로 분해하고, 호중구 세포외 트랩 형성과 대식세포의 살균 작용을 강화했다. 마우스 폐 감염 모델과 임상 객담 시료에서 리팜피신 효능을 증대시키고 다양한 항산균 및 비결핵항산균에 대해 높은 효과를 보였다.",
       "relevant": false
+    },
+    {
+      "id": "W7213458500",
+      "source": "openalex",
+      "title": "Mechanical signals decode Li-deposition porosity for failure analysis and early warning in practical lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105541",
+      "published": "2026-09-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105541",
+      "authors": [
+        "Can Wang",
+        "Renjie Wang",
+        "Yuxuan Zhang",
+        "Jianming Li",
+        "Quanqing Yu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "실사용 리튬 금속전지에서 기계적 신호를 이용해 Li 증착 다공성을 해석함으로써 고장 분석과 조기 경보를 수행하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7213454767",
@@ -2138,6 +2364,36 @@
         "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78510"
       },
       "summary_ko": "리튬 보충제 소재 Li6MnO4의 지나치게 높은 탈리튬화 전위 문제를 해결하기 위해 Co2+ 부분치환을 통한 사면체 배위장 왜곡 전략을 개발했다. 산화환원 활성 오비탈 에너지 준위를 높여 산소 전하보상을 촉진하고 Li-O 상호작용을 약화시킴으로써 저전압 리튬 추출을 구현했다. 최적화된 Li6Mn0.8Co0.2O4는 3.0-4.3V 구간에서 775.6 mAh/g의 유효 리튬보충 용량을 나타냈으며, NCM||Si/C 풀셀의 초기 가역용량을 16 mAh/g 높이고 장기 용량유지율을 19.4% 개선했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213337075",
+      "source": "openalex",
+      "title": "Target‑oriented design of Prussian blue analogues for high‑energy and high‑power sodium‑ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105533",
+      "published": "2026-09-15",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105533",
+      "authors": [
+        "Jiaxu Liu",
+        "Yun Gao",
+        "Haizhu Li",
+        "Jinkui Li",
+        "Xihao Lin",
+        "Zecong Zhao"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-28",
+      "image": null,
+      "summary_ko": "고에너지·고출력 소듐이온전지를 위한 프러시안 블루 유사체(PBA) 양극재의 표적 지향적 설계에 관한 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
     {

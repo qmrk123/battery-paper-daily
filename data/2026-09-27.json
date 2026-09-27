@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generated_at": "2026-09-26T23:25:57+00:00",
+  "generated_at": "2026-09-27T23:46:27+00:00",
   "count": 8,
   "papers": [
     {
@@ -29,7 +29,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-27",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77604-y/MediaObjects/41467_2026_77604_Fig1_HTML.png",
+        "cached": "img/W7214308872.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77604-y"
+      },
       "summary_ko": "Li-O2 전지용 노블메탈-프리 고엔트로피 합금 전기촉매에서 쌍정 결함을 이용해 격자 변형을 변조하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
@@ -134,7 +139,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-27",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78041-7/MediaObjects/41467_2026_78041_Fig1_HTML.png",
+        "cached": "img/W7214233186.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78041-7"
+      },
       "summary_ko": "이 연구는 고체 고분자 전해질에서 음이온을 1차원 하전 계면에 고정해 리튬염 해리를 촉진하고 Li+의 집단적 1차원 이동을 유도하는 'Li+ 셔틀버스' 전략을 제안하였다. 이 전해질은 28°C에서 0.92×10−3 S cm−1의 이온전도도를 보이며, Li‖LiFePO4 셀은 5C에서 약 5000회 사이클, -40°C에서 900회 사이클 후 77% 용량을 유지했다. Li‖NCM811 파우치셀은 508 Wh kg−1의 에너지밀도로 200회 사이클 후 95.2%의 용량 유지율을 보였다.",
       "relevant": true
     },
