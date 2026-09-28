@@ -90,7 +90,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78695",
+        "cached": "img/W7214456199.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78695"
+      },
       "summary_ko": "리튬 금속전지의 불균일한 Li 증착과 부피 변화 문제를 해결하기 위해, 비대칭 섬유 구조를 가진 초경량 전도성 구배 구리 집전체(UCG CC)를 개발했다. Cu 함량이 두께 방향으로 점진적으로 변하는 다공성 폴리아크릴로니트릴 나노섬유 지지체는 Li+ 플럭스를 균일화하고 전자 전달 경로를 재분배하여 Li 핵생성을 Cu가 풍부한 하부 영역으로 유도한다. 1.24 mg/cm²의 낮은 면밀도에서도 대칭 셀에서 2000시간 이상 안정적인 Li 도금/탈리를 구현했고, Li/UCG CC||LFP 완전지는 300사이클 후 82.66%의 용량을 유지했다.",
       "relevant": true
     },
@@ -120,7 +126,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-09-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78716",
+        "cached": "img/W7214469599.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78716"
+      },
       "summary_ko": "고에너지밀도 고체 리튬 금속전지용 복합 고체전해질(CSE)에서 충전재 응집과 계면 Li+ 수송 저하 문제를 해결하기 위해, 리튬화된 카르복시메틸셀룰로오스(CMC-Li)를 동적 가교제로 사용해 PDA로 개질된 LLZAO 충전재를 PVDF-HFP 매트릭스 내에서 연결하는 이중 기능성 초분자 가교 네트워크를 구축했다. 이 구조는 충전재 분산을 균일화하고 공간전하층 효과를 완화하여 LLZAO 세라믹 내부를 통한 상간 Li+ 전도 경로를 활성화함으로써 리튬 덴드라이트 성장을 억제한다. Li||Li 대칭 셀은 1400시간 이상 안정적인 도금/탈리를 유지했으며, LiFePO4||PVPL||Li 완전지는 400사이클 후 83%, NCM811||PVPL||Li 셀은 200사이클 후 88%의 용량 유지율을 보였다.",
       "relevant": true
     },
