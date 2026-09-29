@@ -1,0 +1,240 @@
+{
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T00:55:40+00:00",
+  "count": 8,
+  "papers": [
+    {
+      "id": "W7214519475",
+      "source": "openalex",
+      "title": "“Lithium‐Free” Anode Solid‐State Batteries Enabled by 3D Structured Miec Garnet",
+      "url": "https://doi.org/10.1002/aenm.71648",
+      "published": "2026-09-27",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71648",
+      "authors": [
+        "G. V. Alexander",
+        "Aoife M. Zuercher",
+        "Jay Yvonne Easter",
+        "Christopher Tang",
+        "William Schubert",
+        "J. Evans Gritton"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Inhomogeneous lithium nucleation at the current collector‐solid electrolyte interface leads to unstable lithium growth and poor reversibility in “lithium‐free” solid‐state batteries. Here we show that stable lithium formation occurs within a mixed ionic and electronic conducting (MIEC) garnet scaffold. The intrinsic electronic conductivity of the porous framework enables lithium to nucleate uniformly along internal pore surfaces, rapidly forming a conformal lithium coating, thus establishing electronic connectivity at very low lithium volume fraction. This uniform lithium formation dramatically lowers anode impedance, enabling reversible lithium plating and stripping with Coulombic efficiencies of a previously unheard‐of 99.95%. When paired with NMC811 cathodes, bilayer (MIEC(P)‐LLZ(D)) “lithium‐free” full cells exhibit stable, highly reversible cycling at practical current densities, all at room temperature with no applied pressure. The interplay between lithium volume fraction and impedance is quantitatively modeled, transforming the understanding of lithium nucleation in a “lithium‐free” cell from an empirical interface problem to a percolation‐governed transport process, guiding the design of electronically percolating scaffolds for next‐generation solid‐state batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71648",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "리튬-프리(무리튬) 고체전지에서 집전체-고체전해질 계면의 불균일한 리튬 핵생성 문제를 해결하기 위해 혼합 이온-전자 전도성(MIEC) 가넷 스캐폴드를 도입했다. 다공성 프레임워크 내부 기공 표면에서 리튬이 균일하게 핵생성되어 낮은 리튬 부피 분율에서도 전기적 연결성이 확보되며, 쿨롱 효율 99.95%의 가역적인 리튬 도금/탈리가 가능하다. NMC811 양극과 짝을 이룬 이중층(MIEC(P)-LLZ(D)) 무리튬 완전 전지는 상온·무가압 조건에서도 안정적으로 구동되며, 리튬 부피 분율-임피던스 관계를 퍼콜레이션 기반 수송 모델로 정량화했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214550799",
+      "source": "openalex",
+      "title": "Sodiophilic Na 3 Sb Framework‐Regulated Sodium Deposition and Interphase Evolution for Dendrite‐Free and Long‐Life Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/advs.77935",
+      "published": "2026-09-27",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/advs.77935",
+      "authors": [
+        "So Hyun Lee",
+        "Dawon Baek",
+        "I. P. Kim",
+        "Sang Jun Lee",
+        "Ho Jin Ma",
+        "Tae Hoon Hwang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Sodium (Na) metal anodes are attracting great attention as next‐generation energy storage systems due to their high theoretical capacity, abundant resources, and low cost. However, an unstable solid‐electrolyte interphase (SEI), uncontrolled dendrite growth, and large volume changes are major factors limiting the practical application of Na metal anodes. Herein, we develop a Na‐Sb alloy anode featuring a three‐dimensional sodiophilic Na 3 Sb framework embedded within a metallic Na matrix. The interconnected Na 3 Sb framework homogenizes the Na + flux and provides abundant Na nucleation sites, enabling uniform Na deposition while effectively suppressing dendrite growth. Moreover, the engineered interface promotes the formation of a dense, NaF‐rich inorganic SEI with high mechanical strength and chemical stability, which effectively accommodates volume changes and stabilizes the Na metal/electrolyte interface during repeated cycling. Consequently, the NSF‐3||NSF‐3 symmetric cell delivers remarkably stable cycling for over 1000 h at 0.5 mA cm −2 with a capacity of 0.5 mAh cm −2 , exhibiting significantly improved interfacial stability and Na plating behavior. This work demonstrates that constructing a sodiophilic Na 3 Sb framework is an effective strategy for regulating Na deposition and stabilizing the Na metal interface, providing a practical pathway toward high‐energy‐density and long‐life sodium metal batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77935",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "소듐 금속 음극의 덴드라이트 성장과 불안정한 SEI 문제를 해결하기 위해 금속 소듐 매트릭스 내부에 3차원 소듐친화성 Na3Sb 프레임워크를 내장한 Na-Sb 합금 음극을 개발했다. 상호 연결된 Na3Sb 프레임워크가 Na+ 플럭스를 균일화하고 풍부한 핵생성 자리를 제공해 균일한 소듐 증착과 덴드라이트 억제를 유도하며, NaF가 풍부한 치밀한 무기 SEI 형성을 촉진해 계면 안정성을 높인다. 대칭전지는 0.5 mA/cm², 0.5 mAh/cm² 조건에서 1000시간 이상 안정적으로 사이클링되었다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214520605",
+      "source": "openalex",
+      "title": "Linkage Engineering Boosts Battery Performance of Two‐Electron Phenothiazine‐Based Polyamide Cathodes",
+      "url": "https://doi.org/10.1002/advs.77960",
+      "published": "2026-09-27",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/advs.77960",
+      "authors": [
+        "Shujuan Cao",
+        "Chunping Ren",
+        "Jing Qin",
+        "Xiujuan Wang",
+        "Xiaoming He"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Organic cathode materials based on redox‐active p‐type phenothiazine have attracted considerable interest for lithium‐organic batteries (LOBs) due to their high operating voltage and tunable chemical structures. Nevertheless, their practical application is often limited by low capacity resulting from single‐electron transfer per molecule, as well as poor cycling stability caused by solubility issues. In this work, we report three phenothiazine‐based polyamides and demonstrate a straightforward linker engineering strategy to synergistically overcome these challenges. The linker motif serves not only as a structural bridge to suppress solubility, but also as a functional design element that governs optoelectronic properties and electron/ion transport kinetics. Among the series, the benzene‐bridged polymer MPT‐AB exhibits the most balanced optoelectronic performance and transport kinetics, resulting in the best battery performance. When employed as a cathode in LOBs, MPT‐AB exhibits two reversible redox processes, a high average voltage of 3.7 V, and a reversible capacity of 150 mAh g −1 at 0.2 A g −1 . It also demonstrates excellent rate capability and outstanding cycling stability, achieving 90 % and 72% capacity retention after 2000 and 5000 cycles at 5 A g −1 . The potential application has also been demonstrated with satisfactory performance in an MPT‐AB //graphite full battery.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77960",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "2전자 산화환원이 가능한 페노티아진 기반 폴리아마이드 유기 양극재에서, 분자당 1전자 전달에 따른 낮은 용량과 용해도 문제로 인한 사이클 불안정성을 링커 엔지니어링 전략으로 해결했다. 벤젠으로 가교된 MPT-AB는 가장 균형 잡힌 광전자 특성과 전달 동역학을 보여 3.7V의 높은 평균 전압과 0.2 A/g에서 150 mAh/g의 가역 용량을 달성했으며, 5 A/g에서 2000/5000사이클 후 각각 90%/72%의 용량 유지율을 기록했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214527911",
+      "source": "openalex",
+      "title": "Fluorination‐Tuned Covalent Organic Framework Interphases for Controllable LiF Content in Dendrite‐Free Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71635",
+      "published": "2026-09-27",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71635",
+      "authors": [
+        "Haiye Zhu",
+        "Lei Qiu",
+        "Jie Cui",
+        "Qi An",
+        "Guiquan Zhao",
+        "Guiquan Zhao"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT To tackle the challenge of precisely regulating LiF content within the solid electrolyte interphase (SEI) of high‐energy‐density lithium metal batteries (LMBs), this work presents a fluorination‐gradient design strategy, enabling controllable LiF formation through a covalent organic framework‐based artificial SEI layer (0F‐, 2F‐, and 4F‐COF), and lays the foundation for uncovering the interfacial regulation mechanism. Density functional theory calculations reveal that the electron‐withdrawing F group not only forms an ultra‐low HOMO energy orbital but also promotes the dissociation of LiPF 6 via charge delocalization, enabling an oxidation stability of up to 5.4 V (vs. Li + /Li). Consequently, the Li||Li symmetric cell sustains stable cycling for over 6000 h at 1 mA·cm −2 , while 4F‐COF@Li cell enables capacity retentions of 90.0% (LiFePO 4 , 1000 cycles), 80.5% (LiNi 0.8 Co 0.1 Mn 0.1 O 2 , 300 cycles), and 70.1% (LiNi 0.9 Co 0.09 Mo 0.01 O 2 , 300 cycles) at 5 C. Ab initio molecular dynamics simulations combined with in situ characterizations further reveal that F‐rich microenvironment of 4F‐COF accelerates LiPF 6 dissociation and inhibits dendrite growth while directing the formation of a robust LiF‐rich SEI interphase. Overall, this work establishes precision fluorination of COF‐based artificial SEI layers as a new design strategy for developing safe, high‐rate, and dendrite‐free LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "리튬 금속 전지 SEI 내 LiF 함량을 정밀하게 조절하기 위해 불소화 구배를 갖는 공유결합 유기골격체(COF) 기반 인공 SEI(0F-, 2F-, 4F-COF)를 설계했다. 전자끄는기인 F가 LiPF6 해리를 촉진하고 산화 안정성을 5.4V(vs. Li+/Li)까지 높이며, Li||Li 대칭전지는 1 mA/cm²에서 6000시간 이상 안정적으로 사이클링되었다. 4F-COF 적용 셀은 LiFePO4(1000사이클, 90.0%), NCM811(300사이클, 80.5%), NCM9955(300사이클, 70.1%) 조건에서 우수한 용량 유지율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214520575",
+      "source": "openalex",
+      "title": "A Conduction‐Nucleation‐Competition‐Guided 3D Adaptive Gradient Buffer for Dendrite‐Free All‐Solid‐State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/advs.77775",
+      "published": "2026-09-27",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.77775",
+      "authors": [
+        "Yaru Shi",
+        "Libin Hu",
+        "Qiuhong Li",
+        "Zheng Zhang",
+        "Shoushuang Huang",
+        "Bing Zhao"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT The existing designs of buffer for all‐solid‐state Li‐metal batteries (ASSLMBs) are mostly limited to static optimization of single functions and lack systematic regulation of the dynamic competition among ionic conduction, electron distribution, and interfacial lithiophilicity. Herein, a conduction‐nucleation competition mechanism is proposed firstly, clarifying that lithium deposition is governed by the synergy of these three factors. Guided by this principle, a self‐adaptive gradient buffer layer composed of soft carbon and Mg 3 N 2 (SCMN) is designed. After lithiation, the buffer forms a continuous lithiophobic/lithiophilic gradient and subsequently undergoes in‐situ conversion into highly ion‐conductive Li 3 N and highly electron‐conductive/ lithiophilic Li‐C/Li‐Mg alloys during electrochemical activation, enabling dynamic interface self‐optimization. The gradient structure creates a fast ion–electron dual conduction network, guiding bottom‐top lithium deposition within the buffer layer without volume expansion. Consequently, the symmetric cells achieve stable cycling over 1600 h at 1.5 mA cm − 2 and remain stable even under low stack pressure (15 MPa). The LiCoO 2 ‐based full cells deliver ultra‐stable cycle with 98.5% capacity retention after 200 cycles at 0.1 C. Additionally, the full cells paired with high‐voltage LiNi 0.8 Co 0.1 Mn 0.1 O 2 cathodes exhibit exceptional cycling stability at high loading (4.45 mg cm −2 ). This work demonstrates a mechanism‐driven design paradigm toward high‐energy, long‐life ASSLMBs.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.77775",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "전고체 리튬 금속 전지의 완충층 설계에서 이온 전도, 전자 분포, 리튬친화성 간의 동적 경쟁을 통합 조절하는 전도-핵생성 경쟁 메커니즘을 제안하고, 연질탄소와 Mg3N2로 구성된 자기적응형 구배 완충층(SCMN)을 개발했다. 리튬화 후 리튬친화성/소수성 구배가 형성되고 전기화학적 활성화 과정에서 고이온전도성 Li3N과 고전자전도성·리튬친화성 Li-C/Li-Mg 합금으로 전환되어 계면을 동적으로 최적화한다. 대칭전지는 1.5 mA/cm²에서 1600시간 이상, 15 MPa의 낮은 적층 압력에서도 안정적으로 구동되며 LiCoO2 및 고전압 NCM811 완전 전지에서도 우수한 사이클 안정성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214440997",
+      "source": "openalex",
+      "title": "Lanthanide MAX phases derived from M2A sublayer: synthesis, thermal properties and magnetic properties",
+      "url": "https://doi.org/10.1016/j.mattod.2026.103522",
+      "published": "2026-09-26",
+      "topics": [],
+      "doi": "10.1016/j.mattod.2026.103522",
+      "authors": [
+        "Qian Fang",
+        "Xudong Wang",
+        "Ke Chen",
+        "Lin Gao",
+        "Mian Li",
+        "Zhifang Chai"
+      ],
+      "venue": "Materials Today",
+      "abstract_en": "MAX phases are layered ternary compounds (M n +1 AX n , n = 1–6) that combine metallic and ceramic characteristics, which arise from their alternating edge-sharing covalent [M 6 X] octahedra and A-element sublayers. Incorporation of lanthanides with strongly localized 4 f electrons at the M site provides a promising route to introduce emergent properties. However, conventional synthesis strategies, including direct solid-state reactions, A-site substitution and X-site editing, are frequently constrained by competing phase formation or reliance on suitable MAX precursors. Here, we develop a Ln 2 A-derived strategy (Ln = Gd, Er, Lu; A = S, Se) to synthesize lanthanide MAX phases (Ln 2 AC) via a carbon intercalation-induced structural transformation. The resulting Ln 2 AC crystallize in the space group R -3 m . These compounds exhibit distinct thermal properties, with ratios of c - to a -axis thermal expansion coefficients ranging from 0.85 to 1.03, and thermal conductivities ranging from 6.550 to 11.712 W/(m·K). Furthermore, elements with unpaired 4 f electrons (Ln = Gd, Er) endow Ln 2 AC with ferromagnetic behavior, as evidenced by Curie-Weiss temperatures ranging from 0.6 to 202 K and the presence of low-temperature ferromagnetic hysteresis at 2 K. This work establishes a sublayer-derived paradigm that unlocks access to lanthanide MAX phases and opens a route toward the design of coupled thermal and magnetic functional layered materials.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.mattod.2026.103522",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S63322718",
+      "journal_metric": 13.18,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "란타넘족 원소를 M 자리에 도입한 MAX상(Ln2AC, Ln=Gd, Er, Lu; A=S, Se)을 Ln2A 전구체로부터 탄소 삽입 유도 구조 전환을 통해 합성하는 전략을 제시했다. 합성된 화합물은 R-3m 공간군을 가지며 c/a축 열팽창 계수비 0.85~1.03, 열전도도 6.550~11.712 W/(m·K)의 열적 특성을 보인다. Gd, Er을 포함한 화합물은 국소화된 4f 전자에 의해 강자성을 나타내며 퀴리-바이스 온도 0.6~202K와 2K에서의 저온 강자성 이력현상을 확인했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213922690",
+      "source": "openalex",
+      "title": "Pore engineering in bipyridyl-based covalent organic frameworks for high performance aqueous zinc-iodine batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105547",
+      "published": "2026-09-21",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105547",
+      "authors": [
+        "Chao Liu",
+        "Xianghao Ru",
+        "Xinghan Qu",
+        "Yucheng Jin",
+        "Zhixuan Wang",
+        "Yuanyuan Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "아쿠아스 아연-요오드 전지의 성능 향상을 위해 바이피리딜 기반 공유결합 유기골격체(COF)의 기공 구조를 설계·최적화하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7213295692",
+      "source": "openalex",
+      "title": "Emerging high-entropy materials for rechargeable lithium batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105517",
+      "published": "2026-09-15",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105517",
+      "authors": [
+        "Mengyuan Li",
+        "Chuju Wang",
+        "Yuchen Wang",
+        "Muye Zhou",
+        "Xianbao Wang",
+        "Guoxiu Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-29",
+      "image": null,
+      "summary_ko": "재충전 가능 리튬 전지에 적용되는 고엔트로피 소재에 관한 연구로, 다양한 원소를 조합한 고엔트로피 재료의 설계와 전지 적용 가능성을 다룬 것으로 보인다. (제목 기반 추정)",
+      "relevant": false
+    }
+  ]
+}
