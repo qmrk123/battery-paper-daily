@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71648",
+        "cached": "img/W7214519475.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71648"
+      },
       "summary_ko": "리튬-프리(무리튬) 고체전지에서 집전체-고체전해질 계면의 불균일한 리튬 핵생성 문제를 해결하기 위해 혼합 이온-전자 전도성(MIEC) 가넷 스캐폴드를 도입했다. 다공성 프레임워크 내부 기공 표면에서 리튬이 균일하게 핵생성되어 낮은 리튬 부피 분율에서도 전기적 연결성이 확보되며, 쿨롱 효율 99.95%의 가역적인 리튬 도금/탈리가 가능하다. NMC811 양극과 짝을 이룬 이중층(MIEC(P)-LLZ(D)) 무리튬 완전 전지는 상온·무가압 조건에서도 안정적으로 구동되며, 리튬 부피 분율-임피던스 관계를 퍼콜레이션 기반 수송 모델로 정량화했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77935",
+        "cached": "img/W7214550799.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77935"
+      },
       "summary_ko": "소듐 금속 음극의 덴드라이트 성장과 불안정한 SEI 문제를 해결하기 위해 금속 소듐 매트릭스 내부에 3차원 소듐친화성 Na3Sb 프레임워크를 내장한 Na-Sb 합금 음극을 개발했다. 상호 연결된 Na3Sb 프레임워크가 Na+ 플럭스를 균일화하고 풍부한 핵생성 자리를 제공해 균일한 소듐 증착과 덴드라이트 억제를 유도하며, NaF가 풍부한 치밀한 무기 SEI 형성을 촉진해 계면 안정성을 높인다. 대칭전지는 0.5 mA/cm², 0.5 mAh/cm² 조건에서 1000시간 이상 안정적으로 사이클링되었다.",
       "relevant": true
     },
@@ -88,7 +100,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77960",
+        "cached": "img/W7214520605.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77960"
+      },
       "summary_ko": "2전자 산화환원이 가능한 페노티아진 기반 폴리아마이드 유기 양극재에서, 분자당 1전자 전달에 따른 낮은 용량과 용해도 문제로 인한 사이클 불안정성을 링커 엔지니어링 전략으로 해결했다. 벤젠으로 가교된 MPT-AB는 가장 균형 잡힌 광전자 특성과 전달 동역학을 보여 3.7V의 높은 평균 전압과 0.2 A/g에서 150 mAh/g의 가역 용량을 달성했으며, 5 A/g에서 2000/5000사이클 후 각각 90%/72%의 용량 유지율을 기록했다.",
       "relevant": true
     },
@@ -118,7 +136,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71635",
+        "cached": "img/W7214527911.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71635"
+      },
       "summary_ko": "리튬 금속 전지 SEI 내 LiF 함량을 정밀하게 조절하기 위해 불소화 구배를 갖는 공유결합 유기골격체(COF) 기반 인공 SEI(0F-, 2F-, 4F-COF)를 설계했다. 전자끄는기인 F가 LiPF6 해리를 촉진하고 산화 안정성을 5.4V(vs. Li+/Li)까지 높이며, Li||Li 대칭전지는 1 mA/cm²에서 6000시간 이상 안정적으로 사이클링되었다. 4F-COF 적용 셀은 LiFePO4(1000사이클, 90.0%), NCM811(300사이클, 80.5%), NCM9955(300사이클, 70.1%) 조건에서 우수한 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -148,7 +172,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-09-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77775",
+        "cached": "img/W7214520575.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77775"
+      },
       "summary_ko": "전고체 리튬 금속 전지의 완충층 설계에서 이온 전도, 전자 분포, 리튬친화성 간의 동적 경쟁을 통합 조절하는 전도-핵생성 경쟁 메커니즘을 제안하고, 연질탄소와 Mg3N2로 구성된 자기적응형 구배 완충층(SCMN)을 개발했다. 리튬화 후 리튬친화성/소수성 구배가 형성되고 전기화학적 활성화 과정에서 고이온전도성 Li3N과 고전자전도성·리튬친화성 Li-C/Li-Mg 합금으로 전환되어 계면을 동적으로 최적화한다. 대칭전지는 1.5 mA/cm²에서 1600시간 이상, 15 MPa의 낮은 적층 압력에서도 안정적으로 구동되며 LiCoO2 및 고전압 NCM811 완전 전지에서도 우수한 사이클 안정성을 보였다.",
       "relevant": true
     },
