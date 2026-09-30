@@ -144,7 +144,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1297472",
+        "cached": "img/W7214598277.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1297472"
+      },
       "summary_ko": "겔 고분자 전해질(GPE) 기반 리튬이온전지에서 잔류 단량체로 인한 고니켈 NCM 양극-전해질 계면(CEI) 열화를 완화하는 전략을 제시했다. 첨가제 TFPP가 단량체보다 먼저 분해되어 LiF가 풍부한 보호 CEI를 형성하도록 유도하며, 2 Ah급 파우치셀에서 303 Wh/kg 에너지밀도와 150사이클 후 82.8% 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -174,7 +180,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2026-m2509022200",
+        "cached": "img/W7214602682.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2026-m2509022200"
+      },
       "summary_ko": "열화된 LiFePO4 양극의 리튬 결핍과 격자 결함, 구조 붕괴를 초분자 자기조립 계면을 이용해 회복시키는 재생 공정을 제시했다. 열 구동 방식으로 리튬 재충전, 반자리 결함 복구, 상 재구성, 전도 네트워크 복원을 순차적으로 수행하여 폐LFP를 고성능 소재로 재활용한다.",
       "relevant": true
     },
@@ -262,7 +274,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71640",
+        "cached": "img/W7214618098.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71640"
+      },
       "summary_ko": "Ga-In-Sn 액체금속을 이용한 소듐친화성 유체 집전체(LM@Cu)로 무전극(anode-free) 소듐금속전지에서 덴드라이트 없는 균일한 Na 증착을 구현한 연구다. 합금화 반응으로 핵생성 장벽을 낮추고 NaF가 풍부한 SEI를 형성해 Na3V2(PO4)3 양극 조합 셀에서 100사이클 후 약 80%의 용량 유지율을 달성했으며, 이는 기존 Cu 집전체 대비 크게 향상된 결과다.",
       "relevant": true
     },
