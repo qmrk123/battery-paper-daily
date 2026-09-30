@@ -1,32 +1,32 @@
 {
-  "title": "최근 2주 논문 브리핑 (9/17–9/27)",
-  "range": "2026-09-17 ~ 2026-09-27",
-  "overall": "리튬 금속 음극에서는 용매화 구조·전기이중층 제어를 통한 무기물(LiF/Li3N) 우세 SEI 설계와 고체·겔 전해질 계면 공학이 주류를 이루었고, 양극 분야에서는 고니켈·Li-rich 산화물의 표면 산소 안정화와 음이온 산화환원 가역성 확보가 고전압 내구성의 공통 화두로 부상했다.",
+  "title": "최근 2주 논문 브리핑 (9/20–9/28)",
+  "range": "2026-09-20 ~ 2026-09-28",
+  "overall": "이번 2주는 리튬·소듐 금속 음극의 무기물(LiF/Li3N/NaF)-풍부 SEI 설계와 계면 전하·플럭스 제어가 주된 흐름이었고, 고니켈·리튬 과잉 양극에서는 고전압 산소 산화환원 안정화와 전고체 계면 공학이 두드러졌다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "용매화 껍질(solvation sheath)과 전기이중층을 표적 제어해 무기물(LiF·Li3N) 우세 SEI를 형성하는 전해질·첨가제 전략이 압도적으로 많았으며, 곁사슬 전자효과·용매 분극률·앵커-앤-실드 정전기 차폐 등 분자 수준 설계로 탈용매화 에너지를 낮춰 고전압·저온 성능을 확보하는 방향이 뚜렷했다. 고체·겔·복합 고분자 전해질(PVDF-HFP, 초분자 가교, in-situ 중합)과 3D 집전체·완충층 설계로 균일 증착과 덴드라이트 억제를 동시에 노리는 계면 공학이 병행되었다. 한편 쿨롱효율만으로 설명되지 않는 수명 결정 인자(SEI 품질, 전해질 고갈, 리튬 보상)를 정량화하려는 기초 연구가 Science·Nature 계열에서 제시되어, 실험적 최적화와 예측 프레임워크가 함께 성숙하고 있음을 보여준다.",
+      "text": "무기물(LiF/Li3N)이 풍부한 SEI를 정밀 설계하려는 접근이 지배적으로, 불소화 COF·겔 고분자·이온성 액체 첨가제·펄스전류 증착 등 다양한 경로로 계면 조성과 이온 수송을 동시에 조율하는 전략이 반복 등장했다. 집전체·완충층 측면에서는 전도도/리튬친화성 구배를 도입해 Li+ 플럭스와 핵생성 위치를 유도하는 3D 구조(구배 구리 집전체, MIEC 가넷, 자기적응 완충층)가 공통 주제였고, 황화물 전고체 계면 인터레이어의 물성 기반 분류도 제시됐다. 한편 Science·Nature Materials급 논문들은 쿨롱효율만으로 수명을 설명하기 어렵다는 점을 지적하며 SEI 품질·전해질 고갈·크로스토크를 정량화하는 예측 프레임워크를 강조했다.",
       "highlights": [
         {"title": "Unlocking cycle life of lithium metal batteries", "url": "https://doi.org/10.1126/science.aee1630", "venue": "Science"},
-        {"title": "Solvent polarizability governs Li⁺ transport kinetics for high energy lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-77667-x", "venue": "Nature Communications"},
-        {"title": "Unlocking High‐Voltage and Low‐Temperature Capability in Lithium Metal Batteries via Coupling Bulk Solvation Tailoring with Interfacial Electrostatic “Anchor‐and‐Shield” Strategy", "url": "https://doi.org/10.1002/adfm.78590", "venue": "Advanced Functional Materials"}
+        {"title": "Fluorination‐Tuned Covalent Organic Framework Interphases for Controllable LiF Content in Dendrite‐Free Lithium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71635", "venue": "Advanced Energy Materials"},
+        {"title": "Materials‐Property Classification of Interlayers for Stabilizing Lithium Metal Interfaces in Sulfide‐Based All‐Solid‐State Batteries", "url": "https://doi.org/10.1002/aenm.71612", "venue": "Advanced Energy Materials"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고니켈 층상 양극의 고전압 구조 가역성 확보가 핵심 과제로, 나노로드 형상 제어와 Al/Ta·다원소 공동 도핑을 통한 Li/Ni 양이온 혼합 억제 및 상전이 완화 전략이 제시되었다. 표면에서는 폴리실록산·인공 CEI 형성으로 Ni4+ 산화환원을 완충하거나, 황화물 전고체 계면에서 전자상태 연속성을 확보해 계면 저항과 리튬 이동을 개선하는 접근이 두드러졌다. 전반적으로 벌크 도핑과 표면·계면 공학을 결합해 5C·4.5V급 장수명을 겨냥하는 흐름이다.",
+      "text": "고니켈 양극의 고전압 열화를 억제하기 위한 표면·계면 공학이 중심으로, ALD 리튬 니오베이트 코팅, in-situ 중합 폴리실록산 CEI, 첨가제 유도 LiF-풍부 CEI 등 다양한 계면층 설계가 제안됐다. 결정 구조 측면에서는 나노로드 형상으로 H2-H3 상전이의 격자 불일치를 완화하거나 Al3+/Ta5+ 공동 도핑으로 Li/Ni 혼합을 억제해 고전압 가역성을 높이는 접근이 병행됐다. 황화물 전고체 계면에서는 다원소 도핑으로 전자상태 연속성을 확보해 계면 저항과 리튬 이동을 개선하는 연구가 눈에 띈다.",
       "highlights": [
         {"title": "Enhancing cycling stability by promoting high-voltage structural reversibility in high-nickel positive electrode materials", "url": "https://doi.org/10.1038/s41467-026-78069-9", "venue": "Nature Communications"},
         {"title": "Electronic‐State Continuity Across a Heterointerphase of High‐Capacity Ni‐Rich Cathode for Stable Sulfide‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/adma.75070", "venue": "Advanced Materials"},
-        {"title": "Al 3+ /Ta 5+ Co‐Doping Promotes Homogeneous Li + Transport Enabling High Performance Ni‐Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adfm.78560", "venue": "Advanced Functional Materials"}
+        {"title": "Substrate-Enhanced Atomic Layer Deposition of Lithium Niobate on NMC Cathodes for Sulfide-Based All-Solid-State Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c01988", "venue": "ACS Energy Letters"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "유기 양극(페노티아진 폴리아마이드)의 링커 엔지니어링으로 다전자 산화환원과 용해 억제를 동시에 달성하거나, 표면 결합 분자 통합(SMI)으로 4.6V급 고전압 LiCoO2의 장수명을 확보하는 분자 수준 계면 설계가 주목받았다. Li-SPAN 전지의 계면 안정성-수송 트레이드오프 해소와 Li-O2 전지용 고엔트로피 합금 촉매의 격자 변형 변조 등 차세대 화학 시스템 연구도 포함되어, 유기·황·고전압·금속-공기 등 다양한 양극 화학이 병렬적으로 탐색되고 있다.",
+      "text": "유기 양극과 고전압 LiCoO2, Li-O2·Li-SPAN 등 비층상 화학 전반에서 분자 수준 설계가 두드러졌다. 페노티아진 폴리아마이드의 링커 엔지니어링으로 다전자 전달과 용해도를 개선하거나, 표면 결합 분자 통합으로 4.6V LiCoO2의 계면을 안정화하는 등 배위·결합 화학을 활용한 내구성 향상이 공통된다. 이온성 액체 첨가제로 Li-SPAN의 계면 안정성-수송 트레이드오프를 해소하고, 고엔트로피 합금 촉매로 Li-O2 반응을 조율하는 시도도 함께 보고됐다.",
       "highlights": [
         {"title": "Beyond Physical Protection Paradigm: Surface‐bonded Molecular Integration for Durable High‐voltage LiCoO 2", "url": "https://doi.org/10.1002/anie.5600863", "venue": "Angewandte Chemie International Edition"},
         {"title": "Linkage Engineering Boosts Battery Performance of Two‐Electron Phenothiazine‐Based Polyamide Cathodes", "url": "https://doi.org/10.1002/advs.77960", "venue": "Advanced Science"},
@@ -36,19 +36,29 @@
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 음극에서는 소듐친화성 Na3Sb 합금 프레임워크로 균일 증착과 NaF 우세 SEI를 유도해 덴드라이트를 억제하는 전략과, 다공성 방향족 골격체의 불소화 나노채널을 통한 초장수명 이온 수송 전해질이 제시되었다. 또한 음이온 중심 용매화 재구성으로 4.5V 고전압 소듐 금속 커패시터의 정렬된 전기이중층을 구현하는 등, 계면 화학과 용매화 제어가 공통 주제로 나타났다.",
+      "text": "소듐친화성 매개체로 균일한 Na 증착과 NaF-풍부 SEI를 형성하는 전략이 핵심으로, 액체금속 유체 집전체와 내장형 Na3Sb 합금 프레임워크가 각각 무전극·장수명 구성을 겨냥했다. 전해질 측면에서는 음이온 중심 용매화 재구성으로 정렬된 전기이중층을 만들거나, 불소화 나노채널을 통해 이온쌍 해리와 Na+ 수송을 촉진하는 준고체 접근이 제시됐다. 전반적으로 리튬 금속에서 확립된 계면·플럭스 제어 개념을 소듐계로 확장하는 흐름이 뚜렷하다.",
       "highlights": [
-        {"title": "Sodiophilic Na 3 Sb Framework‐Regulated Sodium Deposition and Interphase Evolution for Dendrite‐Free and Long‐Life Sodium Metal Batteries", "url": "https://doi.org/10.1002/advs.77935", "venue": "Advanced Science"},
+        {"title": "A Fluidic and Sodiophilic Liquid Metal Current Collector for Dendrite‐Free and Stable Anode‐Free Sodium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71640", "venue": "Advanced Energy Materials"},
         {"title": "Manipulating Fluorinated Nanochannels in Porous Aromatic Frameworks for Ultra‐Stable Sodium‐Ion Transport", "url": "https://doi.org/10.1002/anie.7843737", "venue": "Angewandte Chemie International Edition"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "Li-rich 양극의 최대 난제인 표면 산소 불안정성과 비가역 음이온 산화환원을 억제하기 위해, Cs+ 국소 전하 차폐, 화학적 탈리튬화 기반 표면 재구성, Li-P-F-O 결합 위상 도입 등 표면·계면 화학 제어가 집중되었다. 특히 전고체 시스템에서 인산염 작용기와 불소 도입으로 산소 손실과 계면 열화를 억제해 248~300 mAh/g의 고용량과 장수명을 동시에 달성하는 흐름이 뚜렷하다.",
+      "text": "리튬 과잉 양극의 고질적 문제인 표면 산소 산화환원 불안정을 억제하려는 표면·결합 공학이 집중적으로 다뤄졌다. Cs+ 전하 차폐, Li-P-F-O 결합 위상 도입, 화학적 탈리튬화 기반 표면 재구성 등 미배위 산소를 안정화하고 O2 발생·계면 열화를 차단하는 다양한 경로가 특히 전고체 구성에서 높은 용량 유지율로 이어졌다. 다만 폴리음이온 골격조차 완전 탈리튬화 상태에서 O2 발생을 본질적으로 막지는 못한다는 이론적 지적도 함께 제기됐다.",
       "highlights": [
-        {"title": "Shielding Surface Oxygen via Cationic Charge Anchorage To Stabilize Reversible Anionic Redox in Lithium-Rich Layered Oxides", "url": "https://doi.org/10.1021/acsenergylett.6c02183", "venue": "ACS Energy Letters"},
-        {"title": "Li─P─F─O Bonding Topology Governs Oxygen Redox and Interfacial Stability in High‐Rate LRMO‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/aenm.71568", "venue": "Advanced Energy Materials"}
+        {"title": "Multi-Step Oxygen Redox Mechanism in the Polyanionic Lithium-Rich Cathode Li2FeSiO4", "url": "https://doi.org/10.1021/jacs.6c02850", "venue": "Journal of the American Chemical Society"},
+        {"title": "Li─P─F─O Bonding Topology Governs Oxygen Redox and Interfacial Stability in High‐Rate LRMO‐Based All‐Solid‐State Lithium Batteries", "url": "https://doi.org/10.1002/aenm.71568", "venue": "Advanced Energy Materials"},
+        {"title": "Shielding Surface Oxygen via Cationic Charge Anchorage To Stabilize Reversible Anionic Redox in Lithium-Rich Layered Oxides", "url": "https://doi.org/10.1021/acsenergylett.6c02183", "venue": "ACS Energy Letters"}
+      ]
+    },
+    {
+      "topic": "lfp",
+      "heading": "LFP/올리빈",
+      "text": "LiFePO4 관련 연구는 폐배터리 재생과 고속 이온 수송 두 방향에서 보고됐다. 초분자 자기조립 계면을 이용해 열화된 LFP의 리튬 결핍·결함·구조 붕괴를 순차적으로 회복시키는 재생 공정과, 고체 고분자 전해질의 1차원 Li+ 수송을 활용해 LFP 셀에서 초장수명 고율 사이클링을 구현한 연구가 대표적이다.",
+      "highlights": [
+        {"title": "Inside Back Cover: Supramolecular Self‐Assembly Enables Controlled Lithium Replenishment Toward High‐Performance and Sustainable Regeneration of Spent LiFePO 4 Batteries", "url": "https://doi.org/10.1002/anie.2026-m2509022200", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Li+ Shuttle bus enables safe fast ion transport in solid polymer electrolytes", "url": "https://doi.org/10.1038/s41467-026-78041-7", "venue": "Nature Communications"}
       ]
     }
   ]

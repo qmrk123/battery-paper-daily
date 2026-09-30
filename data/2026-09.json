@@ -1,8 +1,271 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-29T00:53:20+00:00",
-  "count": 251,
+  "generated_at": "2026-09-30T00:08:54+00:00",
+  "count": 263,
   "papers": [
+    {
+      "id": "W7214668276",
+      "source": "openalex",
+      "title": "Substrate-Enhanced Atomic Layer Deposition of Lithium Niobate on NMC Cathodes for Sulfide-Based All-Solid-State Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c01988",
+      "published": "2026-09-28",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/acsenergylett.6c01988",
+      "authors": [
+        "Jaka Šivavec",
+        "Léo Lapeyre",
+        "Daniele Casari",
+        "Mariia Svyrydenko",
+        "Matthias Klimpel",
+        "Roland Widmer"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Maintaining a stable interface between sulfide solid-state electrolytes and layered oxide cathodes remains a major challenge limiting the performance of all-solid-state batteries. Atomic layer deposition (ALD) of lithium niobate (LNO) on layered oxide cathodes is widely used to stabilize these interfaces, yet the early-stage growth of LNO remains poorly understood and strongly influenced by precursor chemistry. Here, we demonstrate substrate-enhanced ALD growth of LNO on single-crystal LiNi0.82Mn0.07Co0.11O2 (NMC) achieved using commercial lithium–niobium precursor chemistry, enabling complete surface encapsulation with conformal LNO coatings thinner than 8 nm. The resulting ultrathin LNO coatings increase the discharge capacity of Li6PS5Cl-NMC all-solid-state batteries by up to 20% while maintaining good rate capability. The improved electrochemical performance is attributed to the suppressed electrochemical decomposition of the Li6PS5Cl solid-state electrolyte during cycling, as evidenced by X-ray photoelectron spectroscopy, highlighting the importance of controlling the early-stage ALD growth of LNO.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/acsenergylett.6c01988",
+      "license": "cc-by",
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "황화물계 전고체전지에서 단결정 NMC(LiNi0.82Mn0.07Co0.11O2) 양극 표면에 원자층증착(ALD)으로 리튬 니오베이트(LNO)를 코팅하여 계면 안정성을 높이는 연구다. 기판 특이적 성장 메커니즘을 이용해 8 nm 이하의 균일한 LNO 박막으로 완전한 표면 캡슐화를 구현했다. 이 코팅은 Li6PS5Cl 고체전해질의 전기화학적 분해를 억제하여 방전 용량을 최대 20% 향상시켰다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214618134",
+      "source": "openalex",
+      "title": "Stress-adaptive conductive network and ion-segregated polymeric-inorganic interphases enable durable room-temperature silicon-based solid-state batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78184-7",
+      "published": "2026-09-28",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78184-7",
+      "authors": [
+        "Chuyang Li",
+        "Zhefei Sun",
+        "Bin Wang",
+        "Wenwei Ding",
+        "Changhui Ke",
+        "Chaofei Lan"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78184-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "실리콘 기반 상온 전고체전지에서 응력에 적응하는 전도성 네트워크와 이온이 분리된 고분자-무기물 계면을 이용해 내구성을 향상시키는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7214583865",
+      "source": "openalex",
+      "title": "Self-adaptive layered oxide cathodes driven by charge reconfiguration for sodium-ion batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78040-8",
+      "published": "2026-09-28",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1038/s41467-026-78040-8",
+      "authors": [
+        "Jia-Yang Li",
+        "Ying Guo",
+        "Xin Wang",
+        "Wei Kong Pang",
+        "Haiyan Hu",
+        "Yanfang Zhu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Layered oxide cathodes have attracted worldwide attention due to environmentally friendliness, structural diversity, and economic benefits. However, poor long-term cycling and unsatisfactory rate performance hinder the practical application. Hence, an oxide cathode with self-adaptive volume has been designed, achieving stable capacity retention of 82% after 1000 cycles at 2 C. The enhanced long-term performance is attributed to its dynamically adjustable volume reducing the acceleration of stress, enabled by a tunable interlayer distance that expands at the beginning of the charging process and then compresses at the highest voltage. Uniform electric field distribution is depicted by 4-dimensional scanning transmission electron microscopy showing even Coulombic interactions between the oxide layers leading to high mechanical integrity. Such self-adaptable behavior originates from the reduced repulsive force between interlayered oxygen due to the charge reconfiguration of intralayer oxygen and transition metal ions. Additionally, the charge compensation behavior is detected by in situ X-ray absorption spectra, which would be beneficial to high-rate performance. The self-adaptive volume change driven by charge reconfiguration provides a pathway toward durable materials for sustainable sodium-ion energy storage.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78040-8",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "소듐이온전지용 층상 산화물 양극에서 전하 재구성에 의해 구동되는 자기적응형 부피 변화를 설계하여 2C에서 1000사이클 후 82%의 용량 유지율을 달성했다. 층간 거리가 충전 초반 팽창했다가 고전압에서 수축하는 가변적 구조를 통해 응력 가속을 완화하며, 4D-STEM과 in situ XAS로 균일한 전하 보상 거동을 확인했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214673852",
+      "source": "openalex",
+      "title": "Multi-Step Oxygen Redox Mechanism in the Polyanionic Lithium-Rich Cathode Li2FeSiO4",
+      "url": "https://doi.org/10.1021/jacs.6c02850",
+      "published": "2026-09-28",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1021/jacs.6c02850",
+      "authors": [
+        "Patrick J. Taylor",
+        "Kit McColl",
+        "M. Saiful Islam",
+        "Benjamin J. Morgan"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Lithium-rich cathode materials offer significantly higher energy densities than conventional cathode materials, due to their ability to store charge beyond the formal transition-metal redox limit, via so-called “oxygen redox”. In lithium-rich oxides, oxygen redox is accompanied by molecular O2 formation and transition-metal migration, associated with irreversible structural change and poor cycling stability. Lithium-rich silicates provide an alternative lithium-rich chemistry, and have been proposed to be resilient to O2 formation at the top of charge, due to their covalently bonded [SiO4]4− framework. We report a computational study of the top-of-charge behavior of the prototypical silicate cathode Li2FeSiO4. Using density functional theory, we predict that fully delithiated FeSiO4 is thermodynamically unstable with respect to oxidation of oxide ions to form molecular O2 within the bulk material. Ab initio molecular dynamics shows this decomposition occurs spontaneously, via a multistep mechanism involving FeIV migration and disproportionation to FeIII and FeV, and subsequent FeV reduction alongside molecular O2 formation. Our findings demonstrate that polyanionic frameworks do not inherently prevent O2 formation in lithium-rich cathodes, and illustrate how different previously proposed oxygen redox mechanisms can function as steps within a compound process.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/jacs.6c02850",
+      "license": "cc-by",
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "폴리음이온계 리튬 과잉 양극 Li2FeSiO4의 완전 탈리튬화 상태에서 산소 산화환원 거동을 밀도범함수이론과 종초기분자동역학으로 분석한 연구다. FeIV의 이동 및 불균화(FeIII/FeV)를 거쳐 FeV 환원과 함께 분자 O2가 형성되는 다단계 메커니즘을 규명했으며, 폴리음이온 골격이 리튬 과잉 양극의 O2 발생을 본질적으로 막지는 못함을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214598277",
+      "source": "openalex",
+      "title": "Mechanistic Control of Cathode–Electrolyte Interphase Formation in Gel Polymer Electrolyte for Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/anie.1297472",
+      "published": "2026-09-28",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/anie.1297472",
+      "authors": [
+        "Sang Goo Kang",
+        "Jeonghyun Ko",
+        "GunYoung Kim",
+        "Jaehoon Choi",
+        "Jong Hyeok Park"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT In‐situ gel polymer electrolytes (GPEs) have attracted attention as promising candidates for next‐generation lithium‐ion batteries, offering superior interfacial compatibility and enhanced safety compared with conventional liquid electrolytes. However, the issue of residual monomers remaining after polymerization has not been adequately addressed. They readily decompose at the high‐Ni cathode (NCM) surface during the early stage of formation, generating an organic‐rich layer within the inner cathode–electrolyte interphase (CEI) and disrupting the normal CEI‐forming pathway. Here, we present a strategy that combines a molecular additive, tris(4‐fluorophenyl)phosphine (TFPP), with a tailored formation protocol to mitigate monomer‐induced degradation. Prior to oxidative decomposition, TFPP modifies the interfacial environment of NCM through early surface interaction and partial coverage, reducing the accessibility of residual monomers to the cathode interface. The formation protocol then promotes preferential TFPP decomposition before extensive monomer oxidation, enabling a protective CEI with a LiF‐rich inner region. This sequential interfacial regulation suppresses monomer‐driven side reactions, reduces electrolyte consumption, stabilizes Li‐ion transport, and mitigates structural degradation of the cathode. Consequently, a 2 Ah‐level pouch cell delivering 303 Wh kg −1 retained 82.8% capacity after 150 cycles under lean electrolyte conditions (2 g Ah −1 ). This work thus provides a practical strategy for developing more durable high‐energy‐density GPE‐based batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/anie.1297472",
+      "license": "cc-by-nc",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "겔 고분자 전해질(GPE) 기반 리튬이온전지에서 잔류 단량체로 인한 고니켈 NCM 양극-전해질 계면(CEI) 열화를 완화하는 전략을 제시했다. 첨가제 TFPP가 단량체보다 먼저 분해되어 LiF가 풍부한 보호 CEI를 형성하도록 유도하며, 2 Ah급 파우치셀에서 303 Wh/kg 에너지밀도와 150사이클 후 82.8% 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214602682",
+      "source": "openalex",
+      "title": "Inside Back Cover: Supramolecular Self‐Assembly Enables Controlled Lithium Replenishment Toward High‐Performance and Sustainable Regeneration of Spent LiFePO 4 Batteries",
+      "url": "https://doi.org/10.1002/anie.2026-m2509022200",
+      "published": "2026-09-28",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/anie.2026-m2509022200",
+      "authors": [
+        "Yixin Lin",
+        "Ting Wang",
+        "Chaochao Gao",
+        "Jie Xu",
+        "Jiawen Chen",
+        "Zixi Lin"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "With prolonged cycling, spent LiFePO4 suffers lithium depletion, lattice defects, and structural degradation. A self-assembled supramolecular interface enables a thermally driven regeneration cascade on degraded cathodes. This cascade sequentially accomplishes precise lithium replenishment, antisite defect repair, phase reconstruction, and conductive network restoration, thereby transforming spent cathodes into high-performance energy-storage materials. More in the Research Article e4146793, Tiansheng Wang, Jie Xu, Jiaheng Zhang, and co-workers.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "열화된 LiFePO4 양극의 리튬 결핍과 격자 결함, 구조 붕괴를 초분자 자기조립 계면을 이용해 회복시키는 재생 공정을 제시했다. 열 구동 방식으로 리튬 재충전, 반자리 결함 복구, 상 재구성, 전도 네트워크 복원을 순차적으로 수행하여 폐LFP를 고성능 소재로 재활용한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214656519",
+      "source": "openalex",
+      "title": "In situ reprogramming of glioma stem cells into dendritic cell-like cells for glioblastoma immunotherapy",
+      "url": "https://doi.org/10.1038/s41467-026-78070-2",
+      "published": "2026-09-28",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78070-2",
+      "authors": [
+        "Chunwei Tang",
+        "孙维绎",
+        "Zhenmei Yang",
+        "Xiaotian Zhao",
+        "Jian Gao",
+        "Kun Han"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Immunotherapy has revolutionized the treatment landscape for many cancers, but fails to improve the outcomes of glioblastoma multiforme (GBM), in which low tumor antigen presentation restricts the recognition and eradication of cancerous cells by immunocytes. We here report an approach to in situ reprogramming hypoimmunogenic glioblastoma stem cells (GSCs) into type 1 conventional dendritic cell (cDC1)-like cells for presenting endogenous tumor antigens and priming sustained tumoricidal T-cell responses. Specifically, our cavity-injectable nucleobase-derived lipid nanoparticle (LNP)-hydrogel superstructure efficiently delivers transcription factors (PU.1, IRF8, BATF3) and the costimulatory molecule (TNFSF9) into GSCs to induce cDC1-like reprogramming. These cDC1-like cells potentiate GBM immunogenicity, elicit robust adaptive immunity and long-term antitumor memory, thereby inhibiting tumor growth and preventing postoperative GBM relapse in mice. Collectively, this work establishes in situ tumor cell reprogramming into licensed cDC1-like cells as a therapeutic paradigm for converting immunologically “cold” tumors into a self-vaccinating immune niche with broad translational potential for hypoimmunogenic malignancy treatment. Limited tumor antigen presentation restricts the recognition and eradication of cancer cells by immunocytes. Here this group reports a strategy of in situ reprogramming hypoimmunogenic glioblastoma stem cells into type 1 conventional dendritic cel-like cells thereby presenting endogenous tumor antigens and priming sustained tumoricidal T-cell responses.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78070-2",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "교모세포종 줄기세포를 종양 항원 제시가 가능한 1형 수지상세포(cDC1)-유사 세포로 리프로그래밍하여 면역 반응을 유도하는 암 면역치료 연구로, 배터리와 무관한 논문이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7214625027",
+      "source": "openalex",
+      "title": "Directional Li+ Flux Control via Liquid-Crystalline Polymer Separators for Fast-Charging Lithium Metal Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c09591",
+      "published": "2026-09-28",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsnano.6c09591",
+      "authors": [
+        "Geunjung Lee",
+        "Rak Hyeon Choi",
+        "Geonhyeong Park",
+        "Juri Kim",
+        "Younwoo Kim",
+        "Hye Ryung Byon"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Stabilizing lithium (Li) metal batteries requires precise control of Li+ ion transport, as spatially nonuniform ion flux can induce dendritic Li growth and poor reversibility. Here, we report liquid-crystalline polymers (LCPs) as nanoporous films that regulate Li+ flux through directionally aligned ion pathways. Crosslinked LCP films form aligned nanoporous channels (∼19 nm), while tethered poly(ethylene glycol) (PEG) chains lining the pore walls provide coordination sites that facilitate Li+ transport. Vertically aligned PEG-LCP films establish through-plane ion pathways, reducing effective tortuosity by ∼2.5-fold compared with planar alignment despite comparable pore architectures. This structural anisotropy leads to high ionic conductivity (1.77 mS cm–1) and a reduced activation energy (0.12 eV) for Li+ migration in carbonate-based electrolytes. The resulting uniform Li+ flux suppresses dendritic and porous Li growth, enabling more uniform Li deposition and mitigating excessive interphase formation. Li metal cells employing vertically aligned PEG-LCP films exhibit stable cycling under fast-charging conditions (4 C) with LiNi0.8Co0.1Mn0.1O2, retaining 94% of the capacity after 100 cycles with an average Coulombic efficiency of 99.86%. This work demonstrates that liquid-crystalline alignment can be leveraged to engineer low-tortuosity ion transport pathways, offering a design principle for fast-charging Li metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "액정 고분자(LCP) 분리막의 수직 정렬된 나노기공을 이용해 리튬이온 플럭스의 방향성을 제어하여 급속충전 리튬금속전지의 덴드라이트 성장을 억제하는 연구다. PEG로 개질된 정렬 기공은 이온전도도 1.77 mS/cm, 활성화에너지 0.12 eV를 나타내며, LiNi0.8Co0.1Mn0.1O2 조합 셀에서 4C 급속충전 시 100사이클 후 94% 용량과 99.86% 쿨롱효율을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214618098",
+      "source": "openalex",
+      "title": "A Fluidic and Sodiophilic Liquid Metal Current Collector for Dendrite‐Free and Stable Anode‐Free Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71640",
+      "published": "2026-09-28",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/aenm.71640",
+      "authors": [
+        "Yingxin Tian",
+        "Junwei Sun",
+        "Xiaoyu Shi",
+        "Bingtao Zuo",
+        "Zhihao Ren",
+        "Zhuobin Guo"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) have garnered significant interest due to their potential to achieve the highest possible energy density among sodium‐based battery systems. However, the high nucleation energy barrier of Na + on conventional current collectors leads to uneven Na deposition and dendrite growth, posing a great challenge to stable device operation. Herein, a scalable modified current collector (LM@Cu) is constructed by leveraging the intrinsic fluidity and sodiophilicity of a Ga‐In‐Sn liquid metal (LM) to realize dendrite‐free Na deposition and stable operation of AFSMBs. During charging, the alloying reaction between LM and Na effectively reduces the nucleation barrier, promotes uniform Na deposition, suppresses dendrite growth, and minimizes the generation of dead Na. This mechanism facilitates highly reversible Na plating and stripping, substantially extending the cycle life of AFSMBs. Moreover, a thin NaF‐rich solid electrolyte interphase is formed, which facilitates Na + transport and enhances interfacial stability. Consequently, AFSMBs constructed with LM@Cu and Na 3 V 2 (PO 4 ) 3 cathode achieve a capacity retention of ∼80% after 100 cycles, significantly outperforming cells based on Cu current collector, which fail within 30 cycles. This work provides a promising strategy for realizing dendrite‐free and stable AFSMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "Ga-In-Sn 액체금속을 이용한 소듐친화성 유체 집전체(LM@Cu)로 무전극(anode-free) 소듐금속전지에서 덴드라이트 없는 균일한 Na 증착을 구현한 연구다. 합금화 반응으로 핵생성 장벽을 낮추고 NaF가 풍부한 SEI를 형성해 Na3V2(PO4)3 양극 조합 셀에서 100사이클 후 약 80%의 용량 유지율을 달성했으며, 이는 기존 Cu 집전체 대비 크게 향상된 결과다.",
+      "relevant": true
+    },
     {
       "id": "W7214519475",
       "source": "openalex",
@@ -474,6 +737,34 @@
       "image": null,
       "summary_ko": "리튬이온 쿨롱효율(Li CE)이 리튬금속전지의 수명을 정확히 예측하지 못하는 이유를, SEI 불안정성에 따른 전해질 고갈과 음극-양극 크로스토크에 의한 리튬 보상 메커니즘으로 규명했다. SEI 품질, 전해질 소모, 리튬 보상 간의 정량적 관계를 확립하여 초박막 전해질 조건에서 수명 예측 프레임워크를 제시했다.",
       "relevant": true
+    },
+    {
+      "id": "W7214157571",
+      "source": "openalex",
+      "title": "Synergistic bulk and interphase engineering of halide solid electrolytes via high-valence cation doping for high voltage all-solid-state batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105556",
+      "published": "2026-09-24",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105556",
+      "authors": [
+        "Ruonan Xu",
+        "Zhe Xu",
+        "Runguo Zheng",
+        "Zhishuang Song",
+        "Qinchao Wang",
+        "Dan Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "고전압 전고체전지를 위해 고원자가 양이온 도핑을 통해 할라이드 고체전해질의 벌크 및 계면 특성을 함께 개선하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7214206356",
@@ -2214,6 +2505,32 @@
       "relevant": true
     },
     {
+      "id": "W7213452577",
+      "source": "openalex",
+      "title": "Dual-stream physics-informed neural network-transfer learning framework for robust battery SOC estimation under few-shot data scenarios",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.104",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.08.104",
+      "authors": [
+        "Longxing Wu",
+        "Xinyuan Wei",
+        "Zhiqiang Lyu",
+        "Chunhui Liu"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "소수 샷 데이터 환경에서도 강건한 배터리 SOC 추정을 위한 물리 정보 기반 신경망과 전이학습을 결합한 이중 스트림 프레임워크를 제안한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7213224961",
       "source": "openalex",
       "title": "WLG coordinates multi-stress tolerance in rice by regulating DST-dependent H2O2 homeostasis and stomatal aperture",
@@ -2448,6 +2765,36 @@
         "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71582"
       },
       "summary_ko": "비수계 액체 전해질을 사용하는 리튬 금속 전지(LMB)의 계면 안정성을 이온 수송, 탈용매화, 계면 수송, 전하 이동, 핵생성, 형태 진화의 6단계 속도론적 프레임워크로 체계적으로 분석한 리뷰이다. 전극-전해질 계면의 구조 및 동적 진화, 첨단 분석 기법을 정리하고 전해질 첨가제, 인공 보호층, 용매화 조절 등 계면 안정화 전략을 핵심 속도론 단계별 역할 중심으로 재구성했다. 완전셀·파우치셀 검증, 고에너지밀도, 비용 절감 등 실용화를 위한 과제와 방향을 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7213434404",
+      "source": "openalex",
+      "title": "In situ-polymerized polyether electrolytes for high-voltage lithium-metal batteries: Failure mechanisms and molecular stabilization strategies",
+      "url": "https://doi.org/10.1016/j.jechem.2026.08.100",
+      "published": "2026-09-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.jechem.2026.08.100",
+      "authors": [
+        "Youwei Wang",
+        "Xin Zhang",
+        "Yupeng Feng",
+        "Xiaoxuan Zhang",
+        "Tongwei Wu",
+        "Baihai Li"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-09-30",
+      "image": null,
+      "summary_ko": "고전압 리튬금속전지를 위한 in situ 중합 폴리에테르 전해질의 실패 메커니즘을 분석하고 분자 수준의 안정화 전략을 제시한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
