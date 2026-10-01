@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T00:28:44+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7214735306",
+      "source": "openalex",
+      "title": "Weak-Solvation Molecular Ion Gates Enabling Multipath Li + Hopping and Air Stability in Garnet/Poly(ethylene oxide) Electrolytes",
+      "url": "https://doi.org/10.1021/jacs.6c15811",
+      "published": "2026-09-29",
+      "topics": [],
+      "doi": "10.1021/jacs.6c15811",
+      "authors": [
+        "Jiuzhi Cui",
+        "Zhen Fang",
+        "Qiang Hu",
+        "Yang Chen",
+        "Hong Yang",
+        "刘兴泉"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Poly(ethylene oxide) (PEO)-based composite polymer electrolytes facilitate Li+ transport via coordination and decoordination. However, strong coordination impedes ion transport, while weak coordination limits the carrier density. This dilemma is further aggravated by the Li2CO3-passivated garnet surface that blocks ion migration, restricting practical applications. Here, we develop a weak-solvation molecular ion gate (WSMI) strategy by chemically anchoring 4-methoxy-2-(trifluoromethyl)benzoic acid onto Li6.4La3Zr1.4Ta0.6O12 (LLZTO). The carboxyl group eliminates the alkaline Li2CO3 surface layer and forms a robust, chemically anchored WSMI interphase that shields LLZTO from atmospheric moisture, thus significantly enhancing air stability. Additionally, the −CF3 groups enhance LiTFSI dissociation, weaken Li+-EO and Li+-TFSI– interactions, and accelerate coordination exchange and interfacial hopping. Simultaneously, the ether-oxygen moieties provide Li+ -transport sites at the LLZTO/PEO interface, activating polymer, interfacial, and garnet-associated Li+ transport regions. As a result, the composite electrolyte delivers a Li+ transference number of 0.622 and an electrochemical stability window of 5.38 V (vs Li+/Li). Li||Li symmetric cells cycle stably for over 2000 h at 0.2 mA cm–2 and 0.2 mAh cm–2, and LiFePO4||Li full cells retain 87.8% of their initial capacity after 1100 cycles at 1 C. The WSMI strategy proposed in this work provides valuable insights into tailoring interfacial chemical environments for all-solid-state batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-10-01",
+      "image": null,
+      "summary_ko": "갈넷(LLZTO) 표면에 약배위 분자 이온 게이트(WSMI)를 화학적으로 고정해 알칼리성 Li2CO3 표면층을 제거하고 대기 안정성을 높인 PEO 복합 고체전해질을 제시했다. -CF3 기가 LiTFSI 해리를 촉진하고 Li+-EO/Li+-TFSI 상호작용을 약화시켜 다중 경로 Li+ 이동을 구현했다. 복합 전해질은 Li+ 이동수 0.622, 전기화학적 안정성 창 5.38V를 보였고, Li||Li 대칭셀은 2000시간 이상, LiFePO4||Li 완전셀은 1100사이클에서 87.8% 용량을 유지했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7214706647",
+      "source": "openalex",
+      "title": "Lamination Pressure Governs the Effectiveness of Sn Buffer Layers in Low-Pressure All-Solid-State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02381",
+      "published": "2026-09-29",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02381",
+      "authors": [
+        "Seonghun Jeong",
+        "Riya Dutta",
+        "Selin Cetin",
+        "Juhyeon Ahn",
+        "Mary C Scott",
+        "Haegyeom Kim"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract All-solid-state lithium-metal batteries require stable Li plating/stripping under low stack pressures relevant to practical operation. Here, Sn was used as a model Li-alloying buffer layer to clarify how lamination pressure affects interfacial stability. By independently varying lamination pressure and operating stack pressure, this study decoupled the effects of initial interfacial contact formation from those of external pressure during Li plating/stripping. High-pressure lamination improved contact between the lithiated Sn layer and the solid electrolyte, enabling facile Li+ transport through the buffer layer and promoting Li deposition beneath the buffer layer rather than at the solid-electrolyte/buffer layer interface. Consequently, highly laminated Sn–Li electrodes exhibited improved Li utilization, lower nucleation overpotential, enhanced short-circuit resistance, and improved resistance for void-induced contact loss under low stack pressure. Symmetric- and full-cell tests confirmed that the Sn buffer layer mitigates void-induced contact loss, whereas pristine Li rapidly fails at a stack pressure of 1 MPa.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/acsenergylett.6c02381",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-01",
+      "image": null,
+      "summary_ko": "저압 전고체 리튬금속전지에서 Sn 완충층의 효과가 라미네이션 압력에 크게 의존함을 밝혔다. 고압 라미네이션은 리튬화된 Sn층과 고체전해질 간 접촉을 개선해 Sn층 아래에서 리튬 증착이 일어나게 하며, 핵생성 과전위를 낮추고 단락 저항성을 높였다. 1MPa의 낮은 적층 압력에서도 Sn 완충층은 공극에 의한 접촉 손실을 완화했지만, 순수 리튬 전극은 빠르게 실패했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214792628",
+      "source": "openalex",
+      "title": "Impact of Solvent Impurities from Upscaled Synthesis and Their Purification in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02137",
+      "published": "2026-09-29",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02137",
+      "authors": [
+        "Hao Lyu",
+        "Tianyang Chen",
+        "Zehao Cui",
+        "Chen Liu",
+        "Jonathan Miller",
+        "Hui Zhou"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Fluorinated ether electrolytes are promising for high-energy-density lithium metal batteries, yet their translation to larger-scale production requires systematic control of solvent impurities generated during synthesis and purification. Using 2-(2-(2,2-difluoroethoxy)ethoxy)–1,1,1-trifluoroethane (F5DEE) as a high-performance model solvent, we compare gram- and kilogram-scale batches to correlate impurity origin, purification, and electrochemistry. Although upscaled F5DEE shows >99% purity by standard techniques, ppm-level moisture and organic impurities reduce Li Coulombic efficiency and increase cell variability. We classify impurities by generation pathway into retained intermediates, starting-material-derived analogues, side-reaction products, and purification-introduced residues. Distillation, adsorption, and reactive purification implicate water, alkoxide-derived byproducts, and amines as key performance-limiting species. However, excessive purification generates secondary impurities that degrade performance, revealing a removal–generation trade-off. Thermal, electrochemical, operando microcalorimetry, and online mass spectrometry analyses reveal impurity-dependent current-collector corrosion, heat release, gas evolution, and full-cell degradation. This route-resolved, source-to-consequence workflow provides a transferable qualification framework for electrolyte solvent scale-up.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-01",
+      "image": null,
+      "summary_ko": "불소화 에테르 전해질(F5DEE) 합성을 그램에서 킬로그램 규모로 확장할 때 발생하는 용매 불순물의 기원과 정제 방법이 리튬금속전지 성능에 미치는 영향을 체계적으로 분석했다. 수분, 알콕사이드 유래 부산물, 아민 등이 리튬 쿨롱 효율 저하와 셀 간 편차 증가를 유발하며, 과도한 정제는 오히려 2차 불순물을 만들어 성능을 저해하는 제거-생성 트레이드오프가 존재함을 확인했다. 이를 바탕으로 전해질 용매 스케일업을 위한 품질관리 프레임워크를 제안했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214727932",
+      "source": "openalex",
+      "title": "Exploring Li growth modes in Li metal electrodes using X-ray nano-tomography",
+      "url": "https://doi.org/10.1038/s41467-026-78182-9",
+      "published": "2026-09-29",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-78182-9",
+      "authors": [
+        "Josef Rizell",
+        "Victor Vanpeene",
+        "Martina Olsson",
+        "Jan Jamroz",
+        "François Cadiou",
+        "Hervé Manzanarez"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract To pave way for application of Li-metal electrodes in high energy density batteries the evolution of the 3D structures formed during charging needs accurate characterization inside working cells. The growth of porous, weakly connected structures is directly linked to the poor cycle life of Li-metal batteries. Here we present time-resolved analysis of the lithium metal structural evolution in 3D with sub-micron spatial resolution using in situ X-ray nano-tomography. This enables the growth mechanisms of entangled lithium morphologies to be studied both qualitatively and quantitatively. We identify distinct growth modes of needle-like and sheet-like structures, where segments are elongated at the tip, base, kinks or edges simultaneously with minimal coarsening. Different growth modes, and the transition between them, are linked to the initial growth of new grains and solid electrolyte interphase evolution, highlighting time resolved 3D morphological characterization as an avenue to understand the mechanisms of Li deposition.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78182-9",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-01",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78182-9/MediaObjects/41467_2026_78182_Fig1_HTML.png",
+        "cached": "img/W7214727932.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78182-9"
+      },
+      "summary_ko": "X선 나노토모그래피를 이용해 리튬금속 전극 내부의 3차원 성장 거동을 시간 분해로 관찰했다. 바늘형과 시트형 구조가 끝, 밑동, 꺾임, 가장자리에서 동시에 길어지는 뚜렷한 성장 모드를 확인했으며, 이러한 성장 모드의 전환이 새로운 결정립의 초기 성장 및 SEI 변화와 연관됨을 밝혔다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214798557",
+      "source": "openalex",
+      "title": "Engineering a Fluorinated AlPO 4 Interface: Toward High Initial Coulombic Efficiency and Stable Oxygen Redox in Li‐Rich Layered Oxide Cathodes",
+      "url": "https://doi.org/10.1002/adfm.78762",
+      "published": "2026-09-29",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1002/adfm.78762",
+      "authors": [
+        "Hojun Moon",
+        "Harim Jeong",
+        "Youngsoo Kim",
+        "Buseong Kim",
+        "Geunhyeong Kim",
+        "Suyeon Lee"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Li‐rich layered oxides (LLOs) are promising high‐energy‐density cathode candidates; however, their practical application is hindered by severe voltage decay originating from irreversible layered‐to‐spinel phase transformation and interfacial degradation under high‐voltage operation (>4.5 V). Herein, we report a fluorinated AlPO 4 (AlPO 4 ‐F) surface architecture for LLO cathodes designed to simultaneously stabilize the oxygen framework and modify the interfacial charge environment. Electrostatic force microscopy, zeta‐potential measurements, and density functional theory calculations reveal that fluorination induces localized charge redistribution and a more negative surface potential, accompanied by enhanced Li affinity at the cathode surface. In situ Raman spectroscopy and in situ X‐ray diffraction further demonstrate improved structural reversibility, suppressed c‐axis contraction, and mitigated phase‐transition behavior during electrochemical cycling. As a result, the fluorinated AlPO 4 ‐coated cathode (LLO‐APF) delivers an initial Coulombic efficiency of 95.9% and stable cycling over 244 cycles at 1 C, compared with 57 cycles for pristine LLO under identical conditions, while limiting voltage decay to 0.23 V. These results suggest that fluorinated phosphate interfaces can provide a multifunctional platform for simultaneously regulating interfacial stability, Li + transport behavior, and structural reversibility in high‐capacity anionic‐redox cathode systems.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.78762",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-01",
+      "image": null,
+      "summary_ko": "Li-rich 층상 산화물 캐소드의 전압 감쇠와 계면 열화 문제를 완화하기 위해 불소화 AlPO4 표면 구조를 적용했다. 정전기력현미경, 제타전위 측정, DFT 계산으로 불소화가 표면 전하를 재분배하고 Li 친화성을 높임을 확인했고, in situ 라만 및 XRD로 구조 가역성 향상과 상전이 억제를 입증했다. 코팅된 캐소드는 초기 쿨롱효율 95.9%와 1C에서 244사이클의 안정적 순환(기존 57사이클 대비)을 달성하며 전압 감쇠를 0.23V로 제한했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214743534",
+      "source": "openalex",
+      "title": "Monomer Molecule Reconstruction Engineered Heterogeneous Lithium‐Ion Solvation for High‐Performance Lithium‐Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.5513729",
+      "published": "2026-09-28",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.5513729",
+      "authors": [
+        "Yanxin Jiang",
+        "Yan Su",
+        "Guoqiang He",
+        "Lu Chen",
+        "Zhiqiang Yang",
+        "Mingnan Song"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT High‐energy‐density lithium‐metal batteries (LMBs) are promising for next‐generation energy storage, but their practical application is hindered by lithium dendrite growth and electrolyte interfacial instability under high‐voltage conditions. Here, we report a molecule‐reconstruction strategy to regulate Li + solvation by exploiting the amplified steric hindrance generated during in situ polymerization of isobutyl methacrylate (IBMA). Covalently linking IBMA monomers into macromolecular chains increases steric bulk around polar ester groups, reduces the electron cloud density of carbonyl oxygen, weakens Li + ‐polymer coordination, and drives a transition from solvent‐dominated to anion‐rich solvation even at low salt concentrations. With TTE serving as a “molecular lubricant”, the gel solid‐state DEE‐PIBMA electrolyte achieves a room‐temperature ionic conductivity of 1.77 mS cm −1 and practical high‐voltage stability to ∼4.7 V, as confirmed by floating tests. Gel solid‐state Li||NCM811 cells retain 81.8% of their initial capacity after 500 cycles at 0.5 C, while pouch cells operate stably with an energy density of 386.1 Wh kg −1 . These results highlight macromolecular backbone engineering as a general design principle for regulating solvation structures and interfacial chemistry in high‐energy LMBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.5513729",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-10-01",
+      "image": null,
+      "summary_ko": "이소부틸 메타크릴레이트(IBMA)의 in situ 중합을 이용한 분자 재구성 전략으로 리튬금속전지의 Li+ 솔베이션 구조를 조절했다. 거대분자화된 IBMA가 카르보닐 산소 주변 입체 장애를 늘려 Li+-고분자 배위를 약화시키고 음이온이 풍부한 솔베이션으로의 전환을 유도했으며, TTE를 분자 윤활제로 활용해 젤 전해질이 상온 이온전도도 1.77mS/cm와 약 4.7V의 고전압 안정성을 달성했다. Li||NCM811 젤 전지는 500사이클 후 81.8%의 용량을 유지했고, 파우치셀은 386.1Wh/kg의 에너지밀도로 안정적으로 작동했다.",
+      "relevant": true
+    }
+  ]
+}
