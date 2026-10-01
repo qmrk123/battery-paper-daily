@@ -147,7 +147,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-01",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78762",
+        "cached": "img/W7214798557.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78762"
+      },
       "summary_ko": "Li-rich 층상 산화물 캐소드의 전압 감쇠와 계면 열화 문제를 완화하기 위해 불소화 AlPO4 표면 구조를 적용했다. 정전기력현미경, 제타전위 측정, DFT 계산으로 불소화가 표면 전하를 재분배하고 Li 친화성을 높임을 확인했고, in situ 라만 및 XRD로 구조 가역성 향상과 상전이 억제를 입증했다. 코팅된 캐소드는 초기 쿨롱효율 95.9%와 1C에서 244사이클의 안정적 순환(기존 57사이클 대비)을 달성하며 전압 감쇠를 0.23V로 제한했다.",
       "relevant": true
     },
@@ -177,7 +183,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-01",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5513729",
+        "cached": "img/W7214743534.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5513729"
+      },
       "summary_ko": "이소부틸 메타크릴레이트(IBMA)의 in situ 중합을 이용한 분자 재구성 전략으로 리튬금속전지의 Li+ 솔베이션 구조를 조절했다. 거대분자화된 IBMA가 카르보닐 산소 주변 입체 장애를 늘려 Li+-고분자 배위를 약화시키고 음이온이 풍부한 솔베이션으로의 전환을 유도했으며, TTE를 분자 윤활제로 활용해 젤 전해질이 상온 이온전도도 1.77mS/cm와 약 4.7V의 고전압 안정성을 달성했다. Li||NCM811 젤 전지는 500사이클 후 81.8%의 용량을 유지했고, 파우치셀은 386.1Wh/kg의 에너지밀도로 안정적으로 작동했다.",
       "relevant": true
     }
