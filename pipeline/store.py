@@ -67,9 +67,23 @@ class Store:
         ]
         return sorted(keys, reverse=True)
 
+    def index_dates(self) -> list[str]:
+        """Dates for the site's archive picker. Once a month is complete it collapses
+        to its monthly aggregate: only the newest month keeps per-day entries, so the
+        daily picker stays short while every older paper is still one click away in the
+        month archive (and in corpus.json search). A month's daily keys are dropped
+        only when that month actually has an aggregate file, so nothing can silently
+        vanish if an archive is missing."""
+        dates = self.list_dates()                               # newest-first, days + months
+        months = {d for d in dates if len(d) == 7}             # months that have an aggregate
+        day_keys = [d for d in dates if len(d) == 10]
+        live_month = day_keys[0][:7] if day_keys else None     # newest month still shown by day
+        return [d for d in dates
+                if not (len(d) == 10 and d[:7] != live_month and d[:7] in months)]
+
     def write_index(self, topics: list[dict], updated_at: str) -> None:
         _write_json(self.data_dir / "index.json", {
-            "dates": self.list_dates(),
+            "dates": self.index_dates(),
             "topics": topics,
             "updated_at": updated_at,
         })

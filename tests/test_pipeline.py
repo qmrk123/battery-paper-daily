@@ -146,3 +146,44 @@ def test_rebuild_month_aggregates_dedups_and_scopes(tmp_path):
     w1 = next(p for p in out["papers"] if p["id"] == "W1")
     assert w1["summary_ko"] == "richer"                   # richer record kept
     assert out["papers"][0]["published"] == "2026-08-02"  # newest-published first
+
+
+def test_index_dates_collapses_completed_months(tmp_path):
+    import json
+    from pipeline.store import Store
+    st = Store(data_dir=tmp_path)
+
+    def touch(name):
+        (tmp_path / f"{name}.json").write_text(
+            json.dumps({"date": name, "count": 0, "papers": []}), encoding="utf-8")
+
+    # Aug + Sep each have per-day files AND a monthly aggregate; Oct is the live month;
+    # Jul exists only as an aggregate (older backfill).
+    for name in ("2026-07", "2026-08", "2026-08-01", "2026-08-31",
+                 "2026-09", "2026-09-15", "2026-10", "2026-10-01"):
+        touch(name)
+
+    dates = st.index_dates()
+    # live month (Oct) keeps its day; completed months collapse to the aggregate only
+    assert "2026-10-01" in dates
+    assert "2026-08-01" not in dates and "2026-08-31" not in dates
+    assert "2026-09-15" not in dates
+    # every monthly aggregate is retained
+    assert {"2026-07", "2026-08", "2026-09", "2026-10"} <= set(dates)
+
+
+def test_index_dates_keeps_days_when_month_aggregate_missing(tmp_path):
+    import json
+    from pipeline.store import Store
+    st = Store(data_dir=tmp_path)
+
+    def touch(name):
+        (tmp_path / f"{name}.json").write_text(
+            json.dumps({"date": name, "count": 0, "papers": []}), encoding="utf-8")
+
+    # Aug has days but NO aggregate -> must not be collapsed (nothing may vanish)
+    for name in ("2026-08-01", "2026-09", "2026-09-02"):
+        touch(name)
+    dates = st.index_dates()
+    assert "2026-08-01" in dates          # kept: no 2026-08 aggregate to fall back on
+    assert "2026-09-02" in dates          # kept: Sep is the live (newest) month
