@@ -115,7 +115,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78028",
+        "cached": "img/W7214923349.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78028"
+      },
       "summary_ko": "전고체 전지에서 리튬 금속-고체 전해질 계면의 단일 공극(void) 형성과 성장 거동을 추적하여, 표면 확산 모드(테라스/스텝/층간 확산)와 반응 속도의 결합이 공극 형태와 깊이를 어떻게 좌우하는지 분석했다. 또한 다중 공극이 군집화되어 퍼콜레이션에 이르는 임계 공극 분율을 규명하고, 온도가 공극 성장 억제에 미치는 영향을 조사하여 안정적인 저저항 계면 설계에 대한 지침을 제시했다.",
       "relevant": true
     },
@@ -203,7 +209,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.77874",
+        "cached": "img/W7214901115.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.77874"
+      },
       "summary_ko": "무음극(anode-free) 나트륨 금속전지(AFSMB)의 소듐 인벤토리를 가역/데드/화학적 결합 성분으로 분해하는 메커니즘 기반 프레임워크를 제시했다. N/P=0 조건에서 500회 사이클을 위해서는 평균 99.95% 이상의 쿨롱효율이 필요함을 도출하고, 기존 보고된 시스템들이 이 기준에 거의 도달하지 못함을 분석했다. 저자들은 AFSMB가 소재 문제보다는 통합·제조 공정의 한계에 있다고 결론짓는다.",
       "relevant": true
     },
@@ -291,7 +303,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5489997",
+        "cached": "img/W7214957200.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5489997"
+      },
       "summary_ko": "넓은 온도범위에서 작동하는 리튬 금속전지를 위해 전해질 벌크 수화구조와 계면 반응성을 분자 역할 분화를 통해 디커플링하는 전략을 제시했다. 4성분 에스터-에테르(PADD) 전해질에서 메틸프로피오네이트(MP)는 유동성을 담당하고 DME/DOL과 FSI-/TFSI-가 반응성 수화쉘을 재구성하여, PDOL-LiF 이종계면을 형성한다. Li||LFP 셀은 -30°C~70°C에서 작동하며 25°C 1000회 후 97.1%, -30°C 400회 후 99.3% 용량을 유지했다.",
       "relevant": true
     },
