@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T00:16:21+00:00",
+  "count": 5,
+  "papers": [
+    {
+      "id": "W7215050205",
+      "source": "openalex",
+      "title": "Molecularly engineered zwitterionic‑fluorinated hydrogel electrolyte for durable Ah-level zinc-ion batteries",
+      "url": "https://doi.org/10.1038/s41467-026-77562-5",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77562-5",
+      "authors": [
+        "Bingyan Guo",
+        "Junfeng Li",
+        "Zhexuan Liu",
+        "Xiao Xiao",
+        "宋业新",
+        "Zhiyang Zheng"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Aqueous zinc-ion batteries are considered suitable candidates for grid storage but suffer from Zn dendrites and water-induced side reactions. Incorporating appropriate hydrophobic moieties into hydrogel electrolytes is an effective strategy to reduce water activity and widen the electrochemical stability window. To further advance this molecular design framework and enable precise interphase modulation, we report a molecularly engineered zwitterionic-fluorinated hydrogel electrolyte. Within the polymer network, the rationally introduced hydrophobic fluoroalkyl moieties (–CH2CF3) strengthen hydrogen bonds between hydrophilic units and water, thereby reducing water activity and mitigating parasitic reactions. Meanwhile, the zincophilic zwitterionic units (–SO3–, –N+(CH3)3) facilitate rapid and directional Zn2+ transport, with a Zn2+ transference number of 0.76. These tailored functional groups synergistically promote the in-situ formation of an organic–inorganic solid electrolyte interphase, enabling Zn negative electrode stability, achieving over 900 h of Zn plating/stripping at 5.0 mA cm–2 and 5.0 mAh cm–2. Furthermore, Zn | |MnO2 pouch cells incorporating this electrolyte deliver a capacity of ~1 Ah and operate for over 700 h, indicating the potential of this electrolyte for large-scale energy storage applications. Aqueous zinc-ion batteries promise safe energy storage but suffer from dendrites and side reactions. Here, authors engineer a zwitterionic fluorinated hydrogel electrolyte to suppress these issues, enabling durable, dendrite free, Ah-level pouch cells.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77562-5",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-03",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77562-5/MediaObjects/41467_2026_77562_Fig1_HTML.png",
+        "cached": "img/W7215050205.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77562-5"
+      },
+      "summary_ko": "수계 아연이온전지용 하이드로겔 전해질에 분자 설계를 적용한 연구이다. 짜비터이온 작용기(-SO3-, -N+(CH3)3)와 불소화 소수성기(-CH2CF3)를 고분자 네트워크에 도입해 물 활성도를 낮추고 Zn 음극 계면에 유무기 복합 고체전해질계면(SEI)을 형성시켰다. 그 결과 Zn 대칭셀에서 5 mA/cm², 5 mAh/cm² 조건으로 900시간 이상 안정적인 도금/탈리를 구현했고, Zn||MnO2 파우치셀에서 약 1 Ah 용량으로 700시간 이상 구동을 실증했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7215115893",
+      "source": "openalex",
+      "title": "Head-to-tail assembled borphyrins for solid-state lithium extraction",
+      "url": "https://doi.org/10.1038/s41467-026-78080-0",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78080-0",
+      "authors": [
+        "Ehsan Hamzehpoor",
+        "Seiya Ota",
+        "Suprio Chowdhury",
+        "Zongzhe Li",
+        "Alyssa Yeung",
+        "Rhianna A. Parcon"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Lithium is a critical mineral for advancing greener technologies. Extraction of lithium ions (Li⁺) from sea salt, minerals, and waste is important, but has been hindered by the lack of extraction methods that offer both high selectivity and strong lithium affinity. Here, we report a dioxaborole-linked, head-to-tail assembled macrocycle – termed borphyrin – featuring a rigid cavity with a 16-crown-4-like configuration. This molecule exhibits strong affinity for lithium and high selectivity over competing cations under dry solid-liquid extraction conditions, owing to its narrow binding cavity and planar macrocyclic core. Borphyrin enabled the extraction of lithium from crystalline solids of ether-insoluble salts, as well as selective extraction of Li⁺ from dried mixed-salt matrices containing alkali, alkaline earth and transition-metal salts. These results establish borphyrin as a potential molecular platform for selective lithium recognition and solid-liquid lithium extraction.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78080-0",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-03",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78080-0/MediaObjects/41467_2026_78080_Fig1_HTML.png",
+        "cached": "img/W7215115893.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78080-0"
+      },
+      "summary_ko": "붕소-산소 결합으로 연결된 고리형 거대분자 '보르피린(borphyrin)'을 합성하여 건조 고체 상태에서 리튬 이온을 선택적으로 추출하는 방법을 제시했다. 16-크라운-4 유사 구조의 좁은 결합 공동 덕분에 알칼리·알칼리토·전이금속 양이온이 혼재된 건조 혼합염에서도 높은 리튬 친화도와 선택성을 보였다. 해수염, 광물, 폐기물로부터의 고체-액체 리튬 추출 플랫폼으로서의 가능성을 제시한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7215046545",
+      "source": "openalex",
+      "title": "Descriptor-informed multi-component doping enables high-performance Co-free Ni-rich cathodes",
+      "url": "https://doi.org/10.1038/s44160-026-01152-y",
+      "published": "2026-10-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1038/s44160-026-01152-y",
+      "authors": [
+        "Siqi Guan",
+        "Tong Yu",
+        "Pei Tang",
+        "Huize Wu",
+        "Qian Wei",
+        "Nan Piao"
+      ],
+      "venue": "Nature Synthesis",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S4210215815",
+      "journal_metric": 13.57,
+      "first_seen": "2026-10-03",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44160-026-01152-y/MediaObjects/44160_2026_1152_Figa_HTML.png",
+        "cached": "img/W7215046545.jpg",
+        "license": null,
+        "attribution": "Nature Synthesis — https://doi.org/10.1038/s44160-026-01152-y"
+      },
+      "summary_ko": "코발트를 사용하지 않는 니켈리치 양극재에 디스크립터(descriptor) 기반으로 다중 원소 도핑을 설계하여 고성능을 구현한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7215080854",
+      "source": "openalex",
+      "title": "A multiplexed wearable microfluidic platform for non-invasive sweat-inspired monitoring of plant guttation biomarkers",
+      "url": "https://doi.org/10.1038/s41467-026-77955-6",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1038/s41467-026-77955-6",
+      "authors": [
+        "Bing Xue",
+        "Ziyang Huang",
+        "Zhiyuan Li",
+        "Xue Sun",
+        "Zhefu Shen",
+        "Junyi Luo"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Plant guttation fluid provides a chemically informative readout of internal plant status, offering an externally accessible window into plant physiological processes. However, its minute volume, intermittent availability, and susceptibility to evaporation limit its use for continuous biochemical monitoring. Here we introduce PlantIonics, an integrated on-leaf microfluidic electrochemical platform for real-time, non-invasive monitoring of guttation biomarkers and leaf microenvironment. A bioinspired wedge-shaped microchannel with asymmetric wettability achieves rapid (0.6 s) and unidirectional self-driven fluid collection, providing a continuously refreshed sensing interface for dynamic guttation profiling. Combined with a multichannel sensor array and a compact wireless flexible printed circuit board, PlantIonics simultaneously measures guttation-fluid biomarkers (potassium, sodium, glucose) and local leaf microenvironment. Multi-day on-plant studies demonstrate stress-responsive guttation fluctuations that correlate with root-level ionic perturbations and light modulation, demonstrating the platform’s capability to monitor dynamic physiological regulation. PlantIonics establishes a sweat-inspired analytical framework for non-invasive plant monitoring, offering opportunities for early stress diagnostics, field phenotyping, and precision agriculture. Plant sensors are emerging as key tools for precision agriculture, yet continuous monitoring of biomarkers in plant biofluids remains underdeveloped. Here, the authors introduce PlantIonics, a wearable microfluidic electrochemical platform for multiplexed, in situ analysis of guttation fluid. The system enables continuous, noninvasive monitoring of stress-associated plant physiological and metabolic responses under changing environmental conditions.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-77955-6",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-03",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77955-6/MediaObjects/41467_2026_77955_Fig1_HTML.png",
+        "cached": "img/W7215080854.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77955-6"
+      },
+      "summary_ko": "식물의 거터레이션액을 이용해 비침습적으로 여러 바이오마커를 모니터링하는 웨어러블 마이크로유체 플랫폼 'PlantIonics'를 개발했다. 비대칭 젖음성을 가진 쐐기형 마이크로채널로 0.6초 내 신속한 단방향 체액 포집이 가능하며, 칼륨·나트륨·포도당을 다중 채널 센서와 무선 회로로 동시 측정한다. 여러 날에 걸친 식물 실험에서 환경 스트레스에 따른 거터레이션 변화와 뿌리 이온 섭동의 상관관계를 확인했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7213753176",
+      "source": "openalex",
+      "title": "Synergistic enhancement via thienyl functionalization and in situ metallic copper formation in porphyrin cathodes for high-energy, long-cycling magnesium batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112419",
+      "published": "2026-09-20",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112419",
+      "authors": [
+        "Caihong Sun",
+        "Yu Li",
+        "Xi Peng",
+        "Binhua Chen",
+        "Yao Liao",
+        "Xiujuan Sun"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-03",
+      "image": null,
+      "summary_ko": "티에닐기 작용화와 현장(in situ) 금속 구리 형성을 결합한 포르피린 양극재로 고에너지, 장수명 마그네슘 전지 성능을 향상시킨 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    }
+  ]
+}

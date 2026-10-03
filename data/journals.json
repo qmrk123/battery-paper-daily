@@ -1279,6 +1279,10 @@
   "metric": 0.1,
   "name": "Reporter of the Priazovskyi State Technical University Section Technical sciences"
  },
+ "S4210207049": {
+  "metric": 9.54,
+  "name": "SmartMat"
+ },
  "S4210207107": {
   "metric": 12.86,
   "name": "Advanced Composites and Hybrid Materials"
@@ -1790,6 +1794,10 @@
  "S4387280094": {
   "metric": 16.44,
   "name": "Green Energy and Intelligent Transportation"
+ },
+ "S4387280368": {
+  "metric": 6.51,
+  "name": "Circular Economy"
  },
  "S4387280444": {
   "metric": 0.16,
