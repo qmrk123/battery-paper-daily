@@ -1,12 +1,12 @@
 {
-  "title": "최근 2주 논문 브리핑 (9/24–10/1)",
-  "range": "2026-09-24 ~ 2026-10-01",
-  "overall": "이번 2주는 리튬·소듐 금속 음극의 계면·용매화 제어와 고전압 양극(고니켈·Li-rich·NASICON)의 구조 가역성 확보가 양대 축을 이뤘다. 공통적으로 LiF/Li3N·NaF 등 무기물 풍부 계면 형성과 솔베이션 구조 분화를 통해 안정성과 이온수송을 동시에 달성하려는 접근이 두드러졌다.",
+  "title": "최근 2주 논문 브리핑 (9/24–10/2)",
+  "range": "2026-09-24 ~ 2026-10-02",
+  "overall": "이번 2주는 리튬·소듐 금속 음극의 솔베이션·계면 제어와 고전압 양극(고니켈·Li-rich)의 구조·산소 레독스 안정화가 핵심 축을 이뤘다. 공통적으로 LiF/Li3N·NaF 등 무기물 풍부 계면 유도와 용매화 구조 분화를 통해 안정성과 이온수송을 동시에 끌어올리려는 설계가 반복적으로 나타났다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질·고분자의 솔베이션 구조를 분자 단위로 재설계해 LiF/Li3N이 풍부한 계면을 유도하고 Li+ 이동수·탈용매화를 개선하는 흐름이 지배적이며, 불소화 에테르·에스터, 겔 고분자(IBMA·TFEMA·곁사슬 F화), COF 인공 SEI 등 다양한 플랫폼에서 반복적으로 확인된다. 전고체 쪽에서는 Sn/MIEC 가넷·구배 완충층·복합 고체전해질을 통한 핵생성·응력 제어와 저압·무가압 구동이 핵심 과제로 다뤄졌다. 동시에 X선 나노토모그래피·단일 공극 동역학 등 in situ 관찰과, 쿨롱효율만으로는 수명을 예측할 수 없다는 메커니즘적 재해석(SEI 열화·크로스토크)도 제시되어, 성능 수치에서 수명 결정 인자 규명으로 논의가 심화되고 있다.",
+      "text": "전해질·고분자의 Li+ 솔베이션 구조를 분자 단위로 재설계해 음이온 풍부 용매화와 LiF/Li3N이 풍부한 SEI를 유도하는 흐름이 지배적이며, 불소화 에테르·에스터, 겔 고분자(IBMA·TFEMA), COF·실록산 기반 인공 계면 등 여러 플랫폼에서 Li+ 이동수와 고전압(4.4~5V급) 안정성을 동시에 확보했다. 전고체 쪽에서는 Sn 완충층·MIEC 가넷·구배 완충층·복합 고체전해질을 통한 핵생성 유도와 응력 균일화, 저압·무가압 구동이 핵심 과제로 다뤄졌으며, 단일 공극 동역학과 미세구조가 계면 보이드 형성을 좌우함이 모델·관찰로 규명되었다. 또한 X선 나노토모그래피 성장 모드 관찰과 쿨롱효율만으로 수명을 예측할 수 없다는 메커니즘적 재해석이 제시되어, 성능 수치에서 수명 결정 인자 규명으로 논의가 심화되고 있다.",
       "highlights": [
         {"title": "Unlocking cycle life of lithium metal batteries", "url": "https://doi.org/10.1126/science.aee1630", "venue": "Science"},
         {"title": "Exploring Li growth modes in Li metal electrodes using X-ray nano-tomography", "url": "https://doi.org/10.1038/s41467-026-78182-9", "venue": "Nature Communications"},
@@ -16,7 +16,7 @@
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "Li-S/Li-SPAN, 유기(페노티아진 폴리아마이드), Li-O2, Co-free 니켈리치 등 비전통 양극에서 계면 안정성과 다전자 반응 활용이 공통 주제로 나타났다. 겔 폴리머 전극이나 이온성 액체 첨가제로 무기물 계면을 형성해 폴리설파이드 셔틀을 억제하고 안정성-수송 트레이드오프를 완화하려는 전략, 그리고 링커·도핑 설계로 산화환원 활성과 전압을 끌어올리는 분자·조성 공학이 병행되었다.",
+      "text": "Li-S/Li-SPAN, 유기(페노티아진 폴리아마이드), Li-O2, Co-free 니켈리치 등 비전통 양극에서 계면 안정성 확보와 다전자 반응 활용이 공통 주제로 나타났다. 겔 폴리머 전극·이온성 액체 첨가제로 LiF/Li3N 무기 계면을 형성해 폴리설파이드 셔틀을 억제하고 안정성-수송 트레이드오프를 완화하는 전략과, 링커·다원소 도핑 설계로 산화환원 활성·전압·수명을 끌어올리는 분자·조성 공학이 병행되었다.",
       "highlights": [
         {"title": "Coupling Ionic Network Reconstruction With Interfacial Electrostatics Shielding Resolves the Interphase Stability‐Transport Trade‐Off for High‐Temperature Durable Li‐SPAN Batteries", "url": "https://doi.org/10.1002/adfm.78698", "venue": "Advanced Functional Materials"},
         {"title": "Linkage Engineering Boosts Battery Performance of Two‐Electron Phenothiazine‐Based Polyamide Cathodes", "url": "https://doi.org/10.1002/advs.77960", "venue": "Advanced Science"},
@@ -24,9 +24,19 @@
       ]
     },
     {
+      "topic": "na-metal",
+      "heading": "소듐 금속 음극",
+      "text": "소듐친화성 프레임워크(Na3Sb)·액체금속 집전체·고분자 전해질 개질을 통해 균일한 Na 증착과 NaF 풍부 SEI를 유도하는 덴드라이트 억제 전략이 반복되었다. 숙시노니트릴 분자 개질로 Na+ 용매화와 전도 네트워크를 재구성하거나 붕소 풍부 계면을 형성하는 등 용매화·계면 화학 제어가 두드러졌으며, 무음극(anode-free) 구성에서 소듐 인벤토리·쿨롱효율 요구치를 정량화해 과제가 소재보다 통합·제조 공정에 있음을 지적한 메커니즘 분석도 제시되었다.",
+      "highlights": [
+        {"title": "Anode‐Free Sodium Metal Batteries: From Materials Design to System‐Level Integration", "url": "https://doi.org/10.1002/advs.77874", "venue": "Advanced Science"},
+        {"title": "Sodiophilic Na 3 Sb Framework‐Regulated Sodium Deposition and Interphase Evolution for Dendrite‐Free and Long‐Life Sodium Metal Batteries", "url": "https://doi.org/10.1002/advs.77935", "venue": "Advanced Science"},
+        {"title": "Molecular Tailoring of Succinonitrile Reshapes Na + Solvation and Interfacial Chemistry in High-Voltage Solid-State Polymer Electrolytes for Sodium Metal Batteries", "url": "https://doi.org/10.1021/acsnano.6c11895", "venue": "ACS Nano"}
+      ]
+    },
+    {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고니켈 NCM의 고전압 구동 시 발생하는 H2-H3 상전이·격자 열화와 CEI 불안정을 억제하는 데 초점이 맞춰졌다. 나노로드 형상 제어로 구조 가역성을 확보하거나, in-situ 중합 폴리실록산·단량체 제어로 LiF 풍부 CEI를 형성하는 계면 공학, 그리고 황화물 전고체계에서 ALD LNO 코팅으로 전해질 분해를 억제하는 접근이 제시되었다.",
+      "text": "고니켈 NCM의 고전압 구동 시 나타나는 H2-H3 상전이·격자 열화와 CEI 불안정을 억제하는 데 초점이 맞춰졌다. 나노로드 형상 제어로 구조 가역성을 확보하거나, in-situ 중합 폴리실록산·단량체 제어로 LiF 풍부 CEI를 형성하는 계면 공학, 황화물 전고체계에서 ALD LNO 코팅으로 전해질 분해를 억제하는 접근, 그리고 화학적 탈리튬화 기반 표면 재구성이 제시되어 표면·계면 안정화 전략이 다변화되었다.",
       "highlights": [
         {"title": "Enhancing cycling stability by promoting high-voltage structural reversibility in high-nickel positive electrode materials", "url": "https://doi.org/10.1038/s41467-026-78069-9", "venue": "Nature Communications"},
         {"title": "Substrate-Enhanced Atomic Layer Deposition of Lithium Niobate on NMC Cathodes for Sulfide-Based All-Solid-State Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c01988", "venue": "ACS Energy Letters"},
@@ -34,19 +44,9 @@
       ]
     },
     {
-      "topic": "na-metal",
-      "heading": "소듐 금속 음극",
-      "text": "소듐친화성 프레임워크(Na3Sb)·액체금속 집전체·고분자 전해질 개질을 통해 균일한 Na 증착과 NaF 풍부 SEI를 유도하는 덴드라이트 억제 전략이 반복되었다. 특히 무음극(anode-free) 구성에서 소듐 인벤토리·쿨롱효율 요구치를 정량화하는 메커니즘 분석이 등장해, 과제가 소재보다 통합·제조 공정에 있다는 시각도 제시되었다.",
-      "highlights": [
-        {"title": "Anode‐Free Sodium Metal Batteries: From Materials Design to System‐Level Integration", "url": "https://doi.org/10.1002/advs.77874", "venue": "Advanced Science"},
-        {"title": "Sodiophilic Na 3 Sb Framework‐Regulated Sodium Deposition and Interphase Evolution for Dendrite‐Free and Long‐Life Sodium Metal Batteries", "url": "https://doi.org/10.1002/advs.77935", "venue": "Advanced Science"},
-        {"title": "A Fluidic and Sodiophilic Liquid Metal Current Collector for Dendrite‐Free and Stable Anode‐Free Sodium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71640", "venue": "Advanced Energy Materials"}
-      ]
-    },
-    {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "Li-rich 양극의 전압 감쇠와 산소 산화환원 불안정을 표면 공학으로 억제하려는 연구가 중심이며, 불소화 AlPO4 코팅이나 화학적 탈리튬화 기반 표면 재구성으로 초기 쿨롱효율과 구조 가역성을 높였다. 한편 폴리음이온 골격(Li2FeSiO4)에서도 분자 O2 발생이 본질적으로 억제되지 않음을 규명한 메커니즘 연구가 산소 레독스 설계의 한계를 지적했다.",
+      "text": "Li-rich 양극의 전압 감쇠와 산소 산화환원 불안정을 표면 공학으로 억제하려는 연구가 중심으로, 불소화 AlPO4 코팅과 화학적 탈리튬화 기반 표면 재구성이 초기 쿨롱효율과 구조 가역성을 크게 높였다. 한편 폴리음이온 골격(Li2FeSiO4)에서도 FeIV 불균화를 거쳐 분자 O2 발생이 본질적으로 억제되지 않음을 규명한 메커니즘 연구가 산소 레독스 설계의 한계를 지적했다.",
       "highlights": [
         {"title": "Engineering a Fluorinated AlPO 4 Interface: Toward High Initial Coulombic Efficiency and Stable Oxygen Redox in Li‐Rich Layered Oxide Cathodes", "url": "https://doi.org/10.1002/adfm.78762", "venue": "Advanced Functional Materials"},
         {"title": "Chemical-Delithiation-Induced Surface Reconstruction in Layered Oxide Cathodes for High-Performance All-Solid-State Batteries", "url": "https://doi.org/10.1021/jacs.6c11457", "venue": "Journal of the American Chemical Society"},

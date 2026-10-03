@@ -531,6 +531,10 @@
   "metric": 10.07,
   "name": "Journal of Neuroinflammation"
  },
+ "S199738284": {
+  "metric": 0.66,
+  "name": "Journal of Visualized Experiments"
+ },
  "S200764475": {
   "metric": 2.69,
   "name": "Journal of Applied Polymer Science"
@@ -1166,6 +1170,10 @@
  "S4210191493": {
   "metric": 6.46,
   "name": "ACS Applied Nano Materials"
+ },
+ "S4210191625": {
+  "metric": 6.31,
+  "name": "Communications Chemistry"
  },
  "S4210191901": {
   "metric": 4.04,

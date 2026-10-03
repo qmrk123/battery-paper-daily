@@ -1,8 +1,122 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-03T00:14:20+00:00",
-  "count": 24,
+  "generated_at": "2026-10-03T23:35:47+00:00",
+  "count": 34,
   "papers": [
+    {
+      "id": "W7215704170",
+      "source": "openalex",
+      "title": "Understanding the Role of Lithium Metal Microstructure in Chemo-Mechanical Instability of Solid-State Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02372",
+      "published": "2026-10-02",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02372",
+      "authors": [
+        "Deep Chatterjee",
+        "Abhinand Ayyaswamy",
+        "Bairav S. Vishnugopi",
+        "Jeong Seop Yoon",
+        "Donald J. Siegel",
+        "Jeff S. Sakamoto"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Increased energy density and safety relative to conventional lithium (Li)-ion batteries motivate the development of solid-state batteries (SSBs). However, maintaining interface stability at the metal anode–solid electrolyte (SE) interface remains a critical challenge to achieving practical areal capacities, especially during stripping/discharge. Here, a mesoscale model informed by atomistic simulations is employed to examine void formation at the Li metal–SE interface during discharge/stripping. The model reveals how void-formation-driven interfacial contact loss behavior depends on the microstructural properties of the polycrystalline Li anode. In agreement with prior studies, Li microstructures with small grain sizes promote self-diffusion-induced void healing and generally exhibit better interfacial contact. We further show the effect of operating conditions, such as applied pressure, stripping current density, and temperature, on the stripping performance for different Li microstructures. Through this study, we shed light on the importance of taking microstructural features into account in predicting interfacial contact evolution during stripping of Li metal SSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "이 연구는 원자 수준 시뮬레이션에 기반한 메조스케일 모델을 사용해 고체전해질과 리튬 금속 음극 계면에서 발생하는 보이드(void) 형성 거동을 분석했다. 결정립 크기가 작은 리튬 미세구조는 자기확산에 의한 보이드 치유 효과가 커서 계면 접촉을 더 잘 유지하는 것으로 나타났다. 또한 압력, 전류밀도, 온도 등 작동 조건이 스트리핑 성능에 미치는 영향을 미세구조별로 비교해, 고체전해질 전지 설계 시 리튬 미세구조 고려의 중요성을 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7215779422",
+      "source": "openalex",
+      "title": "Cationic chain-anchored monolayer enables wide-temperature composite polymer electrolytes for lithium-metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78048-0",
+      "published": "2026-10-02",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78048-0",
+      "authors": [
+        "Qimin Peng",
+        "Yong Chen",
+        "Jiajun Gong",
+        "Haojie Xu",
+        "Taolue Wen",
+        "Mengyu Liu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78048-0",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "양이온 사슬이 고정된 단분자층을 도입해 넓은 온도 범위에서 작동하는 리튬 금속전지용 복합고분자 전해질을 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7215849230",
+      "source": "openalex",
+      "title": "Ultrahigh-Performance Implantable Sono-Piezoelectric Nanogenerators Based on Core@Dendritic Shell Ferroelectric Nanocomposites for Battery-Free and Wireless-Powered Bioelectronics",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112460",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112460",
+      "authors": [
+        "Xu Cai",
+        "Raquel Ma",
+        "Lang Shuai",
+        "Guoyu Ou",
+        "Yalun Wang",
+        "Xiaohan Tao"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "코어-덴드라이트 쉘 구조의 강유전체 나노복합체를 이용해 배터리 없이 무선으로 작동하는 임플란트형 초음파-압전 나노발전기를 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7216015215",
+      "source": "openalex",
+      "title": "Thermo-electrical coupling-induced thermal runaway evolution, multphysical failure and dynamic warning strategy of large-format LiFePO4 batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105573",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105573",
+      "authors": [
+        "Junjie Yang",
+        "Zhipeng Ling",
+        "Jiahao Wang",
+        "Boyu Chen",
+        "Li Li",
+        "Chaoling Han"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "대형 LiFePO4 배터리에서 열-전기 상호작용에 따른 열폭주 진행 과정과 복합적인 물리적 고장 메커니즘을 분석하고, 이를 조기에 감지하기 위한 동적 경보 전략을 제안한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "W7215050205",
       "source": "openalex",
@@ -27,7 +141,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-03",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77562-5/MediaObjects/41467_2026_77562_Fig1_HTML.png",
+        "cached": "img/W7215050205.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77562-5"
+      },
       "summary_ko": "수계 아연이온전지용 하이드로겔 전해질에 분자 설계를 적용한 연구이다. 짜비터이온 작용기(-SO3-, -N+(CH3)3)와 불소화 소수성기(-CH2CF3)를 고분자 네트워크에 도입해 물 활성도를 낮추고 Zn 음극 계면에 유무기 복합 고체전해질계면(SEI)을 형성시켰다. 그 결과 Zn 대칭셀에서 5 mA/cm², 5 mAh/cm² 조건으로 900시간 이상 안정적인 도금/탈리를 구현했고, Zn||MnO2 파우치셀에서 약 1 Ah 용량으로 700시간 이상 구동을 실증했다.",
       "relevant": false
     },
@@ -85,7 +204,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-03",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78080-0/MediaObjects/41467_2026_78080_Fig1_HTML.png",
+        "cached": "img/W7215115893.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78080-0"
+      },
       "summary_ko": "붕소-산소 결합으로 연결된 고리형 거대분자 '보르피린(borphyrin)'을 합성하여 건조 고체 상태에서 리튬 이온을 선택적으로 추출하는 방법을 제시했다. 16-크라운-4 유사 구조의 좁은 결합 공동 덕분에 알칼리·알칼리토·전이금속 양이온이 혼재된 건조 혼합염에서도 높은 리튬 친화도와 선택성을 보였다. 해수염, 광물, 폐기물로부터의 고체-액체 리튬 추출 플랫폼으로서의 가능성을 제시한다.",
       "relevant": false
     },
@@ -115,7 +239,12 @@
       "journal_id": "S4210215815",
       "journal_metric": 13.57,
       "first_seen": "2026-10-03",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44160-026-01152-y/MediaObjects/44160_2026_1152_Figa_HTML.png",
+        "cached": "img/W7215046545.jpg",
+        "license": null,
+        "attribution": "Nature Synthesis — https://doi.org/10.1038/s44160-026-01152-y"
+      },
       "summary_ko": "코발트를 사용하지 않는 니켈리치 양극재에 디스크립터(descriptor) 기반으로 다중 원소 도핑을 설계하여 고성능을 구현한 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
@@ -143,7 +272,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-03",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77955-6/MediaObjects/41467_2026_77955_Fig1_HTML.png",
+        "cached": "img/W7215080854.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77955-6"
+      },
       "summary_ko": "식물의 거터레이션액을 이용해 비침습적으로 여러 바이오마커를 모니터링하는 웨어러블 마이크로유체 플랫폼 'PlantIonics'를 개발했다. 비대칭 젖음성을 가진 쐐기형 마이크로채널로 0.6초 내 신속한 단방향 체액 포집이 가능하며, 칼륨·나트륨·포도당을 다중 채널 센서와 무선 회로로 동시 측정한다. 여러 날에 걸친 식물 실험에서 환경 스트레스에 따른 거터레이션 변화와 뿌리 이온 섭동의 상관관계를 확인했다.",
       "relevant": false
     },
@@ -412,6 +546,34 @@
       "relevant": false
     },
     {
+      "id": "W7214792839",
+      "source": "openalex",
+      "title": "Ultrasound-driven triboelectric nanogenerators with acoustically engineered metal mesh electrodes",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112431",
+      "published": "2026-09-29",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112431",
+      "authors": [
+        "Ki-Yoon Park",
+        "Young-Jun Kim",
+        "Hyeon Mo",
+        "Jonggeun Park",
+        "Yongbin Han",
+        "Byung‐Ok Choi"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": "Implantable medical devices powered by batteries face inherent limitations from periodic surgical replacement and associated clinical risks. Ultrasound-driven triboelectric nanogenerators (US-TENGs) present a promising approach for sustainable power supply, yet their performance remains constrained by acoustic energy transfer efficiency at material interfaces. Here, we demonstrate a metal mesh-based ultrasound-driven TENG (MMUS-TENG) optimized for implantable medical device applications through strategic acoustic impedance matching. By engineering metal mesh electrodes with tunable pores per inch (PPI) values, we achieved coupled optimization of acoustic pressure redistribution and electrostatic interaction, with the 400 PPI configuration delivering maximum performance. The optimized device generates 24.6 V peak-to-peak voltage (660% enhancement compared to flat electrodes) at 20 kHz ultrasound and delivers 10.8 mW maximum power output. Ex vivo characterization using tissue-mimicking materials and in vivo rat implantation successfully demonstrate the stable electrical output (4.23 V rms , 247 μA rms ). The MMUS-TENG successfully charges a 3 mAh lithium-ion battery at 140 μC/s, establishing metal mesh engineering as an effective strategy for high-performance implantable energy harvesting systems.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.nanoen.2026.112431",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "이 연구는 금속 메시 전극의 기공 밀도(PPI)를 조절해 초음파 기반 마찰전기 나노발전기(TENG)의 음향 임피던스 정합을 최적화했다. 400 PPI 조건에서 평탄 전극 대비 660% 향상된 24.6 Vpp 출력과 최대 10.8 mW의 전력을 얻었으며, 생체 모사 조직 및 쥐 체내 실험에서도 안정적인 전기 출력을 확인했다. 이 소자는 3 mAh 리튬이온전지를 140 μC/s로 충전할 수 있음을 보여, 임플란트형 자가발전 전원으로서의 가능성을 제시했다.",
+      "relevant": false
+    },
+    {
       "id": "W7214957200",
       "source": "openalex",
       "title": "Role‐Differentiated Solvation Directs Interfacial Chemistry in Wide‐Temperature Lithium Metal Batteries",
@@ -579,6 +741,36 @@
       "relevant": true
     },
     {
+      "id": "W7214757707",
+      "source": "openalex",
+      "title": "Electronic spatialization induced boron-rich interphase for high-energy ether-based sodium metal batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112452",
+      "published": "2026-09-29",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112452",
+      "authors": [
+        "Hengguang Li",
+        "Shuoqing Zhang",
+        "Sheng Gao",
+        "Tao Zhou",
+        "Hao Zhang",
+        "Junyi Hua"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "전자 공간화를 유도하는 붕소가 풍부한 계면층을 형성해 에테르 기반 고에너지 소듐 금속전지의 계면 안정성을 향상시킨 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7214743534",
       "source": "openalex",
       "title": "Monomer Molecule Reconstruction Engineered Heterogeneous Lithium‐Ion Solvation for High‐Performance Lithium‐Metal Batteries",
@@ -612,6 +804,64 @@
         "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5513729"
       },
       "summary_ko": "이소부틸 메타크릴레이트(IBMA)의 in situ 중합을 이용한 분자 재구성 전략으로 리튬금속전지의 Li+ 솔베이션 구조를 조절했다. 거대분자화된 IBMA가 카르보닐 산소 주변 입체 장애를 늘려 Li+-고분자 배위를 약화시키고 음이온이 풍부한 솔베이션으로의 전환을 유도했으며, TTE를 분자 윤활제로 활용해 젤 전해질이 상온 이온전도도 1.77mS/cm와 약 4.7V의 고전압 안정성을 달성했다. Li||NCM811 젤 전지는 500사이클 후 81.8%의 용량을 유지했고, 파우치셀은 386.1Wh/kg의 에너지밀도로 안정적으로 작동했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214534080",
+      "source": "openalex",
+      "title": "Interfacial failure analysis and LiTaO3-mediated dual-filler stabilization of LiTa2PO8-based composite solid electrolytes for solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105561",
+      "published": "2026-09-27",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105561",
+      "authors": [
+        "Zheng Yue",
+        "Pengpeng Dai",
+        "Haoran Li",
+        "Yudong Liu",
+        "Yuxin Liu",
+        "Chenglong Yu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "LiTa2PO8 기반 복합고체전해질의 계면 실패 메커니즘을 분석하고, LiTaO3를 활용한 이중 충전제 전략으로 고체상 리튬 금속전지의 계면 안정성을 개선한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7214213295",
+      "source": "openalex",
+      "title": "LiNO3–DMAc synergistic regulation of anion-rich solvation for dual-interphase stabilization in Li-metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105557",
+      "published": "2026-09-24",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105557",
+      "authors": [
+        "Chaochao Gao",
+        "Tiansheng Wang",
+        "Juantao Lin",
+        "Wanwan Rao",
+        "Lin Xie",
+        "Jialin Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "LiNO3와 DMAc를 함께 사용해 음이온이 풍부한 용매화 구조를 형성함으로써 리튬 금속전지의 양극과 음극 양쪽 계면을 동시에 안정화하는 전략을 제시한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -699,6 +949,34 @@
       "relevant": false
     },
     {
+      "id": "W7214074509",
+      "source": "openalex",
+      "title": "From recovery to qualification: Feedstock disorder and the battery-grade gap in lithium-ion battery recycling",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112434",
+      "published": "2026-09-23",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112434",
+      "authors": [
+        "Vijay K. Tomer",
+        "Amey Panjwani",
+        "Weixuan Li",
+        "Abeer Khan",
+        "Ritu Malik",
+        "Yaser Abu-Lebdeh"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": "Lithium-ion battery recycling is commonly judged by recovery efficiency, yet recovery alone does not establish whether recovered materials can re-enter battery manufacturing. This review treats qualification as the decisive challenge through two linked concepts. Feedstock disorder describes the compositional complexity, provenance uncertainty, and variation in degradation state of materials entering the recycling chain, arising from mixed chemistries, cell designs, ageing histories, pretreatment conditions, and contaminant carryover. The qualification gap is the difference between the measured state of a recovered material and the criterion declared for its intended next use, evaluated attribute by attribute at a stated process stage across composition, bulk structure, particle architecture, surface and interphase, processability, and electrochemical performance, with batch reproducibility as a cross-cutting requirement. Because inherited species act according to concentration, lattice site, chemical state, and spatial distribution, controlled incorporation may be tolerable or beneficial, whereas uncontrolled accumulation may become disqualifying. Recycling is therefore treated as a coupled qualification pipeline in which sorting, pretreatment, recovery, regeneration, and characterization each remove, transform, or pass disorder downstream. Comparative entries are classified by Feedstock Realism Level, with undocumented cases recorded as not reported, and a chemistry-specific matrix separates each measurement from the criterion or benchmark it is compared against and the stage at which that comparison is valid. Sorting, multiscale characterization, and data-driven tools are assessed for reconstructing provenance and generating evidence. Across cathode and graphite recycling, recovery and structural restoration are demonstrated more often than qualification against declared criteria, an imbalance that defines the barrier to closed-loop recycling.",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S221128552600738X/pdf",
+      "license": "cc-by-nc",
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "이 리뷰는 리튬이온전지 재활용에서 회수율만으로는 재사용 가능성을 보장할 수 없다는 점을 지적하며, 공급원의 화학적 혼합·열화 상태 등에서 비롯되는 '피드스톡 교란'과 목표 품질 기준과의 차이인 '품질화 격차' 개념을 제시한다. 조성, 구조, 입자 형태, 표면/계면, 공정성, 전기화학 성능 등 항목별로 회수 소재의 상태를 평가하는 체계를 제안하고, 분류·전처리·회수·재생·특성평가 각 단계가 이러한 교란을 어떻게 다루는지 분석했다. 현재 캐소드 및 그래파이트 재활용 연구는 회수와 구조 복원에 집중되어 있고, 선언된 기준에 대한 품질화 입증은 부족하다고 결론짓는다.",
+      "relevant": false
+    },
+    {
       "id": "W7214061448",
       "source": "openalex",
       "title": "Chemo-mechanical modeling of crystallographic anisotropy-driven intergranular cracking in realistic Ni-rich cathode particles",
@@ -726,6 +1004,34 @@
       "image": null,
       "summary_ko": "실제 Ni-rich 양극 입자에서 결정학적 이방성이 유발하는 입계 균열(intergranular cracking)에 대한 화학-기계적(chemo-mechanical) 모델링 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "W7213969928",
+      "source": "openalex",
+      "title": "Cross-scale consolidation of cobalt single atoms toward enhanced oxygen reduction reaction in zinc-air batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105546",
+      "published": "2026-09-22",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105546",
+      "authors": [
+        "Yong Zheng",
+        "Jingyu Guan",
+        "Weiyi He",
+        "Ruifeng Chen",
+        "Pengcheng Zhao",
+        "Junpeng Ma"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-04",
+      "image": null,
+      "summary_ko": "코발트 단원자 촉매를 교차 스케일로 통합하여 아연-공기전지의 산소환원반응(ORR) 성능을 향상시킨 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7213753176",
