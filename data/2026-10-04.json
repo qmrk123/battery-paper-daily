@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generated_at": "2026-10-03T23:35:47+00:00",
+  "generated_at": "2026-10-04T23:55:25+00:00",
   "count": 10,
   "papers": [
     {
@@ -57,7 +57,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-04",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78048-0/MediaObjects/41467_2026_78048_Fig1_HTML.png",
+        "cached": "img/W7215779422.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78048-0"
+      },
       "summary_ko": "양이온 사슬이 고정된 단분자층을 도입해 넓은 온도 범위에서 작동하는 리튬 금속전지용 복합고분자 전해질을 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
