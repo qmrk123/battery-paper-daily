@@ -1,8 +1,36 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-04T23:53:21+00:00",
-  "count": 47,
+  "generated_at": "2026-10-06T01:42:09+00:00",
+  "count": 48,
   "papers": [
+    {
+      "id": "W7219822830",
+      "source": "openalex",
+      "title": "Fire‐Safe Hierarchical Solid Polymer Electrolytes Enabled by Dual‐Functional Microcapsules for Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/advs.78034",
+      "published": "2026-10-04",
+      "topics": [],
+      "doi": "10.1002/advs.78034",
+      "authors": [
+        "Ziqi Huang",
+        "Jiuqing Gui",
+        "Qiaoying Cao",
+        "Yong Xiao",
+        "Hang Hu",
+        "Yeru Liang"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Lithium metal batteries offer high energy density but suffer from severe safety risks associated with dendrite growth and flammable electrolytes, which can lead to thermal runaway and combustion. Although solid‐state electrolytes improve thermal stability, they primarily rely on intrinsic nonflammability and remain ineffective in suppressing combustion once thermal runaway is triggered. Here, we report a dual‐functional fire‐safe microcapsule‐enabled strategy to construct hierarchical solid polymer electrolytes (HSPEs) with integrated fire‐suppression capability. Fire‐extinguishing agents, perfluoro(2‐methyl‐3‐pentanone), are encapsulated within ammonium hydrogen phytate‐modified urea‐formaldehyde‐based resin shells and incorporated into an ethylene‐vinyl acetate matrix. Upon thermal stimulation, the microcapsules undergo rapid structural rupture, releasing perfluoro(2‐methyl‐3‐pentanone) to suppress combustion, while the ammonium hydrogen phytate‐derived shell forms a protective char layer that retards heat and mass transfer. This dual‐functional design enables thermally triggered fire suppression within the electrolyte framework. Importantly, the HSPEs maintain desirable electrochemical properties, including a room‐temperature ionic conductivity of 0.64 mS cm −1 and an electrochemical stability window of up to 4.6 V. Furthermore, pouch cells based on HSPEs effectively resist ignition under thermal abuse conditions. This work provides a viable approach to integrating fire‐suppression functionality into solid‐state electrolytes, offering new insights into the design of safer lithium metal batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78034",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-10-06",
+      "image": null,
+      "summary_ko": "리튬 금속 전지의 열폭주 및 발화 위험을 억제하기 위해 이중 기능성 마이크로캡슐을 적용한 계층형 고체 고분자 전해질(HSPE)을 제안했다. 캡슐은 과불화(2-메틸-3-펜탄온) 소화제를 요소-포름알데히드 기반 쉘에 담아 에틸렌-비닐아세테이트 매트릭스에 분산시켰으며, 열 자극 시 쉘이 파열되어 소화제를 방출하고 탄화층을 형성해 열·물질 전달을 지연시킨다. 이 전해질은 상온 이온전도도 0.64 mS/cm와 4.6V의 전기화학적 안정성 창을 유지하면서도 파우치셀 수준의 열적 학대 조건에서 발화를 효과적으로 억제했다.",
+      "relevant": false
+    },
     {
       "id": "W7218550926",
       "source": "openalex",
@@ -169,7 +197,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-04",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78048-0/MediaObjects/41467_2026_78048_Fig1_HTML.png",
+        "cached": "img/W7215779422.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78048-0"
+      },
       "summary_ko": "양이온 사슬이 고정된 단분자층을 도입해 넓은 온도 범위에서 작동하는 리튬 금속전지용 복합고분자 전해질을 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
