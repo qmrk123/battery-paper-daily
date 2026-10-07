@@ -124,7 +124,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75244",
+        "cached": "img/W7220370525.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75244"
+      },
       "summary_ko": "폐 NCM622(LiNi0.6Co0.2Mn0.2O2) 양극의 직접 재생 과정에서 잔류하는 암염상 재구조층을 표면 불소 처리로 F-농축 암염 계면으로 전환시켜 안정성을 높이는 전략을 제시했다. 용융염 재리튬화로 리튬 함량과 층상 골격을 복원한 뒤 불소 처리를 적용한 RFNCM은 4.6V 고전압에서도 우수한 용량과 사이클 안정성을 보였다. XRD, 가스 발생 측정, XPS, in situ 라만, DFT 계산을 통해 Ni-O 결합 강화와 산소 공공 형성 에너지 증가가 산소 방출 억제와 구조 안정화에 기여함을 밝혔다.",
       "relevant": true
     },
@@ -154,7 +160,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71659",
+        "cached": "img/W7220431694.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71659"
+      },
       "summary_ko": "소듐이온전지용 층상 산화물 양극이 전극 공정 중 습한 공기에 노출될 때 발생하는 표면 잔류 알칼리(NaOH, Na2CO3, NaHCO3) 문제를 다룬 리뷰이다. 리튬이온 양극과 달리 NaHCO3 형성, 심각한 Na+/H+ 교환 경향, 좁은 공정 윈도우 등 소듐 특유의 화학적 차이를 형성 메커니즘, 분석 기법, 개선 전략 관점에서 정리했다. 공기 안정성이 높은 고성능 소듐이온 양극 개발을 위한 연구 방향을 제시한다.",
       "relevant": true
     },
