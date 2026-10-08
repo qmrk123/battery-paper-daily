@@ -208,7 +208,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75231",
+        "cached": "img/W7220684627.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75231"
+      },
       "summary_ko": "탈리 농도가 낮은 전해질 환경에서 소듐 친화성 지점을 불연속적으로 배치한 초경량 집전체를 설계하여 무음극 소듐 금속전지의 Na 도금/탈리 가역성을 개선했다. Bi0.4Sb1.6Te3 합금-전환형 나노층을 Al 호일에 분산 코팅해 균일한 Na 핵생성과 평면 성장을 유도했으며, 거친 불연속 계면 구조가 전해질 침투를 향상시켰다. 그 결과 NVP||BST@Al 무음극 완전셀은 5C 고속충전에서 400회 이상 안정적으로 구동되었고, 2.75 Ah 파우치셀은 110회 이상 사이클을 유지하며 205 Wh/kg의 에너지 밀도를 달성했다.",
       "relevant": true
     },
@@ -238,7 +244,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75218",
+        "cached": "img/W7220742457.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75218"
+      },
       "summary_ko": "NiSx 골격을 리튬 호일과 기계적으로 결합해 질량-전하 조절 미세영역을 형성, 3차원 리튬 금속 음극의 국소 전류 집중과 부피 변화 문제를 동시에 해결했다. 내재된 전도성 매트릭스가 리튬을 정렬된 미세영역으로 분할해 국소 전류밀도를 분산시키고, Li2S가 풍부한 계면이 전해질 분해를 억제하며 Li2S/LiF 기반 SEI를 유도해 Li+ 플럭스를 균일화한다. 그 결과 대칭셀은 덴드라이트 없이 5380시간 이상의 긴 수명을 보였고, LiFePO4 완전셀은 2C에서 1000회 사이클 후 94.1%의 용량을 유지했다.",
       "relevant": true
     },
