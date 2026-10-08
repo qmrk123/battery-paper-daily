@@ -1471,6 +1471,10 @@
   "metric": 4.63,
   "name": "Small Structures"
  },
+ "S4210224159": {
+  "metric": 0.38,
+  "name": "FUDMA Journal of Sciences"
+ },
  "S4210224418": {
   "metric": 2.98,
   "name": "Electrochemical Science Advances"
@@ -1586,6 +1590,10 @@
  "S4210235895": {
   "metric": 3.71,
   "name": "Ceramics"
+ },
+ "S4210238080": {
+  "metric": 1.34,
+  "name": "Open Research Europe"
  },
  "S4210238268": {
   "metric": 1.72,
@@ -1814,6 +1822,10 @@
  "S4387281017": {
   "metric": 0.47,
   "name": "Highlights in Science Engineering and Technology"
+ },
+ "S4387281477": {
+  "metric": 1.18,
+  "name": "Cognitive Sustainability"
  },
  "S4387281483": {
   "metric": 6.65,
@@ -2270,6 +2282,10 @@
  "S7359802": {
   "metric": 2.81,
   "name": "Catalysis Letters"
+ },
+ "S7407050737": {
+  "metric": 0.0,
+  "name": "Apollo"
  },
  "S7407050768": {
   "metric": 0.04,
