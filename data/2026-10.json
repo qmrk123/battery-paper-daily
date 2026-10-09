@@ -1,8 +1,96 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-08T00:48:15+00:00",
-  "count": 83,
+  "generated_at": "2026-10-09T01:03:38+00:00",
+  "count": 91,
   "papers": [
+    {
+      "id": "W7220857334",
+      "source": "openalex",
+      "title": "Site‐Selective Anion‐Cation Regulation of Sulfide Electrolyte Enables Low‐Pressure Dendrite‐Suppressed All‐Solid‐State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.3893843",
+      "published": "2026-10-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.3893843",
+      "authors": [
+        "Xinxin Zhu",
+        "Xianji Qiao",
+        "Ning Qin",
+        "Zhiheng Li",
+        "Yanqun Lv",
+        "Jun Biao Lu"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Achieving stable sulfide‐based all‐solid‐state lithium batteries with Li metal anodes and high‐capacity cathodes under low stack pressure is highly desirable for high‐energy‐density energy storage, but remains challenging because of unstable solid‐solid interfaces and dendrite‐induced short circuits. Here, we develop a site‐selective anion‐cation regulation strategy for argyrodite Li 6 PS 5 Cl electrolyte to couple framework stabilization with interphase chemistry, enabling long‐term dendrite‐suppressed cycling under low stack pressure. Al 3+ substitution for P 5+ forms AlS 4 ‐related local units and strengthens local Al–S bonding, stabilizing the sulfide framework against redox decomposition. Cl − incorporation into the 4 a /4 d anion sublattice promotes Li + transport, delivering a high room‐temperature ionic conductivity of 7.22 mS cm −1 . More importantly, F/Cl regulation redirects the interfacial decomposition pathway from a Li 2 S‐rich/LiCl interphase toward a LiF/LiCl‐rich and Li 2 S‐poor passivation layer, with exposed LiF/LiCl (200) planes that exhibit stronger interfacial adhesion with Li metal. Benefiting from this coupled framework‐interphase regulation, Li | LAPSCF‐Cl | Li symmetric cells cycle for over 8000 h at 0.5 mA cm −2 at 3 MPa and support stable cycling of both NCM811 and sulfur cathodes paired with Li metal under a relatively low pressure of 30 MPa.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/anie.3893843",
+      "license": "cc-by",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "아가이로다이트 Li6PS5Cl계 황화물 고체전해질에서 Al3+/Cl- 치환을 통한 부위 선택적 양이온-음이온 조절로 프레임워크와 계면 화학을 동시에 안정화했다. Al-S 결합 강화로 산화환원 분해를 억제하고 Cl-가 Li+ 전도도를 7.22 mS/cm까지 높이며, F/Cl 조절로 LiF/LiCl이 풍부하고 Li2S가 적은 계면층을 형성해 Li 금속과의 접착력을 강화했다. 이를 통해 Li 대칭셀은 0.5 mA/cm², 3 MPa에서 8000시간 이상 안정 구동했고, NCM811 및 황 양극 전지도 30 MPa의 낮은 압력에서 안정적으로 작동했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7220862500",
+      "source": "openalex",
+      "title": "Electrolyte Engineering for Lithium Metal Batteries Under Extreme Operating Conditions",
+      "url": "https://doi.org/10.1002/adfm.78881",
+      "published": "2026-10-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78881",
+      "authors": [
+        "Zhen Wang",
+        "Kewen Chen",
+        "Fei Li",
+        "Jiawei Chen",
+        "Jinjun Cai",
+        "Youwei Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The practical deployment of high‐specific‐energy lithium metal batteries (LMBs) demands stable operation under conditions of high voltage, fast charging, a wide temperature range, high cathode loading, lean electrolyte, and thin lithium. These conditions intensify the coupling among ion transport, interfacial reactions, and the limited inventories of electrolyte and active lithium, leading to transport polarization, unstable electrode‐electrolyte interphases, and irreversible material loss. Although electrolyte design has evolved from empirical formulation optimization to coordinated regulation across solvation, molecular, interfacial, and system levels, systematic links between condition‐specific failure mechanisms and corresponding design strategies remain incomplete. This review elucidates dynamic Li + solvation dynamics, multiscale transport, interphase evolution, and electrolyte and active‐lithium consumption govern cycling stability under extreme conditions. Representative strategies, including solvation and transport regulation, molecular and interfacial reaction engineering, polymer/gel electrolytes, and spatially differentiated electrolytes, are summarized with emphasis on their operating windows and trade‐offs. Finally, we propose that electrolyte design under extreme conditions should identify the dominant condition‐specific limitation and coordinate solvation, transport, interfacial reactions, and the consumption of electrolyte and active lithium accordingly, thereby establishing an integrated “application conditions–failure mechanisms–key descriptors–electrolyte engineering–practical validation” framework for practical high‐specific‐energy LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "리튬 금속전지(LMB)를 고전압, 급속충전, 광범위한 온도, 고용량 양극, 린 전해질, 박형 리튬 등 극한 조건에서 안정적으로 구동하기 위한 전해질 설계 전략을 리뷰했다. 용매화 구조, 다중 스케일 이온 수송, 계면 진화, 전해질/활성 리튬 소모 메커니즘을 조건별로 정리하고 용매화·수송 조절, 분자·계면 반응 공학, 고분자/젤 전해질, 공간 차등 전해질 등의 대표 전략과 트레이드오프를 제시했다. 극한 조건별 지배적 한계를 파악해 용매화, 수송, 계면 반응, 소모를 종합적으로 조율하는 설계 방향을 제안한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7220867434",
+      "source": "openalex",
+      "title": "A preinvasive regulatory T cell axis for lung cancer interception",
+      "url": "https://doi.org/10.1038/s41586-026-11066-6",
+      "published": "2026-10-07",
+      "topics": [],
+      "doi": "10.1038/s41586-026-11066-6",
+      "authors": [
+        "Samuel Gamble",
+        "Zoe E. Whiteman",
+        "Claudia Peinador Marin",
+        "Marta Lebrusant‐Fernandez",
+        "Abigail Y. L. Shurr",
+        "Andrei Enica"
+      ],
+      "venue": "Nature",
+      "abstract_en": "Abstract Late-stage non-small cell lung cancer (NSCLC) is rarely curable 1 , underscoring a need to intervene earlier in the disease process. Growing evidence suggests that antitumour T cell responses are mounted but become progressively dysregulated during early tumorigenesis 2,3 . Tracking and targeting preinvasive T cell regulation may inform new approaches to detect and intercept lung cancer development. Here we explore how the T cell network is remodelled during NSCLC development via multi-omic, cross-tissue immune profiling in patients with preinvasive lung lesions surveilled by autofluorescence bronchoscopy and computed tomography (CT) imaging. Effector regulatory CD4 + T cells (eT reg cells) expressing basic leucine zipper ATF-like transcription factor (BATF) accumulated in high-grade premalignant airway lesions and were clonally related to circulating eT reg cells. Circulating eT reg cells were increasingly elevated during preinvasive progression, enabling lung tumorigenesis to be tracked through analysis of peripheral blood. Emergence of this clonally coordinated eT reg cell circuit defined rapid progression in patients with early-stage NSCLC detected during CT screening. In mice, carcinogen-driven lung tumorigenesis triggered an analogous preinvasive eT reg cell axis across the blood, airways and draining lymph nodes (dLNs). This culminated in an expansion of lung BATF + T reg cells and T reg cell-rich peribronchial immature tertiary lymphoid structures (iTLSs). Immune interception via phosphoinositide 3-kinase-δ (PI3Kδ) inhibition abrogated formation of T reg cell-rich iTLSs, reduced circulating and pulmonary T reg cells, increased local conventional type 1 dendritic cells (cDC1s) and reduced lung tumour incidence and size. These data reveal a conserved eT reg cell network that emerges across tissues during early pulmonary tumorigenesis and provide a theranostic framework to track and target preinvasive immune regulation for lung cancer interception.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1038/s41586-026-11066-6",
+      "license": "cc-by",
+      "journal_id": "S137773608",
+      "journal_metric": 18.34,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "비소세포폐암의 전암성 단계에서 조절T세포(Treg) 축을 다중오믹스로 분석한 연구로, BATF를 발현하는 효과기 Treg 세포가 고등급 전암성 기도 병변에 축적되고 순환 Treg와 클론 연관성을 보였다. 순환 Treg 세포의 증가가 조기 비소세포폐암의 빠른 진행을 예측하는 지표가 될 수 있음을 마우스 모델로도 확인했다.",
+      "relevant": false
+    },
     {
       "id": "W7220436065",
       "source": "openalex",
@@ -34,6 +122,36 @@
       "relevant": true
     },
     {
+      "id": "W7220835139",
+      "source": "openalex",
+      "title": "Regulating Oxygen‐Mediated Reconstruction during Cooling: A New Design Principle for High‐Capacity Sodium Manganese Oxide Cathodes",
+      "url": "https://doi.org/10.1002/advs.78064",
+      "published": "2026-10-06",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/advs.78064",
+      "authors": [
+        "Seungmin Lee",
+        "Daseul Han",
+        "JAE‐HO PARK",
+        "Eunji Kwon",
+        "Elang Barruna",
+        "Sang Hyuk Gong"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Deciphering the synthetic origin of oxygen‐redox stability is critical to the design of high‐capacity sodium‐ion cathodes. Although prior studies have correlated electrochemical behavior with pre‐formed structural motifs, the pathways by which these motifs emerge during synthesis remain unclear. Here, we track the structural evolution of layered sodium manganese oxide during solid‐state synthesis using time‐resolved X‐ray diffraction coupled with a real‐time micro‐furnace. We show that oxygen uptake and Mn oxidation occur predominantly during cooling, triggering oxygen‐mediated reconstruction into a framework enriched with manganese vacancies (□Mn) and stacking faults. By kinetically regulating the cooling process, we reveal that slow cooling promotes a spatially homogeneous stacking‐fault‐rich architecture that suppresses in‐plane Mn migration and mitigates irreversible O 2 release. High‐resolution microscopy directly visualizes the development of stacking faults, while density functional theory shows that these defects substantially increase the barrier for Mn migration. Together, these findings identify cooling‐driven oxygen‐mediated reconstruction as a previously underappreciated synthetic lever for defect engineering and establish a general design principle for stabilizing oxygen redox in layered sodium cathodes.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78064",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "층상 나트륨 망간 산화물 양극 소재의 산소 redox 안정성이 합성 과정에서 어떻게 형성되는지를 실시간 X선 회절과 마이크로 퍼니스로 추적했다. 냉각 과정에서 산소 흡수와 Mn 산화가 집중적으로 일어나 Mn 공공과 적층 결함이 풍부한 구조로 재구성됨을 확인했고, 느린 냉각이 균일한 적층결함 구조를 유도해 Mn 면내 이동을 억제하고 비가역적 O2 발생을 완화함을 보였다. DFT 계산으로 결함이 Mn 이동 장벽을 크게 높임을 확인하여 냉각 속도 제어를 산소 redox 안정화를 위한 새로운 합성 설계 원리로 제시했다.",
+      "relevant": true
+    },
+    {
       "id": "W7220687383",
       "source": "openalex",
       "title": "Neoadjuvant pepinemab in combination with nivolumab and/or ipilimumab in resectable metastatic melanoma: a pilot biomarker-driven trial",
@@ -57,7 +175,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-08",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78231-3/MediaObjects/41467_2026_78231_Fig1_HTML.png",
+        "cached": "img/W7220687383.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78231-3"
+      },
       "summary_ko": "전이성 흑색종 환자를 대상으로 pepinemab과 nivolumab/ipilimumab 병용 신보조요법의 효과를 평가한 바이오마커 기반 임상연구로, 배터리 분야와 무관한 논문이다.",
       "relevant": false
     },
@@ -113,7 +236,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-08",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78290-6/MediaObjects/41467_2026_78290_Fig1_HTML.png",
+        "cached": "img/W7220690129.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78290-6"
+      },
       "summary_ko": "위장관으로 수소 가스를 전달하기 위한 동적 가스 방출 프레임워크를 개발한 연구로, 배터리 분야와 무관한 논문이다.",
       "relevant": false
     },
@@ -1435,6 +1563,34 @@
       "relevant": true
     },
     {
+      "id": "W7214992270",
+      "source": "openalex",
+      "title": "Wide-temperature electrolyte for advanced Mn metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105569",
+      "published": "2026-09-30",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105569",
+      "authors": [
+        "Jian Zhang",
+        "Zhiyi Liu",
+        "Fang Chen",
+        "Jiahui Ye",
+        "Longqi Luo",
+        "Qing Lang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "ABSTRACT Mn metal batteries (MnMBs) have attracted widespread attention due to distinct merits of Mn anode on energy-to-price ratio, volumetric capacity and redox potential. However, most MnMBs can only be operated around room temperature, largely constraining their potential application scenarios. In this work, a wide-temperature non-aqueous electrolyte, comprising wide-liquid-range solvents [tetramethylene sulfone (26-285°C); diglyme (−64-162°C)] and hybrid solutes (MnCl 2 -AlCl 3 -Mn(TFSI) 2 ), is proposed as the first electrolyte enabling MnMBs to work at −20 to 120 °C. Benefitting from superior stability and high ionic conductivity, the resultant electrolyte allows reversible and dendrite-free Mn plating/stripping with overpotential controlled as low as 50 mV, representing a record in MnMBs. Near integral Coulombic efficiency of Mn plating/stripping is realized in asymmetric Mn cells under different areal capacities. As consequences, the assembled MnMBs show a high average output voltage, a long cycling life of >7000 cycles and wide operation temperature. The wide-temperature electrolyte offers a pathway for designing advanced MnMBs for diverse application scenarios.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105569",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "망간(Mn) 금속전지의 작동 온도 범위를 넓히기 위해 테트라메틸렌설폰과 다이글라임 혼합 용매에 MnCl2-AlCl3-Mn(TFSI)2를 녹인 광범위 온도용 비수계 전해질을 제안했다. -20~120°C에서 가역적이고 덴드라이트 없는 Mn 플레이팅/스트리핑이 가능하며 과전압을 50 mV까지 낮춰 기존 보고 대비 최저 수준을 달성했다. 완전셀은 높은 평균 출력전압과 7000회 이상의 장수명, 넓은 작동 온도범위를 보였다.",
+      "relevant": false
+    },
+    {
       "id": "W7214997919",
       "source": "openalex",
       "title": "Tuning crosslinked network structures of elastomeric protective layers for stable operation of lithium metal batteries",
@@ -1754,6 +1910,32 @@
       "first_seen": "2026-10-04",
       "image": null,
       "summary_ko": "이 연구는 금속 메시 전극의 기공 밀도(PPI)를 조절해 초음파 기반 마찰전기 나노발전기(TENG)의 음향 임피던스 정합을 최적화했다. 400 PPI 조건에서 평탄 전극 대비 660% 향상된 24.6 Vpp 출력과 최대 10.8 mW의 전력을 얻었으며, 생체 모사 조직 및 쥐 체내 실험에서도 안정적인 전기 출력을 확인했다. 이 소자는 3 mAh 리튬이온전지를 140 μC/s로 충전할 수 있음을 보여, 임플란트형 자가발전 전원으로서의 가능성을 제시했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7214745972",
+      "source": "openalex",
+      "title": "Symmetry-resolved d-p coupling regulates sulfur redox reactions in room-temperature Na-S battery",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105567",
+      "published": "2026-09-29",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105567",
+      "authors": [
+        "Hyuk Soon Choi",
+        "Nam V. Tran",
+        "Haoyang Fu",
+        "Shuzhou Li"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "실온 Na-S 전지에서 황 redox 반응을 조절하기 위해 대칭성 분석 기반의 d-p 오비탈 결합을 활용하는 전략을 다룬 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -2221,6 +2403,64 @@
       "first_seen": "2026-10-04",
       "image": null,
       "summary_ko": "LiTa2PO8 기반 복합고체전해질의 계면 실패 메커니즘을 분석하고, LiTaO3를 활용한 이중 충전제 전략으로 고체상 리튬 금속전지의 계면 안정성을 개선한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7214460361",
+      "source": "openalex",
+      "title": "Spatiotemporal regulation of anode-free metal batteries from lithium to beyond",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105560",
+      "published": "2026-09-26",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105560",
+      "authors": [
+        "Shaolong Zhu",
+        "Yubin Feng",
+        "Ruilin Bai",
+        "Xianhong Rui",
+        "Yu Yao",
+        "陈兆林"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "리튬을 포함한 음극-프리(anode-free) 금속전지에서 시공간적 조절 전략을 다루는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7214438480",
+      "source": "openalex",
+      "title": "Fluorine from mine to lithium-ion battery: resource, chemistry, and industrial transformation for energy storage",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105558",
+      "published": "2026-09-26",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105558",
+      "authors": [
+        "Yinhao Shen",
+        "Yanlan Zhao",
+        "Jingqin Ji",
+        "Cao Kun",
+        "Liqiong Tong",
+        "Xufeng Qian"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-09",
+      "image": null,
+      "summary_ko": "불소 자원이 광산에서 리튬이온전지까지 이어지는 자원, 화학, 산업적 전환 과정을 다루는 리뷰로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
