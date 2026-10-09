@@ -29,7 +29,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3893843",
+        "cached": "img/W7220857334.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3893843"
+      },
       "summary_ko": "아가이로다이트 Li6PS5Cl계 황화물 고체전해질에서 Al3+/Cl- 치환을 통한 부위 선택적 양이온-음이온 조절로 프레임워크와 계면 화학을 동시에 안정화했다. Al-S 결합 강화로 산화환원 분해를 억제하고 Cl-가 Li+ 전도도를 7.22 mS/cm까지 높이며, F/Cl 조절로 LiF/LiCl이 풍부하고 Li2S가 적은 계면층을 형성해 Li 금속과의 접착력을 강화했다. 이를 통해 Li 대칭셀은 0.5 mA/cm², 3 MPa에서 8000시간 이상 안정 구동했고, NCM811 및 황 양극 전지도 30 MPa의 낮은 압력에서 안정적으로 작동했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78881",
+        "cached": "img/W7220862500.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78881"
+      },
       "summary_ko": "리튬 금속전지(LMB)를 고전압, 급속충전, 광범위한 온도, 고용량 양극, 린 전해질, 박형 리튬 등 극한 조건에서 안정적으로 구동하기 위한 전해질 설계 전략을 리뷰했다. 용매화 구조, 다중 스케일 이온 수송, 계면 진화, 전해질/활성 리튬 소모 메커니즘을 조건별로 정리하고 용매화·수송 조절, 분자·계면 반응 공학, 고분자/젤 전해질, 공간 차등 전해질 등의 대표 전략과 트레이드오프를 제시했다. 극한 조건별 지배적 한계를 파악해 용매화, 수송, 계면 반응, 소모를 종합적으로 조율하는 설계 방향을 제안한다.",
       "relevant": true
     },
@@ -147,7 +159,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78064",
+        "cached": "img/W7220835139.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78064"
+      },
       "summary_ko": "층상 나트륨 망간 산화물 양극 소재의 산소 redox 안정성이 합성 과정에서 어떻게 형성되는지를 실시간 X선 회절과 마이크로 퍼니스로 추적했다. 냉각 과정에서 산소 흡수와 Mn 산화가 집중적으로 일어나 Mn 공공과 적층 결함이 풍부한 구조로 재구성됨을 확인했고, 느린 냉각이 균일한 적층결함 구조를 유도해 Mn 면내 이동을 억제하고 비가역적 O2 발생을 완화함을 보였다. DFT 계산으로 결함이 Mn 이동 장벽을 크게 높임을 확인하여 냉각 속도 제어를 산소 redox 안정화를 위한 새로운 합성 설계 원리로 제시했다.",
       "relevant": true
     },
