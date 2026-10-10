@@ -29,7 +29,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78096",
+        "cached": "img/W7220937089.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78096"
+      },
       "summary_ko": "PEO-LiTFSI 고체 고분자 전해질에서 숙시노니트릴(SN)이 온도에 따라 리튬 금속 및 양극 계면에서 반응을 일으켜 계면 저항과 용량 감소를 유발하며, 특히 양극측 반응이 더 큰 영향을 미침을 규명했다. 이를 억제하기 위해 음극에는 PEDOT 나노섬유 코팅, 양극에는 설포네이트화 PEDOT 코팅을 적용하는 양면 보호 전략을 제시했다. 이를 통해 50°C에서 500 사이클 이상 안정적으로 작동하며 70% 이상의 용량을 유지하는 광범위 온도(10–50°C) 고체전지 구현에 성공했다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75225",
+        "cached": "img/W7220986662.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75225"
+      },
       "summary_ko": "피롤 질소 자리가 Li+와, 수소 자리가 TFSI- 음이온과 선택적으로 결합하는 폴리피롤 기반 고체 고분자 전해질(PPyPL)을 개발하여 리튬염 해리와 Li+ 이동을 동시에 촉진하고 LiF/Li3N이 풍부한 계면을 형성했다. 이 전해질은 상온 이온전도도 0.76 mS/cm, Li+ 이동수 0.65, 8000시간 이상의 안정적인 리튬 플레이팅/스트리핑 특성을 보였다. Li||LFP 및 Li||NCM811 전고체 셀에서도 우수한 율속 성능과 장기 내구성을 입증했다.",
       "relevant": true
     },
@@ -181,7 +193,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-10",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71684",
+        "cached": "img/W7220999763.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71684"
+      },
       "summary_ko": "PI 나노섬유 표면에 Ag 나노입자를 성장시킨 야누스형 Ag@PI/PI 이중층 분리막을 개발하여, 리튬친화성 Ag 나노스킨이 3차원 호스트로서 Li 핵생성을 균일하게 유도해 덴드라이트 생성을 억제했다. 이 분리막은 Li||Cu 셀에서 31.0 mV의 낮은 과전압, 98.9%의 쿨롱효율, 26.3시간의 샌드 시간을 보였으며, Li||Li 셀에서는 0.70의 Li+ 이동수와 1600시간의 안정적인 사이클 특성을 달성했다. Li||NCM523 전지에서도 5C에서 108.32 mAh/g의 용량과 1C에서 88.7%의 용량 유지율을 나타냈다.",
       "relevant": true
     },
