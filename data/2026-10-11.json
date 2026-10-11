@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T00:13:27+00:00",
+  "count": 15,
+  "papers": [
+    {
+      "id": "W7221153718",
+      "source": "openalex",
+      "title": "Reversible Sn4+/Sn0 anode for high-energy-density flow batteries",
+      "url": "https://doi.org/10.1038/s41557-026-02275-7",
+      "published": "2026-10-09",
+      "topics": [],
+      "doi": "10.1038/s41557-026-02275-7",
+      "authors": [
+        "Yue Ao",
+        "Xiaoxiao Wang",
+        "Chengji Zhao",
+        "Yanyan Zhang",
+        "Zhangquan Peng",
+        "Fuyi Wang"
+      ],
+      "venue": "Nature Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S202193212",
+      "journal_metric": 18.45,
+      "first_seen": "2026-10-11",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-026-02275-7/MediaObjects/41557_2026_2275_Figa_HTML.png",
+        "cached": "img/W7221153718.jpg",
+        "license": null,
+        "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-026-02275-7"
+      },
+      "summary_ko": "가역적인 Sn4+/Sn0 음극을 이용한 고에너지밀도 흐름전지에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221096179",
+      "source": "openalex",
+      "title": "Quaternary Ammonium Lignin Enabling High‐Na + ‐Conductivity Gel Electrolyte and NaF‐Rich SEI Toward High‐Safety Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78944",
+      "published": "2026-10-09",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.78944",
+      "authors": [
+        "Minghui Yang",
+        "Min‐Peng Li",
+        "Wen‐Jie Shi",
+        "Hongyan Li",
+        "Zi‐Yang Gao",
+        "Hong‐Tao Xue"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Sodium metal batteries (SMBs) using gel polymer electrolytes (GPEs) are considered promising candidates for low‐cost, high energy density, and high‐safety energy storage devices. However, a persistent challenge lies in simultaneously achieving high Na + conductivity of GPEs and a stable solid electrolyte interphase (SEI) on a sodium metal anode. Herein, a quaternary ammonium lignin (QAL) incorporated poly(vinylidene fluoride‐co‐hexafluoropropylene) based GPE is designed to synergistically achieve high Na + conductivity and a stable SEI. The electron‐deficient quaternary ammonium groups of QAL strongly anchor anions and promote sodium bis(trifluoromethylsulfonyl)imide (NaTFSI) dissociation, achieving high Na + conductivity. Meanwhile, the π‐conjugated backbone of QAL enables efficient charge transfer from the unreacted region to the reactive site, providing sufficient charge for TFSI − anion decomposition and promoting the formation of a stable NaF‐rich SEI. As anticipated, the Na||Na symmetric batteries based on the designed GPEs demonstrate stable cycling over 5000 h, and the gel‐state Na||Na 3 V 2 (PO 4 ) 3 full batteries deliver high‐capacity retention of 96.9% after 4700 cycles at 10C. The gel‐state pouch full batteries exhibit excellent stability under mechanical abuse (folding, puncture, and cutting) and over a wide temperature range (−20°C to 60°C). This work synergistically achieves high Na + conductivity and a stable NaF‐rich SEI, paving the way for the development of stable and high‐safety SMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "4차 암모늄 리그닌(QAL)을 PVDF-HFP 기반 겔 전해질에 도입하여 Na+ 전도도를 높이고 NaF가 풍부한 안정적 SEI를 소듐 금속 음극에 형성했다. QAL의 4차 암모늄기가 음이온을 포획해 NaTFSI 해리를 촉진하고, π-공액 골격이 전하 이동을 매개하여 TFSI− 분해와 NaF-rich SEI 형성을 돕는다. Na||Na 대칭전지는 5000시간 이상 안정적으로 작동했고, Na||Na3V2(PO4)3 완전전지는 10C에서 4700사이클 후 96.9%의 용량 유지율을 보였으며 다양한 기계적·온도 조건에서도 안정성을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221187792",
+      "source": "openalex",
+      "title": "Precious metal free tunable manganese oxides for sustainable anion exchange membrane fuel cells",
+      "url": "https://doi.org/10.1038/s41467-026-78358-3",
+      "published": "2026-10-09",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78358-3",
+      "authors": [
+        "Xuepeng Zhong",
+        "Chuangxin Ge",
+        "Shengjie Zhang",
+        "Hainan Wei",
+        "Menghao Yang",
+        "Xiong Zhang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Eliminating platinum group metals from cathode catalysts in low-temperature polymer electrolyte fuel cells is highly important for addressing the sustainability challenge fuel cell systems face. Here, we propose modifying the electronic structure of Li-intercalated layered Mn-oxide as a cathode catalyst to overcome the activity/stability tradeoff in anion exchange membrane fuel cells. To achieve this goal, we deploy a precious metal free catalyst design strategy involving atomically dispersed p -block metal Sn doped in Li 2 MnO 3 , in addition to d -block metals, which has been poorly explored in the research thus far. Operando X-ray absorption spectroscopy and rapid freeze-quench 119 Sn Mössbauer methodology are employed to visualize the catalytic dynamics, revealing that part of Mn 4+ ions are converted into Mn 3+ ions, whereas Sn 4+ ions remain unchanged during the oxygen reduction reaction. Under H 2 /O 2 conditions, anion exchange membrane fuel cells employing Li 2 Mn 0.9 Sn 0.1 O 3 cathodes achieve peak power densities above 1.0 W cm -2 geo and 3.96 W mg -1 Pt . This work demonstrates the beneficial modulation of the electronic structure through p -block metal substitution in earth-abundant Mn-enriched oxide materials.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78358-3",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-11",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78358-3/MediaObjects/41467_2026_78358_Fig1_HTML.png",
+        "cached": "img/W7221187792.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78358-3"
+      },
+      "summary_ko": "저온 고분자 전해질 음이온교환막 연료전지에서 백금족 금속을 대체하기 위해 Li2MnO3에 p-블록 금속인 Sn을 도핑한 비귀금속 촉매를 제안했다. 오퍼랜도 XAS와 119Sn 뫼스바우어 분광법으로 산소환원반응 중 Mn4+가 Mn3+로 전환되는 반면 Sn4+는 변하지 않음을 확인했다. Li2Mn0.9Sn0.1O3 촉매를 적용한 연료전지는 1.0 W/cm² 이상의 높은 최고 출력밀도를 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221087475",
+      "source": "openalex",
+      "title": "Pioneering MOF-303 in Lithium–Sulfur Batteries: Coordination Defect Engineering Enables Accelerated Sulfur Redox and Dendrite-Free Plating",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02763",
+      "published": "2026-10-09",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsenergylett.6c02763",
+      "authors": [
+        "Yuchen Wang",
+        "Jie Zhou",
+        "Muye Zhou",
+        "Zishun Lin",
+        "Siyuan Chen",
+        "Xianbao Wang"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Lithium–sulfur (Li–S) batteries are severely hindered by the shuttle effect of lithium polysulfides (LiPSs) and uncontrolled lithium dendrite growth. Herein, a defect-engineered MOF-303 (D-MOF-303) modified separator is developed via a ball-milling strategy to simultaneously mitigate both issues, marking the first application of MOF-303 in the Li–S battery field. The intentional introduction of ligand defects and oxygen vacancies reduces particle size, establishes a hierarchical porous structure, and amplifies local Lewis acidity. Consequently, the D-MOF-303 coating layer provides exceptional chemisorption and accelerated electrocatalytic conversion kinetics for LiPSs, while concurrently homogenizing lithium-ion flux to achieve long-term dendrite-free lithium plating. Benefiting from these synergistic merits, the resulting Li–S full cells exhibit high capacity retention over 500 cycles at 0.5 C, enhanced rate capability up to 3 C, and notable environmental resilience under high-humidity aging conditions. This work demonstrates the potential of coordination defect engineering in metal–organic frameworks for advancing high-energy-density and commercially viable energy storage technologies.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "리튬-황 전지의 폴리설파이드 셔틀효과와 리튬 덴드라이트 문제를 동시에 해결하기 위해 결함이 도입된 MOF-303(D-MOF-303)으로 분리막을 코팅했다. 리간드 결함과 산소 공공으로 입자가 작아지고 계층적 다공 구조와 강한 루이스 산성이 형성되어 폴리설파이드 화학흡착과 전환 반응이 가속화되며, 리튬 이온 플럭스가 균일화되어 장기간 덴드라이트 없는 리튬 도금이 가능해졌다. 이를 적용한 Li-S 완전전지는 0.5C에서 500사이클 이상 높은 용량 유지율과 3C까지의 우수한 율속 특성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221153495",
+      "source": "openalex",
+      "title": "Multi-model collaborative early warning for battery systems with integrated fiber optic sensors",
+      "url": "https://doi.org/10.1038/s41467-026-78461-5",
+      "published": "2026-10-09",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78461-5",
+      "authors": [
+        "Jiangong Zhu",
+        "Chao Yu",
+        "Yi Jiang",
+        "Wolfgang Schade",
+        "Martin Angelmahr",
+        "Xuezhe Wei"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract The safety assessment of battery systems is constrained by sparse temperature measurements and monolithic diagnostic frameworks in conventional battery management systems (BMS). To address this, we propose a multi-model collaborative thermal-runaway early-warning framework using distributed temperature sensing. An integrated sensing scheme increases temperature sensing points within the battery pack from 32 to 540 with minimal wiring complexity and is validated in real-world vehicle operation. We establish a functional relationship between temperature Shannon entropy (SE) and average temperature variation to derive a dynamic warning boundary incorporating error tolerance. Integrating this boundary with thresholds for temperature, temperature change rate, and SE change rate enables collaborative early warning. Compared with conventional BMS warning benchmarks, the framework provides maximum warning lead times of 706 s in laboratory modules and 554 s in real-world vehicle operation. These findings demonstrate the potential of distributed sensing and collaborative diagnostics for proactive thermal-runaway risk identification.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78461-5",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-11",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78461-5/MediaObjects/41467_2026_78461_Fig1_HTML.png",
+        "cached": "img/W7221153495.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78461-5"
+      },
+      "summary_ko": "분산형 광섬유 온도 센서로 배터리 팩 내 측정 지점을 32개에서 540개로 늘리고, 온도 섀넌 엔트로피와 평균 온도 변화 간 관계를 기반으로 동적 경보 경계를 설정하는 다중모델 협업형 열暴주 조기경보 프레임워크를 제안했다. 실차 운행 환경에서 기존 BMS 대비 실험실 706초, 실제 차량 554초의 최대 경보 리드타임을 확보했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221098208",
+      "source": "openalex",
+      "title": "Fluorine-free polymer binder enables circular manufacturing and recycling of lithium-ion batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78215-3",
+      "published": "2026-10-09",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1038/s41467-026-78215-3",
+      "authors": [
+        "Jiao Lin",
+        "Anthony U. Mu",
+        "Wei Tang",
+        "Feng Li",
+        "Yuwei Zhu",
+        "Mingqian Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Today’s lithium‑ion battery manufacturing heavily relies on polyvinylidene fluoride binder and N‑methyl‑2‑pyrrolidone solvent-based processing, which incurs high cost and hinders environmental sustainability. While bio-derived binders enable aqueous processing, their reliance on hydrogen bonding alone limits mechanical strength and electrochemical stability. Here, we introduce a fluorine‑free, water‑processable binder comprised of polyacrylic acid and carboxymethyl cellulose crosslinked by citric acid. The network integrates hydrogen, covalent, and ionic bonding among binder chains, active particles, and current collectors, providing strong adhesion as well as good oxidative stability and thermal stability. LiFePO 4 positive electrodes fabricated with fluorine‑free binder deliver comparable initial capacity to the control electrodes with polyvinylidene fluoride binder, while providing better cycle stability. This chemistry applies to a wide range of positive and negative electrode materials. Importantly, the fluorine‑free binder further facilitates sustainable direct recycling, demonstrating full recovery of spent positive and negative electrodes to achieve the same level of performance with pristine materials without generating fluorinated residue. Life-cycle analysis shows significant reductions in energy cost and emissions compared with recycling polyvinylidene fluoride-based batteries. This binder strategy endows high performance with circularity, offering a scalable route to sustainable battery manufacturing technologies.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78215-3",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-11",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78215-3/MediaObjects/41467_2026_78215_Fig1_HTML.png",
+        "cached": "img/W7221098208.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78215-3"
+      },
+      "summary_ko": "PVDF 바인더와 NMP 용매 공정의 비용·환경 문제를 해결하기 위해 폴리아크릴산과 카르복시메틸셀룰로오스를 시트르산으로 가교한 불소-free 수계 바인더를 개발했다. 수소결합·공유결합·이온결합이 혼합된 네트워크로 강한 접착력과 산화·열 안정성을 확보했으며, 이 바인더를 적용한 LiFePO4 양극은 PVDF 대비 유사한 초기 용량과 더 나은 사이클 안정성을 보였다. 또한 불소 잔류물 없이 완전한 직접 재생이 가능해 기존 PVDF 기반 재활용보다 에너지·배출 측면에서 크게 개선되었다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221124859",
+      "source": "openalex",
+      "title": "Fast-charging and durable all-solid-state lithium-sulfur batteries enabled by pre-embedded solid-solid redox mediator",
+      "url": "https://doi.org/10.1038/s41467-026-78042-6",
+      "published": "2026-10-09",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1038/s41467-026-78042-6",
+      "authors": [
+        "Huimin Song",
+        "Ruizhuo Zhang",
+        "Chenxi Zheng",
+        "Konrad Münch",
+        "Kaier Shen",
+        "Fang Liu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "All-solid-state lithium-sulfur batteries promise high specific energy and low cost. However, they are challenged by poor rate capability and cycling stability owing to the slow solid-solid sulfur redox reactions. Here, we present fast-charging and durable all-solid-state lithium-sulfur batteries enabled by a pre-embedded solid-solid redox mediator using an amorphous sulfur/iodine nano-eutectic positive electrode. The iodine, intimately homogenized with sulfur owing to carbon mesopore encapsulation, undergoes rapid I2/I− redox reaction, mediating solid-solid sulfur reactions by promoting electron transfer across the boundaries. The iodine within the carbon and on its surface reacts in situ with the sulfide catholyte to form a globally distributed I2/I− nano-network throughout the positive electrode, thereby enabling fast charging. The cell exhibits a specific capacity of 851.9 mA h g−1S/I when charged at 10 C, and 474.7 mA h g−1S/I at a charging rate of 24 C (1 C is defined as 945 mA g−1S/I). The high reversibility of the redox-mediated reaction enables durable cycling for 9,000 cycles over 9 months at 2 C and 2,800 cycles over 17 months at 0.5 C. This strategy represents a perspective for developing solid-state conversion electrodes that are plagued by sluggish reactions. All-solid-state lithium sulfur batteries suffer from sluggish solid-solid sulfur redox reactions. Here, the authors report fast charging and durable all-solid-state lithium-sulfur batteries enabled by a pre-embedded solid-solid redox mediator in an amorphous sulfur/iodine nano-eutectic positive electrode.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78042-6",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-11",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78042-6/MediaObjects/41467_2026_78042_Fig1_HTML.png",
+        "cached": "img/W7221124859.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78042-6"
+      },
+      "summary_ko": "전고체 리튬-황 전지의 느린 고체-고체 황 반응 문제를 해결하기 위해 비정질 황/요오드 나노공융 양극에 고체-고체 레독스 매개체를 미리 내재시키는 전략을 제시했다. 탄소 메조기공에 균일 분산된 요오드가 빠른 I2/I− 반응으로 전자 전달을 매개하고 황화물 고체전해질과 반응해 양극 전체에 분포하는 I2/I− 나노망을 형성함으로써 급속충전을 가능하게 한다. 이 전지는 10C에서 851.9 mAh/g, 24C에서도 474.7 mAh/g의 용량을 보였고 2C에서 9개월간 9000사이클의 내구성을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221138772",
+      "source": "openalex",
+      "title": "Calendering‐Dependent Electrochemical and Cost‐Energy Tradeoffs in Layered – Olivine Blend Cathodes",
+      "url": "https://doi.org/10.1002/aenm.71694",
+      "published": "2026-10-09",
+      "topics": [
+        "ncm",
+        "lfp"
+      ],
+      "doi": "10.1002/aenm.71694",
+      "authors": [
+        "Nguyen Thi Huyen",
+        "Arumugam Manthiram"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Blended cathodes comprised of layered oxide and olivine materials, such as LiNi 0.9 Mn 0.05 Co 0.05 O 2 (NMC) and LiMn 0.7 Fe 0.3 PO 4 (LMFP), are appealing due to their reduced cost and enhanced safety, rate capability, and cyclability compared to high‐Ni layered oxides. However, while these blends are often discussed in terms of particle‐level properties, the effect of processing conditions, such as calendering, has received less attention, despite their strong influence on electrode microstructure due to the differences in morphology, surface characteristics, and crystallographic density. We investigate here systematically NMC, NMC/LMFP with 70/30 wt.%, and NMC/LMFP with 50/50 wt.% cathodes under uncalendered, moderately‐calendered, and hard‐calendered conditions, employing state‐of‐charge‐dependent rate analysis, full‐cell cycling, electrode‐level transport characterization, and cathode‐level cost‐energy evaluation. NMC tolerates calendering, maintaining rate capability, while showing improved capacity retention over 500 cycles. In contrast, NMC/LMFP blends show a narrower, composition‐dependent calendering limit. The 70/30 blend retains its rate‐capability benefit under no‐to‐moderate calendering, whereas the 50/50 blend is strongly penalized by densification. Hard calendering induces transport‐limited behavior in the blends, eliminating rate benefits and degrading cyclability. Stabilizing the NMC with Nb incorporation further improves cyclability and energy retention of the 70/30 blend, demonstrating a pathway to combine microstructure‐enabled rate capability with improved durability and favorable cathode‐level cost‐energy balance.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71694",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "NCM(LiNi0.9Mn0.05Co0.05O2)과 올리빈 LMFP(LiMn0.7Fe0.3PO4)를 혼합한 블렌드 양극에서 캘린더링 조건이 전기화학 성능과 비용-에너지 트레이드오프에 미치는 영향을 체계적으로 분석했다. NMC 단독은 캘린더링에 강건하여 율속 특성과 사이클 안정성을 유지하지만, NMC/LMFP 블렌드는 조성에 따라 캘린더링 한계가 좁아지며 특히 50/50 블렌드는 고압 캘린더링 시 전달-제한 거동으로 율속 이점이 사라진다. Nb 도핑으로 NMC를 안정화하면 70/30 블렌드의 사이클 안정성과 에너지 유지율이 추가로 개선됨을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221072276",
+      "source": "openalex",
+      "title": "A PVDF‐Based Composite Solid Electrolyte Enabled by Carbon‐Free LiFePO 4 for Stable Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78932",
+      "published": "2026-10-09",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78932",
+      "authors": [
+        "Jiahui Qiao",
+        "Xiaotong Zhang",
+        "Zewen Sun",
+        "Zihan Zheng",
+        "Xinhai Yuan",
+        "Lili Liu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Developing polymer‐based solid electrolytes with efficient Li + transport, electronic insulation, mechanical robustness, and stable electrode interfaces remains challenging for solid‐state lithium‐metal batteries. Here, a carbon‐free LiFePO 4 (LFP)/PVDF composite solid electrolyte is designed, where the intrinsically low electronic conductivity of LFP is transformed from a limitation for cathode applications into an electrolyte advantage. Unlike carbon‐coated LFP, carbon‐free LFP acts as an electronically insulating inorganic filler in the PVDF matrix, suppressing electron transport while promoting Li + migration through abundant LFP/PVDF interfaces. Optimized LFP50 exhibits an ionic conductivity of 4.89 × 10 −4 S cm −1 at 25°C, a Li + transport activation energy of 0.053 eV, an electronic conductivity on the order of 10 −10 S cm −1 , a 5.0 V oxidative stability window, and favorable mechanical properties. These features enable stable Li‐metal interfaces, as demonstrated by a critical current density of 6.2 mA cm −2 and uniform Li deposition. Furthermore, LFP50 provides lithium compensation through partial delithiation of cathode‐facing LFP particles, mitigating irreversible lithium loss. Without external pressure, Li|LFP50|LFP and Li|LFP50|NCM811 cells retain 93.8% and 80% capacity after 500 and 165 cycles, respectively. This work demonstrates carbon‐free LFP as a multifunctional filler strategy for regulating Li + transport, stabilizing electrode interfaces, and advancing solid‐state lithium‐metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "탄소를 포함하지 않는 LiFePO4(LFP)를 PVDF 매트릭스에 도입한 복합 고체전해질을 개발하여, LFP의 낮은 전자 전도성을 전해질 응용에서는 오히려 장점으로 활용했다. 이 LFP50 전해질은 25°C에서 4.89×10⁻⁴ S/cm의 이온전도도, 0.053 eV의 낮은 Li+ 이동 활성화에너지, 매우 낮은 전자전도도와 5.0V의 산화 안정성을 보이며, 6.2 mA/cm²의 임계전류밀도와 균일한 리튬 도금을 통해 안정적인 리튬 금속 계면을 구현했다. 압력 없이도 Li|LFP50|LFP 및 Li|LFP50|NCM811 전지는 각각 500사이클 후 93.8%, 165사이클 후 80%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221101944",
+      "source": "openalex",
+      "title": "Targeted Trifunctional Regulation via Bimetal-Oxide Hollow Spheres Boosts PVDF-HFP-Based Polymer-in-Salt Electrolyte for Stable Solid-State Lithium Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105587",
+      "published": "2026-10-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105587",
+      "authors": [
+        "Shiyuan Zhang",
+        "Hong Teng",
+        "Aotian Zhang",
+        "Tianzong Ma",
+        "Nan Zhang",
+        "Minghang Zhang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "PVDF-HFP 기반 폴리머-인-솔트 전해질에 이금속 산화물 중공구체를 도입하여 안정적인 전고체 리튬 금속 전지를 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221110160",
+      "source": "openalex",
+      "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112487",
+      "published": "2026-10-01",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112487",
+      "authors": [
+        "Hyunjin Jang",
+        "Seyeop Oh",
+        "Hoseok Lee",
+        "Hyunji Kweon",
+        "Bonyoung Ku",
+        "Myungeun Choi"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "산소 레독스와 결합된 계면 변환을 통해 리튬·망간이 풍부한 층상 양극을 안정화하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221184984",
+      "source": "openalex",
+      "title": "Mn-Rich Olivine Cathode with Synergistic Lattice Strain Mitigation via Solid-Solution Pathway and Local-Structure Modulation for High-Rate and Stable Lithium Storage",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105588",
+      "published": "2026-10-01",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.105588",
+      "authors": [
+        "Hu Wu",
+        "Min Wang",
+        "Hao Chen",
+        "Haoshan Nan",
+        "Jiayan Luo"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "격자 변형을 완화하는 고용체 경로와 국부 구조 조절을 통해 고율·안정적인 리튬 저장이 가능한 망간이 풍부한 올리빈 양극에 관한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221091852",
+      "source": "openalex",
+      "title": "Electrostatic Adsorption-Driven Surface Reconstruction for Direct Regeneration of Spent LiFePO4 Cathodes",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112484",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112484",
+      "authors": [
+        "Ting Song",
+        "Chensheng Wang",
+        "Zhixin Wang",
+        "Xijun Wei",
+        "Lixian Song",
+        "Haitao Hu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "정전기적 흡착 기반 표면 재구성을 통해 폐 LiFePO4 양극을 직접 재생하는 기법에 관한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221193520",
+      "source": "openalex",
+      "title": "Bridging Bulk–Interfacial Chemistry and Regulation Boundaries: Advances and Challenges in Aqueous Zinc-Based Flow Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105586",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105586",
+      "authors": [
+        "Junyi Yin",
+        "Renkui Xu",
+        "Zhiqi Wu",
+        "Shun Zhang",
+        "Hechen Liu",
+        "Yunpeng Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "수계 아연 기반 흐름전지의 벌크 및 계면 화학과 관련된 발전과 과제를 다룬 리뷰 논문으로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7214938293",
+      "source": "openalex",
+      "title": "Heterostructure engineering of dual tellurides cathode and stabilizing Li anode: A synergistic strategy for high air stability in Li–Air batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105570",
+      "published": "2026-09-30",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105570",
+      "authors": [
+        "Shuai Yin",
+        "Nengbiao Zhang",
+        "Dezhi Yan",
+        "Kaige Zhu",
+        "Yiyuan Yan",
+        "Shen Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-11",
+      "image": null,
+      "summary_ko": "이종구조 텔루라이드 양극과 리튬 음극 안정화를 통해 리튬-공기 전지의 대기 안정성을 높이는 상승효과 전략에 관한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}
