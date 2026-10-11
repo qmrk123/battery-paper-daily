@@ -57,7 +57,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78944",
+        "cached": "img/W7221096179.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78944"
+      },
       "summary_ko": "4차 암모늄 리그닌(QAL)을 PVDF-HFP 기반 겔 전해질에 도입하여 Na+ 전도도를 높이고 NaF가 풍부한 안정적 SEI를 소듐 금속 음극에 형성했다. QAL의 4차 암모늄기가 음이온을 포획해 NaTFSI 해리를 촉진하고, π-공액 골격이 전하 이동을 매개하여 TFSI− 분해와 NaF-rich SEI 형성을 돕는다. Na||Na 대칭전지는 5000시간 이상 안정적으로 작동했고, Na||Na3V2(PO4)3 완전전지는 10C에서 4700사이클 후 96.9%의 용량 유지율을 보였으며 다양한 기계적·온도 조건에서도 안정성을 유지했다.",
       "relevant": true
     },
@@ -231,7 +237,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71694",
+        "cached": "img/W7221138772.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71694"
+      },
       "summary_ko": "NCM(LiNi0.9Mn0.05Co0.05O2)과 올리빈 LMFP(LiMn0.7Fe0.3PO4)를 혼합한 블렌드 양극에서 캘린더링 조건이 전기화학 성능과 비용-에너지 트레이드오프에 미치는 영향을 체계적으로 분석했다. NMC 단독은 캘린더링에 강건하여 율속 특성과 사이클 안정성을 유지하지만, NMC/LMFP 블렌드는 조성에 따라 캘린더링 한계가 좁아지며 특히 50/50 블렌드는 고압 캘린더링 시 전달-제한 거동으로 율속 이점이 사라진다. Nb 도핑으로 NMC를 안정화하면 70/30 블렌드의 사이클 안정성과 에너지 유지율이 추가로 개선됨을 보였다.",
       "relevant": true
     },
@@ -261,7 +273,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78932",
+        "cached": "img/W7221072276.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78932"
+      },
       "summary_ko": "탄소를 포함하지 않는 LiFePO4(LFP)를 PVDF 매트릭스에 도입한 복합 고체전해질을 개발하여, LFP의 낮은 전자 전도성을 전해질 응용에서는 오히려 장점으로 활용했다. 이 LFP50 전해질은 25°C에서 4.89×10⁻⁴ S/cm의 이온전도도, 0.053 eV의 낮은 Li+ 이동 활성화에너지, 매우 낮은 전자전도도와 5.0V의 산화 안정성을 보이며, 6.2 mA/cm²의 임계전류밀도와 균일한 리튬 도금을 통해 안정적인 리튬 금속 계면을 구현했다. 압력 없이도 Li|LFP50|LFP 및 Li|LFP50|NCM811 전지는 각각 500사이클 후 93.8%, 165사이클 후 80%의 용량을 유지했다.",
       "relevant": true
     },
