@@ -57,7 +57,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-12",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75332",
+        "cached": "img/W7221357697.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75332"
+      },
       "summary_ko": "고속 충방전 리튬 금속 전지(LMB)를 위해 고분자-전해질이 Li+ 이온을 함께 조절하는 공용매화 젤 고분자 전해질(DWGPE)을 개발했다. 불소화 고분자 골격으로 Li+ 결합을 약화시키고 아미드 가교제의 수소결합으로 음이온 이동을 억제하며, 약하게 용매화하는 adiponitrile 액상을 결합해 고분자 보조 호핑과 용매 매개 확산이 함께 작동하는 협력적 Li+ 수송 메커니즘을 구현했다. Li||DWGPE||LFP 셀은 6C에서 10,000회 사이클 후 65% 용량을 유지했으며, 고전압 NCM811 양극과 암페어시급 파우치셀에서도 안정적으로 동작했다.",
       "relevant": true
     },
