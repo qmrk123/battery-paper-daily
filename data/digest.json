@@ -1,63 +1,62 @@
 {
   "title": "최근 2주 논문 브리핑 (9/30–10/9)",
   "range": "2026-09-30 ~ 2026-10-09",
-  "overall": "고체·폴리머 전해질과 계면(SEI/CEI) 설계를 통한 리튬·소듐 금속 음극 안정화가 이번 2주의 핵심 흐름이며, Ni-rich·올리빈 양극은 도핑·결함·표면 재구조 제어로 고전압 내구성을 끌어올리는 방향이 두드러진다.",
+  "overall": "리튬 금속 음극 분야는 고체·젤 전해질 설계와 계면(SEI) 공학, 덴드라이트 억제가 핵심 흐름을 이루며, 양극에서는 Ni-rich 층상재의 구조·계면 안정화와 Li-S 등 전환형 전극의 반응속도 개선이 두드러진다. 소듐 금속·NCM·Li-rich·올리빈 영역에서도 공통적으로 용매화 구조 조절과 계면 재구성을 통한 고전압·고속·고안전 구동이 주요 설계 목표로 나타난다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질·계면 공학이 압도적 비중을 차지하며, 황화물·PVDF·PEO·폴리머-인-솔트 등 다양한 고체/젤 전해질에서 LiF·Li3N·Li2S가 풍부한 무기 중심 SEI를 유도해 저압 구동과 덴드라이트 억제를 동시에 노리는 접근이 공통적이다. 분리막(Janus Ag@PI)·3D 호스트(NiSx)·(110) 에피택셜 성장·변형 공학처럼 Li 핵생성과 역학적 안정성을 함께 제어하는 설계가 늘고 있다. 또한 고체전해질 계면의 보이드(void) 동역학을 메조스케일 모델과 실시간 분석으로 규명해 chemo-mechanical 불안정성의 근원을 파고드는 메커니즘 연구가 두드러진다. 고전압 에테르 전해질을 계면 솔베이션 제어로 4.4V 이상까지 확장하려는 시도도 이어진다.",
+      "text": "가장 활발한 분야로, 전해질 설계가 중심축을 이룬다. PVDF·PEO·폴리머-인-솔트 등 고분자/젤 전해질에 작용기성 고분자(폴리피롤 등)나 무탄소 LFP·이금속 산화물 필러를 도입해 리튬염 해리와 Li+ 선택적 수송을 촉진하고, 황화물(아가이로다이트)계는 부위 선택적 양이온-음이온 치환으로 저압 구동과 덴드라이트 억제를 추구한다. 공통적으로 LiF·Li3N·Li2S가 풍부한 무기질 SEI 형성과 에피택셜 성장·변형 제어·3D 미세영역 분할을 통한 균일 리튬 도금을 지향하며, 무음극 셀의 비활성 리튬 재활성화와 응력 균일화 같은 역학-전기화학 결합 전략도 부상하고 있다.",
       "highlights": [
+        {"title": "Polypyrrole as Dissociation Promoter and Interface Stabilizer of Solid Polymer Electrolytes for Solid‐State Li Metal Batteries", "url": "https://doi.org/10.1002/adma.75225", "venue": "Advanced Materials"},
         {"title": "Site‐Selective Anion‐Cation Regulation of Sulfide Electrolyte Enables Low‐Pressure Dendrite‐Suppressed All‐Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/anie.3893843", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Janus Ag Nanoskin‐Armored Polyimide Bilayer Separator Enables Efficient Li‐Nucleation Regulation for Dendrite‐Free Lithium Metal Battery", "url": "https://doi.org/10.1002/aenm.71684", "venue": "Advanced Energy Materials"},
-        {"title": "Mechanistic Insights Into Instability From Single Void Dynamics at the Lithium Metal‐Solid Electrolyte Interface", "url": "https://doi.org/10.1002/advs.78028", "venue": "Advanced Science"}
+        {"title": "Strain Coupled (110)-Oriented Lithium Anodes for High-Rate and High-Capacity Epitaxial Growth", "url": "https://doi.org/10.1021/acsnano.6c09189", "venue": "ACS Nano"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지가 중심으로, 폴리설파이드 셔틀과 느린 황 산화환원을 MOF 결함·Se 공공·고체-고체 레독스 매개체·전자기장 조절 등 다양한 촉매·동역학 전략으로 가속하려는 연구가 모였다. 전고체 Li-S에서는 요오드 나노공융 매개체로 급속충전과 장수명을 동시에 달성한 사례가 눈에 띈다. 이와 별개로 Co-free Ni-rich, LNMO 스피넬, 유기 p-형 양극 등 코발트 저감·고전압 양극 설계도 디스크립터 기반 도핑과 오비탈 점유 제어로 접근하고 있다.",
+      "text": "리튬-황(Li-S) 전지가 다수를 차지하며, 폴리설파이드 셔틀 억제와 느린 황 산화환원 속도 개선이 핵심이다. 결함이 도입된 MOF 분리막 코팅, 고체-고체 레독스 매개체 내재화, Se 공공 기반 d-band 조절, 전자기장을 통한 스핀·궤도 상태 제어 등 촉매·계면 설계로 전환 반응을 가속한다. 황화 폴리아크릴로니트릴(SPAN) 양극 리뷰와 함께, Co-free Ni-rich(디스크립터 기반 다중 도핑), LNMO 스피넬의 얀-텔러 왜곡 억제, p형 유기 양극의 전압-용량 트레이드오프 극복 등 전환형·고전압 양극 전반의 설계 다각화가 관찰된다.",
       "highlights": [
         {"title": "Fast-charging and durable all-solid-state lithium-sulfur batteries enabled by pre-embedded solid-solid redox mediator", "url": "https://doi.org/10.1038/s41467-026-78042-6", "venue": "Nature Communications"},
-        {"title": "Pioneering MOF-303 in Lithium–Sulfur Batteries: Coordination Defect Engineering Enables Accelerated Sulfur Redox and Dendrite-Free Plating", "url": "https://doi.org/10.1021/acsenergylett.6c02763", "venue": "ACS Energy Letters"},
         {"title": "Descriptor-informed multi-component doping enables high-performance Co-free Ni-rich cathodes", "url": "https://doi.org/10.1038/s44160-026-01152-y", "venue": "Nature Synthesis"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "Ni-rich 층상 양극의 고전압 구조 안정화가 공통 주제로, Ta5+ 격자 지지·계면 보호, 근표면 불소 처리를 통한 잔류 암염상 제어, 기계적 원자 결함 도입 등 격자와 표면을 동시에 다루는 전략이 제시된다. 폐 NCM 직접 재생 후 고전압(4.6V) 안정화처럼 재활용 연계 연구도 등장했다. 전해질 측면에서는 시아노 첨가제로 에테르 산소의 양극 표면 산화를 차단해 고전압 에테르 전해질을 가능케 하는 계면 솔베이션 배향 제어가 돋보인다.",
+      "text": "Ni-rich 층상 양극의 고전압 구동 시 구조 붕괴와 산소 방출, 계면 열화 억제가 공통 과제다. Ta5+·Nb 도핑을 통한 격자 지지 및 계면 패시베이션, 기계적 원자 스케일 결함을 활용한 단결정 안정화, 폐 NCM 재생재의 표면 불소 처리로 F-농축 암염 계면 형성 등 격자-표면 동시 안정화가 주요 전략이다. 전해질 측면에서는 시아노기 첨가제로 에테르 산소의 배향 산화를 차단해 4.8V급 고전압 구동을 실현하는 계면 용매 공학도 제시되었다.",
       "highlights": [
         {"title": "Chemo-mechanical dual stabilization of Ta5+ as a lattice pillar and interface passivator in a Ni-rich layered cathode", "url": "https://doi.org/10.1016/j.jechem.2026.09.039", "venue": "Journal of Energy Chemistry"},
-        {"title": "Electric-Field-Oriented Interfacial Solvent Engineering Enables High-Voltage Ether Electrolytes for Ni-Rich Lithium-Ion Batteries", "url": "https://doi.org/10.1021/jacs.6c12182", "venue": "Journal of the American Chemical Society"},
-        {"title": "Mechanical atomic-scale defects enable stable Ni-rich single-crystal cathodes", "url": "https://doi.org/10.1016/j.joule.2026.102686", "venue": "Joule"}
+        {"title": "Mechanical atomic-scale defects enable stable Ni-rich single-crystal cathodes", "url": "https://doi.org/10.1016/j.joule.2026.102686", "venue": "Joule"},
+        {"title": "Electric-Field-Oriented Interfacial Solvent Engineering Enables High-Voltage Ether Electrolytes for Ni-Rich Lithium-Ion Batteries", "url": "https://doi.org/10.1021/jacs.6c12182", "venue": "Journal of the American Chemical Society"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 친화 계면과 NaF·Na3N이 풍부한 SEI 설계로 금속 음극을 안정화하려는 흐름이 뚜렷하며, 리그닌 겔 전해질과 분자 개질 숙시노니트릴 가소제를 통한 PEO계 고체 폴리머 전해질 사례가 제시됐다. 린 전해질·무음극·급속충전 조건을 겨냥해 초경량 집전체에 불연속 소듐친화 계면을 배치하는 접근도 등장했다. 전반적으로 리튬 금속에서 축적된 계면 설계 개념이 소듐계로 이식되는 양상이 관찰된다.",
+      "text": "리튬 금속과 유사하게 겔/고체 고분자 전해질의 용매화·계면 조절과 NaF·Na3N 풍부 SEI 형성이 중심이다. 공액 리그닌을 도입한 겔 전해질과 숙시노니트릴 가소제의 분자 개질로 Na+ 전도도와 전달수를 높이며, 무음극 소듐 셀에서는 불연속 소듐친화 집전체 설계로 린 전해질·고속충전 조건의 가역성을 개선한다. 대칭셀 장수명과 NVP 완전셀의 고사이클 유지율로 실용성을 검증하는 흐름이다.",
       "highlights": [
-        {"title": "Quaternary Ammonium Lignin Enabling High‐Na + ‐Conductivity Gel Electrolyte and NaF‐Rich SEI Toward High‐Safety Sodium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78944", "venue": "Advanced Functional Materials"},
+        {"title": "Molecular Tailoring of Succinonitrile Reshapes Na + Solvation and Interfacial Chemistry in High-Voltage Solid-State Polymer Electrolytes for Sodium Metal Batteries", "url": "https://doi.org/10.1021/acsnano.6c11895", "venue": "ACS Nano"},
         {"title": "Random‐Matrix Discontinuous Sodiophilic Interfaces Enabling Ultralight Current Collector for Lean‐Electrolyte and Fast‐Charging Anode‐Free Sodium Metal Batteries", "url": "https://doi.org/10.1002/adma.75231", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "lfp",
       "heading": "LFP/올리빈",
-      "text": "올리빈계에서는 불소-free 수계 바인더를 통한 친환경·직접 재생 가능한 LiFePO4 양극과, 고용체 경로·국부 구조 조절로 격자 변형을 완화한 Mn-rich 올리빈이 제시되어 지속가능성과 고율 특성을 함께 겨냥한다. 또한 NCM/LMFP 블렌드 양극에서 캘린더링 조건이 율속·사이클·비용-에너지 트레이드오프에 미치는 영향을 정량 분석한 연구가 공정 관점의 통찰을 더한다.",
+      "text": "올리빈계 양극의 지속가능 제조와 고율 성능 개선이 두드러진다. 불소-free 수계 바인더(가교 PAA/CMC)로 PVDF·NMP 공정을 대체해 재활용성과 접착·산화 안정성을 동시에 확보하고, 층상-올리빈 블렌드에서는 캘린더링 조건이 율속·비용-에너지 트레이드오프에 미치는 영향을 정량 분석한다. Mn-rich 올리빈에서는 고용체 경로와 국부 구조 조절로 격자 변형을 완화해 고율·안정 저장을 추구한다.",
       "highlights": [
         {"title": "Fluorine-free polymer binder enables circular manufacturing and recycling of lithium-ion batteries", "url": "https://doi.org/10.1038/s41467-026-78215-3", "venue": "Nature Communications"},
-        {"title": "Mn‐Rich Olivine Cathode with Synergistic Lattice Strain Mitigation via Solid-Solution Pathway and Local-Structure Modulation for High-Rate and Stable Lithium Storage", "url": "https://doi.org/10.1016/j.ensm.2026.105588", "venue": "Energy storage materials"}
+        {"title": "Calendering‐Dependent Electrochemical and Cost‐Energy Tradeoffs in Layered – Olivine Blend Cathodes", "url": "https://doi.org/10.1002/aenm.71694", "venue": "Advanced Energy Materials"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉 양극의 고질적 과제인 산소 레독스 안정성과 전위 히스테리시스에 초점이 맞춰져, 양이온 무질서 암염형 양극의 히스테리시스를 입체화학적 관점에서 해석하거나 산소 레독스와 결합한 계면 변환으로 Li·Mn-rich 층상 양극을 안정화하는 접근이 제시된다.",
+      "text": "리튬·망간 과잉 층상·무질서 암염형 양극의 고질적 과제인 산소 레독스 불안정성과 전위 히스테리시스를 다룬다. 산소 레독스와 결합된 계면 변환으로 구조를 안정화하는 접근과, 양이온 무질서 암염형 양극에서 히스테리시스의 입체화학적 기원을 규명하는 연구가 제시되어, 산소 redox 가역성 제어가 공통 관심사로 부각된다.",
       "highlights": [
-        {"title": "Stereochemical origin of potential hysteresis in lithium metal batteries with lithium-rich cation-disordered rocksalt positive electrodes", "url": "https://doi.org/10.1038/s41565-026-02301-2", "venue": "Nature Nanotechnology"},
-        {"title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation", "url": "https://doi.org/10.1016/j.nanoen.2026.112487", "venue": "Nano Energy"}
+        {"title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation", "url": "https://doi.org/10.1016/j.nanoen.2026.112487", "venue": "Nano Energy"},
+        {"title": "Stereochemical origin of potential hysteresis in lithium metal batteries with lithium-rich cation-disordered rocksalt positive electrodes", "url": "https://doi.org/10.1038/s41565-026-02301-2", "venue": "Nature Nanotechnology"}
       ]
     }
   ]

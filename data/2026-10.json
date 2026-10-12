@@ -1,8 +1,36 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-11T00:11:11+00:00",
-  "count": 117,
+  "generated_at": "2026-10-12T00:17:51+00:00",
+  "count": 122,
   "papers": [
+    {
+      "id": "W7221317724",
+      "source": "openalex",
+      "title": "Synergistic local electronic regulation and interfacial reconstruction toward high-voltage and long-life manganese-based Prussian blue cathodes for potassium-ion batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112490",
+      "published": "2026-10-10",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112490",
+      "authors": [
+        "Jie Wang",
+        "Zhiman Zheng",
+        "Yuehua Man",
+        "Zeyu Yuan",
+        "Chao Xing",
+        "Zhiqun Lin"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-12",
+      "image": null,
+      "summary_ko": "칼륨이온전지용 망간 기반 프러시안 블루 양극재에서 국소 전자 구조 조절과 계면 재구성을 통해 고전압·장수명 특성을 동시에 구현하려는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "W7221153718",
       "source": "openalex",
@@ -27,9 +55,44 @@
       "journal_id": "S202193212",
       "journal_metric": 18.45,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41557-026-02275-7/MediaObjects/41557_2026_2275_Figa_HTML.png",
+        "cached": "img/W7221153718.jpg",
+        "license": null,
+        "attribution": "Nature Chemistry — https://doi.org/10.1038/s41557-026-02275-7"
+      },
       "summary_ko": "가역적인 Sn4+/Sn0 음극을 이용한 고에너지밀도 흐름전지에 관한 연구이다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7221357697",
+      "source": "openalex",
+      "title": "Regulated Co‐Solvation in Gel Polymer Electrolyte Enables Rapid and Selective Li + Ion Transport for High‐Rate Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.75332",
+      "published": "2026-10-09",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.75332",
+      "authors": [
+        "Chuan Luo",
+        "Chunpeng Ning",
+        "Lihua Hu",
+        "Xuehai Huang",
+        "Liwei Yang",
+        "Yu Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The development of gel polymer electrolytes (GPEs) suitable for high‐rate lithium metal batteries (LMBs) is urgently needed but remains inherently challenging. This difficulty originates from the competition between the polymer network and the liquid electrolyte for lithium ion (Li + ) coordination. Polymer‐dominated coordination traps Li + and slows transport, while solvent‐dominated solvation permits uncontrolled anion migration and causes concentration polarization. Here, we resolve this challenge by establishing a matched polymer–electrolyte co‐solvation state, which enables rapid and selective Li + transport via a cooperative mechanism. We implement this concept through a dual‐regulated weak‐coordination gel polymer electrolyte (DWGPE), which comprises a fluorinated polymer backbone that attenuates Li + binding, an amide‐functionalized crosslinker that immobilizes anions via hydrogen bonding, and a weakly solvating adiponitrile‐based liquid phase. Molecular dynamics simulations reveal a cooperative transport mechanism that integrates polymer‐assisted hopping and solvent‐mediated vehicular diffusion, while suppressing anion mobility. Consequently, Li||DWGPE||LFP coin cells sustain 10 000 cycles at 6 C with 65% capacity retention, corresponding to an ultralow capacity decay of 0.003% per cycle. Our DWGPE also operates stably with high‐voltage NCM811 cathodes and in ampere‐hour‐level pouch cells. This work establishes polymer–electrolyte co‐solvation as a design framework for high‐performance GPEs toward fast‐charging LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-10-12",
+      "image": null,
+      "summary_ko": "고속 충방전 리튬 금속 전지(LMB)를 위해 고분자-전해질이 Li+ 이온을 함께 조절하는 공용매화 젤 고분자 전해질(DWGPE)을 개발했다. 불소화 고분자 골격으로 Li+ 결합을 약화시키고 아미드 가교제의 수소결합으로 음이온 이동을 억제하며, 약하게 용매화하는 adiponitrile 액상을 결합해 고분자 보조 호핑과 용매 매개 확산이 함께 작동하는 협력적 Li+ 수송 메커니즘을 구현했다. Li||DWGPE||LFP 셀은 6C에서 10,000회 사이클 후 65% 용량을 유지했으며, 고전압 NCM811 양극과 암페어시급 파우치셀에서도 안정적으로 동작했다.",
+      "relevant": true
     },
     {
       "id": "W7221096179",
@@ -91,7 +154,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78358-3/MediaObjects/41467_2026_78358_Fig1_HTML.png",
+        "cached": "img/W7221187792.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78358-3"
+      },
       "summary_ko": "저온 고분자 전해질 음이온교환막 연료전지에서 백금족 금속을 대체하기 위해 Li2MnO3에 p-블록 금속인 Sn을 도핑한 비귀금속 촉매를 제안했다. 오퍼랜도 XAS와 119Sn 뫼스바우어 분광법으로 산소환원반응 중 Mn4+가 Mn3+로 전환되는 반면 Sn4+는 변하지 않음을 확인했다. Li2Mn0.9Sn0.1O3 촉매를 적용한 연료전지는 1.0 W/cm² 이상의 높은 최고 출력밀도를 달성했다.",
       "relevant": false
     },
@@ -150,7 +218,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78461-5/MediaObjects/41467_2026_78461_Fig1_HTML.png",
+        "cached": "img/W7221153495.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78461-5"
+      },
       "summary_ko": "분산형 광섬유 온도 센서로 배터리 팩 내 측정 지점을 32개에서 540개로 늘리고, 온도 섀넌 엔트로피와 평균 온도 변화 간 관계를 기반으로 동적 경보 경계를 설정하는 다중모델 협업형 열暴주 조기경보 프레임워크를 제안했다. 실차 운행 환경에서 기존 BMS 대비 실험실 706초, 실제 차량 554초의 최대 경보 리드타임을 확보했다.",
       "relevant": false
     },
@@ -180,7 +253,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78215-3/MediaObjects/41467_2026_78215_Fig1_HTML.png",
+        "cached": "img/W7221098208.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78215-3"
+      },
       "summary_ko": "PVDF 바인더와 NMP 용매 공정의 비용·환경 문제를 해결하기 위해 폴리아크릴산과 카르복시메틸셀룰로오스를 시트르산으로 가교한 불소-free 수계 바인더를 개발했다. 수소결합·공유결합·이온결합이 혼합된 네트워크로 강한 접착력과 산화·열 안정성을 확보했으며, 이 바인더를 적용한 LiFePO4 양극은 PVDF 대비 유사한 초기 용량과 더 나은 사이클 안정성을 보였다. 또한 불소 잔류물 없이 완전한 직접 재생이 가능해 기존 PVDF 기반 재활용보다 에너지·배출 측면에서 크게 개선되었다.",
       "relevant": true
     },
@@ -210,7 +288,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-11",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78042-6/MediaObjects/41467_2026_78042_Fig1_HTML.png",
+        "cached": "img/W7221124859.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78042-6"
+      },
       "summary_ko": "전고체 리튬-황 전지의 느린 고체-고체 황 반응 문제를 해결하기 위해 비정질 황/요오드 나노공융 양극에 고체-고체 레독스 매개체를 미리 내재시키는 전략을 제시했다. 탄소 메조기공에 균일 분산된 요오드가 빠른 I2/I− 반응으로 전자 전달을 매개하고 황화물 고체전해질과 반응해 양극 전체에 분포하는 I2/I− 나노망을 형성함으로써 급속충전을 가능하게 한다. 이 전지는 10C에서 851.9 mAh/g, 24C에서도 474.7 mAh/g의 용량을 보였고 2C에서 9개월간 9000사이클의 내구성을 입증했다.",
       "relevant": true
     },
@@ -1413,6 +1496,64 @@
       "relevant": true
     },
     {
+      "id": "W7221356497",
+      "source": "openalex",
+      "title": "Solvent-Coordination-Controlled Separation of Critical Metals from Spent Li-ion Batteries with Full Solvent Recovery",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112485",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112485",
+      "authors": [
+        "Yanqiu Lyu",
+        "Jodie A. Yuwono",
+        "Cheng Wang",
+        "Jingxiu Wang",
+        "Xindan Zhang",
+        "Yan Wang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": "ABSTRACT The selective separation of Ni, Co, and Mn from spent lithium-ion batteries remains difficult because these ions often show similar solubility and coordination behaviour in conventional leaching media. Herein, we design a sequence of solvent-controlled coordination environments to amplify these otherwise subtle differences while retaining solvent regenerability. Li is first extracted in a low-water formic acid medium, where lithium formate is highly soluble but transition-metal formates are poorly soluble. The remaining Ni, Co, and Mn formates are then transferred into an anhydrous choline chloride/formic acid deep eutectic solvent (DES). In this chloride/formate medium, ligand competition differentiates the transition metals: Ni 2+ favours a mixed Cl − /HCOO − octahedral coordination structure and is retained as a low-solubility solid, whereas Co 2+ and Mn 2+ are stabilized as chloride-rich tetrahedral complexes in the DES. Ethanol addition subsequently weakens this chloride-dominated solvation environment, enabling Co/Mn precipitation, followed by pH-controlled sulfide chemistry for their separation. By progressively engineering distinct coordination environments, this strategy enables the efficient recovery of Li, Ni, Co, and Mn from NCM cathodes while maintaining complete solvent regenerability. The work demonstrates how solvent coordination design can translate intrinsic metal–ligand preferences into practical separation selectivity, establishing a general strategy for closed-loop recycling of spent lithium-ion batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2211285526007895/pdf",
+      "license": "cc-by",
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-12",
+      "image": null,
+      "summary_ko": "폐리튬이온전지에서 Ni, Co, Mn을 선택적으로 분리하기 위해 용매 배위 환경을 단계적으로 조절하는 전략을 제시했다. 저수분 포름산으로 Li을 먼저 추출하고, 남은 전이금속 포름산염을 콜린클로라이드/포름산 심층 공융 용매로 옮겨 Ni은 저용해성 고체로, Co·Mn은 염소가 풍부한 착물로 분리한 뒤 에탄올 침전과 pH 조절 황화 공정으로 최종 분리하며, 전체 공정에서 용매를 완전히 재생할 수 있음을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221353778",
+      "source": "openalex",
+      "title": "Skin Barrier Repair-Inspired Ultralight Interlayer for Practical Anode-Free Lithium Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105590",
+      "published": "2026-10-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105590",
+      "authors": [
+        "Xiaomeng Tian",
+        "Yuan Feng",
+        "C. Wang",
+        "Yangjie Huang",
+        "Xuanxuan Sang",
+        "Lin Zhu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-12",
+      "image": null,
+      "summary_ko": "피부 장벽 재생 원리에서 착안한 초경량 중간층을 적용하여 실용적인 무음극(anode-free) 리튬 금속 전지의 성능을 개선하려는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7220741144",
       "source": "openalex",
       "title": "Single-atom Bi-N4 sites enable synergistic interface and closed-pore engineering of hard carbon anodes for superior sodium storage",
@@ -2222,6 +2363,33 @@
       "first_seen": "2026-10-07",
       "image": null,
       "summary_ko": "대나무 유래 하드카본을 소듐이온전지 음극으로 활용하기 위한 전구체-구조 전환 과정과 소듐 저장 메커니즘, 실용화 설계를 다룬다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221355562",
+      "source": "openalex",
+      "title": "A physics-informed digital twin reveals the mechanistic threshold for knee-point onset in lithium-ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105589",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105589",
+      "authors": [
+        "Mingyuan Zhao",
+        "Binghe Liu",
+        "Yongjun Pan",
+        "Huizhi Wang",
+        "Yongzhi Zhang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-12",
+      "image": null,
+      "summary_ko": "물리 기반 디지털 트윈을 이용하여 리튬이온전지에서 니-포인트(급격한 성능 저하) 발생을 유발하는 메커니즘적 임계조건을 규명하려는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
