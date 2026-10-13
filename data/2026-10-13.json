@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T02:30:48+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "W7221449046",
+      "source": "openalex",
+      "title": "Coordination‐Gated MOF@COF Functional Separators for Regulating Ion Flux in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78954",
+      "published": "2026-10-11",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78954",
+      "authors": [
+        "Kaifu Xu",
+        "Yingxin Wang",
+        "闫照龙",
+        "Yuting Qin",
+        "Di He",
+        "Bing Sun"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Functional separators that regulate ion transport before lithium ions (Li + ) reach the lithium metal surface are critical for mitigating dendritic deposition and interfacial instability in lithium metal batteries. However, most separator designs mainly emphasize Li + affinity or electrolyte wettability, while the migration and decomposition behavior of anions remains insufficiently controlled. Herein, a coordination‐gated anion‐sieving separator is developed by constructing a UiO‐66@F‐COF@Ni core–shell interlayer on commercial polypropylene. In this architecture, the UiO‐66 core provides stable porous transport channels, and the fluorinated imine‐linked COF shell creates a polar ion‐regulating interface. The introduced Ni 2+ coordination centers interact with PF 6 − to modulate anion migration and interfacial decomposition. Benefiting from the coupled MOF@COF heterointerface and anion‐sieving effect, the separator exhibits high ionic conductivity, enhanced Li + transference, and reduced interfacial resistance. The regulated ion flux alleviates concentration polarization, guides uniform Li deposition, and promotes the formation of a compact inorganic‐rich SEI. Consequently, LFP||Li batteries retain 126.1 mAh g −1 after 1200 cycles at 2.0 C, and high‐voltage NCM811||Li batteries maintain 141.4 mAh g −1 after 600 cycles at 3.0 C. This coordination‐regulated MOF@COF separator provides a practical strategy for stable, high‐rate, and high‐voltage lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-13",
+      "image": null,
+      "summary_ko": "UiO-66(MOF) 코어와 불소화 이민결합 COF 쉘로 구성된 코어-셸 계면층을 상용 PP 분리막에 도입한 음이온 선택적 분리막을 개발했다. Ni2+ 배위 중심이 PF6- 음이온의 이동과 계면 분해를 조절하여 농도 분극을 완화하고 균일한 Li 전착과 무기물 중심의 안정적 SEI 형성을 유도한다. 이를 통해 LFP||Li 셀은 1200회 사이클 후 126.1 mAh/g, 고전압 NCM811||Li 셀은 600회 사이클 후 141.4 mAh/g의 용량을 유지했다.",
+      "relevant": true
+    }
+  ]
+}
