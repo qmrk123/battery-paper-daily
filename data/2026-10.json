@@ -1,7 +1,7 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-14T00:12:09+00:00",
-  "count": 128,
+  "generated_at": "2026-10-14T23:46:24+00:00",
+  "count": 140,
   "papers": [
     {
       "id": "W7221472601",
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-14",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78587-6/MediaObjects/41467_2026_78587_Fig1_HTML.png",
+        "cached": "img/W7221472601.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78587-6"
+      },
       "summary_ko": "RNA 센서 MDA5가 종양 면역 회피를 촉진하며 환자의 낮은 생존율 및 면역관문억제제(ICB) 저항성과 관련됨을 보인 연구이다. MDA5를 표적하면 비접힘단백질반응(UPR) 기반 면역원성 세포사를 유도해 수지상세포의 항원 섭취와 T세포 활성화를 증가시킨다. 또한 MDA5 결손은 ASK1-JNK/P38 경로를 활성화해 TNF-α/IFN-γ에 대한 종양세포 감수성을 높여 ICB 치료 효과를 증대시킨다.",
       "relevant": false
     },
@@ -1332,6 +1337,29 @@
       "relevant": true
     },
     {
+      "id": "W7221719753",
+      "source": "openalex",
+      "title": "Where is my graphene battery?",
+      "url": "https://doi.org/10.1038/s41565-026-02279-x",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1038/s41565-026-02279-x",
+      "authors": [
+        "Katherine Bourzac﻿"
+      ],
+      "venue": "Nature Nanotechnology",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S7822423",
+      "journal_metric": 26.11,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "그래핀 배터리의 상용화 현황과 기술적 과제를 짚어보는 논평성 글로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7220694051",
       "source": "openalex",
       "title": "Unveiling Dissolution Mechanisms of Li-Ion Battery Cathode Materials in Halide–Glycol Systems toward a Regenerable Leaching Strategy",
@@ -1357,6 +1385,34 @@
       "first_seen": "2026-10-08",
       "image": null,
       "summary_ko": "할라이드-글라이콜 시스템에서 리튬이온전지 양극 소재의 용해 메커니즘을 규명하여 재생 가능한 침출 전략에 적용한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221647771",
+      "source": "openalex",
+      "title": "Unraveling dielectric properties regulated electric double layer for high-power lithium-ion batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.067",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.067",
+      "authors": [
+        "Zhenyu Fan",
+        "Jinyu Zhang",
+        "Zhiqian Gao",
+        "Lanqing Wu",
+        "Huaqing Yu",
+        "Jie Zhang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "유전 특성을 조절하여 전기이중층(EDL) 구조를 제어함으로써 고출력 리튬이온전지 성능을 개선하는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -1439,6 +1495,34 @@
       "first_seen": "2026-10-04",
       "image": null,
       "summary_ko": "코어-덴드라이트 쉘 구조의 강유전체 나노복합체를 이용해 배터리 없이 무선으로 작동하는 임플란트형 초음파-압전 나노발전기를 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221667332",
+      "source": "openalex",
+      "title": "Triplet-site synergistic reduction of water activity and dual chelation of iodine cation species for advanced four-electron zinc-iodine batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.069",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.069",
+      "authors": [
+        "Wei Li",
+        "Ruihan Li",
+        "Qingqing Zhou",
+        "Wenhui Liu",
+        "Yuanyuan Chen",
+        "Bo Liu"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "삼중 자리의 협동 작용으로 물 활성도를 낮추고 요오드 양이온종을 이중 킬레이션하여 4전자 아연-요오드 전지의 성능을 향상시키는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -2273,6 +2357,96 @@
       "relevant": false
     },
     {
+      "id": "W7221687866",
+      "source": "openalex",
+      "title": "Fe/Co codoping and sulfur-vacancy engineering regulating Li2S electrocrystallization in practical lithium-sulfur pouch cells",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.072",
+      "published": "2026-10-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.09.072",
+      "authors": [
+        "Zefeng Guan",
+        "Tianle Wang",
+        "Tao Tao",
+        "Fengzhi Jiang",
+        "Yaxuan Meng",
+        "Lintong Gao"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "Fe/Co 공동 도핑과 황 공공 결함 제어를 통해 Li2S의 전기화학적 결정화 거동을 조절하여 실용 리튬-황 파우치셀의 성능을 개선하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221623530",
+      "source": "openalex",
+      "title": "Fast-Charging Commercial Carbon Fluoride Secondary Batteries Achieved by Covalent Bond Reconfiguration",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105592",
+      "published": "2026-10-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105592",
+      "authors": [
+        "Guyue Li",
+        "Keyi Chen",
+        "Decheng Li",
+        "Yulong Xie",
+        "Meng Lei",
+        "Chilin Li"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "공유결합 재구성을 통해 상용 불화탄소(CFx) 이차전지의 고속 충전 특성을 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221726863",
+      "source": "openalex",
+      "title": "Element-Division Catalysis in Defect-Rich High-Entropy Oxides for Circumventing the Activity-Stability Trade-off in Lithium-Sulfur Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105593",
+      "published": "2026-10-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105593",
+      "authors": [
+        "Yaozu Jia",
+        "Xin Chang",
+        "Jing Yao",
+        "Qi Jin",
+        "Xinzhi Ma",
+        "Lili Wu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "결함이 풍부한 고엔트로피 산화물에서 원소 분할 촉매 전략을 적용하여 리튬-황 전지의 활성-안정성 트레이드오프 문제를 해결하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7221091852",
       "source": "openalex",
       "title": "Electrostatic Adsorption-Driven Surface Reconstruction for Direct Regeneration of Spent LiFePO4 Cathodes",
@@ -2359,6 +2533,30 @@
       "image": null,
       "summary_ko": "전자기장을 이용해 리튬-황 전지의 황 산화환원 반응을 물질 전달 및 궤도/스핀 상태 측면에서 조절하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "W7221716421",
+      "source": "openalex",
+      "title": "Dry electrode manufacturing for Lithium-ion batteries: advances, stability challenges, safety, and perspectives",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.004",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.004",
+      "authors": [
+        "Min Ji Kim",
+        "Vilas Ganpat Pol"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "리튬이온전지용 건식 전극 제조 공정의 최신 동향과 안정성·안전성 과제, 전망을 다루는 리뷰 논문으로 보인다. (제목 기반 추정)",
+      "relevant": false
     },
     {
       "id": "W7220444880",
@@ -2454,6 +2652,36 @@
       "relevant": true
     },
     {
+      "id": "W7221657987",
+      "source": "openalex",
+      "title": "Cation-Anion Counter-Directed Migration Enabled Synergistic Dual-Interphase Engineering for High-Voltage Li Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105597",
+      "published": "2026-10-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105597",
+      "authors": [
+        "Zehao Xu",
+        "Minghao Huang",
+        "Kai Zhang",
+        "Xuan Ye",
+        "Ming Li",
+        "Huguo Zhou"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "양이온과 음이온이 서로 반대 방향으로 이동하도록 유도하는 전략으로 이중 계면을 설계하여 고전압 리튬 금속 전지의 안정성을 높이는 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7218965039",
       "source": "openalex",
       "title": "Catalytic Medium-Entropy Alloy Interfaces Enable Reactivation of Inactive Lithium in Anode-Free Batteries",
@@ -2512,6 +2740,92 @@
       "relevant": false
     },
     {
+      "id": "W7221616025",
+      "source": "openalex",
+      "title": "Biomass-based Agar hydrogel interface enables selective ion transport for durable aqueous Zn-I2 batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.066",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.066",
+      "authors": [
+        "Bo‐Hao Xiao",
+        "Kang Xiao",
+        "Shun-Sheng Cao",
+        "Yinxiang Zeng",
+        "Christopher A. Howard",
+        "Zhao‐Qing Liu"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "바이오매스 기반 한천(agar) 하이드로젤 계면을 이용해 선택적 이온 수송을 구현, 수계 아연-요오드 전지의 내구성을 향상시키는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7221595062",
+      "source": "openalex",
+      "title": "Bioinspired permselective interphase enables anticorrosive Li metal anodes for Li-S batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.002",
+      "published": "2026-10-01",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.002",
+      "authors": [
+        "Jiachuan Yang",
+        "Xinghao Zhang",
+        "Tianlin Li",
+        "Xi Liu",
+        "Kexin Yang",
+        "Yuping Wu"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "생체모사 선택투과성 계면을 도입해 부식을 억제한 리튬 금속 음극을 구현하고 이를 리튬-황 전지에 적용한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221582917",
+      "source": "openalex",
+      "title": "Bioinspired ion-selective regulation enabling high-voltage stable hybrid polymer electrolytes for all-solid-state lithium batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.070",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.070",
+      "authors": [
+        "Chenxiang Gao",
+        "Shuhui Wang",
+        "Yijie Zhou",
+        "Yun Huang",
+        "Xiaoyan Ma"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "생체모사 이온 선택 조절 전략을 적용한 하이브리드 고분자 전해질로 전고체 리튬전지의 고전압 안정성을 확보하는 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7220375494",
       "source": "openalex",
       "title": "Bamboo-derived hard carbon for sodium-ion batteries: Precursor-to-structure evolution, sodium-storage mechanisms, and practical design",
@@ -2538,6 +2852,36 @@
       "image": null,
       "summary_ko": "대나무 유래 하드카본을 소듐이온전지 음극으로 활용하기 위한 전구체-구조 전환 과정과 소듐 저장 메커니즘, 실용화 설계를 다룬다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7221652737",
+      "source": "openalex",
+      "title": "A supramolecularly stabilized polynitro cathode with dual-mode energy-release potential for high-specific-energy primary lithium batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105594",
+      "published": "2026-10-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105594",
+      "authors": [
+        "Jiapeng Zhao",
+        "Jiyao Zhou",
+        "Wenjin Zhang",
+        "Xinyue Deng",
+        "Chenghui Sun",
+        "Weixiao Ji"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-15",
+      "image": null,
+      "summary_ko": "초분자 구조로 안정화된 폴리니트로 양극 소재를 이용해 이중 모드 에너지 방출이 가능한 고비에너지 1차 리튬전지를 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7221355562",
