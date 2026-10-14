@@ -1,8 +1,66 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-13T02:28:49+00:00",
-  "count": 123,
+  "generated_at": "2026-10-14T00:12:09+00:00",
+  "count": 128,
   "papers": [
+    {
+      "id": "W7221472601",
+      "source": "openalex",
+      "title": "Targeting MDA5 induces immunogenic cell death and promotes anti-tumor immunity",
+      "url": "https://doi.org/10.1038/s41467-026-78587-6",
+      "published": "2026-10-12",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78587-6",
+      "authors": [
+        "Zhitong Niu",
+        "Bing Cheng",
+        "Yue Jiang",
+        "Yingzhen Weng",
+        "Qian Xiao",
+        "guojie Long"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Identifying targets to enhance tumor immunity is an urgent need. Although nucleic acid sensors play critical roles in promoting tumor immune clearance, their exceptionally low mutation rate in cancers suggests potential unexplored roles in tumor progression. Here, we demonstrate that the RNA sensor melanoma differentiation-associated protein 5 (MDA5) promotes immune evasion, and its high expression is strongly predictive of poor survival and resistance to immune checkpoint blockade (ICB) therapy in patients. Targeting MDA5 reshapes the tumor microenvironment, strengthening immune memory responses and enhancing effector CD8⁺ T cell activity in preclinical models in female mice. Mechanistically, MDA5 deficiency triggers unfolded protein response driven immunogenic cell death through induction of damage-associated molecular patterns, leading to enhanced dendritic cell-mediated antigen engulfment and T cell activation. Additionally, MDA5 loss primes the ASK1-JNK/P38 signaling pathway, sensitizing tumor cells to TNF-α/IFN-γ, further amplifying this process. Consequently, targeting MDA5 enhances the efficacy of ICB therapy across multiple cancer types, positioning it as a promising therapeutic target. RNA sensors have been linked to antitumor immune responses. Here, based on results of in vivo CRISPR screens, the authors propose the RNA sensor MDA5 as a regulator of immune evasion, showing that its targeting induces immunogenic cell death and anti tumor immunity.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-78587-6_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-14",
+      "image": null,
+      "summary_ko": "RNA 센서 MDA5가 종양 면역 회피를 촉진하며 환자의 낮은 생존율 및 면역관문억제제(ICB) 저항성과 관련됨을 보인 연구이다. MDA5를 표적하면 비접힘단백질반응(UPR) 기반 면역원성 세포사를 유도해 수지상세포의 항원 섭취와 T세포 활성화를 증가시킨다. 또한 MDA5 결손은 ASK1-JNK/P38 경로를 활성화해 TNF-α/IFN-γ에 대한 종양세포 감수성을 높여 ICB 치료 효과를 증대시킨다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221572271",
+      "source": "openalex",
+      "title": "Dual‐Sided Regulation of Lithium Deposition for High‐Energy‐Density Anode‐Less Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78958",
+      "published": "2026-10-12",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78958",
+      "authors": [
+        "Jisub Kim",
+        "Jong Min Won",
+        "Gaeun Park",
+        "K. I. Jang",
+        "Green Baek",
+        "Seohan Ji"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Anode‐less lithium (Li) metal batteries are the ultimate anode configuration for high‐energy‐density energy storage, yet their practical adoption is hindered by uncontrolled Li dendrite growth. Here, we present a dual‐sided regulation strategy that homogenizes Li deposition through simultaneous bottom‐up and top‐down control. At the current collector, an ultrathin platinum (Pt) layer leverages its lithiophilicity to stabilize nucleation and promote dense bottom growth. At the separator, an amorphous tantalum oxide (a‐TaO x ) ceramic layer exploits thermodynamic Li dewetting to suppress upward dendritic propagation, enforcing top‐down uniformity. This synergistic Pt/a‐TaO x dual‐interface design orchestrates Li deposition across the entire electrode, enabling stable cycling at high cathode areal capacities (4.78 mAh cm– 2 ) with 70% capacity retention after 110 cycles in an anode‐less configuration (N/P ratio = 0) and 80% after 187 cycles with pre‐lithiation (N/P ratio = 0.42). By transcending conventional bottom‐only protection, this work establishes a new framework for stabilizing Li deposition across the full thickness in high‐capacity anode‐less Li metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-14",
+      "image": null,
+      "summary_ko": "무음극(anode-less) 리튬 금속 배터리의 덴드라이트 문제를 해결하기 위해 상하 양면에서 리튬 증착을 동시에 제어하는 전략을 제시한다. 집전체 쪽에는 친리튬성 초박막 백금(Pt) 층으로 하부 균일 성장을 유도하고, 분리막 쪽에는 비정질 산화탄탈럼(a-TaOx) 층으로 리튬 디웨팅을 이용해 상부 덴드라이트 성장을 억제한다. 이 Pt/a-TaOx 이중 계면 설계로 N/P=0 조건에서 110사이클 후 70% 용량 유지율, 예비리튬화 시 187사이클 후 80% 유지율을 달성했다.",
+      "relevant": true
+    },
     {
       "id": "W7221449046",
       "source": "openalex",
@@ -1302,6 +1360,32 @@
       "relevant": false
     },
     {
+      "id": "W7221507478",
+      "source": "openalex",
+      "title": "Unlocking the Longevity of Graphite-Based Batteries in Ether Electrolytes through Solvent-Co-Intercalation-Resistant Electrolyte Design",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105591",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105591",
+      "authors": [
+        "Yanyan Wang",
+        "Sailin Liu",
+        "Zhijie Wang",
+        "Biao Zhang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105591",
+      "license": "cc-by-nc",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-14",
+      "image": null,
+      "summary_ko": "에테르 전해질에서 용매 공삽입(co-intercalation)에 대한 저항성을 갖는 전해질 설계를 통해 흑연 기반 배터리의 수명을 향상시키는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
       "id": "W7220681138",
       "source": "openalex",
       "title": "Unlocking Sequential H+/Mg2+ Co-Intercalation Chemistry in MgMn2O4 for High-Performance Aqueous Magnesium-Ion Batteries",
@@ -2132,6 +2216,60 @@
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78080-0"
       },
       "summary_ko": "붕소-산소 결합으로 연결된 고리형 거대분자 '보르피린(borphyrin)'을 합성하여 건조 고체 상태에서 리튬 이온을 선택적으로 추출하는 방법을 제시했다. 16-크라운-4 유사 구조의 좁은 결합 공동 덕분에 알칼리·알칼리토·전이금속 양이온이 혼재된 건조 혼합염에서도 높은 리튬 친화도와 선택성을 보였다. 해수염, 광물, 폐기물로부터의 고체-액체 리튬 추출 플랫폼으로서의 가능성을 제시한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221539740",
+      "source": "openalex",
+      "title": "Gradient-Structured Janus Hydrogel Electrolyte via One-Pot Aqueous Copolymerization for Flexible Aqueous Zinc Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105596",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105596",
+      "authors": [
+        "Saehyun Kim",
+        "Yubeen Lee",
+        "Sungbin Shin",
+        "Sungwon Lee",
+        "Dong Gyu Lee",
+        "Taehun Chung"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-14",
+      "image": null,
+      "summary_ko": "유연 아연 금속 수계 배터리를 위해 원-포트 수계 공중합으로 제작한 구배 구조(janus) 하이드로겔 전해질에 관한 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
+      "id": "W7221514405",
+      "source": "openalex",
+      "title": "From battery signals to mechanism-aware lifetime prediction: A descriptor framework across representative battery chemistries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.065",
+      "published": "2026-10-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.065",
+      "authors": [
+        "Ziao Di",
+        "Xijun Hu",
+        "Leung Yuk Frank LAM",
+        "A. P. Zakharov"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-10-14",
+      "image": null,
+      "summary_ko": "다양한 배터리 화학 체계에 적용 가능한, 배터리 신호로부터 메커니즘을 반영한 수명 예측 디스크립터 프레임워크를 제안한 연구로 추정된다 (제목 기반 추정).",
       "relevant": false
     },
     {
