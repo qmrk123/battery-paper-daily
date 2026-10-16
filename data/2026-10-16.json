@@ -89,7 +89,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78984",
+        "cached": "img/W7221793999.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78984"
+      },
       "summary_ko": "LiFePO4와 황 기반 물질을 단일층 구조 내에 공간적으로 통합한 인터칼레이션-전환 하이브리드 양극을 제안했다. LiFePO4는 기계적으로 안정적인 리튬 호스트 및 폴리설파이드 셔틀 억제 역할을 하고, 황 기반 물질은 높은 비용량을 제공하여 두 반응을 동기화시켰다. 전해질-양극 조성 최적화를 통해 이 리튬 금속전지는 5C에서 사이클당 0.016%의 낮은 용량 감쇠율로 3000회 이상의 안정적인 사이클링을 달성했다.",
       "relevant": true
     },
@@ -147,7 +153,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75368",
+        "cached": "img/W7221820127.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75368"
+      },
       "summary_ko": "상용 다결정 Cu 집전체 표면에 전위(dislocation)를 도입하여 리튬 금속전지에서 균일한 Li 증착을 유도하는 전략을 제시했다. 조밀하게 분포된 전위가 열역학적으로 유리한 Li 흡착 및 불균일 핵생성 자리를 제공하고, 특정 결정면 조직이 Li의 표면 확산과 측방 성장을 촉진하여 균일하고 조밀한 초기 Li 증착을 유도함을 이론 계산과 실험으로 입증했다. 최적화된 Cu 집전체는 Li||Cu 셀에서 1200회 이상의 사이클과 평균 99.52%의 쿨롱 효율을 보였다.",
       "relevant": true
     },
