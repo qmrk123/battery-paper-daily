@@ -295,6 +295,10 @@
   "metric": 5.92,
   "name": "Journal of the European Ceramic Society"
  },
+ "S159252376": {
+  "metric": 2.67,
+  "name": "Occupational and Environmental Medicine"
+ },
  "S160215590": {
   "metric": 2.95,
   "name": "Fire Safety Journal"
@@ -1735,6 +1739,10 @@
   "metric": 0.04,
   "name": "Deakin Research Online (Deakin University)"
  },
+ "S4306402485": {
+  "metric": 0.0,
+  "name": "Newcastle University ePrints (Newcastle Univesity)"
+ },
  "S4306402567": {
   "metric": 0.92,
   "name": "bioRxiv (Cold Spring Harbor Laboratory)"
@@ -1818,6 +1826,10 @@
  "S4387278853": {
   "metric": 0.18,
   "name": "Malaysian Journal of Chemistry"
+ },
+ "S4387278899": {
+  "metric": 0.15,
+  "name": "International Journal of Advance Scientific Research"
  },
  "S4387279068": {
   "metric": 13.05,

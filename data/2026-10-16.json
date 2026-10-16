@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-10-15T23:35:35+00:00",
+  "generated_at": "2026-10-16T23:23:00+00:00",
   "count": 7,
   "papers": [
     {
@@ -123,7 +123,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11138-7/MediaObjects/41586_2026_11138_Fig1_HTML.png",
+        "cached": "img/W7221812900.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11138-7"
+      },
       "summary_ko": "리튬이온전지 전해질 내에서 다수의 Li+ 이온이 클러스터를 형성하는 현상에 대한 증거를 제시한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -215,7 +220,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77832-2/MediaObjects/41467_2026_77832_Fig1_HTML.png",
+        "cached": "img/W7221637951.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77832-2"
+      },
       "summary_ko": "압력 손상 위험을 모니터링하기 위해 기계적 응력과 혈관 반응(홍반)을 동시에 측정하는 무선, 배터리-프리 광전자 피부 센서를 개발한 연구이다. 광학 공동 기반의 변형 감지와 이중 파장 반사율 측정을 결합하여 3축 힘과 피부 홍반을 비접촉으로 정량화했다. 배터리 소재와는 무관한 생체의료 센서 연구이다.",
       "relevant": false
     }
