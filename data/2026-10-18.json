@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-17T22:57:18+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7222402503",
+      "source": "openalex",
+      "title": "Selective Interfacial Coupling in Polymer Electrolytes Stabilizes High‐Voltage Ni‐Rich Cathodes for > 500 Wh Kg −1 Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71712",
+      "published": "2026-10-16",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71712",
+      "authors": [
+        "Zixuan Wang",
+        "Zunbin Mao",
+        "Lu Wei",
+        "Zhuo Li",
+        "Xin Guo"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT The interfacial chemistry of high‐energy‐density lithium metal batteries (LMBs) is strongly governed by electronic coupling between electrolyte components and cathode surfaces. However, current strategies generally regulate coupling as an overall interaction‐strength issue, overlooking the distinct contributions of individual electrolyte species and thereby limiting precise interfacial control. Here, we propose a selective interfacial coupling strategy by constructing an interfacial architecture comprising a coupling center and a weak‐coupling environment. Specifically, 2‐cyanoethyl acrylate (CA) acts as the coupling center, while a highly fluorinated acrylate (DFA) creates the weak‐coupling environment. Their synergy reconstructs the interfacial molecular organization, suppresses undesirable coupling from non‐target species, and preserves favorable CA‐cathode interactions. Multiscale calculations and operando spectroscopy reveal the reconstructed interfacial structure and its dynamic evolution. The resulting enlarged Ni 3d‐O 2p band‐center separation stabilizes the TM‐O electronic structure, suppressing lattice oxygen release, cation mixing, and transition‐metal dissolution. Consequently, Li||Ni90 cells retain 78% capacity after 400 cycles at 4.7 V, while a 5 Ah pouch cell delivers 529.4 Wh kg −1 at 4.6 V. This work establishes selective interfacial coupling as an effective strategy for regulating high‐voltage interfaces.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "고전압 Ni-rich(Ni90) 양극과 리튬 금속 전지를 위한 고분자 전해질에서 선택적 계면 커플링 전략을 제안했다. 커플링 중심 역할의 CA와 약한 커플링 환경을 만드는 불소화 아크릴레이트(DFA)를 조합해 계면 분자 구조를 재구성하고 Ni 3d-O 2p 밴드센터 분리를 확대하여 격자 산소 방출, 양이온 혼합, 전이금속 용출을 억제했다. 그 결과 Li||Ni90 셀은 4.7V, 400사이클 후 78% 용량 유지율을 보였고, 5Ah 파우치셀은 4.6V에서 529.4 Wh/kg을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222568651",
+      "source": "openalex",
+      "title": "Hydrocarbothermal Reduction Co‐Upcycling of Spent Lithium‐Ion Batteries via Waste Plastics for Enabling Efficient Water Purification and Lithium Resource Recovery",
+      "url": "https://doi.org/10.1002/adfm.79096",
+      "published": "2026-10-16",
+      "topics": [],
+      "doi": "10.1002/adfm.79096",
+      "authors": [
+        "Shengjia Ma",
+        "Wei Jin",
+        "Yaping Zhao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The upcycling of spent lithium‐ion batteries and waste plastics is critical for resource security and sustainable development. However, current recycling paradigms treat these waste streams separately, leading to energy‐intensive battery recovery and low‐value plastic downcycling. Here, we present a waste polyethylene‐driven hydrocarbothermal reduction strategy for upcycling spent LiNi 0.6 Co 0.2 Mn 0.2 O 2 (NCM 622 ) cathodes by exploiting the dual functions of plastics as in situ carbon sources and reducing agents, making a breakthrough on their co‐processing and joint upcycling, and constructing a closed‐loop system integrating mixed‐waste upcycling, water purification, and lithium recycling. Hydrocarbothermal reduction via polyethylene pyrolysis induces pronounced interlayer expansion and octahedral distortion within NCM 622 , triggering structural collapse and driving the formation of a stable NiCoMn alloy nanorod deposited on a carbon nanosheet (NiCoMn/C) catalyst. Kinetic analysis shows that Co sites act as the primary catalytic centers, while Ni and Mn mediate charge transfer. NiCoMn/C enables efficient peroxymonosulfate (PMS) activation for bisphenol A degradation with a rate constant of 0.411 min −1 , demonstrating competitive catalytic performance among reported alloy–carbon catalysts. Meanwhile, this system achieves 87% lithium recovery, reduced greenhouse gas emissions, and strong economic viability. This work establishes a generalizable paradigm for integrated waste‐to‐resource conversion and environmental remediation.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "폐리튬이온전지의 NCM622 양극과 폐플라스틱(폴리에틸렌)을 공동 업사이클링하는 하이드로카르보써멀 환원 전략을 제시했다. 폴리에틸렌 열분해를 탄소원 및 환원제로 활용해 NCM622를 NiCoMn 합금 나노로드/탄소 나노시트(NiCoMn/C) 촉매로 전환했으며, 이 촉매는 과황산수소나트륨(PMS) 활성화를 통한 비스페놀 A 분해에 효과적이었다. 동시에 87%의 리튬 회수율과 온실가스 감소, 경제성을 확보했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222535935",
+      "source": "openalex",
+      "title": "Grain Boundary Character Governs Lithium Deposition Uniformity on Polycrystalline Copper",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02640",
+      "published": "2026-10-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02640",
+      "authors": [
+        "Minhyung Kwon",
+        "전승윤",
+        "Dong Yeon Kim",
+        "Uk Jung Kang",
+        "Gaeun Kim",
+        "Chang-Gon Jeong"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract In anode-free Li metal batteries, a bare current collector must be converted into a reversible Li metal anode during the first charge, making Li nucleation decisive for reversibility. However, how current collector microstructure governs Li nucleation and growth remains poorly understood, since prior studies focused on single-crystal surfaces to identify favorable crystallographic orientations, leaving grain boundaries unexplored. Here, we identify grain boundary density and character in copper current collectors as key regulators of Li deposition uniformity. Systematic annealing decouples grain size from surface chemistry, revealing that deposition uniformity improves with copper grain coarsening but saturates as disordered boundaries are eliminated during grain growth, leaving predominantly low-energy configurations. Atomistic simulations show disordered boundaries impose high barriers to Li adatom migration, whereas ordered boundaries and adjacent low-index terraces provide low-barrier pathways for redistribution. Copper foils engineered beyond this threshold sustain uniform Li plating across diverse electrolytes and improve cyclability in anode-free cells.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/acsenergylett.6c02640",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "무음극(anode-free) 리튬 금속 전지에서 구리 집전체의 결정립계 특성이 리튬 증착 균일성을 좌우함을 규명했다. 결정립 조대화에 따라 증착 균일성이 향상되지만 무질서한 결정립계가 사라지면 포화되며, 원자 시뮬레이션은 무질서한 결정립계가 리튬 원자 이동을 저해하는 반면 정렬된 결정립계와 인접한 저지수 테라스는 낮은 장벽의 확산 경로를 제공함을 보였다. 이 임계점을 넘어 설계된 구리 포일은 다양한 전해질에서 균일한 리튬 도금과 무음극 셀의 향상된 사이클 특성을 나타냈다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222482581",
+      "source": "openalex",
+      "title": "Batteries that sense dendrite growth",
+      "url": "https://doi.org/10.1038/s41578-026-00975-7",
+      "published": "2026-10-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41578-026-00975-7",
+      "authors": [
+        "Hannah Hatcher"
+      ],
+      "venue": "Nature Reviews Materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764917516",
+      "journal_metric": 33.73,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "덴드라이트 성장을 감지할 수 있는 배터리에 관한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221747439",
+      "source": "openalex",
+      "title": "Stepwise delithiation and interfacial electric field engineering enabling stable cycling of LiNi0.8Co0.1Mn0.1O2/LiFePO4 hybrid cathode under harsh conditions",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105598",
+      "published": "2026-10-14",
+      "topics": [
+        "ncm",
+        "lfp"
+      ],
+      "doi": "10.1016/j.ensm.2026.105598",
+      "authors": [
+        "Shiyou Li",
+        "Zhipeng Wang",
+        "Hongzeng Dou",
+        "Chengyu Li",
+        "Xingpeng Cai",
+        "Juan Bai"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "단계적 탈리튬화와 계면 전기장 엔지니어링을 통해 LiNi0.8Co0.1Mn0.1O2/LiFePO4 하이브리드 양극의 가혹한 조건에서 안정적인 사이클링을 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7221543720",
+      "source": "openalex",
+      "title": "Garnet-type LLZO solid electrolytes: grain-boundary engineering, electro-chemo-mechanical failure, and manufacturability",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105595",
+      "published": "2026-10-12",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105595",
+      "authors": [
+        "Azam Raza",
+        "Keshab Pandey",
+        "Bushra Khan",
+        "Hee Jung Park"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "ABSTRACT Garnet-type lithium lanthanum zirconium oxide (Li 7 La 3 Zr 2 O 12 , LLZO) combines competitive room-temperature Li-ion conductivity, thermal stability, and comparatively favorable compatibility with lithium metal, yet these bulk properties have not translated into reliable solid-state batteries. This review develops a process–state–field–failure–performance framework in which LLZO reliability is governed by connected grain boundaries, pores, cracks, surface films, and poorly contacted interfaces that localize ionic current, electronic leakage, and mechanical stress. Quantitative structure–transport relationships are evaluated by separating bulk, grain-boundary, and total conductivity and activation-energy contributions, showing why cubic-phase stabilization, increased dopant concentration, or densification alone cannot predict pellet-scale transport. Emphasis is placed on grain-boundary chemistry, local mechanical softening, pore connectivity, stripping-induced contact loss, stack-pressure windows, and lithium-assisted fracture as coupled determinants of filament penetration and short circuit. Interface treatments, polymer composites, porous scaffolds, and thin-sheet architectures are critically assessed according to their ability to homogenize current distribution, disrupt connected defects, and maintain electrode contact. In situ and operando techniques are examined for resolving the progression from void formation and current focusing to crack opening and lithium intrusion. Manufacturing and commercial readiness are evaluated using electrolyte thickness, area-specific resistance, areal capacity, operating pressure, cycle life, defect-screening capability, and production yield rather than conductivity alone. Data-driven approaches are considered supporting tools for uncertainty-aware materials selection, process control, and quality assurance. Overall, durable and scalable LLZO batteries require coordinated disruption of connected electro-chemo-mechanical failure pathways rather than marginal optimization of isolated material properties.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105595",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-18",
+      "image": null,
+      "summary_ko": "가넷형 LLZO 고체전해질의 신뢰성을 좌우하는 공정-상태-전기장-고장-성능 프레임워크를 제시한 리뷰다. 결정립계, 기공, 균열, 표면막, 불량 접촉 계면이 이온 전류 집중과 기계적 응력을 유발하는 과정을 분석하고, 입계 화학, 국부적 연화, 기공 연결성, 적층 압력 범위, 리튬 보조 균열 등이 필라멘트 침투와 단락을 결정하는 요인임을 규명했다. 계면 처리, 고분자 복합체, 다공성 스캐폴드 등 다양한 접근법의 전류 균질화 및 결함 차단 효과를 평가했다.",
+      "relevant": false
+    }
+  ]
+}
