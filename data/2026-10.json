@@ -54,7 +54,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79125",
+        "cached": "img/W7222131179.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79125"
+      },
       "summary_ko": "리튬 과잉 망간계 층상 산화물 양극에서 Li2MnO3 성분의 활성화가 느리고 구조적으로 불안정한 문제를 해결하기 위해 미량의 인(P)을 site-selective하게 도입했다. P는 Ni 인접 Li층 자리에 우선적으로 치환되어 Li-슬랩 구조와 Ni-O/O 전자 환경을 조절함으로써 모노클리닉 상의 활성화를 안정적으로 유도한다. 이를 통해 P 치환 양극은 50사이클에서 273.1 mAh g-1의 최대 방전용량을 나타내고 300사이클 후에도 270.5 mAh g-1을 유지한다.",
       "relevant": true
     },
@@ -114,7 +120,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71701",
+        "cached": "img/W7167101512.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71701"
+      },
       "summary_ko": "Ni·Co-free Mn-redox 기반 양극재의 에너지 밀도와 장기 안정성을 동시에 확보하기 위해 마이크론 이하 크기의 단결정 δ상 양이온 무질서 암염형(DRX) 구조를 구현했다. 높은 Mn 함량으로 산소 redox를 억제하고 급속 냉각 전략으로 냉각 중 발생하는 사방정계 LiMnO2 불순물 형성을 억제하여 입자를 D50=1.5 µm 수준까지 축소했다. 그 결과 약 640 Wh kg-1의 에너지 밀도와 400사이클 후 약 97%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -230,7 +242,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79058",
+        "cached": "img/W7221802243.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79058"
+      },
       "summary_ko": "감마선 조사량을 정밀하게 조절하여 리튬-황(Li-S) 전지용 PVA 바인더의 3차원 가교 네트워크 구조를 제어했다. 최적 조사량(3 kGy)에서 형성된 조밀하고 균일한 바인더 네트워크는 전자 전도 경로와 기계적 구조를 결합시켜 황 양극의 부피 변화를 완화하고 전환 반응 속도를 향상시켰다. 이 바인더를 적용한 황 양극은 1C에서 1000회 사이클 동안 사이클당 0.045%의 낮은 용량 감쇠율을 보였으며, 1.23 Ah급 파우치셀에서 390.2 Wh/kg의 에너지 밀도를 달성했다.",
       "relevant": true
     },
@@ -260,7 +278,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78899",
+        "cached": "img/W7221747006.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78899"
+      },
       "summary_ko": "Mn을 도핑한 Fe계 프러시안 블루 유사체(PBA)를 소듐이온전지 양극으로 사용했을 때 고율 조건에서 발생하는 용량 감쇠 메커니즘을 in/ex situ 분석으로 규명했다. 전이금속 용해, 기계적 손상, Na 덴드라이트 성장, 계면 부반응 등 여러 저하 경로 중 10C에서의 급격한 용량 붕괴는 본질적인 반응속도 불일치와 기계적 파괴가 근본 원인임을 밝혔다. 이는 내구성 높은 고출력 PBA 양극 설계에 중요한 통찰을 제공한다.",
       "relevant": true
     },
@@ -354,7 +378,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75409",
+        "cached": "img/W7222243726.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75409"
+      },
       "summary_ko": "저융점 약한 솔베이팅 용매(DMS)와 이온성 액체 Pyr13DFOB를 결합한 솔베이션-평형-고정 전해질(SELE)을 통해 -60°C~60°C 범위에서 Li+ 솔베이션 구조를 거의 일정하게 유지시켰다. 이 전해질은 Li+ 주변 용매 배위를 줄여 용매 유래 계면 분해와 가스 발생을 억제하고, Li 금속과 NMC811 표면에 LiF 및 보레이트가 풍부한 계면을 형성한다. 그 결과 Li||NMC811 셀은 -85°C에서도 방전이 가능하고 120°C까지 작동하며, 6.6 Ah Li||Ni90 파우치셀은 저전해질 조건에서 565 Wh kg-1을 달성했다.",
       "relevant": true
     },
@@ -385,7 +415,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.9801142",
+        "cached": "img/W7221939248.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.9801142"
+      },
       "summary_ko": "폴리머 고체상 소듐 금속전지에서 Mg(OTf)2를 첨가한 PVDF-HFP 기반 고체 전해질(PHSE)을 통해 회전-결합 게스트 음이온 전략을 제시했다. Mg2+은 DMF와 TFSI-를 우선 배위해 Na+-TFSI- 결합을 약화시키고, OTf-는 C-S 회전축을 이용해 Na+ 이동에 동조하며 이동장벽을 낮추고 무기물이 풍부한 계면을 형성한다. 이 전해질은 Na3V2(PO4)3||Na 셀에서 2C로 1100사이클 후 94.2% 용량을 유지하고, Na3V2(PO4)2O2F||Na 고전압 셀에서도 1000사이클 후 93.6% 용량을 유지한다.",
       "relevant": true
     },
@@ -624,7 +660,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78958",
+        "cached": "img/W7221572271.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78958"
+      },
       "summary_ko": "무음극(anode-less) 리튬 금속 배터리의 덴드라이트 문제를 해결하기 위해 상하 양면에서 리튬 증착을 동시에 제어하는 전략을 제시한다. 집전체 쪽에는 친리튬성 초박막 백금(Pt) 층으로 하부 균일 성장을 유도하고, 분리막 쪽에는 비정질 산화탄탈럼(a-TaOx) 층으로 리튬 디웨팅을 이용해 상부 덴드라이트 성장을 억제한다. 이 Pt/a-TaOx 이중 계면 설계로 N/P=0 조건에서 110사이클 후 70% 용량 유지율, 예비리튬화 시 187사이클 후 80% 유지율을 달성했다.",
       "relevant": true
     },

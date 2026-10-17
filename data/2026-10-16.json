@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79058",
+        "cached": "img/W7221802243.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79058"
+      },
       "summary_ko": "감마선 조사량을 정밀하게 조절하여 리튬-황(Li-S) 전지용 PVA 바인더의 3차원 가교 네트워크 구조를 제어했다. 최적 조사량(3 kGy)에서 형성된 조밀하고 균일한 바인더 네트워크는 전자 전도 경로와 기계적 구조를 결합시켜 황 양극의 부피 변화를 완화하고 전환 반응 속도를 향상시켰다. 이 바인더를 적용한 황 양극은 1C에서 1000회 사이클 동안 사이클당 0.045%의 낮은 용량 감쇠율을 보였으며, 1.23 Ah급 파우치셀에서 390.2 Wh/kg의 에너지 밀도를 달성했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78899",
+        "cached": "img/W7221747006.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78899"
+      },
       "summary_ko": "Mn을 도핑한 Fe계 프러시안 블루 유사체(PBA)를 소듐이온전지 양극으로 사용했을 때 고율 조건에서 발생하는 용량 감쇠 메커니즘을 in/ex situ 분석으로 규명했다. 전이금속 용해, 기계적 손상, Na 덴드라이트 성장, 계면 부반응 등 여러 저하 경로 중 10C에서의 급격한 용량 붕괴는 본질적인 반응속도 불일치와 기계적 파괴가 근본 원인임을 밝혔다. 이는 내구성 높은 고출력 PBA 양극 설계에 중요한 통찰을 제공한다.",
       "relevant": true
     },

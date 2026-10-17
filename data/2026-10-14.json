@@ -62,7 +62,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-14",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78958",
+        "cached": "img/W7221572271.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78958"
+      },
       "summary_ko": "무음극(anode-less) 리튬 금속 배터리의 덴드라이트 문제를 해결하기 위해 상하 양면에서 리튬 증착을 동시에 제어하는 전략을 제시한다. 집전체 쪽에는 친리튬성 초박막 백금(Pt) 층으로 하부 균일 성장을 유도하고, 분리막 쪽에는 비정질 산화탄탈럼(a-TaOx) 층으로 리튬 디웨팅을 이용해 상부 덴드라이트 성장을 억제한다. 이 Pt/a-TaOx 이중 계면 설계로 N/P=0 조건에서 110사이클 후 70% 용량 유지율, 예비리튬화 시 187사이클 후 80% 유지율을 달성했다.",
       "relevant": true
     },
