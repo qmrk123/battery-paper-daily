@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-18T22:51:32+00:00",
+  "count": 3,
+  "papers": [
+    {
+      "id": "W7222807642",
+      "source": "openalex",
+      "title": "Zr-based oxyhalide superionic electrolyte with self-passivating interphase stabilisation for high-voltage and fast-charging all-solid-state lithium batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78813-1",
+      "published": "2026-10-17",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78813-1",
+      "authors": [
+        "Zongnan Li",
+        "Yongbiao Mu",
+        "Yuxun Xia",
+        "Ting Yang",
+        "Zhepei Yan",
+        "Yafeng Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The pursuit of high-energy-density all-solid-state lithium batteries necessitates integration with next-generation high-voltage positive electrodes. However, a critical challenge lies in the intrinsic instability of most highly ionically conductive solid electrolytes, which decompose at potentials above 4.30 V vs Li+/Li, resulting in severe interfacial degradation and increased impedance. Here, we show that an amorphous Li2Zr0.625Ta0.3Cl4.2O0.9 halide electrolyte, synthesized via a non-equimolar cation-anion amorphous engineering strategy based on Li2ZrCl6, effectively overcomes this limitation. With a high ionic conductivity of 4.11 mS cm−1 at 25 °C, it enables stable high-potential cycling through kinetically stabilized operation mediated by a self-passivating positive electrode–electrolyte interphase. When paired with LiNi0.88Mn0.06Co0.06O2 positive electrode and a Li-In alloy negative electrode, the cells retain up to 81.2% of the initial capacity after 2,000 cycles at 10 C under cell cutoff voltages of 4.18 V (corresponding to 4.80 V vs Li⁺/Li). Overall, non-equimolar cation–anion amorphous engineering enables conductive, high-voltage-tolerant Zr-based halides for all-solid-state lithium batteries. High-voltage solid-state batteries require conductive, stable electrolytes for fast charging. Here, authors show that an amorphous Zr-based oxyhalide electrolyte combines high ionic conductivity with self-passivating interphases, enabling sustained cycling at high voltages.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78813-1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "비등몰비의 양이온-음이온 비정질화 전략으로 합성한 Li2Zr0.625Ta0.3Cl4.2O0.9 할라이드 고체전해질이 4.11 mS/cm의 높은 이온전도도와 자기부동화(self-passivating) 계면 형성을 통해 4.3V 이상의 고전압에서도 안정적으로 작동함을 보였다. 고니켈 NCM 양극과 Li-In 합금 음극으로 구성한 전고체전지는 10C, 4.18V 컷오프 조건에서 2000회 사이클 후 81.2% 용량을 유지했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222809923",
+      "source": "openalex",
+      "title": "Nonflammable sulfamoyl–carbonate hybrid electrolyte for high-voltage lithium batteries via preemptive passivation",
+      "url": "https://doi.org/10.1038/s41467-026-78701-8",
+      "published": "2026-10-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-78701-8",
+      "authors": [
+        "Hun Kim",
+        "Jaemin Kim",
+        "Yo-han Yang",
+        "Xiaosheng Song",
+        "Dong-Gun Koo",
+        "Kang Xu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Achieving high energy density without compromising safety remains a significant challenge for advanced batteries. Nonflammable electrolytes can mitigate fire risk, but poor bulk and interfacial properties of such electrolytes limit their application. Here, a nonflammable sulfamoyl–carbonate electrolyte was developed, achieving a self-extinguishing time of ~0 s and stable cycling in both lithium metal and lithium-ion batteries under high-voltage conditions. The electrolyte comprising lithium hexafluorophosphate dissolved in dimethylsulfamoyl fluoride, fluoroethylene carbonate, and ethyl methyl carbonate at low concentration establishes a weakly solvating environment, wherein dimethylsulfamoyl fluoride and fluoroethylene carbonate preferentially contribute to stabilize the positive and negative electrodes, while working together to enhance the rate capability, low-temperature performance, and long-term cycling at high-voltage. Accelerating rate calorimetry revealed a delayed thermal runaway onset by 87 °C, correlating with Broadness Index. These findings suggest that preemptive passivation on both electrodes, when coupled with nonflammable electrolyte design, can provide a viable route toward safe, high-energy lithium batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78701-8",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "비할로겐계 설포모일-카보네이트 혼합 전해질을 개발하여 자기소화시간 약 0초의 불연성을 구현하고, 고전압 조건에서 리튬 금속 및 리튬이온전지 모두에서 안정적인 사이클링을 달성했다. 디메틸설파모일 플루오라이드와 FEC가 각각 양극과 음극(리튬 금속) 표면에 선제적으로 부동화층을 형성해 율속 특성, 저온 성능, 장기 사이클 안정성을 개선하며 열폭주 개시 온도를 87°C 지연시켰다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221769475",
+      "source": "openalex",
+      "title": "Hydrothermal regeneration of dual-doped high-performance lithium manganese iron phosphate from spent cathode materials",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112501",
+      "published": "2026-10-14",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112501",
+      "authors": [
+        "Shuya Lei",
+        "Jiexiang Li",
+        "Yue Yang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "폐양극재로부터 이중 도핑된 고성능 리튬 망간 철 인산염(LMFP)을 수열법으로 재생하는 연구로 추정됨. (제목 기반 추정)",
+      "relevant": false
+    }
+  ]
+}

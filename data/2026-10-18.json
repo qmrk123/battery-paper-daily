@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-17T22:57:18+00:00",
+  "generated_at": "2026-10-18T22:53:49+00:00",
   "count": 6,
   "papers": [
     {
@@ -114,7 +114,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-10-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00975-7/MediaObjects/41578_2026_975_Figa_HTML.png",
+        "cached": "img/W7222482581.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00975-7"
+      },
       "summary_ko": "덴드라이트 성장을 감지할 수 있는 배터리에 관한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },

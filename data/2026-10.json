@@ -1,8 +1,66 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-17T22:57:18+00:00",
-  "count": 165,
+  "generated_at": "2026-10-18T22:51:32+00:00",
+  "count": 168,
   "papers": [
+    {
+      "id": "W7222807642",
+      "source": "openalex",
+      "title": "Zr-based oxyhalide superionic electrolyte with self-passivating interphase stabilisation for high-voltage and fast-charging all-solid-state lithium batteries",
+      "url": "https://doi.org/10.1038/s41467-026-78813-1",
+      "published": "2026-10-17",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78813-1",
+      "authors": [
+        "Zongnan Li",
+        "Yongbiao Mu",
+        "Yuxun Xia",
+        "Ting Yang",
+        "Zhepei Yan",
+        "Yafeng Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The pursuit of high-energy-density all-solid-state lithium batteries necessitates integration with next-generation high-voltage positive electrodes. However, a critical challenge lies in the intrinsic instability of most highly ionically conductive solid electrolytes, which decompose at potentials above 4.30 V vs Li+/Li, resulting in severe interfacial degradation and increased impedance. Here, we show that an amorphous Li2Zr0.625Ta0.3Cl4.2O0.9 halide electrolyte, synthesized via a non-equimolar cation-anion amorphous engineering strategy based on Li2ZrCl6, effectively overcomes this limitation. With a high ionic conductivity of 4.11 mS cm−1 at 25 °C, it enables stable high-potential cycling through kinetically stabilized operation mediated by a self-passivating positive electrode–electrolyte interphase. When paired with LiNi0.88Mn0.06Co0.06O2 positive electrode and a Li-In alloy negative electrode, the cells retain up to 81.2% of the initial capacity after 2,000 cycles at 10 C under cell cutoff voltages of 4.18 V (corresponding to 4.80 V vs Li⁺/Li). Overall, non-equimolar cation–anion amorphous engineering enables conductive, high-voltage-tolerant Zr-based halides for all-solid-state lithium batteries. High-voltage solid-state batteries require conductive, stable electrolytes for fast charging. Here, authors show that an amorphous Zr-based oxyhalide electrolyte combines high ionic conductivity with self-passivating interphases, enabling sustained cycling at high voltages.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78813-1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "비등몰비의 양이온-음이온 비정질화 전략으로 합성한 Li2Zr0.625Ta0.3Cl4.2O0.9 할라이드 고체전해질이 4.11 mS/cm의 높은 이온전도도와 자기부동화(self-passivating) 계면 형성을 통해 4.3V 이상의 고전압에서도 안정적으로 작동함을 보였다. 고니켈 NCM 양극과 Li-In 합금 음극으로 구성한 전고체전지는 10C, 4.18V 컷오프 조건에서 2000회 사이클 후 81.2% 용량을 유지했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222809923",
+      "source": "openalex",
+      "title": "Nonflammable sulfamoyl–carbonate hybrid electrolyte for high-voltage lithium batteries via preemptive passivation",
+      "url": "https://doi.org/10.1038/s41467-026-78701-8",
+      "published": "2026-10-17",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-78701-8",
+      "authors": [
+        "Hun Kim",
+        "Jaemin Kim",
+        "Yo-han Yang",
+        "Xiaosheng Song",
+        "Dong-Gun Koo",
+        "Kang Xu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Achieving high energy density without compromising safety remains a significant challenge for advanced batteries. Nonflammable electrolytes can mitigate fire risk, but poor bulk and interfacial properties of such electrolytes limit their application. Here, a nonflammable sulfamoyl–carbonate electrolyte was developed, achieving a self-extinguishing time of ~0 s and stable cycling in both lithium metal and lithium-ion batteries under high-voltage conditions. The electrolyte comprising lithium hexafluorophosphate dissolved in dimethylsulfamoyl fluoride, fluoroethylene carbonate, and ethyl methyl carbonate at low concentration establishes a weakly solvating environment, wherein dimethylsulfamoyl fluoride and fluoroethylene carbonate preferentially contribute to stabilize the positive and negative electrodes, while working together to enhance the rate capability, low-temperature performance, and long-term cycling at high-voltage. Accelerating rate calorimetry revealed a delayed thermal runaway onset by 87 °C, correlating with Broadness Index. These findings suggest that preemptive passivation on both electrodes, when coupled with nonflammable electrolyte design, can provide a viable route toward safe, high-energy lithium batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78701-8",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "비할로겐계 설포모일-카보네이트 혼합 전해질을 개발하여 자기소화시간 약 0초의 불연성을 구현하고, 고전압 조건에서 리튬 금속 및 리튬이온전지 모두에서 안정적인 사이클링을 달성했다. 디메틸설파모일 플루오라이드와 FEC가 각각 양극과 음극(리튬 금속) 표면에 선제적으로 부동화층을 형성해 율속 특성, 저온 성능, 장기 사이클 안정성을 개선하며 열폭주 개시 온도를 87°C 지연시켰다.",
+      "relevant": true
+    },
     {
       "id": "W7222402503",
       "source": "openalex",
@@ -139,7 +197,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02296-w/MediaObjects/41565_2026_2296_Fig1_HTML.png",
+        "cached": "img/W7221941295.jpg",
+        "license": null,
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02296-w"
+      },
       "summary_ko": "이 논문은 '배터리'로 분류되는 소자가 실제로는 전형적인 배터리 작동 방식을 따르지 않을 수 있다는 점을 지적하는 것으로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -205,7 +268,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78242-0/MediaObjects/41467_2026_78242_Fig1_HTML.png",
+        "cached": "img/W7222126093.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78242-0"
+      },
       "summary_ko": "황이 매립된 탄소 구체를 이용해 소듐 금속 표면의 소듐 증착과 계면 화학을 조절하여 고출력 Ah급 소듐 금속 전지를 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -297,7 +365,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77929-8/MediaObjects/41467_2026_77929_Fig1_HTML.png",
+        "cached": "img/W7222264084.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77929-8"
+      },
       "summary_ko": "가지돌기 연산(dendritic computation) 개념이 신경과학과 인공지능 파운데이션 모델 연구를 연결할 수 있다는 점을 다루는 논문으로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -327,7 +400,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78696-2/MediaObjects/41467_2026_78696_Fig1_HTML.png",
+        "cached": "img/W7222104158.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78696-2"
+      },
       "summary_ko": "폐 LiFePO4 분말에서 잔류 리튬을 환원 매개체(redox mediator) 보조 전략으로 직접 추출하여 얇은 리튬 금속 전극으로 전환하는 폐쇄루프 업사이클링 공정을 제시했다. 이 공정은 98%의 리튬 회수율을 달성하고, 기 형성된 계면(interphase)을 가진 리튬 호일을 생성해 부피 변화에 견디고 공기 부식에 저항한다. 회수된 리튬 전극은 Li||Li 셀에서 1200시간 이상 안정적으로 순환하며, NCM811과 조합 시 400사이클 후 91.4%의 용량을 유지한다.",
       "relevant": true
     },
@@ -426,7 +504,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78548-z/MediaObjects/41467_2026_78548_Fig1_HTML.png",
+        "cached": "img/W7222082254.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78548-z"
+      },
       "summary_ko": "Ca- 및 Mg-함유 감람석(olivine)의 CO2 반응성 차이가 양이온 자체보다 비가교 산소의 반응성 조절에서 기인함을 보인 연구이다. Ca-감람석에서는 Ca2+ 용해 장벽이 60% 감소하고 이온 방출 속도가 6자리수 가속되어 1기압 CO2 조건에서 수 시간 내 완전 전환이 가능함을 실험적으로 확인했다. 이 결과는 표면 반응이 규산염 탄산화를 지배하는 기전을 설명하는 다중스케일 프레임워크를 제시한다.",
       "relevant": false
     },
@@ -595,8 +678,38 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78377-0/MediaObjects/41467_2026_78377_Fig1_HTML.png",
+        "cached": "img/W7222215884.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78377-0"
+      },
       "summary_ko": "만성 신장질환과 박출률 감소 심부전 환자에서 포타슘 결합제(SZC)를 병용하여 RAAS 억제제 용량을 증량할 수 있는지 평가한 무작위 이중맹검 대조시험이다. SZC군은 위약군보다 과칼륨혈증 없이 목표 용량에 도달한 비율이 유의하게 높았다(PP 56% 대 28%, p=0.006). 두 군 간 이상반응 발생률에는 유의한 차이가 없었다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221769475",
+      "source": "openalex",
+      "title": "Hydrothermal regeneration of dual-doped high-performance lithium manganese iron phosphate from spent cathode materials",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112501",
+      "published": "2026-10-14",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112501",
+      "authors": [
+        "Shuya Lei",
+        "Jiexiang Li",
+        "Yue Yang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-19",
+      "image": null,
+      "summary_ko": "폐양극재로부터 이중 도핑된 고성능 리튬 망간 철 인산염(LMFP)을 수열법으로 재생하는 연구로 추정됨. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -656,7 +769,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-10-17",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11176-1/MediaObjects/41586_2026_11176_Fig1_HTML.png",
+        "cached": "img/W7222116604.jpg",
+        "license": "cc-by",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11176-1"
+      },
       "summary_ko": "IL-10 신호에서 골수계 세포와 T세포가 JAK 계열 키나제 짝짓기에 대한 의존성이 다르다는 점을 활용해, TYK2 의존적인 골수세포 선택적 IL-10 수용체 작용제(msIL-10R agonist)를 4가(tetravalent) 나노바디 기반으로 개발했다. 냉동전자현미경 구조 분석으로 기존 IL-10과 다른 수용체 가교 형태를 확인했으며, 이 작용제는 T세포 활성화 없이 단핵구·대식세포·수지상세포의 염증을 억제한다. 인간화 마우스 염증 모델과 비인간 영장류에서 최대 30일간 T세포 비활성 상태로 지속적인 골수세포 억제 효과를 보였다.",
       "relevant": false
     },
