@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-13",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78954",
+        "cached": "img/W7221449046.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78954"
+      },
       "summary_ko": "UiO-66(MOF) 코어와 불소화 이민결합 COF 쉘로 구성된 코어-셸 계면층을 상용 PP 분리막에 도입한 음이온 선택적 분리막을 개발했다. Ni2+ 배위 중심이 PF6- 음이온의 이동과 계면 분해를 조절하여 농도 분극을 완화하고 균일한 Li 전착과 무기물 중심의 안정적 SEI 형성을 유도한다. 이를 통해 LFP||Li 셀은 1200회 사이클 후 126.1 mAh/g, 고전압 NCM811||Li 셀은 600회 사이클 후 141.4 mAh/g의 용량을 유지했다.",
       "relevant": true
     }

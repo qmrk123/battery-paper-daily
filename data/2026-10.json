@@ -28,7 +28,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71712",
+        "cached": "img/W7222402503.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71712"
+      },
       "summary_ko": "고전압 Ni-rich(Ni90) 양극과 리튬 금속 전지를 위한 고분자 전해질에서 선택적 계면 커플링 전략을 제안했다. 커플링 중심 역할의 CA와 약한 커플링 환경을 만드는 불소화 아크릴레이트(DFA)를 조합해 계면 분자 구조를 재구성하고 Ni 3d-O 2p 밴드센터 분리를 확대하여 격자 산소 방출, 양이온 혼합, 전이금속 용출을 억제했다. 그 결과 Li||Ni90 셀은 4.7V, 400사이클 후 78% 용량 유지율을 보였고, 5Ah 파우치셀은 4.6V에서 529.4 Wh/kg을 달성했다.",
       "relevant": true
     },
@@ -872,7 +878,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-13",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78954",
+        "cached": "img/W7221449046.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78954"
+      },
       "summary_ko": "UiO-66(MOF) 코어와 불소화 이민결합 COF 쉘로 구성된 코어-셸 계면층을 상용 PP 분리막에 도입한 음이온 선택적 분리막을 개발했다. Ni2+ 배위 중심이 PF6- 음이온의 이동과 계면 분해를 조절하여 농도 분극을 완화하고 균일한 Li 전착과 무기물 중심의 안정적 SEI 형성을 유도한다. 이를 통해 LFP||Li 셀은 1200회 사이클 후 126.1 mAh/g, 고전압 NCM811||Li 셀은 600회 사이클 후 141.4 mAh/g의 용량을 유지했다.",
       "relevant": true
     },
