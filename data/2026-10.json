@@ -1,8 +1,69 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-18T22:51:32+00:00",
-  "count": 168,
+  "generated_at": "2026-10-20T00:09:55+00:00",
+  "count": 170,
   "papers": [
+    {
+      "id": "W7222905148",
+      "source": "openalex",
+      "title": "Ligand Electronics and Metal‐Site Acidity Enable High‐Voltage MOF Electrolytes for Quasi‐Solid‐State Lithium‐Metal Batteries",
+      "url": "https://doi.org/10.1002/aenm.71716",
+      "published": "2026-10-18",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71716",
+      "authors": [
+        "Yuzhu Tian",
+        "Yifei Xu",
+        "Kang Liang",
+        "Tianqi Deng",
+        "Wei Zhao",
+        "Qinghe Wang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium‐metal batteries (LMBs) coupled with Ni‐rich cathodes offer high energy density for next‐generation energy storage. Their practical implementation, however, is limited by electrolyte oxidation and interfacial degradation under high voltage. Metal‐organic frameworks (MOFs) would regulate ion solvation and stabilize electrode‐electrolyte interfaces in quasi‐solid‐state electrolytes, yet the molecular origins of their oxidation stability remain unclear. Here, we identify ligand electronics and metal‐site acidity as key descriptors for high‐voltage‐stable MOF electrolytes. Electron‐withdrawing ligands lower the HOMO energy levels of MOFs, while hard Lewis‐acidic Al sites further enhance oxidation resistance. Guided by this principle, we design a perfluorinated Al‐based MOF, Al‐FBDC, featuring a high oxidation onset potential of 4.82 V (vs. Li + /Li). Incorporating Al‐FBDC into a composite cathode reconstructs the local electrolyte environment at particle‐level interfaces, thereby suppressing parasitic reactions and cathode degradation under high‐voltage operation. As a result, Li||Al‐FBDC@NCM quasi‐solid‐state cells deliver excellent long‐term cycling stability and rate performance, retaining 82% of the capacity after 200 cycles at 1 C over 3.0‐4.5 V, while maintaining robust performance even at 4.6 and 4.8 V cut‐off voltages and with controlled electrolyte loading. This work identifies a general design principle for high‐voltage‐stable MOF electrolytes and offers a practical route toward high‐energy‐density LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-10-20",
+      "image": null,
+      "summary_ko": "전자를 끄는 리간드와 강한 루이스 산성 Al 자리를 갖는 MOF(Al-FBDC)를 설계해 산화 개시 전위를 4.82V(vs Li+/Li)까지 끌어올린 고전압 안정 준고체 전해질을 개발했다. 이 MOF를 Ni-rich NCM 복합양극에 도입해 입자 수준에서 전해질 환경을 재구성함으로써 고전압 구동 시 부반응과 양극 열화를 억제했다. 그 결과 Li||Al-FBDC@NCM 준고체 전지는 1C, 3.0-4.5V 조건에서 200회 사이클 후 82%의 용량을 유지했고, 4.6V 및 4.8V의 높은 컷오프 전압에서도 안정적인 성능을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222883660",
+      "source": "openalex",
+      "title": "Durable Interphase Incorporating Cross‐Linked Polymer Enables Long‐Calendar‐Life Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.75435",
+      "published": "2026-10-18",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.75435",
+      "authors": [
+        "Jia‐lin Li",
+        "Jianxin Tian",
+        "Qiang Zhang",
+        "Yan‐Bin Gao",
+        "Dong‐Hao Zhan",
+        "Qiankui Zhang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The practical deployment of lithium (Li) metal batteries is hindered by not only cycle life but also calendar life. The poor calendar life stems from both the repeated reconstruction of the solid‐electrolyte interphase (SEI) during cycles and, particularly, the continuous growth of SEI during storage. Herein, a durable SEI with high mechanical stability against volume fluctuations and superior passivation capability to suppress electrolyte permeation is demonstrated by integrating inorganics and a cross‐linked polymer into the SEI. Concretely, a cross‐linked polymer with high modulus and low swelling is in‐situ incorporated among the inorganics of an anion‐derived SEI. The elastic modulus of the SEI is significantly increased from 1.63 to 4.37 GPa, and the compactness of the SEI is also improved to suppress electrolyte permeation. Consequently, the cycle life and calendar life of Li metal coin cells are extended by 73% (from 190 to 329 cycles) and 129% (from 1553 to 3561 h), respectively. Furthermore, a prototype pouch cell (506 Wh kg −1 ) undergoes 124 cycles. This work establishes an effective strategy that concurrently improves the mechanical and passivation performance of the SEI, tackling the critical challenge of calendar life in Li metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-10-20",
+      "image": null,
+      "summary_ko": "가교 고분자와 무기 성분을 결합한 내구성 SEI를 리튬 금속 음극에 적용해, 저장 중 지속적인 SEI 성장과 사이클 중 반복적인 재구성 문제를 동시에 해결했다. 이 SEI는 탄성률이 1.63GPa에서 4.37GPa로 증가하고 전해질 투과를 억제하는 치밀한 구조를 가져 기계적 안정성과 패시베이션 성능을 모두 개선했다. 그 결과 리튬 금속 코인셀의 사이클 수명은 73%(190→329회), 저장 수명은 129%(1553→3561시간) 늘었으며, 506Wh/kg급 파우치셀은 124회 사이클을 구동했다.",
+      "relevant": true
+    },
     {
       "id": "W7222807642",
       "source": "openalex",
@@ -172,7 +233,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-10-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00975-7/MediaObjects/41578_2026_975_Figa_HTML.png",
+        "cached": "img/W7222482581.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00975-7"
+      },
       "summary_ko": "덴드라이트 성장을 감지할 수 있는 배터리에 관한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
