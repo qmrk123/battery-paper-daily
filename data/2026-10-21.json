@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-20T23:41:53+00:00",
+  "count": 6,
+  "papers": [
+    {
+      "id": "W7222944044",
+      "source": "openalex",
+      "title": "Water serves as a charge-transfer medium for ultrafast aqueous batteries",
+      "url": "https://doi.org/10.1038/s41578-026-00971-x",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1038/s41578-026-00971-x",
+      "authors": [
+        "Jie Chen",
+        "Yuhang Dai",
+        "Ruihu Lu",
+        "Tianfeng Qin",
+        "Ruwei Chen",
+        "Hang Yang"
+      ],
+      "venue": "Nature Reviews Materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764917516",
+      "journal_metric": 33.73,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "물이 초고속 수계 배터리에서 전하 전달 매체 역할을 수행한다는 연구이다. 이를 통해 수계 배터리의 반응 속도를 크게 향상시킬 수 있는 가능성을 제시한다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7222962629",
+      "source": "openalex",
+      "title": "Symmetry-Broken Coordination of Single-Atom Catalysts Unlocks Spin- and Orbital-Regulated Sulfur Redox in Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c17922",
+      "published": "2026-10-19",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.6c17922",
+      "authors": [
+        "Tao Shen",
+        "Mengyu Xie",
+        "Qianhong Gong",
+        "Zhaoyang Han",
+        "Jiaao Wang",
+        "Lei Chen"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Sulfur cathodes are considered promising candidates for next-generation energy storage due to their high theoretical energy density, low cost, and elemental abundance. However, their practical deployment is limited by the polysulfide shuttle effect and sluggish sulfur redox reaction (SRR) kinetics. In this study, we design coordination-regulated cobalt single-atom catalysts (CoClNC) featuring an asymmetric Cl–Co–N3 coordination environment to investigate the relationship between SRR catalytic activity and spin state configuration. The incorporation of Cl atoms induces electron delocalization in Co(II), promoting a transition from a low-spin to higher-spin state. This spin-state modulation enhances dz2 orbital hybridization with the π* antibonding orbitals of polysulfides, thereby accelerating their redox conversion. Furthermore, the asymmetric coordination lowers the d-band electron occupancy, improving sulfur species adsorption and facilitating SRR kinetics. Lithium–sulfur batteries employing CoClNC/S cathodes demonstrate remarkable cycling stability, with an average capacity fade of only 0.023% per cycle. This work highlights a general strategy for spin and orbital engineering via coordination field modulation to boost SRR catalysis.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "비대칭 Cl–Co–N3 배위 구조를 갖는 코발트 단일원자 촉매(CoClNC)를 설계하여 리튬-황 배터리의 황 환원반응(SRR) 활성을 조절하였다. Cl 도입으로 Co의 스핀 상태가 저스핀에서 고스핀으로 전환되며 dz2 궤도와 폴리설파이드의 π* 반결합 궤도 간 혼성이 강화되어 환원반응이 가속화된다. 또한 d-band 전자 점유도가 낮아져 황종 흡착이 개선되고 SRR 반응속도가 향상된다. CoClNC/S 캐소드를 적용한 리튬-황 전지는 사이클당 평균 0.023%의 용량 감소율로 우수한 사이클 안정성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222976125",
+      "source": "openalex",
+      "title": "Spatially resolved host and microbiota RNA profiling in the mouse gut using microDBiT",
+      "url": "https://doi.org/10.1038/s41467-026-78852-8",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78852-8",
+      "authors": [
+        "Bo Tao",
+        "Deguang Song",
+        "Mingze Dong",
+        "Gaocai Li",
+        "Shenjie Wang",
+        "Dejiang Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Hosts and their microbiomes coexist in a shared environment, engaging in dynamic interactions that are essential to maintaining health and modulating disease processes. To fully understand these interactions, spatially resolved and unbiased approaches are needed to map gene expression from both host and microbial cells within their native tissue context. Here, we present microDBiT, a spatial transcriptomic platform that enables simultaneous, high-resolution profiling of host and bacterial RNAs, including both mRNA and rRNA. Using microDBiT, we mapped the spatial distribution of host and microbial transcripts in the ileum and colon of germ-free mice, gnotobiotic mice colonized with a defined gut microbial community, and specific pathogen-free mice treated with dextran sulfate sodium (DSS) to induce colitis. We observed location-specific transcriptomic alterations in both host and bacterial cells in response to colonization and during inflammation. These results demonstrate the utility of microDBiT for dissecting host-microbiome interactions at high resolution and provide new insights into immune responses, spatial microbial localization, and microbiome-associated disease processes. This study introduces microDBiT, a spatial transcriptomics method that maps host and bacterial RNA together in gut tissue, revealing how microbes and host responses vary across intestinal regions and during inflammation.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78852-8",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "호스트와 미생물 군집의 RNA를 동시에 고해상도로 매핑할 수 있는 공간 전사체 플랫폼 microDBiT를 개발하였다. 이를 이용해 무균 마우스, 특정 미생물 군집을 정착시킨 마우스, DSS로 대장염을 유도한 마우스의 회장과 대장에서 호스트 및 세균 전사체의 공간적 분포를 매핑하였다. 그 결과 미생물 정착과 염증 상태에 따라 위치별로 다른 전사체 변화가 나타남을 확인하였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222964892",
+      "source": "openalex",
+      "title": "Nitrobenzo Crown Ether Enables Stable Interphases in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79065",
+      "published": "2026-10-19",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.79065",
+      "authors": [
+        "Zihui Liu",
+        "Qiuyan Li",
+        "Huijuan Ma",
+        "Chao Peng",
+        "Xue‐Feng Yu",
+        "Jiahong Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium metal anodes promise high‐energy‐density storage but suffer from unstable solid electrolyte interphases and dendrite growth in carbonate electrolytes. Here, 4‐nitrobenzo‐15‐crown‐5 ether (NBCE) is introduced as a multifunctional electrolyte additive that simultaneously regulates Li + solvation and interfacial chemistry. NBCE replaces ethylene carbonate in the Li + solvation sheath, increasing contact ion pairs and substantially lowering the Li + desolvation energy. Its preferential reduction on lithium, accompanied by conversion of the nitro group into Li 3 N, produces a dense LiF‐ and Li 3 N‐rich SEI. Consequently, Li||Cu cells exhibit higher Coulombic efficiency (CE), lower nucleation overpotential, and dense, dendrite‐free lithium deposition, while Li||Li symmetric cells cycle stably for over 1000 h. Li||NCM811 full cells retain 79.5% of their capacity after 300 cycles with an average CE of 99.5%, and deliver approximately 86 mAh g −1 at 5 C. NBCE also significantly suppresses leakage current at high voltages. These findings establish multifunctional solvation and interphase regulation as an effective electrolyte‐design strategy for high‐energy‐density lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "4-니트로벤조-15-크라운-5 에테르(NBCE)를 전해질 첨가제로 도입하여 리튬 금속 음극의 솔베이션 구조와 계면 화학을 동시에 조절하였다. NBCE는 Li+ 솔베이션 쉘에서 에틸렌카보네이트를 대체해 접촉 이온쌍을 늘리고 탈솔베이션 에너지를 낮추며, 리튬 표면에서 우선적으로 환원되어 나이트로기가 Li3N으로 전환되면서 LiF 및 Li3N이 풍부한 SEI를 형성한다. 이를 통해 Li||Cu 전지의 쿨롱효율이 향상되고 덴드라이트 없는 리튬 증착이 가능해지며, Li||Li 대칭전지는 1000시간 이상 안정적으로 작동한다. Li||NCM811 완전셀은 300사이클 후 79.5%의 용량 유지율과 99.5%의 평균 쿨롱효율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222952622",
+      "source": "openalex",
+      "title": "Manipulating Li2MnO3-Like Domain Dispersion in Lithium-Rich Layered Oxides Inherited from Precursor",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02547",
+      "published": "2026-10-19",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1021/acsenergylett.6c02547",
+      "authors": [
+        "Woonbae Sohn",
+        "Minji Kim",
+        "Jin-Hee Bae",
+        "Minseo Choi",
+        "Hwa-Jung Kim",
+        "Yong‐Il Kim"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Leveraging oxygen redox in lithium-rich layered oxides paves the way for increasing the energy density of lithium-ion batteries, whose practical implementation is plagued by poor stability. Although a uniform Li2MnO3-like domain dispersion is suggested to improve cycle stability, the synthesis–structure relationship governing domain formation remains underexplored. Here, we show that Li2MnO3-like domain dispersion is derived by the precursor structure according to the degree of transition-metal separation. Through a comparative investigation of the synthesis mechanism, we reveal the templating effect that more clustered transition-metal oxide precursors lead to more localized Li2MnO3-like ordering in the final cathodes, a tendency also observed with a different lithium source. Furthermore, it is corroborated that cathodes with more dispersed Li2MnO3-like ordering derived from less-ordered precursors exhibit improved electrochemical stability with a mitigated voltage decay. Our findings highlight the significance of precursor design and engineering for structural regulation of high-performance lithium-rich layered oxide cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "리튬-리치 층상 산화물 캐소드에서 Li2MnO3 유사 도메인의 분산 정도가 전구체의 전이금속 분리 정도에 의해 결정됨을 규명하였다. 전이금속 산화물 전구체가 더 응집된 구조일수록 최종 캐소드에서 Li2MnO3 유사 질서가 더 국소적으로 형성되는 템플레이팅 효과가 확인되었으며, 이는 리튬 소스를 달리해도 동일하게 나타났다. 전구체 질서가 낮아 Li2MnO3 유사 질서가 더 분산된 캐소드일수록 전기화학적 안정성이 향상되고 전압 감쇄가 완화됨을 입증하였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222972639",
+      "source": "openalex",
+      "title": "Electrolyte-Derived Chemical Activation Enables Reversible Cathode Chemistry in Magnesium Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02629",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1021/acsenergylett.6c02629",
+      "authors": [
+        "Longyuan Guo",
+        "Jiayan Luo"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Rechargeable magnesium (Mg) metal batteries are promising high-energy-density alternatives to lithium-ion systems, yet sluggish cathode kinetics hinder their development. Departing from the conventional host-centric view, we demonstrate that reversibility in Mg batteries can be governed by electrolyte-derived reaction chemistry. Here, we harness trace water to impart controlled electrolyte reactivity, enabling electrolyte-derived Mg/Cl-containing species to participate in cathode activation. In tunnel-type MnO2, the regulated electrolyte induces lattice expansion and improves electrochemical reversibility. In organic cathodes, improved rechargeability is consistent with a stabilizing role of Cl– in anion-coupled redox. Because polar-solvent chemistry can irreversibly passivate Mg metal, a Sn/MgCl2 artificial interface suppresses parasitic anode reactions while preserving cathode activation. This strategy enables reversible electrochemistry across oxide, organic, and conversion cathodes, including α/γ-MnO2, methylphenothiazine, tetrathiafulvalene, and hybrid I2/O2 systems. These findings establish electrolyte-derived chemical activation as a guiding principle for regulating cathode reaction pathways in magnesium batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-21",
+      "image": null,
+      "summary_ko": "마그네슘 금속전지에서 전해질 유래 화학 활성화를 통해 캐소드 반응의 가역성을 구현하는 전략을 제시하였다. 미량의 수분을 활용해 전해질 반응성을 조절함으로써 Mg/Cl 함유 종이 캐소드 활성화에 참여하도록 하였으며, 터널형 MnO2에서는 격자 팽창을 유도해 가역성을 개선하고 유기 캐소드에서는 Cl-가 음이온 결합 산화환원을 안정화함을 확인하였다. 또한 Sn/MgCl2 인공계면을 통해 분극성 용매로 인한 음극 부반응을 억제하면서 캐소드 활성화를 유지하였다. 이 전략은 산화물, 유기물, 전환형 캐소드 전반에 걸쳐 가역적 전기화학을 구현한다.",
+      "relevant": false
+    }
+  ]
+}
