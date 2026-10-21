@@ -1,8 +1,68 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-20T23:41:53+00:00",
-  "count": 176,
+  "generated_at": "2026-10-21T23:56:58+00:00",
+  "count": 179,
   "papers": [
+    {
+      "id": "W7223008270",
+      "source": "openalex",
+      "title": "Physically Grounded Descriptors for Machine-Learning-Guided Diluent Design in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c16379",
+      "published": "2026-10-20",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/jacs.6c16379",
+      "authors": [
+        "Myeongjun Kim",
+        "Chihyun Nam",
+        "Hyunmin Lee",
+        "Seyeon Shin",
+        "Songha Seo",
+        "Woojin Chong"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Localized high-concentration electrolytes require diluents that avoid direct Li+ coordination and preserve Li+-anion aggregates while remaining miscible with the primary solvent. Rational discovery has remained difficult because these competing requirements arise from chemically distinct interactions that have lacked computable molecular design coordinates. Fluorination has therefore been widely used to suppress electron donation, but the environmental persistence and synthetic burden of fluorinated molecules motivate alternative strategies for controlling diluent functionality. Here, we resolve the key interaction requirements of diluents using two complementary descriptors: BF3 affinity for specific electron-pair donation and the molecular polarity index (MPI) for distributed nonspecific electrostatic interactions. These descriptors reproduce established donor-number and Kamlet–Taft π* trends and, more importantly, distinguish noncoordinating yet miscible diluents from solvating and immiscible solvents. Coupling this interaction-based framework with uncertainty-aware machine learning enabled screening of 1.32 million nonfluorinated molecules and identified 368 candidates while recovering false negatives and excluding false positives near the decision boundaries. Newly selected aromatic hydrocarbons, including 1,2,4-trimethylbenzene and 2-ethyltoluene, sustained stable cycling in Li-metal full cells for more than 200 cycles, whereas a descriptor-excluded analogue underwent rapid capacity decay. These results establish specific coordination and distributed electrostatics as predictive design coordinates for diluent discovery.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-10-22",
+      "image": null,
+      "summary_ko": "리튬 금속 전지용 국부 고농도 전해질에서 Li+와 직접 배위하지 않으면서도 주용매와 혼화성을 유지하는 희석제를 설계하기 위해 BF3 친화도와 분자극성지수(MPI)라는 두 가지 물리 기반 디스크립터를 제안했다. 이를 불소를 포함하지 않는 132만 개 분자에 대한 불확실성 인식 머신러닝 스크리닝에 적용하여 368개의 유망 희석제 후보를 도출했다. 새로 선별된 방향족 탄화수소(1,2,4-트리메틸벤젠, 2-에틸톨루엔 등)는 리튬 금속 완전셀에서 200사이클 이상 안정적으로 구동된 반면, 디스크립터 기준에서 배제된 유사 분자는 급격한 용량 저하를 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223042850",
+      "source": "openalex",
+      "title": "Bridging Ionic Field Strength Disparity in O3-Type Layered Oxides for High-Voltage Sodium-Ion Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c11691",
+      "published": "2026-10-20",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1021/jacs.6c11691",
+      "authors": [
+        "Ziheng Zhang",
+        "Zixin Liang",
+        "Yixiang Zhao",
+        "Jiangtao Yu",
+        "Mengchen Zhang",
+        "Ji Kong"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract O3-type layered oxides represent an attractive class of sodium-ion battery cathodes, combining high theoretical specific capacity and high pristine Na content. However, their deeply desodiated frameworks at high voltages (≥4.0 V) are prone to redox-coupled distortion of TMO6 octahedra within the transition metal (TM) slabs, leading to severe structural degradation. Here, we originally define an ionic field strength disparity coefficient (η), which enables quantitative evaluation of the local chemical-field heterogeneity. The η is derived from the ratio between the standard deviation and the average value of ionic field strength (Φ) of all TM ions, defined as Φ= Z/r2, where Z and r correspond to the ionic charge and ionic radius, respectively. Introducing compensatory cations with an intermediate Φ value between two cations featuring largely disparate Φ values effectively reconciles local chemical-field discrepancy and lowers the η parameter upon charge–discharge processes. Moreover, synchrotron X-ray absorption spectroscopy, strain mapping analyses, and first-principles calculations reveal that the low-η sample demonstrates the reduced lattice strain and enhanced structural reversibility. Consistently, electrochemical evaluation shows that it retains more than 80% of its capacity after 500 cycles at 10C, markedly outperforming the unmodified counterpart with only 22% retention. This work establishes the η as a quantitative descriptor for inactive dopant selection and provides a general strategy for developing highly stable layered oxide cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-10-22",
+      "image": null,
+      "summary_ko": "O3형 층상 소듐 이온 전지 양극재가 고전압(4.0V 이상)에서 TMO6 팔면체의 산화환원 연계 왜곡으로 구조가 열화되는 문제를 해결하기 위해, 전이금속 이온들의 이온장세기(Φ) 분산 정도를 정량화하는 이온장세기 불균일 계수(η)를 새롭게 정의했다. Φ 값이 중간인 보상 양이온을 도입해 η를 낮추면 충방전 중 국소 화학장 불균일과 격자 변형이 줄어듦을 방사광 X선 흡수분광법, 변형률 매핑, 제일원리 계산으로 확인했다. 그 결과 저η 샘플은 10C, 500사이클 후 80% 이상의 용량 유지율을 보여 미개질 샘플(22%)보다 현저히 우수했다.",
+      "relevant": true
+    },
     {
       "id": "W7222944044",
       "source": "openalex",
@@ -177,6 +237,34 @@
       "first_seen": "2026-10-21",
       "image": null,
       "summary_ko": "마그네슘 금속전지에서 전해질 유래 화학 활성화를 통해 캐소드 반응의 가역성을 구현하는 전략을 제시하였다. 미량의 수분을 활용해 전해질 반응성을 조절함으로써 Mg/Cl 함유 종이 캐소드 활성화에 참여하도록 하였으며, 터널형 MnO2에서는 격자 팽창을 유도해 가역성을 개선하고 유기 캐소드에서는 Cl-가 음이온 결합 산화환원을 안정화함을 확인하였다. 또한 Sn/MgCl2 인공계면을 통해 분극성 용매로 인한 음극 부반응을 억제하면서 캐소드 활성화를 유지하였다. 이 전략은 산화물, 유기물, 전환형 캐소드 전반에 걸쳐 가역적 전기화학을 구현한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222943082",
+      "source": "openalex",
+      "title": "Alkali hydrides catalyze hydrogenolysis of polystyrene to alkylbenzenes under mild conditions",
+      "url": "https://doi.org/10.1038/s41467-026-78624-4",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78624-4",
+      "authors": [
+        "Zhao Li",
+        "Yongli Cai",
+        "Khai Chen Tan",
+        "Bing Liu",
+        "Shengyuan Zhang",
+        "Shixiong Zhang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "This study introduces a highly efficient, transition-metal-free method for upcycling polystyrene (PS) waste using alkali metal hydrides, specifically KH, as a catalyst. Operating under mild conditions (130 °C, 1 bar H₂, 3 hours), KH achieves an impressive 93.2% yield of gaseous products and alkylbenzenes, with 95.8% selectivity toward alkylbenzenes. The production rate of 313.3 mmolcarbon/gKH/h is approximately 2.6 times higher than noble-metal catalysts operating at much higher temperatures (280 °C). This versatile approach is effective on diverse real-life PS waste. Mechanistically, depolymerization is driven by a synergy between direct hydride-induced Hδ+(C) abstraction and K+···π interactions with adjacent phenyl rings. This interaction elongates the C(sp³)–C(sp³) bonds, facilitating targeted cleavage into alkylbenzenes. Ultimately, this work establishes hydride catalysis as an energy-efficient platform for plastic depolymerization, providing crucial insights for designing mild-condition catalysts to address the global plastic waste crisis. Catalytic hydrogenolysis has been explored for polystyrene degradation, but its dependence on transition-metal catalysts and harsh conditions reduces its practicality. Here, the authors report the selective hydrogenolysis of polystyrene into alkylbenzenes under mild conditions (low temperature and hydrogen pressure) using alkali metal hydrides.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-78624-4_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-22",
+      "image": null,
+      "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
       "relevant": false
     },
     {

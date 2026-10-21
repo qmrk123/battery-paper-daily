@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-20T23:41:53+00:00",
+  "generated_at": "2026-10-21T23:59:25+00:00",
   "count": 6,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S2764917516",
       "journal_metric": 33.73,
       "first_seen": "2026-10-21",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41578-026-00971-x/MediaObjects/41578_2026_971_Fig1_HTML.png",
+        "cached": "img/W7222944044.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Materials — https://doi.org/10.1038/s41578-026-00971-x"
+      },
       "summary_ko": "물이 초고속 수계 배터리에서 전하 전달 매체 역할을 수행한다는 연구이다. 이를 통해 수계 배터리의 반응 속도를 크게 향상시킬 수 있는 가능성을 제시한다. (제목 기반 추정)",
       "relevant": false
     },
@@ -85,7 +90,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-21",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78852-8/MediaObjects/41467_2026_78852_Fig1_HTML.png",
+        "cached": "img/W7222976125.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78852-8"
+      },
       "summary_ko": "호스트와 미생물 군집의 RNA를 동시에 고해상도로 매핑할 수 있는 공간 전사체 플랫폼 microDBiT를 개발하였다. 이를 이용해 무균 마우스, 특정 미생물 군집을 정착시킨 마우스, DSS로 대장염을 유도한 마우스의 회장과 대장에서 호스트 및 세균 전사체의 공간적 분포를 매핑하였다. 그 결과 미생물 정착과 염증 상태에 따라 위치별로 다른 전사체 변화가 나타남을 확인하였다.",
       "relevant": false
     },
