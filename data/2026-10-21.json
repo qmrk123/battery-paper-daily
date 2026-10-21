@@ -115,7 +115,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-21",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79065",
+        "cached": "img/W7222964892.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79065"
+      },
       "summary_ko": "4-니트로벤조-15-크라운-5 에테르(NBCE)를 전해질 첨가제로 도입하여 리튬 금속 음극의 솔베이션 구조와 계면 화학을 동시에 조절하였다. NBCE는 Li+ 솔베이션 쉘에서 에틸렌카보네이트를 대체해 접촉 이온쌍을 늘리고 탈솔베이션 에너지를 낮추며, 리튬 표면에서 우선적으로 환원되어 나이트로기가 Li3N으로 전환되면서 LiF 및 Li3N이 풍부한 SEI를 형성한다. 이를 통해 Li||Cu 전지의 쿨롱효율이 향상되고 덴드라이트 없는 리튬 증착이 가능해지며, Li||Li 대칭전지는 1000시간 이상 안정적으로 작동한다. Li||NCM811 완전셀은 300사이클 후 79.5%의 용량 유지율과 99.5%의 평균 쿨롱효율을 보였다.",
       "relevant": true
     },
