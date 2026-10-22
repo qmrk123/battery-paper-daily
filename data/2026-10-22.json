@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-21T23:56:58+00:00",
+  "generated_at": "2026-10-22T23:59:30+00:00",
   "count": 3,
   "papers": [
     {
@@ -87,7 +87,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78624-4/MediaObjects/41467_2026_78624_Fig1_HTML.png",
+        "cached": "img/W7222943082.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78624-4"
+      },
       "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
       "relevant": false
     }
