@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71727",
+        "cached": "img/W7223181124.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71727"
+      },
       "summary_ko": "탄산리튬(LC) 전구체는 수산화리튬(LH)보다 저렴하지만 층상 산화물 양극 성능이 낮아 활용이 제한되어 왔다. 본 연구는 중니켈 양극 LiNi0.65Co0.05Mn0.30O2(N65)에서 LC 유래 결함이 원자~마이크로 스케일에 걸쳐 발생하는 원인을 규명하고, 최적화된 LH를 첨가하는 2차 열처리(SH)로 이를 치유하는 전략을 제시했다. 그 결과 N65-LC SH는 LH 기반 양극과 동등한 방전 용량, 율속 특성, 수명 안정성을 보이면서도 리튬 전구체 비용을 9~16% 절감했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71729",
+        "cached": "img/W7223184175.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71729"
+      },
       "summary_ko": "황화물 고체전해질과 결합된 고전압 Ni-rich 양극(LiNi0.83Co0.07Mn0.10O2)의 계면 불안정성을 해결하기 위해, LiNbOCl4 전구체 기반의 Nb-O-Cl 계면 프레임워크를 도입했다. 이 비정질 옥시할라이드 계면은 기존의 수동적 산화물 코팅과 달리 Ni-O 전자 구조를 재구성하고 Li+ 이동을 동시에 촉진하여 산소 관련 비가역 반응을 억제한다. 그 결과 4.5V, 고로딩 조건에서 500회 사이클 후 88.17%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -118,7 +130,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71710",
+        "cached": "img/W7223176967.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71710"
+      },
       "summary_ko": "고전압 양극과 리튬 금속을 매칭할 때 발생하는 전해질 산화 분해 문제를 해결하기 위해 불소화 리튬 유기규산염 염(LiPBS)을 합성했다. LiPBS는 양극 표면에 견고한 CEI를, 리튬 음극 표면에는 무기물이 풍부한 SEI를 형성하며 Si-O 그룹을 통해 HF와 H2O를 제거한다. 이를 통해 LiCoO2/Li 전지는 4.5V, 1C 조건에서 250회 사이클 후 82%의 용량을 유지해 기존 LiPF6 전해질(67회 후 80%) 대비 우수한 성능을 보였다.",
       "relevant": true
     },
@@ -258,7 +276,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79170",
+        "cached": "img/W7223170905.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79170"
+      },
       "summary_ko": "저온에서 고체 고분자 전해질의 Li+ 전달 속도 저하 문제를 해결하기 위해 양이온성 폴리(이온성 액체) 고체전해질에 메틸 트리플루오로메탄술포네이트(TMS)를 이온성 미세환경 조절제로 도입했다. TMS는 리튬염 해리를 촉진하고 음이온 포집 효과를 유도하여 균일한 리튬 전착을 가능하게 한다. 그 결과 −15°C에서 Li||NCM811 전지는 500회 후 89.8%, Li||LFP 전지는 800회 후 80.1%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -316,7 +340,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79124",
+        "cached": "img/W7223172462.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79124"
+      },
       "summary_ko": "리튬/소듐 금속 배터리의 덴드라이트 형성과 전극-전해질 계면 불안정성을 해결하기 위한 기능성 분리막 코팅 전략을 정리한 리뷰 논문이다. 세라믹, 고분자, 탄소계, MOF 등 다양한 코팅 소재가 이온 전달 조절, 금속 증착 균일화, 덴드라이트 억제에 미치는 메커니즘을 다루었다. 코팅 두께, 공정 속도, 소재 활용률 등 산업적 확장성 관점에서도 각 전략을 평가했다.",
       "relevant": true
     },
@@ -376,7 +406,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79174",
+        "cached": "img/W7223147537.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79174"
+      },
       "summary_ko": "염화물 고체전해질은 고전류 밀도에서 전자 주입에 취약해 리튬 금속과의 계면 안정성이 저하된다. LiCl이 부족한 Li3-xInCl5.2-xF0.8 조성을 설계하여 In이 Li 자리로 이동하는 In-on-Li 안티사이트를 형성, 주입된 전자를 국소화해 In3+ 환원을 억제했다. 최적 조성 Li2.76InCl4.96F0.8은 1.24 mS/cm의 이온 전도도와 1.0-1.5 mA/cm²에서 안정적인 Li 도금/탈리, NCM622 완전셀에서의 내구성을 보였다.",
       "relevant": true
     },
@@ -406,7 +442,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78391",
+        "cached": "img/W7223140812.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78391"
+      },
       "summary_ko": "코발트가 없는 리튬망간리치(LMR) 양극과 순수 실리콘(µ-Si) 음극을 결합한 전지에서, 기존 Celgard 분리막의 낮은 젖음성이 비균일 전해질 분포와 국소 Li 금속 증착을 유발해 75회 이내에 급격한 용량 저하를 일으킴을 보였다. 전기방사 PAN 분리막으로 교체하면 약 230회까지 80% 용량을 유지했고, DMFSA를 FEC와 함께 공용매로 사용하면 분리막 종류와 무관하게 수명이 400회 이상으로 연장됐다. 분리막과 전해질 조성의 상호작용이 LMR||µ-Si 전지 안정화에 중요함을 제시했다.",
       "relevant": true
     },
@@ -436,7 +478,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71721",
+        "cached": "img/W7223096824.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71721"
+      },
       "summary_ko": "PEO 고체 고분자 전해질에 NMP를 첨가하면 Li+ 전달이 향상되지만 잔류 NMP가 리튬 금속과 반응해 계면을 불안정화한다. LiDFOB와 LiNO3를 이중 음이온 첨가제로 도입하여 Li+ 주위에 음이온이 풍부한 솔베이션 쉘을 형성, NMP와의 부반응을 억제하는 동역학적으로 안정한 SEI를 유도했다. 이 전해질은 1.69×10⁻⁴ S/cm의 이온전도도와 상온에서 1200시간 안정 사이클, Li/LFP 셀에서 2000회 후 93% 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -466,7 +514,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6809424",
+        "cached": "img/W7223147488.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6809424"
+      },
       "summary_ko": "저온 소듐 금속 배터리의 전해질 솔베이션과 계면 제어 문제를 해결하기 위해 Sn(OTf)2를 이용한 음이온-양이온 동시 조절 전략을 제안했다. Sn2+와 Na+의 경쟁적 배위로 PF6-를 1차 솔베이션 쉘에서 배제하고 용매 중심의 배위 구조를 형성하여 저온에서 Na+ 탈솔베이션 장벽을 낮추고 합금 기반 SEI(Na15Sn4)를 형성시켰다. Na||Na3V2(PO4)3 전지는 −20°C에서 1050회, −50°C에서 약 700회 사이클을 달성했고, 6Ah 파우치셀은 25°C에서 215 Wh/kg을 보였다.",
       "relevant": true
     },
