@@ -1,22 +1,22 @@
 {
   "title": "최근 2주 논문 브리핑 (10/9–10/22)",
   "range": "2026-10-09 ~ 2026-10-22",
-  "overall": "이번 2주간 연구는 고전압·극한온도·무음극 조건에서 리튬/소듐 금속 계면을 안정화하는 전해질·첨가제·집전체 설계에 집중되었으며, 양극 측에서는 저비용 전구체와 단결정·Mn-rich·하이브리드 구조로 고에너지밀도와 장수명을 동시에 추구하는 흐름이 두드러졌다.",
+  "overall": "지난 2주간 연구는 금속 음극(Li/Na)의 계면·솔베이션 제어와 Ni-rich·Li-rich 양극의 구조 안정화에 집중되었으며, 전해질 설계와 계면층 공학이 고전압·극한 온도·장수명을 동시에 달성하는 핵심 축으로 자리잡았다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "SEI/CEI 계면 화학 제어가 압도적 주제로, 유기규산염·크라운에테르·DFOB/NO3 이중음이온·불소프리 염 등 첨가제와 신규 염을 통해 무기물이 풍부하고 기계적으로 견고한 계면을 유도하는 전략이 다수 보고됐다. 동시에 고체/준고체 전해질(염화물, MOF, PEO, 폴리이온성액체)의 고전압·저온 적합성과 솔베이션 구조 제어, ARXPS 같은 비파괴 계면 분석법이 부각됐다. 집전체 측면에서는 결정립계·전위 엔지니어링으로 무음극 셀의 균일 증착을 유도하고, 폐 LFP 리튬 회수·장기 캘린더 수명 등 실용화 지표도 함께 다뤄졌다.",
+      "text": "전해질 솔베이션 구조와 SEI/계면층 설계가 지배적 주제로, 리튬 유기규산염·크라운에테르·설파모일 혼합액 등 첨가제와 용매 전략으로 무기물(LiF·Li3N) 풍부한 SEI와 난연·광온도 구동을 동시에 추구하는 흐름이 뚜렷하다. 염화물·MOF·PEO 등 고체/준고체 전해질에서 안티사이트·이중음이온·리간드 산성도 제어로 고전류·고전압 적합성을 확보하려는 시도가 늘고 있다. 무음극 셀에서는 Cu 집전체의 결정립계·전위 설계와 Pt/TaOx 양면 조절로 균일 증착을 유도했으며, ARXPS 비파괴 분석과 폐 LFP 리튬 업사이클링 같은 분석·순환 공정 연구도 등장했다.",
       "highlights": [
-        {"title": "Determining depth-resolved spatial distribution of solid–electrolyte interphase using non-destructive angle-resolved X-ray photoelectron spectroscopy for lithium-metal batteries", "url": "https://doi.org/10.1038/s41467-026-78168-7", "venue": "Nature Communications"},
+        {"title": "Solvation‐Equilibrium Locking Enables Ultrawide‐Temperature Operation of High‐Voltage Lithium‐Metal Batteries", "url": "https://doi.org/10.1002/adma.75409", "venue": "Advanced Materials"},
         {"title": "Durable Interphase Incorporating Cross‐Linked Polymer Enables Long‐Calendar‐Life Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.75435", "venue": "Advanced Materials"},
-        {"title": "Solvation‐Equilibrium Locking Enables Ultrawide‐Temperature Operation of High‐Voltage Lithium‐Metal Batteries", "url": "https://doi.org/10.1002/adma.75409", "venue": "Advanced Materials"}
+        {"title": "Beyond Facet Engineering: Dislocation‐Mediated Nucleation Enables Stable Lithium Deposition on Practical Polycrystalline Cu Collectors", "url": "https://doi.org/10.1002/adma.75368", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고전압 Ni-rich 양극의 산소 방출·계면 열화 억제가 핵심 과제로, 옥시할라이드(Nb-O-Cl) 계면 프레임워크, 선택적 계면 커플링 고분자, 고산화 안정성 MOF 전해질 등 계면 재구성 전략으로 4.5~4.8V 고전압 구동과 >500 Wh/kg 파우치셀을 구현했다. 아울러 저렴한 탄산리튬 전구체의 결함 치유나 NCM/LFP 하이브리드 양극처럼 비용·실용 관점의 접근도 등장해, 고에너지밀도와 장수명·경제성을 양립시키려는 흐름이 확인된다.",
+      "text": "고전압 Ni-rich 양극의 격자 산소 방출·계면 열화 억제가 공통 과제로, 옥시할라이드(Nb-O-Cl)·MOF·고분자 전해질의 선택적 계면 커플링으로 전자구조를 재구성하고 500 Wh/kg급 에너지 밀도를 노리는 연구가 두드러진다. 비평형 줄 가열을 통한 Sr 편석 암염 계면 형성처럼 합성 공정으로 표면을 안정화하거나, 저가 탄산리튬 전구체의 결함을 2차 열처리로 치유해 비용을 절감하는 실용화 지향 접근도 나타났다.",
       "highlights": [
         {"title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes", "url": "https://doi.org/10.1002/aenm.71729", "venue": "Advanced Energy Materials"},
         {"title": "Selective Interfacial Coupling in Polymer Electrolytes Stabilizes High‐Voltage Ni‐Rich Cathodes for > 500 Wh Kg −1 Lithium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71712", "venue": "Advanced Energy Materials"},
@@ -26,26 +26,27 @@
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지가 중심으로, 단일원자 촉매의 스핀·궤도 조절을 통한 황 산화환원 가속, 결함 MOF 분리막 코팅, 감마선 제어 바인더 네트워크 등 반응속도 향상과 폴리설파이드 셔틀 억제 전략이 다양하게 제시됐다. 전고체 Li-S에서는 고체-고체 레독스 매개체 내재화로 급속충전·장수명을 달성했고, LFP와 황을 결합한 인터칼레이션-전환 하이브리드 양극도 등장해 안정성과 고용량을 동시에 노리는 접근이 두드러진다.",
+      "text": "리튬-황 전지가 중심으로, 단일원자 촉매의 비대칭 배위·스핀 조절과 MOF 결함 공학으로 황 산화환원 반응속도를 가속하고 폴리설파이드 셔틀을 억제하는 전략이 반복적으로 제시됐다. 감마선으로 바인더 가교 네트워크를 제어하거나 LFP와 황을 공간적으로 통합한 인터칼레이션-전환 하이브리드 양극처럼, 촉매·바인더·구조 설계를 통해 장수명과 고에너지 파우치셀 구현을 동시에 겨냥하는 흐름이 보인다.",
       "highlights": [
         {"title": "Symmetry-Broken Coordination of Single-Atom Catalysts Unlocks Spin- and Orbital-Regulated Sulfur Redox in Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c17922", "venue": "Journal of the American Chemical Society"},
-        {"title": "Fast-charging and durable all-solid-state lithium-sulfur batteries enabled by pre-embedded solid-solid redox mediator", "url": "https://doi.org/10.1038/s41467-026-78042-6", "venue": "Nature Communications"},
-        {"title": "Spatially Integrated Intercalation–Conversion Hybrid Cathode for Durable, High‐Capacity Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78984", "venue": "Advanced Functional Materials"}
+        {"title": "Spatially Integrated Intercalation–Conversion Hybrid Cathode for Durable, High‐Capacity Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78984", "venue": "Advanced Functional Materials"},
+        {"title": "γ‐Ray Controlled Topological Evolution of Binders for Stable and Activated Li─S Battery Cathodes", "url": "https://doi.org/10.1002/adfm.79058", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 증착 균일화와 NaF가 풍부한 안정적 SEI 형성이 공통 목표로, 음이온-양이온 동시 조절 솔베이션, 황 매립 탄소 구체, 4차 암모늄 리그닌 겔 전해질 등 전해질·계면 설계 전략이 보고됐다. 특히 저온(−20~−50°C) 고율 구동과 Ah급 파우치셀, 수천 사이클 내구성 등 실용 지표를 겨냥한 사례가 늘었으며, 회전-결합 게스트 음이온을 활용한 폴리머 고체전해질로 고전압 소듐 전지의 장수명도 입증됐다.",
+      "text": "소듐 증착 균일화와 NaF 풍부한 SEI 형성이 핵심으로, Sn(OTf)2 기반 음이온-양이온 동시 조절과 4차 암모늄 리그닌·회전결합 게스트 음이온 같은 겔/고체 고분자 전해질 설계가 저온·고율 장수명을 끌어올렸다. 황 매립 탄소 구체로 Ah급 고출력 셀을 구현하는 등 소재·계면 공학을 통해 실용 규모의 소듐 금속 전지로 확장하려는 시도가 이어지고 있다.",
       "highlights": [
         {"title": "Anion‐Cation Targeted Regulation Enables Ultrafast and Stable Sodium Metal Batteries at Low Temperatures", "url": "https://doi.org/10.1002/anie.6809424", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Quaternary Ammonium Lignin Enabling High‐Na + ‐Conductivity Gel Electrolyte and NaF‐Rich SEI Toward High‐Safety Sodium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78944", "venue": "Advanced Functional Materials"}
+        {"title": "Quaternary Ammonium Lignin Enabling High‐Na + ‐Conductivity Gel Electrolyte and NaF‐Rich SEI Toward High‐Safety Sodium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78944", "venue": "Advanced Functional Materials"},
+        {"title": "Rotation‐Coupled Guest Anions Stabilize Polymer Solid‐State Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/anie.9801142", "venue": "Angewandte Chemie International Edition"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "Li2MnO3 유사 도메인의 활성화와 구조·전압 안정성 제어가 핵심으로, 전구체의 전이금속 분리 정도를 통한 도메인 분산 조절과 site-selective 인(P) 미량 치환으로 활성화를 가속·안정화하는 전략이 제시됐다. Ni·Co-free Mn-rich 방향에서는 단결정 DRX 구조로 산소 redox를 억제해 약 640 Wh/kg의 고에너지밀도와 장수명을 달성했고, 분리막·전해질 조성의 상호작용이 LMR||Si 전지 수명에 중요함도 확인됐다.",
+      "text": "Li2MnO3 유사 도메인의 활성화와 전압 감쇠 완화가 공통 주제로, 전구체 전이금속 분리도를 이용한 도메인 분산 제어와 site-selective 인(P) 미량 치환으로 구조 안정성과 용량 유지율을 개선했다. Ni·Co-free Mn-redox 단결정 DRX 구조나 분리막·전해질 상호작용 최적화처럼, 조성·결정구조·셀 구성 전반에서 코발트 저감형 고용량 양극의 실용 수명을 늘리려는 연구가 진행됐다.",
       "highlights": [
         {"title": "Manipulating Li2MnO3-Like Domain Dispersion in Lithium-Rich Layered Oxides Inherited from Precursor", "url": "https://doi.org/10.1021/acsenergylett.6c02547", "venue": "ACS Energy Letters"},
         {"title": "Near‐Micron Single‐Crystalline Mn‐Rich Cathodes With Exceptional Cycling Stability", "url": "https://doi.org/10.1002/aenm.71701", "venue": "Advanced Energy Materials"},
@@ -55,10 +56,10 @@
     {
       "topic": "lfp",
       "heading": "LFP/올리빈",
-      "text": "지속가능성과 재활용이 두드러진 방향으로, PVDF/NMP 공정을 대체하는 불소프리 수계 가교 바인더가 LFP 양극에서 유사한 용량과 더 나은 사이클 안정성, 완전한 직접 재생 가능성을 보였다. 또한 LFP를 리튬 호스트·폴리설파이드 억제층으로 활용한 하이브리드 양극이나 NCM/LFP 하이브리드처럼 LFP를 안정화 요소로 결합하는 접근이 함께 제시됐다.",
+      "text": "LFP를 단독보다는 하이브리드 구성요소로 활용하는 흐름이 관찰되는데, 황과 공간 통합한 인터칼레이션-전환 양극에서 LFP가 안정적 리튬 호스트이자 폴리설파이드 셔틀 억제제로 기능했다. 또한 NCM811/LFP 하이브리드 양극에서 단계적 탈리튬화와 계면 전기장 공학으로 가혹 조건의 사이클 안정성을 확보하려는 연구가 제시됐다.",
       "highlights": [
-        {"title": "Fluorine-free polymer binder enables circular manufacturing and recycling of lithium-ion batteries", "url": "https://doi.org/10.1038/s41467-026-78215-3", "venue": "Nature Communications"},
-        {"title": "Spatially Integrated Intercalation–Conversion Hybrid Cathode for Durable, High‐Capacity Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78984", "venue": "Advanced Functional Materials"}
+        {"title": "Spatially Integrated Intercalation–Conversion Hybrid Cathode for Durable, High‐Capacity Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.78984", "venue": "Advanced Functional Materials"},
+        {"title": "Stepwise delithiation and interfacial electric field engineering enabling stable cycling of LiNi0.8Co0.1Mn0.1O2/LiFePO4 hybrid cathode under harsh conditions", "url": "https://doi.org/10.1016/j.ensm.2026.105598", "venue": "Energy storage materials"}
       ]
     }
   ]

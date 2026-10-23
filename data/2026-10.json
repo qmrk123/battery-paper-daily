@@ -1,8 +1,36 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-22T23:57:18+00:00",
-  "count": 197,
+  "generated_at": "2026-10-23T23:47:16+00:00",
+  "count": 201,
   "papers": [
+    {
+      "id": "W7223199636",
+      "source": "openalex",
+      "title": "Water in kimberlitic olivine provides insights into kimberlite ascent and diamond transport",
+      "url": "https://doi.org/10.1038/s41467-026-78870-6",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78870-6",
+      "authors": [
+        "Soumendu Sarkar",
+        "Rondi M. Davies",
+        "Qiwei Zhang",
+        "Luísa D.V. Carvalho",
+        "Thomas Stachel",
+        "David Graham Pearson"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78870-6",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-24",
+      "image": null,
+      "summary_ko": "킴벌라이트 내 감람석에 포함된 수분 함량을 분석하여 킴벌라이트의 상승 과정과 다이아몬드 운반 메커니즘에 대한 통찰을 제공하는 연구로 추정됨. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "W7223181124",
       "source": "openalex",
@@ -102,6 +130,64 @@
       "image": null,
       "summary_ko": "리튬 금속 배터리의 성능을 좌우하는 고체전해질 계면(SEI)을 비파괴적으로 분석하기 위해 각도분해 X선 광전자분광법(ARXPS)을 도입했다. 기존 스퍼터링 기반 깊이분석과 달리 SEI 구조를 손상시키지 않으면서 깊이별 조성 변화를 규명할 수 있음을 보였다. 리튬 도금 전후 SEI 조성 차이와 전해질 종류에 따른 SEI 두께·조성 변화를 확인하여 SEI의 보호 특성과 배터리 성능 간 관계를 제시했다.",
       "relevant": true
+    },
+    {
+      "id": "W7223199418",
+      "source": "openalex",
+      "title": "Decoupling Li + Transport in Self‐Healing Polymer Dual‐Salt Electrolytes for Room Temperature Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.78770",
+      "published": "2026-10-22",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.78770",
+      "authors": [
+        "Soumallya Banerjee",
+        "Yu‐Te Chen",
+        "Chi‐Hsuan Lee",
+        "Atul Dhage",
+        "Zeeshan Alam Ansari",
+        "Chun‐Wei Pao"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Gel polymer electrolytes (GPEs) stand as leading candidates for advancing high‐energy‐density lithium metal batteries toward next‐generation applications. However, the inherent crystallinity of conventional polymer matrices severely limits ionic conductivity (IC) and Li + transference number (t Li + ), while imposing large interfacial resistance and uncontrollable lithium dendrite growth—critical bottlenecks hindering practical room‐temperature application. Herein, we report a dual‐salt incorporation strategy within a self‐curing polymer framework to overcome these challenges. The anion‐anion interactions of the dual‐salt system within the polymer network immobilize the anions, thereby liberating a greater number Li + ions. Additionally, the salt‐polymer interactions alter the polymer energy levels, cooperatively enhancing the IC to 2.23 mS cm −1 and the t Li + to 0.55. The electrolyte sustains stable Li||Li symmetric cycling for over 2000 h. When integrated with a LiFePO 4 cathode, the full cell delivers 133 mAh g 1 at 1C with 75% capacity retention over 700 cycles, while the NMC811||Li cell achieves 135 mAh g −1 , retaining 72% of its initial capacity over 250 cycles. Additionally, the electrolyte exhibits inherent flame retardancy and uniform Li + plating‐stripping, effectively suppressing dendrite penetration. This design strategy provides a viable route to ambient‐temperature, self‐curing GPEs that enhance battery safety and suppress dead lithium.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adfm.78770",
+      "license": "cc-by",
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-24",
+      "image": null,
+      "summary_ko": "자가치유 이중염 겔 고분자 전해질을 통해 상온 리튬 금속 전지의 이온전도도(2.23 mS cm⁻¹)와 Li+ 이동률(0.55)을 동시에 향상시켰다. 음이온-음이온 상호작용으로 음이온을 고정해 더 많은 Li+ 이동을 유도하며, Li||Li 대칭 셀에서 2000시간 이상 안정적 사이클링과 덴드라이트 억제 효과를 보였다. LiFePO4 및 NMC811 전극과의 완전셀 테스트에서도 양호한 용량 유지율을 확인했으며, 전해질 자체의 난연성도 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223198434",
+      "source": "openalex",
+      "title": "An untethered sub-gram flapping-wing flight system achieves sustained self-stabilizing and altitude-controlled flight",
+      "url": "https://doi.org/10.1038/s41467-026-78914-x",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78914-x",
+      "authors": [
+        "Xiang Lu",
+        "Jie Chen",
+        "Yulie Wu",
+        "Yang Chen",
+        "Canhui Yin",
+        "Zixin Deng"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Insect-scale flapping-wing micro aerial vehicles offer substantial potential for applications such as search and rescue. However, stringent power and payload constraints at the sub-gram scale have precluded sustained untethered flight. Inspired by the high lift generated by full-circumferential rotor motion, this study presents a cross-shaped piezoelectric direct-drive V-wing structure. The structure uses a tuning-fork vibration mode to generate full-circumferential flapping, suppressing fuselage vibration without external anchoring and substantially improving the lift performance of the piezoelectric direct-drive flapping-wing micro aerial vehicle. Based on this principle, we developed a cross-shaped four-piezoelectric-actuator V-wing micro aerial vehicle weighing 389 mg with a wingspan of 6.8 cm, capable of generating a maximum lift of 1850 mg. Waveform modulation increases the efficiency of the 173 mg drive circuit to 45%, while mechanical self-stabilization suppresses attitude disturbances. Integrated with a 350 mg battery, the 984 mg system achieves untethered, sustained, stable flight for a sub-gram flapping-wing micro aerial vehicle. The maximum lift-to-weight ratio of the untethered flapping-wing micro aerial vehicle system is 1.88. Its maximum flight altitude exceeds 10 m, and its continuous flight duration under low-power operation exceeds 240 s. The system also demonstrates altitude-controlled and disturbance-resilient untethered flight.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78914-x",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-24",
+      "image": null,
+      "summary_ko": "서브그램급 날개짓 비행체를 위한 압전 직접구동 십자형 V자 날개 구조를 개발해 외부 고정 없이도 자세 안정화와 고도 제어가 가능한 무선 비행을 구현했다. 389mg 무게의 비행체가 최대 1850mg의 양력을 내며, 350mg 배터리를 탑재한 984mg 완성 시스템이 지속적인 무선 비행에 성공했다. 최대 고도 10m 이상, 저전력 운용 시 240초 이상의 비행 지속시간을 달성했다.",
+      "relevant": false
     },
     {
       "id": "W7223176967",
@@ -618,6 +704,36 @@
       "relevant": false
     },
     {
+      "id": "W7222962090",
+      "source": "openalex",
+      "title": "Ultrafast Joule heating drives non-equilibrium Sr segregation toward a stabilizing rock-salt interface in Ni-rich layered cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105599",
+      "published": "2026-10-19",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105599",
+      "authors": [
+        "Shanshan Feng",
+        "Shilin Guo",
+        "Liuyang Yu",
+        "Mingxuan Li",
+        "Ling Zhou",
+        "Qiuxiang Yin"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-24",
+      "image": null,
+      "summary_ko": "초고속 줄 가열을 이용해 니켈 리치 층상 양극재 표면에서 Sr을 비평형적으로 분리시켜 안정화된 암염상 계면을 형성하는 연구로 추정됨. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7222962629",
       "source": "openalex",
       "title": "Symmetry-Broken Coordination of Single-Atom Catalysts Unlocks Spin- and Orbital-Regulated Sulfur Redox in Lithium–Sulfur Batteries",
@@ -820,7 +936,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78624-4/MediaObjects/41467_2026_78624_Fig1_HTML.png",
+        "cached": "img/W7222943082.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78624-4"
+      },
       "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
       "relevant": false
     },

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-22T23:57:18+00:00",
+  "generated_at": "2026-10-23T23:49:38+00:00",
   "count": 18,
   "papers": [
     {
@@ -99,7 +99,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78168-7/MediaObjects/41467_2026_78168_Fig1_HTML.png",
+        "cached": "img/W7223168548.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78168-7"
+      },
       "summary_ko": "리튬 금속 배터리의 성능을 좌우하는 고체전해질 계면(SEI)을 비파괴적으로 분석하기 위해 각도분해 X선 광전자분광법(ARXPS)을 도입했다. 기존 스퍼터링 기반 깊이분석과 달리 SEI 구조를 손상시키지 않으면서 깊이별 조성 변화를 규명할 수 있음을 보였다. 리튬 도금 전후 SEI 조성 차이와 전해질 종류에 따른 SEI 두께·조성 변화를 확인하여 SEI의 보호 특성과 배터리 성능 간 관계를 제시했다.",
       "relevant": true
     },
@@ -164,7 +169,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-78264-8/MediaObjects/41467_2026_78264_Fig1_HTML.png",
+        "cached": "img/W7223125528.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78264-8"
+      },
       "summary_ko": "UV 반응형 접착 테이프를 이용한 변형 공학 기법으로 고밀도의 정렬된 그래핀 나노스크롤(GNS)을 제작하는 방법을 제시했다. 테이프를 늘인 뒤 그래핀을 떼어내는 과정에서 변형이 해소되며 밀도 약 380개/mm, 길이 90μm의 나노스크롤이 형성되고, 테이프 신장 방향으로 스크롤의 chiral angle을 제어할 수 있다. 금속 염화물 삽입을 통한 전기전도도 향상과 그래핀/MoS2 이종 나노스크롤 제작도 함께 보고했다.",
       "relevant": false
     },
@@ -192,7 +202,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78918-7/MediaObjects/41467_2026_78918_Fig1_HTML.png",
+        "cached": "img/W7223135866.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78918-7"
+      },
       "summary_ko": "수계 아연-요오드 전지에서 불안정한 I+ 중간체를 안정화하기 위해 구리 단일원자가 삽입된 질소 도핑 탄소 호스트를 설계했다. Cu-Nx 사이트의 d-p 오비탈 혼성화와 국소 저농도 염소 이온 환경이 I+의 가수분해를 억제하고 4전자 I-/I0/I+ 반응을 가능하게 한다. 이를 통해 1 A/g에서 약 408 mAh/g의 용량과 50,000회 사이클에서 70%의 용량 유지율을 달성했다.",
       "relevant": false
     },
@@ -219,7 +234,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78903-0/MediaObjects/41467_2026_78903_Fig1_HTML.png",
+        "cached": "img/W7223128702.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78903-0"
+      },
       "summary_ko": "렌즈의 connexin-46/50(Cx46/50) 간극연접 채널을 지질 나노디스크에 재구성하여 다중 채널 조립체의 고해상도 구조를 규명했다. 채널 간 계면은 단백질-단백질 접촉이 거의 없고 정렬된 지질이 상호작용을 매개하며, 단일 채널 구조는 1.8Å 해상도로 정제했다. 이를 통해 플라크형 채널 패킹이 간극연접 기능을 조절하는 방식을 제시했다.",
       "relevant": false
     },
@@ -246,7 +266,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78830-0/MediaObjects/41467_2026_78830_Fig1_HTML.png",
+        "cached": "img/W7223115479.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78830-0"
+      },
       "summary_ko": "저농도 인산염(PO4^3-) 제거를 위해 광전지로 구동되는 고체전해질 전기응집(SEE) 시스템을 제안했다. 고체전해질 계면에서 PO4^3-를 농축시켜 물질전달 한계를 극복하고 반응 속도를 높여 0.197 mg/L·min의 제거율과 낮은 에너지·철 소모량을 달성했다. 태양광 연동 보트 탑재형 시스템으로 검증하여 중국 I급 수질 기준 이하로 정화 가능함을 보였다.",
       "relevant": false
     },
