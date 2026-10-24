@@ -1,8 +1,93 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-23T23:47:16+00:00",
-  "count": 201,
+  "generated_at": "2026-10-24T22:59:18+00:00",
+  "count": 207,
   "papers": [
+    {
+      "id": "W7223415891",
+      "source": "openalex",
+      "title": "Asymmetry-induced distinct mechanisms and the transporting role of sodium in bacterial fluoride channel Fluc",
+      "url": "https://doi.org/10.1038/s41467-026-78935-6",
+      "published": "2026-10-24",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78935-6",
+      "authors": [
+        "Fernando Montalvillo Ortega",
+        "K. Mills",
+        "Hedieh Torabifard"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78935-6",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "세균 플루오르화물 채널 Fluc에서 나타나는 비대칭 구조가 나트륨 이온 수송 메커니즘에 미치는 영향을 분석한 생물학적 이온 채널 연구로, 배터리 소재와는 무관하다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7223289526",
+      "source": "openalex",
+      "title": "Weak-Solvating Carboxylate Ester Electrolyte Enables Hybrid Interphase via Cooperative Additives toward Wide-Temperature Sodium Metal Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02612",
+      "published": "2026-10-23",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02612",
+      "authors": [
+        "Guojun Zhu",
+        "Yao Liang",
+        "Chunli Wang",
+        "Jinghan Li",
+        "Ying Wang",
+        "Jianguang Yuan"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Fast Na+ transport and durable interfacial stability remain challenging for wide-temperature Na- metal batteries. To address these issues, we developed a synergistic solvation-interphase regulation strategy by integrating methyl propanoate (MP) with a combined VC/NaDFOB additive pair. MP modifies the Na+ solvation sheath and facilitates Na+ desolvation, while VC and NaDFOB cooperatively generate a mechanically robust hybrid organicinorganic interphase. This coupled regulation enables enhanced ion transport and interfacial stability over a broad temperature range. The EC/EMC/MP + VC/NaDFOB electrolyte exhibits an ionic conductivity of 2.52 mS cm–1 at –40 ̊C and an increased Na+ transference number. Na||Na3V2(PO4)3 cells retain 96.5% of their initial capacity after 1000 cycles with an average Coulombic efficiency of 99.98% at room temperature. At –20 ̊C, the cells deliver 69.4 mAh g–1 for over 900 cycles, corresponding to 82% of their room-temperature capacity. This work establishes a practical solvation-interphase regulation approach for wide-temperature Na- metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "메틸프로피오네이트(MP)와 VC/NaDFOB 첨가제를 결합한 약한 용매화 카르복실산 에스터 전해액을 통해 Na+ 탈용매화를 촉진하고 유무기 혼성 계면을 형성하는 전략을 제시했다. 이 전해액은 -40°C에서 2.52 mS/cm의 이온 전도도를 보이며, Na‖Na3V2(PO4)3 셀은 상온에서 1000사이클 후 96.5%의 용량을 유지하고 -20°C에서도 900사이클 이상 안정적으로 작동했다. 광범위한 온도 범위에서 소듐 금속 전지의 계면 안정성과 이온 수송을 동시에 개선한 사례이다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223404438",
+      "source": "openalex",
+      "title": "Quantifying Sodium Metal SEI Dissolution and Relation to Corrosion Using Quartz Crystal Microbalance",
+      "url": "https://doi.org/10.1021/acsenergylett.6c01766",
+      "published": "2026-10-23",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c01766",
+      "authors": [
+        "Angela Cai",
+        "Philaphon Sayavong",
+        "Qingyang Zhu",
+        "Sarah E. Holmes",
+        "John J. Holoubek",
+        "Huayue Ai"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Sodium-metal batteries present a more abundant alternative to lithium-based batteries, with high theoretical capacity and comparable reduction potential. Ether electrolytes perform well in sodium-metal batteries under continuous cycling and are presumed to have a stable solid-electrolyte interphase (SEI). However, the solubility of sodium SEI components is a cause for concern, and SEI evolution during calendar aging is not commonly studied for the ether sodium-metal system. In this work, SEI mass formation and dissolution are quantitatively measured for NaPF6 in diglyme. For varying potential hold levels, significant SEI dissolution is observed, from 55 to 76% of the originally formed SEI. Characterization shows that in addition to organic component dissolution, inorganic salts such as NaF and NaxPOyFz are unstable in SEI during open circuit rest. This instability results in continuous corrosion of sodium metal during calendar aging, highlighting an important understanding and concern of SEI stability in sodium-metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "수정 결정 미세저울(QCM)을 이용해 에터계 전해질(디글라임 중 NaPF6)에서 형성된 소듐 금속 SEI의 용해 거동을 정량적으로 측정했다. 개방 회로 휴지 중 SEI 질량의 55~76%가 용해되며, NaF 및 NaxPOyFz 등 무기 성분도 불안정하여 소듐 금속의 지속적인 부식을 유발함을 밝혔다. 이는 에터 전해질 기반 소듐 금속 전지의 저장(calendar aging) 안정성에 대한 우려를 제기한다.",
+      "relevant": true
+    },
     {
       "id": "W7223199636",
       "source": "openalex",
@@ -68,6 +153,36 @@
       "relevant": true
     },
     {
+      "id": "W7223300029",
+      "source": "openalex",
+      "title": "Thermodynamic Suppression of Deprotonation in Succinonitrile‐Based Electrolyte for Durable Solid‐State Sodium‐Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79209",
+      "published": "2026-10-22",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.79209",
+      "authors": [
+        "Shangming He",
+        "Mingbao Huang",
+        "Yi Li",
+        "Kai Wan",
+        "Zhiyong Fu",
+        "Zhenxing Liang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Solid‐state sodium‐metal batteries (SSMBs) offer a low‐cost, safe, and high‐energy‐density energy‐storage technology. While succinonitrile (SN) is widely adopted in solid and gel electrolytes for its high dielectric constant, exceptional oxidative stability, and robust cathode compatibility, its practical application is limited by parasitic reactions with Na metal, including deprotonation and polymerization. Herein, we demonstrated a thermodynamic suppression strategy of deprotonation that substantially inhibits parasitic reactions in SN‐based electrolytes for durable SSMBs. By utilizing an acrylonitrile (AN) based polymer as the host framework, we establish an optimized interaction with free SN that thermodynamically disfavors the parasitic decomposition, effectively stabilizing the α‐hydrogens of the methylene groups against deprotonation. The rationally designed electrolyte exhibits high ionic conductivity of 2.17 mS cm −1 and exceptional compatibility with Na metal, enabling stable cycling of Na | Na symmetric cells for 6200 h. Na | Vanadium phosphate sodium full cells retain 95.6% capacity after 5000 cycles at 1.0 C, 93.4% after 10000 cycles at 2.0 C, and pouch cells with an ultra‐high cathode loading of 20 mg cm −2 demonstrate stable performance. This work establishes thermodynamic suppression of deprotonation as a foundational design principle for high‐energy‐density and long‐lifespan SSMBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79209",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "숙시노니트릴(SN) 기반 고체 전해질에서 소듐 금속과의 부반응(탈양성자화 및 중합)을 억제하기 위해 아크릴로니트릴(AN) 기반 고분자 호스트로 자유 SN과의 상호작용을 조절하는 열역학적 억제 전략을 제시했다. 이 전해질은 2.17 mS/cm의 높은 이온 전도도와 우수한 Na 금속 호환성을 보여 Na|Na 대칭 셀이 6200시간 동안 안정적으로 작동했고, Na|인산바나듐소듐 풀셀은 1.0C에서 5000사이클 후 95.6%, 2.0C에서 10000사이클 후 93.4%의 용량을 유지했다. 20 mg/cm² 고로딩 파우치 셀에서도 안정적인 성능을 보여 고에너지밀도 고체 소듐 금속 전지의 설계 원칙을 제시한다.",
+      "relevant": true
+    },
+    {
       "id": "W7223184175",
       "source": "openalex",
       "title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes",
@@ -127,7 +242,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78168-7/MediaObjects/41467_2026_78168_Fig1_HTML.png",
+        "cached": "img/W7223168548.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78168-7"
+      },
       "summary_ko": "리튬 금속 배터리의 성능을 좌우하는 고체전해질 계면(SEI)을 비파괴적으로 분석하기 위해 각도분해 X선 광전자분광법(ARXPS)을 도입했다. 기존 스퍼터링 기반 깊이분석과 달리 SEI 구조를 손상시키지 않으면서 깊이별 조성 변화를 규명할 수 있음을 보였다. 리튬 도금 전후 SEI 조성 차이와 전해질 종류에 따른 SEI 두께·조성 변화를 확인하여 SEI의 보호 특성과 배터리 성능 간 관계를 제시했다.",
       "relevant": true
     },
@@ -256,7 +376,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-78264-8/MediaObjects/41467_2026_78264_Fig1_HTML.png",
+        "cached": "img/W7223125528.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78264-8"
+      },
       "summary_ko": "UV 반응형 접착 테이프를 이용한 변형 공학 기법으로 고밀도의 정렬된 그래핀 나노스크롤(GNS)을 제작하는 방법을 제시했다. 테이프를 늘인 뒤 그래핀을 떼어내는 과정에서 변형이 해소되며 밀도 약 380개/mm, 길이 90μm의 나노스크롤이 형성되고, 테이프 신장 방향으로 스크롤의 chiral angle을 제어할 수 있다. 금속 염화물 삽입을 통한 전기전도도 향상과 그래핀/MoS2 이종 나노스크롤 제작도 함께 보고했다.",
       "relevant": false
     },
@@ -284,7 +409,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78918-7/MediaObjects/41467_2026_78918_Fig1_HTML.png",
+        "cached": "img/W7223135866.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78918-7"
+      },
       "summary_ko": "수계 아연-요오드 전지에서 불안정한 I+ 중간체를 안정화하기 위해 구리 단일원자가 삽입된 질소 도핑 탄소 호스트를 설계했다. Cu-Nx 사이트의 d-p 오비탈 혼성화와 국소 저농도 염소 이온 환경이 I+의 가수분해를 억제하고 4전자 I-/I0/I+ 반응을 가능하게 한다. 이를 통해 1 A/g에서 약 408 mAh/g의 용량과 50,000회 사이클에서 70%의 용량 유지율을 달성했다.",
       "relevant": false
     },
@@ -311,7 +441,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78903-0/MediaObjects/41467_2026_78903_Fig1_HTML.png",
+        "cached": "img/W7223128702.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78903-0"
+      },
       "summary_ko": "렌즈의 connexin-46/50(Cx46/50) 간극연접 채널을 지질 나노디스크에 재구성하여 다중 채널 조립체의 고해상도 구조를 규명했다. 채널 간 계면은 단백질-단백질 접촉이 거의 없고 정렬된 지질이 상호작용을 매개하며, 단일 채널 구조는 1.8Å 해상도로 정제했다. 이를 통해 플라크형 채널 패킹이 간극연접 기능을 조절하는 방식을 제시했다.",
       "relevant": false
     },
@@ -338,7 +473,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-23",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78830-0/MediaObjects/41467_2026_78830_Fig1_HTML.png",
+        "cached": "img/W7223115479.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78830-0"
+      },
       "summary_ko": "저농도 인산염(PO4^3-) 제거를 위해 광전지로 구동되는 고체전해질 전기응집(SEE) 시스템을 제안했다. 고체전해질 계면에서 PO4^3-를 농축시켜 물질전달 한계를 극복하고 반응 속도를 높여 0.197 mg/L·min의 제거율과 낮은 에너지·철 소모량을 달성했다. 태양광 연동 보트 탑재형 시스템으로 검증하여 중국 I급 수질 기준 이하로 정화 가능함을 보였다.",
       "relevant": false
     },
@@ -572,6 +712,36 @@
       "first_seen": "2026-10-22",
       "image": null,
       "summary_ko": "리튬 금속 전지용 국부 고농도 전해질에서 Li+와 직접 배위하지 않으면서도 주용매와 혼화성을 유지하는 희석제를 설계하기 위해 BF3 친화도와 분자극성지수(MPI)라는 두 가지 물리 기반 디스크립터를 제안했다. 이를 불소를 포함하지 않는 132만 개 분자에 대한 불확실성 인식 머신러닝 스크리닝에 적용하여 368개의 유망 희석제 후보를 도출했다. 새로 선별된 방향족 탄화수소(1,2,4-트리메틸벤젠, 2-에틸톨루엔 등)는 리튬 금속 완전셀에서 200사이클 이상 안정적으로 구동된 반면, 디스크립터 기준에서 배제된 유사 분자는 급격한 용량 저하를 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222999904",
+      "source": "openalex",
+      "title": "Localized cationic clustering as an atomic-scale descriptor for understanding and mitigating high-voltage instability in Ni-rich layered oxide cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105604",
+      "published": "2026-10-20",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105604",
+      "authors": [
+        "Kang Wu",
+        "Changyuan Li",
+        "Zhigang Zhang",
+        "Ping Miao",
+        "Junrong Zhang",
+        "Fangwei Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "Ni-rich 층상 산화물 양극재의 고전압 불안정성을 국부적 양이온 클러스터링이라는 원자 수준 디스크립터로 이해하고 완화하는 방안을 다룬 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -949,6 +1119,33 @@
         "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78624-4"
       },
       "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222917188",
+      "source": "openalex",
+      "title": "A holistic direct regeneration strategy for Ni-rich ternary cathode scraps: Linking stage-specific descriptors to electrochemical restoration",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112507",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112507",
+      "authors": [
+        "Heekyung Jang",
+        "Jihyeon Bae",
+        "Jaeeun Lee",
+        "Junghwan Kim",
+        "Eilhann E. Kwon"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-25",
+      "image": null,
+      "summary_ko": "Ni-rich 삼원계 양극 스크랩에 대한 직접 재생(리사이클링) 전략을 단계별 디스크립터와 전기화학적 복원 성능에 연계한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
     {

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-23T23:47:16+00:00",
+  "generated_at": "2026-10-24T23:01:40+00:00",
   "count": 4,
   "papers": [
     {
@@ -27,7 +27,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78870-6/MediaObjects/41467_2026_78870_Fig1_HTML.png",
+        "cached": "img/W7223199636.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78870-6"
+      },
       "summary_ko": "킴벌라이트 내 감람석에 포함된 수분 함량을 분석하여 킴벌라이트의 상승 과정과 다이아몬드 운반 메커니즘에 대한 통찰을 제공하는 연구로 추정됨. (제목 기반 추정)",
       "relevant": false
     },
@@ -91,7 +96,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-24",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78914-x/MediaObjects/41467_2026_78914_Fig1_HTML.png",
+        "cached": "img/W7223198434.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78914-x"
+      },
       "summary_ko": "서브그램급 날개짓 비행체를 위한 압전 직접구동 십자형 V자 날개 구조를 개발해 외부 고정 없이도 자세 안정화와 고도 제어가 가능한 무선 비행을 구현했다. 389mg 무게의 비행체가 최대 1850mg의 양력을 내며, 350mg 배터리를 탑재한 984mg 완성 시스템이 지속적인 무선 비행에 성공했다. 최대 고도 10m 이상, 저전력 운용 시 240초 이상의 비행 지속시간을 달성했다.",
       "relevant": false
     },
