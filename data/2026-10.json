@@ -157,7 +157,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78770",
+        "cached": "img/W7223199418.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78770"
+      },
       "summary_ko": "자가치유 이중염 겔 고분자 전해질을 통해 상온 리튬 금속 전지의 이온전도도(2.23 mS cm⁻¹)와 Li+ 이동률(0.55)을 동시에 향상시켰다. 음이온-음이온 상호작용으로 음이온을 고정해 더 많은 Li+ 이동을 유도하며, Li||Li 대칭 셀에서 2000시간 이상 안정적 사이클링과 덴드라이트 억제 효과를 보였다. LiFePO4 및 NMC811 전극과의 완전셀 테스트에서도 양호한 용량 유지율을 확인했으며, 전해질 자체의 난연성도 구현했다.",
       "relevant": true
     },
