@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-24T22:59:18+00:00",
+  "generated_at": "2026-10-25T23:07:23+00:00",
   "count": 6,
   "papers": [
     {
@@ -24,7 +24,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-25",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78935-6/MediaObjects/41467_2026_78935_Fig1_HTML.png",
+        "cached": "img/W7223415891.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78935-6"
+      },
       "summary_ko": "세균 플루오르화물 채널 Fluc에서 나타나는 비대칭 구조가 나트륨 이온 수송 메커니즘에 미치는 영향을 분석한 생물학적 이온 채널 연구로, 배터리 소재와는 무관하다. (제목 기반 추정)",
       "relevant": false
     },
