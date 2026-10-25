@@ -114,7 +114,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79209",
+        "cached": "img/W7223300029.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79209"
+      },
       "summary_ko": "숙시노니트릴(SN) 기반 고체 전해질에서 소듐 금속과의 부반응(탈양성자화 및 중합)을 억제하기 위해 아크릴로니트릴(AN) 기반 고분자 호스트로 자유 SN과의 상호작용을 조절하는 열역학적 억제 전략을 제시했다. 이 전해질은 2.17 mS/cm의 높은 이온 전도도와 우수한 Na 금속 호환성을 보여 Na|Na 대칭 셀이 6200시간 동안 안정적으로 작동했고, Na|인산바나듐소듐 풀셀은 1.0C에서 5000사이클 후 95.6%, 2.0C에서 10000사이클 후 93.4%의 용량을 유지했다. 20 mg/cm² 고로딩 파우치 셀에서도 안정적인 성능을 보여 고에너지밀도 고체 소듐 금속 전지의 설계 원칙을 제시한다.",
       "relevant": true
     },
