@@ -29,7 +29,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78441",
+        "cached": "img/W7223550024.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78441"
+      },
       "summary_ko": "Co, Fe 기반 층상이중수산화물(LDH)에 전자구조 조절이 가능한 원자 수준의 Ce를 담지하여 셀프탠덤 촉매(EAAC@D-LDH)를 구현, 리튬-황 전지의 Li+ 탈솔베이션과 황종 전환 반응을 가속화했다. 이 촉매는 0~-30°C의 광범위한 온도 영역에서 황 양극의 반응속도론을 개선하여, -20°C·0.1C에서 85%, 5C에서 94%의 용량 유지율을 달성했다. -30°C의 극저온에서도 안정적인 용량이 유지됨을 입증했다.",
       "relevant": true
     },
