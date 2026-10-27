@@ -935,6 +935,10 @@
   "metric": 1.7,
   "name": "Procedia CIRP"
  },
+ "S2898578437": {
+  "metric": 6.34,
+  "name": "FlatChem"
+ },
  "S2898583927": {
   "metric": 3.13,
   "name": "Computational Condensed Matter"

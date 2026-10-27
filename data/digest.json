@@ -1,32 +1,32 @@
 {
-  "title": "최근 2주 논문 브리핑 (10/14–10/24)",
-  "range": "2026-10-14 ~ 2026-10-24",
-  "overall": "금속 음극(Li·Na)에서는 전해질 솔베이션 구조와 계면층(SEI/CEI) 설계를 통한 균일 증착·장기 안정성 확보가 주류를 이루었고, 층상 양극(NCM·Li-rich)에서는 산소 redox 및 고전압 구조 열화를 원자 수준 디스크립터와 계면 공학으로 제어하려는 흐름이 두드러진다.",
+  "title": "최근 2주 논문 브리핑 (10/14–10/25)",
+  "range": "2026-10-14 ~ 2026-10-25",
+  "overall": "리튬 금속 음극에서는 계면(SEI/CEI) 화학 설계와 전해질 솔베이션 조절이 주류를 이루며, 고전압 Ni-rich 양극과 Li-rich 양극에서는 산소 redox 제어와 구조 안정화가 핵심 과제로 부각되었다. 소듐 금속 및 황·CO2 양극 등 비주류 화학에서도 계면·촉매 공학을 통한 저온·장수명 성능 향상이 활발히 보고되었다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "리튬 금속 음극 연구는 균일 증착과 안정적 계면(SEI) 형성을 위한 전해질·첨가제·고체전해질 설계가 핵심 축을 이룬다. 솔베이션 구조를 조절해 LiF·Li3N이 풍부한 무기질 SEI를 유도하는 첨가제(크라운에테르, 유기규산염 염)와 희석제 머신러닝 스크리닝 등 분자 설계 접근이 두드러지며, 가교 고분자·PEO·폴리이온성 액체·염화물 고체전해질을 통한 저온·장수명·캘린더 수명 개선도 활발하다. 구리 집전체 결정립계 제어나 폐 LiFePO4 리튬의 업사이클 등 무음극·지속가능성 관점의 공정 연구도 함께 제시되었다.",
+      "text": "이번 기간 리튬 금속 연구는 안정한 계면(SEI) 형성에 집중되었으며, 전해질 첨가제·염 설계(리튬 유기규산염, 니트로벤조 크라운 에테르, 이중음이온, 불소프리 염화 Hückel형 염)와 솔베이션 구조 조절을 통해 LiF·Li3N 풍부 무기 계면을 유도하는 접근이 두드러졌다. 고체·준고체 전해질 쪽에서는 폴리(이온성 액체), PEO, MOF, 염화물 전해질의 저온·고전압 적합성과 음이온 포집·전자 국소화 전략이 부각되었다. 또한 ARXPS 비파괴 깊이분석과 결정립계 기반 증착 균일성 규명 등 분석·기전 연구, 머신러닝 기반 희석제 설계, 폐 LFP 리튬 업사이클링 같은 지속가능성·수명(calendar life) 관점의 확장도 관찰된다.",
       "highlights": [
-        {"title": "Physically Grounded Descriptors for Machine-Learning-Guided Diluent Design in Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c16379", "venue": "Journal of the American Chemical Society"},
+        {"title": "Nonflammable sulfamoyl–carbonate hybrid electrolyte for high-voltage lithium batteries via preemptive passivation", "url": "https://doi.org/10.1038/s41467-026-78701-8", "venue": "Nature Communications"},
         {"title": "Durable Interphase Incorporating Cross‐Linked Polymer Enables Long‐Calendar‐Life Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.75435", "venue": "Advanced Materials"},
-        {"title": "Grain Boundary Character Governs Lithium Deposition Uniformity on Polycrystalline Copper", "url": "https://doi.org/10.1021/acsenergylett.6c02640", "venue": "ACS Energy Letters"}
+        {"title": "Physically Grounded Descriptors for Machine-Learning-Guided Diluent Design in Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c16379", "venue": "Journal of the American Chemical Society"}
       ]
     },
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고니켈 NCM 양극 연구는 고전압 구동 시 산소 방출, 양이온 혼합, 전이금속 용출로 인한 계면·구조 열화 억제에 집중된다. Nb-O-Cl 옥시할라이드 계면, Sr 비평형 암염상 분리, MOF 준고체 전해질 등 Ni-O 전자구조를 재구성하거나 입자 수준 전해질 환경을 재설계하는 계면 공학이 활발하며, 국부 양이온 클러스터링을 고전압 불안정성의 원자 수준 디스크립터로 제시하는 메커니즘 연구도 등장했다. 아울러 탄산리튬 전구체 결함 치유처럼 비용 절감을 겨냥한 공정 최적화도 함께 다뤄졌다.",
+      "text": "고전압·고Ni(Ni-rich) 양극의 격자 산소 방출과 계면 열화를 억제하는 연구가 중심을 이루었다. Nb-O-Cl 옥시할라이드 계면, MOF 전해질, 고분자 전해질의 선택적 계면 커플링 등 계면 재구성 전략으로 4.5~4.8V 고전압 구동과 >500 Wh/kg 파우치셀 성능을 추구했다. 아울러 국부적 양이온 클러스터링·초고속 줄 가열에 의한 Sr 편석 등 원자 수준 디스크립터와 비평형 계면 공학, 그리고 저가 탄산리튬 전구체의 결함 치유 같은 비용 절감 접근도 보고되었다.",
       "highlights": [
+        {"title": "Selective Interfacial Coupling in Polymer Electrolytes Stabilizes High‐Voltage Ni‐Rich Cathodes for > 500 Wh Kg −1 Lithium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71712", "venue": "Advanced Energy Materials"},
         {"title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes", "url": "https://doi.org/10.1002/aenm.71729", "venue": "Advanced Energy Materials"},
-        {"title": "Localized cationic clustering as an atomic-scale descriptor for understanding and mitigating high-voltage instability in Ni-rich layered oxide cathodes", "url": "https://doi.org/10.1016/j.ensm.2026.105604", "venue": "Energy storage materials"},
-        {"title": "Selective Interfacial Coupling in Polymer Electrolytes Stabilizes High‐Voltage Ni‐Rich Cathodes for > 500 Wh Kg −1 Lithium Metal Batteries", "url": "https://doi.org/10.1002/aenm.71712", "venue": "Advanced Energy Materials"}
+        {"title": "Tracing and Healing Multiscale Defects for Cost‐Effective Lithium Carbonate‐Derived Layered Oxide Cathodes", "url": "https://doi.org/10.1002/aenm.71727", "venue": "Advanced Energy Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 음극 분야는 광범위·저온 구동을 위한 전해질 솔베이션 조절과 계면(SEI) 안정화가 핵심 주제다. 약한 용매화 카르복실산 에스터 전해액, Sn(OTf)2 기반 음이온-양이온 동시 조절, 숙시노니트릴 고체전해질의 탈양성자화 억제 등 탈용매화 장벽을 낮추고 유무기 혼성·합금형 계면을 형성하는 전략이 수천 시간·수천 사이클 수준의 내구성을 보였다. 한편 QCM을 활용한 에터계 SEI 용해·부식 정량화 연구는 저장 안정성 측면의 새로운 문제를 제기한다.",
+      "text": "소듐 금속 전지는 저온·광온도 구동과 계면 안정성 확보가 핵심 주제였다. 약한 용매화 전해질과 음이온-양이온 동시 조절(Sn(OTf)2) 전략으로 Na+ 탈용매화 장벽을 낮추고 합금·유무기 혼성 SEI를 형성해 -20~-50°C에서도 장수명을 구현했다. 고체 전해질에서는 숙시노니트릴의 탈양성자화 억제로 1만 사이클급 안정성을 달성했으며, QCM을 통한 SEI 용해·부식 정량화는 에터 전해질의 저장 안정성 문제를 새롭게 제기했다.",
       "highlights": [
         {"title": "Thermodynamic Suppression of Deprotonation in Succinonitrile‐Based Electrolyte for Durable Solid‐State Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/adfm.79209", "venue": "Advanced Functional Materials"},
         {"title": "Anion‐Cation Targeted Regulation Enables Ultrafast and Stable Sodium Metal Batteries at Low Temperatures", "url": "https://doi.org/10.1002/anie.6809424", "venue": "Angewandte Chemie International Edition"},
@@ -36,21 +36,21 @@
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉·망간계 양극 연구는 산소 redox 가역성 확보와 전압 감쇠 억제를 위한 Li2MnO3 도메인·전자구조 제어에 집중된다. 산소 결함 사전 유도로 리간드-홀 특성을 조절하거나, 전구체 전이금속 분리도로 Li2MnO3 도메인 분산을 템플레이팅하고, 미량 인(P)의 site-선택적 치환으로 활성화를 안정화하는 등 합성·조성 수준의 접근이 두드러진다. 또한 단결정 DRX 구조나 분리막·전해질 조합 최적화를 통해 고에너지밀도와 장기 사이클 안정성을 동시에 겨냥하는 연구도 제시되었다.",
+      "text": "리튬 과잉 양극 연구는 산소 redox의 가역성 확보와 전압 감쇠 억제라는 공통 과제에 집중되었다. 산소 결함 유도로 리간드-홀 특성을 조절하거나, 전구체의 전이금속 분리도로 Li2MnO3 유사 도메인의 분산을 제어하고, 미량 인(P)의 자리 선택적 치환으로 활성화를 안정화하는 등 전자구조·국소 질서 제어가 두드러졌다. Co-free Mn-rich 조성에서는 단결정 DRX 구조와 분리막·전해질 상호작용 설계로 고에너지밀도와 장수명을 동시에 추구했다.",
       "highlights": [
         {"title": "Vacancy-Induced Ligand-Hole Character Redirects Oxygen Redox in Li-Rich Layered Oxides", "url": "https://doi.org/10.1021/jacs.6c17588", "venue": "Journal of the American Chemical Society"},
         {"title": "Manipulating Li2MnO3-Like Domain Dispersion in Lithium-Rich Layered Oxides Inherited from Precursor", "url": "https://doi.org/10.1021/acsenergylett.6c02547", "venue": "ACS Energy Letters"},
-        {"title": "Site‐Preferential Trace Phosphorus Substitution Accelerates and Stabilizes the Activation of Lithium‐Rich Cathode Materials", "url": "https://doi.org/10.1002/adfm.79125", "venue": "Advanced Functional Materials"}
+        {"title": "Near‐Micron Single‐Crystalline Mn‐Rich Cathodes With Exceptional Cycling Stability", "url": "https://doi.org/10.1002/aenm.71701", "venue": "Advanced Energy Materials"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "기타 양극 분야는 리튬-황 및 Li-CO2 전지의 전환 반응 촉매·바인더 설계가 주를 이룬다. 비대칭 배위 단일원자 촉매로 스핀·궤도 상태를 조절해 황 환원반응을 가속하거나, Cu 클러스터-단일원자 공동 고정으로 Li-CO2 반응 경로를 최적화하는 등 활성점의 전자구조 제어가 핵심이다. 아울러 감마선으로 바인더의 가교 네트워크를 정밀 제어해 황 양극의 부피 변화 완화와 장기 안정성을 확보하는 공정 접근도 제시되었다.",
+      "text": "비주류 양극 화학에서는 Li-S 및 Li-CO2 전지의 반응 속도론을 촉매·바인더 공학으로 개선하는 연구가 주를 이루었다. 단일원자·원자클러스터 촉매(Ce 담지 LDH, 비대칭 Cl-Co-N3, Cu 이중활성점)의 스핀·궤도·전하이동 조절로 황 전환 및 탄산염 중간체 활성화를 가속했고, 감마선 제어 가교 바인더로 황 양극의 부피 변화를 완화했다. 광온도 구동과 고용량·장수명 파우치셀 실증이 공통적으로 강조되었다.",
       "highlights": [
         {"title": "Symmetry-Broken Coordination of Single-Atom Catalysts Unlocks Spin- and Orbital-Regulated Sulfur Redox in Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c17922", "venue": "Journal of the American Chemical Society"},
         {"title": "An integrated cathode-electrolyte architecture with Cu dual active-sites for all-solid-state Li–CO2 batteries", "url": "https://doi.org/10.1038/s41467-026-78929-4", "venue": "Nature Communications"},
-        {"title": "γ‐Ray Controlled Topological Evolution of Binders for Stable and Activated Li─S Battery Cathodes", "url": "https://doi.org/10.1002/adfm.79058", "venue": "Advanced Functional Materials"}
+        {"title": "Cascade Desolvation and Conversion Reaction Driven by Self‐Tandem Catalysis for Wide‐Temperature Li‐S Batteries", "url": "https://doi.org/10.1002/advs.78441", "venue": "Advanced Science"}
       ]
     }
   ]

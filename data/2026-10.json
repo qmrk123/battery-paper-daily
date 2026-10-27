@@ -1,8 +1,66 @@
 {
   "date": "2026-10",
-  "generated_at": "2026-10-25T23:05:22+00:00",
-  "count": 216,
+  "generated_at": "2026-10-27T00:17:01+00:00",
+  "count": 218,
   "papers": [
+    {
+      "id": "W7223550024",
+      "source": "openalex",
+      "title": "Cascade Desolvation and Conversion Reaction Driven by Self‐Tandem Catalysis for Wide‐Temperature Li‐S Batteries",
+      "url": "https://doi.org/10.1002/advs.78441",
+      "published": "2026-10-25",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/advs.78441",
+      "authors": [
+        "Jing Zhang",
+        "Shikai Yin",
+        "Mannan Yang",
+        "Hui Li",
+        "Caiyin You",
+        "Na Tian"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Dissatisfactory electrochemical performance of wide‐temperature lithium‐sulfur batteries (LSBs) originates from the sluggish Li + desolvation and successive sulfur specie conversion kinetics at the interface and within the cathode interior. Herein, different from electrolyte engineering, a self‐tandem catalysis enabled cascade reactions is developed to drive Li + kinetics and associated polysulfide conversions in wide‐temperature LSBs. By incorporating electron‐adjustable atom‐level Ce as the self‐tandem catalyst onto defect‐rich Co, Fe‐based layered double hydroxides (EAAC@D‐LDH), a favorable solvation microenvironment is established to decrease the related barriers toward promoting rapid Li + desolvation, sulfur conversion, and Li 2 S delithiation kinetics, as revealed in Raman analysis, electrochemical evaluations, and ex‐situ interfacial morphology as well as composition characterization. Such improved reaction kinetics enable the sulfur cathodes work well in a wide temperature ranging from 0 to ‐30°C, and it retains high‐capacity retention of 94% at 5C. Under ‐20°C, the cells remain the capacity of 85% at 0.1C, respectively. Remarkably, a stable capacity is reserved even at an ultralow temperature of ‐30°C, demonstrating that the substantial promise of this self‐tandem catalysis supports cascade reaction refinement strategy toward high performance wide‐temperature LSBs.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78441",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-10-27",
+      "image": null,
+      "summary_ko": "Co, Fe 기반 층상이중수산화물(LDH)에 전자구조 조절이 가능한 원자 수준의 Ce를 담지하여 셀프탠덤 촉매(EAAC@D-LDH)를 구현, 리튬-황 전지의 Li+ 탈솔베이션과 황종 전환 반응을 가속화했다. 이 촉매는 0~-30°C의 광범위한 온도 영역에서 황 양극의 반응속도론을 개선하여, -20°C·0.1C에서 85%, 5C에서 94%의 용량 유지율을 달성했다. -30°C의 극저온에서도 안정적인 용량이 유지됨을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223563310",
+      "source": "openalex",
+      "title": "A multi-functionally integrated modular catalyst for efficient chemoselective hydrogenation",
+      "url": "https://doi.org/10.1038/s41467-026-79017-3",
+      "published": "2026-10-25",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79017-3",
+      "authors": [
+        "Yu Pan",
+        "Yingtian Zhang",
+        "Qingpeng Cheng",
+        "Qicheng Zhang",
+        "Yajie Cao",
+        "Wenyu Xiang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Chemoselective hydrogenation of nitroarenes containing multiple reducible groups remains challenging due to the intrinsic activity–selectivity trade-off of conventional metal catalysts. Here we report a multi-functional Pt-based catalyst, modularly integrating molecular-sieving feedstock separation, hydrogen activation, intermediate transport and surface reaction like a nanofactory. Structurally, ~3 nm Pt nanoparticles supported on sodium titanate are encapsulated by oxygen vacancies-enriched TiOx overlayers that only permit hydrogen to adsorb on Pt particles for dissociation while preventing substrate contact. The generated active hydrogen species subsequently migrate to the catalyst surface and hydrogenate nitro groups adsorbed on surface Lewis basic oxygen vacancies, enabling an efficient condensation pathway while avoiding the use of corrosive and environmentally unfriendly alkaline solvents. The spatially decoupled yet functionally synergistic catalytic design achieves 90% 3-vinylaniline yield from 3-nitrostyrene under mild conditions with an unprecedented turnover frequency of 83,200 h−1, exceeding all previously reported metal catalysts, and exhibits broad generality toward diverse substituted nitroarenes. Collectively, these findings provide a powerful catalyst design strategy for steering complex reaction networks via spatially modular catalysis. Chemoselective hydrogenation of nitroarenes containing multiple reducible functional groups remains challenging because of the inherent activity–selectivity trade-off of conventional metal catalysts. Here, the authors report a multifunctional Pt-based catalyst that integrates molecular-sieving feedstock separation, hydrogen activation, intermediate transport, and surface reactions within a single catalytic system, enabling efficient chemoselective hydrogenation.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-79017-3_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-27",
+      "image": null,
+      "summary_ko": "나트륨 티타네이트에 담지된 3nm 백금 나노입자를 산소 결손이 풍부한 TiOx 층으로 캡슐화하여, 수소만 선택적으로 흡착·해리시키고 기질과의 직접 접촉을 막는 다기능 모듈형 촉매를 개발했다. 이 구조는 분자 분리, 수소 활성화, 중간체 이동, 표면 반응을 나노공장처럼 공간적으로 분리하여 니트로아렌의 화학선택적 수소화를 구현한다. 3-니트로스티렌으로부터 90% 수율로 3-비닐아닐린을 얻었으며, 기존 금속 촉매를 능가하는 83,200 h⁻¹의 전환빈도(TOF)를 달성했다.",
+      "relevant": false
+    },
     {
       "id": "W7223472284",
       "source": "openalex",
@@ -182,7 +240,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-10-25",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78935-6/MediaObjects/41467_2026_78935_Fig1_HTML.png",
+        "cached": "img/W7223415891.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78935-6"
+      },
       "summary_ko": "세균 플루오르화물 채널 Fluc에서 나타나는 비대칭 구조가 나트륨 이온 수송 메커니즘에 미치는 영향을 분석한 생물학적 이온 채널 연구로, 배터리 소재와는 무관하다. (제목 기반 추정)",
       "relevant": false
     },
