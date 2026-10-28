@@ -85,7 +85,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-28",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79298",
+        "cached": "img/W7223656446.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79298"
+      },
       "summary_ko": "전기방사와 금속-유기 골격체(MOF)의 현장 성장을 결합해 리튬 금속 음극용 다기능 난연성 인공 보호막을 설계함. MOF 나노입자의 균일한 Li+ 플럭스 유도로 덴드라이트 성장을 억제하고 사이클 안정성을 개선하며, 열폭주 시 발생하는 유해 CO 가스를 CO2로 전환하고 발화 시간을 크게 연장시켜 리튬 금속 전지의 안전성을 동시에 확보함.",
       "relevant": true
     },
