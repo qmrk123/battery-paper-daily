@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T00:20:29+00:00",
+  "count": 4,
+  "papers": [
+    {
+      "id": "W7223659233",
+      "source": "openalex",
+      "title": "Li-associated cation redistribution and structural reversibility in honeycomb-ordered sodium ruthenates",
+      "url": "https://doi.org/10.1016/j.mattod.2026.103538",
+      "published": "2026-10-26",
+      "topics": [],
+      "doi": "10.1016/j.mattod.2026.103538",
+      "authors": [
+        "Eun-Kyu Han",
+        "Konstantin Köster",
+        "Jun-Ho Yu",
+        "Natalia Voronina",
+        "Koji Yazawa",
+        "A‐Yeon Kim"
+      ],
+      "venue": "Materials Today",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S63322718",
+      "journal_metric": 13.18,
+      "first_seen": "2026-10-28",
+      "image": null,
+      "summary_ko": "허니콤 배열 소듐 루테네이트에서 리튬 관련 양이온 재배열과 구조적 가역성을 다룬 연구로 보임. 제목만으로는 배터리 전극 응용과의 직접적 연관성이 명확하지 않은 구조화학 연구로 판단됨 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
+      "id": "W7223651403",
+      "source": "openalex",
+      "title": "Dynamically adaptive soft bioelectronics for neuro-immunomodulatory cancer therapy",
+      "url": "https://doi.org/10.1038/s41467-026-79002-w",
+      "published": "2026-10-26",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79002-w",
+      "authors": [
+        "Wenliang Liu",
+        "Jingjie Liu",
+        "Renyuan Sun",
+        "Ming Yang",
+        "Dingke Zhang",
+        "Kun Yang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Many solid tumors remain refractory to immunotherapy due to profoundly immunosuppressive tumor microenvironments. Although vagus nerve stimulation offers a direct neural axis to reprogram immune function, its potential in cancer immunotherapy remains unrealized due to the absence of stable, system-level neuromodulation platforms. Herein, we develop a miniature subdiaphragmatic vagus nerve stimulator (SVNS) for near-organ neuromodulation of pancreatic tumor immunity. To construct stable electrical coupling with subdiaphragmatic vagus nerve (SVN) along the esophagus, a dynamically adaptive neural interface comprising an injectable anti-fatigue adhesive conductive hydrogel and a deformable liquid metal electrode is explored. The SVNS is integrated with a battery-free lead-free wireless power module, which can be configured into a Swiss-roll architecture, enabling minimally invasive implantation. In an orthotopic mouse model of pancreatic tumor, chronic SVN stimulation using SVNS suppressed tumor growth and metastasis, reshaped tumor innervation, promoted a shift toward an M1-like TAM phenotype, enhanced cytotoxic immune cell infiltration, and further potentiated the efficacy of anti-PD-1 immunotherapy.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79002-w",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-10-28",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79002-w/MediaObjects/41467_2026_79002_Fig1_HTML.png",
+        "cached": "img/W7223651403.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79002-w"
+      },
+      "summary_ko": "미주신경 자극을 통한 췌장암 면역치료를 위한 동적 적응형 소프트 생체전자소자에 관한 연구. 전도성 하이드로젤과 액체금속 전극, 무전지 무선 전력 모듈을 결합해 종양 미세환경을 재프로그래밍하는 내용으로, 배터리 소재/전기화학과는 무관함.",
+      "relevant": false
+    },
+    {
+      "id": "W7223656446",
+      "source": "openalex",
+      "title": "Flame Retardant Lithium Composites With Synergistic Suppression of Lithium Dendrites and Smoke Toxicity for High Safe Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79298",
+      "published": "2026-10-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.79298",
+      "authors": [
+        "Xi Chen",
+        "Yisha Wang",
+        "Liu Yang",
+        "Haoteng Sun",
+        "Xiaoyi Zhang",
+        "Mingyu Ou"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) are regarded as the promising next‑generation high energy density storage, but their commercialization is hindered by uncontrolled Li dendrite growth and the persistent risk of thermal runaway. Herein, a multifunctional artificial interface membrane is designed through electrospinning combined with in situ metal‐organic framework (MOF) growth, aiming to construct a highly safe lithium metal anode. The uniformly dispersed MOF nanoparticles in the membrane generate uniform Li + flux through their inherent cage window structure, effectively inhibiting excessive Li dendrite formation and thereby stabilizing the lithium metal anode with improved cycling stability. Notably, the membrane exhibits strong adsorption and catalytic ability for hazardous CO gases released during thermal runaway, enabling valid conversion of CO to CO 2 . Importantly, the ignition time of the as‐prepared Li metal composite anode is significantly prolonged, providing a valuable time window for battery fire accident response and personnel rescue. This work demonstrates a multifunctionally flame retardant interface protective layer design method through integrated interfacial and rational material structure engineering. It leads to a new strategy for synergistic suppression of Li dendrites and smoke toxicity in future safe LMBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79298",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-10-28",
+      "image": null,
+      "summary_ko": "전기방사와 금속-유기 골격체(MOF)의 현장 성장을 결합해 리튬 금속 음극용 다기능 난연성 인공 보호막을 설계함. MOF 나노입자의 균일한 Li+ 플럭스 유도로 덴드라이트 성장을 억제하고 사이클 안정성을 개선하며, 열폭주 시 발생하는 유해 CO 가스를 CO2로 전환하고 발화 시간을 크게 연장시켜 리튬 금속 전지의 안전성을 동시에 확보함.",
+      "relevant": true
+    },
+    {
+      "id": "W7223128709",
+      "source": "openalex",
+      "title": "Printed Mg-air batteries activated by biofluids for fully integrated wireless multimodal wearable health monitoring",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112521",
+      "published": "2026-10-21",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112521",
+      "authors": [
+        "Feiyue Fang",
+        "Zhenghan Shi",
+        "Lijun Tang",
+        "Yuhang Tian",
+        "Li Li",
+        "Feiying Yu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-10-28",
+      "image": null,
+      "summary_ko": "체액으로 활성화되는 인쇄형 Mg-air 배터리를 이용한 완전 통합형 무선 다중모드 웨어러블 헬스 모니터링 시스템에 관한 연구로 추정됨. 마그네슘-공기 전지 기반으로, 리튬/소듐 금속이나 리튬계 양극재와는 무관함 (제목 기반 추정).",
+      "relevant": false
+    }
+  ]
+}
