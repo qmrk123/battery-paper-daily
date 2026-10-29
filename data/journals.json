@@ -67,6 +67,10 @@
   "metric": 3.97,
   "name": "Journal of Material Cycles and Waste Management"
  },
+ "S111927887": {
+  "metric": 2.95,
+  "name": "Journal of Physics D Applied Physics"
+ },
  "S111985066": {
   "metric": 3.46,
   "name": "Journal of Applied Electrochemistry"
@@ -418,6 +422,10 @@
  "S181332294": {
   "metric": 3.46,
   "name": "Physical Chemistry Chemical Physics"
+ },
+ "S181847678": {
+  "metric": 1.31,
+  "name": "Helvetica Chimica Acta"
  },
  "S181849944": {
   "metric": 5.16,
@@ -1162,6 +1170,10 @@
  "S4210186566": {
   "metric": 5.95,
   "name": "Materials Reports Energy"
+ },
+ "S4210186816": {
+  "metric": 2.81,
+  "name": "Thermo"
  },
  "S4210187496": {
   "metric": 0.27,
