@@ -57,7 +57,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.8528584",
+        "cached": "img/W7223793142.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.8528584"
+      },
       "summary_ko": "탄닌산을 활용한 공정으로 Li-rich/Mn-rich 층상 양극의 1차 입자 표면 및 결정립계에 BaMO3-δ 페로브스카이트 상을 형성시켜 산소 손실을 억제했다. DEMS, SXAS, RIXS 분석을 통해 패시베이션된 결정립계가 산소 방출을 완화하고 산화된 산소를 입자 내에 유지시켜 음이온 레독스 가역성을 향상시킴을 확인했다. M-O 결합 강화로 전압 감소 억제 및 에너지밀도 안정성이 개선되었으며, 희귀 금속 없이도 적용 가능한 코팅법이다.",
       "relevant": true
     },
@@ -87,7 +93,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71761",
+        "cached": "img/W7223990995.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71761"
+      },
       "summary_ko": "무음극(anode-free) 리튬금속전지의 비가역적 리튬 손실 문제를 해결하기 위해 양면 기능화 분리막을 이용한 촉매 유도 결합 절단 재지향 전략을 제시했다. 양극측 MoC1-x/NC-0.3Co 코팅이 Li2C2O4 분해 경로를 C-C 결합 절단으로 전환시켜 60°C에서 3.79V의 낮은 탈리튬화 전위와 99.5%의 리튬 이용률을 달성했고, 음극측 PSSLi-PFPE 이중층이 LiF가 풍부한 SEI 형성을 촉진해 1700시간 이상의 대칭셀 사이클링을 구현했다. 1.0 Ah 무음극 파우치셀은 458.6 Wh/kg, 1005.2 Wh/L의 에너지밀도와 100사이클 후 80.1%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -145,7 +157,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6840734",
+        "cached": "img/W7223871291.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6840734"
+      },
       "summary_ko": "LiMn0.6Fe0.4PO4(LMFP) 올리빈 양극재의 얀-텔러 왜곡 문제를 해결하기 위해 Fe 사이트에 균일한 Ti4+ 도핑과 Li 사이트에 구배형 Mg2+ 도핑을 적용한 건식-습식 복합 합성법을 개발했다. Ti4+가 M-O 결합을 강화해 구조 안정성을 높이고, 표면에 농축된 Mg2+가 보호층을 형성해 망간 용출과 전해질 분해를 억제했다. Mg/Ti 공동도핑 LMFP는 1C, 25°C에서 200사이클 후 88.7%, 55°C에서 100사이클 후 88.2%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -205,7 +223,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71759",
+        "cached": "img/W7223787443.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71759"
+      },
       "summary_ko": "전압응답형 전해질에 이중기능 LiNO3 첨가제를 도입해 상온 및 고온에서 리튬금속전지 성능을 향상시켰다. LiNO3는 Li+ 용매화 구조를 조절해 Li3N/LiNxOy 계면을 형성하고, 열충격 시 라디칼 중합을 통한 액체-고체 전이의 중합도를 제어해 상전이 후에도 높은 이온전달능력을 유지시킨다. Li||NCM811 셀은 1C~10C의 고율 성능과 100°C에서의 안정적 사이클링을 보였으며 200°C 열충격에서도 열폭주를 억제했다.",
       "relevant": true
     },
@@ -235,7 +259,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79350",
+        "cached": "img/W7223929334.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79350"
+      },
       "summary_ko": "고전압 리튬금속전지의 시간영역 불일치 문제를 해결하기 위해 전해질 미세환경을 동적으로 조절하는 시간응답형 젤 고분자 전해질(SiNCO-GPE)을 제안했다. SiNCO가 수분과 HF를 포집하는 스캐빈저 역할을 하며 반응 생성물이 B/N/F가 풍부한 계면층 형성에 참여해 양극과 음극 모두에서 안정적인 계면을 구축한다. 이 전해질은 1 mA/cm²에서 4000시간 이상, 30 mA/cm²의 초고전류밀도에서도 70시간의 리튬 플레이팅/스트리핑 안정성을 보였다.",
       "relevant": true
     },
@@ -293,7 +323,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79327",
+        "cached": "img/W7223822855.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79327"
+      },
       "summary_ko": "리튬금속전지의 국부적 줄열로 인한 분리막 열역학적 파손을 해결하기 위해 격자 수준의 음열팽창 특성을 활용한 다중스케일 분리막 설계를 제시했다. PDA를 매개로 Cu2P2O7을 PVDF-HFP 매트릭스에 결합시켜 비등방성 격자 수축이 PVDF-HFP의 열변형을 상쇄하도록 했으며, 아민이 풍부한 PDA층이 불산 부식을 억제해 계면 내구성을 높였다. 이 분리막은 200°C까지 치수 안정성을 유지했고, Li||Li 대칭셀은 3000시간 이상, Ni-rich NCM811 완전셀은 5C에서 1000사이클 안정적으로 작동했다.",
       "relevant": true
     },
@@ -356,7 +392,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79272",
+        "cached": "img/W7223984652.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79272"
+      },
       "summary_ko": "Fe-Mn 이원자 촉매(FeMn-(Nax)2 DAC/NC)에 이축 질소 배위 구조를 도입해 리튬-황 전지의 황 레독스 반응 속도를 향상시켰다. 축방향 질소 리간드가 Fe-Mn 이종원자 사이트 간 전하 이동을 유도해 Mn 중심에 전하가 국소화되고, 이는 Mn d-오비탈 에너지를 조절해 활성 사이트와 리튬 폴리설파이드 간의 d-p 오비탈 혼성화를 강화한다. 이를 통해 다황화리튬의 셔틀 효과를 억제하고 Li2S2에서 Li2S로의 고상 전환을 가속화해, 황 양극은 5C에서 682 mAh/g의 방전용량과 3C, 1000사이클에서 0.047%/사이클의 낮은 용량 감쇠율을 달성했다.",
       "relevant": true
     },
@@ -386,7 +428,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-10-29",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78510",
+        "cached": "img/W7223843278.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78510"
+      },
       "summary_ko": "LiMnxFe1-xPO4(LMFP) 양극의 고율 성능을 개선하기 위해 칼렌더링 밀도와 집전체 탄소코팅 간의 상호작용을 분석했다. 순수 알루미늄 집전체에서 고밀도 칼렌더링을 적용하면 입자가 포일에 박히며 계면저항이 낮아지고 고율 성능과 장기 사이클 안정성이 향상되는 반면, 탄소코팅 알루미늄은 밀도 변화에 둔감했다. 특히 밀도가 2.5 g/cm³ 이상일 때 탄소코팅의 이점이 사라지며, 순수 알루미늄 전극으로 10%에서 80% SOC까지 15분 이내의 급속충전을 달성했다.",
       "relevant": true
     },
