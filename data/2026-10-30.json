@@ -59,7 +59,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79308",
+        "cached": "img/W7224121265.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79308"
+      },
       "summary_ko": "4.8V급 리튬리치 Mn계 양극에서 발생하는 활성산소종(ROS)으로 인한 전해질 분해와 가스 발생 문제를 해결하기 위해, 부피가 큰 ROS 안정성 희석제로 코어-셸 용매화 구조를 형성하는 '부반응 억제' 전략을 제시했다. 반응성이 높은 용매를 효과적으로 차단해 계면 부반응을 억제했으며, 9.6 mAh/cm² 고면적용량의 2.5 Ah 파우치셀에서 502.7 Wh/kg, 0.1C 50사이클 후 89.85%의 용량유지율과 가스 발생 억제를 달성했다.",
       "relevant": true
     },
@@ -89,7 +95,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-10-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79304",
+        "cached": "img/W7224131729.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79304"
+      },
       "summary_ko": "가넷형 고체전해질과 리튬 금속 계면의 접촉 불량 및 덴드라이트 문제를 해결하기 위해, 머신러닝 기반으로 BiOCl과 Mg3N2를 조합한 복합 중간층으로 자기적응형 구배 계면을 설계했다. 하부의 친리튬성 LiMg상이 LLZTO와의 긴밀한 접촉을 보장하고, 다공성 Li3Bi상이 Li 플레이팅/스트리핑을 수용하며, Li3N/Li3OCl상이 빠른 이온전달과 덴드라이트 억제를 돕는다. 대칭셀은 14 mA/cm²에서 5000시간 이상 안정적으로 작동했고(임계전류밀도 15 mA/cm²), LiFePO4 및 고전압 NCM811 완전셀에서도 1000사이클 이상 우수한 용량유지율을 보였다.",
       "relevant": true
     },
@@ -116,7 +128,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-30",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75548",
+        "cached": "img/W7224100176.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75548"
+      },
       "summary_ko": "황화물계 전고체전지에서 리튬 금속 음극의 덴드라이트 성장을 억제하기 위해, 반복적인 접기·압연을 통한 기계적 변형으로 상용 리튬 금속을 표면부터 벌크까지 재구성하는 방법을 제시했다. 이를 통해 탄산염이 풍부한 거친 표면을 산화물 패시베이션층과 Li(200) 선호 배향 조직으로 대체했으며, 고강도 재구성은 계면 반응의 공간적 변동을 줄여 스트리핑/플레이팅 시 리튬의 탈리·성장을 동기화해 덴드라이트 형성을 억제한다. Li|LPSCl1.5|NMC811 완전셀은 C/2에서 1000사이클 후 79.3%의 용량유지율과 사이클당 0.05%의 낮은 용량감소율을 보였다.",
       "relevant": true
     },
