@@ -211,6 +211,10 @@
   "metric": 18.34,
   "name": "Nature"
  },
+ "S137947318": {
+  "metric": 3.47,
+  "name": "Computational and Theoretical Chemistry"
+ },
  "S137979523": {
   "metric": 3.69,
   "name": "Ionics"
@@ -638,6 +642,10 @@
  "S2486144580": {
   "metric": 2.13,
   "name": "MRS Communications"
+ },
+ "S2488117985": {
+  "metric": 3.18,
+  "name": "ChemistryOpen"
  },
  "S2493531148": {
   "metric": 3.18,
