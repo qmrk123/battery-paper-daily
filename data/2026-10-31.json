@@ -60,7 +60,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75524",
+        "cached": "img/W7224293834.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75524"
+      },
       "summary_ko": "불소화 아크릴레이트 고분자와 이온성 액체 고분자(PIL)를 공중합하고 LiFSI 농도를 최적화하여, 양이온성 PIL이 FSI 음이온을 포획해 Li+ 이동 경로를 형성하는 고체 고분자 전해질을 제안했다. 이 전해질은 30°C에서 0.38 mS/cm의 이온전도도와 0.77의 Li+ 이전율을 보이며, 산화 안정성 창을 4.94V까지 확장하고 Li 금속 표면에 무기물 중심의 SEI를 형성한다. Li||Cu 셀은 400회 이상 99.1% 평균 쿨롱효율로 안정 구동하며, 얇은 Li 음극과 고로딩 NCM90 양극을 적용한 515 Wh/kg급 고체상 파우치셀도 안정적으로 작동했다.",
       "relevant": true
     },
@@ -90,7 +96,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-10-31",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75485",
+        "cached": "img/W7224633139.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75485"
+      },
       "summary_ko": "단일 원자 활성점만으로는 Li가 특정 자리에 수직으로 쌓여 덴드라이트가 형성되는 문제를 해결하기 위해, 인접한 Co 단일원자와 Co 나노입자 간 전자 결합을 이용한 호스트 구조를 제안했다. 레이저 직접 기록 공정으로 계층적 다공성 그래핀에 초미세 Co 나노입자와 인접 Co 단일원자를 동시에 형성시켰으며, 이 전자 결합이 국소 d-band 중심을 재구성해 Li 흡착 에너지의 공간적 구배를 만들어 Li가 인접 자리로 순차 성장하도록 유도한다. 이를 적용한 고로딩 Li 음극 기반 완전셀은 2C, 1000회 사이클 후에도 71.4%의 용량을 유지했다.",
       "relevant": true
     }
