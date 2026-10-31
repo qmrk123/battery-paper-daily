@@ -1,42 +1,42 @@
 {
-  "title": "최근 2주 논문 브리핑 (10/19–10/28)",
-  "range": "2026-10-19 ~ 2026-10-28",
-  "overall": "이번 2주간은 전해질 용매화 구조 설계와 인공 계면층(SEI/CEI) 제어가 리튬·소듐 금속 음극 연구의 핵심 축으로 자리 잡았으며, 고전압 양극에서는 산소 레독스 안정화와 계면 패시베이션을 통한 내구성 확보가 공통 과제로 부각되었다.",
+  "title": "최근 2주 논문 브리핑 (10/20–10/29)",
+  "range": "2026-10-20 ~ 2026-10-29",
+  "overall": "이번 2주간 연구는 전해질·계면 설계로 금속 음극과 고전압 양극의 수명을 끌어올리는 데 집중되었으며, 리튬·소듐 금속 전지에서는 용매화 구조 조절과 LiF/무기물 풍부 SEI 형성이, 양극 분야에서는 산소 레독스 안정화와 도핑·계면 프레임워크 공학이 공통 화두로 부각되었다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 용매화 구조를 직접 조절해 음이온 유래 LiF가 풍부한 계면을 형성하려는 흐름이 뚜렷하며, 비불소화 에테르의 용매화 클러스터 공학, 약한 배위 희석제의 머신러닝 스크리닝, 크라운에테르·유기규산염 등 기능성 첨가제가 모두 탈용매화 완화와 안정 SEI를 겨냥한다. 고체·고분자 전해질 쪽에서는 가넷/염화물 계면의 전자 주입 억제, 자가치유 이중염 겔, PEO의 음이온 솔베이션 제어 등 계면 안정화와 이온 전달 양립이 반복 주제로 나타난다. 분리막·리튬 재구성 같은 물리·구조적 접근(음열팽창 분리막, 기계적 압연, Cu 나노와이어 샌드위치)과 ARXPS 기반 비파괴 SEI 심도 분석 등 분석·안전성 연구도 함께 확장되고 있다. 전반적으로 무음극·고전압·전고체 셀에서 450 Wh/kg 이상 또는 수천 시간 사이클을 목표로 계면 화학과 셀 구성의 정합성을 높이는 방향이다.",
+      "text": "가장 많은 연구가 전해질·계면 공학에 집중되었다. 불소화 폴리이온성 액체, 비불소 에테르, 국부고농도계의 희석제 등 용매화 클러스터와 음이온 배위를 조절해 LiF·무기물이 풍부한 SEI를 유도하고, 500 Wh/kg을 넘는 고에너지 파우치셀을 지향하는 흐름이 두드러진다. 고체 전해질 쪽에서는 가넷·염화물·PEO 계면의 접촉성과 전자 주입 문제를 자기적응 구배층·안티사이트 설계로 완화했고, 무음극(anode-free) 구성과 열응답·난연 전해질, 음열팽창 분리막 등 안전성 및 저온·고율 대응 전략도 다양하게 제시되었다. ARXPS를 통한 비파괴 SEI 깊이 분석처럼 계면 특성화 기법의 진전도 눈에 띈다.",
       "highlights": [
+        {"title": "Ionic‐Ligand‐Assisted Transport in Fluorinated Poly(ionic liquid) Electrolytes Enables 515 Wh Kg −1 Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.75524", "venue": "Advanced Materials"},
         {"title": "Solvation Cluster Engineering of Non-Fluorinated Ethers toward High-Energy Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c16390", "venue": "Journal of the American Chemical Society"},
-        {"title": "Physically Grounded Descriptors for Machine-Learning-Guided Diluent Design in Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c16379", "venue": "Journal of the American Chemical Society"},
         {"title": "Self‐Adaptive Gradient Interphase Enables Durable Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.79304", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속·금속화 음극에서도 약한 용매화 전해질과 음이온-양이온 동시 조절을 통한 저온·광온도 구동이 중심 주제로, 카르복실산 에스터 전해액과 Sn(OTf)2 기반 배위 설계가 −20°C 이하에서 장수명을 달성했다. 고체 전해질 측면에서는 숙시노니트릴의 탈양성자화를 열역학적으로 억제해 수천~수만 사이클 안정성을 확보한 사례가 돋보인다. 동시에 cryo-EM으로 하드카본 표면의 결정질 소듐 금속을 직접 관찰하거나 QCM으로 SEI 용해·부식을 정량화하는 등, 소듐 금속 계면의 거동과 저장 안정성을 규명하는 분석 연구가 병행되고 있다.",
+      "text": "소듐 금속 전지는 저온·광온역 구동과 계면 안정성 확보가 핵심 주제였다. 약한 용매화 카르복실산 에스터, Sn(OTf)2 기반 음이온-양이온 동시 조절 등으로 Na+ 탈용매화 장벽을 낮추고 합금·유무기 혼성 SEI를 형성해 −20~−50°C에서도 수백~천 회 사이클을 달성했다. 고체 전해질 분야에서는 숙시노니트릴계의 탈양성자화 부반응을 열역학적으로 억제해 1만 사이클급 내구성을 보였다. 한편 QCM과 cryo-EM/ET를 활용해 에테르계 SEI의 용해·부식과 하드카본 표면의 결정질 소듐 석출을 규명하는 등 열화 메커니즘 이해도 심화되었다.",
       "highlights": [
-        {"title": "Weak-Solvating Carboxylate Ester Electrolyte Enables Hybrid Interphase via Cooperative Additives toward Wide-Temperature Sodium Metal Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c02612", "venue": "ACS Energy Letters"},
         {"title": "Thermodynamic Suppression of Deprotonation in Succinonitrile‐Based Electrolyte for Durable Solid‐State Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/adfm.79209", "venue": "Advanced Functional Materials"},
+        {"title": "Anion‐Cation Targeted Regulation Enables Ultrafast and Stable Sodium Metal Batteries at Low Temperatures", "url": "https://doi.org/10.1002/anie.6809424", "venue": "Angewandte Chemie International Edition"},
         {"title": "Quantifying Sodium Metal SEI Dissolution and Relation to Corrosion Using Quartz Crystal Microbalance", "url": "https://doi.org/10.1021/acsenergylett.6c01766", "venue": "ACS Energy Letters"}
       ]
     },
     {
-      "topic": "other-cathode",
-      "heading": "기타 양극",
-      "text": "리튬-황 전지에서는 단일·이원자 촉매의 배위 환경을 조절해 황 레독스 반응 속도를 높이는 전자구조 공학이 지배적이며, 비대칭 Cl-Co-N 배위나 Fe-Mn 이축 질소 배위로 스핀·궤도 상태를 제어해 폴리설파이드 전환을 가속하는 접근이 반복된다. 셀프탠덤 촉매를 통한 탈용매화·전환 반응의 연쇄 가속으로 극저온 구동성을 확보한 사례도 보고되었다. 이 외에 전고체 Li-CO2 전지에서 Cu 원자클러스터-단일원자 공동 고정으로 반응 경로를 재설계하는 연구가 포함되어, 촉매 사이트의 배위·전하 상태 조절이 전환형 양극의 공통 설계 원리로 확장되고 있다.",
+      "topic": "ncm",
+      "heading": "NCM 양극",
+      "text": "Ni-rich 양극에서는 고전압 산소 관련 열화와 계면 불안정성을 완화하는 연구가 중심이었다. Nb-O-Cl 옥시할라이드 계면 프레임워크처럼 전자 구조를 재구성하면서 Li+ 이동을 촉진하는 능동형 계면 설계가 수동적 산화물 코팅의 한계를 넘어섰고, 고전압 불안정성의 기원을 국부적 양이온 클러스터링이라는 원자 수준 디스크립터로 해석하려는 시도도 나타났다. 또한 값싼 탄산리튬 전구체의 다중스케일 결함을 2차 열처리로 치유해 성능을 유지하면서 비용을 절감하는 실용적 접근이 제시되었다.",
       "highlights": [
-        {"title": "Symmetry-Broken Coordination of Single-Atom Catalysts Unlocks Spin- and Orbital-Regulated Sulfur Redox in Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c17922", "venue": "Journal of the American Chemical Society"},
-        {"title": "Cascade Desolvation and Conversion Reaction Driven by Self‐Tandem Catalysis for Wide‐Temperature Li‐S Batteries", "url": "https://doi.org/10.1002/advs.78441", "venue": "Advanced Science"},
-        {"title": "An integrated cathode-electrolyte architecture with Cu dual active-sites for all-solid-state Li–CO2 batteries", "url": "https://doi.org/10.1038/s41467-026-78929-4", "venue": "Nature Communications"}
+        {"title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes", "url": "https://doi.org/10.1002/aenm.71729", "venue": "Advanced Energy Materials"},
+        {"title": "Tracing and Healing Multiscale Defects for Cost‐Effective Lithium Carbonate‐Derived Layered Oxide Cathodes", "url": "https://doi.org/10.1002/aenm.71727", "venue": "Advanced Energy Materials"},
+        {"title": "Localized cationic clustering as an atomic-scale descriptor for understanding and mitigating high-voltage instability in Ni-rich layered oxide cathodes", "url": "https://doi.org/10.1016/j.ensm.2026.105604", "venue": "Energy storage materials"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "리튬 과잉·망간 과잉 양극의 산소 레독스 가역성 확보가 공통 목표로, 결정립계 패시베이션(BaMO3-δ)과 산소 결함 사전 유도를 통한 리간드-홀 특성 조절이 서로 다른 경로로 산소 손실과 전압 감쇠를 억제한다. 4.8V급 고전압 구동에서는 코어-셸 용매화 구조의 불소화 전해질로 활성산소종에 의한 전해질 분해와 가스 발생을 차단하는 계면 전략이 제시되었다. 셀 레벨에서는 LMR 양극과 µ-Si 음극 조합에서 분리막 젖음성과 전해질 공용매의 상호작용이 수명을 좌우함을 보여, 소재와 셀 구성의 정합이 함께 강조된다.",
+      "text": "리튬 과잉 양극은 산소 레독스의 가역성 확보와 전압 감쇠 억제가 일관된 목표였다. 결정립계 페로브스카이트 패시베이션으로 산소 손실을 막거나, 산소 결함을 사전 유도해 리간드-홀 특성과 Ni-O 혼성화를 조절하는 전자구조 접근이 DEMS·RIXS·방사광 분광으로 뒷받침되었다. 고전압(4.8V) 구동을 위한 코어-셸 용매화 전해질로 활성산소종 유발 부반응을 억제하거나, Co-free LMR을 µ-Si 음극과 결합할 때 분리막·전해질 상호작용을 최적화하는 셀 수준 안정화 연구도 함께 보고되었다.",
       "highlights": [
         {"title": "Stabilizing Oxygen Redox in Polycrystalline Li‐Rich Layered Cathodes via Efficient Grain Boundary Passivation", "url": "https://doi.org/10.1002/anie.8528584", "venue": "Angewandte Chemie International Edition"},
         {"title": "Vacancy-Induced Ligand-Hole Character Redirects Oxygen Redox in Li-Rich Layered Oxides", "url": "https://doi.org/10.1021/jacs.6c17588", "venue": "Journal of the American Chemical Society"},
@@ -44,18 +44,19 @@
       ]
     },
     {
-      "topic": "ncm",
-      "heading": "NCM 양극",
-      "text": "고전압 Ni-rich 양극에서는 산소 관련 비가역 반응과 고전압 불안정성을 겨냥한 계면·원자 수준 제어가 핵심으로, Nb-O-Cl 옥시할라이드 프레임워크가 Ni-O 전자구조를 재구성하면서 Li+ 이동을 동시에 촉진하고, 국부적 양이온 클러스터링이 불안정성의 원자 수준 디스크립터로 제안되었다. 공정·비용 측면에서는 저가 탄산리튬 전구체의 다중스케일 결함을 2차 열처리로 치유해 수산화리튬 양극과 동등 성능을 확보하는 실용적 접근도 보고되었다. 전반적으로 전자구조 재구성과 결함 공학이 중니켈~고니켈 양극의 내구성과 경제성을 동시에 겨냥하는 방향이다.",
+      "topic": "other-cathode",
+      "heading": "기타 양극",
+      "text": "리튬-황 및 Li-CO2 등 전환형 양극에서는 촉매 설계로 반응속도론을 끌어올리는 흐름이 뚜렷했다. Fe-Mn 이원자 촉매의 축방향 질소 배위나 LDH에 담지한 원자 수준 Ce 셀프탠덤 촉매는 폴리설파이드 셔틀 억제와 광온역 황 전환 가속을 동시에 겨냥했고, Cu 클러스터-단일원자 공동 고정 양극은 전고체 Li-CO2 전지의 탄산염 중간체 활성화 경로를 재설계했다. 고전압 리튬 금속 매칭을 위한 다기능 유기규산염 염도 CEI/SEI 동시 형성 관점에서 제시되었다.",
       "highlights": [
-        {"title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes", "url": "https://doi.org/10.1002/aenm.71729", "venue": "Advanced Energy Materials"},
-        {"title": "Tracing and Healing Multiscale Defects for Cost‐Effective Lithium Carbonate‐Derived Layered Oxide Cathodes", "url": "https://doi.org/10.1002/aenm.71727", "venue": "Advanced Energy Materials"}
+        {"title": "Dual‐Axial Nitrogen Coordination‐Induced Mn Charge Localization at Fe‐Mn Dual‐Atom Sites for Enhanced Sulfur Redox Kinetics", "url": "https://doi.org/10.1002/adfm.79272", "venue": "Advanced Functional Materials"},
+        {"title": "An integrated cathode-electrolyte architecture with Cu dual active-sites for all-solid-state Li–CO2 batteries", "url": "https://doi.org/10.1038/s41467-026-78929-4", "venue": "Nature Communications"},
+        {"title": "Cascade Desolvation and Conversion Reaction Driven by Self‐Tandem Catalysis for Wide‐Temperature Li‐S Batteries", "url": "https://doi.org/10.1002/advs.78441", "venue": "Advanced Science"}
       ]
     },
     {
       "topic": "lfp",
       "heading": "LFP/올리빈",
-      "text": "망간 함유 올리빈(LMFP) 양극에서 얀-텔러 왜곡 억제와 고율 성능 확보가 두 축을 이룬다. Mg 구배·Ti 균일 공동도핑으로 M-O 결합을 강화하고 표면 보호층을 형성해 망간 용출과 전해질 분해를 억제하는 조성 설계가 제시되었고, 전극 공정 측면에서는 순수 알루미늄 집전체에 고밀도 칼렌더링을 적용해 탄소코팅 없이도 15분 내 급속충전을 달성하며 집전체-입자 계면 저항을 낮추는 실용적 접근이 보고되었다.",
+      "text": "올리빈 LMFP 양극에서는 망간계 특유의 얀-텔러 왜곡과 고율 성능 한계를 겨냥한 연구가 보고되었다. Fe 사이트 Ti 도핑과 구배형 Mg 도핑을 결합해 M-O 결합을 강화하고 망간 용출을 억제하는 조성 설계, 그리고 칼렌더링 밀도와 집전체 탄소코팅의 상호작용을 분석해 순수 알루미늄 포일만으로 15분 급속충전을 구현하는 전극 공정 최적화가 상호 보완적으로 제시되었다.",
       "highlights": [
         {"title": "Gradient Mg and Uniform Ti Co‐Doping Suppresses Jahn–Teller Effect in LMFP via Optimized Ion‐Transport Kinetics and Interfacial Reactions", "url": "https://doi.org/10.1002/anie.6840734", "venue": "Angewandte Chemie International Edition"},
         {"title": "Battery Electrode Engineering Enables Fast Charging LMFP Cells Without Carbon‐Coated Foil", "url": "https://doi.org/10.1002/advs.78510", "venue": "Advanced Science"}
