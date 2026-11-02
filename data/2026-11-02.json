@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T00:26:54+00:00",
+  "count": 5,
+  "papers": [
+    {
+      "id": "W7224998554",
+      "source": "openalex",
+      "title": "Ultralow Deposition Potential and Antisite-Boosted Diffusivity of Li3Ga2 Anode for All-Solid-State Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02308",
+      "published": "2026-10-31",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02308",
+      "authors": [
+        "Guoyong Xue",
+        "Zhe-Tao Sun",
+        "Shiwei Chen",
+        "Jie Lu",
+        "Yirui Fu",
+        "Guokang Chen"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Existing alloy anodes suffer from high redox potentials and sluggish Li atomic kinetics, limiting the energy density and rate capability of all-solid-state lithium batteries (ASSLBs). Herein, we report a well-designed Li3Ga2 alloy anode that simultaneously delivers an ultralow Li deposition potential (0.007 V vs. Li+/Li) and fast Li atomic diffusion kinetics (2.0 × 10–8 cm2 s–1). The high Li atomic diffusivity primarily originates from moderate Li/Ga antisite mixing, stabilizing the anode-solid electrolyte interface and enabling a high critical current density of 24 mA cm–2 in ASSLBs. Coupled with a LiCoO2 cathode, the ASSLB delivers a high initial Coulombic efficiency of 96.5% and an ultralong cycle life of 2000 cycles at room temperature, with a high output voltage of 3.84 V, outperforming state-of-the-art alloy-based counterparts. A practical all-solid-state pouch cell employing the LiNi0.8Co0.1Mn0.1O2 cathode also delivers outstanding cycling stability. This work redefines alloy anode design principles through synergistic optimization of Li deposition potential and Li atomic diffusivity.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-02",
+      "image": null,
+      "summary_ko": "비교적 높은 산화환원 전위와 느린 Li 확산 속도 문제를 겪는 기존 합금 음극과 달리, Li3Ga2 합금 음극은 매우 낮은 Li 증착 전위(0.007 V)와 빠른 Li 확산 속도(2.0×10⁻⁸ cm²/s)를 동시에 달성했다. 이러한 특성은 Li/Ga 안티사이트 혼합에서 기인하며, 음극-고체전해질 계면을 안정화해 24 mA/cm²의 높은 임계 전류밀도를 구현했다. LiCoO2 및 NCM 캐소드와 결합한 전고체 전지는 초기 쿨롱 효율 96.5%, 2000회 사이클의 장수명 특성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7224999306",
+      "source": "openalex",
+      "title": "Scalable crosslinking-regulated membranes with ultra-high Li+/Mg2+ selectivity for lithium recovery from brines",
+      "url": "https://doi.org/10.1038/s41467-026-79061-z",
+      "published": "2026-10-31",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79061-z",
+      "authors": [
+        "Zhen Wang",
+        "Guoshen Zeng",
+        "Yueyue Li",
+        "Changting Wang",
+        "Yang Liu",
+        "Bolun Peng"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Membrane-based separation has emerged as a competitive technology for lithium extraction from salt-lake brines. However, its industrial implementation remains limited by the low Li + /Mg 2+ selectivity of conventional membranes. In this work, we demonstrate that regulation of the crosslinking degree during membrane formation enables subnanometer pore size control within the narrow window required for Li + /Mg 2+ separation. Under electrodialysis conditions, the membrane achieved a Li + /Mg 2+ separation factor of up to 6454 at an Mg/Li mass ratio of 140, outperforming previously reported membranes for Li + /Mg 2+ separation. Importantly, the membrane maintained a Li + /Mg 2+ separation factor above 1200 in untreated natural salt-lake brine, despite the high Mg/Li mass ratio (Mg/Li = 87) and the presence of multiple competing ions. Fabrication of a 25 cm × 35 cm membrane and stable performance over 15 days of repeated operation further supported the practical viability of this approach. The practical membrane design strategy reported in this work can inspire the development of ion-selective membranes with precisely regulated subnanometer pores for a wide range of sustainable separation processes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79061-z",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-02",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79061-z/MediaObjects/41467_2026_79061_Fig1_HTML.png",
+        "cached": "img/W7224999306.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79061-z"
+      },
+      "summary_ko": "가교 정도를 조절하여 서브나노미터 기공 크기를 정밀하게 제어한 분리막을 통해 염수에서 리튬을 추출하는 기술을 제시했다. 전기투석 조건에서 Li+/Mg2+ 분리 지수 최대 6454를 달성했으며, 실제 염호 염수에서도 1200 이상의 분리 성능을 유지했다. 25cm×35cm 크기의 분리막을 제작해 15일간 안정적으로 작동함을 입증하여 실용화 가능성을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225011001",
+      "source": "openalex",
+      "title": "HERC2–UBE3A structure uncovers a domain-motif protein network potentially altered in Angelman and related syndromes",
+      "url": "https://doi.org/10.1038/s41467-026-78412-0",
+      "published": "2026-10-31",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78412-0",
+      "authors": [
+        "Auguste Demenge",
+        "JiaWen Lim",
+        "Arpoudamarie Roc",
+        "Boglárka Zámbó",
+        "Gergő Gógl",
+        "A. Cousido-Siah"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "UBE3A and HERC2 are two mutually interacting HECT E3 Ubiquitin ligases whose genes are altered in 15q11.2-13.1 Duplication (Dup15q) Syndrome, Angelman Syndrome (AS) and other phenotypically-related mental retardation syndromes. Using quantitative binding assays, X-ray crystallography and sequence conservation analysis, we characterize the core interface of the HERC2-UBE3A complex, involving the RLD2 domain of HERC2 and a “DxDKDxD” sequence from a disordered region of UBE3A. The sequence determinants of the interface are conserved in numerous animals with a central nervous system. HERC2 also binds similar DxDKDxD motifs within a handful of other proteins relevant to brain development (DOCK10, PCM1, USP35, BAZ2B, ARID4A, ARIP4, RERE and MYT1). We further investigate the interaction of HERC2 with DOCK10, a RAC1- and CDC42-GEF protein that regulates dendritic spine morphogenesis in hippocampal neurons. siRNA-mediated knockdown of HERC2 affects the GEF activity of DOCK10, and mutagenesis of the HERC2-binding motif in DOCK10 disrupts both its GEF activity and its ability to drive dendritic spine formation. In developing brains, an abnormal dosage of either HERC2 or its dominant partner UBE3A may thus alter the proportions of RLD2-mediated complexes, including HERC2-DOCK10, and may thereby perturb dendritic spine morphogenesis and neurodevelopment. UBE3A and HERC2 are two interacting HECT E3 ligases altered in Angelman and related neurodevelopmental syndromes. Here the authors show UBE3A to bind HERC2 via a “DxDKDxD” motif found in nine additional HERC2-binding brain proteins, suggesting a HERC2-centered network relevant for neurodevelopment.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78412-0",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-02",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78412-0/MediaObjects/41467_2026_78412_Fig1_HTML.png",
+        "cached": "img/W7225011001.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78412-0"
+      },
+      "summary_ko": "UBE3A와 HERC2 두 E3 유비퀴틴 리가아제 간의 상호작용 구조를 규명한 연구로, Angelman 증후군 등 신경발달 질환과 관련된 도메인-모티프 결합 네트워크를 밝혔다. HERC2의 RLD2 도메인이 UBE3A 및 DOCK10 등 여러 단백질의 \"DxDKDxD\" 서열과 결합함을 확인했으며, HERC2 결손이 DOCK10의 GEF 활성과 수상돌기 가시 형성에 영향을 미침을 보였다. 이는 HERC2/UBE3A 발현량 이상이 신경발달 과정을 교란할 수 있음을 시사한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225006895",
+      "source": "openalex",
+      "title": "Coprecipitation‐Enabled Scalable Synthesis of High‐Energy Density Polyanion‐Integrated Disordered Rocksalt Cathodes for Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/aenm.71730",
+      "published": "2026-10-31",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1002/aenm.71730",
+      "authors": [
+        "Hsi Chen",
+        "Yung‐An Chen",
+        "Chen Chang",
+        "Frances M. Ross",
+        "Yimeng Huang",
+        "Ju Li"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Disordered rocksalt cathodes (DRX) represent a compelling platform for cobalt‐ and nickel‐free high‐energy density lithium‐ion batteries. Yet their scalable synthesis remains challenging, especially for metastable DRX chemistries that have been predominantly developed via mechanochemical routes. A prominent example is polyanion‐integrated DRX (DRXPS) cathodes, which rank among the best DRX cathodes reported to date in terms of reversible energy density, but have thus far been synthesized only mechanochemically via low‐temperature ball milling. Here we demonstrate a coprecipitation–enabled solid‐state synthesis of a DRXPS cathode, Li 1.67 Mn 1.5 P 0.17 O 4 , translating a mechanochemical route into a scalable process that is compatible with established cathode manufacturing infrastructure. The workflow programs precursor chemistry via coprecipitation of Mn 2 + with HPO 4 2 − and OH − , followed by a eutectic lithium‐salt‐assisted solid‐state reaction, enabling low‐thermal‐budget DRXPS formation (450°C, 30 min) in air. The reduced thermal budget suppresses particle coarsening and yields a mixed micro‐/nanoscale particle morphology, thereby eliminating the need for post‐synthesis particle pulverization. The resulting cathodes deliver 324 mAh g −1 (935 Wh kg −1 ), demonstrating that high‐energy density DRXPS can be realized within a manufacturing‐compatible workflow. This work establishes a direct pathway toward scalable production of metastable high‐energy density DRXPS cathodes and identifies precursor engineering as the key enabler.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71730",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-02",
+      "image": null,
+      "summary_ko": "공침-고상법을 결합하여 다각형 음이온이 통합된 무질서 암염형(DRX) 캐소드인 Li1.67Mn1.5P0.17O4를 스케일업 가능한 방식으로 합성했다. Mn2+와 HPO4²⁻, OH⁻의 공침으로 전구체 화학을 제어한 뒤 유테틱 리튬염 보조 저온(450°C, 30분) 고상 반응을 적용해 입자 조대화를 억제하고 별도의 분쇄 공정 없이 미크로/나노 혼합 입자 형태를 얻었다. 이 캐소드는 324 mAh/g(935 Wh/kg)의 고에너지밀도를 구현하여 기존 제조 인프라와 호환되는 DRX 양극 생산 경로를 제시했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223215268",
+      "source": "openalex",
+      "title": "Sodium-containing molecular additives enable stable interphase formation on hard carbon anodes for high-efficiency sodium storage",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112524",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112524",
+      "authors": [
+        "Yue Wang",
+        "Qing Dong Zhong",
+        "Na Li",
+        "Hongyang Zhao",
+        "Jia Cui",
+        "Mingyue Wang"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-11-02",
+      "image": null,
+      "summary_ko": "나트륨을 포함하는 분자 첨가제를 도입하여 하드카본 음극 표면에 안정적인 계면(SEI)을 형성함으로써 나트륨 저장 효율을 높이는 전략을 제안한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    }
+  ]
+}
