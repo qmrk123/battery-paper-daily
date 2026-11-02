@@ -125,7 +125,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-02",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71730",
+        "cached": "img/W7225006895.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71730"
+      },
       "summary_ko": "공침-고상법을 결합하여 다각형 음이온이 통합된 무질서 암염형(DRX) 캐소드인 Li1.67Mn1.5P0.17O4를 스케일업 가능한 방식으로 합성했다. Mn2+와 HPO4²⁻, OH⁻의 공침으로 전구체 화학을 제어한 뒤 유테틱 리튬염 보조 저온(450°C, 30분) 고상 반응을 적용해 입자 조대화를 억제하고 별도의 분쇄 공정 없이 미크로/나노 혼합 입자 형태를 얻었다. 이 캐소드는 324 mAh/g(935 Wh/kg)의 고에너지밀도를 구현하여 기존 제조 인프라와 호환되는 DRX 양극 생산 경로를 제시했다.",
       "relevant": true
     },

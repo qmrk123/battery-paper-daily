@@ -120,7 +120,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-01",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75533",
+        "cached": "img/W7224743253.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75533"
+      },
       "summary_ko": "리튬금속전지용 액상 전해질의 설계 원리와 공학적 전략을 종합한 리뷰 논문이다. 염/용매 분자 구조 설계, 염-용매 조합 재구성, 첨가제 도입, (국소) 고농도 전해질, 온도 적응형 전해질 개발 등을 통해 리튬 덴드라이트 성장과 계면 부반응 문제를 해결하는 방안을 다룬다. 고전압 내성, 고속충전, 광온도 작동 실현을 위한 향후 과제도 제시한다.",
       "relevant": true
     },
@@ -150,7 +156,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-01",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79332",
+        "cached": "img/W7224855598.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79332"
+      },
       "summary_ko": "P2형 Fe/Mn 기반 층상 소듐 양극재의 구조 열화와 계면 불안정성을 해결하기 위해 벌크 Li/F 공도핑과 표면 헤테로접합 코팅을 결합한 Na0.67Fe0.35Mn0.5Li0.15O1.93F0.07(LMO@NFMLOF)를 합성했다. DFT 계산으로 헤테로계면에 내부전기장이 형성되어 Na+ 이동을 가속함을 확인했으며, 코팅은 대기 및 계면 안정성을 향상시킨다. 이 양극재는 2C에서 200사이클 후 110 mAh/g, 5C에서 300사이클 후 85.6 mAh/g의 방전용량을 유지했다.",
       "relevant": true
     },
