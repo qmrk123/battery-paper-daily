@@ -943,6 +943,10 @@
   "metric": 4.5,
   "name": "iScience"
  },
+ "S2898434319": {
+  "metric": 9.94,
+  "name": "Energy Reports"
+ },
  "S2898501196": {
   "metric": 5.94,
   "name": "Sustainable materials and technologies"
@@ -2362,6 +2366,10 @@
  "S69753523": {
   "metric": 9.29,
   "name": "Separation and Purification Technology"
+ },
+ "S69855411": {
+  "metric": 1.62,
+  "name": "Physics and Chemistry of Minerals"
  },
  "S70681891": {
   "metric": 1.87,

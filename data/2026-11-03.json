@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T02:52:08+00:00",
+  "count": 7,
+  "papers": [
+    {
+      "id": "W7225037331",
+      "source": "openalex",
+      "title": "Neutron Depth Profiling: The Core Link Connecting the Microscopic Mechanisms of Lithium‐Ion Batteries With Intelligent Design",
+      "url": "https://doi.org/10.1002/advs.78467",
+      "published": "2026-11-01",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/advs.78467",
+      "authors": [
+        "Yulong Zhang",
+        "Chunjing Yue",
+        "Shijiao Liu",
+        "Muyang Chen",
+        "Xiaokang Shi",
+        "Rui Qin Tan"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Neutron Depth Profiling (NDP) is a non‐destructive, in situ quantitative depth‐analysis technique underpinned by neutron‐induced nuclear reactions. Offering high 6 Li‐isotope sensitivity and nanometer‐to‐micrometer depth resolution, NDP delivers isotope‐resolved lithium spatial information hardly accessible via conventional probes including secondary‐ion mass spectrometry (SIMS), X‐ray photoelectron spectroscopy (XPS), and operando neutron imaging, yet it suffers from depth‐dependent resolution degradation, limited lateral performance, and requires large‐scale neutron‐beam facilities. This paper systematically reviews NDP fundamentals, global neutron‐source progress, and cutting‐edge battery applications, covering lithium‐ion migration in electrodes, lithium dendrite nucleation and growth, and the “reversible short‐circuit” effect at solid‐electrolyte interfaces. The unique merit of NDP for quantitative 6 Li depth‐profiling is highlighted, while noting that NDP cannot independently resolve full‐element maps or nanoscale interfaces and demands complementary characterizations. A roadmap integrating NDP with multimodal measurements and physics‐informed machine learning for intelligent battery design is outlined, alongside open challenges: inversion non‐uniqueness under low‐signal conditions and translation from model cells to practical batteries. This work provides actionable guidelines to leverage NDP for bridging microscopic lithium mechanisms and rational design of next‑generation batteries with high safety and high energy density.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78467",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "이 리뷰는 중성자 유발 핵반응을 이용한 비파괴 정량 깊이분석 기법인 중성자 깊이 프로파일링(NDP)의 원리와 중성자원 기술 발전, 배터리 응용(전극 내 리튬 이동, 리튬 덴드라이트 핵생성·성장, 고체전해질 계면의 가역적 단락 현상)을 종합적으로 다룬다. NDP는 6Li 동위원소에 대한 높은 민감도와 나노~마이크로미터급 깊이 분해능을 제공하지만, 깊이에 따른 분해능 저하, 제한적인 수평 분해능, 대형 중성자 시설 의존성 등의 한계가 있다. 저자들은 NDP를 다중 분석기법 및 물리 정보 기반 머신러닝과 결합해 차세대 고안전·고에너지밀도 배터리 설계에 활용하는 로드맵을 제시한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225057468",
+      "source": "openalex",
+      "title": "Long-Life Zinc-Nickel Batteries Enabled by a Regional Segregation-Driven Reconstructed Anode",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105626",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105626",
+      "authors": [
+        "Xuanye Xu",
+        "Shuo Wang",
+        "Yanbin Yin",
+        "Xianfeng Li"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "영역 분리 기반으로 재구성된 음극 구조를 통해 장수명 아연-니켈 전지를 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225048458",
+      "source": "openalex",
+      "title": "Li+-locked domain effect for breaking the temperature stability bottleneck in thermal-detection high-entropy energy storage ceramics",
+      "url": "https://doi.org/10.1038/s41467-026-79179-0",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79179-0",
+      "authors": [
+        "Xiangfu Zeng",
+        "Zhifang Liu",
+        "Zhen Wang",
+        "Liang Cao",
+        "Baisheng Sa",
+        "Xiao Wu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Conventional brain pacemakers rely on electrochemical batteries, which suffer from leakage, performance degradation, and neurotoxicity, posing serious safety risks. Ceramic-based pulse generators with ultra-fast discharge, high-temperature stability, and self-diagnostic capability offer a promising alternative. However, most dielectric ceramics lose their polarization activity at elevated temperatures. To address this challenge, we introduce a high-entropy composition design that induces a Li-locked domain effect in the ceramic system (1-x)[0.9(Bi0.47Na0.47Yb0.03Tm0.01)TiO3−0.1LiTaO3]−0.06(Ba0.3Sr0.7)(Sn0.5Hf0.5)O3. We demonstrate that Li+-enriched regions lock polar nanodomains, preserving them even at 300 °C. This mechanism yields a recoverable energy density of 11.43 J·cm−3, an efficiency of 84.67%, and excellent temperature stability (Δη/η < 0.3% up to 320 °C). Moreover, Yb3+/Tm3+ co-doping enables anomalous thermal enhancement of photoluminescence and precise temperature monitoring. Remarkably, the experimentally measured temperature sensing deviation is only ±0.23 K. The integration of stable energy storage and optical self-diagnosis provides a new paradigm for ceramic-based brain pacemaker pulse generators with early warning capability, pointing toward a possible solution to the intrinsic safety limitations of conventional battery-powered devices. Dielectric energy-storage ceramics lose polarization at high temperatures, limiting harsh-environment use. Here, the authors show a Li+- locked domain effect in high-entropy BNT-based ceramics, achieving Wrec = 11.43 J cm−3, η = 84.67%, Δη/η < 0.3% up to 320 °C, with self-diagnostic thermometry.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-79179-0_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-03",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79179-0/MediaObjects/41467_2026_79179_Fig1_HTML.png",
+        "cached": "img/W7225048458.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79179-0"
+      },
+      "summary_ko": "이 연구는 고엔트로피 유전체 세라믹 시스템에 Li+ 농축 영역을 도입해 분극 나노도메인을 300°C까지 유지시키는 'Li+ 잠금 도메인' 효과를 보고한다. 이를 통해 11.43 J·cm−3의 회수 에너지밀도와 84.67%의 효율, 320°C까지 Δη/η<0.3%의 온도 안정성을 달성했다. 또한 Yb3+/Tm3+ 공동 도핑으로 ±0.23 K 정밀도의 온도 감지 기능을 더해 자가진단형 뇌 페이스메이커 펄스 발생기 응용을 제안한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225040862",
+      "source": "openalex",
+      "title": "Deciphering the Interfacial Chemistry Governing Oriented Zinc Electrodeposition in Aqueous Zinc Metal Batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105627",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105627",
+      "authors": [
+        "Pengyan Jiang",
+        "Qixian Zhang",
+        "Renjie Li",
+        "Jingya Yu",
+        "Huijun Lin",
+        "Chunjin Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "수계 아연 금속 전지에서 배향성 아연 전착을 지배하는 계면 화학을 규명한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7223988776",
+      "source": "openalex",
+      "title": "Structural engineering of gel electrolytes for decoupled suppression of side reactions in aqueous zinc batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105614",
+      "published": "2026-10-27",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105614",
+      "authors": [
+        "Minghao Li",
+        "Zhen Yang",
+        "Hongyu Wang",
+        "Fujun Wang",
+        "Yanling Tian",
+        "Faze Chen"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "수계 아연 전지에서 부반응을 분리적으로 억제하기 위해 겔 전해질의 구조를 설계한 연구로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7223659534",
+      "source": "openalex",
+      "title": "Simultaneous Bulk Zr4+ doping and in-situ Li2ZrO3 interfacial coating enable robust single-crystal LiNi0.88Co0.07Mn0.05O2 Cathodes for high-voltage lithium-ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105612",
+      "published": "2026-10-27",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105612",
+      "authors": [
+        "Gaoqiang Mao",
+        "Leiying Zeng",
+        "Zhiyuan Liu",
+        "Xiangke Lin",
+        "Qicheng Shi",
+        "Jian Li"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "벌크 Zr4+ 도핑과 인시츄 Li2ZrO3 계면 코팅을 동시에 적용해 고전압 리튬이온전지용 단결정 LiNi0.88Co0.07Mn0.05O2 양극의 안정성을 높인 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7223695231",
+      "source": "openalex",
+      "title": "Electronic coupling at bimetallic Ni-Co sites enables reversible Li2O2 formation and decomposition in lithium-oxygen batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105611",
+      "published": "2026-10-26",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105611",
+      "authors": [
+        "Hao Gong",
+        "Hanghua Cui",
+        "Chengjie Wu",
+        "Yanhui Gan",
+        "Songtao Zhang",
+        "Kang Xia"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-03",
+      "image": null,
+      "summary_ko": "Ni-Co 이원금속 사이트 간 전자적 결합을 통해 리튬-산소 전지에서 Li2O2의 가역적 생성·분해를 구현한 연구로 보인다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}

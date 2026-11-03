@@ -1,42 +1,32 @@
 {
-  "title": "최근 2주 논문 브리핑 (10/20–10/31)",
-  "range": "2026-10-20 ~ 2026-10-31",
-  "overall": "지난 2주간 리튬·소듐 금속 음극에서는 전해질 용매화 구조와 계면(SEI/CEI) 설계가 핵심 축을 이뤘고, 양극 분야에서는 산소 레독스 안정화와 계면·도핑 공학을 통한 고전압·고에너지밀도 구현이 두드러졌다.",
+  "title": "최근 2주 논문 브리핑 (10/21–11/1)",
+  "range": "2026-10-21 ~ 2026-11-01",
+  "overall": "리튬 금속 전지에서는 전해질 용매화 구조 설계와 계면(SEI/CEI) 공학이 고에너지밀도·광온도·고속충전을 동시에 겨냥하는 핵심 축으로 자리잡았고, 양극 분야에서는 Li-rich의 산소 레독스 가역성 확보, Ni-rich의 계면 안정화, 소듐계 전해질의 저온·장수명 설계가 두드러진다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 용매화 구조 제어가 가장 큰 흐름으로, 약솔베이팅 에테르·카보네이트, (국소)고농도 전해질, 음이온 지배형 솔베이션을 통해 LiF가 풍부한 무기 계면을 형성하는 접근이 반복적으로 등장했으며 머신러닝 기반 용매·희석제 설계(쌍극자 모멘트, BF3 친화도·MPI 디스크립터)가 이를 가속하고 있다. 고체·준고체 쪽에서는 불소화 폴리(이온성 액체), 자가치유 이중염 겔, 염화물 전해질의 안티사이트 전자 국소화, 가넷 계면의 자기적응형 구배층 등으로 고전압 내성과 고전류밀도(최대 30 mA/cm²) 양립을 꾀했다. 음극·분리막 구조 설계(단일원자-나노입자 전자결합, Cu 나노와이어 샌드위치, 음열팽창 분리막, 난연 보호막)와 ARXPS 같은 비파괴 계면 분석도 보완적으로 발전했으며, 결과적으로 500 Wh/kg급 파우치셀과 −40°C 저온 구동 사례가 다수 보고됐다.",
+      "text": "전해질 설계가 가장 활발한 영역으로, 약용매화 에테르·카르복실산 에스터의 용매화 클러스터 조절(HGSE), 머신러닝 기반 쌍극자·분극률 예측, 불소화 폴리이온성액체·이중염 겔 고분자 등 다양한 접근으로 음이온 유래 LiF 풍부 계면과 높은 Li+ 이전율을 확보하며 500 Wh/kg급 파우치셀을 구현하는 흐름이 뚜렷하다. 음극·계면 측면에서는 단일원자-나노입자 전자결합을 통한 측면 성장 유도, 기계적 재구성·샌드위치 Cu 나노와이어 호스트, 전고체용 자기적응형 구배 중간층 등 덴드라이트 억제 전략이 다변화되고 있다. 또한 열응답형 전해질·음열팽창 분리막·난연 복합체처럼 열폭주와 안전성을 겨냥한 설계와, ARXPS·NDP 같은 비파괴 계면 분석 기법이 병행 발전 중이다. 전반적으로 무음극(anode-free)·고전압·저온 등 극한 조건에서의 계면 안정성 확보가 공통 목표다.",
       "highlights": [
         {"title": "Machine Learning-Guided Precise Electrolyte Engineering Enables Stable Lithium Metal Pouch Cells Exceeding 350 Wh/kg at −40 °C", "url": "https://doi.org/10.1021/jacs.6c16293", "venue": "Journal of the American Chemical Society"},
-        {"title": "Solvation Cluster Engineering of Non-Fluorinated Ethers toward High-Energy Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c16390", "venue": "Journal of the American Chemical Society"},
-        {"title": "Self‐Adaptive Gradient Interphase Enables Durable Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.79304", "venue": "Advanced Functional Materials"}
+        {"title": "Ionic‐Ligand‐Assisted Transport in Fluorinated Poly(ionic liquid) Electrolytes Enables 515 Wh Kg −1 Solid‐State Lithium Metal Batteries", "url": "https://doi.org/10.1002/adma.75524", "venue": "Advanced Materials"},
+        {"title": "Beyond Isolated Active Sites: Adjacent Single‐Atom‐Nanoparticle Electronic Coupling Enables Lateral Lithium Growth", "url": "https://doi.org/10.1002/adma.75485", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속 계면의 안정성과 용해 거동 규명이 주요 관심사로, QCM을 이용해 에테르계 SEI의 55~76%가 휴지 중 용해되며 NaF·NaxPOyFz 무기 성분마저 불안정해 지속적 부식을 유발함을 정량화한 연구가 보고됐다. 이를 보완하는 방향으로 약솔베이팅 카르복실산 에스터 전해액과 협동 첨가제로 유무기 혼성 계면을 형성해 −40°C 광온도 구동을 달성했고, 숙시노니트릴 고체전해질에서는 탈양성자화를 열역학적으로 억제해 대칭셀 6200시간·풀셀 1만 사이클 수준의 내구성을 구현했다. 기초 분석 측면에서는 cryo-EM/ET로 하드카본 표면의 결정질 소듐 금속 나노입자 분포를 직접 관찰한 연구가 통념을 재검토했다.",
+      "text": "소듐 금속·하드카본 음극의 계면 안정성 규명과 전해질 설계가 핵심 주제다. QCM 분석으로 에테르계 SEI가 휴지 중 55~76%까지 용해되어 지속적 부식과 저장 수명 저하를 유발함을 정량화한 연구와, cryo-EM/ET로 결정질 소듐 금속이 하드카본 입자 표면 근방에 존재함을 밝힌 관찰 연구가 기존 통념을 재검토한다. 전해질 측에서는 약용매화 카르복실산 에스터 및 숙시노니트릴 기반 고체전해질로 Na+ 탈용매화를 촉진하고 유무기 혼성 계면을 형성해 저온 작동과 수천~만 회 수준의 장수명을 달성했다.",
       "highlights": [
+        {"title": "Discovering Underpotentially Deposited Crystalline Sodium Metal Nanoparticles on the Surface of Hard Carbon Anodes", "url": "https://doi.org/10.1021/jacs.6c11841", "venue": "Journal of the American Chemical Society"},
         {"title": "Quantifying Sodium Metal SEI Dissolution and Relation to Corrosion Using Quartz Crystal Microbalance", "url": "https://doi.org/10.1021/acsenergylett.6c01766", "venue": "ACS Energy Letters"},
-        {"title": "Thermodynamic Suppression of Deprotonation in Succinonitrile‐Based Electrolyte for Durable Solid‐State Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/adfm.79209", "venue": "Advanced Functional Materials"},
-        {"title": "Discovering Underpotentially Deposited Crystalline Sodium Metal Nanoparticles on the Surface of Hard Carbon Anodes", "url": "https://doi.org/10.1021/jacs.6c11841", "venue": "Journal of the American Chemical Society"}
-      ]
-    },
-    {
-      "topic": "li-rich",
-      "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "산소 레독스 가역성 확보와 전압 감쇠 억제가 공통 과제로, 결정립계 패시베이션(탄닌산 유도 페로브스카이트 상)과 산소 결함 사전 유도를 통한 Ni–O 전자구조·리간드-홀 특성 조절이 상보적 전략으로 제시됐다. 계면 측면에서는 4.8V급 고전압 구동 시 활성산소종에 의한 전해질 분해를 코어-셸 용매화 구조로 차단해 가스 발생을 억제했다. 또한 공침-저온 고상법으로 다각형 음이온이 통합된 무질서 암염형(DRX) 양극을 스케일업 합성해 324 mAh/g(935 Wh/kg)의 고에너지밀도와 제조 호환성을 동시에 노렸다.",
-      "highlights": [
-        {"title": "Vacancy-Induced Ligand-Hole Character Redirects Oxygen Redox in Li-Rich Layered Oxides", "url": "https://doi.org/10.1021/jacs.6c17588", "venue": "Journal of the American Chemical Society"},
-        {"title": "Stabilizing Oxygen Redox in Polycrystalline Li‐Rich Layered Cathodes via Efficient Grain Boundary Passivation", "url": "https://doi.org/10.1002/anie.8528584", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Suppressing Side Reaction via Fluorinated Core–Shell Electrolyte for Durable 4.8 V Li‐Rich Batteries", "url": "https://doi.org/10.1002/adfm.79308", "venue": "Advanced Functional Materials"}
+        {"title": "Thermodynamic Suppression of Deprotonation in Succinonitrile‐Based Electrolyte for Durable Solid‐State Sodium‐Metal Batteries", "url": "https://doi.org/10.1002/adfm.79209", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "Li-S와 Li-CO2 등 전환형 양극에서 원자 수준 촉매 설계가 뚜렷한 흐름을 이뤘다. Fe-Mn 이원자 사이트의 이축 질소 배위, Ce 담지 LDH의 셀프탠덤 촉매는 각각 전하 국소화와 d-p 오비탈 혼성화·탈솔베이션 가속으로 황 레독스 속도와 저온(−30°C) 성능을 끌어올렸다. Li-CO2 전지에서는 Cu 클러스터-단일원자 간 전하이동으로 탄산염 중간체 활성화 경로를 재구성해 속도결정단계 에너지를 낮췄다. 고전압 리튬 금속용으로는 불소화 유기규산염 염이 HF·H2O 스캐빈징을 통해 견고한 CEI/SEI를 동시에 구축했다.",
+      "text": "Li-S와 Li-O2/Li-CO2 등 전환형 양극에서 단일·이원자 촉매를 통한 반응속도론 개선이 공통 흐름이다. Fe-Mn 이원자 사이트의 축방향 질소 배위로 d-p 혼성화를 강화해 폴리설파이드 셔틀을 억제하거나, Ce 담지 LDH 셀프탠덤 촉매로 광온도 Li-S 전환을 가속하는 전략이 제시됐다. Li-O2에서는 Ni-Co 이원금속 전자결합으로 Li2O2 가역성을, 전고체 Li-CO2에서는 Cu 클러스터-단일원자 전하이동으로 탄산염 중간체 활성화를 구현했다. 전반적으로 금속 활성점 간 전자적 결합·전하이동 제어가 전환 반응 촉매 설계의 중심축이다.",
       "highlights": [
         {"title": "Dual‐Axial Nitrogen Coordination‐Induced Mn Charge Localization at Fe‐Mn Dual‐Atom Sites for Enhanced Sulfur Redox Kinetics", "url": "https://doi.org/10.1002/adfm.79272", "venue": "Advanced Functional Materials"},
         {"title": "An integrated cathode-electrolyte architecture with Cu dual active-sites for all-solid-state Li–CO2 batteries", "url": "https://doi.org/10.1038/s41467-026-78929-4", "venue": "Nature Communications"},
@@ -44,9 +34,19 @@
       ]
     },
     {
+      "topic": "li-rich",
+      "heading": "Li-rich(리튬 과잉) 양극",
+      "text": "산소(음이온) 레독스의 가역성 확보와 전압 감쇠 억제가 일관된 과제다. 결정립계 패시베이션(BaMO3-δ 페로브스카이트)으로 산소 방출을 완화하거나, 산소 결함 선유도로 Ni-O 혼성화와 리간드-홀 특성을 조절해 격자 안정성을 높이는 전자구조 공학적 접근이 제시됐다. 4.8V 고전압에서는 활성산소종(ROS)에 의한 전해질 분해를 코어-셸 용매화 희석제로 차단하는 전략이, 제조 측면에서는 공침-저온 고상법으로 폴리음이온 통합 DRX 양극을 스케일업하는 경로가 보고됐다.",
+      "highlights": [
+        {"title": "Stabilizing Oxygen Redox in Polycrystalline Li‐Rich Layered Cathodes via Efficient Grain Boundary Passivation", "url": "https://doi.org/10.1002/anie.8528584", "venue": "Angewandte Chemie International Edition"},
+        {"title": "Vacancy-Induced Ligand-Hole Character Redirects Oxygen Redox in Li-Rich Layered Oxides", "url": "https://doi.org/10.1021/jacs.6c17588", "venue": "Journal of the American Chemical Society"},
+        {"title": "Suppressing Side Reaction via Fluorinated Core–Shell Electrolyte for Durable 4.8 V Li‐Rich Batteries", "url": "https://doi.org/10.1002/adfm.79308", "venue": "Advanced Functional Materials"}
+      ]
+    },
+    {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "Ni-rich 및 중니켈 양극에서 산소 관련 열화 억제와 계면 Li+ 수송 촉진이 공통 목표로, 비정질 옥시할라이드(Nb-O-Cl) 프레임워크가 단순 산화물 코팅을 넘어 Ni-O 전자구조를 재구성하며 4.5V·고로딩 500사이클 후 88% 유지를 달성했다. 저비용화 측면에서는 탄산리튬 유래 다중스케일 결함을 2차 열처리로 치유해 수산화리튬 기반 양극과 동등한 성능을 확보하며 전구체 비용을 절감했다. 또한 탄산염 전해질에 LiF·Li2O 입자를 분산시켜 음극과 NCM 양쪽에 LiF 풍부 이중층 계면을 형성하는 전략도 보고됐다.",
+      "text": "고전압·Ni-rich 단결정 양극의 계면 안정화와 벌크 도핑의 결합이 중심 주제다. Zr4+ 벌크 도핑과 인시츄 Li2ZrO3 코팅, 혹은 옥시할라이드 유래 Nb-O-Cl 계면 프레임워크처럼 수동적 산화물 코팅을 넘어 Ni-O 전자구조를 재구성하고 Li+ 이동을 동시에 촉진해 산소 관련 비가역 열화를 억제하는 능동적 계면 설계가 부각된다. 또한 저가 탄산리튬 전구체의 다중스케일 결함을 2차 열처리로 치유해 성능을 수산화리튬 수준으로 끌어올리는 제조 비용 절감 연구도 보고됐다.",
       "highlights": [
         {"title": "Oxyhalide‐Derived Nb‐O‐Cl Interfacial Frameworks for Mitigating Oxygen‐Related Degradation and Facilitating Li + Transport in High‐Voltage Ni‐Rich Cathodes", "url": "https://doi.org/10.1002/aenm.71729", "venue": "Advanced Energy Materials"},
         {"title": "Tracing and Healing Multiscale Defects for Cost‐Effective Lithium Carbonate‐Derived Layered Oxide Cathodes", "url": "https://doi.org/10.1002/aenm.71727", "venue": "Advanced Energy Materials"}
@@ -55,7 +55,7 @@
     {
       "topic": "lfp",
       "heading": "LFP/올리빈",
-      "text": "망간 함유 올리빈(LMFP)의 고율 성능 한계를 소재·전극 양면에서 공략했다. 소재 측면에서는 Fe 사이트의 균일한 Ti4+ 도핑과 Li 사이트의 구배형 Mg2+ 도핑으로 얀-텔러 왜곡과 망간 용출을 억제해 고온 사이클 안정성을 높였다. 전극 공정 측면에서는 칼렌더링 밀도와 집전체 탄소코팅의 상호작용을 분석해, 고밀도(2.5 g/cm³ 이상)에서는 순수 알루미늄 집전체만으로도 15분 내 급속충전이 가능함을 보여 탄소코팅 포일의 필요성을 재검토했다.",
+      "text": "LMFP 올리빈 양극의 고율·고온 성능 개선이 초점이다. Fe 사이트 균일 Ti4+와 Li 사이트 구배 Mg2+ 공도핑으로 얀-텔러 왜곡을 억제하고 망간 용출을 완화하는 조성 설계와, 칼렌더링 밀도·집전체 탄소코팅 간 상호작용을 분석해 순수 알루미늄 포일에서 고밀도 압연만으로 15분 급속충전을 달성하는 전극 공정 최적화가 대비된다.",
       "highlights": [
         {"title": "Gradient Mg and Uniform Ti Co‐Doping Suppresses Jahn–Teller Effect in LMFP via Optimized Ion‐Transport Kinetics and Interfacial Reactions", "url": "https://doi.org/10.1002/anie.6840734", "venue": "Angewandte Chemie International Edition"},
         {"title": "Battery Electrode Engineering Enables Fast Charging LMFP Cells Without Carbon‐Coated Foil", "url": "https://doi.org/10.1002/advs.78510", "venue": "Advanced Science"}
