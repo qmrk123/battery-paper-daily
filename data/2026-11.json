@@ -86,7 +86,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79466",
+        "cached": "img/W7225124530.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79466"
+      },
       "summary_ko": "폴리아크릴산(PAA)에 포스포늄계 이온성 액체([P4441][DMP])를 도입해 자립형 글래스겔 전해질을 개발했다. 2.2 mS/cm의 이온전도도와 30 MPa의 인장강도를 가지며, Li 금속과의 부반응을 억제해 Li||Li 대칭셀에서 1900시간 안정적 사이클링을 구현했다. Li//NCM811 및 Li//LiCoO2 완전셀에서도 각각 420회, 290회 이상의 장기 사이클 안정성을 보였다.",
       "relevant": true
     },
@@ -116,7 +122,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79445",
+        "cached": "img/W7225127489.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79445"
+      },
       "summary_ko": "GaIn 액체금속 나노입자를 탄소층으로 감싼 구형 집전체(GaIn@C)를 제안해 리튬 증착 시 팁 효과를 억제하고 덴드라이트 없는 균일한 리튬 증착을 구현했다. 잔류 SEI(rSEI)를 안정적으로 유지하여 Li 반셀에서 최대 3500시간의 사이클 수명을 달성했다. 무음극 완전셀에서는 410 Wh/kg 이상의 에너지밀도와 99.9%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -146,7 +158,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79461",
+        "cached": "img/W7225114528.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79461"
+      },
       "summary_ko": "불연성 인산계 전해질에서 이온 흐름을 균일화하는 이중기능 분리막을 설계해 리튬 금속 전극과 니켈리치 양극의 부반응을 억제했다. Li||Li 대칭셀은 1000시간 이상 안정적으로 작동했으며, Li||NCM811 완전셀은 300회 사이클 후 90% 이상의 용량 유지율을 보였다. 이를 통해 불연성 전해질 기반 리튬 금속 배터리의 안전성과 사이클 안정성을 동시에 향상시켰다.",
       "relevant": true
     },
@@ -176,7 +194,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75592",
+        "cached": "img/W7225098859.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75592"
+      },
       "summary_ko": "결정질 Se8를 그래핀 위에 비정질 단분자/단쇄 셀레늄(Sex, x<4)으로 전환해 전자전도도와 Li+ 확산도를 크게 높인 전고체 리튬-셀레늄 배터리용 양극을 개발했다. Li2O 나노쉘로 황화물 고체전해질 계면을 안정화해 0.1C에서 673 mAh/g의 이론용량과 3C·2800회 사이클에서 86%의 용량 유지율을 달성했다. 파우치셀에서는 420 Wh/kg의 에너지밀도와 -30°C에서의 저온 구동을 보였다.",
       "relevant": true
     },
@@ -234,7 +258,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-03",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78467",
+        "cached": "img/W7225037331.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78467"
+      },
       "summary_ko": "이 리뷰는 중성자 유발 핵반응을 이용한 비파괴 정량 깊이분석 기법인 중성자 깊이 프로파일링(NDP)의 원리와 중성자원 기술 발전, 배터리 응용(전극 내 리튬 이동, 리튬 덴드라이트 핵생성·성장, 고체전해질 계면의 가역적 단락 현상)을 종합적으로 다룬다. NDP는 6Li 동위원소에 대한 높은 민감도와 나노~마이크로미터급 깊이 분해능을 제공하지만, 깊이에 따른 분해능 저하, 제한적인 수평 분해능, 대형 중성자 시설 의존성 등의 한계가 있다. 저자들은 NDP를 다중 분석기법 및 물리 정보 기반 머신러닝과 결합해 차세대 고안전·고에너지밀도 배터리 설계에 활용하는 로드맵을 제시한다.",
       "relevant": true
     },
@@ -1022,7 +1052,13 @@
       "journal_id": "S4210200754",
       "journal_metric": 2.14,
       "first_seen": "2026-11-04",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/ange.6809424",
+        "cached": "img/W7223338343.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie - https://doi.org/10.1002/ange.6809424"
+      },
       "summary_ko": "Sn(OTf)2를 이용한 음이온-양이온 표적 조절 전략으로 용매가 우세한 솔베이션 구조를 형성하고 합금 기반 SEI(Na15Sn4)를 유도하여 저온 소듐 금속 배터리 성능을 개선했다. Na||Na3V2(PO4)3 셀은 -20°C·20C에서 1050회, -50°C에서 약 700회의 사이클을 달성했다. 6 Ah급 파우치셀은 -20°C에서 450회 사이클을 유지했고 25°C에서 215 Wh/kg의 에너지밀도를 보였다.",
       "relevant": true
     },
