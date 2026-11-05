@@ -35,6 +35,10 @@
   "metric": 6.88,
   "name": "Journal of the Mechanics and Physics of Solids"
  },
+ "S105962883": {
+  "metric": 6.32,
+  "name": "Scripta Materialia"
+ },
  "S10623703": {
   "metric": 6.42,
   "name": "International Journal of Molecular Sciences"
@@ -222,6 +226,10 @@
  "S138530117": {
   "metric": 5.96,
   "name": "Materials Research Bulletin"
+ },
+ "S138757394": {
+  "metric": 13.09,
+  "name": "Acta Physico-Chimica Sinica"
  },
  "S138759888": {
   "metric": 3.68,
@@ -1707,6 +1715,10 @@
   "metric": 3.66,
   "name": "Batteries & Supercaps"
  },
+ "S4220651420": {
+  "metric": 7.39,
+  "name": "Cleaner Waste Systems"
+ },
  "S42323631": {
   "metric": 6.22,
   "name": "Applied Surface Science"
@@ -1938,6 +1950,10 @@
  "S4387282792": {
   "metric": 3.38,
   "name": "ACS Applied Engineering Materials"
+ },
+ "S4387282803": {
+  "metric": 1.1,
+  "name": "Progress in Energy and Environment"
  },
  "S4387283089": {
   "metric": 0.53,
