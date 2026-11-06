@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-06",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79426",
+        "cached": "img/W7225237777.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79426"
+      },
       "summary_ko": "무음극 소듐 금속 전지(AFSMB)의 집전체 위에 2D MoS2 코팅을 전기화학적으로 변환시켜 금속 Mo 활성점을 가진 플루오로설파이드계(FS-SEI) 인공 SEI를 구현했다. 이 계면은 소듐친화성과 Na+ 확산성이 높고 전자 차단 특성을 가져 균일한 Na 플럭스 분포와 부반응 억제를 유도한다. MoS2@Cu 반전지는 350회 사이클에서 평균 쿨롱효율 99.85%를 달성했고, Na3V2(PO4)3 양극과 조합한 완전지는 97% 이상의 용량 유지율과 우수한 율속 특성을 보였다.",
       "relevant": true
     },
