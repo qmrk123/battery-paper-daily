@@ -1,8 +1,66 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-05T01:23:29+00:00",
-  "count": 53,
+  "generated_at": "2026-11-06T01:27:03+00:00",
+  "count": 72,
   "papers": [
+    {
+      "id": "W7225237777",
+      "source": "openalex",
+      "title": "In Situ Constructed Fluorosulfided Interface With Metallic Mo Sites for Robust Anode‐Free Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79426",
+      "published": "2026-11-04",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adfm.79426",
+      "authors": [
+        "Di Zhou",
+        "Meng Zhang",
+        "Yijia Zhang",
+        "Bangning Cheng",
+        "Sung‐Soo Kim",
+        "Zhengqing Ye"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Anode‑free sodium metal batteries (AFSMBs) are acclaimed for their low‑cost, sustainability, and high energy density. However, achieving highly reversible Na plating/stripping on bare current collectors (CCs) and robust solid electrolyte interphase (SEI) is challenging. Herein, we present a robust fluorosulfided SEI (FS‐SEI) layer with metallic Mo active sites through in situ electrochemical transformation of 2D MoS 2 coating on the Cu CCs. Specifically, the ingenious 2D MoS 2 holds short ion transport pathways and large contact active areas during battery operation. Furthermore, MoS 2 can in situ convert into metallic Mo and Na 2 S, while catalyzing the dissolution of NaPF 6 to generate NaF. The in situ formed FS‐SEI film possesses excellent sodiophilicity, high Na + diffusion, and good electron‐blocking capability, which effectively guides a homogeneous distribution of Na + flux, accelerates the electrochemical reaction kinetics, and blocks side reactions between electrolyte and electrodes. Benefiting from these advantages, the MoS 2 @Cu half cells achieve average Coulombic efficiency of 99.85% over 350 cycles at 10 mA cm −2 and 10 mAh cm −2 . When paired with Na 3 V 2 (PO 4 ) 3 cathodes, the AFSMBs exhibit excellent rate capability and cycling stability (>97.0% retention). This work offers insights into engineering a stable in situ SEI via 2D sodiophilic architectures, paving the way for developing energy‐dense and durable AFSMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "무음극 소듐 금속 전지(AFSMB)의 집전체 위에 2D MoS2 코팅을 전기화학적으로 변환시켜 금속 Mo 활성점을 가진 플루오로설파이드계(FS-SEI) 인공 SEI를 구현했다. 이 계면은 소듐친화성과 Na+ 확산성이 높고 전자 차단 특성을 가져 균일한 Na 플럭스 분포와 부반응 억제를 유도한다. MoS2@Cu 반전지는 350회 사이클에서 평균 쿨롱효율 99.85%를 달성했고, Na3V2(PO4)3 양극과 조합한 완전지는 97% 이상의 용량 유지율과 우수한 율속 특성을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225225912",
+      "source": "openalex",
+      "title": "Autoantibodies associate with clinical outcome in patients with melanoma treated with a dendritic cell-based vaccine",
+      "url": "https://doi.org/10.1038/s41467-026-78893-z",
+      "published": "2026-11-04",
+      "topics": [],
+      "doi": "10.1038/s41467-026-78893-z",
+      "authors": [
+        "Paul V. Munson",
+        "Juraj Adamik",
+        "Yile Dai",
+        "Marshall A. Thompson",
+        "Christine N. Spencer",
+        "Caleigh Mandel‐Brehm"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Increased B cell receptor signaling pathways in patients with melanoma correlates with a favorable clinical response to a cancer vaccine expressing multiple tumor-associated antigens. Here, we utilize phage immunoprecipitation sequencing (PhIP-seq) and Rapid Extracellular Antigen Profiling (REAP) assays to analyze the autoantibody profiles of patients with melanoma from a dendritic cell vaccine trial (NCT01622933), before and after vaccination. Patients have significantly elevated breadth and titer of autoantibodies compared to healthy donors. Vaccination results in the induction of de novo autoantibodies, particularly those with a favorable clinical outcome. Reduced serum SDF1-alpha, MIP-1ß, MCP1 and increased circulating monocytes are associated with development of autoantibodies. We identify plasma autoantibody signatures separating melanoma from healthy subjects as well as clinical responders vs non-responders to vaccination treatment. These findings demonstrate the potential for autoantibodies as diagnostic and prognostic biomarkers that predict clinical outcomes in cancer. NCT01622933 was a clinical trial of an autologous dendritic cell-based vaccine in patients with melanoma. Here the authors show that the vaccine results in the induction of de novo autoantibodies associated with a favourable clinical outcome.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-78893-z",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "흑색종 환자 대상 수지상세포 기반 백신 임상시험(NCT01622933)에서 PhIP-seq와 REAP 분석을 통해 자가항체 프로파일을 분석했다. 백신 접종 후 새로운 자가항체가 유도되었으며, 특히 임상 반응이 양호한 환자에서 그 폭과 수치가 더 높았다. 혈청 SDF1-alpha, MIP-1β, MCP1 감소와 순환 단핵구 증가가 자가항체 발생과 연관되었고, 이 자가항체 시그니처는 임상 반응을 예측하는 바이오마커로 활용될 수 있음을 제시했다.",
+      "relevant": false
+    },
     {
       "id": "W7225160496",
       "source": "openalex",
@@ -459,6 +517,64 @@
       "relevant": true
     },
     {
+      "id": "W7225233943",
+      "source": "openalex",
+      "title": "Why sulfur stays present but inaccessible in practical lithium-sulfur pouch cells",
+      "url": "https://doi.org/10.1016/j.joule.2026.102716",
+      "published": "2026-11-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.joule.2026.102716",
+      "authors": [
+        "Niubu LeGe",
+        "Mengxue He",
+        "Chunli Shen",
+        "Yuanrui Li",
+        "Liu Y",
+        "Quanquan Pang"
+      ],
+      "venue": "Joule",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2898305631",
+      "journal_metric": 27.22,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "실제 리튬-황 파우치셀에서 황이 소실되지 않고 존재하지만 전기화학적으로 접근하기 어려워지는 원인을 분석한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225242740",
+      "source": "openalex",
+      "title": "Synergistic interfacial self-assembly of multifunctional groups for quasi-static zincophilic electrical double layers toward dendrite-free Zn anodes",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.050",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.050",
+      "authors": [
+        "Qinglong Zhao",
+        "Xudong Gao",
+        "Haonan Zheng",
+        "Qian Li",
+        "Chaowei He",
+        "Fupu Liu"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "다기능 작용기들의 계면 자기조립을 통해 준정적 징크필릭 전기이중층을 형성, 덴드라이트가 없는 Zn 음극을 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7225098859",
       "source": "openalex",
       "title": "Submolecular Selenium Enables Low‐Pressure and Recyclable All‐Solid‐State Li–Se Batteries",
@@ -523,6 +639,94 @@
       "relevant": false
     },
     {
+      "id": "W7225242528",
+      "source": "openalex",
+      "title": "Safety assessment and mechanistic analysis of large-format LiCoO2 batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.043",
+      "published": "2026-11-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.043",
+      "authors": [
+        "Baoyun Ye",
+        "Wenqing Li",
+        "Jingwen Guan",
+        "Lvye Dou",
+        "Yongchao Yu",
+        "Shihang Li"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "대형 포맷 LiCoO2 전지의 안전성을 평가하고 그 메커니즘을 분석한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225269017",
+      "source": "openalex",
+      "title": "Robust Vertical Nanosheet Arrays Enable Dendrite-Free and Ultra-Stable Molten Salt Aluminum Batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112585",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112585",
+      "authors": [
+        "Xiaoxue Yan",
+        "Kai Luo",
+        "Ziyang Liu",
+        "Xiaoying Cui",
+        "Yufan Fang",
+        "Changyuan Guo"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "수직 배열된 나노시트 구조를 이용해 덴드라이트가 없고 매우 안정적인 용융염 알루미늄 전지를 구현한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225202163",
+      "source": "openalex",
+      "title": "Revealing the interplay between aluminium doping and fluorinated high-concentration electrolyte towards high-voltage and fast-charging LiCoO2",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105635",
+      "published": "2026-11-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105635",
+      "authors": [
+        "Yu Pu",
+        "Chengyu Li",
+        "Zhuo Peng",
+        "Run Yu",
+        "Peiyang Mu",
+        "Wenbo He"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "알루미늄 도핑과 불소화 고농도 전해질의 상호작용을 분석하여 고전압·고속충전이 가능한 LiCoO2를 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W7225143522",
       "source": "openalex",
       "title": "Regulating Hydrogen-bond Network and Solvation Structure in Amino Acid-Functionalized Ionic Liquid Hydrogel Electrolytes for Dendrite-Free, Long-Lifespan Flexible Zinc Ion Batteries",
@@ -549,6 +753,36 @@
       "image": null,
       "summary_ko": "아미노산으로 기능화된 이온성 액체 하이드로젤 전해질의 수소결합 네트워크와 솔베이션 구조를 조절하여 덴드라이트 없는 장수명 플렉시블 아연이온전지를 구현하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7225274237",
+      "source": "openalex",
+      "title": "Quasi-solid-state electrolyte enabling sustained discharge in Li-Mars gas batteries by coordinating reaction zones and discharge product growth",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.044",
+      "published": "2026-11-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.044",
+      "authors": [
+        "Zehui Zhao",
+        "Xu Xiao",
+        "Zhuojun Zhang",
+        "Aijing Yan",
+        "Yasen Hao",
+        "Bin Zhao"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "반응 영역과 방전 생성물 성장을 함께 조절하는 준고체 전해질을 통해 Li-화성가스(Li-Mars gas) 전지의 지속적인 방전을 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7225037331",
@@ -584,6 +818,64 @@
         "attribution": "Advanced Science - https://doi.org/10.1002/advs.78467"
       },
       "summary_ko": "이 리뷰는 중성자 유발 핵반응을 이용한 비파괴 정량 깊이분석 기법인 중성자 깊이 프로파일링(NDP)의 원리와 중성자원 기술 발전, 배터리 응용(전극 내 리튬 이동, 리튬 덴드라이트 핵생성·성장, 고체전해질 계면의 가역적 단락 현상)을 종합적으로 다룬다. NDP는 6Li 동위원소에 대한 높은 민감도와 나노~마이크로미터급 깊이 분해능을 제공하지만, 깊이에 따른 분해능 저하, 제한적인 수평 분해능, 대형 중성자 시설 의존성 등의 한계가 있다. 저자들은 NDP를 다중 분석기법 및 물리 정보 기반 머신러닝과 결합해 차세대 고안전·고에너지밀도 배터리 설계에 활용하는 로드맵을 제시한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225174926",
+      "source": "openalex",
+      "title": "Molecular design of sulfonate-graphene oxide frameworks (GOF) separators with crystallographic orientation and ion selectivity for high-rate zinc-ion storage",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105636",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105636",
+      "authors": [
+        "Haijun Peng",
+        "Verónica Montes‐García",
+        "Dawid Pakulski",
+        "唐有根",
+        "Artur Ciesielski",
+        "Haiyan Wang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "Aqueous zinc-ion batteries (AZIBs) are highly attractive for grid-scale energy storage owing to their inherent safety and low cost. However, Zn dendrite growth and parasitic side reactions severely limit their fast-charging capability and cycling stability. Graphene oxide (GO) is a promising separator scaffold since its layered, graphitic domains can template Zn deposition along the (002) plane. Concurrently, its abundant oxygen-containing functional groups enable the interlayer regions chemical expansion and functionalization. Herein, we report two strategies to tailor Janus separators, achieved by spray-coating sulfonate-containing GO frameworks (GOFs) onto commercial cellulose fiber (CF) membranes. The reaction of GO with two diamino-substituted disulfonic acid pillars, i.e. 2,5-diaminobenzene-1,4-disulfonic acid (S1) and 2,2′-benzidinedisulfonic acid (S2), yields a GO interlayer spacing expansion from 0.79 to 1.09 nm and 1.41 nm, respectively, opening selective Zn²⁺ transport channels. The pendant sulfonate groups within these channels lock Zn ions into (002) texture, electrostatically repel SO₄²⁻, and release H⁺, collectively suppressing parasitic side reactions and raising the Zn²⁺ transference number from 0.45 (CF) to 0.62 (GOF-S1@CF) and 0.68 (GOF-S2@CF). Zn//Zn symmetric cells assembled with the Janus separators cycle for 2700–3600 h at 2 mA cm⁻², compared with 1200 h for bare CF. Zn//MnO₂ full cells retain 81.2% of their capacity after 2000 cycles at 1 A g⁻¹, and a Zn//NH₄V₄O₁₀ pouch cell retains 82.4% capacity over 400 cycles, whereas the CF-based pouch cell fails within 20 cycles. These results demonstrate that combining ion-selective transport with crystallographic control of Zn deposition is an effective route to long-lived, fast-charging AZIB separators.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105636",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "술폰산염을 포함하는 그래핀 산화물 프레임워크(GOF)를 분리막에 도입해 Zn2+ 선택적 이동 경로와 (002) 결정 배향을 유도, 수계 Zn-이온전지의 덴드라이트 억제 및 고속충전 성능을 개선했다. Zn 전달수가 CF 대비 0.45에서 0.62~0.68로 증가했고, Zn//Zn 대칭셀은 최대 3600시간, Zn//NH4V4O10 파우치셀은 400회 사이클에서 82.4%의 용량을 유지했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225259080",
+      "source": "openalex",
+      "title": "Mitigating intrinsic structural instability of sodium iron sulfate cathodes via trace fluorine doping enables high-rate and long-life sodium-ion batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.045",
+      "published": "2026-11-01",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.045",
+      "authors": [
+        "Dazhong Wang",
+        "Zhenchuan Xu",
+        "Qibo Xia",
+        "Bin Gen",
+        "Ying Zhang",
+        "Linghao Zhang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "소듐 철 설페이트 양극재의 본질적인 구조 불안정성을 미량의 불소 도핑으로 완화하여 고율속·장수명 소듐이온전지를 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
     {
@@ -736,6 +1028,62 @@
       "relevant": true
     },
     {
+      "id": "W7225225814",
+      "source": "openalex",
+      "title": "Highly reactive benzyl-hydroxyl-induced efficient crosslinking of pitch toward improved sodium storage",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.049",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.049",
+      "authors": [
+        "Yan Duan",
+        "Yanqing Wu",
+        "Ying Mo",
+        "Wang Zhou",
+        "Liqiang Ouyang",
+        "Biao Zheng"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "벤질-하이드록실기를 이용해 피치(pitch)를 효율적으로 가교시켜 소듐 저장 성능을 개선하는 탄소계 음극 소재 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225137697",
+      "source": "openalex",
+      "title": "From Order to Disorder: A Crystalline-Amorphous Core-Shell Structure Enables Superior Ionic Conductivity and Interfacial Stability in Halide Electrolytes",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112582",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112582",
+      "authors": [
+        "Mengyu Fu",
+        "Yuxin Gong",
+        "Yingmin Jin",
+        "Yumeng Li",
+        "Ruifan Lin",
+        "Changsong Dai"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": "Halide solid-state electrolytes are critical for developing high-safety, high-energy-density all-solid-state lithium batteries. However, most existing synthesis methods for halide electrolytes rely on non-equilibrium strategies, which struggle to simultaneously achieve high ionic conductivity and good stability. Here, we propose a facile one-step solid-state route that constructs a highly conductive and structurally robust crystalline-amorphous core-shell heterostructure by aliovalent doping of Hf 4+ /Zr 4+ into Li 3 YCl 6 . In this heterostructure, the ordered crystalline core serves as a robust scaffold, while nanocrystallites that simultaneously promote structural integrity and ion transport are embedded within the continuous, highly conductive amorphous shell. These structural features synergistically establish a three-dimensional ion migration network with low transport barriers and high connectivity, enabling Li 2.6 Y 0.6 Hf 0.4 Cl 6 to achieve a room-temperature ionic conductivity of 1.4 mS·cm −1 , a 37-fold enhancement over the pristine phase, and an activation energy of 0.30 eV. Benefiting from its excellent interfacial stability against Li–In anode, all-solid-state batteries employing the LiNi 0.8 Mn 0.1 Co 0.1 O 2 cathode operate stably without a sulfide interlayer, achieving 80.8% capacity retention after 200 cycles at room temperature and 73.8% retention after 100 high-rate cycles at elevated temperature. With an additional sulfide interlayer to further optimize the interface, the cell delivers a prolonged cycle life with 87.2% capacity retention over 580 cycles. Through a straightforward solid-state doping approach, this work designs a highly conductive and structurally stable halide electrolyte, offering a new design paradigm for halide electrolytes.",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2211285526008864/pdf",
+      "license": "cc-by",
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "Li3YCl6에 Hf4+/Zr4+를 이종 도핑하여 결정질 코어와 비정질 쉘로 구성된 코어-쉘 할라이드 고체전해질을 일단계 고상법으로 합성했다. 이 구조는 3차원 이온 이동 네트워크를 형성해 상온 이온전도도 1.4 mS/cm(37배 향상)와 0.30 eV의 활성화 에너지를 달성했다. Li-In 음극과의 우수한 계면 안정성으로 황화물 중간층 없이도 NCM811 양극 전지에서 상온 200회 사이클 후 80.8%, 고율 100회 사이클 후 73.8%의 용량 유지율을 보였으며, 황화물 중간층 추가 시 580회 사이클에서도 87.2%를 유지했다.",
+      "relevant": false
+    },
+    {
       "id": "W7225195383",
       "source": "openalex",
       "title": "Electrochemically Activated Multicenter Redox Mechanism for High-Energy Aqueous Zinc-ion Batteries",
@@ -873,6 +1221,61 @@
       "first_seen": "2026-11-05",
       "image": null,
       "summary_ko": "EV 배터리의 희소한 저주파 전압 데이터만으로 전기화학적 결함을 진단하기 위해 1차원 전압 시퀀스를 다차원 위상공간 토폴로지로 변환하는 크로스모달 진단 프레임워크 DeFault를 제안했다. 양방향 교차주의 메커니즘을 이용해 겹쳐진 결함 모드를 물리적으로 정렬된 형태로 분리해내며, 99대의 실차 EV에서 수집한 1640만 개의 데이터로 검증한 결과 500초 분량의 전압 스냅샷만으로도 4가지 결함 유형에 대해 평균 정확도 0.96, F1 스코어 0.84를 달성했다. 추가 센서 없이도 기존 차량군에서 고신뢰도의 배터리 안전 진단이 가능함을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225230355",
+      "source": "openalex",
+      "title": "Coordination engineering-triggered high-performance lithium-sulfur batteries in single-atom-site-based catalysts",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.052",
+      "published": "2026-11-01",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.052",
+      "authors": [
+        "Jin Fang",
+        "Zhiping Lin",
+        "Tingting Sun"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "단일원자 자리를 가진 촉매의 배위 구조를 조절함으로써 고성능 리튬-황 전지를 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225259874",
+      "source": "openalex",
+      "title": "Boron-driven closed-pore formation and interphase stabilization in hard carbon anodes for sodium-ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105639",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105639",
+      "authors": [
+        "Guopan Ren",
+        "Yuhang Wang",
+        "Kexin Tang",
+        "Yide Qiao",
+        "Gege Long",
+        "Rong Tang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "붕소를 이용해 폐쇄형 기공 형성과 계면 안정화를 유도함으로써 소듐이온전지용 하드카본 음극의 성능을 개선하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -1371,6 +1774,62 @@
       "relevant": false
     },
     {
+      "id": "W7223811560",
+      "source": "openalex",
+      "title": "Coupling bulk solvation reconstruction with ChCl-derived interfacial regulation for high-temperature-resilient zinc bromine flow batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105616",
+      "published": "2026-10-28",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105616",
+      "authors": [
+        "Long Jiang",
+        "Chengnuo Zhao",
+        "Haichao Lv",
+        "Le Li",
+        "Jingwei Xue",
+        "Haichao Huang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "ChCl 유래 계면 조절과 벌크 솔베이션 재구성을 결합하여 고온에서도 안정적인 아연-브롬 흐름전지를 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7224111335",
+      "source": "openalex",
+      "title": "A mechanically adaptive silicon-carbon anode with a self-limiting interphase for high-loading quasi-solid-state batteries without external stack pressure",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105620",
+      "published": "2026-10-28",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105620",
+      "authors": [
+        "Wenwei Ding",
+        "Qilin Zhang",
+        "Zhefei Sun",
+        "Decai Ji",
+        "Qian Ni",
+        "Wenjuan Zhu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "외부 적층 압력 없이도 고로딩 준고체 전지에 적용 가능한, 자기제한적 계면을 가진 역학적으로 적응 가능한 실리콘-카본 음극을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7223884891",
       "source": "openalex",
       "title": "Tailoring dual-anion participation via steric-tuned coordination within ether–ester Co-solvents for gradient F/N-enriched interphase on stable micro-sized silicon anodes in high-energy lithium-ion batteries",
@@ -1457,6 +1916,34 @@
       "relevant": true
     },
     {
+      "id": "W7223850090",
+      "source": "openalex",
+      "title": "Molecular modulation of phenyl-bridged diphenanthroline anodes toward ultralong-cycling sodium–organic batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105618",
+      "published": "2026-10-27",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105618",
+      "authors": [
+        "Suping Chen",
+        "Junjie Huang",
+        "Xijun Xu",
+        "Jihua Tan",
+        "Linwei Zhao",
+        "Tengteng Gu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "페닐로 연결된 디페난트롤린 분자를 음극 소재로 설계하여 초장수명 소듐-유기전지를 구현하는 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7223829859",
       "source": "openalex",
       "title": "A Tb-O functionalized separator integrated with desolvation and ion flux regulation for ultrastable Zn metal batteries",
@@ -1541,6 +2028,66 @@
       "image": null,
       "summary_ko": "Co로 도핑된 리튬 티타네이트에서 나타나는 전기화학적 오실레이션의 반응속도론적 메커니즘을 규명한 연구로 보인다. 리튬 티타네이트는 인터칼레이션형 음극 소재로 7개 분류 토픽에는 해당하지 않는다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7223559636",
+      "source": "openalex",
+      "title": "Metal‑covalent organic frameworks with spatially confined sites: synergistic regulation of Li+ transport and accelerated polysulfide conversion",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105606",
+      "published": "2026-10-25",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105606",
+      "authors": [
+        "陈月柳",
+        "Yihao Wang",
+        "Qing Peng",
+        "Jiahui Liang",
+        "Suxin Zhou",
+        "Dan Wei"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "공간적으로 제한된 자리를 가진 금속-공유결합 유기골격체(MCOF)를 이용해 Li+ 이동과 폴리설파이드 전환을 동시에 조절하는 리튬-황전지 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7223575715",
+      "source": "openalex",
+      "title": "A bulk-surface co-modification strategy enabling stable operation of ultrahigh-nickel Li(Ni0.96Co0.03Mn0.01)O2 cathode beyond 4.7 V",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105609",
+      "published": "2026-10-25",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105609",
+      "authors": [
+        "Weicai Zhang",
+        "Weigang Ding",
+        "Xiangru Liao",
+        "Jianguo Si",
+        "Haoliang Huang",
+        "Haiyan Ji"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "Ultrahigh-nickel layered Li(Ni x Co y Mn z )O 2 ( x ≥0.9) holds substantial promise for use as cathode-active materials to boost the energy density of lithium-ion batteries. However, they typically suffer rapid performance degradation under high-voltage operation. Herein, we report the synthesis of Li(Ni 0.96 Co 0.03 Mn 0.01 )O 2 (NCM96) and design an integrated bulk-surface co-modification strategy that combines low-dose Zr bulk incorporation (2000 ppm relative to the total transition-metal content) with sequential surface modifications by Al 2 O 3 /TiO 2 and H 3 BO 3 (M-NCM96). The M-NCM96 cathode is assessed under various voltage windows in lithium metal cells, which delivers a specific capacity as high as 252.2 mAh g –1 when operated at a high cutoff voltage of 5.0 V and maintain reasonably good capacity retention of 74.2% after 100 cycles. Moreover, in the optimized voltage window of 2.6 – 4.7 V at 25°C, the M-NCM96 cathode affords an initial capacity of 196.1 mAh g –1 at 1.0 C and exhibits 91.3% capacity retention after 200 cycles. Furthermore, M-NCM96 also demonstrates good performance in pouch cells, confirming that the co-modification strategy is effective at the device level. Comprehensive characterization and density functional theory calculations indicate that Zr-mediated bulk stabilization and Al/Ti/B-derived surface protection cooperatively mitigate lattice breathing, microcrack initiation/propagation, gas evolution, and electrode-electrolyte interfacial degradation, thereby enabling markedly improved cycling stability under high-voltage operation.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105609",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-06",
+      "image": null,
+      "summary_ko": "Zr을 벌크에 저농도(2000 ppm) 도핑하고 Al2O3/TiO2 및 H3BO3로 표면을 순차 개질한 초고니켈 Li(Ni0.96Co0.03Mn0.01)O2(NCM96) 양극을 개발했다. 5.0V 고전압에서 252.2 mAh/g의 비용량과 100회 사이클 후 74.2%의 용량 유지율을 달성했으며, 2.6-4.7V 범위 1.0C에서는 196.1 mAh/g 초기용량과 200회 사이클 후 91.3%의 유지율을 보였다. DFT 계산으로 Zr에 의한 벌크 안정화와 Al/Ti/B 표면 보호가 격자 호흡, 미세균열, 가스 발생, 계면 저하를 함께 억제함을 확인했다.",
+      "relevant": true
     },
     {
       "id": "W7223338343",
