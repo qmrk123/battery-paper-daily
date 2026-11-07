@@ -1055,6 +1055,10 @@
   "metric": 0.35,
   "name": "Electrochemical Energetics"
  },
+ "S4210170196": {
+  "metric": 0.85,
+  "name": "Research Horizon"
+ },
  "S4210171877": {
   "metric": 3.05,
   "name": "Chinese Journal of Electrical Engineering"
@@ -1462,6 +1466,10 @@
  "S4210215817": {
   "metric": 5.46,
   "name": "Microstructures"
+ },
+ "S4210216311": {
+  "metric": 3.16,
+  "name": "Materials Research Express"
  },
  "S4210216867": {
   "metric": 5.91,
@@ -2306,6 +2314,10 @@
  "S55626769": {
   "metric": 2.63,
   "name": "Materials Letters"
+ },
+ "S55806205": {
+  "metric": 3.52,
+  "name": "MRS Bulletin"
  },
  "S56901069": {
   "metric": 0.91,
