@@ -28,7 +28,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71809",
+        "cached": "img/W7225305677.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71809"
+      },
       "summary_ko": "리튬 금속 음극의 덴드라이트 성장과 고니켈 NCM811 양극의 계면 부반응을 해결하기 위해 자가치유형 복합 고체 전해질을 제안했다. LLZO 표면의 Li2CO3를 Li2PO3F 계면층으로 전환하고 PVDF를 고분극성 β상으로 유도해 빠른 이온 전달 경로와 안정적 계면을 구현했다. 이 전해질은 5.13V의 전기화학 안정성 창, 1.694 mS/cm의 상온 이온전도도, 422.6%의 신율, 500회 사이클 후 89.4%의 용량 유지율을 보였으며, 전기화학-기계-열 반응을 동시 모니터링하는 비파괴 진단법도 함께 제시했다.",
       "relevant": true
     },
@@ -86,7 +92,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79415",
+        "cached": "img/W7225326926.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79415"
+      },
       "summary_ko": "리튬 금속 전지의 저장(캘린더) 수명 저하가 사이클과 무관한 비파라데이식 계면 부식에 의해 발생함을 규명하고, 분해 속도상수(λ) 기반의 정량적 평가 프레임워크를 제안했다. LiNO3-15C5-CsBr 전해질은 기존 대비 100% SOC에서 2.7배, 0% SOC에서 3.4배의 저장 수명 연장을 나타냈으며, Cs+ 정전기적 차폐, Br− 계면 평활화, NO3− 무기 피막 형성이 복합적으로 Li 계면을 안정화하는 메커니즘을 제시했다.",
       "relevant": true
     },
@@ -144,7 +156,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79182",
+        "cached": "img/W7225294590.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79182"
+      },
       "summary_ko": "리튬 금속 전지용 저농도 전해질에서 코어-쉘 솔베이션 구조를 설계하여 메틸설폰이 Li+ 1차 배위를, 플루오로에틸렌카보네이트가 외곽 계면화학을 담당하도록 분리했다. 이를 통해 빠른 탈솔베이션, 4.42 mS/cm의 이온전도도, 0.74의 Li+ 이동수를 달성하고 균일한 리튬 증착을 유도하는 구배형 SEI를 형성했다. LFP||Li 셀은 5000회 사이클 후 85.9%의 용량 유지율을 보였고, 2.2Ah NCM811||Li 파우치셀에서 475Wh/kg의 중량 에너지밀도를 달성했다.",
       "relevant": true
     },
@@ -174,7 +192,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79157",
+        "cached": "img/W7225327840.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79157"
+      },
       "summary_ko": "소듐이온전지용 난연성 준고체 전해질(QSE)을 비닐렌카보네이트와 불소화 아크릴레이트 단량체의 빌딩블록 조립 전략으로 설계했다. 이 QSE는 Na+ 탈솔베이션 장벽을 낮추고 NaF 풍부 SEI를 형성해 소듐 덴드라이트 성장을 억제하며, 5.60 mS/cm의 이온전도도와 0.58의 Na+ 이동수를 나타냈다. Na||Na3V2(PO4)3 셀은 3000회 사이클 후 94.9%의 용량 유지율을 보였고, 못뚫기 및 ARC 시험으로 파우치셀의 안전성이 입증되었다.",
       "relevant": true
     },
@@ -205,7 +229,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79507",
+        "cached": "img/W7225336529.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79507"
+      },
       "summary_ko": "리튬-황전지 전해질에서 에테르계 나이트릴 용매가 보이는 숨겨진 유사 킬레이션 효과를 규명하고, 황으로 치환한 티오에테르 용매((메틸티오)아세토니트릴)로 이를 해소하는 전략을 제시했다. 이 치환은 Li+ 탈솔베이션 장벽을 낮추고 황 풍부 무기질 계면을 형성해 리튬 금속 음극과 SPAN 양극을 동시에 안정화했다. 그 결과 Li||SPAN 완전셀은 고로딩 조건에서 600회 사이클 후 86%의 용량을 유지하며 덴드라이트 성장과 폴리설파이드 셔틀을 효과적으로 억제했다.",
       "relevant": true
     },
@@ -235,7 +265,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79374",
+        "cached": "img/W7225343656.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79374"
+      },
       "summary_ko": "무불소 전해질과 가교형 비닐렌카보네이트-메틸렌비스아크릴아마이드 기반 인공 SEI(ASEI)를 구리 집전체에 결합하여 완전 무불소 계면화학으로 음극-프리 리튬 금속 전지를 구현했다. ASEI는 리튬친화성이 높아 균일하고 조밀한 리튬 증착을 유도하며 Li2O와 Li3N이 풍부한 무기질 SEI를 형성해 가역성을 향상시켰다. 프리리튬화 LFP||ASEI-Cu 셀은 350회 사이클에서 84.5%, NCM811||ASEI-Cu 셀은 100회 사이클에서 86.6%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -265,7 +301,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78680",
+        "cached": "img/W7225335097.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78680"
+      },
       "summary_ko": "소듐 금속전지의 THF/NaFSI 전해질에 불소가 없는 약배위성 희석제인 MTBE를 첨가해 국소 고농도 구조를 형성하는 전략을 제시했다. MTBE는 자유 THF를 밀어내고 FSI−를 내부 솔베이션에 더 많이 참여시켜 탈솔베이션을 가속화하고 음이온 유래의 무기질 계면을 형성해 부반응, 덴드라이트, 부식을 억제했다. 이 전해질은 Na||Na4Fe3(PO4)2P2O7 셀에서 5.0 A/g에서 74.3 mAh/g을 전달하고 고로딩 양극으로 600회 사이클 안정성을 보였으며, 파우치셀은 300회 사이클에서 92.4 mAh/g을 유지했다.",
       "relevant": true
     },
@@ -332,7 +374,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-07",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3374613",
+        "cached": "img/W7225291201.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3374613"
+      },
       "summary_ko": "P2형 Na0.6Li0.2Mn0.8O2 층상 산화물에서 충전 말기에 생성되는 산화 산소종이 사이클이 진행됨에 따라 O2−의 전자 홀과 이량체화된 (O2)n−의 혼합물에서 (O2)n−와 분자 O2의 혼합물로 연속적으로 변화함을 직접 규명했다. 이 과정은 Li-공공 클러스터의 확장과 Mn 풍부 영역의 성장과 동반되며, 더 안정한 리본 초구조를 갖는 P3 유사체에서도 동일한 경향이 관찰되어 안정적 초구조를 가진 양극 산화물에서도 분자 O2 형성이 음이온 레독스의 궁극적 산물임을 보였다.",
       "relevant": true
     },
