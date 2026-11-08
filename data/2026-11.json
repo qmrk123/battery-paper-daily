@@ -57,7 +57,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79529",
+        "cached": "img/W7225397397.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79529"
+      },
       "summary_ko": "고체 리튬 금속 배터리의 리튬 덴드라이트는 기계적 결함뿐 아니라 계면의 불균일한 정전기장에 의한 국소적 Li+ 축적에서도 발생하는데, 기존 전해질 설계는 주로 기계적 강도나 화학적 반응만 조절해왔다. 본 연구는 PEO/폴리우레탄/MOF-177이 분자 수준으로 엉킨 전해질을 구성하여 분극 매개 계면 전위 균일화를 통해 Li+ 플럭스를 고르게 분포시키고 이동 장벽을 낮춰 우선적 리튬 핵성장을 억제한다. 이 전해질은 60°C에서 1.9×10-3 S cm-1의 이온전도도와 0.71의 Li+ 이동수를 보이며, Li/CPEZ/Li 셀은 9000시간 동안 안정적으로 구동되고 LFP 셀은 1C에서 5000회 후 90% 용량을 유지한다.",
       "relevant": true
     },
@@ -455,7 +461,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.5492549",
+        "cached": "img/W7225433471.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.5492549"
+      },
       "summary_ko": "기계적으로 맞물린 구조(MIS)는 독특한 위상구조를 갖는 소재 플랫폼이지만 기존 연구는 단일 위상 모티프에 국한되어 있었다. 본 연구는 리간드의 형태적 제약을 이용해 알칼리 금속 이온의 유연한 배위 거동을 조절함으로써 네 가지 서로 다른 위상 모티프를 하나의 사슬에 결합한 다중위상 중첩형 기계적 맞물림 고분자(MIP)를 구현했다. 이 고분자는 우수한 기계적 강도와 효율적인 Na+ 전달 능력을 가져, 소듐 금속 배터리용 인공 고체전해질계면(ASEI)으로 적용 시 20C에서 10,000회 순환 후에도 87.8%의 용량 유지율을 보이는 초장수명 안정성을 달성했다.",
       "relevant": true
     },
@@ -1729,7 +1741,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-08",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75509",
+        "cached": "img/W7225383081.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75509"
+      },
       "summary_ko": "O3형 소듐 산화물 양극재에서 리튬 유도에 의해 전이금속(TM)이 중심을 이루고 Li/TM이 섞인 꼭짓점으로 둘러싸인 역전된 벌집형 초격자 구조가 형성됨을 보였다. 이 규칙적인 배열은 TM 층을 고정해 비가역적 슬라이딩을 억제하고 가역적인 음이온 레독스를 가능하게 하여, 그리드 저장용 내구성 있는 소듐이온배터리 구현에 기여한다.",
       "relevant": true
     },
