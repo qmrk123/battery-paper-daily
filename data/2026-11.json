@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71813",
+        "cached": "img/W7225452314.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71813"
+      },
       "summary_ko": "황화물 고체전해질 기반 복합 멤브레인(HICCM)을 PTFE 바인더와 결합하여 고이온전도성 필름을 제작했다. 리튬 금속 표면에 LiF가 풍부한 계면층을 형성시켜 부반응을 억제함으로써 1.3 mA cm⁻²의 임계전류밀도와 2000시간 안정적 사이클링(0.2 mA cm⁻²)을 달성했다. FeS2//HICCM//LiF-Li 전고체전지는 3.4 mAh cm⁻² 고로딩에서 416.5 Wh kg⁻¹의 에너지밀도를 구현했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2372098",
+        "cached": "img/W7225458705.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2372098"
+      },
       "summary_ko": "LiCoO2(LCO) 고전압 작동 시 Co-O 전자구조 불안정과 전해질 분해를 억제하기 위해 피리돈계 전해질 첨가제의 위치이성질체 구조를 제어했다. para 이성질체인 p-HNFP가 탈리튬화된 LCO 표면의 Co4+ 중심에 선택적으로 흡착하여 O 2p 밴드를 낮추고 LiF·질소가 풍부한 CEI를 형성함을 분광 및 계산화학으로 확인했다. 1 wt% 첨가 시 4.6V, 2Ah Gr||LCO 파우치셀이 400회 사이클 후 92.4%의 용량을 유지했다.",
       "relevant": true
     },
@@ -119,7 +131,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79519",
+        "cached": "img/W7225449978.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79519"
+      },
       "summary_ko": "포도송이 구조를 모사하여 전기방사된 PAN 섬유(꽃자루)와 설폰산리튬화 메조다공성 SiO2(포도알) 필러를 결합한 복합 고체전해질을 제조했다. 장거리 Li+ 전도 경로와 물리적 차단층을 통해 Li+ 이전수 0.65, 상온 이온전도도 1.44×10⁻³ S cm⁻¹, 모듈러스 520 MPa를 확보했으며, LFP|Li 및 NCM811|Li 셀은 각각 1000회·300회 사이클 후 88.8%·94.3%의 용량을 유지했다. DFT 및 상장(phase-field) 시뮬레이션으로 이중 Li+ 경로와 TFSI⁻ 고정 메커니즘을 규명하고, 물리 정보 신경망(PINN)으로 계면 노화 거동을 예측했다.",
       "relevant": true
     },
@@ -179,7 +197,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79560",
+        "cached": "img/W7225459260.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79560"
+      },
       "summary_ko": "코발트-프리 Li-rich 층상산화물 Li1+0.65x Ni0.35Mn0.65O2+0.65x(0≤x≤1)의 전체 조성 범위에서 Li 화학양론을 스크리닝하여 벌크 초격자 구조와 표면화학을 분리 분석했다. x≈0.5에서 Li2MnO3 장거리 질서가 최소화되는 구조적 교차점이 나타나지만, 실제 최적 전기화학 성능은 x=0.375에서 미세분산 Li2MnO3 나노도메인, Li+/Ni2+ 안티사이트, 소성 중 자발적으로 형성되는 스피넬 계면상의 삼중 상승효과로 구현됨을 밝혔다. 최적화된 LRM0.375는 0.1C에서 227.1 mAh g⁻¹, 5C에서 161.8 mAh g⁻¹, 사이클당 전압감쇠 1.33 mV의 특성을 보였고, 흑연 완전셀에서 500회 후 78.48%의 용량을 유지했다.",
       "relevant": true
     },
@@ -209,7 +233,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71814",
+        "cached": "img/W7225463315.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71814"
+      },
       "summary_ko": "리튬 금속 음극 표면에 올리고머로 LiZn 나노결정을 접착한 복합 계면층을 분무코팅으로 형성하여 전기화학적 안정성과 열적 안전성을 동시에 향상시켰다. LiZn 합금이 계면 에너지 분포를 재구성하고 국부 전류밀도를 낮춰 균일한 측방향 Li 증착을 유도하며, 올리고머는 LiZn 입자를 결착해 계면 구조를 유지한다. Li||NCM523 코인셀은 3.06 mAh cm⁻² 로딩에서 700회 사이클을 달성했고, 1.38Ah Li||NCM811 파우치셀은 200회 후 86%의 용량을 유지했으며 열폭주 트리거 온도를 124°C에서 191°C로 높였다.",
       "relevant": true
     },
@@ -239,7 +269,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79549",
+        "cached": "img/W7225467629.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79549"
+      },
       "summary_ko": "리튬 금속 음극 표면에 불소화 3차원 인공 SEI를 설계해 수직 방향 Si 농도구배를 통한 리튬친화성 구배를 구현했다. 이 계면은 Li 금속 촉매 작용으로만 가교중합이 진행되어 균일한 Li+ 플럭스를 유도하고 상향식 기공충전형 증착을 유도하며, F/Si가 풍부한 LiF 기반 SEI를 형성해 핵생성 과전위를 낮춘다. 개질된 음극은 반셀에서 평균 쿨롱효율 99.4%, 대칭셀에서 3500시간 이상의 장기 사이클 안정성을 보였고, LFP 및 고니켈 NCM 양극과의 완전셀에서도 우수한 용량유지율과 율속특성을 나타냈다.",
       "relevant": true
     },
