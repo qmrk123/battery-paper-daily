@@ -1,6 +1,6 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-09T00:38:30+00:00",
+  "generated_at": "2026-11-10T03:16:07+00:00",
   "count": 111,
   "papers": [
     {
@@ -101,7 +101,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79376-x/MediaObjects/41467_2026_79376_Fig1_HTML.png",
+        "cached": "img/W7225449400.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79376-x"
+      },
       "summary_ko": "용융염 유래 나노복합 Li@LiX 음극에서 무기 나노입자의 자발 반응으로 형성된 나노유체를 이용해 Li 표면 및 Li|Cu 계면의 결합 상태를 조절, Cu 집전체 위 Li의 젖음성을 향상시켰다. 이를 통해 두께 800nm의 얇은 Li 음극 포일을 제작하고 사이클 중 무기물 풍부 계면을 형성하여 부식에 의한 Li 소모를 줄였다. 10μm Li@LiFSI/LFP 파우치셀은 250회, 20μm Li@LiFSI/NCM(Ni 0.92) 파우치셀은 100회 안정적으로 작동하며 각각 498 Wh kg⁻¹, 1142 Wh L⁻¹의 에너지밀도를 달성했다.",
       "relevant": true
     },
@@ -167,7 +172,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-09",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79393-w/MediaObjects/41467_2026_79393_Fig1_HTML.png",
+        "cached": "img/W7225458642.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79393-w"
+      },
       "summary_ko": "자가중합형 티옥트산 변성 복합 고체전해질과 다공성 탄소 집전체를 결합해, 상온·저압(≤0.3 MPa)에서도 안정적으로 작동하는 황화물계 전고체 리튬금속전지를 구현했다. 복합 전해질은 Li 금속의 크리프를 억제하고 높은 응력 내성을 가지며, 다공성 탄소 집전체는 국부 응력을 완화하고 내부 공극에 Li 증착을 유도한다. NCM811 양극, 2.4 mAh cm⁻² 고로딩, 0.1C 조건에서 장기 안정 사이클링을 확인했다.",
       "relevant": true
     },
