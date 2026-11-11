@@ -1,8 +1,96 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 20,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04914a",
+      "source": "crossref",
+      "title": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes for high-capacity and ultrastable iron-organic batteries",
+      "url": "https://doi.org/10.1039/d6ee04914a",
+      "published": "2026-09-16",
+      "topics": [],
+      "doi": "10.1039/d6ee04914a",
+      "authors": [
+        "Yehui Zhang",
+        "Ziyang Song",
+        "Qi Huang",
+        "Yaokang Lv",
+        "Lihua Gan",
+        "Mingxian Liu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes that promise 96.8% utilization of carbonyl sites with low energy barrier (0.14 eV), resulting in iron batteries with a high capacity (313 mAh g −1 ) and life (80 000 cycles).",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "β-케토엔아민 결합 제한을 통해 평면형 퀴논 고분자 양극을 구현, 카르보닐 자리 이용률 96.8%와 낮은 에너지 장벽(0.14eV)으로 고용량(313 mAh/g), 장수명(80000사이클) 철-유기전지를 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee02194h",
+      "source": "crossref",
+      "title": "Unraveling anomalous capacity degradation and its alleviation in high-voltage anode-free sodium batteries",
+      "url": "https://doi.org/10.1039/d6ee02194h",
+      "published": "2026-09-16",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1039/d6ee02194h",
+      "authors": [
+        "Jie Shi",
+        "Jiayue Tang",
+        "Hongting Du",
+        "Danni Wang",
+        "Yiming Zhao",
+        "Yuze Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Herein, the high-voltage oxidation pathways of ether were unraveled and their decomposition was redirected via activated solvation to stabilize anode-free sodium batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "고전압 음극-프리 소듐전지에서 에터 전해질의 고전압 산화 경로를 규명하고, 활성화된 솔베이션을 통해 분해 경로를 재유도함으로써 비정상적 용량 저하를 완화했다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04410g",
+      "source": "crossref",
+      "title": "Phosphorus-enabled reversible Jahn–Teller phase evolution in manganese spinel cathodes",
+      "url": "https://doi.org/10.1039/d6ee04410g",
+      "published": "2026-09-16",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1039/d6ee04410g",
+      "authors": [
+        "Hyoi Jo",
+        "Hyojun Kim",
+        "Cheolwoo Jo",
+        "Sungsoo Kim",
+        "Byunghoon Kim",
+        "Sung-Kyun Jung"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Regulating the reversibility of Jahn–Teller-driven phase evolution offers a new route to durable, resource-efficient Mn spinel cathodes for sustainable lithium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "인(P) 도입을 통해 망간 스피넬 양극의 얀-텔러 상전이 가역성을 조절하는 새로운 방법을 제시, 지속가능한 리튬이온전지용 내구성 있고 자원효율적인 스피넬 양극 개발에 기여했다.",
+      "relevant": true
+    },
     {
       "id": "W7212629782",
       "source": "openalex",
@@ -560,90 +648,6 @@
       },
       "summary_ko": "펜타시아나이드 전구체를 이용해 -CN 공공과 말단 -NH2기를 도입한 개질 프러시안 블루(PPB) 양극재를 개발, 저스핀 및 고스핀 Fe 자리를 모두 중간스핀 상태로 전환시키는 이중 자리 스핀 상태 조절을 구현했다. PPB는 우수한 율속 특성(0.05/2 A g-1에서 129/92 mAh g-1)과 4000사이클 후 70% 용량 유지율을 나타내며 기존 헥사시아나이드 기반 프러시안블루 대비 성능이 크게 향상되었다.",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04914a",
-      "source": "crossref",
-      "title": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes for high-capacity and ultrastable iron-organic batteries",
-      "url": "https://doi.org/10.1039/d6ee04914a",
-      "published": "2026-09-16",
-      "topics": [],
-      "doi": "10.1039/d6ee04914a",
-      "authors": [
-        "Yehui Zhang",
-        "Ziyang Song",
-        "Qi Huang",
-        "Yaokang Lv",
-        "Lihua Gan",
-        "Mingxian Liu"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes that promise 96.8% utilization of carbonyl sites with low energy barrier (0.14 eV), resulting in iron batteries with a high capacity (313 mAh g −1 ) and life (80 000 cycles).",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee02194h",
-      "source": "crossref",
-      "title": "Unraveling anomalous capacity degradation and its alleviation in high-voltage anode-free sodium batteries",
-      "url": "https://doi.org/10.1039/d6ee02194h",
-      "published": "2026-09-16",
-      "topics": [],
-      "doi": "10.1039/d6ee02194h",
-      "authors": [
-        "Jie Shi",
-        "Jiayue Tang",
-        "Hongting Du",
-        "Danni Wang",
-        "Yiming Zhao",
-        "Yuze Wang"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Herein, the high-voltage oxidation pathways of ether were unraveled and their decomposition was redirected via activated solvation to stabilize anode-free sodium batteries.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee04410g",
-      "source": "crossref",
-      "title": "Phosphorus-enabled reversible Jahn–Teller phase evolution in manganese spinel cathodes",
-      "url": "https://doi.org/10.1039/d6ee04410g",
-      "published": "2026-09-16",
-      "topics": [],
-      "doi": "10.1039/d6ee04410g",
-      "authors": [
-        "Hyoi Jo",
-        "Hyojun Kim",
-        "Cheolwoo Jo",
-        "Sungsoo Kim",
-        "Byunghoon Kim",
-        "Sung-Kyun Jung"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Regulating the reversibility of Jahn–Teller-driven phase evolution offers a new route to durable, resource-efficient Mn spinel cathodes for sustainable lithium-ion batteries.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

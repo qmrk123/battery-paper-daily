@@ -1,8 +1,68 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 6,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee03355e",
+      "source": "crossref",
+      "title": "Solvent molecular branching drives synergistic solvation and antifreezing for ultra-low-temperature anode-free sodium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee03355e",
+      "published": "2026-09-07",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1039/d6ee03355e",
+      "authors": [
+        "Yun Bai",
+        "Ting Sun",
+        "Jiawen Huang",
+        "Jian Peng",
+        "Yao Xiao",
+        "Wei Kong Pang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular branching triggers synergistic solvation to achieve “weak + weak = strong” electrolyte behavior. The binary system stays liquid to −80 °C, enabling anode free full cell cycling at −60 °C and 123 Wh kg −1 in Ah-scale pouch cells at −40 °C.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "분자 분지 구조의 용매가 시너지 솔베이션을 유도해 영하 80도까지 액체 상태를 유지하는 전해질을 개발, 영하 60도의 음극-프리 소듐메탈 완전셀 구동과 영하 40도 Ah급 파우치셀에서 123 Wh/kg을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03965k",
+      "source": "crossref",
+      "title": "Reprogramming spatial ion–solvent organization in the inner Helmholtz plane for high-energy-density and long-life lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee03965k",
+      "published": "2026-09-07",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1039/d6ee03965k",
+      "authors": [
+        "Minjian Gong",
+        "Cheng Zhou",
+        "Zihao Fang",
+        "Zhuo Chen",
+        "Linbing Jiang",
+        "Chenxu Dong"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "We propose reprogramming the spatial ion–solvent organization within the Inner Helmholtz Plane to regulate the SEI formation pathways and spatial evolution and construct an optimized interphase throughout cycling.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "내부 헬름홀츠 평면의 이온-용매 배열을 재구성하여 SEI 형성 경로와 공간적 진화를 조절하는 전략으로 고에너지밀도·장수명 리튬메탈전지용 최적화된 계면을 구축했다.",
+      "relevant": true
+    },
     {
       "id": "W7208805991",
       "source": "openalex",
@@ -137,62 +197,6 @@
       "image": null,
       "summary_ko": "할라이드계 고체전해질의 결정립계를 공학적으로 제어하여 전고체 리튬 금속전지에서 균일한 리튬 이온 수송을 구현하는 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee03355e",
-      "source": "crossref",
-      "title": "Solvent molecular branching drives synergistic solvation and antifreezing for ultra-low-temperature anode-free sodium metal batteries",
-      "url": "https://doi.org/10.1039/d6ee03355e",
-      "published": "2026-09-07",
-      "topics": [],
-      "doi": "10.1039/d6ee03355e",
-      "authors": [
-        "Yun Bai",
-        "Ting Sun",
-        "Jiawen Huang",
-        "Jian Peng",
-        "Yao Xiao",
-        "Wei Kong Pang"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Molecular branching triggers synergistic solvation to achieve “weak + weak = strong” electrolyte behavior. The binary system stays liquid to −80 °C, enabling anode free full cell cycling at −60 °C and 123 Wh kg −1 in Ah-scale pouch cells at −40 °C.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee03965k",
-      "source": "crossref",
-      "title": "Reprogramming spatial ion–solvent organization in the inner Helmholtz plane for high-energy-density and long-life lithium metal batteries",
-      "url": "https://doi.org/10.1039/d6ee03965k",
-      "published": "2026-09-07",
-      "topics": [],
-      "doi": "10.1039/d6ee03965k",
-      "authors": [
-        "Minjian Gong",
-        "Cheng Zhou",
-        "Zihao Fang",
-        "Zhuo Chen",
-        "Linbing Jiang",
-        "Chenxu Dong"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "We propose reprogramming the spatial ion–solvent organization within the Inner Helmholtz Plane to regulate the SEI formation pathways and spatial evolution and construct an optimized interphase throughout cycling.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

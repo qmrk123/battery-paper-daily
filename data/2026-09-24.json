@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 2,
   "papers": [
     {
@@ -25,8 +25,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "솔베이션 편차 지수를 구축하고 계면 효과를 반영해 수계 아연메탈전지용 전해질 첨가제의 솔베이션 효과를 정량적으로 분류, 설계 기본 틀을 넘어선 체계를 제시했다.",
+      "relevant": false
     },
     {
       "id": "crossref:10.1039/d6ee05713f",
@@ -53,8 +53,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "새로운 비정질화 기법으로 할라이드/옥시할라이드 고체전해질의 이온전도도를 높이고 합성 속도를 향상시켜, 고-Ni 양극 기반 고로딩 전고체전지에서 10.45 mAh/cm2의 면적용량을 달성했다.",
+      "relevant": false
     }
   ]
 }

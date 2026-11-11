@@ -1,8 +1,34 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 23,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee03881f",
+      "source": "crossref",
+      "title": "Redox-active halide materials for cathode applications",
+      "url": "https://doi.org/10.1039/d6ee03881f",
+      "published": "2026-09-03",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1039/d6ee03881f",
+      "authors": [
+        "Zhuohan Li",
+        "Gerbrand Ceder"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Electrochemically redox-active halide (eREAL) materials are an emerging class of materials that combine high Li-ion conductivity with transition-metal redox activity, making them promising candidates for cathode or catholyte applications.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "고 리튬이온 전도성과 전이금속 레독스 활성을 겸비한 전기화학적 활성 할라이드(eREAL) 소재군을 소개하며, 이를 리튬전지의 양극 또는 캐솔라이트 소재로 활용할 가능성을 제시했다.",
+      "relevant": true
+    },
     {
       "id": "W7205015818",
       "source": "openalex",
@@ -666,30 +692,6 @@
       "image": null,
       "summary_ko": "생촉매 기반 닫힌 기공 엔지니어링을 전분 유래 하드카본에 적용하여 고성능 소듐이온전지용 음극 소재를 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee03881f",
-      "source": "crossref",
-      "title": "Redox-active halide materials for cathode applications",
-      "url": "https://doi.org/10.1039/d6ee03881f",
-      "published": "2026-09-03",
-      "topics": [],
-      "doi": "10.1039/d6ee03881f",
-      "authors": [
-        "Zhuohan Li",
-        "Gerbrand Ceder"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Electrochemically redox-active halide (eREAL) materials are an emerging class of materials that combine high Li-ion conductivity with transition-metal redox activity, making them promising candidates for cathode or catholyte applications.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

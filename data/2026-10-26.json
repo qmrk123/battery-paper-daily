@@ -1,8 +1,124 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:16:23+00:00",
   "count": 13,
   "papers": [
+    {
+      "id": "W7224018820",
+      "source": "openalex",
+      "title": "Operando X-ray Photoelectron Spectroscopy Reveals Oxide Solid Electrolyte Stability against Electrochemically Plated Lithium",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02717",
+      "published": "2026-10-26",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02717",
+      "authors": [
+        "Huanyu Zhang",
+        "Beyzanur Erdivan",
+        "Maksym V. Kovalenko",
+        "Lars P. H. Jeurgens",
+        "Kostiantyn V. Kravchyk",
+        "Claudia Cancellieri"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract X-ray photoelectron spectroscopy (XPS) has revealed many possible Li-induced interfacial reactions in solid-state electrolytes (SSEs), but most in situ studies form Li|electrolyte interfaces through non-electrochemical Li deposition, including evaporation, sputtering, or electron-beam-induced deposition. These routes may introduce additional energy that activates reaction pathways not accessed during electrochemical Li plating. Here, we use lab-based operando XPS to directly evaluate oxide solid-state electrolyte stability during electrochemical Li formation. Using this approach, we find sharply different responses for two representative oxide SSEs: NASICON-type Li1+xAlxTi2–x(PO4)3 (LATP) is reduced upon Li plating, forming a Li+/Ti3+-rich mixed-conducting interphase that partially relaxes through coupled ionic–electronic redistribution, whereas garnet-type Li7La3Zr2O12 (LLZO) shows no spectroscopically resolvable Zr or La reduction. This work represents the first direct operando XPS evaluation of SSE stability against electrochemically plated Li metal.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "실제 전기화학적 리튬 도금 환경에서 operando XPS로 산화물 고체전해질의 안정성을 평가, NASICON형 LATP는 환원되어 Li+/Ti3+ 혼합전도 계면을 형성하지만 가넷형 LLZO는 Zr/La 환원이 관찰되지 않음을 규명했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223863057",
+      "source": "openalex",
+      "title": "Interfacial and Hydration‐Associated Lithium Retention During FePO 4 Regeneration from Spent LiFePO 4 Cathodes",
+      "url": "https://doi.org/10.1002/advs.78485",
+      "published": "2026-10-26",
+      "topics": [],
+      "doi": "10.1002/advs.78485",
+      "authors": [
+        "Fei Han",
+        "Langyi Xiao",
+        "Genping Yi",
+        "Tian Liu",
+        "Shoudong Huang",
+        "Haonan Yan"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Selective FePO 4 precipitation is used to separate iron and phosphorus from lithium during hydrometallurgical recycling of spent LiFePO 4 , yet measurable lithium can remain in the regenerated FePO 4 precursor. Here, lithium partitioning was examined in a simulated Fe–P system, a commercial LiFePO 4 ‐derived leachate, and a spent black‐mass‐derived leachate. Sequential washing resolved the lithium associated with the precipitates into fractions with different accessibility. Under representative conditions, approximately 70% of the retained lithium was washing‐removable, whereas approximately 30% remained after three washing cycles. Contact with lithium‐free FePO 4 resulted in an apparent 2.13% decrease in dissolved Li concentration, approaching a plateau within 10 min. Thermodynamic analysis indicated that the formation of the considered discrete lithium‐containing precipitates was unfavorable, while changes in hydration and local Fe–O–P environments correlated with the washing‐retained fraction. These results support a proposed precipitation‐associated model involving lithium retention in environments with different accessibility within hydrated amorphous FePO 4 . The findings identify precipitation and washing as linked control stages for managing lithium carryover during FePO 4 regeneration.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78485",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "폐 LiFePO4의 습식 재활용 중 FePO4 침전물에 남는 리튬의 거동을 분석, 약 70%는 세척으로 제거되나 30%는 수화된 비정질 FePO4 내 환경에 따라 잔류함을 밝혀 리튬 이월 관리를 위한 모델을 제시했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7223670159",
+      "source": "openalex",
+      "title": "Coordination-stabilized organic-inorganic composite phase-change materials for battery thermal runaway mitigation",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.025",
+      "published": "2026-10-26",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.025",
+      "authors": [
+        "Xinxi Li",
+        "Wensheng Yang",
+        "Qiqiu Huang",
+        "Canbing Li",
+        "Yuhang Wu",
+        "Ziyu Huang"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "배위결합으로 안정화된 유무기 복합 상변화재료를 이용해 배터리 열폭주를 완화하는 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7223852792",
+      "source": "openalex",
+      "title": "Cascade Catalysis of Zn/Nb Single‐Atom Sites for Wide‐Temperature Li‐S Batteries",
+      "url": "https://doi.org/10.1002/adfm.79317",
+      "published": "2026-10-26",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79317",
+      "authors": [
+        "Chengkun Zhang",
+        "Youzhang Huang",
+        "Hui Liu",
+        "Tinwei Mo",
+        "Hongfei Zheng",
+        "LaiSen Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium‐sulfur batteries are considered promising next‐generation energy‐storage systems owing to their high theoretical energy density. However, their practical applications are severely hindered by sluggish sulfur redox kinetics and lithium polysulfides (LiPSs) shuttling, which are significantly aggravated under extreme‐temperature conditions. To address this issue, a novel cascade catalysis strategy is developed to regulate the multistep sulfur redox process through embedding the Nb‐N 4 and Zn‐N 4 dual single‐atom sites within N, P co‐doped carbon fibers (Zn/Nb‐NPMCFs). In conjunction with theoretical analysis, it is clarified that Nb single‐atom site preferentially adsorbs soluble LiPSs through forming an Nb‐S bond and catalyzes their conversion, whereas Zn single‐atom site facilitates subsequent Li 2 S‐related redox conversion. With the cascade catalysis effect enabling accelerated sulfur conversion and suppressed LiPSs shuttling, the assembled Li‐S batteries with Zn/Nb‐NPMCFs as free‐standing sulfur hosts deliver good electrochemical performance over a wide temperature range, retaining 651.8 and 401.1 mAh g −1 under 50°C and −20°C at 0.5 C, even after 500 cycles, respectively. This work provides a guideline for improving multistep sulfur redox kinetics in Li‐S batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79317",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "Nb-N4와 Zn-N4 이중 단원자 자리를 N,P 공동도핑 탄소섬유에 임베딩해 Nb가 폴리설파이드를 흡착·전환하고 Zn이 후속 Li2S 전환을 촉진하는 계단식 촉매 전략으로, 50도 및 영하 20도 광범위 온도에서도 500사이클 안정적인 리튬-황전지 성능을 구현했다.",
+      "relevant": true
+    },
     {
       "id": "W7223472284",
       "source": "openalex",
@@ -276,125 +392,6 @@
       "image": null,
       "summary_ko": "열역학적 평형전위 메커니즘을 활용해 열화된 리튬이온 양극을 전기화학적으로 재리튬화하는 방법을 제시한 연구로 추정됩니다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "W7224018820",
-      "source": "openalex",
-      "title": "Operando X-ray Photoelectron Spectroscopy Reveals Oxide Solid Electrolyte Stability against Electrochemically Plated Lithium",
-      "url": "https://doi.org/10.1021/acsenergylett.6c02717",
-      "published": "2026-10-26",
-      "topics": [
-        "li-metal",
-        "na-cathode"
-      ],
-      "doi": "10.1021/acsenergylett.6c02717",
-      "authors": [
-        "Huanyu Zhang",
-        "Beyzanur Erdivan",
-        "Maksym V. Kovalenko",
-        "Lars P. H. Jeurgens",
-        "Kostiantyn V. Kravchyk",
-        "Claudia Cancellieri"
-      ],
-      "venue": "ACS Energy Letters",
-      "abstract_en": "Abstract X-ray photoelectron spectroscopy (XPS) has revealed many possible Li-induced interfacial reactions in solid-state electrolytes (SSEs), but most in situ studies form Li|electrolyte interfaces through non-electrochemical Li deposition, including evaporation, sputtering, or electron-beam-induced deposition. These routes may introduce additional energy that activates reaction pathways not accessed during electrochemical Li plating. Here, we use lab-based operando XPS to directly evaluate oxide solid-state electrolyte stability during electrochemical Li formation. Using this approach, we find sharply different responses for two representative oxide SSEs: NASICON-type Li1+xAlxTi2–x(PO4)3 (LATP) is reduced upon Li plating, forming a Li+/Ti3+-rich mixed-conducting interphase that partially relaxes through coupled ionic–electronic redistribution, whereas garnet-type Li7La3Zr2O12 (LLZO) shows no spectroscopically resolvable Zr or La reduction. This work represents the first direct operando XPS evaluation of SSE stability against electrochemically plated Li metal.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S2764414965",
-      "journal_metric": 16.36,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223863057",
-      "source": "openalex",
-      "title": "Interfacial and Hydration‐Associated Lithium Retention During FePO 4 Regeneration from Spent LiFePO 4 Cathodes",
-      "url": "https://doi.org/10.1002/advs.78485",
-      "published": "2026-10-26",
-      "topics": [
-        "lfp"
-      ],
-      "doi": "10.1002/advs.78485",
-      "authors": [
-        "Fei Han",
-        "Langyi Xiao",
-        "Genping Yi",
-        "Tian Liu",
-        "Shoudong Huang",
-        "Haonan Yan"
-      ],
-      "venue": "Advanced Science",
-      "abstract_en": "ABSTRACT Selective FePO 4 precipitation is used to separate iron and phosphorus from lithium during hydrometallurgical recycling of spent LiFePO 4 , yet measurable lithium can remain in the regenerated FePO 4 precursor. Here, lithium partitioning was examined in a simulated Fe–P system, a commercial LiFePO 4 ‐derived leachate, and a spent black‐mass‐derived leachate. Sequential washing resolved the lithium associated with the precipitates into fractions with different accessibility. Under representative conditions, approximately 70% of the retained lithium was washing‐removable, whereas approximately 30% remained after three washing cycles. Contact with lithium‐free FePO 4 resulted in an apparent 2.13% decrease in dissolved Li concentration, approaching a plateau within 10 min. Thermodynamic analysis indicated that the formation of the considered discrete lithium‐containing precipitates was unfavorable, while changes in hydration and local Fe–O–P environments correlated with the washing‐retained fraction. These results support a proposed precipitation‐associated model involving lithium retention in environments with different accessibility within hydrated amorphous FePO 4 . The findings identify precipitation and washing as linked control stages for managing lithium carryover during FePO 4 regeneration.",
-      "oa_status": "gold",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78485",
-      "license": "cc-by",
-      "journal_id": "S2737737698",
-      "journal_metric": 8.82,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223670159",
-      "source": "openalex",
-      "title": "Coordination-stabilized organic-inorganic composite phase-change materials for battery thermal runaway mitigation",
-      "url": "https://doi.org/10.1016/j.jechem.2026.10.025",
-      "published": "2026-10-26",
-      "topics": [],
-      "doi": "10.1016/j.jechem.2026.10.025",
-      "authors": [
-        "Xinxi Li",
-        "Wensheng Yang",
-        "Qiqiu Huang",
-        "Canbing Li",
-        "Yuhang Wu",
-        "Ziyu Huang"
-      ],
-      "venue": "Journal of Energy Chemistry",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S2500128275",
-      "journal_metric": 16.06,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223852792",
-      "source": "openalex",
-      "title": "Cascade Catalysis of Zn/Nb Single‐Atom Sites for Wide‐Temperature Li‐S Batteries",
-      "url": "https://doi.org/10.1002/adfm.79317",
-      "published": "2026-10-26",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.79317",
-      "authors": [
-        "Chengkun Zhang",
-        "Youzhang Huang",
-        "Hui Liu",
-        "Tinwei Mo",
-        "Hongfei Zheng",
-        "LaiSen Wang"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium‐sulfur batteries are considered promising next‐generation energy‐storage systems owing to their high theoretical energy density. However, their practical applications are severely hindered by sluggish sulfur redox kinetics and lithium polysulfides (LiPSs) shuttling, which are significantly aggravated under extreme‐temperature conditions. To address this issue, a novel cascade catalysis strategy is developed to regulate the multistep sulfur redox process through embedding the Nb‐N 4 and Zn‐N 4 dual single‐atom sites within N, P co‐doped carbon fibers (Zn/Nb‐NPMCFs). In conjunction with theoretical analysis, it is clarified that Nb single‐atom site preferentially adsorbs soluble LiPSs through forming an Nb‐S bond and catalyzes their conversion, whereas Zn single‐atom site facilitates subsequent Li 2 S‐related redox conversion. With the cascade catalysis effect enabling accelerated sulfur conversion and suppressed LiPSs shuttling, the assembled Li‐S batteries with Zn/Nb‐NPMCFs as free‐standing sulfur hosts deliver good electrochemical performance over a wide temperature range, retaining 651.8 and 401.1 mAh g −1 under 50°C and −20°C at 0.5 C, even after 500 cycles, respectively. This work provides a guideline for improving multistep sulfur redox kinetics in Li‐S batteries.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79317",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

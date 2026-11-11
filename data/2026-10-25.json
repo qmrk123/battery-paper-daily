@@ -1,8 +1,128 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:16:23+00:00",
   "count": 10,
   "papers": [
+    {
+      "id": "W7223650329",
+      "source": "openalex",
+      "title": "Thermally Robust Piezoelectric KNN/Polyimide Separator for Regulating Lithium Deposition in Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79294",
+      "published": "2026-10-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.79294",
+      "authors": [
+        "Shumin Lin",
+        "Qiang Zhou",
+        "Shuang Luo",
+        "Dan Zhong",
+        "Bo Peng",
+        "Zhouqishuo Cai"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium‐metal batteries offer exceptionally high theoretical energy density but are hindered by dendrite‐induced short circuits and the limited thermal stability of conventional separators. Here, we report a thermally robust piezoelectric composite separator composed of highly fluorinated polyimide and potassium sodium niobate (KNN), fabricated through an electrospinning/imidization strategy. Molecular dipole engineering, preferential through‐thickness polarization, and ceramic‐polymer electromechanical coupling collectively enable regulation of the local interfacial electric field, homogenized Li + flux, and suppressed lithium dendrite growth during cycling. Meanwhile, the rigid polyimide framework endows the separator with excellent thermal tolerance and structural integrity at elevated temperatures. Consequently, LiFePO 4 ||Li cells retain 88.5% of their initial capacity after 1900 cycles at 2 C. This work demonstrates an electromechanically active separator that integrates intrinsic thermal stability with interfacial regulation, providing a potential strategy for improving the durability of lithium‐metal batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79294",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "고불소화 폴리이미드와 KNN 압전세라믹을 전기방사/이미드화로 결합한 열적으로 견고한 압전 복합 분리막이 국소 전기장을 조절해 리튬 플럭스를 균일화하고 덴드라이트 성장을 억제, LiFePO4||Li셀이 2C에서 1900사이클 88.5% 용량유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223710547",
+      "source": "openalex",
+      "title": "Mechanochemically Disordered Li 2 Ta 2 OCl 10 Oxyhalide Unlocks Superionic Conductivity (>10 mS.cm −1 )",
+      "url": "https://doi.org/10.1002/aenm.71736",
+      "published": "2026-10-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71736",
+      "authors": [
+        "Carine Morel",
+        "Anshuman Chaupatnaik",
+        "Jie Liu",
+        "Mingxue Tang",
+        "Horyung Ji",
+        "Mouna Ben Yahia"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state lithium‐metal batteries (ASSBs) offer a promising route to surpass the energy‐density limits of conventional lithium‐ion technology. However, their commercialization is hindered by interfacial instability, chemo‐mechanical degradation, and the limited ionic conductivity of current solid electrolytes, driving the search for new fast‐ion conductors, particularly among lithium oxyhalides. Here, we report a new lithium tantalum oxychloride, Li 2 Ta 2 OCl 10 , synthesized via a simple low‐temperature route. The material crystallizes in a triclinic structure composed of isolated [Ta 2 OCl 10 ] 2− dimers and exhibits a room‐temperature ionic conductivity of 0.002 mS.cm − 1 . Ball milling dramatically enhances Li + transport, increasing the conductivity by a factor of 5000 to 11 mS.cm −1 while reducing the activation energy from 0.46 to 0.27 eV. Combined structural, spectroscopic, and computational analyses reveal that this enhancement originates from the formation of a highly disordered, liquid‐like Li + sublattice. Li 2 Ta 2 OCl 10 further demonstrates a stability window of 1.89–3.70 V vs. Li x In and enables ASSBs with low polarization and excellent capacity retention (700 cycles at 1C with decay less than 20%). These results establish Li 2 Ta 2 OCl 10 as a promising superionic conductor and highlight the Li–M–O–Cl family as a fertile design space for next‐generation solid electrolytes.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71736",
+      "license": "cc-by-nc",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "저온 합성된 Li2Ta2OCl10 리튬 탄탈륨 옥시클로라이드를 볼밀링으로 무질서화하여 이온전도도를 5000배 향상(11 mS/cm)시키고 활성화에너지를 0.46에서 0.27eV로 낮춰, 700사이클 20% 미만의 용량감쇄를 갖는 전고체 리튬메탈전지용 초이온성 전도체를 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223560600",
+      "source": "openalex",
+      "title": "Making 1000 Wh/kg LiNiO2 Cathode Nearly Strain-Free by Complex-Concentrated Doping",
+      "url": "https://doi.org/10.1021/acsenergylett.6c01681",
+      "published": "2026-10-25",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsenergylett.6c01681",
+      "authors": [
+        "Yaqi Jing",
+        "Zhen Wang",
+        "Rui Zhang",
+        "Lei Wang",
+        "Zhennan Chen",
+        "Lu Ma"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract High-energy batteries require cathodes with greater capacity and specific energy. Ni-rich-layered oxides approach the performance limit of LiNiO2 (LNO), yet its practical use is hindered by severe chemomechanical degradation. Near 4.2 V, the H2-H3/H4 transition drives substantial c-axis contraction, volume shrinkage, O1 formation, oxygen loss, and rapid capacity decay. Here, we show that only 5% cobalt-free complex concentrated doping stabilizes LNO without sacrificing energy density. The modified LNO reduces c-axis strain from 7.4 to 2.1%, exhibits near-zero-strain behavior, and delivers 258 mAh•g–1 and 973 Wh•kg–1. In pouch cells, it retains 80% capacity after 1800 cycles and shows markedly improved thermal stability. These results demonstrate that complex-concentrated doping at low dopant loading can suppress strain and phase transformations at the full-Ni limit, providing a broadly applicable strategy for stabilizing high-energy intercalation electrodes while preserving their intrinsic capacity and specific energy during prolonged electrochemical cycling.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "코발트-프리 복합농축 도핑(5%)으로 LiNiO2 양극의 H2-H3/H4 상전이에 따른 c축 변형을 7.4%에서 2.1%로 줄여 거의 무변형 특성을 구현, 258 mAh/g·973 Wh/kg을 유지하며 파우치셀에서 1800사이클 80% 용량유지율과 향상된 열안정성을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223702959",
+      "source": "openalex",
+      "title": "Helical Keratin‐Derived Aqueous Binders for High‐Performance Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/aenm.71740",
+      "published": "2026-10-25",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71740",
+      "authors": [
+        "Bingzhong Chen",
+        "Hao Chen",
+        "Xuqi Lin",
+        "Kunwei Huang",
+        "Yuhao Liang",
+        "Cheng Yan"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium–sulfur batteries (LSBs) possess ultrahigh energy density, low cost, and environmental friendliness, making them strong contenders for next‐generation energy storage technologies. However, their development is hindered by multiple interfacial challenges, including the shuttling of lithium polysulfides (LiPS), sluggish reaction kinetics, and severe volume expansion of the cathode. To address these issues, a multifunctional biomass‐derived aqueous binder was designed by crosslinking an α‐helical protein (α‐HP) with polyvinyl alcohol (PVA) and glycerol (GL). The α ‐helical structure of α‐HP in the α‐HP/PVA/GL adhesive acts as a “molecular spring”, effectively buffering volume expansion and stabilizing the electrode structure. Additionally, its abundant N‐ and O‐containing polar groups efficiently anchor LiPS, significantly suppressing the shuttling effect and accelerating redox kinetics. Consequently, lithium‐sulfur batteries employing the α‐HP/PVA/GL binder exhibit exceptional long‐term cycling stability. The α‐HP/PVA/GL cathode delivers an initial discharge specific capacity of 737.3 mAh g −1 and retains 487.9 mAh g −1 after 600 stable cycles at 2 C, with an average capacity decay rate of only 0.056% per cycle. This study provides a green, facile, and efficient strategy for developing multifunctional binders to overcome practical bottlenecks in lithium‐sulfur battery applications.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71740",
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "α-나선 단백질과 PVA, 글리세롤을 가교한 바이오매스 유래 수계 바인더가 '분자 스프링'처럼 부피 팽창을 완충하고 폴리설파이드를 흡착, 리튬-황전지에서 600사이클 후에도 487.9 mAh/g(사이클당 0.056% 감쇄)의 안정적 성능을 달성했다.",
+      "relevant": true
+    },
     {
       "id": "W7223415891",
       "source": "openalex",
@@ -185,126 +305,6 @@
       "image": null,
       "summary_ko": "Ni-rich 삼원계 양극 스크랩에 대한 직접 재생(리사이클링) 전략을 단계별 디스크립터와 전기화학적 복원 성능에 연계한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "W7223650329",
-      "source": "openalex",
-      "title": "Thermally Robust Piezoelectric KNN/Polyimide Separator for Regulating Lithium Deposition in Lithium Metal Batteries",
-      "url": "https://doi.org/10.1002/adfm.79294",
-      "published": "2026-10-25",
-      "topics": [
-        "lfp"
-      ],
-      "doi": "10.1002/adfm.79294",
-      "authors": [
-        "Shumin Lin",
-        "Qiang Zhou",
-        "Shuang Luo",
-        "Dan Zhong",
-        "Bo Peng",
-        "Zhouqishuo Cai"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium‐metal batteries offer exceptionally high theoretical energy density but are hindered by dendrite‐induced short circuits and the limited thermal stability of conventional separators. Here, we report a thermally robust piezoelectric composite separator composed of highly fluorinated polyimide and potassium sodium niobate (KNN), fabricated through an electrospinning/imidization strategy. Molecular dipole engineering, preferential through‐thickness polarization, and ceramic‐polymer electromechanical coupling collectively enable regulation of the local interfacial electric field, homogenized Li + flux, and suppressed lithium dendrite growth during cycling. Meanwhile, the rigid polyimide framework endows the separator with excellent thermal tolerance and structural integrity at elevated temperatures. Consequently, LiFePO 4 ||Li cells retain 88.5% of their initial capacity after 1900 cycles at 2 C. This work demonstrates an electromechanically active separator that integrates intrinsic thermal stability with interfacial regulation, providing a potential strategy for improving the durability of lithium‐metal batteries.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79294",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223710547",
-      "source": "openalex",
-      "title": "Mechanochemically Disordered Li 2 Ta 2 OCl 10 Oxyhalide Unlocks Superionic Conductivity (>10 mS.cm −1 )",
-      "url": "https://doi.org/10.1002/aenm.71736",
-      "published": "2026-10-25",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/aenm.71736",
-      "authors": [
-        "Carine Morel",
-        "Anshuman Chaupatnaik",
-        "Jie Liu",
-        "Mingxue Tang",
-        "Horyung Ji",
-        "Mouna Ben Yahia"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT All‐solid‐state lithium‐metal batteries (ASSBs) offer a promising route to surpass the energy‐density limits of conventional lithium‐ion technology. However, their commercialization is hindered by interfacial instability, chemo‐mechanical degradation, and the limited ionic conductivity of current solid electrolytes, driving the search for new fast‐ion conductors, particularly among lithium oxyhalides. Here, we report a new lithium tantalum oxychloride, Li 2 Ta 2 OCl 10 , synthesized via a simple low‐temperature route. The material crystallizes in a triclinic structure composed of isolated [Ta 2 OCl 10 ] 2− dimers and exhibits a room‐temperature ionic conductivity of 0.002 mS.cm − 1 . Ball milling dramatically enhances Li + transport, increasing the conductivity by a factor of 5000 to 11 mS.cm −1 while reducing the activation energy from 0.46 to 0.27 eV. Combined structural, spectroscopic, and computational analyses reveal that this enhancement originates from the formation of a highly disordered, liquid‐like Li + sublattice. Li 2 Ta 2 OCl 10 further demonstrates a stability window of 1.89–3.70 V vs. Li x In and enables ASSBs with low polarization and excellent capacity retention (700 cycles at 1C with decay less than 20%). These results establish Li 2 Ta 2 OCl 10 as a promising superionic conductor and highlight the Li–M–O–Cl family as a fertile design space for next‐generation solid electrolytes.",
-      "oa_status": "hybrid",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71736",
-      "license": "cc-by-nc",
-      "journal_id": "S2502627819",
-      "journal_metric": 18.74,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223560600",
-      "source": "openalex",
-      "title": "Making 1000 Wh/kg LiNiO2 Cathode Nearly Strain-Free by Complex-Concentrated Doping",
-      "url": "https://doi.org/10.1021/acsenergylett.6c01681",
-      "published": "2026-10-25",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1021/acsenergylett.6c01681",
-      "authors": [
-        "Yaqi Jing",
-        "Zhen Wang",
-        "Rui Zhang",
-        "Lei Wang",
-        "Zhennan Chen",
-        "Lu Ma"
-      ],
-      "venue": "ACS Energy Letters",
-      "abstract_en": "Abstract High-energy batteries require cathodes with greater capacity and specific energy. Ni-rich-layered oxides approach the performance limit of LiNiO2 (LNO), yet its practical use is hindered by severe chemomechanical degradation. Near 4.2 V, the H2-H3/H4 transition drives substantial c-axis contraction, volume shrinkage, O1 formation, oxygen loss, and rapid capacity decay. Here, we show that only 5% cobalt-free complex concentrated doping stabilizes LNO without sacrificing energy density. The modified LNO reduces c-axis strain from 7.4 to 2.1%, exhibits near-zero-strain behavior, and delivers 258 mAh•g–1 and 973 Wh•kg–1. In pouch cells, it retains 80% capacity after 1800 cycles and shows markedly improved thermal stability. These results demonstrate that complex-concentrated doping at low dopant loading can suppress strain and phase transformations at the full-Ni limit, providing a broadly applicable strategy for stabilizing high-energy intercalation electrodes while preserving their intrinsic capacity and specific energy during prolonged electrochemical cycling.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S2764414965",
-      "journal_metric": 16.36,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223702959",
-      "source": "openalex",
-      "title": "Helical Keratin‐Derived Aqueous Binders for High‐Performance Lithium–Sulfur Batteries",
-      "url": "https://doi.org/10.1002/aenm.71740",
-      "published": "2026-10-25",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/aenm.71740",
-      "authors": [
-        "Bingzhong Chen",
-        "Hao Chen",
-        "Xuqi Lin",
-        "Kunwei Huang",
-        "Yuhao Liang",
-        "Cheng Yan"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT Lithium–sulfur batteries (LSBs) possess ultrahigh energy density, low cost, and environmental friendliness, making them strong contenders for next‐generation energy storage technologies. However, their development is hindered by multiple interfacial challenges, including the shuttling of lithium polysulfides (LiPS), sluggish reaction kinetics, and severe volume expansion of the cathode. To address these issues, a multifunctional biomass‐derived aqueous binder was designed by crosslinking an α‐helical protein (α‐HP) with polyvinyl alcohol (PVA) and glycerol (GL). The α ‐helical structure of α‐HP in the α‐HP/PVA/GL adhesive acts as a “molecular spring”, effectively buffering volume expansion and stabilizing the electrode structure. Additionally, its abundant N‐ and O‐containing polar groups efficiently anchor LiPS, significantly suppressing the shuttling effect and accelerating redox kinetics. Consequently, lithium‐sulfur batteries employing the α‐HP/PVA/GL binder exhibit exceptional long‐term cycling stability. The α‐HP/PVA/GL cathode delivers an initial discharge specific capacity of 737.3 mAh g −1 and retains 487.9 mAh g −1 after 600 stable cycles at 2 C, with an average capacity decay rate of only 0.056% per cycle. This study provides a green, facile, and efficient strategy for developing multifunctional binders to overcome practical bottlenecks in lithium‐sulfur battery applications.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71740",
-      "license": null,
-      "journal_id": "S2502627819",
-      "journal_metric": 18.74,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

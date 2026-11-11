@@ -1,8 +1,36 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 20,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04678a",
+      "source": "crossref",
+      "title": "Pore-structural descriptors of hard carbon anodes towards tuning their interface stability for sodium storage",
+      "url": "https://doi.org/10.1039/d6ee04678a",
+      "published": "2026-09-14",
+      "topics": [],
+      "doi": "10.1039/d6ee04678a",
+      "authors": [
+        "Bo Sun",
+        "Jihu Liu",
+        "Jingjing Wang",
+        "Ming Li",
+        "Jianhua Zhang",
+        "Guiqiang Cao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "The ratio of pore throat to pore cavity diameter ( λ ) is proposed as a structural descriptor to quantify nanopore confinement, revealing how pore geometry regulates electrolyte filling, solvent sieving and sodium storage in hard carbon anodes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "경질탄소 음극의 나노기공 구조를 정량화하는 구조 지표(기공 입구/공동 지름비 λ)를 제안하여 기공 구조가 전해질 침투, 용매 체걸음, 소듐 저장에 미치는 영향을 규명했다.",
+      "relevant": false
+    },
     {
       "id": "W7212361969",
       "source": "openalex",
@@ -591,34 +619,6 @@
       },
       "summary_ko": "말단이 플루오린화된 폴리이미드(FPI) 계면을 리튬 리치 층상 산화물(LLO) 캐소드에 도입하여, 전자 끌어당김성 CF3 말단기로 계면 전자 장벽을 높여 산화적 라디칼 공격과 산소 방출을 억제했다. 이를 통해 1000사이클 후 80.8%의 용량 유지율을 달성했으며, Si/C||LLO-FPI 파우치셀은 409 Wh/kg의 에너지 밀도와 100사이클 후 90.1%의 용량 유지율을 보였다.",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04678a",
-      "source": "crossref",
-      "title": "Pore-structural descriptors of hard carbon anodes towards tuning their interface stability for sodium storage",
-      "url": "https://doi.org/10.1039/d6ee04678a",
-      "published": "2026-09-14",
-      "topics": [],
-      "doi": "10.1039/d6ee04678a",
-      "authors": [
-        "Bo Sun",
-        "Jihu Liu",
-        "Jingjing Wang",
-        "Ming Li",
-        "Jianhua Zhang",
-        "Guiqiang Cao"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "The ratio of pore throat to pore cavity diameter ( λ ) is proposed as a structural descriptor to quantify nanopore confinement, revealing how pore geometry regulates electrolyte filling, solvent sieving and sodium storage in hard carbon anodes.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

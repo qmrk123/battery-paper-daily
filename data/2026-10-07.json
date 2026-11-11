@@ -1,8 +1,64 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 19,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee05752g",
+      "source": "crossref",
+      "title": "Stress fingerprints for electrochemical failure in lithium batteries",
+      "url": "https://doi.org/10.1039/d6ee05752g",
+      "published": "2026-10-07",
+      "topics": [],
+      "doi": "10.1039/d6ee05752g",
+      "authors": [
+        "Yi Zhang",
+        "Minghe Li",
+        "Yibin Ren",
+        "Xiangpeng Xiao",
+        "Xiaoyu Ge",
+        "Zhenyu Huang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A non-invasive optical sensing strategy enables long-term monitoring of lithium batteries, which decodes mechanical signals into stress fingerprints. These fingerprints distinguish degradation pathways, enabling early prediction of failure mechanism.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "비침습 광학 센싱 기법으로 리튬전지의 기계적 신호를 '스트레스 핑거프린트'로 해독하여 장기 모니터링을 가능케 하고, 열화 경로를 구분해 고장 메커니즘을 조기에 예측했다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee03923e",
+      "source": "crossref",
+      "title": "Dual-regulation of chlorine coordination enables a ∼2 V zinc–chlorine battery at −60 °C",
+      "url": "https://doi.org/10.1039/d6ee03923e",
+      "published": "2026-10-07",
+      "topics": [],
+      "doi": "10.1039/d6ee03923e",
+      "authors": [
+        "Zehui Xie",
+        "Mingjun Zhang",
+        "Hu Hong",
+        "Shuaiwei Jiang",
+        "Qingshun Nian",
+        "Zhuoxi Wu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "By dual-regulation chlorine coordination, a ∼2 V zinc–chlorine battery was achieved at −60 °C with elevated capacity.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "염소 배위를 이중 조절하여 영하 60도에서도 약 2V의 전압과 향상된 용량을 내는 아연-염소전지를 구현했다.",
+      "relevant": false
+    },
     {
       "id": "W7220436065",
       "source": "openalex",
@@ -512,62 +568,6 @@
       "image": null,
       "summary_ko": "탄소나노튜브 도전 네트워크 내 전하 매개 계면 결합을 통해 SiOx 음극의 기계적 강화와 SEI 안정화를 동시에 달성하는 전략을 다룬다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee05752g",
-      "source": "crossref",
-      "title": "Stress fingerprints for electrochemical failure in lithium batteries",
-      "url": "https://doi.org/10.1039/d6ee05752g",
-      "published": "2026-10-07",
-      "topics": [],
-      "doi": "10.1039/d6ee05752g",
-      "authors": [
-        "Yi Zhang",
-        "Minghe Li",
-        "Yibin Ren",
-        "Xiangpeng Xiao",
-        "Xiaoyu Ge",
-        "Zhenyu Huang"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "A non-invasive optical sensing strategy enables long-term monitoring of lithium batteries, which decodes mechanical signals into stress fingerprints. These fingerprints distinguish degradation pathways, enabling early prediction of failure mechanism.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee03923e",
-      "source": "crossref",
-      "title": "Dual-regulation of chlorine coordination enables a ∼2 V zinc–chlorine battery at −60 °C",
-      "url": "https://doi.org/10.1039/d6ee03923e",
-      "published": "2026-10-07",
-      "topics": [],
-      "doi": "10.1039/d6ee03923e",
-      "authors": [
-        "Zehui Xie",
-        "Mingjun Zhang",
-        "Hu Hong",
-        "Shuaiwei Jiang",
-        "Qingshun Nian",
-        "Zhuoxi Wu"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "By dual-regulation chlorine coordination, a ∼2 V zinc–chlorine battery was achieved at −60 °C with elevated capacity.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

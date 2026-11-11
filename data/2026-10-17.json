@@ -1,8 +1,33 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:13:02+00:00",
   "count": 13,
   "papers": [
+    {
+      "id": "W7222803451",
+      "source": "openalex",
+      "title": "Reliable performance evaluation and mechanistic characterization of aqueous zinc batteries: From laboratory testing to practical applications",
+      "url": "https://doi.org/10.1016/j.jechem.2026.09.080",
+      "published": "2026-10-17",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.09.080",
+      "authors": [
+        "Mengyao Shi",
+        "Tianjiang Sun",
+        "Zhanliang Tao"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "실험실 테스트부터 실제 응용까지 수계 아연전지의 신뢰성 있는 성능 평가와 메커니즘 분석법을 정리한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "W7221941295",
       "source": "openalex",
@@ -407,31 +432,6 @@
       },
       "summary_ko": "IL-10 신호에서 골수계 세포와 T세포가 JAK 계열 키나제 짝짓기에 대한 의존성이 다르다는 점을 활용해, TYK2 의존적인 골수세포 선택적 IL-10 수용체 작용제(msIL-10R agonist)를 4가(tetravalent) 나노바디 기반으로 개발했다. 냉동전자현미경 구조 분석으로 기존 IL-10과 다른 수용체 가교 형태를 확인했으며, 이 작용제는 T세포 활성화 없이 단핵구·대식세포·수지상세포의 염증을 억제한다. 인간화 마우스 염증 모델과 비인간 영장류에서 최대 30일간 T세포 비활성 상태로 지속적인 골수세포 억제 효과를 보였다.",
       "relevant": false
-    },
-    {
-      "id": "W7222803451",
-      "source": "openalex",
-      "title": "Reliable performance evaluation and mechanistic characterization of aqueous zinc batteries: From laboratory testing to practical applications",
-      "url": "https://doi.org/10.1016/j.jechem.2026.09.080",
-      "published": "2026-10-17",
-      "topics": [],
-      "doi": "10.1016/j.jechem.2026.09.080",
-      "authors": [
-        "Mengyao Shi",
-        "Tianjiang Sun",
-        "Zhanliang Tao"
-      ],
-      "venue": "Journal of Energy Chemistry",
-      "abstract_en": null,
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S2500128275",
-      "journal_metric": 16.06,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

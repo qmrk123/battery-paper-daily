@@ -1,8 +1,66 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 7,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04104c",
+      "source": "crossref",
+      "title": "Breaking the potential limit of ether-based electrolytes via asymmetric interfacial activation for high-energy-density sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee04104c",
+      "published": "2026-08-25",
+      "topics": [],
+      "doi": "10.1039/d6ee04104c",
+      "authors": [
+        "Bin Qiu",
+        "Ning Sun",
+        "Yingxian Wang",
+        "Xue Li",
+        "Shujie Zhou",
+        "Bin Xu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "An asymmetric interfacial activation (AIA) strategy is proposed to address the inherent conflict between the electrolyte requirements of the cathode and anode by utilizing NaDFP additives for high-energy-density sodium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "비대칭 계면 활성화(AIA) 전략으로 에터 기반 전해질의 산화 전위 한계를 극복해 고에너지밀도 소듐이온전지의 양극-음극 전해질 요구조건 간 상충을 해결했다. NaDFP 첨가제를 활용해 계면 안정성을 높였다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee02577c",
+      "source": "crossref",
+      "title": "An all-molecular-ferroelectric composite electrolyte couples spontaneous polarization with competitive coordination for durable nickel-rich solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee02577c",
+      "published": "2026-08-25",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1039/d6ee02577c",
+      "authors": [
+        "Min Gao",
+        "Xiang-zhi Zhang",
+        "Ming Chen",
+        "Xiaozhong Huang",
+        "Cheong Wa Leong",
+        "Zeyuan Xu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular ferroelectrics enable fast lithium-ion transport and stable solid-state lithium metal batteries through spontaneous polarization and competitive coordination.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "분자형 강유전체를 이용한 전고체 전해질이 자발분극과 경쟁적 배위를 결합해 빠른 리튬 이온 전달과 니켈리치 전고체 리튬메탈전지의 안정적 구동을 가능하게 했다.",
+      "relevant": true
+    },
     {
       "id": "W7204024242",
       "source": "openalex",
@@ -167,62 +225,6 @@
       "image": null,
       "summary_ko": "주쇄에 불소화 폴리에터를 사용하고 Li·F가 공동 도핑된 하이드록시아파타이트 나노섬유(LAN)의 3차원 골격을 결합한 복합 고분자 전해질(LAFE)을 제작했다. LAN 골격이 연속적인 Li+ 전달 경로와 음이온이 풍부한 용매화 구조를 제공하여 고전압에서의 산화 안정성과 리튬 이온 수송성을 동시에 개선함으로써 고에너지밀도 리튬 금속전지에 적용 가능하다.",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04104c",
-      "source": "crossref",
-      "title": "Breaking the potential limit of ether-based electrolytes via asymmetric interfacial activation for high-energy-density sodium-ion batteries",
-      "url": "https://doi.org/10.1039/d6ee04104c",
-      "published": "2026-08-25",
-      "topics": [],
-      "doi": "10.1039/d6ee04104c",
-      "authors": [
-        "Bin Qiu",
-        "Ning Sun",
-        "Yingxian Wang",
-        "Xue Li",
-        "Shujie Zhou",
-        "Bin Xu"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "An asymmetric interfacial activation (AIA) strategy is proposed to address the inherent conflict between the electrolyte requirements of the cathode and anode by utilizing NaDFP additives for high-energy-density sodium-ion batteries.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee02577c",
-      "source": "crossref",
-      "title": "An all-molecular-ferroelectric composite electrolyte couples spontaneous polarization with competitive coordination for durable nickel-rich solid-state lithium metal batteries",
-      "url": "https://doi.org/10.1039/d6ee02577c",
-      "published": "2026-08-25",
-      "topics": [],
-      "doi": "10.1039/d6ee02577c",
-      "authors": [
-        "Min Gao",
-        "Xiang-zhi Zhang",
-        "Ming Chen",
-        "Xiaozhong Huang",
-        "Cheong Wa Leong",
-        "Zeyuan Xu"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Molecular ferroelectrics enable fast lithium-ion transport and stable solid-state lithium metal batteries through spontaneous polarization and competitive coordination.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

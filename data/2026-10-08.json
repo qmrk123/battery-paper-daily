@@ -1,8 +1,38 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 19,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04568e",
+      "source": "crossref",
+      "title": "Dielectric superionic-conductor nanofibers for highly efficient multi-channel ion transport in solvent-lean PVDF-based electrolytes",
+      "url": "https://doi.org/10.1039/d6ee04568e",
+      "published": "2026-10-08",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1039/d6ee04568e",
+      "authors": [
+        "Jiaying Peng",
+        "Zihan Lin",
+        "Xuxin Chong",
+        "Lingyu Zhou",
+        "Mengyu Wang",
+        "Junlin Song"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A dielectric superionic hydroxyapatite nanofiber enables fast Li + transport in polymer electrolytes. The composite delivers stable interfaces and long-life solid-state lithium metal batteries under ultralow solvent conditions.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "유전체 초이온성 수산화인회석 나노섬유를 도입해 용매 함량이 극히 적은 PVDF 기반 고분자 전해질에서 다채널 리튬 이온 전달을 구현, 안정적 계면과 장수명 전고체 리튬메탈전지를 실현했다.",
+      "relevant": true
+    },
     {
       "id": "W7220687383",
       "source": "openalex",
@@ -544,34 +574,6 @@
       "image": null,
       "summary_ko": "고전압 전고체 리튬 금속 전지에서 양극 국소 영역에 이중 염 화학을 적용하여 계면을 안정화하는 전략을 제시한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04568e",
-      "source": "crossref",
-      "title": "Dielectric superionic-conductor nanofibers for highly efficient multi-channel ion transport in solvent-lean PVDF-based electrolytes",
-      "url": "https://doi.org/10.1039/d6ee04568e",
-      "published": "2026-10-08",
-      "topics": [],
-      "doi": "10.1039/d6ee04568e",
-      "authors": [
-        "Jiaying Peng",
-        "Zihan Lin",
-        "Xuxin Chong",
-        "Lingyu Zhou",
-        "Mengyu Wang",
-        "Junlin Song"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "A dielectric superionic hydroxyapatite nanofiber enables fast Li + transport in polymer electrolytes. The composite delivers stable interfaces and long-life solid-state lithium metal batteries under ultralow solvent conditions.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

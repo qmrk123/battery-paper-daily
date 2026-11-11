@@ -1,8 +1,93 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:13:02+00:00",
   "count": 10,
   "papers": [
+    {
+      "id": "W7222792512",
+      "source": "openalex",
+      "title": "Spatially Decoupled Charge Compensation Enables Versatile Cation–Anion Co‐Intercalation in Layered Metal Oxide Cathodes",
+      "url": "https://doi.org/10.1002/adma.75440",
+      "published": "2026-10-16",
+      "topics": [],
+      "doi": "10.1002/adma.75440",
+      "authors": [
+        "Huabin Kong",
+        "Jianxin Ou",
+        "Lei Fang",
+        "Chunbo Duan",
+        "Xuanbing Chen",
+        "Yancheng Chen"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Multivalent cation–anion co‐(de)intercalation offers a promising pathway to higher energy densities in multivalent ion batteries. However, its practical realization is challenged by lattice strain and the lack of effective dual charge‐compensation strategies. Here, we report a layered vanadium oxide cathode with pre‐intercalated melamine ligands (MeVO) that enables a spatially decoupled charge‐compensation mechanism—organic ligands serve as redox centers for anions, while metal sites accommodate multivalent cation redox. This design alleviates electrostatic crowding, promotes ion mobility, and preserves structural integrity. Using Mg 2 + ‐TFSI − as a representative system, MeVO delivers a record cycle life of over 36 000 cycles at a loading of approximately 3 mg cm − 2 and an areal capacity of 3.3 mAh cm − 2 at a higher loading of 16.4 mg cm − 2 , surpassing leading Mg‐ion cathodes. The hybrid structure also supports co‐(de)intercalation of various multivalent cations and anions, demonstrating its potential as a versatile intercalation platform for high‐performance energy storage.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75440",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "멜라민 리간드를 선삽입한 층상 바나듐산화물 양극에서 유기 리간드가 음이온 레독스, 금속 자리가 양이온 레독스를 각각 담당하는 공간적으로 분리된 전하보상 메커니즘을 구현, Mg2+-TFSI- 시스템에서 36000사이클 이상의 수명을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222532720",
+      "source": "openalex",
+      "title": "Phase‐Selective NiCo Oxide Electrodes Enable Paired Electrochemical Conversion and Valorization of Nitrogen‐Containing Wastewaters",
+      "url": "https://doi.org/10.1002/adfm.79112",
+      "published": "2026-10-16",
+      "topics": [],
+      "doi": "10.1002/adfm.79112",
+      "authors": [
+        "Jiangzhou Qin",
+        "Pan Zhu",
+        "Yanyu Lu",
+        "Chenxi Li",
+        "Baojun Liu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Conventional wastewater treatment generally focuses on pollutant removal while consuming energy and recovering little chemical value. Here, we report a phase‐selective Ni‐Co oxide platform for paired electrochemical conversion of nitrogen‐containing contaminants, coupling cathodic acetonitrile (AN) hydrogenation to ethylamine (EA) with anodic hydrazine oxidation to N 2 . Annealing NiCo layered double hydroxide precursor under Ar and in air produces cubic NiCoO 2 and spinel NiCo 2 O 4 , respectively, which exhibit complementary catalytic preferences. NiCoO 2 achieves 90.4%–91.2% Faradaic efficiency toward EA over 50–200 mA cm −2 in 8 wt.% AN, whereas NiCo 2 O 4 approaches 100% Faradaic efficiency toward N 2 over the same current‐density range. Combined in situ spectroscopy and density functional theory calculations reveal that this catalytic complementarity arises from phase‐dependent reaction energetics: NiCoO 2 favors H‐assisted AN hydrogenation while enabling facile EA release, whereas NiCo 2 O 4 promotes hydrazine dehydrogenation and, critically, N 2 desorption and active‐site regeneration. A 100 cm 2 membrane‐electrode assembly maintains 88–93% EA Faradaic efficiency and stable paired operation for 120 h. The paired system was further demonstrated using separately collected industrial wastewaters, together with downstream EA recovery and a preliminary process‐level assessment. These results establish crystal‐phase regulation of reaction and product‐release energetics as a strategy for matching distinct electrode reactions within paired wastewater valorization.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79112",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "상 선택적 NiCo 산화물 전극으로 질소 함유 폐수의 아세토니트릴 수소화와 하이드라진 산화를 결합한 페어드 전기화학 전환 공정을 구현, 높은 파라데이 효율로 에틸아민과 질소를 동시 생산했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7222636233",
+      "source": "openalex",
+      "title": "A High-Nickel Cathode Material for Lithium-Ion Batteries Integrating a Proposed 3D Ionic Percolation Network and Interwoven Layered/Rock-Salt Nanodomains",
+      "url": "https://doi.org/10.1021/jacs.6c14375",
+      "published": "2026-10-16",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/jacs.6c14375",
+      "authors": [
+        "Jun Wang",
+        "Yan Zhao",
+        "Jinxiang Fan",
+        "Xincheng Lei",
+        "Ting Liu",
+        "Juping Xu"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "High-nickel single-crystal cathodes effectively address the poor mechanical stability and severe side reactions that plague their polycrystalline counterparts. However, they introduce new structural challenges, including extended Li+ diffusion pathways, which in turn lead to structural slips, lattice distortions, and phase transformations, ultimately compromising both electrochemical capacity and structural stability. Herein, we report a state-of-the-art cathode architecture for high-nickel materials, derived from high-energy neutron irradiation of single-crystal LiNi0.92Co0.06Mn0.02O2 particles. This process induces long-range Li/Ni antisite disorder and short-range metal-oxygen octahedral distortions, concurrently yielding a nanostructure of abundant grain boundaries and interwoven layered/rock-salt nanodomains within the single-crystalline particles. These grain boundaries are proposed to constitute a 3D percolation network for rapid Li+ transport, whereas the interwoven nanodomains may act as local structural reinforcing units that help suppress irreversible phase transitions and the propagation of interfacial side reactions during cycling. These characteristics are favorable for sustaining continuous Li+ deintercalation/intercalation and reversible electrochemistry, thereby preserving the structural stability of the single-crystal framework while simultaneously shortening diffusion pathways. As a result, the engineered cathode delivers a high specific discharge capacity of 213.9 mAh/g at 0.2 C and 152.2 mAh/g at 10 C (within 4.5 V). Moreover, it retains 80.0% of its initial capacity after 450 cycles at 5 C, significantly outperforming the reference single-crystal cathode (64.2%). This work establishes high-energy neutron irradiation as an effective cathode reconstruction strategy, offering a viable route toward robust, high-energy cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "고에너지 중성자 조사로 단결정 LiNi0.92Co0.06Mn0.02O2 입자에 Li/Ni 안티사이트 무질서와 층상/암염 나노도메인을 형성, 3차원 리튬이온 침투 네트워크를 구축해 5C에서 450사이클 80% 용량유지율을 달성하는 고니켈 양극을 구현했다.",
+      "relevant": true
+    },
     {
       "id": "W7221802243",
       "source": "openalex",
@@ -240,96 +325,6 @@
       },
       "summary_ko": "압력 손상 위험을 모니터링하기 위해 기계적 응력과 혈관 반응(홍반)을 동시에 측정하는 무선, 배터리-프리 광전자 피부 센서를 개발한 연구이다. 광학 공동 기반의 변형 감지와 이중 파장 반사율 측정을 결합하여 3축 힘과 피부 홍반을 비접촉으로 정량화했다. 배터리 소재와는 무관한 생체의료 센서 연구이다.",
       "relevant": false
-    },
-    {
-      "id": "W7222792512",
-      "source": "openalex",
-      "title": "Spatially Decoupled Charge Compensation Enables Versatile Cation–Anion Co‐Intercalation in Layered Metal Oxide Cathodes",
-      "url": "https://doi.org/10.1002/adma.75440",
-      "published": "2026-10-16",
-      "topics": [
-        "ncm",
-        "other-cathode"
-      ],
-      "doi": "10.1002/adma.75440",
-      "authors": [
-        "Huabin Kong",
-        "Jianxin Ou",
-        "Lei Fang",
-        "Chunbo Duan",
-        "Xuanbing Chen",
-        "Yancheng Chen"
-      ],
-      "venue": "Advanced Materials",
-      "abstract_en": "ABSTRACT Multivalent cation–anion co‐(de)intercalation offers a promising pathway to higher energy densities in multivalent ion batteries. However, its practical realization is challenged by lattice strain and the lack of effective dual charge‐compensation strategies. Here, we report a layered vanadium oxide cathode with pre‐intercalated melamine ligands (MeVO) that enables a spatially decoupled charge‐compensation mechanism—organic ligands serve as redox centers for anions, while metal sites accommodate multivalent cation redox. This design alleviates electrostatic crowding, promotes ion mobility, and preserves structural integrity. Using Mg 2 + ‐TFSI − as a representative system, MeVO delivers a record cycle life of over 36 000 cycles at a loading of approximately 3 mg cm − 2 and an areal capacity of 3.3 mAh cm − 2 at a higher loading of 16.4 mg cm − 2 , surpassing leading Mg‐ion cathodes. The hybrid structure also supports co‐(de)intercalation of various multivalent cations and anions, demonstrating its potential as a versatile intercalation platform for high‐performance energy storage.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75440",
-      "license": null,
-      "journal_id": "S99352657",
-      "journal_metric": 22.01,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7222532720",
-      "source": "openalex",
-      "title": "Phase‐Selective NiCo Oxide Electrodes Enable Paired Electrochemical Conversion and Valorization of Nitrogen‐Containing Wastewaters",
-      "url": "https://doi.org/10.1002/adfm.79112",
-      "published": "2026-10-16",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.79112",
-      "authors": [
-        "Jiangzhou Qin",
-        "Pan Zhu",
-        "Yanyu Lu",
-        "Chenxi Li",
-        "Baojun Liu"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Conventional wastewater treatment generally focuses on pollutant removal while consuming energy and recovering little chemical value. Here, we report a phase‐selective Ni‐Co oxide platform for paired electrochemical conversion of nitrogen‐containing contaminants, coupling cathodic acetonitrile (AN) hydrogenation to ethylamine (EA) with anodic hydrazine oxidation to N 2 . Annealing NiCo layered double hydroxide precursor under Ar and in air produces cubic NiCoO 2 and spinel NiCo 2 O 4 , respectively, which exhibit complementary catalytic preferences. NiCoO 2 achieves 90.4%–91.2% Faradaic efficiency toward EA over 50–200 mA cm −2 in 8 wt.% AN, whereas NiCo 2 O 4 approaches 100% Faradaic efficiency toward N 2 over the same current‐density range. Combined in situ spectroscopy and density functional theory calculations reveal that this catalytic complementarity arises from phase‐dependent reaction energetics: NiCoO 2 favors H‐assisted AN hydrogenation while enabling facile EA release, whereas NiCo 2 O 4 promotes hydrazine dehydrogenation and, critically, N 2 desorption and active‐site regeneration. A 100 cm 2 membrane‐electrode assembly maintains 88–93% EA Faradaic efficiency and stable paired operation for 120 h. The paired system was further demonstrated using separately collected industrial wastewaters, together with downstream EA recovery and a preliminary process‐level assessment. These results establish crystal‐phase regulation of reaction and product‐release energetics as a strategy for matching distinct electrode reactions within paired wastewater valorization.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79112",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7222636233",
-      "source": "openalex",
-      "title": "A High-Nickel Cathode Material for Lithium-Ion Batteries Integrating a Proposed 3D Ionic Percolation Network and Interwoven Layered/Rock-Salt Nanodomains",
-      "url": "https://doi.org/10.1021/jacs.6c14375",
-      "published": "2026-10-16",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1021/jacs.6c14375",
-      "authors": [
-        "Jun Wang",
-        "Yan Zhao",
-        "Jinxiang Fan",
-        "Xincheng Lei",
-        "Ting Liu",
-        "Juping Xu"
-      ],
-      "venue": "Journal of the American Chemical Society",
-      "abstract_en": "High-nickel single-crystal cathodes effectively address the poor mechanical stability and severe side reactions that plague their polycrystalline counterparts. However, they introduce new structural challenges, including extended Li+ diffusion pathways, which in turn lead to structural slips, lattice distortions, and phase transformations, ultimately compromising both electrochemical capacity and structural stability. Herein, we report a state-of-the-art cathode architecture for high-nickel materials, derived from high-energy neutron irradiation of single-crystal LiNi0.92Co0.06Mn0.02O2 particles. This process induces long-range Li/Ni antisite disorder and short-range metal-oxygen octahedral distortions, concurrently yielding a nanostructure of abundant grain boundaries and interwoven layered/rock-salt nanodomains within the single-crystalline particles. These grain boundaries are proposed to constitute a 3D percolation network for rapid Li+ transport, whereas the interwoven nanodomains may act as local structural reinforcing units that help suppress irreversible phase transitions and the propagation of interfacial side reactions during cycling. These characteristics are favorable for sustaining continuous Li+ deintercalation/intercalation and reversible electrochemistry, thereby preserving the structural stability of the single-crystal framework while simultaneously shortening diffusion pathways. As a result, the engineered cathode delivers a high specific discharge capacity of 213.9 mAh/g at 0.2 C and 152.2 mAh/g at 10 C (within 4.5 V). Moreover, it retains 80.0% of its initial capacity after 450 cycles at 5 C, significantly outperforming the reference single-crystal cathode (64.2%). This work establishes high-energy neutron irradiation as an effective cathode reconstruction strategy, offering a viable route toward robust, high-energy cathodes.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S111155417",
-      "journal_metric": 16.47,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

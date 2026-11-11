@@ -1,8 +1,66 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 10,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee05272j",
+      "source": "crossref",
+      "title": "Spatially selective carbonization programs surface–bulk ordering in hard carbon anodes",
+      "url": "https://doi.org/10.1039/d6ee05272j",
+      "published": "2026-10-09",
+      "topics": [],
+      "doi": "10.1039/d6ee05272j",
+      "authors": [
+        "Junfeng Cui",
+        "Jiawen Zeng",
+        "Yi Rao",
+        "Cheng Lin",
+        "Xuan Liao",
+        "Jinli Chen"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Spatially selective carbonization decouples surface and bulk structural evolution in hard carbon, integrating a locally ordered interface with an expanded, closed-pore-rich interior for efficient and fast sodium storage.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "경질탄소 음극에서 표면과 벌크의 구조 진화를 분리하는 공간 선택적 탄화법을 제안, 국부적으로 정렬된 계면과 폐쇄기공이 풍부한 내부 구조를 결합해 효율적이고 빠른 소듐 저장을 구현했다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04156f",
+      "source": "crossref",
+      "title": "Ni/NiO heterointerface-induced built-in electric field directs charge redistribution and LiF-rich SEI for stable lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee04156f",
+      "published": "2026-10-09",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1039/d6ee04156f",
+      "authors": [
+        "Yujin Chang",
+        "Kyurim Kim",
+        "Minki Kim",
+        "Kukjoo Lee",
+        "Jinseok Hong",
+        "Yonghwan Kim"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Charge redistribution at Ni/NiO heterointerfaces promotes uniform Li deposition and LiF-rich SEI formation, facilitating Li + transport and reversible cycling while limiting parasitic reactions and dendrite growth.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "Ni/NiO 헤테로계면에서 형성된 내재적 전기장이 전하 재분배와 LiF가 풍부한 SEI 형성을 유도, 균일한 리튬 증착과 덴드라이트 억제를 통해 안정적인 리튬메탈전지를 구현했다.",
+      "relevant": true
+    },
     {
       "id": "W7220857334",
       "source": "openalex",
@@ -255,62 +313,6 @@
       "image": null,
       "summary_ko": "불소 자원이 광산에서 리튬이온전지까지 이어지는 자원, 화학, 산업적 전환 과정을 다루는 리뷰로 보인다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee05272j",
-      "source": "crossref",
-      "title": "Spatially selective carbonization programs surface–bulk ordering in hard carbon anodes",
-      "url": "https://doi.org/10.1039/d6ee05272j",
-      "published": "2026-10-09",
-      "topics": [],
-      "doi": "10.1039/d6ee05272j",
-      "authors": [
-        "Junfeng Cui",
-        "Jiawen Zeng",
-        "Yi Rao",
-        "Cheng Lin",
-        "Xuan Liao",
-        "Jinli Chen"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Spatially selective carbonization decouples surface and bulk structural evolution in hard carbon, integrating a locally ordered interface with an expanded, closed-pore-rich interior for efficient and fast sodium storage.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee04156f",
-      "source": "crossref",
-      "title": "Ni/NiO heterointerface-induced built-in electric field directs charge redistribution and LiF-rich SEI for stable lithium metal batteries",
-      "url": "https://doi.org/10.1039/d6ee04156f",
-      "published": "2026-10-09",
-      "topics": [],
-      "doi": "10.1039/d6ee04156f",
-      "authors": [
-        "Yujin Chang",
-        "Kyurim Kim",
-        "Minki Kim",
-        "Kukjoo Lee",
-        "Jinseok Hong",
-        "Yonghwan Kim"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Charge redistribution at Ni/NiO heterointerfaces promotes uniform Li deposition and LiF-rich SEI formation, facilitating Li + transport and reversible cycling while limiting parasitic reactions and dendrite growth.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

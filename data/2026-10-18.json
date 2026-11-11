@@ -1,8 +1,96 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:13:02+00:00",
   "count": 9,
   "papers": [
+    {
+      "id": "W7222930366",
+      "source": "openalex",
+      "title": "Robust Sodium–Metal Batteries Through Electrolyte‐Mediated Interfacial Regulation: Fundamentals, Design Strategies, and Operando Characterization",
+      "url": "https://doi.org/10.1002/adma.202520711",
+      "published": "2026-10-18",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adma.202520711",
+      "authors": [
+        "Sikandar Iqbal",
+        "Usman ul Ghani",
+        "Xuebing Zhu",
+        "Yun Bai",
+        "Jinlong Jiang",
+        "Ying Zhang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Sodium–metal batteries (SMBs) exhibit high theoretical specific capacity and take advantage of sodium's natural abundance and low cost, showing great promise for broad next‐generation energy‐storage applications. In this review, we summarize the major practical bottlenecks restricting SMB development. The solid–electrolyte interphase (SEI) serves as a key mediator to overcome these challenges, and its formation mechanisms are systematically outlined. We comprehensively review diverse electrolyte strategies, including solvent engineering, salt chemistry optimization, additive utilization, high‐concentration, localized high‐concentration, and weakly solvating electrolytes, for modulating Na + transport and generating mechanically robust, ion‐conductive yet electronically insulating SEI layers. We further discuss advanced in‐situ/operando characterizations combined with multiscale computational modeling and machine‐learning techniques as powerful tools to decipher the dynamic evolution of sodium–metal interfaces. Particular focus is placed on the coupled effects of current density, temperature, electrolyte composition, interfacial layers on sodium nucleation, dendrite growth, dead‐sodium formation, and Coulombic efficiency (CE). Finally, future directions for SEI engineering have been outlook toward high‐performance, practical sodium–metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "소듐메탈전지의 주요 실용화 장벽과 SEI 형성 메커니즘을 정리하고, 용매/염/첨가제 공학 등 다양한 전해질 전략과 operando 분석·머신러닝 기법을 통한 소듐 계면 거동 해석을 종합한 리뷰이다.",
+      "relevant": true
+    },
+    {
+      "id": "W7222904411",
+      "source": "openalex",
+      "title": "High‐Energy and Long‐Life Na 3 V 2 (PO 4 ) 2 F 3 Cathodes via Multielement V‐Site Modulation of Local M–O/F Bonding",
+      "url": "https://doi.org/10.1002/aenm.71719",
+      "published": "2026-10-18",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/aenm.71719",
+      "authors": [
+        "Zhichao Li",
+        "Fuqiang Li",
+        "Mushun Chen",
+        "Yanyu Sun",
+        "Shouyu Sun",
+        "Zifei Shi"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Sodium‐ion batteries are promising for sustainable energy storage, but their energy density still lags behind lithium‐ion systems. Na 3 V 2 (PO 4 ) 2 F 3 (NVPF) is an attractive high‐voltage polyanionic cathode, but fluorine loss generates low‐voltage Na 3 V 2 (PO 4 ) 3 impurities that lower energy density and aggravate lattice deformation during cycling. Here, we report a multielement V‐site charge modulation strategy, realized in Na 3‐δ V 1.9 Zr 0.02 Ti 0.02 Cr 0.02 Fe 0.02 Al 0.02 (PO 4 ) 2 F 3 (ME‐NVPF). The deliberate combination of high‐valence Zr 4+ , Ti 4+ , and same‐valence Cr 3+ , Fe 3+ , Al 3+ cations creates a heterogeneous M–O/F bonding network with multi‐directional electrostatic interactions enhancing lattice‐F retention that completely eliminates NVP impurities, lowers the Na + migration barrier, and reduces unit‐cell volume variation to merely 2.87%. Consequently, ME‐NVPF delivers a record‐high energy density of 477 Wh kg −1 , sustains 11 000 cycles, operates across −40 to 80°C, and is further validated in 600 mAh‐level pouch cells. This work establishes multielement compositional regulation as an effective strategy for designing high‐energy, long‐life, and all‐temperature polyanionic cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "V 자리에 Zr/Ti/Cr/Fe/Al 다원소를 도입해 M-O/F 결합 네트워크를 조절, 불소 손실에 따른 NVP 불순물을 완전히 제거하고 477 Wh/kg의 기록적 에너지밀도와 11000사이클 안정성을 갖는 Na3V2(PO4)2F3 양극을 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7162694951",
+      "source": "openalex",
+      "title": "Activation‐Induced Turbostratic Ordering in pDCPD‐Derived Hard Carbon Enables Stable Carbonate‐Based Sodium‐Ion Storage",
+      "url": "https://doi.org/10.1002/advs.78311",
+      "published": "2026-10-18",
+      "topics": [],
+      "doi": "10.1002/advs.78311",
+      "authors": [
+        "David Schuster",
+        "Glen J. Smales",
+        "Max Schmallegger",
+        "Julian M. Rosalie",
+        "Konstantin Kraushaar",
+        "Andreas Lißner"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT Sodium–ion batteries are widely considered a promising alternative to lithium‐ion batteries, due to the abundance and low cost of their raw materials. However, the development of high‐performance and cost‐effective electrode materials remains a significant challenge, particularly when competing with lithium iron phosphate systems. Herein, we present a hard carbon material derived from readily available poly(dicyclopentadiene) for use as a negative electrode in SIBs. This study investigates the influence of carbonization temperature and subsequent activation on the hard carbon structure and electrochemical performance. The impact of activation proved to be dependent upon the first stage carbonization temperature, creating greater local ordering for samples carbonized at higher temperatures. The removal of defects and increase in interlayer distance resulted in a turbostratic structure that enhanced rate performance and capacity retention when compared with non‐activated samples. The optimized hard carbon exhibits a reversible capacity of 352 mAh at 0.1 C and a capacity retention of 88.1% after 500 cycles with a carbonate based electrolyte. This work introduces a cost‐effective approach for producing hard carbon materials with distinctive nanostructure and provides valuable insights into achieving long cycle life in sodium–ion batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78311",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "poly(dicyclopentadiene) 유래 경질탄소의 탄화온도와 활성화 공정이 터보스트래틱 구조 형성에 미치는 영향을 분석, 탄산염 전해질 기반 소듐이온전지에서 352mAh 가역용량과 500사이클 88.1% 용량유지율을 달성했다.",
+      "relevant": false
+    },
     {
       "id": "W7222402503",
       "source": "openalex",
@@ -179,96 +267,6 @@
       "image": null,
       "summary_ko": "가넷형 LLZO 고체전해질의 신뢰성을 좌우하는 공정-상태-전기장-고장-성능 프레임워크를 제시한 리뷰다. 결정립계, 기공, 균열, 표면막, 불량 접촉 계면이 이온 전류 집중과 기계적 응력을 유발하는 과정을 분석하고, 입계 화학, 국부적 연화, 기공 연결성, 적층 압력 범위, 리튬 보조 균열 등이 필라멘트 침투와 단락을 결정하는 요인임을 규명했다. 계면 처리, 고분자 복합체, 다공성 스캐폴드 등 다양한 접근법의 전류 균질화 및 결함 차단 효과를 평가했다.",
       "relevant": false
-    },
-    {
-      "id": "W7222930366",
-      "source": "openalex",
-      "title": "Robust Sodium–Metal Batteries Through Electrolyte‐Mediated Interfacial Regulation: Fundamentals, Design Strategies, and Operando Characterization",
-      "url": "https://doi.org/10.1002/adma.202520711",
-      "published": "2026-10-18",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/adma.202520711",
-      "authors": [
-        "Sikandar Iqbal",
-        "Usman ul Ghani",
-        "Xuebing Zhu",
-        "Yun Bai",
-        "Jinlong Jiang",
-        "Ying Zhang"
-      ],
-      "venue": "Advanced Materials",
-      "abstract_en": "ABSTRACT Sodium–metal batteries (SMBs) exhibit high theoretical specific capacity and take advantage of sodium's natural abundance and low cost, showing great promise for broad next‐generation energy‐storage applications. In this review, we summarize the major practical bottlenecks restricting SMB development. The solid–electrolyte interphase (SEI) serves as a key mediator to overcome these challenges, and its formation mechanisms are systematically outlined. We comprehensively review diverse electrolyte strategies, including solvent engineering, salt chemistry optimization, additive utilization, high‐concentration, localized high‐concentration, and weakly solvating electrolytes, for modulating Na + transport and generating mechanically robust, ion‐conductive yet electronically insulating SEI layers. We further discuss advanced in‐situ/operando characterizations combined with multiscale computational modeling and machine‐learning techniques as powerful tools to decipher the dynamic evolution of sodium–metal interfaces. Particular focus is placed on the coupled effects of current density, temperature, electrolyte composition, interfacial layers on sodium nucleation, dendrite growth, dead‐sodium formation, and Coulombic efficiency (CE). Finally, future directions for SEI engineering have been outlook toward high‐performance, practical sodium–metal batteries.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S99352657",
-      "journal_metric": 22.01,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7222904411",
-      "source": "openalex",
-      "title": "High‐Energy and Long‐Life Na 3 V 2 (PO 4 ) 2 F 3 Cathodes via Multielement V‐Site Modulation of Local M–O/F Bonding",
-      "url": "https://doi.org/10.1002/aenm.71719",
-      "published": "2026-10-18",
-      "topics": [
-        "na-cathode"
-      ],
-      "doi": "10.1002/aenm.71719",
-      "authors": [
-        "Zhichao Li",
-        "Fuqiang Li",
-        "Mushun Chen",
-        "Yanyu Sun",
-        "Shouyu Sun",
-        "Zifei Shi"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT Sodium‐ion batteries are promising for sustainable energy storage, but their energy density still lags behind lithium‐ion systems. Na 3 V 2 (PO 4 ) 2 F 3 (NVPF) is an attractive high‐voltage polyanionic cathode, but fluorine loss generates low‐voltage Na 3 V 2 (PO 4 ) 3 impurities that lower energy density and aggravate lattice deformation during cycling. Here, we report a multielement V‐site charge modulation strategy, realized in Na 3‐δ V 1.9 Zr 0.02 Ti 0.02 Cr 0.02 Fe 0.02 Al 0.02 (PO 4 ) 2 F 3 (ME‐NVPF). The deliberate combination of high‐valence Zr 4+ , Ti 4+ , and same‐valence Cr 3+ , Fe 3+ , Al 3+ cations creates a heterogeneous M–O/F bonding network with multi‐directional electrostatic interactions enhancing lattice‐F retention that completely eliminates NVP impurities, lowers the Na + migration barrier, and reduces unit‐cell volume variation to merely 2.87%. Consequently, ME‐NVPF delivers a record‐high energy density of 477 Wh kg −1 , sustains 11 000 cycles, operates across −40 to 80°C, and is further validated in 600 mAh‐level pouch cells. This work establishes multielement compositional regulation as an effective strategy for designing high‐energy, long‐life, and all‐temperature polyanionic cathodes.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S2502627819",
-      "journal_metric": 18.74,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7162694951",
-      "source": "openalex",
-      "title": "Activation‐Induced Turbostratic Ordering in pDCPD‐Derived Hard Carbon Enables Stable Carbonate‐Based Sodium‐Ion Storage",
-      "url": "https://doi.org/10.1002/advs.78311",
-      "published": "2026-10-18",
-      "topics": [
-        "lfp"
-      ],
-      "doi": "10.1002/advs.78311",
-      "authors": [
-        "David Schuster",
-        "Glen J. Smales",
-        "Max Schmallegger",
-        "Julian M. Rosalie",
-        "Konstantin Kraushaar",
-        "Andreas Lißner"
-      ],
-      "venue": "Advanced Science",
-      "abstract_en": "ABSTRACT Sodium–ion batteries are widely considered a promising alternative to lithium‐ion batteries, due to the abundance and low cost of their raw materials. However, the development of high‐performance and cost‐effective electrode materials remains a significant challenge, particularly when competing with lithium iron phosphate systems. Herein, we present a hard carbon material derived from readily available poly(dicyclopentadiene) for use as a negative electrode in SIBs. This study investigates the influence of carbonization temperature and subsequent activation on the hard carbon structure and electrochemical performance. The impact of activation proved to be dependent upon the first stage carbonization temperature, creating greater local ordering for samples carbonized at higher temperatures. The removal of defects and increase in interlayer distance resulted in a turbostratic structure that enhanced rate performance and capacity retention when compared with non‐activated samples. The optimized hard carbon exhibits a reversible capacity of 352 mAh at 0.1 C and a capacity retention of 88.1% after 500 cycles with a carbonate based electrolyte. This work introduces a cost‐effective approach for producing hard carbon materials with distinctive nanostructure and provides valuable insights into achieving long cycle life in sodium–ion batteries.",
-      "oa_status": "gold",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78311",
-      "license": "cc-by",
-      "journal_id": "S2737737698",
-      "journal_metric": 8.82,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

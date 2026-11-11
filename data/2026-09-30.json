@@ -1,8 +1,36 @@
 {
   "date": "2026-09-30",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 13,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04917f",
+      "source": "crossref",
+      "title": "Visualizing degradation in anode-free high-capacity aqueous tin metal batteries across cell lifetime",
+      "url": "https://doi.org/10.1039/d6ee04917f",
+      "published": "2026-09-30",
+      "topics": [],
+      "doi": "10.1039/d6ee04917f",
+      "authors": [
+        "Sofia K. Catalina",
+        "Kyle Frohna",
+        "Willow L. Thompson",
+        "Katherine J. Harmon",
+        "Dasol Yoon",
+        "Jianbo Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Operando optical microscopy unveils multi-stage growth leading to degradation in tin-anode batteries. Substrate engineering prevents this degradation, enabling high-performance tin anodes at high tin utilization and specific capacity.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "작동 중 광학현미경 관찰로 주석 음극 전지의 다단계 성장 및 열화 메커니즘을 규명하고, 기판 설계로 이를 방지해 음극-프리 고용량 수계 주석메탈전지의 성능을 향상시켰다.",
+      "relevant": false
+    },
     {
       "id": "W7214668276",
       "source": "openalex",
@@ -382,34 +410,6 @@
       "image": null,
       "summary_ko": "고전압 리튬금속전지를 위한 in situ 중합 폴리에테르 전해질의 실패 메커니즘을 분석하고 분자 수준의 안정화 전략을 제시한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04917f",
-      "source": "crossref",
-      "title": "Visualizing degradation in anode-free high-capacity aqueous tin metal batteries across cell lifetime",
-      "url": "https://doi.org/10.1039/d6ee04917f",
-      "published": "2026-09-30",
-      "topics": [],
-      "doi": "10.1039/d6ee04917f",
-      "authors": [
-        "Sofia K. Catalina",
-        "Kyle Frohna",
-        "Willow L. Thompson",
-        "Katherine J. Harmon",
-        "Dasol Yoon",
-        "Jianbo Wang"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Operando optical microscopy unveils multi-stage growth leading to degradation in tin-anode batteries. Substrate engineering prevents this degradation, enabling high-performance tin anodes at high tin utilization and specific capacity.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

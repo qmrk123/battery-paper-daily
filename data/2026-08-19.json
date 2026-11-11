@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 1,
   "papers": [
     {
@@ -9,7 +9,9 @@
       "title": "Redirecting Li–CO 2 battery chemistry via geometric matching on the high-entropy intermetallic (110) facet",
       "url": "https://doi.org/10.1039/d6ee04373a",
       "published": "2026-08-19",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1039/d6ee04373a",
       "authors": [
         "Yang Wang",
@@ -28,8 +30,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고엔트로피 금속간화합물의 (110)면과 Li2C2O4의 기하학적 매칭을 통해 Li-CO2 배터리의 옥살레이트 반응 경로를 안정화하고 성능을 향상시켰다. 기하학적 적합성 인자(δ)를 도입해 면 단위에서 반응 화학을 제어할 수 있음을 제시했다.",
+      "relevant": true
     }
   ]
 }

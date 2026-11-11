@@ -1,8 +1,93 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:16:23+00:00",
   "count": 7,
   "papers": [
+    {
+      "id": "W7223471001",
+      "source": "openalex",
+      "title": "Suppressing Irreversible Interfacial Spatial Electron Transfer for High‐Temperature 4.6 V LiCoO 2",
+      "url": "https://doi.org/10.1002/anie.4356451",
+      "published": "2026-10-24",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.4356451",
+      "authors": [
+        "Xiaohu Wang",
+        "Hengyu Ren",
+        "Ziqin Jiao",
+        "Chunyu Xu",
+        "Tao Zeng",
+        "Kunchen Xie"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "(LCO) cathodes under elevated temperatures is essential for meeting the growing energy-storage demands across diverse applications. However, it is severely hindered by interfacial parasitic reactions arising from irreversible electron transfer between electrolyte solvents and the cathode. Herein, we demonstrate the regulation of the spatial distance and orientation of phosphate solvent molecules within the electric double layer at the LCO interface, thereby fundamentally suppressing irreversible interfacial spatial electron transfer (ISET) under combined high-voltage and high-temperature conditions. The fluorinated bidentate phosphate ester (TEFP) creates a compact solvation sheath that counteracts the interfacial-electric-field-driven enrichment of phosphate solvents, increases the solvent-cathode distance, and maintains a P═O orientation away from the cathode, thereby suppressing ISET from the P═O bond to the delithiated LCO. This simultaneously promotes the formation of a well-controlled, uniform, and stable cathode-electrolyte interphase. Consequently, Li||LCO cells with TEFP electrolyte deliver superior cycling stability at 4.6 V and elevated temperatures, with 80% capacity retention after 760 cycles at 60°C and 75.5% after 300 cycles at 80°C, while Ah-level pouch cells further validate the practical viability of the electrolyte. This work provides guidance for the design of cathode interfaces under high-voltage and high-temperature conditions.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4356451",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "LCO 계면의 전기이중층 내에서 인산염 용매 분자의 공간적 거리와 배향을 조절하는 불소화 이중배위 인산에스터(TEFP)를 도입, 비가역적 계면 전자이동(ISET)을 억제하여 4.6V 고전압·고온 조건에서도 Li||LCO셀이 60도 760사이클 80%, 80도 300사이클 75.5%의 용량유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223452885",
+      "source": "openalex",
+      "title": "Spatial Redistribution of Intrinsic Cation Disorder Toward Ultra‐Stable Regeneration of LiNi 0.5 Co 0.2 Mn 0.3 O 2 Cathode",
+      "url": "https://doi.org/10.1002/anie.5827213",
+      "published": "2026-10-24",
+      "topics": [],
+      "doi": "10.1002/anie.5827213",
+      "authors": [
+        "Ahui Zhu",
+        "Ersha Fan",
+        "Kai Sui",
+        "Renjie Chen",
+        "Li Li"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Conventional direct regeneration of spent LiNi 0.5 Co 0.2 Mn 0.3 O 2 cathode material typically aims to eliminate structural defects, such as disordered cation mixing in the bulk phase and electrochemically inert rock‐salt phase formed on the surface. Such regeneration processes feature simple procedures, enabling efficient reconstruction of crystal ordering and effective capacity restoration. However, perfectly ordered layered structures are inherently unstable during long‐term charge–discharge cycling. Here, we propose a defect‐empowered regeneration strategy that rationally modulates and harnesses Li/Ni cation disorder instead of completely eradicating such defects. The electrochemically inert rock–salt phase was dismantled, while intermittent nickel was intentionally retained within lithium slabs. Regeneration was completed within 30 min, outpacing conventional approaches by orders of magnitude. The regenerated material delivered an initial discharge capacity of 164.39 mAh g −1 at 0.2C. It exhibited near 100% capacity retention after 100 cycles at 0.5C and 200 cycles at 1C, demonstrating significantly enhanced stability. Our findings reframe cation disorder as an effective lattice stabilizer, offering a rapid and sustainable pathway for battery recycling.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "폐 LiNi0.5Co0.2Mn0.3O2 양극 재생 시 결함을 완전히 제거하는 대신 Li/Ni 양이온 무질서를 의도적으로 조절해 활용하는 전략을 제시, 암염상을 분해하고 니켈을 리튬층에 일부 잔류시켜 30분 내 재생을 완료하며 100사이클·200사이클에서 거의 100%의 용량유지율을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7223462967",
+      "source": "openalex",
+      "title": "Reusable and Robust Hydrogel With Dynamic Sacrificial S─S Bonds: In Situ Construction of an Integrated SEI/Hydrogel Interface for Highly Stable Zn–I 2 Batteries",
+      "url": "https://doi.org/10.1002/anie.7908002",
+      "published": "2026-10-24",
+      "topics": [],
+      "doi": "10.1002/anie.7908002",
+      "authors": [
+        "Li Peng",
+        "Jinping Wu",
+        "Zihan Zhu",
+        "Jing Tang",
+        "Ling Zhu",
+        "Liya Wang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT The trade‐off among mechanical strength, ionic conductivity, and interfacial stability remains a core challenge for high‐performance hydrogel interfacial layers. Herein, an integrated SEI/polyurea–polyurethane hydrogel (PUMA) interface was constructed on the Zn anode via in situ gelation coupled with interfacial electrochemical reduction. Polyurea–polyurethane hard segments containing octuple H‐bonds, Zn 2+ coordination bonds, and dynamic S─S bonds reinforce PUMA through multi‐level energy dissipation and suppress side reactions by regulating interfacial water. Polyanionic soft segments rich in carboxyl and sulfonic acid groups construct low‐barrier, ion‐selective pathways, optimizing Zn 2+ transport and deposition by solvation regulation and mitigation of concentration polarization. Crucially, interfacial sacrificial S─S bonds undergo cleavage during electrochemical reduction, generating an integrated SEI/PUMA interface with enhanced interfacial stability. The dynamic polyanionic network also blocks polyiodide shuttling and enables thermal reprocessing. Consequently, PUMA@Zn achieves a Zn 2+ transference number of 0.79 and symmetric cell cycling for 5080 h (1 mA cm −2 and 0.5 mAh cm −2 ). PUMA@Zn//I 2 cells retain 88% capacity after 43 000 cycles at 4 A g −1 and operate for over 11 000 cycles even at high iodine loading (16.58 mg cm −2 ). This strategy provides a novel pathway to achieve robust, ion‐conductivity, and chemically bonded hydrogel–metal interfaces for high‐performance aqueous batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.7908002",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "동적 S-S 결합을 가진 재사용 가능한 하이드로젤을 Zn 음극 표면에 전기화학적 환원과 동시에 겔화시켜 통합 SEI/하이드로젤 계면을 형성, 폴리아이오다이드 셔틀을 차단하고 Zn-I2전지에서 4.3만 사이클 88% 용량유지율을 달성했다.",
+      "relevant": false
+    },
     {
       "id": "W7223199636",
       "source": "openalex",
@@ -134,95 +219,6 @@
       "image": null,
       "summary_ko": "초고속 줄 가열을 이용해 니켈 리치 층상 양극재 표면에서 Sr을 비평형적으로 분리시켜 안정화된 암염상 계면을 형성하는 연구로 추정됨. (제목 기반 추정)",
       "relevant": true
-    },
-    {
-      "id": "W7223471001",
-      "source": "openalex",
-      "title": "Suppressing Irreversible Interfacial Spatial Electron Transfer for High‐Temperature 4.6 V LiCoO 2",
-      "url": "https://doi.org/10.1002/anie.4356451",
-      "published": "2026-10-24",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/anie.4356451",
-      "authors": [
-        "Xiaohu Wang",
-        "Hengyu Ren",
-        "Ziqin Jiao",
-        "Chunyu Xu",
-        "Tao Zeng",
-        "Kunchen Xie"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "(LCO) cathodes under elevated temperatures is essential for meeting the growing energy-storage demands across diverse applications. However, it is severely hindered by interfacial parasitic reactions arising from irreversible electron transfer between electrolyte solvents and the cathode. Herein, we demonstrate the regulation of the spatial distance and orientation of phosphate solvent molecules within the electric double layer at the LCO interface, thereby fundamentally suppressing irreversible interfacial spatial electron transfer (ISET) under combined high-voltage and high-temperature conditions. The fluorinated bidentate phosphate ester (TEFP) creates a compact solvation sheath that counteracts the interfacial-electric-field-driven enrichment of phosphate solvents, increases the solvent-cathode distance, and maintains a P═O orientation away from the cathode, thereby suppressing ISET from the P═O bond to the delithiated LCO. This simultaneously promotes the formation of a well-controlled, uniform, and stable cathode-electrolyte interphase. Consequently, Li||LCO cells with TEFP electrolyte deliver superior cycling stability at 4.6 V and elevated temperatures, with 80% capacity retention after 760 cycles at 60°C and 75.5% after 300 cycles at 80°C, while Ah-level pouch cells further validate the practical viability of the electrolyte. This work provides guidance for the design of cathode interfaces under high-voltage and high-temperature conditions.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4356451",
-      "license": null,
-      "journal_id": "S67393510",
-      "journal_metric": 14.89,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223452885",
-      "source": "openalex",
-      "title": "Spatial Redistribution of Intrinsic Cation Disorder Toward Ultra‐Stable Regeneration of LiNi 0.5 Co 0.2 Mn 0.3 O 2 Cathode",
-      "url": "https://doi.org/10.1002/anie.5827213",
-      "published": "2026-10-24",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1002/anie.5827213",
-      "authors": [
-        "Ahui Zhu",
-        "Ersha Fan",
-        "Kai Sui",
-        "Renjie Chen",
-        "Li Li"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Conventional direct regeneration of spent LiNi 0.5 Co 0.2 Mn 0.3 O 2 cathode material typically aims to eliminate structural defects, such as disordered cation mixing in the bulk phase and electrochemically inert rock‐salt phase formed on the surface. Such regeneration processes feature simple procedures, enabling efficient reconstruction of crystal ordering and effective capacity restoration. However, perfectly ordered layered structures are inherently unstable during long‐term charge–discharge cycling. Here, we propose a defect‐empowered regeneration strategy that rationally modulates and harnesses Li/Ni cation disorder instead of completely eradicating such defects. The electrochemically inert rock–salt phase was dismantled, while intermittent nickel was intentionally retained within lithium slabs. Regeneration was completed within 30 min, outpacing conventional approaches by orders of magnitude. The regenerated material delivered an initial discharge capacity of 164.39 mAh g −1 at 0.2C. It exhibited near 100% capacity retention after 100 cycles at 0.5C and 200 cycles at 1C, demonstrating significantly enhanced stability. Our findings reframe cation disorder as an effective lattice stabilizer, offering a rapid and sustainable pathway for battery recycling.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S67393510",
-      "journal_metric": 14.89,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223462967",
-      "source": "openalex",
-      "title": "Reusable and Robust Hydrogel With Dynamic Sacrificial S─S Bonds: In Situ Construction of an Integrated SEI/Hydrogel Interface for Highly Stable Zn–I 2 Batteries",
-      "url": "https://doi.org/10.1002/anie.7908002",
-      "published": "2026-10-24",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/anie.7908002",
-      "authors": [
-        "Li Peng",
-        "Jinping Wu",
-        "Zihan Zhu",
-        "Jing Tang",
-        "Ling Zhu",
-        "Liya Wang"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT The trade‐off among mechanical strength, ionic conductivity, and interfacial stability remains a core challenge for high‐performance hydrogel interfacial layers. Herein, an integrated SEI/polyurea–polyurethane hydrogel (PUMA) interface was constructed on the Zn anode via in situ gelation coupled with interfacial electrochemical reduction. Polyurea–polyurethane hard segments containing octuple H‐bonds, Zn 2+ coordination bonds, and dynamic S─S bonds reinforce PUMA through multi‐level energy dissipation and suppress side reactions by regulating interfacial water. Polyanionic soft segments rich in carboxyl and sulfonic acid groups construct low‐barrier, ion‐selective pathways, optimizing Zn 2+ transport and deposition by solvation regulation and mitigation of concentration polarization. Crucially, interfacial sacrificial S─S bonds undergo cleavage during electrochemical reduction, generating an integrated SEI/PUMA interface with enhanced interfacial stability. The dynamic polyanionic network also blocks polyiodide shuttling and enables thermal reprocessing. Consequently, PUMA@Zn achieves a Zn 2+ transference number of 0.79 and symmetric cell cycling for 5080 h (1 mA cm −2 and 0.5 mAh cm −2 ). PUMA@Zn//I 2 cells retain 88% capacity after 43 000 cycles at 4 A g −1 and operate for over 11 000 cycles even at high iodine loading (16.58 mg cm −2 ). This strategy provides a novel pathway to achieve robust, ion‐conductivity, and chemically bonded hydrogel–metal interfaces for high‐performance aqueous batteries.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.7908002",
-      "license": null,
-      "journal_id": "S67393510",
-      "journal_metric": 14.89,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

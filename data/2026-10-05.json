@@ -1,8 +1,38 @@
 {
   "date": "2026-10-05",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 14,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee05141c",
+      "source": "crossref",
+      "title": "Unveiling phase synergy and heterogeneity in biphasic sodium layered oxides",
+      "url": "https://doi.org/10.1039/d6ee05141c",
+      "published": "2026-10-05",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1039/d6ee05141c",
+      "authors": [
+        "Ahamed Irshad",
+        "Shubham Lochab",
+        "Yan-Kai Tzeng",
+        "Marcos Lucero",
+        "Eddie Barks",
+        "Edward W. Mu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Phase synergy enables nearly reversible high-voltage phase transitions in biphasic sodium layered oxides. Multiscale characterization uncovers nanoscale phase coexistence, degradation-prone single-phase domains, and heterogeneous iron redox.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "이상(biphasic) 소듐 층상산화물에서 상 간 시너지를 통한 거의 가역적인 고전압 상전이를 규명, 나노스케일 상 공존과 열화 취약 단일상 영역, 불균일한 철 레독스를 다중 스케일 분석으로 밝혔다.",
+      "relevant": true
+    },
     {
       "id": "W7218550926",
       "source": "openalex",
@@ -374,34 +404,6 @@
       "image": null,
       "summary_ko": "실용적인 리튬 금속 배터리에서 충방전 사이클 수명을 넘어 실사용 환경에서의 저장 수명(calendar life)에 초점을 맞춘 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee05141c",
-      "source": "crossref",
-      "title": "Unveiling phase synergy and heterogeneity in biphasic sodium layered oxides",
-      "url": "https://doi.org/10.1039/d6ee05141c",
-      "published": "2026-10-05",
-      "topics": [],
-      "doi": "10.1039/d6ee05141c",
-      "authors": [
-        "Ahamed Irshad",
-        "Shubham Lochab",
-        "Yan-Kai Tzeng",
-        "Marcos Lucero",
-        "Eddie Barks",
-        "Edward W. Mu"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Phase synergy enables nearly reversible high-voltage phase transitions in biphasic sodium layered oxides. Multiscale characterization uncovers nanoscale phase coexistence, degradation-prone single-phase domains, and heterogeneous iron redox.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

@@ -1,8 +1,38 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 8,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04331c",
+      "source": "crossref",
+      "title": "Sacrificing energy density fails to deliver safety: cathode structure determines the safety of sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee04331c",
+      "published": "2026-09-04",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1039/d6ee04331c",
+      "authors": [
+        "Junxian Hou",
+        "Yinan Ma",
+        "Xuning Feng",
+        "Chunyan Luo",
+        "Li Wang",
+        "Xuebing Han"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Low energy density fails to ensure Na-ion battery safety. Here, cathode structure unveils two failure routes: layered oxides drive catastrophic two-stage heat release, while polyanionics confine heat to a mild anode-electrolyte reaction.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "소듐이온전지에서 에너지밀도를 낮추는 것이 안전성을 보장하지 못함을 보이고, 층상 산화물 양극은 2단계 급격한 발열을 일으키는 반면 폴리아니온계 양극은 발열을 음극-전해질 반응으로 제한함을 규명했다.",
+      "relevant": true
+    },
     {
       "id": "W7206186590",
       "source": "openalex",
@@ -211,34 +241,6 @@
       "image": null,
       "summary_ko": "수계 아연이온전지용 기능화 분리막을 다차원적으로 제어하여 완전지 안정성을 높이는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee04331c",
-      "source": "crossref",
-      "title": "Sacrificing energy density fails to deliver safety: cathode structure determines the safety of sodium-ion batteries",
-      "url": "https://doi.org/10.1039/d6ee04331c",
-      "published": "2026-09-04",
-      "topics": [],
-      "doi": "10.1039/d6ee04331c",
-      "authors": [
-        "Junxian Hou",
-        "Yinan Ma",
-        "Xuning Feng",
-        "Chunyan Luo",
-        "Li Wang",
-        "Xuebing Han"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Low energy density fails to ensure Na-ion battery safety. Here, cathode structure unveils two failure routes: layered oxides drive catastrophic two-stage heat release, while polyanionics confine heat to a mild anode-electrolyte reaction.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

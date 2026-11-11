@@ -1,8 +1,122 @@
 {
   "date": "2026-10-27",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:16:23+00:00",
   "count": 6,
   "papers": [
+    {
+      "id": "W7223970975",
+      "source": "openalex",
+      "title": "Sulfur-Induced Local Structure Reconstruction and Weak Na–Anion Interactions Enable Fast Na+ Transport in x Na2S-TaCl5 Electrolytes",
+      "url": "https://doi.org/10.1021/acsnano.6c12578",
+      "published": "2026-10-27",
+      "topics": [],
+      "doi": "10.1021/acsnano.6c12578",
+      "authors": [
+        "Jiwei Wang",
+        "Anika Tabassum Promi",
+        "X Iang Zhang",
+        "Yogeshwaran Agilan",
+        "Man Chen",
+        "Mengting Ye"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Amorphous solid electrolytes offer opportunities for fast ion transport, yet the structural origins governing their performance remain difficult to resolve due to the absence of long-range order. While mixed-anion strategies have recently emerged to improve ion transport in sodium halide electrolytes, how sulfur incorporation modifies the local structure and Na+ transport remains poorly understood. Here, we develop a series of xNa2S-TaCl5 mixed anion solid electrolytes to elucidate the impact of sulfur on the structure and Na+ transport. Structural analyses reveal that sulfur incorporation reconstructs the connectivity of Ta-centered polyhedra while progressively disrupting the long-range crystalline ordering to form an amorphous framework. More importantly, neutron pair distribution function analysis reveals the sulfur-induced reconstruction of the local Ta-centered structure, with the emergence of coexisting edge-sharing- and corner-sharing-like motifs from the isolated polyhedra in crystalline NaTaCl6. Simulations further show that sulfur shifts the local polyhedral connectivity toward a larger proportion of edge-sharing configurations relative to the O-containing analogue. Matched-composition machine-learning molecular dynamics (MLMD) comparing O- and S-containing amorphous models suggest that sulfur weakens Na-anion binding, shortens Na–anion residence times, and lowers the barrier for Na+ migration relative to the O analogue. As a result, the optimized composition achieves a high room-temperature ionic conductivity of 3.25 mS cm–1 with a low activation energy of 0.28 eV. When evaluated in all-solid-state sodium batteries with an uncoated NaNi1/3Mn1/3Fe1/3O2 cathode, the cell delivers a discharge capacity of 112 mAh g–1 after 100 cycles (82.6% retention) with a high average Coulombic efficiency of 99.8%, demonstrating stable interfacial compatibility with uncoated layered oxide cathodes.",
+      "oa_status": "hybrid",
+      "oa_url": "https://pubs.acs.org/ancac3/article-pdf/doi/10.1021/acsnano.6c12578/68994961/acsnano.6c12578.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "xNa2S-TaCl5 혼합음이온 고체전해질에서 황 도입이 Ta중심 다면체의 연결성을 재구성하고 Na-음이온 결합을 약화시켜, 3.25 mS/cm의 상온 이온전도도(활성화에너지 0.28eV)를 달성, 무코팅 NaNi1/3Mn1/3Fe1/3O2 양극과의 전고체전지에서 100사이클 82.6% 용량유지율을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7224007482",
+      "source": "openalex",
+      "title": "Photothermal Catalytic Dry Reforming of Methane With 1000‐Hour Stability via Redox Shuttle of Metal Vanadate",
+      "url": "https://doi.org/10.1002/adma.75527",
+      "published": "2026-10-27",
+      "topics": [],
+      "doi": "10.1002/adma.75527",
+      "authors": [
+        "Yueyue Dong",
+        "Zhiyong Ouyang",
+        "Zhongliao Wang",
+        "Wei Ma",
+        "Hailong Xiong",
+        "Tingting Kong"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Photothermal catalytic dry reforming of methane (DRM) mediated by lattice oxygen (O l ) is promising for converting two major greenhouse gases into syngas. However, conventional oxide supports possess strong metal–oxygen bonds that restrict O l migration, compromising stability, typically less than 200 h. Herein, we design a Rh/Mg 2 V 1.33 O 4 catalyst with Rh δ + ─O v ─V n + interfacial sites ( n = 3 or 4). The defective spinel vanadate support exhibits quasi‐metallic properties, enabling efficient solar harvesting and photothermal conversion. Under 4 W cm −2 light irradiation without external heating, the redox flexibility of V species enables an interfacial redox shuttle (Rh δ + ─O v ─V n + ⇌ Rh δ + ─O l ─V ( n +1)+ ), which endows the catalyst with effective O l migration and regeneration ability in the DRM reaction. This property steers the reaction along a coking‐resistant CH 3 O* pathway and guarantees structural stability. As a result, the catalyst delivers long‐term stability for 1000 h, outperforming state‐of‐the‐art photothermal catalysts. It also achieves high syngas generation rates of 16.1 and 18.6 mol g Rh −1 h −1 for H 2 and CO, respectively, along with a light‐to‐chemical energy efficiency of ∼20.9%. This work establishes quasi‐metallic, redox‐active vanadate supports as a transformative platform for durable O l ‐mediated photothermal catalysis.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75527",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "메탄의 광열 촉매 건식개질에서 Rh/Mg2V1.33O4 촉매의 계면 레독스 셔틀을 이용해 격자산소 이동과 재생을 가능케 해 1000시간의 장기 안정성을 달성한 촉매 연구로, 배터리와는 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7223882684",
+      "source": "openalex",
+      "title": "Non‐Monotonical Ion Association Equilibria in Low‐Temperature Sodium–Metal Battery Electrolytes",
+      "url": "https://doi.org/10.1002/anie.7246806",
+      "published": "2026-10-27",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/anie.7246806",
+      "authors": [
+        "Xiong Xiao",
+        "Wen‐Ping Ju",
+        "Jin-Hao Zhang",
+        "Jin‐Xiu Chen",
+        "Gulnur Kalimuldina",
+        "Ayaulym Belgibayeva"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Intermolecular distance is a critical parameter governing electrostatics and solvation in aprotic electrolytes. Governed by the power–law relationship between interaction energy and distance, the attenuation of molecular Brownian motion at low temperatures leads to a sharp reduction in intermolecular distance, which in turn amplifies dipole–dipole interactions and impacts the transport kinetics of sodium (Na) ions in both bulk and interface domains. How the low‐temperature regime influences the association and dissociation of Na solvation equilibrium is rather elusive. In this study, an electrophilicity/nucleophilicity‐based descriptor is proposed to quantify solvent self‐association, which is primarily driven by dipole–dipole interactions. Based on this framework, the solvent pairs are generated during non‐monotonical temperature‐dependent Na + solvation evolution, which contributes to excessive ion aggregation to tame redox kinetics at low temperature. In line with this consideration, a facile strategy using a dilute electrolyte was developed to establish a favorable solvation equilibrium between dissociated and associated species. This work refreshes the understanding of thermodynamic equilibrium between ion–dipole and dipole–dipole interactions, and challenges the conventional approach of learning from the lithium batteries that encourage weakly solvating electrolyte, arguing the critical importance of strengthening cation solvation chemistry in Na battery field due to the temperature‐dependent dipole–dipole interactions.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.7246806",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "저온에서 쌍극자-쌍극자 상호작용 증대에 따른 Na+ 솔베이션 평형의 비단조적 거동을 전기친화성/친핵성 기반 디스크립터로 정량화, 희석 전해질을 통해 해리-결합종 간 유리한 솔베이션 평형을 구축하는 전략을 제시, 리튬전지의 약배위 전해질 접근법과 달리 소듐전지에서는 양이온 솔베이션 화학 강화가 중요함을 주장했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223948606",
+      "source": "openalex",
+      "title": "Facile Polyiodides Conversion Enabled by Facet Engineering for Durable Zinc–Iodine Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c15505",
+      "published": "2026-10-27",
+      "topics": [],
+      "doi": "10.1021/acsnano.6c15505",
+      "authors": [
+        "Tianran Yan",
+        "Lei Wang",
+        "Shusheng Huang",
+        "Shiqi Shen",
+        "Xinzhi Miao",
+        "Liang Zhang"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Aqueous zinc–iodine (Zn–I2) batteries are highly promising for grid-scale energy storage, yet their practical viability is severely plagued by the polyiodides shuttle effect and sluggish liquid–solid conversion kinetics, which fundamentally arise from the contradictory energetic demands between soluble intermediate confinement and solid-product desorption. Herein, we rationally construct a dual-facet spinel cobalt oxide to precisely decouple these competing interfacial behaviors. By regulating the proportional exposure of strongly coordinating (100) and weakly coordinating (111) facets, a tailored surface microenvironment is constructed that effectively circumvents the inherent thermodynamic trade-off, breaking the single adsorption limitation intrinsic to uniform catalysts. In situ iodine L3-edge X-ray absorption spectroscopy and three-dimensional synchrotron-based nanocomputed tomography reveal that this specific facet modulation substantially reduces the activation barrier for rate-determining polyiodides oxidation, facilitating spatially uniform solid-iodine deposition. Driven by these structural advantages, the assembled Zn–I2 batteries with c/o-Co3O4 deliver a high specific capacity of 161.1 mAh g–1 at 16 A g–1 and an ultralow capacity decay rate of 0.00055% per cycle after 50,000 cycles at 10 A g–1. Furthermore, the batteries also exhibit a broad operational temperature ranging from −30 to 60 °C, highlighting the strong potential for practical applications. This work provides a perspective on facet engineering for achieving wide-temperature-tolerant aqueous iodine storage.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "강배위 (100)면과 약배위 (111)면의 비율을 조절한 이중면 스피넬 Co3O4 촉매로 폴리아이오다이드 흡착과 고체 아이오딘 탈착 간의 상충을 해소, 16A/g에서 161.1 mAh/g 용량과 5만 사이클 0.00055%/사이클의 낮은 감쇄율을 가지며 영하 30도~60도 광범위 온도에서 작동하는 Zn-I2전지를 구현했다.",
+      "relevant": false
+    },
     {
       "id": "W7223550024",
       "source": "openalex",
@@ -71,126 +185,6 @@
       },
       "summary_ko": "나트륨 티타네이트에 담지된 3nm 백금 나노입자를 산소 결손이 풍부한 TiOx 층으로 캡슐화하여, 수소만 선택적으로 흡착·해리시키고 기질과의 직접 접촉을 막는 다기능 모듈형 촉매를 개발했다. 이 구조는 분자 분리, 수소 활성화, 중간체 이동, 표면 반응을 나노공장처럼 공간적으로 분리하여 니트로아렌의 화학선택적 수소화를 구현한다. 3-니트로스티렌으로부터 90% 수율로 3-비닐아닐린을 얻었으며, 기존 금속 촉매를 능가하는 83,200 h⁻¹의 전환빈도(TOF)를 달성했다.",
       "relevant": false
-    },
-    {
-      "id": "W7223970975",
-      "source": "openalex",
-      "title": "Sulfur-Induced Local Structure Reconstruction and Weak Na–Anion Interactions Enable Fast Na+ Transport in x Na2S-TaCl5 Electrolytes",
-      "url": "https://doi.org/10.1021/acsnano.6c12578",
-      "published": "2026-10-27",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1021/acsnano.6c12578",
-      "authors": [
-        "Jiwei Wang",
-        "Anika Tabassum Promi",
-        "X Iang Zhang",
-        "Yogeshwaran Agilan",
-        "Man Chen",
-        "Mengting Ye"
-      ],
-      "venue": "ACS Nano",
-      "abstract_en": "Abstract Amorphous solid electrolytes offer opportunities for fast ion transport, yet the structural origins governing their performance remain difficult to resolve due to the absence of long-range order. While mixed-anion strategies have recently emerged to improve ion transport in sodium halide electrolytes, how sulfur incorporation modifies the local structure and Na+ transport remains poorly understood. Here, we develop a series of xNa2S-TaCl5 mixed anion solid electrolytes to elucidate the impact of sulfur on the structure and Na+ transport. Structural analyses reveal that sulfur incorporation reconstructs the connectivity of Ta-centered polyhedra while progressively disrupting the long-range crystalline ordering to form an amorphous framework. More importantly, neutron pair distribution function analysis reveals the sulfur-induced reconstruction of the local Ta-centered structure, with the emergence of coexisting edge-sharing- and corner-sharing-like motifs from the isolated polyhedra in crystalline NaTaCl6. Simulations further show that sulfur shifts the local polyhedral connectivity toward a larger proportion of edge-sharing configurations relative to the O-containing analogue. Matched-composition machine-learning molecular dynamics (MLMD) comparing O- and S-containing amorphous models suggest that sulfur weakens Na-anion binding, shortens Na–anion residence times, and lowers the barrier for Na+ migration relative to the O analogue. As a result, the optimized composition achieves a high room-temperature ionic conductivity of 3.25 mS cm–1 with a low activation energy of 0.28 eV. When evaluated in all-solid-state sodium batteries with an uncoated NaNi1/3Mn1/3Fe1/3O2 cathode, the cell delivers a discharge capacity of 112 mAh g–1 after 100 cycles (82.6% retention) with a high average Coulombic efficiency of 99.8%, demonstrating stable interfacial compatibility with uncoated layered oxide cathodes.",
-      "oa_status": "hybrid",
-      "oa_url": "https://pubs.acs.org/ancac3/article-pdf/doi/10.1021/acsnano.6c12578/68994961/acsnano.6c12578.pdf",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S145476921",
-      "journal_metric": 16.67,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7224007482",
-      "source": "openalex",
-      "title": "Photothermal Catalytic Dry Reforming of Methane With 1000‐Hour Stability via Redox Shuttle of Metal Vanadate",
-      "url": "https://doi.org/10.1002/adma.75527",
-      "published": "2026-10-27",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adma.75527",
-      "authors": [
-        "Yueyue Dong",
-        "Zhiyong Ouyang",
-        "Zhongliao Wang",
-        "Wei Ma",
-        "Hailong Xiong",
-        "Tingting Kong"
-      ],
-      "venue": "Advanced Materials",
-      "abstract_en": "ABSTRACT Photothermal catalytic dry reforming of methane (DRM) mediated by lattice oxygen (O l ) is promising for converting two major greenhouse gases into syngas. However, conventional oxide supports possess strong metal–oxygen bonds that restrict O l migration, compromising stability, typically less than 200 h. Herein, we design a Rh/Mg 2 V 1.33 O 4 catalyst with Rh δ + ─O v ─V n + interfacial sites ( n = 3 or 4). The defective spinel vanadate support exhibits quasi‐metallic properties, enabling efficient solar harvesting and photothermal conversion. Under 4 W cm −2 light irradiation without external heating, the redox flexibility of V species enables an interfacial redox shuttle (Rh δ + ─O v ─V n + ⇌ Rh δ + ─O l ─V ( n +1)+ ), which endows the catalyst with effective O l migration and regeneration ability in the DRM reaction. This property steers the reaction along a coking‐resistant CH 3 O* pathway and guarantees structural stability. As a result, the catalyst delivers long‐term stability for 1000 h, outperforming state‐of‐the‐art photothermal catalysts. It also achieves high syngas generation rates of 16.1 and 18.6 mol g Rh −1 h −1 for H 2 and CO, respectively, along with a light‐to‐chemical energy efficiency of ∼20.9%. This work establishes quasi‐metallic, redox‐active vanadate supports as a transformative platform for durable O l ‐mediated photothermal catalysis.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75527",
-      "license": null,
-      "journal_id": "S99352657",
-      "journal_metric": 22.01,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223882684",
-      "source": "openalex",
-      "title": "Non‐Monotonical Ion Association Equilibria in Low‐Temperature Sodium–Metal Battery Electrolytes",
-      "url": "https://doi.org/10.1002/anie.7246806",
-      "published": "2026-10-27",
-      "topics": [
-        "na-metal"
-      ],
-      "doi": "10.1002/anie.7246806",
-      "authors": [
-        "Xiong Xiao",
-        "Wen‐Ping Ju",
-        "Jin-Hao Zhang",
-        "Jin‐Xiu Chen",
-        "Gulnur Kalimuldina",
-        "Ayaulym Belgibayeva"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Intermolecular distance is a critical parameter governing electrostatics and solvation in aprotic electrolytes. Governed by the power–law relationship between interaction energy and distance, the attenuation of molecular Brownian motion at low temperatures leads to a sharp reduction in intermolecular distance, which in turn amplifies dipole–dipole interactions and impacts the transport kinetics of sodium (Na) ions in both bulk and interface domains. How the low‐temperature regime influences the association and dissociation of Na solvation equilibrium is rather elusive. In this study, an electrophilicity/nucleophilicity‐based descriptor is proposed to quantify solvent self‐association, which is primarily driven by dipole–dipole interactions. Based on this framework, the solvent pairs are generated during non‐monotonical temperature‐dependent Na + solvation evolution, which contributes to excessive ion aggregation to tame redox kinetics at low temperature. In line with this consideration, a facile strategy using a dilute electrolyte was developed to establish a favorable solvation equilibrium between dissociated and associated species. This work refreshes the understanding of thermodynamic equilibrium between ion–dipole and dipole–dipole interactions, and challenges the conventional approach of learning from the lithium batteries that encourage weakly solvating electrolyte, arguing the critical importance of strengthening cation solvation chemistry in Na battery field due to the temperature‐dependent dipole–dipole interactions.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.7246806",
-      "license": null,
-      "journal_id": "S67393510",
-      "journal_metric": 14.89,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223948606",
-      "source": "openalex",
-      "title": "Facile Polyiodides Conversion Enabled by Facet Engineering for Durable Zinc–Iodine Batteries",
-      "url": "https://doi.org/10.1021/acsnano.6c15505",
-      "published": "2026-10-27",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1021/acsnano.6c15505",
-      "authors": [
-        "Tianran Yan",
-        "Lei Wang",
-        "Shusheng Huang",
-        "Shiqi Shen",
-        "Xinzhi Miao",
-        "Liang Zhang"
-      ],
-      "venue": "ACS Nano",
-      "abstract_en": "Abstract Aqueous zinc–iodine (Zn–I2) batteries are highly promising for grid-scale energy storage, yet their practical viability is severely plagued by the polyiodides shuttle effect and sluggish liquid–solid conversion kinetics, which fundamentally arise from the contradictory energetic demands between soluble intermediate confinement and solid-product desorption. Herein, we rationally construct a dual-facet spinel cobalt oxide to precisely decouple these competing interfacial behaviors. By regulating the proportional exposure of strongly coordinating (100) and weakly coordinating (111) facets, a tailored surface microenvironment is constructed that effectively circumvents the inherent thermodynamic trade-off, breaking the single adsorption limitation intrinsic to uniform catalysts. In situ iodine L3-edge X-ray absorption spectroscopy and three-dimensional synchrotron-based nanocomputed tomography reveal that this specific facet modulation substantially reduces the activation barrier for rate-determining polyiodides oxidation, facilitating spatially uniform solid-iodine deposition. Driven by these structural advantages, the assembled Zn–I2 batteries with c/o-Co3O4 deliver a high specific capacity of 161.1 mAh g–1 at 16 A g–1 and an ultralow capacity decay rate of 0.00055% per cycle after 50,000 cycles at 10 A g–1. Furthermore, the batteries also exhibit a broad operational temperature ranging from −30 to 60 °C, highlighting the strong potential for practical applications. This work provides a perspective on facet engineering for achieving wide-temperature-tolerant aqueous iodine storage.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S145476921",
-      "journal_metric": 16.67,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

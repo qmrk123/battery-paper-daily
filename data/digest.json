@@ -1,32 +1,22 @@
 {
   "title": "최근 2주 논문 브리핑 (11/2–11/9)",
   "range": "2026-11-02 ~ 2026-11-09",
-  "overall": "리튬·소듐 금속 음극의 계면/전해질 설계가 전고체 및 무음극 구조로 빠르게 수렴하고 있으며, Li-S·Li-rich 양극에서는 촉매·산소 레독스 안정화를 통한 수명·속도 한계 극복이 핵심 흐름으로 나타난다.",
+  "overall": "이번 2주간 연구는 전해질·계면 설계와 인공 SEI를 통해 리튬·소듐 금속 음극의 균일 증착과 무음극 가역성을 끌어올리는 데 집중되었고, 양극 쪽에서는 음이온(산소) 레독스의 안정화와 황 전환 촉매 설계가 두드러진 흐름을 보였다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 솔베이션 구조 제어와 인공 SEI 설계가 지배적 흐름으로, 코어-쉘 솔베이션, N-헤테로사이클·피리돈 첨가제, 무불소 가교형 ASEI 등을 통해 LiF·Li3N·Li2O가 풍부한 무기질 계면을 형성해 고율(10 mA cm⁻²)·고로딩에서 수천 시간 안정성과 NCM811 완전셀 장수명을 동시에 겨냥한다. 복합 고체전해질(PAN/SiO2, PEO/MOF, LLZO 변성, 자가치유형) 연구가 집중되어 분극 균일화·응력 완화·높은 이온전도도(10⁻³ S cm⁻¹대)를 통한 덴드라이트 억제를 추구하며, 머신러닝·PINN을 활용한 메커니즘 규명도 병행된다. 또한 캘린더 수명을 좌우하는 정적 부식을 정량화하거나 액체금속·LiZn 나노결정으로 증착 균일성을 높이는 등 실용 파우치셀(400~475 Wh kg⁻¹) 지향 접근이 뚜렷하다.",
+      "text": "리튬 금속 음극 연구는 전해질 솔베이션 구조 제어와 인공 SEI/계면층 설계로 균일 증착과 가역성을 확보하는 전략이 주류를 이루었다. 코어-쉘 솔베이션, N-헤테로사이클릭·티오에테르 첨가제, 불소가 풍부한 MOF 이온 조절자처럼 Li+ 탈솔베이션을 가속하고 LiF·무기질 계면을 유도하는 접근과, 완전 무불소 계면화학·정적 부식 억제처럼 지속가능성과 캘린더 수명을 겨냥한 방향이 공존했다. 전고체·준고체 쪽에서는 황화물 복합 멤브레인, 자가치유·생체모사 복합 고분자 전해질, 응력 완화형 Ag-탄소 음극 등 기계적 안정성과 저압 구동을 함께 노리는 설계가 많았으며, 실용성 지표로 고로딩·파우치셀과 400~475 Wh/kg급 에너지밀도가 반복적으로 제시되었다.",
       "highlights": [
         {"title": "Core–Shell Solvation Structure Engineering Enables Practical Lithium Metal Batteries With 475 Wh Kg −1", "url": "https://doi.org/10.1002/adfm.79182", "venue": "Advanced Functional Materials"},
-        {"title": "Electrolyte‐Enabled Suppression of Static Corrosion for Long‐Cycle Calendar Life in Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.79415", "venue": "Advanced Functional Materials"},
+        {"title": "A Sustainable Fully Fluorine‐Free Interfacial Chemistry for Reversible Anode‐Free Lithium Metal Batteries", "url": "https://doi.org/10.1002/adfm.79374", "venue": "Advanced Functional Materials"},
         {"title": "Coupling electrolyte mechanical reinforcement and interfacial stress relaxation for near-ambient sulfide all-solid-state lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-79393-w", "venue": "Nature Communications"}
-      ]
-    },
-    {
-      "topic": "other-cathode",
-      "heading": "기타 양극",
-      "text": "리튬-황 전지가 중심으로, 폴리설파이드 셔틀 억제와 전환 반응 촉진을 위해 고엔트로피 황화물·셀레나이드 촉매의 d-band center 상보성·이중경로 전환, 계면 촉매상(S-W-O), 작용기 분리형 COF 분자 트랩 등 다양한 촉매·호스트 전략이 제시된다. 전고체 Li-S에서는 고체-고체 전환 경로를 지배적으로 만들어 셔틀을 근본 차단하고 고로딩(30 mg cm⁻²)·장수명(1만5천 사이클)을 달성하며, 티오에테르 전해질로 음극과 SPAN 양극을 동시 안정화하는 접근도 보인다. Li-O2 영역에서는 비정질 비귀금속 고엔트로피 합금 촉매로 용량-가역성 트레이드오프를 완화해 754 Wh kg⁻¹급 에너지밀도를 구현했다.",
-      "highlights": [
-        {"title": "Catalytic Interphases Enable Sulfur Redox Catalysis in All-Solid-State Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c13825", "venue": "Journal of the American Chemical Society"},
-        {"title": "Breaking the Capacity‐Reversibility Linear Trade‐Off in Li–O 2 Batteries via Amorphous Non‐Precious High‐Entropy Alloy Catalysts", "url": "https://doi.org/10.1002/adma.75403", "venue": "Advanced Materials"},
-        {"title": "Tailoring Covalent Organic Frameworks as Functionalized Molecular Traps to Enable Sulfur Conversion and Li + Desolvation for Durable Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/adfm.79490", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "소듐 금속·무음극 전지에서 NaF가 풍부한 무기질 SEI 형성을 통한 Na+ 탈솔베이션 가속과 덴드라이트 억제가 공통 주제로, 약배위 국소 고농도 전해질(MTBE), 난연성 준고체 전해질, 머신러닝 기반 미량 첨가제(NaCDFA) 발굴 등 전해질 설계가 다각화되고 있다. 집전체·코팅 측면에서는 나선형 CNF 3D 네트워크, 폴리이미드·다중위상 기계적 맞물림 고분자, in-situ 플루오로설파이드 계면(금속 Mo 활성점) 등 균일 증착을 유도하는 인공 계면 전략이 집중된다. Na3V2(PO4)3 기반 셀에서 수천~5만 사이클의 초장수명과 200C급 극고속 구동이 반복 보고되는 점이 특징이다.",
+      "text": "소듐 금속 음극 연구는 NaF가 풍부한 무기질 SEI 형성과 Na+ 탈솔베이션 가속을 공통 목표로 하여 전해질 첨가제, 약배위성 국소 고농도 전해질, 난연성 준고체 전해질 등 다양한 전해질 설계가 제시되었다. 머신러닝 기반 능동 탐색으로 미량 첨가제를 발굴해 200C·5만 회 구동을 달성한 사례처럼 극한 고율 안정성을 겨냥한 연구가 눈에 띄며, COF·기계적 맞물림 고분자 등 인공 SEI 코팅과 나선형 CNF 3D 집전체처럼 균일 증착을 위한 구조 설계도 병행되었다. 특히 무음극(anode-free) 구성에서의 가역성 확보가 반복적으로 강조되었고, 완전셀 평가는 대부분 Na3V2(PO4)3 양극 기준으로 수렴했다.",
       "highlights": [
         {"title": "Machine Learning-Driven Electrolyte Additive Discovery for Ultrafast Charging of Sodium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c10960", "venue": "Journal of the American Chemical Society"},
         {"title": "Stable anode-free sodium batteries enabled by controlled oligomerization", "url": "https://doi.org/10.1038/s41560-026-02154-y", "venue": "Nature Energy"},
@@ -34,9 +24,19 @@
       ]
     },
     {
+      "topic": "other-cathode",
+      "heading": "기타 양극",
+      "text": "기타 양극 연구는 리튬-황 전지의 폴리설파이드 셔틀 억제와 황 전환 반응 촉진에 크게 집중되었다. 고엔트로피 합금·황화물·셀레나이드 촉매가 d-band center 조절을 통해 양방향 전환 속도론을 가속하는 전략이 반복적으로 등장했고, 전고체 Li-S에서는 고체-고체 전환 경로를 지배적으로 만드는 계면 촉매·호스트 설계가 제시되었다. 또한 공유결합유기골격체(COF)를 분자 트랩으로 활용해 황종 포획과 Li+ 탈솔베이션을 분리 설계하는 접근, Li-O2 전지에서 비귀금속 고엔트로피 합금으로 용량-가역성 트레이드오프를 완화하는 연구 등 촉매·호스트 공학이 공통 키워드로 나타났다.",
+      "highlights": [
+        {"title": "Catalytic Interphases Enable Sulfur Redox Catalysis in All-Solid-State Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c13825", "venue": "Journal of the American Chemical Society"},
+        {"title": "Breaking the Capacity‐Reversibility Linear Trade‐Off in Li–O 2 Batteries via Amorphous Non‐Precious High‐Entropy Alloy Catalysts", "url": "https://doi.org/10.1002/adma.75403", "venue": "Advanced Materials"},
+        {"title": "Tailoring Covalent Organic Frameworks as Functionalized Molecular Traps to Enable Sulfur Conversion and Li + Desolvation for Durable Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/adfm.79490", "venue": "Advanced Functional Materials"}
+      ]
+    },
+    {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "Li-rich 망간계 양극에서 음이온(산소) 레독스의 가역성과 구조 안정화가 핵심 쟁점으로, 전체 조성 스크리닝을 통해 미세분산 Li2MnO3 도메인·안티사이트·자발 스피넬 계면상의 상승효과가 코발트-프리 조성의 내구성을 결정함을 규명했다. 동역학 측면에서는 in-situ 임피던스·LSV로 SOC와 C-rate에 따른 속도결정단계 전환(계면 전자전달↔Li+ 고체 확산)을 정량 진단했으며, P2형 산화물에서는 충전 말기 산화 산소종이 전자 홀·(O2)n−에서 분자 O2로 연속 진화함을 직접 관찰해 안정 초구조에서도 분자 O2 형성이 음이온 레독스의 귀결임을 보였다.",
+      "text": "Li-rich 양극 연구는 음이온(산소) 레독스의 본질 규명과 구조·표면 안정화에 초점을 맞추었다. 전체 조성 범위의 Li 화학양론 스크리닝을 통해 벌크 초격자 질서보다 계면 스피넬 부동태화가 내구성의 결정적 인자임을 밝힌 연구와, in-situ 임피던스 기반으로 SOC·C-rate에 따른 속도 결정 단계(계면 전자전달 대 고체 확산)를 정량 진단한 연구가 대표적이다. 안정한 초구조를 가진 산화물에서도 충전 말기 산화 산소종이 분자 O2로 진화한다는 직접 증거가 제시되어, 음이온 레독스의 비가역성 기원에 대한 기계론적 이해가 심화되었다.",
       "highlights": [
         {"title": "Beyond Superlattice Order: Full‐Composition Li Stoichiometry Screening Identifies Interfacial Spinel Passivation as the Decisive Factor for Durable Cobalt‐Free Li‐Rich Cathodes", "url": "https://doi.org/10.1002/adfm.79560", "venue": "Advanced Functional Materials"},
         {"title": "Diagnosis of Mechanisms of Kinetics in Lithium-Rich Manganese-Based Cathode Materials", "url": "https://doi.org/10.1021/acsenergylett.6c02146", "venue": "ACS Energy Letters"},
@@ -46,7 +46,7 @@
     {
       "topic": "ncm",
       "heading": "NCM 양극",
-      "text": "고니켈 NCM 양극에서는 급속충전 한계와 구조·안전성 개선이 주제로 다뤄진다. 과전압 성분 분해 분석을 통해 농도 구배가 급속충전 성능 저하의 주원인임을 규명하고 아세토나이트릴 공용매로 Li+ 수송을 개선하는 접근과, 상용 NCM811에 세륨 도핑·CeO2 코팅을 동시 적용해 양이온 혼합 억제와 열폭주 지연으로 사이클·안전성을 함께 끌어올리는 후처리 전략이 제시되었다.",
+      "text": "고니켈 NCM 연구는 급속충전 한계 규명과 구조·표면 개질을 통한 수명·안전성 동시 개선에 초점을 두었다. 과전압 성분 분해를 통해 농도 구배가 급속충전 성능 저하의 주요 원인임을 밝히고 아세토나이트릴 공용매로 Li+ 수송을 개선한 연구와, 상용 NCM811에 세륨 도핑·CeO2 코팅을 동시 적용해 양이온 혼합을 억제하고 산소·가스 발생과 열폭주를 완화한 연구가 제시되었다.",
       "highlights": [
         {"title": "Understanding Charge Acceptance Limitations During Extreme Fast‐Charging of Li‐ion Batteries", "url": "https://doi.org/10.1002/aenm.71806", "venue": "Advanced Energy Materials"},
         {"title": "Post‐Synthetic Cerium Modification of Commercial NCM811 for Concurrent Cycling and Safety Upgrading", "url": "https://doi.org/10.1002/advs.78626", "venue": "Advanced Science"}

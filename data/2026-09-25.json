@@ -1,8 +1,34 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:11:38+00:00",
   "count": 5,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04456e",
+      "source": "crossref",
+      "title": "Degradation-informed surface coating strategies for recycled lithium-ion battery materials",
+      "url": "https://doi.org/10.1039/d6ee04456e",
+      "published": "2026-09-25",
+      "topics": [],
+      "doi": "10.1039/d6ee04456e",
+      "authors": [
+        "Bingjie Yue",
+        "Jiao Lin",
+        "Renjie Chen",
+        "Li Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Degradation-informed framework from diagnosis to coating-enabled regeneration of recycled LIBs.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "폐리튬이온전지 재활용 소재의 열화 상태를 진단하고 이에 맞춘 표면 코팅으로 재생하는 열화 정보 기반 프레임워크를 제시했다.",
+      "relevant": false
+    },
     {
       "id": "W7214122921",
       "source": "openalex",
@@ -142,32 +168,6 @@
       },
       "summary_ko": "다공성 방향족 골격체(PAF-1)에 유연한 과불소알킬 사슬을 그래프팅해 불소화 나노채널을 구축, 이온쌍 해리와 불소 분극 기반 Na+ 수송을 촉진했다. 이 준고체 전해질은 2.79×10⁻⁴ S/cm의 이온전도도, 0.562의 높은 Na+ 이동수, 4.98V의 넓은 전기화학적 안정성 창을 보였다. 균일한 NaF 계면 형성으로 5700시간 이상 안정적인 소듐 플레이팅/스트리핑과 덴드라이트 억제가 가능했으며, 완전셀에서 1300사이클 91.3% 용량 유지 및 -20°C 4000사이클 이상 구동을 달성했다.",
       "relevant": true
-    },
-    {
-      "id": "crossref:10.1039/d6ee04456e",
-      "source": "crossref",
-      "title": "Degradation-informed surface coating strategies for recycled lithium-ion battery materials",
-      "url": "https://doi.org/10.1039/d6ee04456e",
-      "published": "2026-09-25",
-      "topics": [],
-      "doi": "10.1039/d6ee04456e",
-      "authors": [
-        "Bingjie Yue",
-        "Jiao Lin",
-        "Renjie Chen",
-        "Li Li"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Degradation-informed framework from diagnosis to coating-enabled regeneration of recycled LIBs.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-08",
-  "generated_at": "2026-11-11T09:51:24+00:00",
+  "generated_at": "2026-11-11T10:10:15+00:00",
   "count": 283,
   "papers": [
     {
@@ -111,7 +111,9 @@
       "title": "Understanding interfacial chemistries of LiPF 6 –asymmetrically fluorinated glyme ether electrolytes for high-voltage lithium metal batteries",
       "url": "https://doi.org/10.1039/d6ee05502h",
       "published": "2026-08-28",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1039/d6ee05502h",
       "authors": [
         "Huida Lyu",
@@ -130,8 +132,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "분자 대칭성이 깨진 F5DEE 글라임 에터를 활용한 LiPF6 전해질의 계면 화학을 규명하여 고전압 리튬메탈전지에 적용 가능한 분자 수준의 SEI 설계 틀을 제시했다.",
+      "relevant": true
     },
     {
       "id": "W7204652691",
@@ -529,8 +531,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "천연 광물/고분자 기반의 할로겐-프리 전고체 전해질이 액체 함량이 적은 준고체 계면을 형성해 4전자 아이오딘 화학을 안정화하고 고전압에서의 자가방전을 억제하는 아연-아이오딘전지를 구현했다.",
+      "relevant": false
     },
     {
       "id": "W7204256562",
@@ -1345,8 +1347,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "비대칭 계면 활성화(AIA) 전략으로 에터 기반 전해질의 산화 전위 한계를 극복해 고에너지밀도 소듐이온전지의 양극-음극 전해질 요구조건 간 상충을 해결했다. NaDFP 첨가제를 활용해 계면 안정성을 높였다.",
+      "relevant": false
     },
     {
       "id": "W7204205316",
@@ -1381,7 +1383,9 @@
       "title": "An all-molecular-ferroelectric composite electrolyte couples spontaneous polarization with competitive coordination for durable nickel-rich solid-state lithium metal batteries",
       "url": "https://doi.org/10.1039/d6ee02577c",
       "published": "2026-08-25",
-      "topics": [],
+      "topics": [
+        "li-metal"
+      ],
       "doi": "10.1039/d6ee02577c",
       "authors": [
         "Min Gao",
@@ -1400,8 +1404,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "분자형 강유전체를 이용한 전고체 전해질이 자발분극과 경쟁적 배위를 결합해 빠른 리튬 이온 전달과 니켈리치 전고체 리튬메탈전지의 안정적 구동을 가능하게 했다.",
+      "relevant": true
     },
     {
       "id": "W7204102044",
@@ -1666,8 +1670,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고엔트로피 재료의 조성 설계 원칙과 구조-성능 상관관계를 다룬 리뷰로, 4가지 핵심 물리적 효과와 원소 선택을 연계해 차세대 이차전지용 고엔트로피 소재 개발 방향을 제시했다.",
+      "relevant": false
     },
     {
       "id": "W7204170228",
@@ -3109,7 +3113,9 @@
       "title": "Redirecting Li–CO 2 battery chemistry via geometric matching on the high-entropy intermetallic (110) facet",
       "url": "https://doi.org/10.1039/d6ee04373a",
       "published": "2026-08-19",
-      "topics": [],
+      "topics": [
+        "other-cathode"
+      ],
       "doi": "10.1039/d6ee04373a",
       "authors": [
         "Yang Wang",
@@ -3128,8 +3134,8 @@
       "journal_metric": null,
       "first_seen": "2026-11-11",
       "image": null,
-      "summary_ko": null,
-      "relevant": null
+      "summary_ko": "고엔트로피 금속간화합물의 (110)면과 Li2C2O4의 기하학적 매칭을 통해 Li-CO2 배터리의 옥살레이트 반응 경로를 안정화하고 성능을 향상시켰다. 기하학적 적합성 인자(δ)를 도입해 면 단위에서 반응 화학을 제어할 수 있음을 제시했다.",
+      "relevant": true
     },
     {
       "id": "W7203740793",

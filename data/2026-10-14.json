@@ -1,8 +1,182 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:13:02+00:00",
   "count": 11,
   "papers": [
+    {
+      "id": "W7221833928",
+      "source": "openalex",
+      "title": "Molecular Design of Fluorinated Ester Electrolytes via Skeleton Regulation Enables Aggressive Cathode Chemistries in 5V‐Class Fast‐Charging Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/aenm.71705",
+      "published": "2026-10-14",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71705",
+      "authors": [
+        "Ruilin He",
+        "Meifeng Ou",
+        "Tong Zhang",
+        "Weirou Huang",
+        "Junhao Li",
+        "Qiao Zhang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium‐ion batteries can deliver higher energy densities when using high‐voltage cathodes such as LiNi 0.5 Mn 1.5 O 4 (LNMO), yet their practical application is hindered by the catalytic nature of high‐voltage cathode materials which usually cause electrolytes decomposition. Although the utilization of fluorinated carbonates as electrolyte solvent considerably inhibited the parasitic reaction at cathode side, the irrational fluorination often leads to the sluggish Li + transport which finally causes poor rate performance. Here, we design a family of trifluoromethyl‐substituted carboxylate esters as electrolyte solvents. We found that the spatial arrangement between the ‐CF 3 and the carbonyl group in these fluorinated esters is critical for regulating the electrolyte solvation structures. A short distance (α‐substitution) severely weakens the solvating power of the solvent, resulting in a substantial decrease in ionic conductivity, whereas an extended separation (γ‐substitution) compromises the oxidation resistance against high‐voltage cathodes. Only the trifluoromethylation at the β‐position yields optimal solvent (methyl 3,3,3‐trifluoropropionate, MTFP) that can simultaneously meets high‐voltage and fast‐charging requirements of LNMO||Gr cells when pairing with fluoroethylene carbonate and 1 M LiPF 6 . In such electrolyte, the Ah‐level LNMO||Gr pouch cells deliver 78% capacity retention at 6C charge/discharge rate (13.2 mA cm −2 ), and stably operate over 300 cycles at the high rate of 3C.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71705",
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "β위치에 트리플루오로메틸을 치환한 카르복실레이트 에스터(MTFP) 전해질 용매를 설계, LNMO 고전압 양극과의 조합에서 6C 고속충방전 시 78% 용량유지율을 달성한 5V급 급속충전 리튬이온전지를 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221749768",
+      "source": "openalex",
+      "title": "From Carrier Behavior to Cathode Design: Toward High‐Performance Aluminum Batteries",
+      "url": "https://doi.org/10.1002/adfm.78872",
+      "published": "2026-10-14",
+      "topics": [],
+      "doi": "10.1002/adfm.78872",
+      "authors": [
+        "Xixi Zhang",
+        "Dongbo Yuan",
+        "Chenggang Wang",
+        "Xijin Xu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT This review systematically summarizes recent advances in cathode materials for aluminum batteries (ABs), emphasizing the critical influence of carrier properties on electrode performance. Focusing on carrier properties, including ionic size, valence, charge density, and coordination environment, we analyze their transport kinetics, interfacial reactions, and energy storage mechanisms across different cathode systems, including Al 3+ , AlCl 4 − , AlCl 2 + , as well as the synergistic behavior of multiple carriers. We identify intrinsic carrier characteristics, solvation/desolvation dynamics, and the electrode/electrolyte interface as the primary factors governing battery performance. Furthermore, the review delineates the constraints of cathode materials in achieving high capacity, fast kinetics, and long‐term cycling stability. An integrated framework for understanding carrier behavior and energy storage mechanisms is established, accompanied by a systematic classification of cathode materials, including inorganic, Prussian blue, and organic compounds, together with their corresponding optimization strategies. Finally, universal design principles for structural engineering, electronic structure modulation, defect/doping, and interface engineering are proposed. More importantly, this review establishes a carrier‐centered framework that systematically links carrier chemistry, charge storage mechanisms, and cathode design principles, thereby providing a unified mechanistic perspective for the rational development of next‐generation high‐performance ABs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78872",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "알루미늄전지 양극 소재의 캐리어(Al3+, AlCl4-, AlCl2+) 특성과 수송 거동, 계면 반응을 체계적으로 분석하고 무기물·프러시안블루·유기물 양극의 설계 원칙을 정리한 리뷰이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221756613",
+      "source": "openalex",
+      "title": "Engineering the Ir─O─Ni Interface Bonds in Ir@Ni‐MOF to Accelerate Li 2 O 2 Formation and Decomposition for High‐Reversibility Li‐O 2 Batteries",
+      "url": "https://doi.org/10.1002/adfm.79048",
+      "published": "2026-10-14",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79048",
+      "authors": [
+        "Yuan Qiu",
+        "Yinjing Sun",
+        "Yajing Li",
+        "Tong Lv",
+        "Nuo Zhou",
+        "Lei Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Aprotic lithium‐oxygen (Li‐O 2 ) batteries have attracted considerable interest due to their ultrahigh theoretical energy density, yet their practical application is severely limited by slow cathode reaction kinetics and large voltage hysteresis. Here, we report an interface engineering strategy to construct ultrafine Ir nanoparticles anchored on Ni‐based metal‐organic framework (Ir@Ni‐MOF) as an efficient bifunctional cathode catalyst for Li‐O 2 batteries. Experimental and theoretical calculations reveal the formation of interfacial Ir─O─Ni chemical bonds, inducing significant charge redistribution and downshifting the d‐band center of Ir@Ni‐MOF. This electronic modulation weakens the adsorption affinity toward the LiO 2 intermediate, thereby enhancing a solution‐mediated discharge pathway to form nanosheet‐like Li 2 O 2 with intimate interface contact and rapid charge/mass transfer, which facilitates reversible decomposition during charging. As a result, the Ir@Ni‐MOF cathode delivers a remarkably low overpotential of 0.76 V, an extended cycling stability over 400 cycles at 500 mA g −1 , outperforming most reported MOF‐based and noble‐metal catalysts. This work provides a promising avenue for designing high‐performance Li‐O 2 batteries and beyond through precise electronic structure engineering.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79048",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "Ir@Ni-MOF에 형성된 Ir-O-Ni 계면 결합이 전하 재분배와 d-band center 조절을 통해 Li2O2 형성·분해를 가속화, 0.76V의 낮은 과전압과 400사이클 안정성을 갖는 고가역성 Li-O2전지 촉매를 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03563a",
+      "source": "crossref",
+      "title": "Electrolyte design toward stable layered oxide cathodes of sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03563a",
+      "published": "2026-10-14",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1039/d6ee03563a",
+      "authors": [
+        "Tengfeng Guo",
+        "Yiliang He",
+        "Xinmin Zhang",
+        "Yaping Lu",
+        "Shiwu Ma",
+        "Quanquan Pang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review analyzes layered oxide cathode degradation in sodium-ion batteries from an electrolyte perspective, proposes electrolyte design principles, summarizes traditional and emerging electrolyte systems, and outlines future perspectives.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "전해질 관점에서 소듐이온전지용 층상산화물 양극의 열화 메커니즘을 분석하고 전해질 설계 원칙과 기존·신규 전해질 체계를 정리한 리뷰이다.",
+      "relevant": true
+    },
+    {
+      "id": "W7221950704",
+      "source": "openalex",
+      "title": "Crystallography‐Dependent Plating/Stripping Kinetics and Interfacial Morphologies in Zn Metal Anodes",
+      "url": "https://doi.org/10.1002/anie.1058773",
+      "published": "2026-10-14",
+      "topics": [],
+      "doi": "10.1002/anie.1058773",
+      "authors": [
+        "Ziqing Wang",
+        "Debasree Mandal",
+        "Iván Elías Mondaca-Medina",
+        "Kenta Kawashima",
+        "Rinish Reddy Vaidyula",
+        "Charles Buddie Mullins"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Crystallographic orientation governs Zn deposition, dissolution, and cycling stability, but its influence on interfacial charge‐transfer kinetics remains difficult to quantify. Here, scanning electrochemical cell microscopy coupled with fast scan cyclic voltammetry (FSCV) is used to resolve Zn plating and stripping on single‐crystal (002), (100), and (101) surfaces. Meniscus‐confined measurements reveal facet‐dependent branch‐specific apparent zero‐current potentials and apparent exchange current densities, j 0 , with the kinetic ordering j 0 (100) > j 0 (101) > j 0 (002) for both plating and stripping. This ordering is reproduced across independently prepared electrodes and retained over different scan rates and aqueous electrolytes. Beyond charge transfer, Zn removal and regrowth are strongly crystallographically encoded: dissolution footprints preserve the symmetry of the parent facets, while potentiostatically deposited Zn adopts substrate‐dependent growth geometries. These coupled kinetic and morphological differences translate directly to battery performance. Despite its slower apparent kinetics, the close‐packed, low‐energy (002) facet exhibits the longest cycling life in Zn/Zn symmetric cells and substantially improved capacity retention in both polyaniline/Zn and Na 0.33 V 2 O 5 /Zn full cells, whereas the faster (100) and (101) interfaces fail earlier. These findings establish a facet‐dependent kinetics–stability trade‐off and show that durable Zn anodes require coordinated control of charge transfer, dissolution topology, and crystallographic reconstruction.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.1058773",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "단결정 Zn (002), (100), (101) 면에서의 아연 도금/박리 반응속도와 계면 형태를 주사전기화학셀 현미경으로 규명, 저에너지 (002)면이 느린 반응속도에도 가장 긴 사이클 수명을 보임을 밝혔다.",
+      "relevant": false
+    },
+    {
+      "id": "W7221766754",
+      "source": "openalex",
+      "title": "Cross‐Phase Impurity–Interphase Regulation for Suppressing Thermally Accelerated Failure in Ni‐Rich Pouch Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.79030",
+      "published": "2026-10-14",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adfm.79030",
+      "authors": [
+        "Xiang Gao",
+        "Yongqi Li",
+        "Ruoke Li",
+        "Jiasheng Lu",
+        "Chaojun Fan",
+        "Weizhen Fan"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Practical LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells suffer rapid degradation under thermal stress because liquid‐phase impurity reactions, electrode interphase failure, and cathode–anode cross‐talk are tightly coupled. However, most strategies are designed to address either impurity chemistry or interphase chemistry, leaving the amplified cross‐talk between electrolyte degradation and electrode failure unresolved. Here, we propose a cross‐phase impurity–interphase regulation strategy using p‐Phenylenebis(dimethylvinylsilane) (PDVS) for LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells. The vinyl‐dimethylsilyl groups endow PDVS with synchronized liquid‐phase scavenging and solid‐phase interphase‐forming capability. In the liquid phase, PDVS acts as an impurity scavenger, lowering HF from 90.88 ppm to 29.44 ppm while reducing residual H 2 O from 10.65 to 8.45 ppm, thereby suppressing LiPF 6 hydrolysis and reducing the accumulation of corrosive by‐products. At the solid interfaces, PDVS preferentially participates in interfacial reactions to construct Si‐containing cathode‐electrolyte interphase and solid‐electrolyte interphase on the Ni‐rich cathode and graphite anode, mitigating electrolyte decomposition, gas evolution, transition‐metal crossover, and resistance growth. Consequently, 2 Ah LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells retain 92.81% capacity after 304 cycles at 45°C, show reduced swelling during 60°C storage, and maintain 86.5% capacity after over 1620 cycles at 25°C. This work establishes cross‐phase impurity–interphase regulation as a manufacturing‐compatible electrolyte design principle for thermally durable Ni‐rich pouch cells.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79030",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "PDVS 첨가제가 액상에서는 불순물(HF, 수분) 스캐빈저로, 고상에서는 Ni-rich NCM811 양극과 그라파이트 음극 양쪽에 Si 함유 계면을 형성하는 이중 역할을 하여, 2Ah 파우치셀의 45도 304사이클 92.81% 및 25도 1620사이클 86.5% 용량유지율을 달성했다.",
+      "relevant": true
+    },
     {
       "id": "W7221472601",
       "source": "openalex",
@@ -151,184 +325,6 @@
       "image": null,
       "summary_ko": "다양한 배터리 화학 체계에 적용 가능한, 배터리 신호로부터 메커니즘을 반영한 수명 예측 디스크립터 프레임워크를 제안한 연구로 추정된다 (제목 기반 추정).",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee03563a",
-      "source": "crossref",
-      "title": "Electrolyte design toward stable layered oxide cathodes of sodium-ion batteries",
-      "url": "https://doi.org/10.1039/d6ee03563a",
-      "published": "2026-10-14",
-      "topics": [],
-      "doi": "10.1039/d6ee03563a",
-      "authors": [
-        "Tengfeng Guo",
-        "Yiliang He",
-        "Xinmin Zhang",
-        "Yaping Lu",
-        "Shiwu Ma",
-        "Quanquan Pang"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "This review analyzes layered oxide cathode degradation in sodium-ion batteries from an electrolyte perspective, proposes electrolyte design principles, summarizes traditional and emerging electrolyte systems, and outlines future perspectives.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7221833928",
-      "source": "openalex",
-      "title": "Molecular Design of Fluorinated Ester Electrolytes via Skeleton Regulation Enables Aggressive Cathode Chemistries in 5V‐Class Fast‐Charging Lithium‐Ion Batteries",
-      "url": "https://doi.org/10.1002/aenm.71705",
-      "published": "2026-10-14",
-      "topics": [
-        "ncm",
-        "other-cathode"
-      ],
-      "doi": "10.1002/aenm.71705",
-      "authors": [
-        "Ruilin He",
-        "Meifeng Ou",
-        "Tong Zhang",
-        "Weirou Huang",
-        "Junhao Li",
-        "Qiao Zhang"
-      ],
-      "venue": "Advanced Energy Materials",
-      "abstract_en": "ABSTRACT Lithium‐ion batteries can deliver higher energy densities when using high‐voltage cathodes such as LiNi 0.5 Mn 1.5 O 4 (LNMO), yet their practical application is hindered by the catalytic nature of high‐voltage cathode materials which usually cause electrolytes decomposition. Although the utilization of fluorinated carbonates as electrolyte solvent considerably inhibited the parasitic reaction at cathode side, the irrational fluorination often leads to the sluggish Li + transport which finally causes poor rate performance. Here, we design a family of trifluoromethyl‐substituted carboxylate esters as electrolyte solvents. We found that the spatial arrangement between the ‐CF 3 and the carbonyl group in these fluorinated esters is critical for regulating the electrolyte solvation structures. A short distance (α‐substitution) severely weakens the solvating power of the solvent, resulting in a substantial decrease in ionic conductivity, whereas an extended separation (γ‐substitution) compromises the oxidation resistance against high‐voltage cathodes. Only the trifluoromethylation at the β‐position yields optimal solvent (methyl 3,3,3‐trifluoropropionate, MTFP) that can simultaneously meets high‐voltage and fast‐charging requirements of LNMO||Gr cells when pairing with fluoroethylene carbonate and 1 M LiPF 6 . In such electrolyte, the Ah‐level LNMO||Gr pouch cells deliver 78% capacity retention at 6C charge/discharge rate (13.2 mA cm −2 ), and stably operate over 300 cycles at the high rate of 3C.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71705",
-      "license": null,
-      "journal_id": "S2502627819",
-      "journal_metric": 18.74,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7221749768",
-      "source": "openalex",
-      "title": "From Carrier Behavior to Cathode Design: Toward High‐Performance Aluminum Batteries",
-      "url": "https://doi.org/10.1002/adfm.78872",
-      "published": "2026-10-14",
-      "topics": [
-        "na-cathode",
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.78872",
-      "authors": [
-        "Xixi Zhang",
-        "Dongbo Yuan",
-        "Chenggang Wang",
-        "Xijin Xu"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT This review systematically summarizes recent advances in cathode materials for aluminum batteries (ABs), emphasizing the critical influence of carrier properties on electrode performance. Focusing on carrier properties, including ionic size, valence, charge density, and coordination environment, we analyze their transport kinetics, interfacial reactions, and energy storage mechanisms across different cathode systems, including Al 3+ , AlCl 4 − , AlCl 2 + , as well as the synergistic behavior of multiple carriers. We identify intrinsic carrier characteristics, solvation/desolvation dynamics, and the electrode/electrolyte interface as the primary factors governing battery performance. Furthermore, the review delineates the constraints of cathode materials in achieving high capacity, fast kinetics, and long‐term cycling stability. An integrated framework for understanding carrier behavior and energy storage mechanisms is established, accompanied by a systematic classification of cathode materials, including inorganic, Prussian blue, and organic compounds, together with their corresponding optimization strategies. Finally, universal design principles for structural engineering, electronic structure modulation, defect/doping, and interface engineering are proposed. More importantly, this review establishes a carrier‐centered framework that systematically links carrier chemistry, charge storage mechanisms, and cathode design principles, thereby providing a unified mechanistic perspective for the rational development of next‐generation high‐performance ABs.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78872",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7221756613",
-      "source": "openalex",
-      "title": "Engineering the Ir─O─Ni Interface Bonds in Ir@Ni‐MOF to Accelerate Li 2 O 2 Formation and Decomposition for High‐Reversibility Li‐O 2 Batteries",
-      "url": "https://doi.org/10.1002/adfm.79048",
-      "published": "2026-10-14",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.79048",
-      "authors": [
-        "Yuan Qiu",
-        "Yinjing Sun",
-        "Yajing Li",
-        "Tong Lv",
-        "Nuo Zhou",
-        "Lei Wang"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Aprotic lithium‐oxygen (Li‐O 2 ) batteries have attracted considerable interest due to their ultrahigh theoretical energy density, yet their practical application is severely limited by slow cathode reaction kinetics and large voltage hysteresis. Here, we report an interface engineering strategy to construct ultrafine Ir nanoparticles anchored on Ni‐based metal‐organic framework (Ir@Ni‐MOF) as an efficient bifunctional cathode catalyst for Li‐O 2 batteries. Experimental and theoretical calculations reveal the formation of interfacial Ir─O─Ni chemical bonds, inducing significant charge redistribution and downshifting the d‐band center of Ir@Ni‐MOF. This electronic modulation weakens the adsorption affinity toward the LiO 2 intermediate, thereby enhancing a solution‐mediated discharge pathway to form nanosheet‐like Li 2 O 2 with intimate interface contact and rapid charge/mass transfer, which facilitates reversible decomposition during charging. As a result, the Ir@Ni‐MOF cathode delivers a remarkably low overpotential of 0.76 V, an extended cycling stability over 400 cycles at 500 mA g −1 , outperforming most reported MOF‐based and noble‐metal catalysts. This work provides a promising avenue for designing high‐performance Li‐O 2 batteries and beyond through precise electronic structure engineering.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79048",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7221950704",
-      "source": "openalex",
-      "title": "Crystallography‐Dependent Plating/Stripping Kinetics and Interfacial Morphologies in Zn Metal Anodes",
-      "url": "https://doi.org/10.1002/anie.1058773",
-      "published": "2026-10-14",
-      "topics": [
-        "li-metal"
-      ],
-      "doi": "10.1002/anie.1058773",
-      "authors": [
-        "Ziqing Wang",
-        "Debasree Mandal",
-        "Iván Elías Mondaca-Medina",
-        "Kenta Kawashima",
-        "Rinish Reddy Vaidyula",
-        "Charles Buddie Mullins"
-      ],
-      "venue": "Angewandte Chemie International Edition",
-      "abstract_en": "ABSTRACT Crystallographic orientation governs Zn deposition, dissolution, and cycling stability, but its influence on interfacial charge‐transfer kinetics remains difficult to quantify. Here, scanning electrochemical cell microscopy coupled with fast scan cyclic voltammetry (FSCV) is used to resolve Zn plating and stripping on single‐crystal (002), (100), and (101) surfaces. Meniscus‐confined measurements reveal facet‐dependent branch‐specific apparent zero‐current potentials and apparent exchange current densities, j 0 , with the kinetic ordering j 0 (100) > j 0 (101) > j 0 (002) for both plating and stripping. This ordering is reproduced across independently prepared electrodes and retained over different scan rates and aqueous electrolytes. Beyond charge transfer, Zn removal and regrowth are strongly crystallographically encoded: dissolution footprints preserve the symmetry of the parent facets, while potentiostatically deposited Zn adopts substrate‐dependent growth geometries. These coupled kinetic and morphological differences translate directly to battery performance. Despite its slower apparent kinetics, the close‐packed, low‐energy (002) facet exhibits the longest cycling life in Zn/Zn symmetric cells and substantially improved capacity retention in both polyaniline/Zn and Na 0.33 V 2 O 5 /Zn full cells, whereas the faster (100) and (101) interfaces fail earlier. These findings establish a facet‐dependent kinetics–stability trade‐off and show that durable Zn anodes require coordinated control of charge transfer, dissolution topology, and crystallographic reconstruction.",
-      "oa_status": "hybrid",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.1058773",
-      "license": "cc-by-nc-nd",
-      "journal_id": "S67393510",
-      "journal_metric": 14.89,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7221766754",
-      "source": "openalex",
-      "title": "Cross‐Phase Impurity–Interphase Regulation for Suppressing Thermally Accelerated Failure in Ni‐Rich Pouch Lithium‐Ion Batteries",
-      "url": "https://doi.org/10.1002/adfm.79030",
-      "published": "2026-10-14",
-      "topics": [
-        "ncm"
-      ],
-      "doi": "10.1002/adfm.79030",
-      "authors": [
-        "Xiang Gao",
-        "Yongqi Li",
-        "Ruoke Li",
-        "Jiasheng Lu",
-        "Chaojun Fan",
-        "Weizhen Fan"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Practical LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells suffer rapid degradation under thermal stress because liquid‐phase impurity reactions, electrode interphase failure, and cathode–anode cross‐talk are tightly coupled. However, most strategies are designed to address either impurity chemistry or interphase chemistry, leaving the amplified cross‐talk between electrolyte degradation and electrode failure unresolved. Here, we propose a cross‐phase impurity–interphase regulation strategy using p‐Phenylenebis(dimethylvinylsilane) (PDVS) for LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells. The vinyl‐dimethylsilyl groups endow PDVS with synchronized liquid‐phase scavenging and solid‐phase interphase‐forming capability. In the liquid phase, PDVS acts as an impurity scavenger, lowering HF from 90.88 ppm to 29.44 ppm while reducing residual H 2 O from 10.65 to 8.45 ppm, thereby suppressing LiPF 6 hydrolysis and reducing the accumulation of corrosive by‐products. At the solid interfaces, PDVS preferentially participates in interfacial reactions to construct Si‐containing cathode‐electrolyte interphase and solid‐electrolyte interphase on the Ni‐rich cathode and graphite anode, mitigating electrolyte decomposition, gas evolution, transition‐metal crossover, and resistance growth. Consequently, 2 Ah LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||graphite pouch cells retain 92.81% capacity after 304 cycles at 45°C, show reduced swelling during 60°C storage, and maintain 86.5% capacity after over 1620 cycles at 25°C. This work establishes cross‐phase impurity–interphase regulation as a manufacturing‐compatible electrolyte design principle for thermally durable Ni‐rich pouch cells.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79030",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }

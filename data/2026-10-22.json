@@ -1,8 +1,153 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-11-11T10:05:45+00:00",
+  "generated_at": "2026-11-11T10:14:52+00:00",
   "count": 8,
   "papers": [
+    {
+      "id": "W7223398514",
+      "source": "openalex",
+      "title": "Moderate Li–N Coordination Between Dibromopyrazine and Polysulfides Enables High‐Rate Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adfm.79221",
+      "published": "2026-10-22",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79221",
+      "authors": [
+        "Zhonghui Sun",
+        "Handing Liu",
+        "Xin Chao",
+        "Zhenghui Li",
+        "Ziyang Xie",
+        "Qisen Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium–sulfur (Li–S) batteries are promising candidates for high‐energy storage, yet their practical application is limited by poor rate capability. To date, the conversion of lithium polysulfides (LiPSs) remains a major challenge due to the high energy barrier of the liquid–solid conversion from Li 2 S 4 to Li 2 S. Herein, to overcome this barrier, dibromopyrazine (DBP) was identified through screening as an effective electrolyte additive owing to its unique Br─C═N functionality, which weakens Li–S bonding via moderate Li–N coordination through the electron‐withdrawing effect of Br, thereby enabling effective LiPSs anchoring without impeding conversion. In the electrolyte containing 0.04 M DBP, the interaction favors Li 2 S 4 formation at 2.3 V and promotes three‐dimensional (3D) Li 2 S deposition. Consequently, the Li–S coin cells deliver a high capacity of 785 mAh g −1 at the high rate of 6 C and a low capacity decay rate of 0.09% per cycle over 1000 cycles at 1 C. A 2 Ah pouch cell also demonstrates stable cycling over 100 cycles at 0.5 C. This work highlights a coordination‐modulated moderate‐interaction strategy for accelerating LiPSs conversion in Li–S batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79221",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "디브로모피라진(DBP)의 Br-C=N 구조가 전자 끌어당김 효과를 통해 Li-N 배위를 적절히 약화시켜 폴리설파이드 전환을 촉진, 6C에서 785 mAh/g의 고율 용량과 1000사이클 0.09%/사이클의 낮은 용량감쇄율을 갖는 리튬-황전지를 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04654a",
+      "source": "crossref",
+      "title": "Interphase-controlled mechanical confinement of Na clustering for high-rate sodium storage",
+      "url": "https://doi.org/10.1039/d6ee04654a",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1039/d6ee04654a",
+      "authors": [
+        "Mengyao Li",
+        "Qiuchen Song",
+        "Jiayi Li",
+        "Haining Chen",
+        "Yingzhi Li",
+        "Haoran Chi"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Chemical stitching tailors the closed-pore mouth of hard carbon, forming a high-modulus, inorganic-rich intrapore solid electrolyte interphase that mechanically confines Na-cluster growth and enables fast sodium storage.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "화학적 스티칭으로 경질탄소의 폐쇄기공 입구를 조절, 고강성 무기물이 풍부한 기공 내 SEI를 형성해 소듐 클러스터 성장을 기계적으로 제한함으로써 고속 소듐 저장을 구현했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7223171775",
+      "source": "openalex",
+      "title": "In Situ Formed Co(OH)F Enabling Electronic and Atomic‐Level Structure Optimization in Medium‐Entropy Fluoride Cathodes for Zinc Batteries",
+      "url": "https://doi.org/10.1002/adfm.78501",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1002/adfm.78501",
+      "authors": [
+        "Liu Yang",
+        "Enze Zhu",
+        "Jiaqi Nie",
+        "Hongfan Huang",
+        "Jiqing Zhang",
+        "Wenjing Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Cobalt‐based cathodes have attracted considerable attention in aqueous zinc batteries, however, their application remains impeded by intrinsic trade‐off between high electrochemical activity and long‐term cycling stability. Herein, an entropy‐regulated fluoride cathode is proposed to overcome the limitations via co‐engineering electronic and atomic structures. Specifically, x‐ray absorption spectroscopy (XAS), x‐ray photoelectron spectroscopy (XPS), and first‐principle calculations collectively demonstrate that Co(OH)F is formed in situ within the fluoride matrix during electrochemical cycling and induces electron reconstruction. Concurrently, the generated Co(OH)F shortens Co─F bond length within the entropy‐regulated fluoride, reinforcing atomic‐level structural integrity and enabling excellent cycling performance. Moreover, a hollow architecture is integrated to homogenize flux and electric field distributions, ensuring sufficient accessibility of active sites while mitigating interfacial degradation. Consequently, the assembled zinc battery exhibits a high specific capacity of 252.3 mAh·g −1 and superior cycling stability (92.4% capacity retention after 25 000 cycles at 10 A·g −1 and 90.8% capacity retention after 50 000 cycles at 20 A·g −1 ). This work demonstrates a synergistic approach that simultaneously achieves high redox activity and structural robustness in cobalt‐based cathodes for zinc batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78501",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "전기화학 사이클링 중 생성된 Co(OH)F가 엔트로피 조절 플루오라이드 양극 내 전자 재구성과 Co-F 결합 단축을 유도, 중간엔트로피 플루오라이드 아연전지에서 252.3 mAh/g 용량과 5만 사이클에서도 90.8% 용량유지율을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee05497h",
+      "source": "crossref",
+      "title": "Disordered nanodomains stabilize near-degeneracy in complex layered oxides",
+      "url": "https://doi.org/10.1039/d6ee05497h",
+      "published": "2026-10-22",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1039/d6ee05497h",
+      "authors": [
+        "Pasindu V. Jayasinghe",
+        "Tae Gyu Yun",
+        "Dongho Kim",
+        "Udayan Mohanty",
+        "Alexis Grimaud"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Reversible lithium intercalation in layered transition metal oxides is often accompanied by irreversible phase transformation, setting fundamental limits on the capacity and longevity achievable in lithium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "복잡한 층상 산화물에서 비정질 나노도메인이 준축퇴 상태를 안정화하여, 리튬 인터칼레이션에 따른 비가역적 상전이를 억제하는 메커니즘을 규명했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7223173281",
+      "source": "openalex",
+      "title": "Cathode Depolarization Enables 1300‐Cycle Ah‐Level Anode‐Free Sodium Batteries",
+      "url": "https://doi.org/10.1002/adma.75401",
+      "published": "2026-10-22",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adma.75401",
+      "authors": [
+        "Ning Jiang",
+        "朱乔楠",
+        "Liqiang Wu",
+        "Weihao Wang",
+        "Tai Peng",
+        "Jinhui Zhao"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Nonuniform sodium deposition limits the cyclability of anode‐free sodium batteries (AFSBs), and current research mainly focuses on anode‐targeted strategies. However, the influence of the cathode kinetics on sodium deposition behavior has been overlooked. Here, we firstly reveal the critical role of cathode polarization on sodium deposition uniformity via electric field coupling. Accordingly, cathode‐specific charging (CSC) protocols are established for AFSBs to depolarize the cathode, where the charging current is dynamically regulated based on the state of charge (SOC)‐dependent direct current inner resistance (DCIR). As expected, the CSC protocols effectively depolarize the cathodes and thus homogenize sodium deposition on the anode. Impressively, a 1.6 Ah Al/C||NFPP pouch cell reaches a record‐high cyclability of 1370 cycles at 2 C, and a 3.6 Ah pouch cell reaches a high energy density of 180 Wh kg − 1 with stable cycling for 890 cycles at 0.5 C. More importantly, the cathode depolarization strategy shows application universality for diverse anode‐free full cells based on Na 4 Fe 3 (PO 4 ) 2 (NFPP), Na 3 V 2 (PO 4 ) 3 (NVP), and NaNi 1/3 Fe 1/3 Mn 1/3 O 2 (NFM) cathodes. This work opens an avenue for fabricating durable practical AFSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "비균일한 소듐 증착이 음극-프리 소듐전지의 수명을 제한하는 원인이 음극이 아닌 양극 분극에 있음을 규명, SOC 기반 동적 충전전류 조절(CSC) 프로토콜로 양극 분극을 해소해 1.6Ah Al/C||NFPP 파우치셀에서 1370사이클의 기록적 수명을 달성했다.",
+      "relevant": true
+    },
     {
       "id": "W7223008270",
       "source": "openalex",
@@ -95,152 +240,6 @@
       },
       "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
       "relevant": false
-    },
-    {
-      "id": "crossref:10.1039/d6ee04654a",
-      "source": "crossref",
-      "title": "Interphase-controlled mechanical confinement of Na clustering for high-rate sodium storage",
-      "url": "https://doi.org/10.1039/d6ee04654a",
-      "published": "2026-10-22",
-      "topics": [],
-      "doi": "10.1039/d6ee04654a",
-      "authors": [
-        "Mengyao Li",
-        "Qiuchen Song",
-        "Jiayi Li",
-        "Haining Chen",
-        "Yingzhi Li",
-        "Haoran Chi"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Chemical stitching tailors the closed-pore mouth of hard carbon, forming a high-modulus, inorganic-rich intrapore solid electrolyte interphase that mechanically confines Na-cluster growth and enables fast sodium storage.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "crossref:10.1039/d6ee05497h",
-      "source": "crossref",
-      "title": "Disordered nanodomains stabilize near-degeneracy in complex layered oxides",
-      "url": "https://doi.org/10.1039/d6ee05497h",
-      "published": "2026-10-22",
-      "topics": [],
-      "doi": "10.1039/d6ee05497h",
-      "authors": [
-        "Pasindu V. Jayasinghe",
-        "Tae Gyu Yun",
-        "Dongho Kim",
-        "Udayan Mohanty",
-        "Alexis Grimaud"
-      ],
-      "venue": "Energy & Environmental Science",
-      "abstract_en": "Reversible lithium intercalation in layered transition metal oxides is often accompanied by irreversible phase transformation, setting fundamental limits on the capacity and longevity achievable in lithium-ion batteries.",
-      "oa_status": null,
-      "oa_url": null,
-      "license": null,
-      "journal_id": null,
-      "journal_metric": null,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223398514",
-      "source": "openalex",
-      "title": "Moderate Li–N Coordination Between Dibromopyrazine and Polysulfides Enables High‐Rate Lithium–Sulfur Batteries",
-      "url": "https://doi.org/10.1002/adfm.79221",
-      "published": "2026-10-22",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.79221",
-      "authors": [
-        "Zhonghui Sun",
-        "Handing Liu",
-        "Xin Chao",
-        "Zhenghui Li",
-        "Ziyang Xie",
-        "Qisen Wang"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Lithium–sulfur (Li–S) batteries are promising candidates for high‐energy storage, yet their practical application is limited by poor rate capability. To date, the conversion of lithium polysulfides (LiPSs) remains a major challenge due to the high energy barrier of the liquid–solid conversion from Li 2 S 4 to Li 2 S. Herein, to overcome this barrier, dibromopyrazine (DBP) was identified through screening as an effective electrolyte additive owing to its unique Br─C═N functionality, which weakens Li–S bonding via moderate Li–N coordination through the electron‐withdrawing effect of Br, thereby enabling effective LiPSs anchoring without impeding conversion. In the electrolyte containing 0.04 M DBP, the interaction favors Li 2 S 4 formation at 2.3 V and promotes three‐dimensional (3D) Li 2 S deposition. Consequently, the Li–S coin cells deliver a high capacity of 785 mAh g −1 at the high rate of 6 C and a low capacity decay rate of 0.09% per cycle over 1000 cycles at 1 C. A 2 Ah pouch cell also demonstrates stable cycling over 100 cycles at 0.5 C. This work highlights a coordination‐modulated moderate‐interaction strategy for accelerating LiPSs conversion in Li–S batteries.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79221",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223171775",
-      "source": "openalex",
-      "title": "In Situ Formed Co(OH)F Enabling Electronic and Atomic‐Level Structure Optimization in Medium‐Entropy Fluoride Cathodes for Zinc Batteries",
-      "url": "https://doi.org/10.1002/adfm.78501",
-      "published": "2026-10-22",
-      "topics": [
-        "other-cathode"
-      ],
-      "doi": "10.1002/adfm.78501",
-      "authors": [
-        "Liu Yang",
-        "Enze Zhu",
-        "Jiaqi Nie",
-        "Hongfan Huang",
-        "Jiqing Zhang",
-        "Wenjing Zhang"
-      ],
-      "venue": "Advanced Functional Materials",
-      "abstract_en": "ABSTRACT Cobalt‐based cathodes have attracted considerable attention in aqueous zinc batteries, however, their application remains impeded by intrinsic trade‐off between high electrochemical activity and long‐term cycling stability. Herein, an entropy‐regulated fluoride cathode is proposed to overcome the limitations via co‐engineering electronic and atomic structures. Specifically, x‐ray absorption spectroscopy (XAS), x‐ray photoelectron spectroscopy (XPS), and first‐principle calculations collectively demonstrate that Co(OH)F is formed in situ within the fluoride matrix during electrochemical cycling and induces electron reconstruction. Concurrently, the generated Co(OH)F shortens Co─F bond length within the entropy‐regulated fluoride, reinforcing atomic‐level structural integrity and enabling excellent cycling performance. Moreover, a hollow architecture is integrated to homogenize flux and electric field distributions, ensuring sufficient accessibility of active sites while mitigating interfacial degradation. Consequently, the assembled zinc battery exhibits a high specific capacity of 252.3 mAh·g −1 and superior cycling stability (92.4% capacity retention after 25 000 cycles at 10 A·g −1 and 90.8% capacity retention after 50 000 cycles at 20 A·g −1 ). This work demonstrates a synergistic approach that simultaneously achieves high redox activity and structural robustness in cobalt‐based cathodes for zinc batteries.",
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78501",
-      "license": null,
-      "journal_id": "S135204980",
-      "journal_metric": 14.9,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
-    },
-    {
-      "id": "W7223173281",
-      "source": "openalex",
-      "title": "Cathode Depolarization Enables 1300‐Cycle Ah‐Level Anode‐Free Sodium Batteries",
-      "url": "https://doi.org/10.1002/adma.75401",
-      "published": "2026-10-22",
-      "topics": [
-        "na-metal",
-        "na-cathode"
-      ],
-      "doi": "10.1002/adma.75401",
-      "authors": [
-        "Ning Jiang",
-        "朱乔楠",
-        "Liqiang Wu",
-        "Weihao Wang",
-        "Tai Peng",
-        "Jinhui Zhao"
-      ],
-      "venue": "Advanced Materials",
-      "abstract_en": "ABSTRACT Nonuniform sodium deposition limits the cyclability of anode‐free sodium batteries (AFSBs), and current research mainly focuses on anode‐targeted strategies. However, the influence of the cathode kinetics on sodium deposition behavior has been overlooked. Here, we firstly reveal the critical role of cathode polarization on sodium deposition uniformity via electric field coupling. Accordingly, cathode‐specific charging (CSC) protocols are established for AFSBs to depolarize the cathode, where the charging current is dynamically regulated based on the state of charge (SOC)‐dependent direct current inner resistance (DCIR). As expected, the CSC protocols effectively depolarize the cathodes and thus homogenize sodium deposition on the anode. Impressively, a 1.6 Ah Al/C||NFPP pouch cell reaches a record‐high cyclability of 1370 cycles at 2 C, and a 3.6 Ah pouch cell reaches a high energy density of 180 Wh kg − 1 with stable cycling for 890 cycles at 0.5 C. More importantly, the cathode depolarization strategy shows application universality for diverse anode‐free full cells based on Na 4 Fe 3 (PO 4 ) 2 (NFPP), Na 3 V 2 (PO 4 ) 3 (NVP), and NaNi 1/3 Fe 1/3 Mn 1/3 O 2 (NFM) cathodes. This work opens an avenue for fabricating durable practical AFSBs.",
-      "oa_status": "closed",
-      "oa_url": null,
-      "license": null,
-      "journal_id": "S99352657",
-      "journal_metric": 22.01,
-      "first_seen": "2026-11-11",
-      "image": null,
-      "summary_ko": null,
-      "relevant": null
     }
   ]
 }
