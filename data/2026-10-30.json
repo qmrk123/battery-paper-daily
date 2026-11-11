@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T00:44:24+00:00",
-  "count": 5,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 10,
   "papers": [
     {
       "id": "W7224084533",
@@ -165,6 +165,156 @@
       "image": null,
       "summary_ko": "리튬 금속 전지의 열 안전성을 높이기 위해, 온도 상승을 이온 전달 경로의 구조 변화로 전환하는 아라미드 지지 형상기억 분리막을 개발했다. 아라미드 다공성 지지체 내에 가교 고분자 네트워크를 광중합하여, 정상 작동 온도에서는 0.29 mS/cm의 이온전도도와 3000시간 이상의 안정적인 Li 플레이팅/스트리핑을 제공하고, 140°C에서는 형상기억 네트워크의 열기계적 재배열로 기공이 수축되어 이온저항이 한 자릿수 증가한다. 아라미드 골격은 175°C까지 치수 안정성을 유지하며 전극 간 절연을 보존하고, NCM811 및 리튬리치 Mn계 고용량 캐소드와도 호환되어 125°C까지 작동 가능함을 보였다.",
       "relevant": false
+    },
+    {
+      "id": "W7225010888",
+      "source": "openalex",
+      "title": "Thermodynamically Guided Antisite Ordering Stabilizes Cobalt‐Free Ultrahigh‐Ni Cathodes",
+      "url": "https://doi.org/10.1002/adma.75568",
+      "published": "2026-10-30",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75568",
+      "authors": [
+        "Tiantian Zhang",
+        "Lingfeng Li",
+        "Canshang Liu",
+        "Sicheng Niu",
+        "Yandi Wen",
+        "Yixiao Guo"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Eliminating Co from ultrahigh‐Ni layered cathodes often exacerbates Li/Ni mixing, impeding Li + transport, amplifying reaction heterogeneity, and accelerating structural degradation. Most strategies focus on minimizing the overall degree of cation mixing, whereas thermodynamic control of antisite spatial organization remains underexplored. Here, we address this central stability challenge by developing a thermodynamics‐guided defect‐engineering strategy that stabilizes spatially correlated Li/Ni antisite configurations in cobalt‐free ultrahigh‐Ni cathodes. Density functional theory screening of high‐valence dopants reveals that Te 6+ exhibits the strongest energetic preference for spatially correlated antisite configurations. This prediction guides the synthesis of LiNi 0.948 Al 0.045 Te 0.007 O 2 containing coherent local antisite‐ordered superlattice domains. These ordered domains persist after prolonged cycling, strengthen interlayer coupling, suppress H2–H3 phase separation and c ‐axis contraction, and preserve low‐barrier Li + migration pathways. Local Te–O coordination further stabilizes lattice oxygen and mitigates oxygen‐loss‐induced surface reconstruction. Consequently, the cathode delivers 185 mAh g −1 at 10 C, retains 96.7% of its initial capacity after 200 cycles at 1 C with a 4.4 V cutoff, and retains 92% of its initial capacity after 100 cycles with a 4.6 V cutoff. These findings establish the spatial organization of defects as a critical design variable for mitigating the stability‐transport trade‐off in cobalt‐free ultrahigh‐Ni layered cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "코발트를 포함하지 않는 초고니켈 층상 양극에서 Li/Ni 혼합이 심화되는 문제를 공간적으로 정렬된 안티사이트(antisite) 배열의 열역학적 제어로 해결한 연구이다. DFT 스크리닝을 통해 Te6+가 공간적으로 상관된 안티사이트 구조를 가장 선호함을 밝히고, 이를 바탕으로 LiNi0.948Al0.045Te0.007O2를 합성해 결맞음 안티사이트 정렬 초격자 도메인을 구현했다. 이 도메인은 장기 사이클 후에도 유지되어 층간 결합을 강화하고 H2-H3 상분리 및 c축 수축을 억제하며, 4.4V 컷오프 1C/200사이클에서 96.7%, 4.6V 컷오프 100사이클에서 92%의 용량 유지율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee05523k",
+      "source": "crossref",
+      "title": "Reaction-priority gating enables ionic-liquid electrolytes for 80°C lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05523k",
+      "published": "2026-10-30",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1039/d6ee05523k",
+      "authors": [
+        "Yixiong Peng",
+        "Yangyang Liu",
+        "Qiuping Cheng",
+        "Maoyi Yi",
+        "Jie Zhao",
+        "Jiayi Zheng"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "High-temperature operation magnifies interfacial parasitic reactions in lithium metal batteries, rapidly depleting cyclable Li and destabilizing Ni-rich layered oxide cathodes. Here we introduce a reaction-priority gating strategy for ionic-liquid electrolytes...",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "80°C 고온 환경에서 리튬 금속전지의 계면 부반응이 증폭되어 가용 리튬이 소실되고 니켈리치 층상산화물 양극이 불안정해지는 문제를 반응-우선순위 게이팅(reaction-priority gating) 전략의 이온성액체 전해질로 해결한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7224868175",
+      "source": "openalex",
+      "title": "Locally Competitive Coordination Electrolyte for High‐Voltage Lithium‐Metal Batteries With Ni‐Rich Cathodes",
+      "url": "https://doi.org/10.1002/aenm.71779",
+      "published": "2026-10-30",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71779",
+      "authors": [
+        "Jianqi Sun",
+        "Juliane Fiates",
+        "Kohei Shimokawa",
+        "Qing Weng",
+        "Heng Wang",
+        "Zhuangnan Li"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium (Li) metal anodes (LMAs) hold great promise to increase the energy density of batteries. This is especially true when using an energy‐dense cathode such as Ni‐rich layered transition metal oxides, but unfortunately, these lead to accelerated capacity loss when combined with LMAs. Ni‐rich cathodes suffer from surface reduction, which can be accelerated in contact with certain electrolyte solvents. This in turn leads to transition metal dissolution and shuttling, which poisons the solid electrolyte interphase (SEI) and complicates the anode stabilization. Here, we propose nitrile primary solvent combined with ether co‐solvent, diluent and two borate salts to suppress parasitic reaction. A competition in the ion coordination between solvents surrounded by diluents is achieved. This leads to the anions being preferentially decomposed in the SEI and enhanced reversibility. Using high cathode areal capacity (4.0 mAh cm − 2 ), thin LMAs (N/p = 2.5), lean electrolyte (3 g Ah − 1 ), and high charging voltages (≥4.4 V), we achieve a capacity retention of 80% over 250 cycles. With moderately high loading cathode (3.4 mAh cm − 2 ) but higher upper voltage (4.6 V), the cells retain 87.5% capacity retention over 430 cycles. Finally, we demonstrate Ah‐level anode‐free pouch cells with a 78.7% capacity retention over 100 cycles.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71779",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "니켈리치 층상 양극과 리튬 금속음극(LMA)을 결합할 때 발생하는 표면 환원 및 전이금속 용해로 인한 SEI 오염 문제를 니트릴 주 용매와 에테르 공용매, 희석제, 두 종의 보레이트 염을 조합한 전해질로 해결했다. 용매 간 이온 배위 경쟁을 통해 음이온이 우선적으로 SEI에서 분해되도록 하여 가역성을 높였으며, 고면적용량 양극(4.0 mAh cm-2)과 얇은 리튬 음극, 린 전해질, 고전압(≥4.4V) 조건에서 250사이클 80% 용량 유지율을, 4.6V/3.4 mAh cm-2 조건에서는 430사이클 87.5% 유지율을 달성했다. 또한 Ah급 무음극 파우치셀에서도 100사이클 78.7% 용량 유지율을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7224746829",
+      "source": "openalex",
+      "title": "Engineering Li + Transport in Ni‐Rich Layered Cathodes Toward Homogenization",
+      "url": "https://doi.org/10.1002/adma.75335",
+      "published": "2026-10-30",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75335",
+      "authors": [
+        "Lili Lin",
+        "Min Du",
+        "Jiatao Lou",
+        "Ziqiang Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Nickel‐rich layered oxide (NRLO) cathodes (Ni≥80%) are promising for next‐generation lithium‐ion batteries with energy densities exceeding 300 Wh kg −1 , but suffer from rapid degradation under deep delithiation, including phase transitions, microcracking, and surface reconstruction. These failure modes are increasingly recognized to be coupled through heterogeneous Li + transport across multiple length scales. Here we show that spatial variations in Li + transport originate from atomic, structural, and interfacial factors and ultimately evolve into macroscopic chemo‐mechanical degradation. On this basis, we introduce transport homogenization as a unifying design principle for regulating Li + transport in NRLO cathodes. Within this framework, diverse material engineering strategies, including bulk structural design, interfacial transport engineering, and dynamic transport regulation, are interpreted from a common transport‐centered perspective. We further summarize emerging characterization approaches for quantifying transport heterogeneity and discuss future opportunities for establishing predictive cross‐scale design principles. Overall, this review establishes a transport‐centered framework that unifies degradation in NRLO cathodes and provides a mechanistic basis for rational design of next‐generation high‐energy‐density cathode materials.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "니켈리치 층상산화물(NRLO, Ni≥80%) 양극의 원자, 구조, 계면 수준에서 발생하는 불균일한 Li+ 수송이 상변화, 미세균열, 표면 재구성 등 거시적 화학-기계적 퇴화로 이어지는 과정을 다룬 리뷰이다. 수송 균질화(transport homogenization)를 통합 설계 원칙으로 제시하며 벌크 구조 설계, 계면 수송 엔지니어링, 동적 수송 조절 등 다양한 전략을 수송 중심 관점에서 재해석하고, 수송 이질성을 정량화하는 특성분석 기법과 향후 예측적 설계 원칙 수립 방향을 논의한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7224833060",
+      "source": "openalex",
+      "title": "Constructing Hybrid Solid–Liquid Li+ Transport Networks for Fast-Charging Thick Electrodes",
+      "url": "https://doi.org/10.1021/acsenergylett.6c03027",
+      "published": "2026-10-30",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/acsenergylett.6c03027",
+      "authors": [
+        "Jiacheng Zhu",
+        "Xuewei Gu",
+        "Hongmei Song",
+        "Defu Cao",
+        "邱际亮",
+        "Qi Yang"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Fast-charging technology for high-energy-density lithium-ion batteries remains constrained by high interfacial impedance and sluggish Li+ transport within electrodes. Herein, hierarchical-sized Li1.5Al0.5Ti1.5(PO4)3 (LATP, particle ranging from 5 to 500 nm) is used to construct a hybrid solid–liquid Li+ transport network in high-mass-loading cathodes (27 mg cm–2). A combination of different characterization techniques is employed to understand the underlying working principle of LATP from the particle to the electrode scale. LATP nanograins (∼10 nm) adsorbed onto cathode particle surfaces reduce Li+ desolvation energy (43.30 vs 52.97 kJ mol–1) and stabilize a thin CEI after cycling. Submicron LATP particles (320–480 nm) infiltrate pores of thick electrodes, forming interconnected networks that increase the Li+ diffusion coefficient. Furthermore, LATP increases the Li+ transference number of the liquid electrolyte within LATP-permeated regions. Consequently, LiNi0.8Co0.1Mn0.1O2||Li cells with LATP-blended cathodes deliver dramatically enhanced rate performance (102 vs 36 mAh g–1 at 0.75C and –10 °C).",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "고에너지밀도 리튬이온전지의 급속충전을 제한하는 높은 계면 임피던스와 느린 Li+ 수송 문제를 계층적 크기의 LATP(Li1.5Al0.5Ti1.5(PO4)3, 5~500nm) 입자로 구성한 고체-액체 혼합 Li+ 수송 네트워크로 해결했다. 나노 LATP(~10nm)는 양극 입자 표면에 흡착해 Li+ 탈솔베이션 에너지를 낮추고(43.30 대비 52.97 kJ/mol) 안정적인 얇은 CEI를 형성하며, 서브마이크론 LATP(320~480nm)는 두꺼운 전극 기공에 침투해 상호연결된 네트워크로 Li+ 확산계수를 높인다. LATP를 혼합한 LiNi0.8Co0.1Mn0.1O2 캐소드(27 mg cm-2)는 -10°C/0.75C에서 36 대비 102 mAh g-1로 율속 성능이 크게 향상되었다.",
+      "relevant": true
     }
   ]
 }

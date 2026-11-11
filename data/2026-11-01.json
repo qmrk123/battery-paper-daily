@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T00:02:41+00:00",
-  "count": 8,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 14,
   "papers": [
     {
       "id": "W7224838799",
@@ -249,6 +249,178 @@
       "image": null,
       "summary_ko": "Co로 도핑된 리튬 티타네이트에서 나타나는 전기화학적 오실레이션의 반응속도론적 메커니즘을 규명한 연구로 보인다. 리튬 티타네이트는 인터칼레이션형 음극 소재로 7개 분류 토픽에는 해당하지 않는다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7225656604",
+      "source": "openalex",
+      "title": "Symmetry Breaking Drives Topological Dissociation of Grain-Boundary Heterophases for Single-Crystal Regeneration of Spent NCM Cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105644",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105644",
+      "authors": [
+        "Fanbin Hu",
+        "Changjiang Li",
+        "Zitong Fei",
+        "Jinhua Shi",
+        "Yiming Zhang",
+        "Qingfeng Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "대칭 깨짐 현상을 이용해 폐기된 NCM 양극재의 결정립계 이종상을 분리시켜 단결정 구조로 재생하는 리사이클링 공정에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225617964",
+      "source": "openalex",
+      "title": "P-site multi-anion-engineered NASICON-type cathode with quasi-solid-solution triphasic behavior for high-rate sodium storage",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.056",
+      "published": "2026-11-01",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.056",
+      "authors": [
+        "Chen Dai",
+        "Yi‐Xiang Hong",
+        "Jia-Le Huang",
+        "Zhi-Qiang Gu",
+        "Bing-Jie Feng",
+        "Zi-Mei Long"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "P 자리에 다중 음이온을 도입한 NASICON형 소듐 이온 양극재로, 준고용체 삼상 거동을 통해 고율 충방전이 가능한 소듐 저장 특성을 구현한 연구이다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225635193",
+      "source": "openalex",
+      "title": "Modified interfacial electronic environment of Fe–N4 molecules coupling on 2D molybdenum-based platforms for reversible zinc–air batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.057",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.057",
+      "authors": [
+        "Tran Thien An Nguyen",
+        "Hoang Tuan Nguyen",
+        "Saleem Sidra",
+        "Do Hwan Kim",
+        "Thi Thuy Nga Ta",
+        "Chung-Li Dong"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "2차원 몰리브덴 기반 플랫폼에 결합된 Fe–N4 분자의 계면 전자 환경을 조절하여 가역적인 아연-공기 전지 성능을 개선하는 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225331466",
+      "source": "openalex",
+      "title": "From Glass Waste to High‐Performance Solid Composite Electrolytes for Sustainable Solid‐State Lithium Batteries (Adv. Funct. Mater. 89/2026)",
+      "url": "https://doi.org/10.1002/adfm.79205",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1002/adfm.79205",
+      "authors": [
+        "张维彩 Zhang Weicai",
+        "Jingcheng Lu",
+        "Xuexiao Chen",
+        "Weiqi Mai",
+        "Wei Wang",
+        "Haoliang Huang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "High-Alkali Glass Fiber Composite Electrolytes Waste glass fiber becomes an active electrolyte scaffold: alkali-rich silicate surfaces dissociate lithium salts and steer directional Li+ transport. The solid composite membrane cycles dendrite-free at high voltage, offering a low-cost route to sustainable solid-state lithium batteries. More details can be found in the Research Article Dong Shu, Lei Zhang, Lifeng Liu, and co-workers (DOI: 10.1002/adfm.77793).",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79205",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "폐유리섬유를 알칼리 리치 실리케이트 표면을 활용한 전해질 지지체로 재활용하여 리튬 염을 해리시키고 Li+ 수송을 유도하는 저비용 고체 복합 전해질을 제안했다. 이 복합막은 고전압에서 덴드라이트 없이 사이클이 가능해 지속가능한 전고체 리튬전지로의 적용 가능성을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225076477",
+      "source": "openalex",
+      "title": "Chemically Reactivatable Sulfide Interfaces for Low‐Pressure Thick‐Cathode Solid‐State Na–S Batteries",
+      "url": "https://doi.org/10.1002/adma.75607",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1002/adma.75607",
+      "authors": [
+        "Xiaofan Liu",
+        "Ziyu Feng",
+        "Haitao Zhang",
+        "Runze Xia",
+        "Siyuan Gao",
+        "Yingwen Cheng"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Low‐pressure solid‐state Na–S batteries with thick sulfur cathodes are attractive for high‐energy storage, but their operation is fundamentally constrained by the progressive loss of solid–solid contact during sulfur conversion. Once insulating sulfides become poorly connected to the electronic network, charge recovery becomes incomplete and cathode passivation rapidly accumulates. Here, we construct chemically reactivatable sulfide interfaces by embedding Fe 3 C–MnO heteropoints within nitrogen‐doped hollow carbon nanotubes. The heterointerface integrates carbon‐side electronic coupling, sulfide‐side affinity, and interfacial polarization, thereby suppressing localized sulfide accumulation and sustaining charge‐stage sulfur recovery as mechanical confinement weakens. This effect is strongly pressure dependent. Under high compression, the electrochemical responses of different hosts converge, whereas under contact‐limited conditions the Fe 3 C–MnO architecture preserves markedly higher sulfur utilization, lower polarization, and superior cycling stability. Consequently, the operational pressure required to retain ≥80% of the 10 MPa discharge capacity decreases from approximately 2 MPa for the control cathodes to 0.2 MPa for Fe 3 C–MnO/NC@S. A 200 µm cathode with 8.3 mg cm −2 sulfur sustains reversible cycling at 0.2 MPa, together with a pouch‐cell energy density of 696 Wh kg cathode −1 . These results establish sulfide‐interface reactivation as a route to decouple reversible sulfur chemistry from stringent mechanical confinement.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75607",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "저압 전고체 Na-S 전지의 두꺼운 황 양극에서 황 전환에 따른 고체-고체 접촉 손실 문제를 질소 도핑 중공 탄소나노튜브 내 Fe3C-MnO 헤테로 계면으로 해결한 연구이다. 이 계면은 탄소 측 전자 커플링과 황화물 측 친화력, 계면 분극을 통합해 압력이 낮아져도 황 활용률과 사이클 안정성을 유지시키며, 80% 용량 유지에 필요한 압력을 10 MPa 대비 0.2 MPa까지 낮추고 696 Wh kg-1의 파우치셀 에너지밀도를 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225611222",
+      "source": "openalex",
+      "title": "Band alignment modulation mitigates space-charge-layer effects at Ni-rich cathode/sulfide electrolyte interfaces in all-solid-state batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.059",
+      "published": "2026-11-01",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.059",
+      "authors": [
+        "Haijian Lv",
+        "Tianwen Yang",
+        "Xinyu Zhang",
+        "Yuxiang Zhang",
+        "Jingwen Cui",
+        "Linze Ji"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "니켈 함량이 높은 양극재와 황화물 고체전해질 계면에서 밴드 정렬을 조절하여 공간전하층 효과를 완화시키는 전고체전지 연구이다. (제목 기반 추정)",
+      "relevant": true
     }
   ]
 }

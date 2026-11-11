@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T00:46:26+00:00",
-  "count": 17,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 18,
   "papers": [
     {
       "id": "W7225305677",
@@ -559,6 +559,36 @@
       "first_seen": "2026-11-07",
       "image": null,
       "summary_ko": "전자친화도 엔지니어링을 통해 소듐이온 저장용 양극-전해질 계면화학을 제어하여 고속 충방전 특성을 구현하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
+    },
+    {
+      "id": "W7225463970",
+      "source": "openalex",
+      "title": "High‐Entropy Sulfides Enable Dual‐Pathway Sulfur Conversion in PEO‐Based All‐Solid‐State Li–S Batteries",
+      "url": "https://doi.org/10.1002/adfm.79559",
+      "published": "2026-11-07",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79559",
+      "authors": [
+        "Tongtong Lu",
+        "Jincheng Jiang",
+        "Tong Zhang",
+        "Siyu Ji",
+        "Yating Cui",
+        "Jinzhou Chen"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state lithium‐sulfur batteries (ASSLSBs) are promising for safe, high‐energy storage, but their development is limited by lithium polysulfides (LiPSs) dissolution and shuttle effect in poly(ethylene oxide)‐based solid polymer electrolytes, leading to sluggish sulfur conversion and rapid capacity decay. Herein, we report a dual‐phase high‐entropy sulfide system (HES, FeCoNiCuMoS x ) nanoflowers as a multifunctional sulfur host. Owing to lattice distortion and strong d‐p orbital coupling, HES exhibits strong chemical affinity toward LiPSs and accelerates sulfur conversion. Importantly, the dual‐phase HES enables a dual‐pathway sulfur reduction reaction, in which a restrained LiPSs‐mediated “liquid”‐phase route sustains kinetics, while a dominant “solid‐solid” (S to Li 2 S) pathway fundamentally blocks LiPSs dissolution and shuttling. As a result, the S@HES cathode delivers a high specific capacity of 1319.3 mAh g −1 at 0.1 C and maintains remarkable cycling stability with a low capacity decay rate of only 0.0458% per cycle over 1000 cycles at 1 C, along with stable electrochemical performance over the investigated temperature range of 40°C to 60°C. Furthermore, S@HES‐based pouch cells exhibit excellent mechanical flexibility and deliver a high initial capacity of 1365.8 mAh g − 1 with stable cycling performance, collectively underscoring the strong potential of this dual‐pathway regulation strategy for practical advanced ASSLSBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79559",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "PEO 기반 전고체 리튬-황 전지에서 리튬 폴리설파이드 용해와 셔틀 효과를 억제하기 위해 이중상 고엔트로피 황화물(FeCoNiCuMoSx) 나노플라워를 다기능 황 호스트로 제안했다. 격자 왜곡과 강한 d-p 오비탈 결합으로 폴리설파이드에 대한 화학적 친화력을 높이고, 액상 경로를 억제하면서 고체-고체(S to Li2S) 전환 경로를 지배적으로 만들어 셔틀 효과를 근본적으로 차단한다. S@HES 캐소드는 0.1C에서 1319.3 mAh g-1의 용량과 1C/1000사이클에서 0.0458%/사이클의 낮은 용량 감쇠율을 보였으며, 파우치셀에서도 우수한 유연성과 안정적 사이클 성능을 나타냈다.",
       "relevant": true
     }
   ]

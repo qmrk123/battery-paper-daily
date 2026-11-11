@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
-  "generated_at": "2026-10-31T00:34:01+00:00",
-  "count": 3,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 4,
   "papers": [
     {
       "id": "W7224260336",
@@ -105,6 +105,32 @@
       },
       "summary_ko": "단일 원자 활성점만으로는 Li가 특정 자리에 수직으로 쌓여 덴드라이트가 형성되는 문제를 해결하기 위해, 인접한 Co 단일원자와 Co 나노입자 간 전자 결합을 이용한 호스트 구조를 제안했다. 레이저 직접 기록 공정으로 계층적 다공성 그래핀에 초미세 Co 나노입자와 인접 Co 단일원자를 동시에 형성시켰으며, 이 전자 결합이 국소 d-band 중심을 재구성해 Li 흡착 에너지의 공간적 구배를 만들어 Li가 인접 자리로 순차 성장하도록 유도한다. 이를 적용한 고로딩 Li 음극 기반 완전셀은 2C, 1000회 사이클 후에도 71.4%의 용량을 유지했다.",
       "relevant": true
+    },
+    {
+      "id": "W7225004270",
+      "source": "openalex",
+      "title": "Fine-Tuning Universal Machine Learning Potentials Enables Efficient Computation of Li Electrode Potentials in Battery Electrolytes",
+      "url": "https://doi.org/10.1021/jacs.6c12519",
+      "published": "2026-10-31",
+      "topics": [],
+      "doi": "10.1021/jacs.6c12519",
+      "authors": [
+        "Feng Wang",
+        "Yu-Hang Tang",
+        "Yimin Wei",
+        "Jun Jie Cheng"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract The electrode potential of Li metal is fundamental to the performance and stability of Li-metal batteries, yet its accurate prediction across diverse electrolyte chemistries remains a challenge. Standard quantum chemistry using cluster models fails to account for explicit bulk solvation, while ab initio molecular dynamics is restricted by the high computational cost of thermodynamic sampling. In this work, we present an integrated framework that combines a universal machine learning potential for electrolytes with a data-efficient fine-tuning strategy to compute Li electrode potentials. This workflow achieves ab initio level accuracy using ∼200 extra density functional theory calculations per electrolyte system. Furthermore, the identified relationship between local Li+ solvation environments and electrode potential shifts provides mechanistic insights into electrolyte-dependent redox behavior and offers guidance for rational electrolyte design.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "범용 머신러닝 포텐셜과 데이터 효율적 미세조정 전략을 결합해 다양한 전해질 화학에서 리튬 금속의 전극 전위를 계산하는 통합 프레임워크를 제시했다. 전해질 시스템당 약 200회의 추가 DFT 계산만으로 ab initio 수준의 정확도를 달성하며, 국소 Li+ 솔베이션 환경과 전극 전위 변화 사이의 관계를 규명해 전해질 설계에 메커니즘적 지침을 제공한다.",
+      "relevant": false
     }
   ]
 }

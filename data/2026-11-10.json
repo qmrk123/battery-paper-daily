@@ -1,6 +1,35 @@
 {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T03:16:07+00:00",
-  "count": 0,
-  "papers": []
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "crossref:10.1039/d6ee06696h",
+      "source": "crossref",
+      "title": "Cell Configuration Dependent Perturbations for in Situ/Operando Raman Spectroscopy of Lithium-Ion Batteries",
+      "url": "https://doi.org/10.1039/d6ee06696h",
+      "published": "2026-11-10",
+      "topics": [],
+      "doi": "10.1039/d6ee06696h",
+      "authors": [
+        "Quan-Fang Wang",
+        "Shanshan He",
+        "Shi-Yi Ni",
+        "Yi-Hang Liu",
+        "Yu-Han Shi",
+        "Wan-Jie Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "In situ/operando characterization is crucial for revealing dynamic processes in electrochemical energy devices, offering key insights for mechanism elucidation and performance optimization. However, the configurations used for the observations may...",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬이온전지의 in situ/operando 라만 분광 측정 시 사용되는 셀 구성(cell configuration)이 측정 신호에 어떤 교란(perturbation)을 유발하는지 분석한 연구이다. 다양한 셀 구조에 따른 영향을 체계적으로 밝혀 operando 라만 측정의 신뢰성을 높이기 위한 지침을 제시한다.",
+      "relevant": false
+    }
+  ]
 }

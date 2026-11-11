@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T00:20:29+00:00",
-  "count": 4,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 7,
   "papers": [
     {
       "id": "W7223659233",
@@ -126,6 +126,92 @@
       "first_seen": "2026-10-28",
       "image": null,
       "summary_ko": "체액으로 활성화되는 인쇄형 Mg-air 배터리를 이용한 완전 통합형 무선 다중모드 웨어러블 헬스 모니터링 시스템에 관한 연구로 추정됨. 마그네슘-공기 전지 기반으로, 리튬/소듐 금속이나 리튬계 양극재와는 무관함 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
+      "id": "W7224409303",
+      "source": "openalex",
+      "title": "Cyanide‐Driven Nitrite Trapping Enables Robustly‐Coupled Gel/Cathode Interfaces in Zinc‐Air Batteries",
+      "url": "https://doi.org/10.1002/adfm.79376",
+      "published": "2026-10-28",
+      "topics": [],
+      "doi": "10.1002/adfm.79376",
+      "authors": [
+        "Xinyu Ding",
+        "Yajing Di",
+        "Qihui Lyu",
+        "Yu Chen",
+        "Xiaoxia Li",
+        "Zhengping Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Gel zinc‐air batteries (GZABs) are promising for flexible energy storage. However, their performance is often limited by unstable gel cathode interfaces, where water‐dependent OH − transport, charge transfer, and mechanical adhesion are closely linked. Here, we propose an interfacial coupling chemistry by using a cobalt‐based Prussian blue analogue (CCN) as a reconstructable precatalyst. When assembled with a polyvinyl alcohol (PVA) gel electrolyte and electrochemically activated during the GZAB operation, CCN was reconstructed into a sheet‐arrayed amorphous CoOOH while releasing cyanide‐derived nitrogen that was confined by the gel network and converted into −NO 2 groups at the PVA/CoOOH interface. These NO 2 groups act as molecular linkers, chemically coupling with CoOOH through Co–N–O bonding and reinforcing hydrogen bonding with the PVA chains. The in situ reconstructed electrode exhibits enhanced interfacial OH − transport, with an apparent diffusion coefficient 3.25 times that of the ex situ construction, together with lower interfacial resistance and stronger mechanical adhesion. Benefiting from both the reconstructed CoOOH catalyst and coupling interface, the resulting GZAB delivers a peak power density of 144 mW cm −2 and maintains 86.4 mW cm −2 even at 30% water content. The enhanced interfacial adhesion further enables stable operation in omnidirectionally flexible cable‐type zinc‐air batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79376",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "유연 겔 아연-공기전지에서 불안정한 겔 양극 계면 문제를, 코발트 기반 프러시안블루 유사체(CCN)를 재구성 가능한 전촉매로 사용한 계면 결합 화학으로 해결했다. 전기화학적 활성화 중 CCN이 시트형 비정질 CoOOH로 재구성되면서 방출된 시아나이드 유래 질소가 PVA/CoOOH 계면에서 -NO2기로 전환되어 CoOOH와 Co-N-O 결합을 형성하고 PVA 사슬과 수소결합을 강화한다. 이 전지는 144 mW cm-2의 피크 출력밀도와 30% 수분 함량에서도 86.4 mW cm-2를 유지했다.",
+      "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee06404c",
+      "source": "crossref",
+      "title": "Copper-organic framework composite polyether electrolyte with valence-responsive electronic modulation toward high-performance solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee06404c",
+      "published": "2026-10-28",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1039/d6ee06404c",
+      "authors": [
+        "Shuhao Zou",
+        "Conghui Zhang",
+        "Yan Yang",
+        "Weizhong Liang",
+        "Han Lin",
+        "Hongbo Wu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "The narrow electrochemical window and persistent dendrite growth of in situ polymerized poly(1,3-dioxolane) (PDOL) solid-state electrolytes remain critical bottlenecks for high-energy-density lithium-metal batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "In situ 중합된 PDOL 고체전해질의 좁은 전기화학적 창과 지속적인 덴드라이트 성장 문제를 해결하기 위한 구리-유기 골격체 복합 폴리에터 전해질을 다룬 연구로, 밸런스-반응성 전자 조절을 통해 고성능 전고체 리튬 금속전지를 구현한 것으로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee05408k",
+      "source": "crossref",
+      "title": "Coordination-induced fluorescence red shift of carbon dots regulates interfacial chemistry for ultra-stable and low-temperature adaptive zinc-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee05408k",
+      "published": "2026-10-28",
+      "topics": [],
+      "doi": "10.1039/d6ee05408k",
+      "authors": [
+        "Wenyi Lu",
+        "Yongshuai Liu",
+        "Shaochong Cao",
+        "Fengkai Zuo",
+        "Pengshu Yi",
+        "Liang Cao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Zn 2+ coordination couples the optical and electronic evolution of carbon dots with Zn interfacial chemistry, enabling homogeneous deposition, low-temperature adaptability, and ultra-stable cycling over 72 000 cycles.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "탄소점(carbon dot)의 Zn2+ 배위에 따른 형광 적색 이동을 이용해 광학적/전자적 변화와 아연 계면 화학을 결합시킨 연구이다. 이를 통해 균일한 Zn 증착과 저온 적응성, 72000회 사이클의 초안정적 구동을 아연이온전지에서 달성했다.",
       "relevant": false
     }
   ]

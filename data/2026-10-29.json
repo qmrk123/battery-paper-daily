@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T00:44:31+00:00",
-  "count": 13,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 18,
   "papers": [
     {
       "id": "W7160331291",
@@ -439,6 +439,148 @@
       "first_seen": "2026-10-29",
       "image": null,
       "summary_ko": "압전 특성을 가진 ZnO를 고분자 엘라스토머에 도입하여 리튬금속전지용 고성능 고체 전해질을 구현한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7224851077",
+      "source": "openalex",
+      "title": "Toward Practical Zn‐Ion Batteries Through Separator/Electrolyte Co‐Design",
+      "url": "https://doi.org/10.1002/advs.78250",
+      "published": "2026-10-29",
+      "topics": [],
+      "doi": "10.1002/advs.78250",
+      "authors": [
+        "Gao Wang",
+        "Ze Qiang He",
+        "Rui Wang",
+        "Jiajing Wang",
+        "Shaowen Cao",
+        "Michael F. L. De Volder"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT While substantial research effort has been paid to address short‐circuits and parasitic hydrogen evolution reactions (HER) in Zn‐ion batteries (ZIBs), a remaining challenge that is often overlooked is ZIB separators. Currently, thick glass fiber (GF) separators are used, which unnecessarily reduce the volumetric cell performance and lead to non‐uniform Zn plating/stripping. Unfortunately, separators optimized for Li‐ion batteries are intrinsically hydrophobic and therefore incompatible with aqueous ZIB systems. Here, we propose using a hybrid organic‐aqueous electrolyte which is compatible with thin polypropylene (PP) separators developed for Li‐ion batteries. The hybrid electrolyte, together with the PP separator, enables uniform Zn plating and suppresses HER. Combined, these effects allow for stable cycling for 4360 h at 1 mA cm −2 and 3 mAh cm −2 in a Zn symmetrical cell. Further, replacing the currently used 350 µm‐thick GF separator with our proposed 23 µm PP separator can increase the energy densities of multi‐layer pouch cells by over 2.5‐fold. Finally, Zn//NVO full cells using our hybrid electrolyte and separator demonstrate stable cycling performance for over 200 cycles at a high areal capacity of 4.4 mAh cm −2 , demonstrating that electrolyte/separator co‐design is an overlooked strategy toward practical ZIBs.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78250",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "아연이온전지(ZIB)에서 그동안 간과되었던 분리막 문제를 전해질과 분리막의 공동 설계로 해결한 연구이다. 유기-수계 혼합 전해질을 리튬이온전지용 얇은 폴리프로필렌(PP) 분리막과 조합해 균일한 Zn 도금을 구현하고 수소발생반응을 억제했으며, 기존 350µm 유리섬유 분리막을 23µm PP 분리막으로 대체해 파우치셀 에너지밀도를 2.5배 이상 높였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7224577450",
+      "source": "openalex",
+      "title": "Ion‐Electron Convergent Interphases Enable Ultrahigh Sulfur Utilization for All‐Solid‐State Li–S Batteries",
+      "url": "https://doi.org/10.1002/adma.75518",
+      "published": "2026-10-29",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75518",
+      "authors": [
+        "Zhonghao Hu",
+        "Jiwei Shi",
+        "Mingyang Jiang",
+        "Tianyu Yin",
+        "Bohan Zhang",
+        "Yun Cao"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state batteries offer a safer route toward electrochemical energy storage with high energy density, but the active‐material utilization is commonly limited by unbalanced carrier transport dynamics through spatially decoupled delivery pathways, which overlap only at restricted reaction fronts. Such an issue is particularly severe for electronically and ionically insulating sulfur/Li 2 S, making efficient sulfur conversion the key bottleneck for practical all‐solid‐state lithium–sulfur batteries (ASSLSBs). Here, we propose surface‐bound ion‐electron convergent interphases on the Li 2 S surface that reconstruct localized triple‐phase contacts into an integrated active surface. Using the effective magnetic moment, originating from spin asymmetry, as a screening criterion for interfacial affinity, Li 2 FeS 2 is identified to form a robust surface‐bound interphase with Li 2 S, which bridges separated ion and electron pathways at the reaction areas, decreasing the transport tortuosity and lowering the activation barriers for both Li 2 S oxidation and reduction. Consequently, ASSLSBs stably work over 10 000 cycles at 1 mg cm −2 while delivering a loading‐insensitive sulfur utilization of 97.8% and 95.8% at 1 and 8 mg cm −2 , respectively. Moreover, a record areal capacity of 38.69 mAh cm −2 is achieved, highlighting the spatially surface‐bound mixed conductors as an effective design principle for synchronizing coupled ion‐electron transfer (CIET) in all‐solid‐state batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "전고체 리튬-황 전지에서 전기적/이온적으로 절연성인 황/Li2S의 활물질 활용률이 삼상 접촉 불균형으로 제한되는 문제를, Li2S 표면에 이온-전자 융합 계면을 형성해 해결했다. 스핀 비대칭에서 유래한 유효 자기모멘트를 계면 친화도 스크리닝 기준으로 사용해 Li2FeS2가 Li2S와 견고한 표면 결합 계면을 형성함을 확인했으며, 이 계면이 이온/전자 경로를 연결해 수송 굴곡도와 활성화 장벽을 낮춘다. 결과적으로 1 mg cm-2에서 10000사이클 이상 안정 구동하며 1/8 mg cm-2에서 각각 97.8%/95.8%의 황 활용률과 38.69 mAh cm-2의 면적용량을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7224155889",
+      "source": "openalex",
+      "title": "From Localized Electrochemical Behavior to Interfacial Reaction Mechanisms: Evaluation of Corrosion Inhibitors for Active Pb-Containing Phases in Sanxingdui Embrittled Gold Masks",
+      "url": "https://doi.org/10.1021/jacs.6c17490",
+      "published": "2026-10-29",
+      "topics": [],
+      "doi": "10.1021/jacs.6c17490",
+      "authors": [
+        "Shengyu Liu",
+        "Ting Yu",
+        "Xiangyu Sun",
+        "Jiachen Qin",
+        "Haizi Lu",
+        "Tao Yang"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract The Sanxingdui gold masks are Au–Ag–Pb ternary alloys in which preferential corrosion of intergranular active Pb-containing phases causes severe embrittlement and threatens long-term preservation. Here, corrosion inhibitors for these vulnerable microdomains were evaluated by integrating microstructural characterization, scanning electrochemical cell microscopy (SECCM), and density functional theory (DFT) calculations. Sodium cysteinate (NaCys), sodium hexametaphosphate (SHMP), sodium silicate (NaSi), and sodium salts of saturated fatty acids (NaCn, C6–C18) were screened on simulated Au–Ag–Pb alloys. NaCys and SHMP induced pronounced Pb depletion, while NaSi formed a hydrophilic, cracked deposit with limited protection. In contrast, NaCn showed a pronounced but non-monotonic carbon-chain-length dependence. NaC9, NaC10, and NaC12 exhibited the best overall performance, with NaC10 providing the highest and most stable localized inhibition. Shorter chains produced less ordered and less hydrophobic films, whereas longer chains were limited by poor effective solubility and interfacial accessibility. DFT calculations showed that inhibition cannot be predicted from adsorption strength alone. By combining adsorption energy, Pb defect formation energy, and interfacial retention energy, we established an interfacial reaction criterion distinguishing stable film formation from inhibitor-induced Pb extraction, thereby introducing the concept of effective inhibitor interfacial reactivity for mechanism-guided conservation. This approach provides a targeted strategy for protecting Sanxingdui gold masks and other complex multiphase metallic heritage objects.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "싼싱두이(三星堆) 금 가면의 Au-Ag-Pb 합금에서 취화를 유발하는 Pb 상의 부식을 억제하는 보존용 부식 억제제를 평가한 문화유산 보존 연구로, 배터리 소재와는 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7224550052",
+      "source": "openalex",
+      "title": "Entropy Stabilized Li‐Rich Layered Oxide Nanoparticles for Advanced High‐Voltage Cathodes",
+      "url": "https://doi.org/10.1002/adma.75561",
+      "published": "2026-10-29",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1002/adma.75561",
+      "authors": [
+        "Siyu Zhu",
+        "Wei Nong",
+        "Ziying Yu",
+        "Lei Huang",
+        "Chengyi Liu",
+        "Erhai Hu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The performance enhancement of emerging flexible batteries relies on the development of advanced small‐particle electrode materials. However, current cathode materials with reduced particle size mostly suffer from low operating voltage, especially aqueous based electrodes. In this study, by using laser‐induced carbothermal method, we successfully fabricated high‐entropy doped Li‐rich nanoparticles as layered oxide cathodes that exhibit outstanding high‐voltage performances. The direct bottom–up nanocrystal growth enables the formation of such exclusive Li‐rich nanoparticles with unprecedentedly small diameter of 83.08 nm. As confirmed by atomic‐resolution imaging, operando x‐ray diffraction and synchrotron techniques analysis, the cathode achieves high lattice stability at elevated cut‐off voltage through the combined effects of heteroatomic composition and reduced particle diameters. Molecular dynamics simulations using machine‐learning interatomic potentials further demonstrate suppressed oxygen loss and stabilized transition‐metal framework in the high‐entropy doped cathodes. Consequently, the cathode operates steadily at voltage window of 2.5–4.8 V with ultrahigh power density of 877.9 Wh kg −1 at 1 C. The assembled full cell and fiber battery provide significant practical feasibility during high‐voltage cycling. This work provides an efficient strategy for designing high‐voltage flexible batteries, offering critical insights for next‐generation energy storage research.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75561",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "유연 전지용 고전압 양극으로서 레이저 유도 카보열(carbothermal) 방법을 통해 고엔트로피 도핑된 리튬리치 나노입자(직경 83.08nm)를 합성했다. 원자분해 이미징과 operando XRD, 싱크로트론 분석으로 이종원소 조성과 입자 미세화가 결합되어 고전압 컷오프에서 높은 격자 안정성을 달성함을 확인했으며, 머신러닝 포텐셜 분자동역학 시뮬레이션은 산소 손실 억제와 전이금속 프레임워크 안정화를 보여준다. 이 양극은 2.5-4.8V 전압 범위에서 1C에 877.9 Wh kg-1의 출력밀도로 안정적으로 구동했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7224307467",
+      "source": "openalex",
+      "title": "Closed‐Pore Engineering Couples Sodium Confinement and Interfacial Stabilization for Dendrite‐Resistant Hard Carbon Anodes",
+      "url": "https://doi.org/10.1002/adfm.79364",
+      "published": "2026-10-29",
+      "topics": [],
+      "doi": "10.1002/adfm.79364",
+      "authors": [
+        "Fuchen Zhou",
+        "Runyi Zhou",
+        "Yongyao Xia",
+        "Qian Yu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Hard carbon, a leading anode for sodium‐ion batteries (SIBs), suffers from nonuniform sodium deposition, which causes dendrite growth and compromises safety and cycle life. Here, we report a closed‐pore engineering strategy based on cobalt‐doped hard carbon (CoHC) that couples internal sodium‐cluster confinement with interfacial stabilization. Internally, the closed nanopores redirect sodium storage from surface accumulation to deep pore filling, thereby inhibiting the growth of quasi‐metallic sodium clusters and dendrite propagation. Externally, the closed‐pore architecture regulates interfacial chemistry, leading to a thin, uniform, inorganic‐rich solid–electrolyte interphase (SEI) with reduced charge‐transfer resistance. In situ electrochemical tests confirm stable interfaces and suppressed dendrite growth in both Na||CoHC half cells and CoHC||Na 3 V 2 (PO 4 ) 3 (NVP) full cells, whereas severe dendritic deposition occurs on pristine hard carbon (HC) under identical current density. The CoHC anode delivers superior cycling stability with a capacity retention of 95% after 500 cycles, significantly outperforming HC. This work paves the way for dendrite‐resistant, safer, and longer‐lasting sodium‐ion batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79364",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "소듐이온전지 하드카본 음극의 불균일한 소듐 증착으로 인한 덴드라이트 성장 문제를, 코발트 도핑 하드카본(CoHC)의 폐쇄기공 엔지니어링으로 내부 소듐 클러스터 가둠과 계면 안정화를 결합해 해결했다. 폐쇄형 나노기공이 소듐 저장을 표면 축적 대신 깊은 기공 충전으로 전환해 준금속성 소듐 클러스터 성장을 억제하고, 얇고 균일한 무기물 풍부 SEI를 형성해 전하전달 저항을 낮춘다. CoHC 음극은 기존 하드카본 대비 500사이클 후 95%의 용량 유지율을 달성했다.",
       "relevant": false
     }
   ]

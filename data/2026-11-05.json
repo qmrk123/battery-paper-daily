@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T01:25:16+00:00",
-  "count": 18,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 22,
   "papers": [
     {
       "id": "W7225160496",
@@ -565,6 +565,122 @@
       "first_seen": "2026-11-05",
       "image": null,
       "summary_ko": "테트라에틸렌펜타민 전해질 첨가제를 이용해 수계 아연 금속전지의 노화에 따른 성능 저하를 완화하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225300710",
+      "source": "openalex",
+      "title": "Stress‐Regulated Li Plating in Hybrid Ag–Carbon/Carbon Nanofiber Anodes for Durable All‐Solid‐State Batteries",
+      "url": "https://doi.org/10.1002/aenm.71816",
+      "published": "2026-11-05",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/aenm.71816",
+      "authors": [
+        "Junhee Kang",
+        "Tae Young Lee",
+        "Jeongvin Park",
+        "Hong Rim Shin",
+        "Dong Seok Kim",
+        "Jieun Lee"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT All‐solid‐state batteries (ASSBs) with Li‐metal or Li‐metal‐free anodes enable high energy density, yet high‐loading cathodes induce severe mechanical instability, leading to rapid cell failure. Herein, we identify stress accumulation caused by repetitive Li plating/stripping as a critical degradation origin in ASSBs and propose a mechanically adaptive Ag–carbon/carbon nanofiber (CNF) hybrid anode to address this challenge. Operando pressure analysis and mechanical modeling reveal that increasing cathode areal capacity substantially amplifies pressure fluctuations and dynamic mechanical instability, leading to interfacial disruption and short‐circuiting. To mitigate this behavior, the Ag–C interlayer and porous CNF framework were independently customized to provide complementary electrochemical regulation and mechanical buffering functions. The Ag–C layer promotes uniform Li nucleation through Ag–Li alloy‐assisted interfacial regulation, while the porous CNF host accommodates volumetric changes and dissipates stress. Phase‐field modeling and microstructural analyses reveal sequential Ag–Li alloying within the Ag–C interlayer, CNF lithiation and pore filling, and controlled interfacial Li deposition, thereby spatially redistributing volumetric expansion. Consequently, the Ag–C/CNF architecture significantly reduces pressure fluctuation and enables stable cycling over 250 cycles under high‐loading conditions (∼5 mAh cm −2 ). Furthermore, stable pouch‐cell operation is demonstrated under practical stack pressures of 1 and 2 MPa, highlighting a viable strategy for mechanically robust high‐energy‐density ASSBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71816",
+      "license": "cc-by-nc",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "전고체전지에서 리튬 도금/탈리 반복에 따른 응력 축적이 주요 셀 실패 원인임을 규명하고, 이를 완화하기 위한 기계적 적응형 Ag-탄소/탄소나노섬유(CNF) 하이브리드 음극을 제안했다. Ag-C 계면층은 Ag-Li 합금화를 통한 균일한 Li 핵생성을 유도하고 다공성 CNF 프레임워크는 체적 변화를 수용하며 응력을 분산시킨다. 고로딩 조건(~5 mAh cm-2)에서 250회 이상 안정적 사이클과 1~2 MPa의 실용적 스택 압력에서의 파우치셀 구동을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225318611",
+      "source": "openalex",
+      "title": "Non‐Selective Suppression of Cation and Anion Crosstalk from an Anode Perspective",
+      "url": "https://doi.org/10.1002/adma.75632",
+      "published": "2026-11-05",
+      "topics": [],
+      "doi": "10.1002/adma.75632",
+      "authors": [
+        "Changsheng Song",
+        "Yuanfan Gu",
+        "Junyu Hou",
+        "Siyuan Liang",
+        "Ce Zhang",
+        "Xirui Liu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Metal fluoride and sulfur cathodes are appealing for their abundance and high capacity but are plagued by severe electrode crosstalk. This occurs when transition metal cations or polysulfide anions dissolve and shuttle to the anode, causing corrosion and rapid capacity fade. Herein, we propose an anode‐centric mechanism utilizing a Na‐rich nanoalloy (Na x Sn) anode that achieves simultaneous kinetic regulation and physical shielding, suppressing cation and anion crosstalk at both the source and destination. The ultrafast kinetics of the Na x Sn alloy elevate the Damköhler number (Da), a descriptor quantifying the competition between conversion and diffusion, thereby ensuring these species are rapidly reduced at the cathode prior to outward diffusion. Concurrently, this nanoalloy induces the formation of an ultrathin, robust Na 2 O‐rich solid electrolyte interphase that non‐selectively blocks residual cation and anion crossovers. This mechanism enables an FeF 2 ||Na x Sn full cell to achieve a Coulombic efficiency of 99.93% over 200 cycles. Additionally, the S/C||Na x Sn system supports extreme rate capabilities (630 mAh g −1 at 20C) and transitions to practical pouch cell configurations, yielding an excellent capacity retention of 91.95% after 1000 cycles at 0.5C. Ultimately, Na‐rich nanoalloy anodes offer a compelling pathway toward high‐energy, sustainable batteries by transforming electrode crosstalk into a spatiotemporally synergistic anode‐cathode coupling.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75632",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "금속 플루오라이드 및 황 양극에서 발생하는 전이금속 양이온과 폴리설파이드 음이온의 전극 간 크로스토크를 음극 중심 전략으로 억제한 연구이다. Na 풍부 나노합금(NaxSn) 음극이 빠른 반응 속도론으로 유해 종을 양극 근처에서 신속히 환원시키고, Na2O가 풍부한 얇고 견고한 SEI를 형성해 양이온과 음이온의 크로스오버를 비선택적으로 차단한다. FeF2||NaxSn 완전지는 200사이클에서 99.93%의 쿨롱효율을, S/C||NaxSn 파우치셀은 1000사이클 후 91.95%의 용량 유지율을 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225343114",
+      "source": "openalex",
+      "title": "High‐Entropy Complementary d‐Band Decoupling of Redox Kinetics for Bidirectional Catalysis in Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adma.75620",
+      "published": "2026-11-05",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75620",
+      "authors": [
+        "Di Wang",
+        "Zihan Dong",
+        "Shiyi Liu",
+        "Hailong Yan",
+        "Fangqing Liu",
+        "Yi Huang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "S in lithium-sulfur (Li-S) batteries is limited by the bidirectional redox kinetics. A single-component catalyst is difficult to simultaneously meet the differentiated adsorption and catalytic requirements in the multi-step conversion of polysulfides. We propose a high-entropy complementary d-band center model, extending the classical d-band center theory to multi-metal systems. The complementary d-band centers of multiple metals align the HOMO and LUMO of sulfur species, coordinating the electron transfer balance and accelerating the redox kinetics. The multi-metal sites collaboratively construct a \"highly efficient capture → cascade conversion → rapid desorption\" closed-loop pathway, with the d-p hybridization network regulating the adsorption energy and effectively suppressing the shuttle effect. Based on this design, the high-entropy selenide catalyst with a customized electronic structure and strong synergy effect has achieved excellent cycle stability and rate performance in Li-S batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75620",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬-황 전지에서 단일 금속 촉매로는 충족하기 어려운 폴리설파이드의 다단계 양방향 전환 반응을 위해 고엔트로피 상보적 d-band center 모델을 제안했다. 다중 금속의 상호 보완적 d-band center가 황종의 HOMO/LUMO를 정렬시켜 전자전달 균형과 환원 반응 속도론을 가속하며, 흡착-전환-탈착의 폐루프 경로를 구성해 셔틀 효과를 억제한다. 이를 기반으로 설계된 고엔트로피 셀레나이드 촉매는 우수한 사이클 안정성과 율속 성능을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7161967568",
+      "source": "openalex",
+      "title": "Glycosaminoglycans Promote Amyloid-β Aggregation via Multivalent, pH-Dependent Interactions",
+      "url": "https://doi.org/10.1021/jacs.6c12804",
+      "published": "2026-11-05",
+      "topics": [],
+      "doi": "10.1021/jacs.6c12804",
+      "authors": [
+        "Eunjin Moon",
+        "Charlotte Radelof",
+        "Jana Sticht",
+        "Yu Wang",
+        "Felicia Fürstenberg",
+        "Clemens Krage"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Glycosaminoglycans (GAGs) are polyanionic polysaccharides that colocalize with amyloid deposits in Alzheimer’s disease, yet their mechanistic contribution to aggregation remains unclear. Here, we show that GAGs function as pH-responsive electrostatic scaffolds that selectively accelerate Aβ(1–42) aggregation under mildly acidic, early endosomal-like conditions but not at neutral pH. Combining experimental and computational approaches, we identify protonated N-terminal histidines as key determinants of GAG binding. Weak interactions between GAGs and the charged N-terminal region of Aβ promote conformational rearrangements that bring peptides into proximity and expose adjacent hydrophobic aggregation-prone segments, thereby facilitating peptide clustering. Kinetic analyses reveal that aggregation is enhanced in a way consistent with an apparent increase in effective peptide concentration, accelerating nucleation without altering the dominant aggregation pathway. Systematic variation of GAG chain length and sulfation level further demonstrates that aggregation enhancement requires a threshold degree of multivalency, consistent with a clustering-driven mechanism. Together, these findings establish a framework in which pH-dependent polyelectrolyte interactions act as molecular triggers of amyloid nucleation and define the physicochemical parameters that govern when GAGs transition from passive interaction partners to active promoters of Aβ aggregation, providing insight into how cellular microenvironments may regulate the earliest stages of Alzheimer’s disease pathology.",
+      "oa_status": "hybrid",
+      "oa_url": "https://pubs.acs.org/jacsat/article-pdf/doi/10.1021/jacs.6c12804/69096223/jacs.6c12804.pdf",
+      "license": "cc-by",
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "알츠하이머병과 관련된 글리코사미노글리칸(GAG)이 아밀로이드-베타 응집을 촉진하는 메커니즘을 다룬 연구로, 배터리 소재와는 무관하다.",
       "relevant": false
     }
   ]

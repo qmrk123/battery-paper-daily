@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T01:29:20+00:00",
-  "count": 19,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 22,
   "papers": [
     {
       "id": "W7225237777",
@@ -560,6 +560,92 @@
       "image": null,
       "summary_ko": "Zr을 벌크에 저농도(2000 ppm) 도핑하고 Al2O3/TiO2 및 H3BO3로 표면을 순차 개질한 초고니켈 Li(Ni0.96Co0.03Mn0.01)O2(NCM96) 양극을 개발했다. 5.0V 고전압에서 252.2 mAh/g의 비용량과 100회 사이클 후 74.2%의 용량 유지율을 달성했으며, 2.6-4.7V 범위 1.0C에서는 196.1 mAh/g 초기용량과 200회 사이클 후 91.3%의 유지율을 보였다. DFT 계산으로 Zr에 의한 벌크 안정화와 Al/Ti/B 표면 보호가 격자 호흡, 미세균열, 가스 발생, 계면 저하를 함께 억제함을 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "W7225387373",
+      "source": "openalex",
+      "title": "Mechanochemical Regulating Competitive Phase Transformation of Fe 3 (PO 4 ) 2 Toward Industrial‐Grade Regenerated LiFePO 4",
+      "url": "https://doi.org/10.1002/adfm.79513",
+      "published": "2026-11-06",
+      "topics": [],
+      "doi": "10.1002/adfm.79513",
+      "authors": [
+        "Xizhuo Chen",
+        "Zihao Zeng",
+        "Hai Lei",
+        "Chao Zhu",
+        "Wei Sun",
+        "Yue Yang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Attracted by short‐process and uniform regenerated properties, oxidation‐homogenization then reduction‐reconstruction of spent LiFePO 4 (SLFP) has been successfully industrialized. Two types of SLFP exist: production scrap and cycled retired battery materials. Nevertheless, these treatments enable efficient regeneration of the former, yet fail to restore the latter effectively, always with unsatisfactory energy‐storage properties. From our experience, the introduced mechanochemical behaviors (MCB) would induce the tailoring of their properties. Herein, through the controlling of MCB, the evolution of physical‐chemical properties is revealed during the full‐loop process. MCB would induce the exposure of the metastable Li 1−x FePO 4 transition region. Clearly, along with the competition of carbon and O 2 , they were transformed into Fe 3 (PO 4 ) 2 intermediate coated with a dense Fe 2 O 3 layer, bringing about the uneven carbon layers and lattice stress distribution. By replacing ball milling with jet milling, excessive mechanical stress is avoided. The as‐optimized sample deliver a capacity of 148.2 mAh g −1 after 200 cycles at 1.0 C and 108.4 mAh g −1 after 1000 cycles at 5.0 C. Furthermore, kg‐scale experiments are conducted to prove the practical reliability of recycling manners. Thus, this work is expected to elucidate the full‐loop regeneration mechanism of cycled retired battery materials, meanwhile providing the significant treatment strategy for practical industry production.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "폐LiFePO4(SLFP) 재생 공정에서 기계화학적 거동(MCB)이 Fe3(PO4)2 중간상으로의 경쟁적 상변화에 미치는 영향을 분석한 재활용 연구이다. 볼밀 대신 제트밀을 사용해 과도한 기계적 응력을 피함으로써 폐전지 재생 소재의 성능을 개선했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225434404",
+      "source": "openalex",
+      "title": "Breaking the Capacity‐Reversibility Linear Trade‐Off in Li–O 2 Batteries via Amorphous Non‐Precious High‐Entropy Alloy Catalysts",
+      "url": "https://doi.org/10.1002/adma.75403",
+      "published": "2026-11-06",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75403",
+      "authors": [
+        "Yingqi Fan",
+        "Yifan Di",
+        "Hao Chen",
+        "Dapeng Liu",
+        "Gang Huang",
+        "Yu Zhang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Lithium–oxygen (Li–O 2 ) batteries suffer from sluggish reaction kinetics and rely on precious metal‐based catalysts to facilitate the reaction process. Despite being effective, these costly catalysts would inevitably introduce a critical trade‐off between capacity and reversibility, compromising the high energy density advantage of Li–O 2 batteries. In this study, we have designed an amorphous non‐precious MnFeCoNiCu high‐entropy alloy (A‐HEA) catalyst via a mild liquid‐phase reduction strategy to break the above inherent linear trade‐off. The amorphous and porous structure of A‐HEA could provide a large electrochemical active surface area, diluting the local current density to promote the solution‐mediated discharge pathway. This enables the growth of large‐sized Li 2 O 2 to deliver a discharge capacity reaching 10.8 mAh cm −2 . Additionally, the multielemental synergistic electron redistribution of A‐HEA optimizes the d ‐band center to strengthen the LiO 2 adsorption and weaken the O─O bonding, reducing the overpotential to 0.75 V and extending the battery lifetime by 4−5 times compared to the crystalline counterparts. Importantly, the A‐HEA can be produced at a scale of over 100 g and works well in Li–O 2 pouch cells with a rate capability up to 400 mA and an energy density of 754 Wh kg −1 (560 Wh kg −1 even at −30°C).",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75403",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬-산소 전지에서 귀금속 촉매가 유발하는 용량-가역성 간의 선형 트레이드오프를 비정질 비귀금속 고엔트로피 합금(MnFeCoNiCu, A-HEA) 촉매로 해결한 연구이다. 비정질 다공성 구조가 전기화학 활성 표면적을 넓혀 국부 전류밀도를 분산시키고 d-band center 최적화를 통해 과전압을 낮춰 결정질 대비 수명을 4~5배 연장했으며, 100g 이상 스케일 생산과 파우치셀에서 754 Wh kg-1(−30°C에서도 560 Wh kg-1)의 에너지밀도를 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225452562",
+      "source": "openalex",
+      "title": "A General Deep Eutectic Solvent‐Mediated Scalable Preparation of Halide Solid‐State Electrolytes for All‐Solid‐State Batteries",
+      "url": "https://doi.org/10.1002/anie.6271513",
+      "published": "2026-11-06",
+      "topics": [],
+      "doi": "10.1002/anie.6271513",
+      "authors": [
+        "Yijie Zhang",
+        "Lu Cao",
+        "Jichang Sun",
+        "Zuxin Long",
+        "Qin Yin",
+        "Pengyu Meng"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT In the pursuit of high‐energy‐density all‐solid‐state lithium batteries, halide solid‐state electrolytes (HSSEs) have attracted increasing interest due to their high ionic conductivity and superior high‐voltage stability. Developing cost‐effective and scalable preparation methods is essential for their practical deployment, yet the current mainstream solid‐state preparation routes either require stringent environmental control with prohibitive costs or suffer from low efficiency. Herein, we report a universal deep eutectic solvent (DES)‐mediated wet‐chemical method that enables the efficient and scalable preparation of HSSEs. Taking Li 3 YCl 6 as a typical HSSE, we revealed the competitive coordination and hydrogen‐bond formation mechanisms through combined modeling and experiments. This method shows low cost, and good scalability for various HSSEs, and the resultant HSSEs show a similar conductivity (>0.30 mS cm −1 ) as that prepared by the solid‐state mechanical method. Notably, the humidity‐degraded HSSEs can also be readily regenerated by this method. The all‐solid‐state lithium batteries assembled with the resultant Li 3 YCl 6 deliver impressive performance, achieving a high initial Coulombic efficiency of 98.6% with a LiCoO 2 cathode and a remarkable discharge capacity of 195.9 mAh g −1 with a single‐crystal LiNi 0.8 Co 0.1 Mn 0.1 O 2 cathode. This work establishes a new paradigm for the sustainable and scalable manufacturing of HSSEs for next‐generation all‐solid‐state batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.6271513",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "할라이드계 고체전해질(HSSE)을 심층 공융 용매(DES) 매개 습식화학 방법으로 저비용, 대량 합성하는 범용 공정을 제안한 전해질 연구이다. Li3YCl6를 대표 소재로 경쟁적 배위 및 수소결합 형성 메커니즘을 규명했으며, 습도로 손상된 HSSE도 동일 방법으로 재생할 수 있음을 보였다.",
+      "relevant": false
     }
   ]
 }

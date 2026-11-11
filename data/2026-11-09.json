@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T00:40:45+00:00",
-  "count": 10,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 13,
   "papers": [
     {
       "id": "W7225452314",
@@ -344,6 +344,95 @@
       "image": null,
       "summary_ko": "쯔비터이온성(zwitterionic) 염료를 양극 활물질로 사용하여 안정성과 확장성이 뛰어난 수계 유기 레독스 흐름전지를 구현한 연구로 추정된다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7165634751",
+      "source": "openalex",
+      "title": "Understanding Charge Acceptance Limitations During Extreme Fast‐Charging of Li‐ion Batteries",
+      "url": "https://doi.org/10.1002/aenm.71806",
+      "published": "2026-11-09",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71806",
+      "authors": [
+        "Ningxuan Guo",
+        "J D Park",
+        "Rohith Srinivaas Mohanakrishnan",
+        "Kristin Aslaug Persson",
+        "Bryan D. McCloskey"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Extreme fast charging in lithium‐ion batteries is limited by their poor charge acceptance at high C‐rates. We use overpotential component analysis to decouple ohmic, kinetic and transport voltage losses during fast charging. The concentration gradients are identified as the primary culprit in poor charge acceptance, so we study carbonate electrolytes that utilize acetonitrile, a low viscosity, high dielectric liquid, as a co‐solvent to improve ion transport. Our results indicate acetonitrile co‐solvent successfully reduces fast charging concentration gradients and therefore improves charge acceptance at high C‐rates, particularly when used in combination with interface‐stabilizing additives. Molecular dynamics simulations show that ACN enhances Li + transport through a combination of reduced bulk viscosity and increased solvation‐shell lability, with shorter solvent residence times and faster coordination exchange producing transport gains beyond those expected from viscosity reduction alone. Finally, we use three‐electrode cells to deconvolute overpotential at each electrode, and the specific LiNi 0.8 Mn 0.1 Co 0.1 O 2 (NMC811) electrode architecture and loading used in our study is found to have much higher overpotentials than our graphite electrode. In particular, the significant differences in NMC811 concentration gradients between electrolytes with or without acetonitrile indicate that the design of electrode architecture is crucial for extreme fast charging applications.",
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.26434/chemrxiv.15004961/v2",
+      "license": "cc-by",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬이온전지의 급속충전 시 전하 수용 한계를 과전압 성분 분석으로 분해하여, 농도 구배(concentration gradient)가 급속충전 성능 저하의 주요 원인임을 규명했다. 아세토나이트릴을 공용매로 사용하는 탄산염 전해액이 Li+ 수송을 개선해 농도 구배를 줄이는 것을 확인했으며, 분자동역학 시뮬레이션으로 아세토나이트릴이 점도 감소와 솔베이션 셸 유동성 증가를 통해 Li+ 수송을 향상시킴을 보였다. 3전극 셀 분석 결과 NMC811 전극이 흑연 전극보다 과전압이 훨씬 크게 나타나, 급속충전을 위해서는 전극 구조 설계가 중요함을 보여준다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee01899h",
+      "source": "crossref",
+      "title": "Structure–performance relationships of redox mediators in the lithium–sulfur battery",
+      "url": "https://doi.org/10.1039/d6ee01899h",
+      "published": "2026-11-09",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1039/d6ee01899h",
+      "authors": [
+        "Ganesh Vailaya",
+        "William J. V. Townsend",
+        "Alexander J. Kibler",
+        "Conrad Holc",
+        "Joanne S. Searle",
+        "Martin R. Black"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "The lithium–sulfur battery is one of the most promising next-generation battery technologies for high-energy applications due to its high gravimetric energy density of 2567 Wh kg −1 .",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬-황 전지에서 사용되는 레독스 매개체(redox mediator)의 구조와 성능 사이의 관계를 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225631232",
+      "source": "openalex",
+      "title": "Catalytic Interphases Enable Sulfur Redox Catalysis in All-Solid-State Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c13825",
+      "published": "2026-11-09",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.6c13825",
+      "authors": [
+        "Mingyang Jiang",
+        "Jiwei Shi",
+        "Zhonghao Hu",
+        "Tianyu Yin",
+        "Bohan Zhang",
+        "Yun Cao"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Weak solid–solid contact with limited chemical and transport continuity is a common bottleneck in solid-state batteries, particularly in all-solid-state lithium–sulfur batteries (ASSLSBs), where Li2S/S8 conversion requires catalytic acceleration but lacks a continuous solid-state catalytic pathway. Here, we propose an interphase catalysis strategy for solid–solid sulfur conversion by transforming discrete catalyst/reactant interfaces into a chemically integrated reaction interphase. WO3 is identified as a suitable oxide to construct such a metastable mixed-anion S–W–O catalytic interphase on Li2S based on the work-function difference between the metal oxide catalyst and Li2S/S8, which serves as a practical screening rationale for evaluating the relative tendency toward sulfur–oxygen coordination exchange. The interphase contains unsaturated W centers and a polarized electronic environment, enabling coupled electron/Li+ transport and dynamically regulating sulfur redox through coupled sulfur-species exchange. This integrated interphase further stabilizes cathode interfaces during repeated Li2S/S8 conversion. As a result, the optimized cathode sustains stable cycling over 15000 cycles at 10 C and a temperature of 60 °C. A record-high Li2S loading of 30 mg cm–2 with an areal capacity of 21.2 mAh cm–2 is also achieved, demonstrating interphase catalysis as an effective route to overcome solid-state sulfur-conversion limitations in practical ASSLSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "전고체 리튬-황 전지에서 고체-고체 접촉 불량으로 Li2S/S8 전환 반응의 촉매 경로가 단절되는 문제를 해결하기 위해 계면 촉매(interphase catalysis) 전략을 제안했다. WO3와 Li2S 사이의 일함수 차이를 이용해 S-W-O 혼합 음이온 계면을 형성시켜 불포화 W 중심과 분극된 전자 환경을 통해 전자/Li+ 수송을 결합시키고 황 레독스를 동적으로 조절한다. 이를 통해 10C, 60°C 조건에서 15000회 이상의 안정적 사이클과 30 mg cm-2의 높은 Li2S 로딩, 21.2 mAh cm-2의 면적 용량을 달성했다.",
+      "relevant": true
     }
   ]
 }

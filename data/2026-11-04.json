@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T01:10:09+00:00",
-  "count": 15,
+  "generated_at": "2026-11-11T11:41:18+00:00",
+  "count": 17,
   "papers": [
     {
       "id": "W7225085090",
@@ -481,6 +481,64 @@
       },
       "summary_ko": "Sn(OTf)2를 이용한 음이온-양이온 표적 조절 전략으로 용매가 우세한 솔베이션 구조를 형성하고 합금 기반 SEI(Na15Sn4)를 유도하여 저온 소듐 금속 배터리 성능을 개선했다. Na||Na3V2(PO4)3 셀은 -20°C·20C에서 1050회, -50°C에서 약 700회의 사이클을 달성했다. 6 Ah급 파우치셀은 -20°C에서 450회 사이클을 유지했고 25°C에서 215 Wh/kg의 에너지밀도를 보였다.",
       "relevant": true
+    },
+    {
+      "id": "W7225234859",
+      "source": "openalex",
+      "title": "Tailoring Covalent Organic Frameworks as Functionalized Molecular Traps to Enable Sulfur Conversion and Li + Desolvation for Durable Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adfm.79490",
+      "published": "2026-11-04",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79490",
+      "authors": [
+        "Liya Rong",
+        "Bowei Liao",
+        "Zhuo Chen",
+        "Shuting Fan",
+        "Hu Yi",
+        "Ling Yin"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Suppressing polysulfid shuttling and enhancing Li + desolvation kinetics are crucial for high‐performance lithium–sulfur (Li─S) batteries. Herein, we propose an elaborate molecular trap design strategy based on functional‐group decoupling and synergistic enhancement in covalent organic frameworks (COFs) to resolve the aforementioned issues. A cyano‐containing COF (CN‐COF) and its amidoxime derivative (COF‐AO) serve as cooperative dual‐sided separator coatings. CN‐COF contributes a well‐ordered porous structure for confining sulfur species; its C≡N sites interact with polysulfides to reduce the reaction energy barrier of sulfur conversion. On the anode side, ─NH 2 /─OH groups in COF‐AO promote Li + desolvation and modulate Li + transport by capturing solvent molecules via hydrogen bonding, which suppresses parasitic reactions and ensures rapid Li + migration. Besides, the regular topological structure and size‐exclusion effect of COF restrict migration of large‐sized solvent molecules and polysulfides, enabling homogeneous Li + flux and smooth Li deposition. Benefiting from these advantages, Li||Li symmetrical cells achieve stable cycling for 7000 h at 5 mA cm −2 /5 mAh cm −2 . The Li─S battery delivers an initial capacity of 820 mAh g −1 with an ultralow decay rate of 0.024% per cycle over 900 cycles at 5 C.The pouch cell exhibits a high initial capacity of 1020 mAh g −1 at 0.2 C and stable operation for 150 cycles.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "리튬-황 전지에서 폴리설파이드 셔틀 억제와 Li+ 탈솔베이션을 동시에 달성하기 위해 작용기를 분리 설계한 공유결합유기골격체(COF) 분자 트랩을 제안했다. 시아노기를 가진 CN-COF는 양극 측에서 황종을 가두고 전환 반응의 에너지 장벽을 낮추며, 아미독심 유도체 COF-AO는 음극 측에서 수소결합으로 용매 분자를 포획해 Li+ 탈솔베이션과 균일한 Li 증착을 돕는다. Li||Li 대칭셀은 5 mA cm-2/5 mAh cm-2에서 7000시간 안정 사이클을, 전지는 5C/900사이클에서 0.024%/사이클의 낮은 감쇠율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03279f",
+      "source": "crossref",
+      "title": "Molecule-to-System Design Rules for Neutral TEMPO/Viologen Aqueous Organic Redox Flow Batteries",
+      "url": "https://doi.org/10.1039/d6ee03279f",
+      "published": "2026-11-04",
+      "topics": [],
+      "doi": "10.1039/d6ee03279f",
+      "authors": [
+        "Hao-Tian Wang",
+        "Xiu-Liang Lv",
+        "Ling-Ao Gui",
+        "Zheng-He Xie",
+        "Zeyu Xu",
+        "Jian-Rong Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Neutral-pH aqueous organic redox flow batteries (AORFBs) based on TEMPO catholytes and viologen anolytes have emerged as one of the most intensively developed molecular pairings for safe, scalable, long-duration energy...",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "중성 pH 수계 유기 레독스-플로우 전지에서 TEMPO 캐솔라이트와 비올로겐 아놀라이트 쌍에 대한 분자 단위에서 시스템 단위까지의 설계 규칙을 제시한 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
     }
   ]
 }
