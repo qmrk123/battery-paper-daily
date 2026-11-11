@@ -82,12 +82,13 @@ class GatherResult:
     stats: list[TopicStat] = field(default_factory=list)
 
 
-def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print) -> dict[str, str]:
+def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print,
+                            names: Optional[list[str]] = None) -> dict[str, str]:
     """{journal name -> OpenAlex source id} for journal-first: the selective
     `journal_first_sources` if configured, else the whole allowlist + Nature sisters.
     Cached on disk (data/journal_sources.json) so each name resolves only once."""
-    names = list(dict.fromkeys(
-        cfg.journal_first_sources or ((cfg.allow_journals or []) + NATURE_SISTERS)))
+    names = list(dict.fromkeys(names if names is not None else (
+        cfg.journal_first_sources or ((cfg.allow_journals or []) + NATURE_SISTERS))))
     cache: dict[str, Optional[str]] = {}
     if SOURCES_CACHE.exists():
         try:
@@ -111,11 +112,16 @@ def resolve_journal_sources(cfg: Config, oa: OpenAlexClient, log=print) -> dict[
 
 def add_journal_candidates(cfg: Config, from_date: str, sources: dict[str, str],
                            result: GatherResult, oa: OpenAlexClient,
-                           max_per_source: int = 3000, log=print) -> int:
+                           max_per_source: int = 3000, log=print,
+                           topic_gate: bool = False) -> int:
     """Journal-first: pull every recent work from each allowlisted source, keep the
     ones passing the shared battery/electrochem context gate, and add them (topics
     empty — the LLM classifies later) to the candidate set. Closes the gap where a
-    journal's battery papers don't match our topic search phrasing."""
+    journal's battery papers don't match our topic search phrasing.
+
+    topic_gate=True (high-volume journals: Advanced*, ACS, JACS, Angew): keep a work
+    only if a topic regex matches, and assign those topics — the same precision as
+    the query path, minus its phrasing blind spots, so the digest is not flooded."""
     ctx = cfg.journal_gate or cfg.context
     added = 0
     for name, sid in sources.items():
@@ -124,18 +130,54 @@ def add_journal_candidates(cfg: Config, from_date: str, sources: dict[str, str],
             for p in oa.search_source(sid, from_date, max_results=max_per_source,
                                       types=cfg.types):
                 got += 1
-                if ctx and not any(pat.search(p.search_text) for pat in ctx):
+                text = p.search_text
+                if topic_gate:
+                    tids = [t.id for t in cfg.topics if t.matches(text)]
+                    if not tids:
+                        continue
+                    p.merge_topics(tids)
+                elif ctx and not any(pat.search(text) for pat in ctx):
                     continue
                 kept += 1
                 key = canonical_key(p.doi, p.id)
                 if key not in result.candidates:   # never clobber a topic-matched record
                     result.candidates[key] = p
                     added += 1
+                elif topic_gate:
+                    result.candidates[key].merge_topics(p.topics)
         except Exception as e:
             log(f"  [journal:{name}] failed: {e}")
             continue
         log(f"  [journal:{name}] fetched={got} kept={kept}")
     log(f"  journal-first: +{added} candidates")
+    return added
+
+
+def add_crossref_candidates(cfg: Config, from_date: str, result: GatherResult,
+                            cr=None, log=print) -> int:
+    """Journals with broken OpenAlex dates (EES: year-only -> Jan 1) fetched from
+    Crossref by deposit date, gated like journal-first (battery gate; LLM assigns topics)."""
+    from .crossref import CrossrefClient
+    cr = cr or CrossrefClient()
+    ctx = cfg.journal_gate or cfg.context
+    added = 0
+    for name, issn in cfg.crossref_sources.items():
+        got = kept = 0
+        try:
+            for p in cr.recent(issn, name, from_date):
+                got += 1
+                if ctx and not any(pat.search(p.search_text) for pat in ctx):
+                    continue
+                kept += 1
+                key = canonical_key(p.doi, p.id)
+                if key not in result.candidates:
+                    result.candidates[key] = p
+                    added += 1
+        except Exception as e:
+            log(f"  [crossref:{name}] failed: {e}")
+            continue
+        log(f"  [crossref:{name}] fetched={got} kept={kept}")
+    log(f"  crossref: +{added} candidates")
     return added
 
 
@@ -202,6 +244,11 @@ def gather_candidates(
     if journal_first:
         sources = resolve_journal_sources(cfg, oa, log=log)
         add_journal_candidates(cfg, from_date, sources, result, oa, log=log)
+        if cfg.journal_topic_sources:
+            tsrc = resolve_journal_sources(cfg, oa, log=log, names=cfg.journal_topic_sources)
+            add_journal_candidates(cfg, from_date, tsrc, result, oa, log=log, topic_gate=True)
+        if cfg.crossref_sources:
+            add_crossref_candidates(cfg, from_date, result, log=log)
 
     # collapse same-title editions (Angew German vs International, etc.)
     before = len(result.candidates)

@@ -50,6 +50,8 @@ class Config:
     context: list[re.Pattern] = field(default_factory=list)  # shared battery/electrochem gate
     journal_gate: list[re.Pattern] = field(default_factory=list)  # tighter gate for journal-first
     journal_first_sources: list[str] = field(default_factory=list)  # journals to fetch source-first
+    journal_topic_sources: list[str] = field(default_factory=list)  # source-first, topic-regex gated
+    crossref_sources: dict[str, str] = field(default_factory=dict)  # name -> ISSN (Crossref fallback)
 
     def topic(self, tid: str) -> Topic:
         for t in self.topics:
@@ -98,4 +100,6 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         context=_compile(default_context),
         journal_gate=_compile(d.get("journal_gate") or default_context),
         journal_first_sources=list(d.get("journal_first_sources", []) or []),
+        journal_topic_sources=list(d.get("journal_topic_sources", []) or []),
+        crossref_sources=dict(d.get("crossref_sources", {}) or {}),
     )

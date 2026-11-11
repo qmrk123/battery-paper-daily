@@ -59,8 +59,9 @@ defaults:
   # Journal-FIRST applies ONLY to these (selective high-impact journals the topic
   # queries under-collect). High-volume Advanced/ACS/Angew/JACS stay query-driven —
   # already well covered — so the digest stays curated, not a firehose.
+  # (EES is NOT here: RSC deposits year-only dates, OpenAlex stamps them YYYY-01-01,
+  #  so a source-first OpenAlex pull returns nothing — see crossref_sources below.)
   journal_first_sources:
-    - Energy & Environmental Science
     - Joule
     - Science
     - Energy Storage Materials
@@ -74,6 +75,24 @@ defaults:
     - Nature Nanotechnology
     - Nature Chemistry
     - Nature Reviews Materials
+  # High-volume journals ALSO fetched source-first, but kept only when a topic regex
+  # matches (topics assigned from the regex). Audit 2026-11-11: topic queries alone
+  # missed ~38% of in-scope papers here (phrasing gaps), while a plain journal-first
+  # pass would flood the digest with general-materials work.
+  journal_topic_sources:
+    - Advanced Materials
+    - Advanced Energy Materials
+    - Advanced Functional Materials
+    - Advanced Science
+    - ACS Energy Letters
+    - ACS Nano
+    - Journal of the American Chemical Society
+    - Angewandte Chemie International Edition
+    - Angewandte Chemie
+  # Journals with unusable OpenAlex dates, pulled from Crossref by deposit date.
+  # name (must match allow_journals) -> ISSN
+  crossref_sources:
+    Energy & Environmental Science: "1754-5692"
 
 topics:
   - id: li-metal
@@ -88,7 +107,7 @@ topics:
       - "lithium plating stripping"
     arxiv: 'abs:"lithium metal anode" OR abs:"anode-free" OR abs:"lithium dendrite"'
     include:
-      - 'lithium metal|li[ -]?metal\b|anode[- ]free|lithium dendrite|li dendrite|plating.{0,15}stripping'
+      - 'lithium[- ]metal|li[ -]?metal\b|anode[- ]free|lithium dendrite|li dendrite|plating.{0,15}stripping'
     exclude:
       - '\bsodium\b|\bpotassium\b|\bzinc\b|\bmagnesium\b.{0,20}anode'
       - 'welding|superalloy|corrosion of (?:al|steel)|electrocatalys|water splitting|fuel cell'
@@ -104,7 +123,7 @@ topics:
       - "sodium dendrite"
     arxiv: 'abs:"sodium metal anode" OR abs:"anode-free sodium" OR abs:"sodium dendrite"'
     include:
-      - 'sodium metal|na[ -]?metal\b|anode[- ]free sodium|sodium dendrite|na dendrite'
+      - 'sodium[- ]metal|na[ -]?metal\b|anode[- ]free sodium|sodium dendrite|na dendrite'
     exclude:
       - 'welding|superalloy|electrocatalys|water splitting|fuel cell'
 

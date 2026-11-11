@@ -13,6 +13,13 @@ from typing import Optional
 _TAG = re.compile(r"<[^>]+>")
 
 
+# U+2010..U+2015 hyphens/dashes, U+2212 minus, U+FE63/U+FF0D small/fullwidth hyphen
+_DASHES = str.maketrans({c: "-" for c in "‐‑‒–—―−﹣－"})
+# space inside a chemical formula: letter/digit/')' before, digit/'('/'.' after, or
+# digit/')' before an element symbol (capital letter) -> "LiNi 0.5 Mn 1.5 O 4" -> "LiNi0.5Mn1.5O4"
+_FORMULA_GAP = re.compile(r"(?<=[A-Za-z0-9)])\s+(?=[0-9.(])|(?<=[0-9)])\s+(?=[A-Z][a-z]?\b|[A-Z][a-z]?[0-9 (])")
+
+
 def clean_ws(text: Optional[str]) -> Optional[str]:
     """Strip HTML tags (OpenAlex leaves <i>/<sub>/<sup> in titles/abstracts),
     unescape entities, collapse whitespace. Return None for empty."""
@@ -109,5 +116,12 @@ class Paper:
 
     @property
     def search_text(self) -> str:
-        """Text used by the regex post-filter: title + abstract."""
-        return f"{self.title or ''} {self.abstract_en or ''}"
+        """Text used by the regex post-filter: title + abstract, normalized so the
+        ASCII-written topic regexes see what the publisher meant:
+        - Unicode hyphens/dashes -> '-' (Wiley/Angew metadata writes "Ni‐Rich" with
+          U+2010, which `ni[- ]?rich` never matched);
+        - a compacted copy with formula spaces removed is appended, because
+          clean_ws turns <sub> tags into spaces ("Na 3 V 2 (PO 4 ) 2 F 3")."""
+        text = f"{self.title or ''} {self.abstract_en or ''}".translate(_DASHES)
+        compact = _FORMULA_GAP.sub("", text)
+        return text if compact == text else f"{text} {compact}"

@@ -187,3 +187,70 @@ def test_index_dates_keeps_days_when_month_aggregate_missing(tmp_path):
     dates = st.index_dates()
     assert "2026-08-01" in dates          # kept: no 2026-08 aggregate to fall back on
     assert "2026-09-02" in dates          # kept: Sep is the live (newest) month
+
+
+def test_search_text_normalizes_unicode_hyphens():
+    # Wiley/Angew metadata uses U+2010/U+2011 hyphens; topic regexes are written with
+    # ASCII '-', so "Ni‐Rich" / "Lithium‐Metal" silently failed the precision filter.
+    cfg = load_config()
+    by = {t.id: t for t in cfg.topics}
+    ncm = Paper(id="W1", source="openalex", url="u", published="2026-11-01", title="Engineering Li+ Transport in Ni‐Rich Layered Cathodes",
+                abstract_en="Nickel‐rich layered cathodes for lithium‑ion batteries.")
+    lim = Paper(id="W2", source="openalex", url="u", published="2026-11-01", title="Electrolyte for High‐Voltage Lithium‐Metal Batteries",
+                abstract_en="Stable cycling of lithium‐metal anodes with Ni‐rich cathodes.")
+    assert by["ncm"].matches(ncm.search_text)
+    assert by["li-metal"].matches(lim.search_text)
+
+
+def test_search_text_rejoins_split_formulas():
+    # clean_ws turns <sub> tags into spaces ("Na 3 V 2 (PO 4 ) 2 F 3"), which broke
+    # formula patterns like na3v2 / lini0.5mn1.5.
+    cfg = load_config()
+    by = {t.id: t for t in cfg.topics}
+    nvpf = Paper(id="W3", source="openalex", url="u", published="2026-11-01", title=clean_ws("High-Energy Na<sub>3</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>2</sub>F<sub>3</sub> Cathodes"),
+                 abstract_en="Sodium-ion battery cathode with long cycling life.")
+    assert by["na-cathode"].matches(nvpf.search_text)
+    lnmo = Paper(id="W4", source="openalex", url="u", published="2026-11-01", title=clean_ws("Stabilizing LiNi<sub>0.5</sub>Mn<sub>1.5</sub>O<sub>4</sub> at High Voltage"),
+                 abstract_en="A lithium battery cathode with improved capacity retention.")
+    assert by["other-cathode"].matches(lnmo.search_text)
+
+
+class _FakeOA:
+    """search_source stub: yields canned Papers per source id."""
+    def __init__(self, by_sid):
+        self.by_sid = by_sid
+
+    def search_source(self, sid, from_date, max_results=3000, types=None):
+        yield from self.by_sid.get(sid, [])
+
+
+def _p(pid, title, abstract="", venue="Advanced Materials", doi=None):
+    return Paper(id=pid, source="openalex", url="u", published="2026-11-01",
+                 title=title, abstract_en=abstract, venue=venue, doi=doi)
+
+
+def test_topic_gated_journal_first_keeps_only_topic_matches():
+    from pipeline.fetch import add_journal_candidates, GatherResult
+    cfg = load_config()
+    on = _p("W1", "Engineering Li Transport in Ni‐Rich Layered Cathodes",
+            "Nickel-rich layered cathodes for lithium-ion batteries.", doi="10.1/a")
+    off = _p("W2", "Graphite anode prelithiation for lithium-ion batteries",
+             "Electrolyte additive improves cycling of graphite.", doi="10.1/b")
+    res = GatherResult()
+    add_journal_candidates(cfg, "2026-10-28", {"Advanced Materials": "S1"}, res,
+                           _FakeOA({"S1": [on, off]}), topic_gate=True, log=lambda m: None)
+    assert set(res.candidates) == {"doi:10.1/a"}               # off-topic battery paper not kept
+    assert res.candidates["doi:10.1/a"].topics == ["ncm"]      # topic assigned from regex
+
+
+def test_crossref_item_to_paper_uses_created_date_and_strips_jats():
+    from pipeline.crossref import item_to_paper
+    item = {"DOI": "10.1039/D6EE01899H", "title": ["Redox mediators in Li–S batteries"],
+            "created": {"date-parts": [[2026, 11, 9]]}, "published": {"date-parts": [[2026]]},
+            "abstract": "<jats:title>Abstract</jats:title><jats:p>Lithium–sulfur <jats:italic>cathode</jats:italic> study.</jats:p>",
+            "author": [{"given": "A", "family": "Kim"}], "URL": "https://doi.org/10.1039/D6EE01899H"}
+    p = item_to_paper(item, "Energy & Environmental Science")
+    assert p.published == "2026-11-09"            # year-only published -> deposit date
+    assert p.doi == "10.1039/d6ee01899h" and p.url == "https://doi.org/10.1039/d6ee01899h"
+    assert p.abstract_en == "Lithium–sulfur cathode study."
+    assert p.venue == "Energy & Environmental Science" and p.authors == ["A Kim"]
