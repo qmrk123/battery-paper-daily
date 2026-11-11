@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T01:08:11+00:00",
+  "count": 4,
+  "papers": [
+    {
+      "id": "W7225656604",
+      "source": "openalex",
+      "title": "Symmetry Breaking Drives Topological Dissociation of Grain-Boundary Heterophases for Single-Crystal Regeneration of Spent NCM Cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105644",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105644",
+      "authors": [
+        "Fanbin Hu",
+        "Changjiang Li",
+        "Zitong Fei",
+        "Jinhua Shi",
+        "Yiming Zhang",
+        "Qingfeng Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "대칭 깨짐 현상을 이용해 폐기된 NCM 양극재의 결정립계 이종상을 분리시켜 단결정 구조로 재생하는 리사이클링 공정에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225617964",
+      "source": "openalex",
+      "title": "P-site multi-anion-engineered NASICON-type cathode with quasi-solid-solution triphasic behavior for high-rate sodium storage",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.056",
+      "published": "2026-11-01",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.056",
+      "authors": [
+        "Chen Dai",
+        "Yi‐Xiang Hong",
+        "Jia-Le Huang",
+        "Zhi-Qiang Gu",
+        "Bing-Jie Feng",
+        "Zi-Mei Long"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "P 자리에 다중 음이온을 도입한 NASICON형 소듐 이온 양극재로, 준고용체 삼상 거동을 통해 고율 충방전이 가능한 소듐 저장 특성을 구현한 연구이다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
+      "id": "W7225635193",
+      "source": "openalex",
+      "title": "Modified interfacial electronic environment of Fe–N4 molecules coupling on 2D molybdenum-based platforms for reversible zinc–air batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.057",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.057",
+      "authors": [
+        "Tran Thien An Nguyen",
+        "Hoang Tuan Nguyen",
+        "Saleem Sidra",
+        "Do Hwan Kim",
+        "Thi Thuy Nga Ta",
+        "Chung-Li Dong"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "2차원 몰리브덴 기반 플랫폼에 결합된 Fe–N4 분자의 계면 전자 환경을 조절하여 가역적인 아연-공기 전지 성능을 개선하는 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225611222",
+      "source": "openalex",
+      "title": "Band alignment modulation mitigates space-charge-layer effects at Ni-rich cathode/sulfide electrolyte interfaces in all-solid-state batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.059",
+      "published": "2026-11-01",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.jechem.2026.10.059",
+      "authors": [
+        "Haijian Lv",
+        "Tianwen Yang",
+        "Xinyu Zhang",
+        "Yuxiang Zhang",
+        "Jingwen Cui",
+        "Linze Ji"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": "니켈 함량이 높은 양극재와 황화물 고체전해질 계면에서 밴드 정렬을 조절하여 공간전하층 효과를 완화시키는 전고체전지 연구이다. (제목 기반 추정)",
+      "relevant": true
+    }
+  ]
+}
