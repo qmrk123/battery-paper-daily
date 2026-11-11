@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T00:20:01+00:00",
-  "count": 5,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 13,
   "papers": [
     {
       "id": "W7221317724",
@@ -151,6 +151,250 @@
       "image": null,
       "summary_ko": "물리 기반 디지털 트윈을 이용하여 리튬이온전지에서 니-포인트(급격한 성능 저하) 발생을 유발하는 메커니즘적 임계조건을 규명하려는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "W7221569473",
+      "source": "openalex",
+      "title": "Unlocking the Interfacial Activity of Insoluble Lithium Salts for Stable Lithium Batteries",
+      "url": "https://doi.org/10.1002/adma.75260",
+      "published": "2026-10-12",
+      "topics": [
+        "ncm",
+        "lfp"
+      ],
+      "doi": "10.1002/adma.75260",
+      "authors": [
+        "韩道红",
+        "Wenjie Lyu",
+        "Yubing Wang",
+        "Kexiang Wang",
+        "Xingchen He",
+        "Zhouzhou Yao"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Employing functional lithium salts in electrolytes is an effective strategy to suppress anode instabilities and sluggish charge‐transfer kinetics in lithium batteries. However, high solubility requirements intrinsically exclude a broad class of promising, high‐lattice‐energy inorganic salts for carbonate electrolytes. Here, we establish an immobilized functional platform (IFP) by deploying insoluble lithium salts with strong Lewis‐acidic Li + sites directly onto an aramid‐scaffolded separator. This design bypasses conventional dissolution–diffusion limitations, yielding a thin, ionically conductive, LiF‐rich solid electrolyte interphase (SEI) driven by regulated interfacial Li + solvation and enhanced anion‐derived decomposition. Systematic screening and 6 Li/ 7 Li isotope tracing identify Li 2 SO 4 (LS) as the optimal IFP candidate (IFP‐LS) owing to its moderate Lewis acidity, superior solvent affinity, and industrial viability. Remarkably, LS provides a finite sacrificial lithium contribution during continuous SEI evolution, mitigating irreversible lithium consumption. Consequently, IFP‐LS separators quadruple the lifespan of Li||LiNi 0.9 Co 0.05 Mn 0.05 O 2 cells at 0.7 C compared to bare separators, and deliver 88.4% capacity retention over 2400 cycles in Li||LiFePO 4 cells at 5 C. Scalability is further validated through 100 m roll‐to‐roll manufacturing across diverse Ah‐level formats, adding only 0.163 USD m −2 . This work overcomes the lithium salt solubility barrier and unlocks a vast library of potent materials for next‐generation high‐energy‐density batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75260",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221505240",
+      "source": "openalex",
+      "title": "Pre‐Intercalated Cation Optimizing Proton Topochemistry for High‐Performance Aqueous Zinc‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adma.75300",
+      "published": "2026-10-12",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75300",
+      "authors": [
+        "Wenhao Liang",
+        "Yecheng Qiu",
+        "Manman Li",
+        "Fushan Geng",
+        "Bingwen Hu",
+        "Tao Chen"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Cation pre‐intercalated oxides have been widely explored as cathode materials for aqueous zinc‐ion batteries (AZIBs). Although the influence of intercalants on the material structure and Zn 2+ storage capacity has been adequately studied, an in‐depth understanding of the influence of intercalants on proton storage is still lacking. Especially, proton transport exhibits ultrafast kinetics as an ideal charge carrier, playing a crucial role in the performance of AZIBs. We show that pre‐intercalated K + in K 0.5 V 6 O 13 (KVO) not only reinforces the [VO] framework but also optimizes the hydrogen‐bonded network composed of confined lattice water, achieving ultrafast proton transport. Benefiting from the optimization of proton topochemistry, the capacity, rate performance, and cycling stability of KVO improve significantly. KVO delivers a high reversible capacity of 462.9 mAh g −1 at 0.2 A g −1 and 82.3% retention after 20000 cycles at 20 A g −1 . Even with the high mass loading of 19.2 mg cm −2 , a KVO||Zn pouch cell with 539.2 mAh capacity can achieve stable cycling for more than 300 cycles at 0.5 A g −1 . This work provides new insights into how pre‐intercalated cations affect the proton topochemistry and electrochemical performance of inorganic cathodes.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75300",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221577255",
+      "source": "openalex",
+      "title": "Pore‐Stitching Engineering of Biomass‐Derived Hard Carbon for Enhanced Sodium‐Ion Storage",
+      "url": "https://doi.org/10.1002/aenm.71681",
+      "published": "2026-10-12",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/aenm.71681",
+      "authors": [
+        "Xueting Shen",
+        "Guiyu Liu",
+        "Wenjun Shi",
+        "Cheng Wang",
+        "Xuhui Li",
+        "Hongzhi Wang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Biomass‐derived hard carbon (HC) is a promising and cost‐effective anode for sodium‐ion batteries (SIBs). Prior to carbonization, biomass precursors are commonly subjected to acid/alkali purification to remove metallic and non‐metallic impurities. However, the accompanying ionic etching process often generates abundant through‐pores and disrupts the carbon framework, leading to increased irreversible capacity loss. Herein, we propose a “pore stitching” strategy using hydroxyethyl cellulose (HEC) as a functional reconstruction precursor. The hydroxyl‐rich HEC is proposed to interact with oxygen‐containing sites in the demineralized precursor and to be retained within accessible pore regions during mixing and drying. During subsequent carbonization, HEC‐derived carbon contributes to the reconstruction of the disrupted carbon framework, resulting in reduced open surface exposure and a redistributed micro/ultramicroporous architecture while preserving favorable Na + storage domains. Consequently, the optimized HC delivers a high reversible capacity of 375.3 mAh g − 1 at 20 mA g − 1 . A 700 mAh pouch cell pairing this HC with sodium iron phosphate pyrophosphate (Na 4 Fe 3 (PO 4 ) 2 P 2 O 7 , NFPP) delivers 150 Wh kg − 1 based on the combined active‐material mass of both electrodes and retains 97.8% capacity after 200 cycles at 1 C. This work provides a viable route for converting impurity‐rich agricultural waste into high‐performance HC anodes for practical sodium‐ion energy storage.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71681",
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221533279",
+      "source": "openalex",
+      "title": "Performance of a 5 V-Class Thin-Film Li Battery at a High Current Density of ∼30 mA cm–2",
+      "url": "https://doi.org/10.1021/acsnano.6c13776",
+      "published": "2026-10-12",
+      "topics": [
+        "li-metal",
+        "ncm",
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.6c13776",
+      "authors": [
+        "Asuka Oi",
+        "Kazunori Nishio",
+        "Kurei Edamura",
+        "Yuki Takeda",
+        "Shigeru Kobayashi",
+        "Ryo Nakayama"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "All-solid-state Li batteries operating at high current densities exceeding 10 mA cm-2 are desired for high-power and rapid-charging batteries. Therefore, battery development needs to focus on reducing the electrolyte-electrode interface resistance at high current density, which is a major contributor to internal resistance. However, methods for reducing the electrolyte-electrode interfacial resistance at high current densities remain unexplored. Here, we demonstrate charge-discharge operation at 30 mA cm-2 using Li3PS4, LiNi0.5Mn1.5O4, and Li metal as a solid electrolyte, 5 V-class positive electrode, and negative electrode, respectively. The introduction of Li3PO4 buffer layers at both Li-Li3PS4 and Li3PS4-LiNi0.5Mn1.5O4 interfaces reduced the interfacial resistance 45,000-fold. Furthermore, the introduction of a 5 nm-thick Pt layer instead of Li3PO4 at the Li-Li3PS4 interface enabled charge-discharge operation under high-current-density conditions. This quantitative study highlights the importance of designing electrochemically robust negative electrode and electrolyte interfaces for high-power 5 V-class all-solid-state Li batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221572034",
+      "source": "openalex",
+      "title": "Multifunctional and Near Zero‐Strain Li‐Rich In‐Li Intermetallic Anodes for Stable Cycling of Li‐S Batteries",
+      "url": "https://doi.org/10.1002/adfm.78972",
+      "published": "2026-10-12",
+      "topics": [
+        "li-metal",
+        "li-rich"
+      ],
+      "doi": "10.1002/adfm.78972",
+      "authors": [
+        "Seung Woo Shin",
+        "Ga Ram Kim",
+        "Yeong Mu Seo",
+        "최진영",
+        "Jae Young Hwang",
+        "Ho Won Kang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Li‐S batteries (LSBs) are emerging as formidable contenders in the field of energy storage systems, owing to their cost‐effectiveness and ultrahigh energy density that surpasses that of conventional Li‐ion batteries. Nonetheless, unresolved issues, such as Li dendrite growth and parasitic chemical reactions between the Li metal and dissolved polysulfides, pose significant safety concerns and remain major hurdles to their commercial viability. Herein, we propose a Li‐rich In 3 Li 13 intermetallic alloy anode (In‐Li IMA) fabricated via a simple roll‐pressing and pressure‐holding process. Unlike previous studies that focused primarily on stabilized interfaces for dendrite suppression, the in situ‐formed In‐Li IMA demonstrates not only significantly inhibited dendritic Li growth but also minimized volume change during cycling, owing to its ionically and electronically conductive 3D framework. Furthermore, simulation studies reveal that the In‐Li IMA suppresses polysulfide‐induced side reactions due to its hole‐dominated conduction and weaker polysulfide adsorption energy relative to Li. In contrast to the control Li cell that exhibits significant capacity fading, the In‐Li IMA cell achieves 87.4% capacity retention over 600 cycles and exhibits improved cyclability even in large‐area pouch‐cell configurations. Based on this accessible approach for fabricating large‐scale multifunctional anodes, this study provides critical design insights for developing practical anodes for LSBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78972",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221595156",
+      "source": "openalex",
+      "title": "Microstructure Evolution in Dry‑Coated Sulfidic All‐Solid‐State Battery Cathodes: Investigating Core–Shell Particle Morphology",
+      "url": "https://doi.org/10.1002/advs.78248",
+      "published": "2026-10-12",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/advs.78248",
+      "authors": [
+        "Michael Wolf",
+        "Aaron Stoeckle",
+        "Rebecca Wilhelm",
+        "Maximilian A. Plaß",
+        "Milad Hosseini",
+        "Johannes Kriegler"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "ABSTRACT This study investigates continuous extruder mixing and high‑shear batch mixing to promote the formation of core–shell‐like particle coatings for enhanced interfacial contact in dry‑coated sulfidic all‑solid‑state battery cathodes containing 82 wt.% high‐Ni NCM85 (LiNi 0.85 Co 0.10 Mn 0.05 O 2 , particle size D 50 3.8 µm) cathode active material and 0.5 wt.% polytetrafluoroethylene (PTFE) binder. Particle morphology and electrode microstructure are analyzed by particle size measurements, electron microscopy, and X‐ray characterization. Morphological observations indicate that extrusion yields a robust PTFE fibril network and a more homogeneous electrode surface, where deformed Li 6 PS 5 Cl solid electrolyte particles suggest a core–shell‐like coating. Batch mixing resulted in reduced electrode quality, tensile strength, and microstructure homogeneity. Despite its dedicated mechanofusion process and higher specific mechanical energy input (∼ speed, time), a distinct core–shell‐like coating is not evident for such a small‐particle system. Charge transport features are analyzed in symmetric cells under blocking conditions. Batch‑mixed electrodes attain higher electronic conductivity, whereas extruder‑mixed electrodes achieve higher ionic conductivity. These differences likely arise from microstructural features. Electrochemical characterization of half‑cells demonstrates the enhanced performance of extruder‑mixed electrodes, including higher active material utilization, reduced overpotentials, and improved rate capability. Overall, extruder mixing provides a scalable and effective route for engineering the electrode microstructure.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78248",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221542984",
+      "source": "openalex",
+      "title": "Machine‐Learning‐Guided Dopant‐Class Design Enables Near‐Zero‐Strain P2‐Type Cathodes for High‐Voltage Sodium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.78592",
+      "published": "2026-10-12",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adfm.78592",
+      "authors": [
+        "Wenyi Dong",
+        "Shunli He",
+        "Kewei Zhu",
+        "Xiaoping Jiang",
+        "Yuefeng Su",
+        "Miao Han"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Manganese‐based layered oxides are promising cathodes for sodium‐ion batteries, yet their practical deployment is restricted by Mn 3+ ‐induced Jahn‐Teller distortion, irreversible high‐voltage P2‐O2 phase transitions, and oxygen‐related side reactions that collectively cause structural deterioration and rapid capacity fading. Here, based on literature‐correlation analysis of reported Ni─Mn P2‐type cathodes, we establish a machine‐learning‐guided dopant‐class design strategy. The analysis reveals distinct roles of metal, non‐metal, and metalloid dopants in governing cycling stability and redox reversibility, identifying metalloid regulation as the most favorable direction for enhancing high‐voltage structural and redox stability. Guided by this insight, an Al─B─F co‐doped P2‐type cathode is rationally designed, in which boron reinforces the oxygen framework through strong B─O covalency, while Al and F provide complementary cationic and anionic regulation. The optimized cathode delivers 142.8 mAh g −1 at a high average voltage of 3.53 V and exhibits superior low‐temperature capacity retention of 98.19% after 300 cycles at −5 C. In situ XRD, soft x‐ray absorption spectroscopy, ex situ XPS, operando DEMS, and DFT calculations reveal a highly reversible reaction pathway featuring stabilized oxygen redox and near‐zero volumetric strain (ΔV/V ≈ 0.025%). This work establishes machine‐learning‐guided dopant‐class design as a general strategy for developing durable high‐voltage layered sodium‐ion cathodes.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78592",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221641478",
+      "source": "openalex",
+      "title": "Controlled Presodiation of Sodium‐Ion Cathode via Electron Cloud Engineering",
+      "url": "https://doi.org/10.1002/anie.1913760",
+      "published": "2026-10-12",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/anie.1913760",
+      "authors": [
+        "Peng Li",
+        "Bin Liu",
+        "Zhennan Chen",
+        "Zhen Wang",
+        "Lei Wang",
+        "Huolin L. Xin"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Chemical presodiation offers a promising pathway to compensate sodium deficiency in cathode and anode materials, thereby enhancing the usable energy density of sodium‐ion batteries. This approach is particularly critical for P2‐ and tunnel‐type cathodes, such as Na 0.44 MnO 2 , where the as‐synthesized materials typically exhibit a 50%–60% sodium deficiency. However, conventional presodiation reagents possess excessively high reductive potential, often leading to oversodiation, structural degradation, and compromised electrode reversibility. Here, we report a rational electron‐cloud engineering strategy to precisely control the sodium chemical potential of presodiation agents. Guided by Hückel's rule, we demonstrate that tailoring π‐conjugation size and introducing electron‐withdrawing groups enables the adjustment of sodium chemical potential via a balance of conjugative and inductive effects. We identify 1‐indanone as an optimal presodiation reagent, capable of delivering sodium to Na 0.44 MnO 2 cathodes without any oversodiation. The resulting electrodes exhibit fully restored sodium inventories, an unprecedented first‐cycle Coulombic efficiency of ∼100%, and improved capacity retention over 350 cycles compared to untreated controls. Our findings establish a versatile framework for controlling sodium delivery in chemical presodiation, providing a new avenue for the design of next‐generation sodium‐ion batteries with enhanced stability and performance.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.1913760",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

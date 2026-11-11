@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-11-11T09:51:24+00:00",
-  "count": 4,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 8,
   "papers": [
     {
       "id": "W7221449046",
@@ -116,6 +116,128 @@
       "license": null,
       "journal_id": null,
       "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221610786",
+      "source": "openalex",
+      "title": "Rest‐Pulse Interphase Reconstruction Enables Capacity Recovery in Aged Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.79023",
+      "published": "2026-10-13",
+      "topics": [
+        "lfp",
+        "li-rich"
+      ],
+      "doi": "10.1002/adfm.79023",
+      "authors": [
+        "Junkang Xu",
+        "Jiangfeng Huang",
+        "Kai Sun",
+        "Ye Liu",
+        "Yasen Hao",
+        "Peng Tan"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT To address capacity loss associated with inactive Li‐related species and solid electrolyte interphase (SEI) growth, we developed a Rest‐Pulse (RP) protocol for aged LiFePO 4 /graphite diagnostic pouch cells. The protocol combines a 12 h discharged‐state rest with a short voltage pulse. The rest step partially dissolves and restructures the graphite‐side SEI, reducing interfacial blocking. Quantitative ex situ 7 Li solid‐state nuclear magnetic resonance (ssNMR) shows a pronounced decrease in NMR‐detectable residual metallic Li after RP treatment. Atomistic molecular‐dynamics simulations further indicate that the pulse produces a short‐range, field‐dependent directional bias of isolated Li‐rich domains within the porous interphase rather than long‐range migration. The RP protocol achieves a 99.3% average Coulombic efficiency and ∼10% absolute capacity recovery, exceeding the recovery obtained from rest alone (∼6%). A coupled recovery process occurs involving SEI reconstruction, improved interfacial kinetics, and changes in inactive Li‐related inventory. The RP protocol provides a proof‐of‐concept route for non‐destructive capacity recovery, although larger‐format validation and chemistry‐specific optimization are still required.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79023",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221608866",
+      "source": "openalex",
+      "title": "Rational Solvent Fluorination Design for Solvation Regulation Enabling Stable Interfaces in High‐Voltage Li‐Ion Batteries",
+      "url": "https://doi.org/10.1002/aenm.71673",
+      "published": "2026-10-13",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/aenm.71673",
+      "authors": [
+        "Yue Zuo",
+        "Shiming Chen",
+        "Jiangxiao Li",
+        "Wenguang Zhao",
+        "Taowen Chen",
+        "Chenyu Yang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Fluorinating electrolyte solvents is an effective strategy to enhance the interfacial stability of lithium‐ion batteries (LIBs) under high‐voltage conditions, where severe interfacial side reactions typically undermine the long‐term performance. However, the influence of both the number and positional arrangement of fluorinated groups on solvation structure remains poorly understood. In this work, we systematically investigate how trifluoromethyl group number and substitution position in diethyl carbonate (DEC) derivatives affect Li + solvation behavior. It is revealed that the introduction of a DEC‐based solvent with symmetric two trifluoromethyl groups tends to regulate the solvation structure enriched with anions and fluoroethylene carbonate (FEC). This optimized solvation structure facilitates the formation of a robust cathode‐electrolyte interphase derived from both anions and FEC. Consequently, Ni‐rich LiNi 0.8 Co 0.1 Mn 0.1 O 2 cathodes with a high loading mass of 10.5 mg cm −2 achieve stable cycling at 4.6 V, retaining 80% of their capacity after 300 cycles. These findings provide fresh insights into the rational design of fluorinated solvents for high‐voltage LIBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.71673",
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221668448",
+      "source": "openalex",
+      "title": "Empirical Understanding of Li‐Ion Transport Through Hetero‐Grain Boundaries Within Li‐Electrolyte Interface for Stable Li Metal Anodes",
+      "url": "https://doi.org/10.1002/adma.75383",
+      "published": "2026-10-13",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.75383",
+      "authors": [
+        "Jung Been Park",
+        "Myeongcho Jang",
+        "Min-Sang Kim",
+        "Kyeongtae Park",
+        "Changhoon Choi",
+        "Seung‐Ho Yu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Understanding the Li‐ion transport mechanism across the Li/electrolyte interface (LEI) is fundamental for stabilizing Li‐metal batteries (LMBs). In particular, hetero‐grain boundaries (h‐GBs) such as Li 2 O/LiF or Li 2 CO 3 /LiF are theoretically recognized to provide favorable Li‐ion pathways within inorganic LEI; however, experimental verification of h‐GB‐mediated Li‐ion transport remains elusive. In this study, we provide experimental evidence for favorable Li‐ion transport associated with h‐GBs using a tailored h‐GB‐rich MgO/MgF 2 heterostructure (MgO/F). Multifaceted analyses indicate that the MgO/MgF 2 heterointerfaces establish a favorable Li‐ion transport environment through coupled interfacial effects, with the enhanced defect population potentially contributing to increased Li‐ion carrier availability. Furthermore, upon contact between the Li substrate and the MgO/F layer acting as the LEI, the MgO/F layer spontaneously constructs a dual‐interfacial architecture: an inorganic‐rich solid electrolyte interphase abundant in h‐GB‐rich Li 2 O/LiF and a Li/substrate interphase consisting of a Li–Mg alloy with rapid Li surface migration. This synergistic interfacial architecture maximizes the practical efficacy of h‐GB‐rich MgO/F for stabilizing Li metal anodes. Consequently, the h‐GB‐rich MgO/F demonstrates exceptional electrochemical stability, significantly outperforming bare Li in both symmetric and full cells. This study provides experimental insight into the role of h‐GBs in inorganic interfaces and provides a strategic blueprint for designing highly stable LMBs.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75383",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7221704147",
+      "source": "openalex",
+      "title": "Breaking the Additive Paradox in Aqueous Aluminum‐Ion Batteries via Weak‐Coordination Asymmetric Electrolyte Chemistry",
+      "url": "https://doi.org/10.1002/anie.8801354",
+      "published": "2026-10-13",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.8801354",
+      "authors": [
+        "Rui Pan",
+        "Qizhen Zhu",
+        "Chen Li",
+        "Andreu Cabot",
+        "Bowen Jiang",
+        "Anqi Zheng"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Aqueous aluminum‐ion batteries (AAIBs) are compelling for sustainable storage, yet the strong hydrolysis of Al 3+ acidifies the electrolyte, causing corrosion and passivation that necessitate modification. Additives designed to break the rigid Al 3+ solvation shell face a paradox: they often compromise reversibility via either dielectric collapse or kinetic deadlocks. Here, we break this paradox by establishing a weak‐coordination asymmetric electrolyte based on aluminum trifluoromethanesulfonate (Al(OTF) 3 ), dimethyl sulfoxide (DMSO), and fluoroethylene carbonate (FEC). DMSO coordinates to Al 3+ , displacing coordinated water to suppress water activity, but cannot preserve the dielectric environment. FEC compensates via three synergistic functions: high dielectric constant for electrostatic screening, weak hydrogen bonding for solvation asymmetry reinforcement, and reductive decomposition for solid electrolyte interphase(SEI) formation. The sequential coupling of DMSO‐mediated solvation disruption with FEC‐enables dielectric/interfacial compensation accelerates desolvation and stabilizes electrode: a fluorinated SEI enables 2000 h reversible Al plating/stripping, while a spinel‐to‐layer transformation creates a fluorinated interface on vanadium oxide with asymmetric channels, mitigating dissolution. The full cell retains 90.8% capacity after 2000 cycles at 4 A g −1 . By showing that resolving one bottleneck can expose another, this work reframes additive optimization as sequential processes of identifying and compensating coupled failure mechanisms, generalizing a design principle for multivalent aqueous electrolytes.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.8801354",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
       "first_seen": "2026-11-11",
       "image": null,
       "summary_ko": null,

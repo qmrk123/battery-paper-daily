@@ -87,7 +87,7 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_tools: "Bash,Read,Write,Edit,Glob,Grep"
           model: claude-sonnet-5
-          timeout_minutes: "20"
+          timeout_minutes: "45"
           prompt: |
             You maintain the Korean battery-paper site. The repo is checked out and
             an earlier CI step has ALREADY fetched today's papers into the data/
@@ -124,11 +124,14 @@ jobs:
                  technical, concise, no hype, and NEVER invent numbers or claims
                  absent from the abstract. If abstract_en is empty, write 1-2
                  sentences from the title and append " (제목 기반 추정)".
-            3) Write summaries.json mapping
+            3) Work in BATCHES of at most 25 papers so progress survives a timeout:
+               for each batch write summaries.json mapping
                {"<paper id>": {"topics": [...], "summary_ko": "..."}, ...} for
-               exactly those papers, run
-               `python scripts/apply_summaries.py summaries.json`, then delete
-               summaries.json.
+               exactly that batch, run
+               `python scripts/apply_summaries.py summaries.json`, delete
+               summaries.json, then continue with the next batch until no paper
+               has a null summary_ko. Never accumulate more than one batch before
+               applying it.
             Finish with a one-line count of how many papers you summarized. Do NOT
             touch any file outside data/ (besides the temporary summaries.json).
 

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-11-11T09:51:24+00:00",
-  "count": 19,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 23,
   "papers": [
     {
       "id": "W7223181124",
@@ -628,6 +628,125 @@
       "license": null,
       "journal_id": null,
       "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223280520",
+      "source": "openalex",
+      "title": "Mechanistic Insights of Jahn–Teller Effect Suppression in High-Entropy Prussian Blue Analogue Cathodes",
+      "url": "https://doi.org/10.1021/jacs.6c15227",
+      "published": "2026-10-23",
+      "topics": [
+        "na-cathode",
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.6c15227",
+      "authors": [
+        "Bangjun Wu",
+        "Xiaorui Dong",
+        "Hongliang Dong",
+        "Shuyang Bian",
+        "Qiang Liu",
+        "Wenbo Zhai"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "The Jahn-Teller (J-T) effect, as discovered by Hermann Jahn and Edward Teller in 1937, often causes lattice distortion and structural instability in Mn-based battery materials. Recent studies suggest that high-entropy design may help suppress J-T distortion, yet the underlying mechanism remains largely elusive due to their compositional complexity and structural disorder. Herein, using a Mn-based Prussian blue analogue as a case study, we employed a machine learning interatomic potential combined with synchrotron extended X-ray absorption fine structure spectroscopy (EXAFS) to elucidate the fundamental mechanism of the J-T suppression in high-entropy materials. Unexpectedly, EXAFS spectra reveal the absence of the typical J-T Mn-N bond-length splitting in our high-entropy Prussian blue analogue sample, but instead a broader Mn-N bond-length distribution. Machine learning-assisted calculations demonstrate the [MnN6] octahedra exhibit randomly oriented distortions along x-, y-, and z-axes in high-entropy lattices, resulting in the local distortion averaging out at the macroscopic scale. Further analysis of the local Mn coordination environment reveals that the high-entropy configuration enhances d-electron delocalization and reduces the energy splitting between Mn dx2-y2 and dz2 orbitals. This allows two structurally and electronically distinct distortion modes to coexist within the lattice, which disrupts long-range cooperative J-T order. Strikingly, the ultralong cycling stability of high-entropy K0.46[Mn0.21Co0.19Ni0.21Cu0.20Zn0.19][Fe(CN)6]0.98·1.69H2O is experimentally demonstrated, achieving 91.0% capacity retention over 50,000 cycles for aqueous ammonium-ion storage, which surpasses all of the Mn-based rechargeable batteries to date. Our study uncovers the microscopic mechanism of J-T suppression in high-entropy materials and provides an effective strategy for designing durable high-entropy battery electrodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223312876",
+      "source": "openalex",
+      "title": "High-Performance LiNiO2 Cathodes through Microstructural Engineering",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02808",
+      "published": "2026-10-23",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsenergylett.6c02808",
+      "authors": [
+        "Seong-Eun Park",
+        "Nam-Yung Park",
+        "Hyeon-Sik Kim",
+        "조남준",
+        "Jaemin Kim",
+        "Geon‐Tae Park"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract LiNiO2 (LNO) is a promising high-capacity cathode, but its practical application is hindered by severe structural and microstructural instability. Herein, we develop a two-step calcination strategy that decouples lithiation from Ta introduction. This approach promotes the segregation of a Ta-rich phase at grain boundaries, producing nanosized, radially aligned primary particles that mitigate strain and suppress microcracking. It also preserves a layered–rocksalt nanostructured multiphase that reversibly transforms into a layered–spinel-like state during charging, which may contribute to structural stability and Li-ion transport. The optimized TS-Ta-LNO delivers 252.7 mAh g–1 and retains 88.4% of its capacity after 100 cycles. Furthermore, a TS-Ta-LNO/Li-metal pouch cell maintains stable voltage profiles under an electric vertical take-off and landing dynamic-load protocol, demonstrating its potential for high-energy, high-power batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223289244",
+      "source": "openalex",
+      "title": "From Coacervates to Ordered Lattices: Sequence‐Guided Condensation of Polyelectrolyte Complexes Through Designed Coiled‐Coil Peptides",
+      "url": "https://doi.org/10.1002/adfm.78993",
+      "published": "2026-10-23",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.78993",
+      "authors": [
+        "Weiran Xie",
+        "Tianren Zhang",
+        "Wenjun Peng",
+        "Bin Wang",
+        "Darrin J. Pochan"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Electrostatic complexation of oppositely charged biomacromolecules produces a spectrum of condensed phases, from liquid coacervates to ordered solids. Yet the underlying amino acid sequence‐level rules remain poorly understood. Here, we utilize computationally designed coiled‐coil peptide “bundlemers” as a programmable platform to systematically investigate these principles. This study demonstrates that precise control over the material phase formed through electrostatic complexation is achieved through subtle amino acid sequence modifications. By tuning coiled coil terminal motifs and surface charge distribution, bundlemer‐polypeptide complexation can span liquid coacervates, soft solids, or solid precipitates. Specifically, bundlemer coiled coil nanoparticles with +24 charge were complexed with different lengths of polyanionic polypeptide. Nanoparticles with a mixed charge character containing both acidic and basic amino acids produced coacervate phases. When the bundlemers displayed only basic amino acids making a single charge‐type +24 nanoparticle, solid precipitates with specific hexagonal lattice symmetry were formed. When the charge character was flipped with negatively charged bundlemers and positively charged polypeptide, similar hexagonally packed complexes were formed. This work establishes a robust framework for programming the self‐assembly of polyelectrolyte‐based soft matter, offering a sequence‐guided pathway from disordered liquid condensates to precisely defined, ordered nanomaterials.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78993",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223370892",
+      "source": "openalex",
+      "title": "Asymmetric coordination engineering of single-atom catalysts for high-performance lithium–sulfur batteries under practical conditions",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105605",
+      "published": "2026-10-23",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105605",
+      "authors": [
+        "Abdul Hameed Pato",
+        "Longtao Ren",
+        "Jinrui Liang",
+        "Imran Ali Chandio",
+        "Mengchao Li",
+        "Liuqianqian Deng"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
       "first_seen": "2026-11-11",
       "image": null,
       "summary_ko": null,

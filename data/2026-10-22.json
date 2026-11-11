@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-11-11T09:51:24+00:00",
-  "count": 5,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 8,
   "papers": [
     {
       "id": "W7223008270",
@@ -146,6 +146,97 @@
       "license": null,
       "journal_id": null,
       "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223398514",
+      "source": "openalex",
+      "title": "Moderate Li–N Coordination Between Dibromopyrazine and Polysulfides Enables High‐Rate Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adfm.79221",
+      "published": "2026-10-22",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79221",
+      "authors": [
+        "Zhonghui Sun",
+        "Handing Liu",
+        "Xin Chao",
+        "Zhenghui Li",
+        "Ziyang Xie",
+        "Qisen Wang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium–sulfur (Li–S) batteries are promising candidates for high‐energy storage, yet their practical application is limited by poor rate capability. To date, the conversion of lithium polysulfides (LiPSs) remains a major challenge due to the high energy barrier of the liquid–solid conversion from Li 2 S 4 to Li 2 S. Herein, to overcome this barrier, dibromopyrazine (DBP) was identified through screening as an effective electrolyte additive owing to its unique Br─C═N functionality, which weakens Li–S bonding via moderate Li–N coordination through the electron‐withdrawing effect of Br, thereby enabling effective LiPSs anchoring without impeding conversion. In the electrolyte containing 0.04 M DBP, the interaction favors Li 2 S 4 formation at 2.3 V and promotes three‐dimensional (3D) Li 2 S deposition. Consequently, the Li–S coin cells deliver a high capacity of 785 mAh g −1 at the high rate of 6 C and a low capacity decay rate of 0.09% per cycle over 1000 cycles at 1 C. A 2 Ah pouch cell also demonstrates stable cycling over 100 cycles at 0.5 C. This work highlights a coordination‐modulated moderate‐interaction strategy for accelerating LiPSs conversion in Li–S batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79221",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223171775",
+      "source": "openalex",
+      "title": "In Situ Formed Co(OH)F Enabling Electronic and Atomic‐Level Structure Optimization in Medium‐Entropy Fluoride Cathodes for Zinc Batteries",
+      "url": "https://doi.org/10.1002/adfm.78501",
+      "published": "2026-10-22",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.78501",
+      "authors": [
+        "Liu Yang",
+        "Enze Zhu",
+        "Jiaqi Nie",
+        "Hongfan Huang",
+        "Jiqing Zhang",
+        "Wenjing Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Cobalt‐based cathodes have attracted considerable attention in aqueous zinc batteries, however, their application remains impeded by intrinsic trade‐off between high electrochemical activity and long‐term cycling stability. Herein, an entropy‐regulated fluoride cathode is proposed to overcome the limitations via co‐engineering electronic and atomic structures. Specifically, x‐ray absorption spectroscopy (XAS), x‐ray photoelectron spectroscopy (XPS), and first‐principle calculations collectively demonstrate that Co(OH)F is formed in situ within the fluoride matrix during electrochemical cycling and induces electron reconstruction. Concurrently, the generated Co(OH)F shortens Co─F bond length within the entropy‐regulated fluoride, reinforcing atomic‐level structural integrity and enabling excellent cycling performance. Moreover, a hollow architecture is integrated to homogenize flux and electric field distributions, ensuring sufficient accessibility of active sites while mitigating interfacial degradation. Consequently, the assembled zinc battery exhibits a high specific capacity of 252.3 mAh·g −1 and superior cycling stability (92.4% capacity retention after 25 000 cycles at 10 A·g −1 and 90.8% capacity retention after 50 000 cycles at 20 A·g −1 ). This work demonstrates a synergistic approach that simultaneously achieves high redox activity and structural robustness in cobalt‐based cathodes for zinc batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.78501",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223173281",
+      "source": "openalex",
+      "title": "Cathode Depolarization Enables 1300‐Cycle Ah‐Level Anode‐Free Sodium Batteries",
+      "url": "https://doi.org/10.1002/adma.75401",
+      "published": "2026-10-22",
+      "topics": [
+        "na-metal",
+        "na-cathode"
+      ],
+      "doi": "10.1002/adma.75401",
+      "authors": [
+        "Ning Jiang",
+        "朱乔楠",
+        "Liqiang Wu",
+        "Weihao Wang",
+        "Tai Peng",
+        "Jinhui Zhao"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Nonuniform sodium deposition limits the cyclability of anode‐free sodium batteries (AFSBs), and current research mainly focuses on anode‐targeted strategies. However, the influence of the cathode kinetics on sodium deposition behavior has been overlooked. Here, we firstly reveal the critical role of cathode polarization on sodium deposition uniformity via electric field coupling. Accordingly, cathode‐specific charging (CSC) protocols are established for AFSBs to depolarize the cathode, where the charging current is dynamically regulated based on the state of charge (SOC)‐dependent direct current inner resistance (DCIR). As expected, the CSC protocols effectively depolarize the cathodes and thus homogenize sodium deposition on the anode. Impressively, a 1.6 Ah Al/C||NFPP pouch cell reaches a record‐high cyclability of 1370 cycles at 2 C, and a 3.6 Ah pouch cell reaches a high energy density of 180 Wh kg − 1 with stable cycling for 890 cycles at 0.5 C. More importantly, the cathode depolarization strategy shows application universality for diverse anode‐free full cells based on Na 4 Fe 3 (PO 4 ) 2 (NFPP), Na 3 V 2 (PO 4 ) 3 (NVP), and NaNi 1/3 Fe 1/3 Mn 1/3 O 2 (NFM) cathodes. This work opens an avenue for fabricating durable practical AFSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
       "first_seen": "2026-11-11",
       "image": null,
       "summary_ko": null,

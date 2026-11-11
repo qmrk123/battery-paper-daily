@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-11-11T09:51:24+00:00",
-  "count": 4,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 8,
   "papers": [
     {
       "id": "W7222807642",
@@ -109,6 +109,126 @@
       "license": null,
       "journal_id": null,
       "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7222937200",
+      "source": "openalex",
+      "title": "Vitamin C‐Induced Photo‐Redox Threshold Enables High‐Fidelity Volumetric Printing of Collagen",
+      "url": "https://doi.org/10.1002/adma.75454",
+      "published": "2026-10-19",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adma.75454",
+      "authors": [
+        "Bin Wang",
+        "Amelia Hasenauer",
+        "Kristian Ivkovic",
+        "Ann-Sophie Frind",
+        "David Fercher",
+        "Marcy Zenobi‐Wong"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Tomographic volumetric printing (TVP) enables rapid fabrication of complex, centimeter‐scale 3D architectures. TVP of native proteins such as collagen is attractive because it preserves native bioactive motifs that regulate cell–matrix signaling. However, direct TVP of collagen remains challenging because dityrosine crosslinking, driven by visible‐light‐activated Ru(II)bpy 3 2+ /sodium persulfate (SPS), lacks an effective inhibitory mechanism. This results in near‐immediate crosslinking upon light exposure, leading to an insufficient nonlinear threshold response that fails to suppress background curing. Here, we introduce vitamin C (L‐ascorbic acid) as a biocompatible redox regulator to overcome this limitation. We demonstrated that vitamin C established a photo‐redox threshold by suppressing Ru(III) accumulation and scavenging persulfate radicals within the Ru/SPS system, thereby delaying dityrosine crosslinking until vitamin C depletion. This threshold generated the nonlinear response required for TVP, enabling high‐fidelity volumetric printing of collagen. Post‐printing construct densification (∼53% shrinkage) further improved feature resolution (80 µm positive; 120 µm negative) and yielded mechanically stable and highly stretchable hydrogels (up to 180% strain). Collagen resin with vitamin C supported both cell seeding post‐printing and cell‐laden printing with high cell density and viability, enabling the rapid biofabrication of cell‐instructive 3D microenvironments.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75454",
+      "license": "cc-by",
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7222916884",
+      "source": "openalex",
+      "title": "Rational Integration of Multiple Additives for High-Temperature Lithium-Ion Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02555",
+      "published": "2026-10-19",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1021/acsenergylett.6c02555",
+      "authors": [
+        "Gihoon Lee",
+        "Seung Hee Han",
+        "Jiwon Seo",
+        "Jaehyuk Choi",
+        "Sanggil Park",
+        "Jaebum Kim"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract The rational combination of multiple electrolyte additives is a promising strategy for constructing stable interphases in lithium-ion batteries. However, unintended additive interactions can alter the preferential reduction/oxidation pathways at electrode surfaces, compromising cell performance. In this study, we identify a detrimental interaction between succinonitrile (SN) and lithium bis(oxalato)borate (LiBOB) on a graphite-silicon (Gr-Si) anode. Specifically, an electron-deficient boron-embedded solid electrolyte interphase (SEI) derived from LiBOB promotes the reduction of the electron-rich nitrile moieties of SN, disrupting fluoroethylene carbonate (FEC)-driven SEI construction. Based on this mechanism, SN was replaced with triisopropanolamine borate (TPAB), which mitigates transition metal dissolution through its amine moiety while forming a robust borate-based cathode electrolyte interphase. Moreover, TPAB combined with LiBOB avoided detrimental side reductions at the anode–electrolyte interface. The FEC-LiBOB-TPAB combination creates thermally stable interphases on the Gr-Si anode and LiNi0.91Co0.08Al0.01O2 cathode (4.8 mAh cm–2), enabling 68.7% capacity retention after 300 cycles at 45 °C and 1C.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7222979422",
+      "source": "openalex",
+      "title": "Jahn–Teller Distortion Triggers Unconventional Molecular O 2 Formation in P2‐Type Na 0.67 MnO 2 Cathodes",
+      "url": "https://doi.org/10.1002/adfm.79149",
+      "published": "2026-10-19",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adfm.79149",
+      "authors": [
+        "Yang Yu",
+        "Huibo Wang",
+        "Liang Ma",
+        "Deniz Wong",
+        "Ruoyu Wang",
+        "Tianran Zhang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Oxygen redox chemistry offers a pathway to high energy density in sodium‐ion batteries but is often accompanied by irreversible molecular O 2 formation, leading to voltage hysteresis and poor cycling stability. The origin of molecular O 2 formation is commonly attributed to high‐voltage charging yet remains debatable. Here, we uncover an overlooked mechanism in P2‐type Na 0.67 MnO 2 , where molecular O 2 formation is decoupled from the conventional high‐voltage paradigm and instead originates from Jahn–Teller distortion during discharge. Combined experimental and computational results reveal that Jahn–Teller‐induced lattice distortion shortens O–O distances and enhances the O–O dimerization tendency, leading to irreversible oxygen redox and structural degradation. This finding establishes a previously unrecognized distortion‐mediated pathway governing oxygen redox. To address this issue, an Al/Si co‐doping strategy is developed to regulate the electronic structure and reinforce the lattice framework. The co‐doping suppresses Jahn–Teller distortion, stabilizes O 2p states, and weakens the tendency toward O–O dimerization, thereby inhibiting molecular O 2 formation. Consequently, the optimized Na 0.67 Al 0.01 Si 0.01 Mn 0.99 O 2 exhibits superior cycling performance, retaining 95% capacity after 100 cycles within 4.4–2.0 V and 90% after 500 cycles within 4.0–2.0 V. These findings provide a mechanistic framework for oxygen redox chemistry and offer a practical design strategy for stabilizing high‐voltage manganese‐based sodium‐ion batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79149",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7222945624",
+      "source": "openalex",
+      "title": "Closed Pores as Internal Stress‐Regulation Units for Practical Silicon–Carbon Anodes",
+      "url": "https://doi.org/10.1002/adma.75427",
+      "published": "2026-10-19",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75427",
+      "authors": [
+        "Ziheng Li",
+        "Fengjun Ji",
+        "Guanglu Wei",
+        "Xueyi Nie",
+        "Rongshan Lan",
+        "Yalong Jia"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Silicon–carbon anodes are among the most promising candidates for high‐energy lithium‐ion batteries, yet their practical implementation remains constrained by lithiation‐induced outward deformation, electrode cracking, and persistent interphase degradation. Here, closed pores are introduced as internal stress‐regulation units to address the coupled mechanical and electrochemical instability of silicon–carbon anodes. Heteroatom‐doped carbon hosts are engineered to contain abundant closed nanopores, which redirect expansion‐induced stress toward the particle interior and suppress macroscopic electrode swelling. Meanwhile, heteroatom doping enlarges the carbon interlayer spacing and enhances electronic conductivity, enabling accelerated and more balanced Li + insertion/extraction kinetics. As a representative material, the nitrogen–doped silicon–carbon composite delivers a reversible capacity of 1756.5 mAh g − 1 , an initial Coulombic efficiency of 90.2%, and 868.4 mAh g −1 at 3 C, while reducing electrode thickness expansion from 38.4% to 13.1% after 50 cycles. The material is further produced in 6 kg batches and enables 2 Ah LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) pouch cells with 80.0% capacity retention after 1200 cycles and only 8.4% thickness growth after 900 cycles. Machine–learning–guided phosphorus doping further validates the transferability of the closed‐pore design. This work establishes closed‐pore stress regulation as a scalable structural strategy for practical low‐expansion silicon–carbon anodes.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75427",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
       "first_seen": "2026-11-11",
       "image": null,
       "summary_ko": null,

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-21T23:59:25+00:00",
-  "count": 6,
+  "generated_at": "2026-11-11T10:05:45+00:00",
+  "count": 11,
   "papers": [
     {
       "id": "W7222944044",
@@ -188,6 +188,154 @@
       "image": null,
       "summary_ko": "마그네슘 금속전지에서 전해질 유래 화학 활성화를 통해 캐소드 반응의 가역성을 구현하는 전략을 제시하였다. 미량의 수분을 활용해 전해질 반응성을 조절함으로써 Mg/Cl 함유 종이 캐소드 활성화에 참여하도록 하였으며, 터널형 MnO2에서는 격자 팽창을 유도해 가역성을 개선하고 유기 캐소드에서는 Cl-가 음이온 결합 산화환원을 안정화함을 확인하였다. 또한 Sn/MgCl2 인공계면을 통해 분극성 용매로 인한 음극 부반응을 억제하면서 캐소드 활성화를 유지하였다. 이 전략은 산화물, 유기물, 전환형 캐소드 전반에 걸쳐 가역적 전기화학을 구현한다.",
       "relevant": false
+    },
+    {
+      "id": "W7223141542",
+      "source": "openalex",
+      "title": "Strengthened D‐p Orbital Hybridization Via Interlayer Coupling Enables Sulfur Redox Kinetics in Lithium‐Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adfm.79147",
+      "published": "2026-10-21",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79147",
+      "authors": [
+        "Yue Huang",
+        "Zhihong Peng",
+        "Junxiang Liu",
+        "Wenxin Guo",
+        "Junli Zhou",
+        "Lin Yu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT The inherent wide bandgap and large d‐p band center energy difference (Δε d‐p ) of δ‐MnO 2 significantly impede electron transport and ion diffusion, limiting its catalytic efficiency in lithium‐sulfur (Li─S) batteries. Herein, we report an interlayer coupling strategy that intercalates cetyltrimethylammonium (CTA + ) cations into birnessite (δ‐MnO 2 ) to simultaneously modulate the Mn 3d‐O 2p orbital hybridization and expand the Li + diffusion channels. Synchrotron X‐ray absorption fine structure (XAFS) spectroscopy combined with density functional theory (DFT) calculations reveal that the strong electrostatic interaction between CTA + and the MnO 2 host layers narrows the d‐p band center energy difference (Δε d‐p ) from 1.458 to 1.145 eV, substantially enhancing Mn 3d‐O 2p orbital hybridization. This optimized d‐p matching renders the Mn d‐band more compatible with the S 2p orbitals of polysulfides, synergistically optimize adsorption energies and conversion barriers. Meanwhile, the CTA + expanded interlayer afford ordered Li + diffusion channels with a high Li + transference number and uniform Li deposition. Consequently, the Li─S batteries deliver a remarkable capacity of 819.07 mAh g − 1 at 3.0 C and sustain 850 cycles at 1.0 C with an capacity decay of only 0.05% per cycle. Significantly, the Li─S pouch cell equipped with a Bir(CTAB)‐separator delivers a high energy density of 305.25 Wh kg −1 .",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79147",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223185101",
+      "source": "openalex",
+      "title": "Nonmetallic Anodes in Aqueous Batteries",
+      "url": "https://doi.org/10.1002/anie.4470539",
+      "published": "2026-10-21",
+      "topics": [
+        "na-cathode",
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.4470539",
+      "authors": [
+        "Jinzhang Yang",
+        "Hairong Mai",
+        "Jinlei Tian",
+        "Zhiqiang Niu"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "Rechargeable aqueous batteries are considered as promising energy storage devices due to their low cost and high safety. In rechargeable aqueous batteries, nonmetallic anodes have attracted widespread attention since they generally possess the characteristics of abundant resources, high designability, and dendrite-free. Although considerable research efforts have been made to design nonmetallic anodes, a comprehensive review about them is still absent. This review presents a systematic overview of nonmetallic anodes in aqueous batteries, including conversion anodes and insertion anodes. Conversion-type anode materials primarily involve hydrogen gas, chalcogen compounds, and organic compounds, whereas intercalation-type anode materials focus on metal chalcogenides, Prussian blue analogues, and polyanionic compounds. In addition, their design principles are critically discussed with emphasis on energy storage mechanisms, merits and limitations, as well as compatibility with charge carriers and cathodes. In the final section, future developments and prospects in the design of high-performance nonmetallic anodes for aqueous batteries are also discussed. It will shed light on the R&D of nonmetallic anodes in aqueous batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4470539",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223114899",
+      "source": "openalex",
+      "title": "Kinetic Control of Polymorphism in Li10.5Si1.5P1.5S12–Based Solid Electrolytes",
+      "url": "https://doi.org/10.1021/jacs.6c14489",
+      "published": "2026-10-21",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.6c14489",
+      "authors": [
+        "Jingui Yang",
+        "Ramon Zimmermanns",
+        "Maik Schmitt",
+        "Torsten Brezesinski",
+        "Florian Strauss"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Li10GeP2S12 (LGPS)-type solid electrolytes (SEs) are among the most promising materials for next-generation solid-state batteries (SSBs) due to their high lithium-ion conductivity. However, challenges related to phase stability and polymorphism, especially in Ge-free, Si-based systems, limit their practical implementation. Here, the crystallization and phase transition behavior of materials with a nominal composition of Li10.5-xSi1.5P1.5S12-xIx (x = 0, 0.2, 0.4) are systematically investigated. Operando high-temperature synchrotron X-ray diffraction, total scattering with pair distribution function analysis, and differential scanning calorimetry measurements reveal the formation of a metastable orthorhombic (o) phase, followed by transformation into the thermodynamically stable tetragonal (t) phase at elevated temperatures. Our findings indicate that lithium iodide (LiI) as an additive regulates the crystallization of the o-phase and thereby governs the transition kinetics. This enables the o-to-t phase transition to occur at much reduced temperatures and faster rates. Neutron powder diffraction further uncovers minor modifications to the Si/P ratio and lithium sublattice, as well as the fact that iodine is not incorporated into the t-phase; instead, a secondary Li4PS4I-type phase forms. Collectively, this work highlights the critical role of microstructural engineering on crystallization and polymorphism in LGPS-type SEs and also demonstrates the applicability of these dual-phase materials by enabling high-performance lithium-sulfur SSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223150249",
+      "source": "openalex",
+      "title": "Interhalogen of Iodine Chloride Accelerates Charge Transfer for Efficient Li2O2 Oxidation in Lithium–Oxygen Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c20330",
+      "published": "2026-10-21",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/jacs.6c20330",
+      "authors": [
+        "Jiaxuan An",
+        "Yaohui Huang",
+        "Lang Zhou",
+        "Zhichao Guo",
+        "Lin Li",
+        "Fujun Li"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Li-O2 batteries suffer from sluggish Li2O2 oxidation kinetics at electrode/electrolyte interfaces, leading to large charge polarization and low energy efficiency. Soluble redox mediators (RMs) provide a solution-mediated pathway for Li2O2 decomposition and reduce the charge overpotential. However, the chemical oxidation of Li2O2 by oxidized RMs remains kinetically sluggish, resulting in persistent charge polarization. Herein, iodine monochloride (ICl), an interhalogen compound, is electrochemically generated in situ during the charge process to promote the oxidation of Li2O2. The large electronegativity difference between I and Cl promotes intramolecular charge transfer from I to Cl, creating an electrophilic iodine center (Iδ+) that increases the I-Cl bond polarity and strengthens the interaction with Li2O2. This lowers the decomposition barrier of Li2O2 from 2.39 to 0.77 eV, thereby facilitating its chemical oxidation. The Li-O2 battery delivers a low discharge/charge polarization of 0.52 V, effectively mitigating parasitic reactions at high voltages and enabling an extended cycling lifespan exceeding 800 h. This work provides a valuable design principle for developing redox mediators for efficient Li2O2 oxidation.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "W7223184401",
+      "source": "openalex",
+      "title": "Industry‐Scalable Interfacial Design for Stabilizing PET‐Cu Current Collectors",
+      "url": "https://doi.org/10.1002/adma.75466",
+      "published": "2026-10-21",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75466",
+      "authors": [
+        "Lei Zhao",
+        "Chaofan Liang",
+        "Weichen Du",
+        "Zhikang Liu",
+        "Zhiqiang Man",
+        "Donghai Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Metallized plastic copper (Cu) current collectors (CCs), featuring a sandwich structure with polymer film—typically polyethylene terephthalate (PET)—as substrate and conductive Cu layers on both sides, offer a lighter and cheaper alternative to conventional Cu CC for lithium‐ion batteries (LIBs). However, the instability of PET substrate in commercial carbonate electrolytes leads to Cu||PET interfacial degradation and capacity fading, particularly under high‐temperature operation. Here, we report an industry‐scalable interfacial engineering strategy to stabilize PET substrate by depositing an Al 2 O 3 layer onto the PET substrate surface via roll‐to‐roll physical evaporation (winding speed: 720 m min −1 , substrate width: 2.5 m). The conformal Al 2 O 3 coating acts as a robust physical barrier that effectively suppresses electrolyte‐induced PET substrate decomposition and maintains Cu||PET interfacial integrity during long‐term cycling. The as‐resulting Al 2 O 3 ‐coated PET‐Cu CC (PET@Al 2 O 3 ‐Cu CC) enables 3‐Ah graphite//LiNi 0.5 Co 0.2 Mn 0.3 O 2 pouch cells an 86% capacity retention after 1000 cycles at 45°C—comparable with the cells with commercial Cu CC (86%) and markedly superior to those using PET‐Cu CC (58%). This work establishes a low‐cost and industry‐scalable solution for stabilizing metallized plastic CCs, paving the way toward cost‐efficient and high‐energy LIBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }
