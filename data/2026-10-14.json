@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-10-14T23:48:42+00:00",
-  "count": 5,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 6,
   "papers": [
     {
       "id": "W7221472601",
@@ -151,6 +151,34 @@
       "image": null,
       "summary_ko": "다양한 배터리 화학 체계에 적용 가능한, 배터리 신호로부터 메커니즘을 반영한 수명 예측 디스크립터 프레임워크를 제안한 연구로 추정된다 (제목 기반 추정).",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee03563a",
+      "source": "crossref",
+      "title": "Electrolyte design toward stable layered oxide cathodes of sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03563a",
+      "published": "2026-10-14",
+      "topics": [],
+      "doi": "10.1039/d6ee03563a",
+      "authors": [
+        "Tengfeng Guo",
+        "Yiliang He",
+        "Xinmin Zhang",
+        "Yaping Lu",
+        "Shiwu Ma",
+        "Quanquan Pang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review analyzes layered oxide cathode degradation in sodium-ion batteries from an electrolyte perspective, proposes electrolyte design principles, summarizes traditional and emerging electrolyte systems, and outlines future perspectives.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

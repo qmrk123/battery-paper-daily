@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-02T23:08:03+00:00",
-  "count": 10,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 12,
   "papers": [
     {
       "id": "W7204853103",
@@ -343,6 +343,58 @@
       "image": null,
       "summary_ko": "FeOF 양극재에 이종원자가 도핑을 적용해 전고체 리튬전지용 결함공학을 다룬 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee01905f",
+      "source": "crossref",
+      "title": "Water shapes the zinc anode: mechanisms, strategies, and perspectives",
+      "url": "https://doi.org/10.1039/d6ee01905f",
+      "published": "2026-09-02",
+      "topics": [],
+      "doi": "10.1039/d6ee01905f",
+      "authors": [
+        "Zeping Liu",
+        "Guangning Xu",
+        "Jie Hu",
+        "Hao Zhang",
+        "Yu Zhang",
+        "Naiqing Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "“Water can support a boat, but it can also capsize it.” This paper systematically reviews the mechanisms by which water molecules affect the zinc anode in aqueous zinc-based batteries, providing new insights for their future practical applications.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee03067j",
+      "source": "crossref",
+      "title": "Insight into amorphous solid electrolytes for all-solid-state batteries",
+      "url": "https://doi.org/10.1039/d6ee03067j",
+      "published": "2026-09-02",
+      "topics": [],
+      "doi": "10.1039/d6ee03067j",
+      "authors": [
+        "Yi Gu",
+        "Sizhe Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review generalizes structure–property correlations of sulfide, oxide, and halide amorphous solid electrolytes, highlighting amorphization as a multi-scale strategy to co-optimize performance and stability in all-solid-state batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T00:35:35+00:00",
-  "count": 13,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 14,
   "papers": [
     {
       "id": "W7204199010",
@@ -415,6 +415,34 @@
       "image": null,
       "summary_ko": "전고체 리튬-황 전지에서 다층적 Li+ 배위 구조를 갖는 SiPu 개질 PVDF 고분자 전해질을 통해 빠른 Li+ 수송을 구현하는 연구로 추정된다 (제목 기반 추정).",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04388g",
+      "source": "crossref",
+      "title": "A natural mineral/polymer-based halogen-free solid-state electrolyte enables stable four-electron iodine chemistry with suppressed high voltage self-discharge",
+      "url": "https://doi.org/10.1039/d6ee04388g",
+      "published": "2026-08-27",
+      "topics": [],
+      "doi": "10.1039/d6ee04388g",
+      "authors": [
+        "Dongbo Yuan",
+        "Xixi Zhang",
+        "Guangmeng Qu",
+        "Shunshun Zhao",
+        "Qingxiu Yu",
+        "Chuanlin Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "HNT/PTFE forms a liquid-lean quasi-solid-state interface that stabilizes positive-valence iodine chemistry, suppresses polyiodide shuttling, and facilitates Zn 2+ transport, enabling low self-discharge and stable four-electron zinc–iodine batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

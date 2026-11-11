@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-18T22:51:32+00:00",
-  "count": 3,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 4,
   "papers": [
     {
       "id": "W7222807642",
@@ -85,6 +85,34 @@
       "image": null,
       "summary_ko": "폐양극재로부터 이중 도핑된 고성능 리튬 망간 철 인산염(LMFP)을 수열법으로 재생하는 연구로 추정됨. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04666e",
+      "source": "crossref",
+      "title": "Low-chloride electrolytes with dual-functional organic cations enable four-electron redox conversion in durable Ah-level zinc–iodine batteries",
+      "url": "https://doi.org/10.1039/d6ee04666e",
+      "published": "2026-10-19",
+      "topics": [],
+      "doi": "10.1039/d6ee04666e",
+      "authors": [
+        "Kaiyi Guo",
+        "Bibo Han",
+        "Wenjie Zhang",
+        "Shanjie Cheng",
+        "Yu Qiu",
+        "Chen Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Branched quaternary ammonium chlorides were explored as low-chloride aqueous electrolytes for four-electron Zn–I 2 batteries. 3-Chloro-2-hydroxypropyl trimethylammonium chloride proved optimal for Ah-level pouch cells.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

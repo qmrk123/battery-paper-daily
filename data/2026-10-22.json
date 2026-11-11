@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T23:59:30+00:00",
-  "count": 3,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 5,
   "papers": [
     {
       "id": "W7223008270",
@@ -95,6 +95,61 @@
       },
       "summary_ko": "폴리스티렌 폐기물을 알칼리 금속 수소화물(KH)을 촉매로 사용해 전이금속 없이 130°C, 1기압 수소 조건에서 알킬벤젠으로 수소분해하는 방법을 제시했다. KH는 기체 및 알킬벤젠 생성물에 대해 93.2% 수율과 95.8%의 알킬벤젠 선택성을 달성했으며, 생산 속도는 더 가혹한 조건에서 작동하는 귀금속 촉매보다 약 2.6배 높았다. 메커니즘적으로는 하이드라이드에 의한 수소 인발과 K+-π 상호작용의 시너지가 C(sp3)-C(sp3) 결합을 늘려 선택적 절단을 유도하는 것으로 나타났다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04654a",
+      "source": "crossref",
+      "title": "Interphase-controlled mechanical confinement of Na clustering for high-rate sodium storage",
+      "url": "https://doi.org/10.1039/d6ee04654a",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1039/d6ee04654a",
+      "authors": [
+        "Mengyao Li",
+        "Qiuchen Song",
+        "Jiayi Li",
+        "Haining Chen",
+        "Yingzhi Li",
+        "Haoran Chi"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Chemical stitching tailors the closed-pore mouth of hard carbon, forming a high-modulus, inorganic-rich intrapore solid electrolyte interphase that mechanically confines Na-cluster growth and enables fast sodium storage.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05497h",
+      "source": "crossref",
+      "title": "Disordered nanodomains stabilize near-degeneracy in complex layered oxides",
+      "url": "https://doi.org/10.1039/d6ee05497h",
+      "published": "2026-10-22",
+      "topics": [],
+      "doi": "10.1039/d6ee05497h",
+      "authors": [
+        "Pasindu V. Jayasinghe",
+        "Tae Gyu Yun",
+        "Dongho Kim",
+        "Udayan Mohanty",
+        "Alexis Grimaud"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Reversible lithium intercalation in layered transition metal oxides is often accompanied by irreversible phase transformation, setting fundamental limits on the capacity and longevity achievable in lithium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

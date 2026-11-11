@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
-  "generated_at": "2026-09-23T23:30:11+00:00",
-  "count": 16,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 17,
   "papers": [
     {
       "id": "W7213975397",
@@ -532,6 +532,34 @@
       },
       "summary_ko": "백본 매개 배위환경 재구성을 통해 고전압 리튬 금속전지용 겔 고분자 전해질을 개발한 연구. 디글리시딜 1,2-사이클로헥산디카르복실레이트(DCD)를 1,3-디옥솔레인(DOL)과 공중합하여 에스터 카르보닐기와 공간적으로 제한된 에터 산소 자리로 백본-Li+ 배위를 약화시키고 음이온/용매의 용매화 참여를 촉진했다. P(DCD-DOL) 전해질은 0.64의 높은 리튬 이동수와 5.20V의 산화안정성 창을 나타냈으며 Li||NCM811 셀은 4.3V에서 500사이클 후 84.21%, 0.9Ah 파우치셀은 305 Wh kg-1의 에너지밀도와 180사이클 후 82.33%의 용량 유지율을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03329f",
+      "source": "crossref",
+      "title": "Revisiting long-standing misconceptions in Ni-rich layered oxide cathodes for lithium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03329f",
+      "published": "2026-09-23",
+      "topics": [],
+      "doi": "10.1039/d6ee03329f",
+      "authors": [
+        "Yunshan Zheng",
+        "Zhiqiang Fu",
+        "Lanlan Feng",
+        "Yankai Dai",
+        "Yijing Liu",
+        "Yiming Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Rethinking Ni-rich cathodes beyond conventional wisdom by revisiting three long-standing misconceptions: Li/Ni intermixing, phase evolution, and Ni-content-dependent energy density.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

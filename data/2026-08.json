@@ -1,7 +1,7 @@
 {
   "date": "2026-08",
-  "generated_at": "2026-09-15T06:07:15+00:00",
-  "count": 277,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 283,
   "papers": [
     {
       "id": "W7204647515",
@@ -106,6 +106,34 @@
       "relevant": true
     },
     {
+      "id": "crossref:10.1039/d6ee05502h",
+      "source": "crossref",
+      "title": "Understanding interfacial chemistries of LiPF 6 –asymmetrically fluorinated glyme ether electrolytes for high-voltage lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05502h",
+      "published": "2026-08-28",
+      "topics": [],
+      "doi": "10.1039/d6ee05502h",
+      "authors": [
+        "Huida Lyu",
+        "Haeseong Jang",
+        "Zhiao Yu",
+        "Tian-Yu Wang",
+        "Haoyu Li",
+        "Dingyi Zhao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular symmetry breaking in F5DEE enables LiPF 6 –glyme ether electrolytes, advancing high-voltage lithium metal batteries through the molecular-level SEI framework established herein.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7204652691",
       "source": "openalex",
       "title": "Comprehensive Review of Synthesis, Structure, and Electrochemical Performance of LiFePO 4",
@@ -165,7 +193,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-08-30",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77159-y/MediaObjects/41467_2026_77159_Fig1_HTML.png",
+        "cached": "img/W7204491519.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-77159-y"
+      },
       "summary_ko": "제올라이트로 감싼 욜크-쉘 구조의 나노반응기를 이용해 SO2와 알칼리 금속에 의한 NH3-SCR 촉매 피독을 억제하는 연구이다. ZSM-5 제올라이트 쉘이 SO2의 물리적 접근을 차단하고 산성 자리가 알칼리 금속을 포집하는 이중 보호 메커니즘을 규명했다. SO2와 칼륨이 공존하는 조건에서도 250°C에서 95% 이상의 NOx 전환율을 유지했다.",
       "relevant": false
     },
@@ -470,6 +503,34 @@
       },
       "summary_ko": "CD97(ADGRE5)이 수지상세포 매개 제2형 면역반응을 조절해 알레르기 천식 발생에 관여함을 밝힌 연구로, Cd97 결손 마우스는 더 심한 천식 표현형을 보였다. 인간 천식 환자의 기도 점막에서도 알레르겐 유발 악화 후 ADGRE5 발현이 감소해 CD97이 천식 치료 표적이 될 수 있음을 시사한다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04388g",
+      "source": "crossref",
+      "title": "A natural mineral/polymer-based halogen-free solid-state electrolyte enables stable four-electron iodine chemistry with suppressed high voltage self-discharge",
+      "url": "https://doi.org/10.1039/d6ee04388g",
+      "published": "2026-08-27",
+      "topics": [],
+      "doi": "10.1039/d6ee04388g",
+      "authors": [
+        "Dongbo Yuan",
+        "Xixi Zhang",
+        "Guangmeng Qu",
+        "Shunshun Zhao",
+        "Qingxiu Yu",
+        "Chuanlin Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "HNT/PTFE forms a liquid-lean quasi-solid-state interface that stabilizes positive-valence iodine chemistry, suppresses polyiodide shuttling, and facilitates Zn 2+ transport, enabling low self-discharge and stable four-electron zinc–iodine batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7204256562",
@@ -1260,6 +1321,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee04104c",
+      "source": "crossref",
+      "title": "Breaking the potential limit of ether-based electrolytes via asymmetric interfacial activation for high-energy-density sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee04104c",
+      "published": "2026-08-25",
+      "topics": [],
+      "doi": "10.1039/d6ee04104c",
+      "authors": [
+        "Bin Qiu",
+        "Ning Sun",
+        "Yingxian Wang",
+        "Xue Li",
+        "Shujie Zhou",
+        "Bin Xu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "An asymmetric interfacial activation (AIA) strategy is proposed to address the inherent conflict between the electrolyte requirements of the cathode and anode by utilizing NaDFP additives for high-energy-density sodium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7204205316",
       "source": "openalex",
       "title": "Balancing accuracy and early predictability: a flexible framework for battery lifetime prediction via analytical mapping discovery",
@@ -1285,6 +1374,34 @@
       "image": null,
       "summary_ko": "정확도와 조기 예측 가능성을 함께 고려한 배터리 수명 예측용 유연한 분석적 매핑 프레임워크를 제안한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee02577c",
+      "source": "crossref",
+      "title": "An all-molecular-ferroelectric composite electrolyte couples spontaneous polarization with competitive coordination for durable nickel-rich solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee02577c",
+      "published": "2026-08-25",
+      "topics": [],
+      "doi": "10.1039/d6ee02577c",
+      "authors": [
+        "Min Gao",
+        "Xiang-zhi Zhang",
+        "Ming Chen",
+        "Xiaozhong Huang",
+        "Cheong Wa Leong",
+        "Zeyuan Xu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular ferroelectrics enable fast lithium-ion transport and stable solid-state lithium metal batteries through spontaneous polarization and competitive coordination.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7204102044",
@@ -1523,6 +1640,34 @@
       "image": null,
       "summary_ko": "가역적 수소가스 전지의 수소 전기화학촉매 반응에서 스케일링 관계를 극복하기 위해 Ru-O-Ti 계면 배위와 나노제한 구조를 결합한 촉매를 설계한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04190f",
+      "source": "crossref",
+      "title": "High-entropy materials in rechargeable batteries: design principles and structure–performance correlations",
+      "url": "https://doi.org/10.1039/d6ee04190f",
+      "published": "2026-08-24",
+      "topics": [],
+      "doi": "10.1039/d6ee04190f",
+      "authors": [
+        "Yuankai Huang",
+        "Hengyuan Hu",
+        "Zhiyu Zou",
+        "Kunxiong Zheng",
+        "Yongbiao Mu",
+        "Wenjia Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review delineates compositional design principles and structure–performance correlations of high-entropy materials, bridging four core physical effects with elemental selection to catalyze advanced rechargeable batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7204170228",
@@ -2957,6 +3102,34 @@
       "image": null,
       "summary_ko": "제일원리 계산을 통해 고전압 스피넬 LiNi0.5Mn1.5O4(LNMO) 양극의 충전 단계별 전자 및 구조적 변화를 분석했다. 산화환원은 Ni에 국한되지만 Ni-O 및 Mn-O 결합의 재혼성화를 유발하며, 산소 전하 변화는 산소 산화환원이 아니라 Ni-O 결합 변화에 따른 분극에서 기인함을 밝혔다. 산화 상태 증가에 따른 NiO6 팔면체의 단계적 부피 수축과 국소 Li/공공 배치에 좌우되는 얀-텔러 왜곡 등 추가 뒤틀림 모드도 확인했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04373a",
+      "source": "crossref",
+      "title": "Redirecting Li–CO 2 battery chemistry via geometric matching on the high-entropy intermetallic (110) facet",
+      "url": "https://doi.org/10.1039/d6ee04373a",
+      "published": "2026-08-19",
+      "topics": [],
+      "doi": "10.1039/d6ee04373a",
+      "authors": [
+        "Yang Wang",
+        "Qianning Su",
+        "Yongjun Li",
+        "Xinya Dai",
+        "Yiting Liu",
+        "Guang Feng"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A geometric compatibility factor ( δ ) enables facet-level control of Li–CO 2 battery chemistry. Matching Li 2 C 2 O 4 with the (110) facet of a L1 0 -ordered high-entropy intermetallic stabilizes the oxalate pathway and boosts battery performance.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7203740793",

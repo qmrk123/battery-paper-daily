@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
-  "generated_at": "2026-09-15T06:07:15+00:00",
-  "count": 14,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 15,
   "papers": [
     {
       "id": "W7204256562",
@@ -470,6 +470,34 @@
       "image": null,
       "summary_ko": "니트릴 가소제를 도입해 PEO 기반 준고체 전해질의 Li+ 용매화 껍질을 동적으로 재구성하는 디스크립터 기반 전략을 제시했다. 니트릴 리간드가 첫번째 Li+ 용매화 껍질에 경쟁적으로 진입해 Li+-에테르 산소 배위를 약화시키고 리간드 교환 기반 수송으로 전환시켜, 상온 이온전도도를 기존 PEO 대비 약 3자리수 향상된 10.9 mS cm-1까지 끌어올렸다. 이 전해질은 Li‖NCM811 고전압 전지에서 산화 분해를 억제하고 치밀한 CEI 형성을 촉진해 고속충전 및 저온 구동 안정성을 향상시켰다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee05502h",
+      "source": "crossref",
+      "title": "Understanding interfacial chemistries of LiPF 6 –asymmetrically fluorinated glyme ether electrolytes for high-voltage lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05502h",
+      "published": "2026-08-28",
+      "topics": [],
+      "doi": "10.1039/d6ee05502h",
+      "authors": [
+        "Huida Lyu",
+        "Haeseong Jang",
+        "Zhiao Yu",
+        "Tian-Yu Wang",
+        "Haoyu Li",
+        "Dingyi Zhao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular symmetry breaking in F5DEE enables LiPF 6 –glyme ether electrolytes, advancing high-voltage lithium metal batteries through the molecular-level SEI framework established herein.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

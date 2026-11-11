@@ -1,8 +1,64 @@
 {
   "date": "2026-09",
-  "generated_at": "2026-09-30T00:08:54+00:00",
-  "count": 263,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 288,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04917f",
+      "source": "crossref",
+      "title": "Visualizing degradation in anode-free high-capacity aqueous tin metal batteries across cell lifetime",
+      "url": "https://doi.org/10.1039/d6ee04917f",
+      "published": "2026-09-30",
+      "topics": [],
+      "doi": "10.1039/d6ee04917f",
+      "authors": [
+        "Sofia K. Catalina",
+        "Kyle Frohna",
+        "Willow L. Thompson",
+        "Katherine J. Harmon",
+        "Dasol Yoon",
+        "Jianbo Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Operando optical microscopy unveils multi-stage growth leading to degradation in tin-anode batteries. Substrate engineering prevents this degradation, enabling high-performance tin anodes at high tin utilization and specific capacity.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05690c",
+      "source": "crossref",
+      "title": "Asymmetric calcium single-atom catalysts accelerate iodide species conversion for robust Zn–I 2 aqueous batteries",
+      "url": "https://doi.org/10.1039/d6ee05690c",
+      "published": "2026-09-29",
+      "topics": [],
+      "doi": "10.1039/d6ee05690c",
+      "authors": [
+        "Lei Huang",
+        "Hao Luo",
+        "Rong Fu",
+        "Fanxing Bu",
+        "Ying Wan",
+        "Siyuan Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Ligand ablation of aldehyde-functionalized ZIF-90 creates asymmetric CaN 3 O sites on mesoporous carbon. Ca 4p polarization promotes side-on dual-iodine adsorption, lowering reaction barriers and accelerating iodine conversion in Zn–I 2 batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
     {
       "id": "W7214668276",
       "source": "openalex",
@@ -57,7 +113,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78184-7/MediaObjects/41467_2026_78184_Fig1_HTML.png",
+        "cached": "img/W7214618134.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78184-7"
+      },
       "summary_ko": "실리콘 기반 상온 전고체전지에서 응력에 적응하는 전도성 네트워크와 이온이 분리된 고분자-무기물 계면을 이용해 내구성을 향상시키는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
     },
@@ -87,7 +148,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78040-8/MediaObjects/41467_2026_78040_Fig1_HTML.png",
+        "cached": "img/W7214583865.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78040-8"
+      },
       "summary_ko": "소듐이온전지용 층상 산화물 양극에서 전하 재구성에 의해 구동되는 자기적응형 부피 변화를 설계하여 2C에서 1000사이클 후 82%의 용량 유지율을 달성했다. 층간 거리가 충전 초반 팽창했다가 고전압에서 수축하는 가변적 구조를 통해 응력 가속을 완화하며, 4D-STEM과 in situ XAS로 균일한 전하 보상 거동을 확인했다.",
       "relevant": true
     },
@@ -214,7 +280,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-09-30",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78070-2/MediaObjects/41467_2026_78070_Fig1_HTML.png",
+        "cached": "img/W7214656519.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78070-2"
+      },
       "summary_ko": "교모세포종 줄기세포를 종양 항원 제시가 가능한 1형 수지상세포(cDC1)-유사 세포로 리프로그래밍하여 면역 반응을 유도하는 암 면역치료 연구로, 배터리와 무관한 논문이다.",
       "relevant": false
     },
@@ -658,6 +729,32 @@
       },
       "summary_ko": "고에너지밀도 고체 리튬 금속전지용 복합 고체전해질(CSE)에서 충전재 응집과 계면 Li+ 수송 저하 문제를 해결하기 위해, 리튬화된 카르복시메틸셀룰로오스(CMC-Li)를 동적 가교제로 사용해 PDA로 개질된 LLZAO 충전재를 PVDF-HFP 매트릭스 내에서 연결하는 이중 기능성 초분자 가교 네트워크를 구축했다. 이 구조는 충전재 분산을 균일화하고 공간전하층 효과를 완화하여 LLZAO 세라믹 내부를 통한 상간 Li+ 전도 경로를 활성화함으로써 리튬 덴드라이트 성장을 억제한다. Li||Li 대칭 셀은 1400시간 이상 안정적인 도금/탈리를 유지했으며, LiFePO4||PVPL||Li 완전지는 400사이클 후 83%, NCM811||PVPL||Li 셀은 200사이클 후 88%의 용량 유지율을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04456e",
+      "source": "crossref",
+      "title": "Degradation-informed surface coating strategies for recycled lithium-ion battery materials",
+      "url": "https://doi.org/10.1039/d6ee04456e",
+      "published": "2026-09-25",
+      "topics": [],
+      "doi": "10.1039/d6ee04456e",
+      "authors": [
+        "Bingjie Yue",
+        "Jiao Lin",
+        "Renjie Chen",
+        "Li Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Degradation-informed framework from diagnosis to coating-enabled regeneration of recycled LIBs.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7214276981",
@@ -1240,6 +1337,59 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee06043a",
+      "source": "crossref",
+      "title": "Beyond the solvation default in electrolyte additive design for aqueous zinc metal batteries",
+      "url": "https://doi.org/10.1039/d6ee06043a",
+      "published": "2026-09-24",
+      "topics": [],
+      "doi": "10.1039/d6ee06043a",
+      "authors": [
+        "Li Li",
+        "Wei Han",
+        "Hang Yang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "By constructing a solvation deviation index and incorporating interfacial effects, the solvation effects of various electrolyte additives are quantitatively elucidated and categorized into distinct regimes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05713f",
+      "source": "crossref",
+      "title": "A novel amorphization strategy unlocks fast ionic transport in low-cost halide solid electrolytes for high-loading all-solid-state batteries",
+      "url": "https://doi.org/10.1039/d6ee05713f",
+      "published": "2026-09-24",
+      "topics": [],
+      "doi": "10.1039/d6ee05713f",
+      "authors": [
+        "Zhimin Zhou",
+        "Pushun Lu",
+        "Anchun Tang",
+        "Kaiyong Tuo",
+        "Suzhe Liang",
+        "Chao Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A new amorphization method enables effective amorphization of halide and oxyhalide solid electrolytes, enhances ionic conductivity, offers rapid synthesis potential, and achieves an areal capacity of 10.45 mAh cm −2 with high-Ni cathodes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7214122921",
       "source": "openalex",
       "title": "Unlocking High‐Voltage and Low‐Temperature Capability in Lithium Metal Batteries via Coupling Bulk Solvation Tailoring with Interfacial Electrostatic “Anchor‐and‐Shield” Strategy",
@@ -1274,6 +1424,34 @@
       },
       "summary_ko": "에테르 전해질에서 리튬 금속 전지의 기생 산화 및 용매 개환중합 문제를 해결하기 위해 TBABH4를 첨가한 \"anchor-and-shield\" 전략을 제안했다. TBA+ 양이온이 전기이중층에 농축되어 FSI- 음이온을 계면으로 유도함으로써 무기물이 풍부한 SEI를 형성하고, DOL 해리 에너지를 낮춰 교환전류밀도를 크게 높였다. 이를 통해 Li-Li 대칭셀이 1800시간 이상 안정적으로 작동했으며, Li-NCM811 완전셀은 상온 450사이클, -20°C 300사이클 후에도 80% 용량을 유지했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03329f",
+      "source": "crossref",
+      "title": "Revisiting long-standing misconceptions in Ni-rich layered oxide cathodes for lithium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03329f",
+      "published": "2026-09-23",
+      "topics": [],
+      "doi": "10.1039/d6ee03329f",
+      "authors": [
+        "Yunshan Zheng",
+        "Zhiqiang Fu",
+        "Lanlan Feng",
+        "Yankai Dai",
+        "Yijing Liu",
+        "Yiming Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Rethinking Ni-rich cathodes beyond conventional wisdom by revisiting three long-standing misconceptions: Li/Ni intermixing, phase evolution, and Ni-content-dependent energy density.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7214083608",
@@ -2488,6 +2666,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee03717h",
+      "source": "crossref",
+      "title": "High-selectivity nitrogen electroreduction to ammonia at near-ambient pressure",
+      "url": "https://doi.org/10.1039/d6ee03717h",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1039/d6ee03717h",
+      "authors": [
+        "Hoang-Long Du",
+        "Duong T. H. Truong",
+        "Karolina Matuszek",
+        "Ngoc-Trung Nguyen",
+        "Rebecca Y. Hodgetts",
+        "Khang Ngoc Dinh"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "An advanced electrolyte and N 2 bubbling enable formation of a LiF/Li 2 S n -rich SEI, supporting high-performance Li-NRR at near-ambient pressure in the presence of water.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7213446733",
       "source": "openalex",
       "title": "Electron delocalization-driven high dielectric electrolyte for solid-state lithium metal batteries",
@@ -2547,6 +2753,34 @@
       "image": null,
       "summary_ko": "소수 샷 데이터 환경에서도 강건한 배터리 SOC 추정을 위한 물리 정보 기반 신경망과 전이학습을 결합한 이중 스트림 프레임워크를 제안한 연구로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04914a",
+      "source": "crossref",
+      "title": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes for high-capacity and ultrastable iron-organic batteries",
+      "url": "https://doi.org/10.1039/d6ee04914a",
+      "published": "2026-09-16",
+      "topics": [],
+      "doi": "10.1039/d6ee04914a",
+      "authors": [
+        "Yehui Zhang",
+        "Ziyang Song",
+        "Qi Huang",
+        "Yaokang Lv",
+        "Lihua Gan",
+        "Mingxian Liu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "β-Ketoenamine-bond confinement enables near-planar quinone polymer cathodes that promise 96.8% utilization of carbonyl sites with low energy barrier (0.14 eV), resulting in iron batteries with a high capacity (313 mAh g −1 ) and life (80 000 cycles).",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7213224961",
@@ -2616,6 +2850,34 @@
       },
       "summary_ko": "오퍼란도 ATR-FTIR 분광법을 이용해 가교된 생분해성 폴리카프로락톤(PCL) 고체 고분자 전해질과 리튬 금속 계면의 동적 변화를 리튬 도금/탈리 과정에서 관찰했다. 가교된 cl-PCL5LiTFSI 전해질은 비가교 PCL5LiTFSI 대비 향상된 기계적 강도로 더 안정적인 사이클 성능을 보였으며, 리튬 도금/탈리 동안 국부적으로 정렬된 PCL 도메인 형성과 TFSI- 음이온의 재분배가 관찰되었다. 침투 깊이별 밴드비 매핑을 통해 SPE|Li 계면의 열화 및 동적 변화 과정을 시각화했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee02194h",
+      "source": "crossref",
+      "title": "Unraveling anomalous capacity degradation and its alleviation in high-voltage anode-free sodium batteries",
+      "url": "https://doi.org/10.1039/d6ee02194h",
+      "published": "2026-09-16",
+      "topics": [],
+      "doi": "10.1039/d6ee02194h",
+      "authors": [
+        "Jie Shi",
+        "Jiayue Tang",
+        "Hongting Du",
+        "Danni Wang",
+        "Yiming Zhao",
+        "Yuze Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Herein, the high-voltage oxidation pathways of ether were unraveled and their decomposition was redirected via activated solvation to stabilize anode-free sodium batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7213423183",
@@ -2784,6 +3046,34 @@
       },
       "summary_ko": "비수계 액체 전해질을 사용하는 리튬 금속 전지(LMB)의 계면 안정성을 이온 수송, 탈용매화, 계면 수송, 전하 이동, 핵생성, 형태 진화의 6단계 속도론적 프레임워크로 체계적으로 분석한 리뷰이다. 전극-전해질 계면의 구조 및 동적 진화, 첨단 분석 기법을 정리하고 전해질 첨가제, 인공 보호층, 용매화 조절 등 계면 안정화 전략을 핵심 속도론 단계별 역할 중심으로 재구성했다. 완전셀·파우치셀 검증, 고에너지밀도, 비용 절감 등 실용화를 위한 과제와 방향을 제시했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04410g",
+      "source": "crossref",
+      "title": "Phosphorus-enabled reversible Jahn–Teller phase evolution in manganese spinel cathodes",
+      "url": "https://doi.org/10.1039/d6ee04410g",
+      "published": "2026-09-16",
+      "topics": [],
+      "doi": "10.1039/d6ee04410g",
+      "authors": [
+        "Hyoi Jo",
+        "Hyojun Kim",
+        "Cheolwoo Jo",
+        "Sungsoo Kim",
+        "Byunghoon Kim",
+        "Sung-Kyun Jung"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Regulating the reversibility of Jahn–Teller-driven phase evolution offers a new route to durable, resource-efficient Mn spinel cathodes for sustainable lithium-ion batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7213434404",
@@ -3140,6 +3430,33 @@
       "relevant": true
     },
     {
+      "id": "crossref:10.1039/d6ee03446b",
+      "source": "crossref",
+      "title": "Pretrained battery transformer (PBT): a foundation model for battery life prediction",
+      "url": "https://doi.org/10.1039/d6ee03446b",
+      "published": "2026-09-15",
+      "topics": [],
+      "doi": "10.1039/d6ee03446b",
+      "authors": [
+        "Ruifeng Tan",
+        "Weixiang Hong",
+        "Jia Li",
+        "Jiaqiang Huang",
+        "Tong-Yi Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A foundation model for battery life prediction, dubbed PBT and comprising general and specialized models, is developed using BatteryMoE to consolidate heterogeneous battery life data, enabling early lifetime prediction across various scenarios.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7213355196",
       "source": "openalex",
       "title": "Li 2 O–B 2 O 3 –Li 2 SO 4 Fast‐Ion Conducting Coating Enables Stable Low‐Temperature Cycling of Ni‐Rich NCM622 via Interfacial Degradation Suppression",
@@ -3387,6 +3704,34 @@
       },
       "summary_ko": "인간 OCTN1 수송체의 저온전자현미경(cryo-EM) 구조를 아포 및 에르고티오네인 결합 상태에서 규명하여 나트륨 의존적 기질 수송의 구조적 메커니즘을 밝혔다. 구조 기반 가상 스크리닝을 통해 메벤다졸 등 OCTN1을 표적으로 하는 후보 물질을 발굴했다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04678a",
+      "source": "crossref",
+      "title": "Pore-structural descriptors of hard carbon anodes towards tuning their interface stability for sodium storage",
+      "url": "https://doi.org/10.1039/d6ee04678a",
+      "published": "2026-09-14",
+      "topics": [],
+      "doi": "10.1039/d6ee04678a",
+      "authors": [
+        "Bo Sun",
+        "Jihu Liu",
+        "Jingjing Wang",
+        "Ming Li",
+        "Jianhua Zhang",
+        "Guiqiang Cao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "The ratio of pore throat to pore cavity diameter ( λ ) is proposed as a structural descriptor to quantify nanopore confinement, revealing how pore geometry regulates electrolyte filling, solvent sieving and sodium storage in hard carbon anodes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7213161074",
@@ -4022,6 +4367,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee03562k",
+      "source": "crossref",
+      "title": "Salting-out and sugaring-out enabled dual-phase electrolytes for high-voltage, multi-electron, shuttle-free, self-stratified zinc–iodine batteries",
+      "url": "https://doi.org/10.1039/d6ee03562k",
+      "published": "2026-09-11",
+      "topics": [],
+      "doi": "10.1039/d6ee03562k",
+      "authors": [
+        "Yizhi Xing",
+        "Binze Yang",
+        "Xinmei Song",
+        "Tianyu Shen",
+        "Jingjie Sun",
+        "Sheng Wen"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A salting-out/sugaring-out dual-phase electrolyte spatially decouples iodine redox chemistry from Zn electrochemistry, suppressing crossover while enabling high-voltage multielectron iodine conversion.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7212296274",
       "source": "openalex",
       "title": "Mixed-Linker Metal–Organic Frameworks Modified Separators as Li+-Transport Accelerators for Wide-Temperature and Long-Cycling Lithium Metal Batteries",
@@ -4114,6 +4487,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee05078f",
+      "source": "crossref",
+      "title": "Feedstock-aware dual-pathway direct regeneration of spent LiFePO 4",
+      "url": "https://doi.org/10.1039/d6ee05078f",
+      "published": "2026-09-11",
+      "topics": [],
+      "doi": "10.1039/d6ee05078f",
+      "authors": [
+        "Hongxin Wang",
+        "Shuzhe Yang",
+        "XinRan Li",
+        "Cong Li",
+        "Shunyao Li",
+        "Yutong Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review presents a framework linking feedstock-aware considerations with regeneration strategies for spent LFP materials, combining targeted repair for traceable, homogeneous feedstocks with normalized processing for heterogeneous feedstocks.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7212322059",
       "source": "openalex",
       "title": "Disentangling Lithium Failure Mechanisms in Liquid Electrolytes by 2D Exchange Solid-State NMR",
@@ -4142,6 +4543,62 @@
       "image": null,
       "summary_ko": "2차원 교환 고체 NMR(2D EXSY ssNMR) 기법으로 죽은 리튬(dead Li0)과 SEI 간의 상대적 기여도를 정량화하여 리튬 금속 전지의 실패 메커니즘을 구분했다. 에스터계 전해질에서는 전자적 절연이, 에터계 고농도 전해질에서는 무기물 SEI의 낮은 변형성으로 인한 이온 접촉 손실이 장기 실패의 주된 원인임을 밝혔다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04706h",
+      "source": "crossref",
+      "title": "The effect of negative electrodes and cyclable lithium on the bulk redox mechanisms of lithium- and manganese-rich positive electrodes",
+      "url": "https://doi.org/10.1039/d6ee04706h",
+      "published": "2026-09-10",
+      "topics": [],
+      "doi": "10.1039/d6ee04706h",
+      "authors": [
+        "Chun Yuen Kwok",
+        "Avi Gargye",
+        "Subhadip Mallick",
+        "Pavan P. Badami",
+        "Christopher J. Pollock",
+        "Jason R. Croy"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "In Li- and Mn-rich (LMR) full-cells, voltage fade (VF) and bulk manganese reduction are decoupled. Therefore, enhancing practical LMR performance should prioritize stabilizing lithium inventory rather than suppressing presumed Mn-centered redox.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05394g",
+      "source": "crossref",
+      "title": "Offsetting concentration gradient-diminished interfacial stability via microemulsion engineering for low-temperature lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05394g",
+      "published": "2026-09-10",
+      "topics": [],
+      "doi": "10.1039/d6ee05394g",
+      "authors": [
+        "Zezhuo Li",
+        "Yaqi Liao",
+        "Haijin Ji",
+        "Shuaipeng Hao",
+        "Lin Du",
+        "Xunzhi Miao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A weakly solvating microemulsion electrolyte offsets concentration gradient-diminished interfacial stability, enabling Li||NMC811 cells to sustain 1900 cycles at −20 °C.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7212165100",
@@ -4383,6 +4840,32 @@
       "relevant": true
     },
     {
+      "id": "crossref:10.1039/d6ee04885d",
+      "source": "crossref",
+      "title": "Hydrogel electrolytes in aqueous batteries: advances and mechanistic perspectives",
+      "url": "https://doi.org/10.1039/d6ee04885d",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee04885d",
+      "authors": [
+        "Tianrui Zheng",
+        "Zhengyu Ju",
+        "Guanru Li",
+        "Guihua Yu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Hydrogel electrolytes are electro-chemo-mechanical media where coupled interactions among polymers, water, ions, and evolving interfaces influence battery performance. This perspective examines known and underexplored mechanisms for rational design.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7212000770",
       "source": "openalex",
       "title": "Host‐Guest Recognition‐Enabled Covalent Organic Framework Artificial Interphase for Anion Regulation and Selective Li + Transport in Lithium Metal Batteries",
@@ -4454,6 +4937,34 @@
       },
       "summary_ko": "열 유도 라디칼 공중합, 이소시아네이트 가수분해에 의한 우레아 형성, 플루오로에틸렌카보네이트의 개환 반응이 동시에 일어나는 불소화 젤 고분자 전해질을 개발했다. 동적 수소결합 네트워크가 전극 부피 변화로 인한 미세균열을 자가치유하고, 폴리머-DFOB- 유래 계면이 부반응을 억제한다. NCM83 셀에서 5C, 800사이클 후 81.1%의 용량유지율을 보였고, -40°C 및 70°C의 광범위한 온도 범위에서도 우수한 성능을 유지했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04587a",
+      "source": "crossref",
+      "title": "Electrolyte engineering for lithium–sulphur batteries with high energy density",
+      "url": "https://doi.org/10.1039/d6ee04587a",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee04587a",
+      "authors": [
+        "Guobin Xi",
+        "Wanjie Gao",
+        "Yinxu Lu",
+        "Xi Liu",
+        "Ao Jia",
+        "Xiaodie Zhong"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review details four key parameters and different conversion mechanisms affecting lithium–sulphur battery energy density, and discusses recent advances in electrolyte engineering for energy density, safety, and environmental impact.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7212019024",
@@ -4555,6 +5066,33 @@
       },
       "summary_ko": "백본 매개 배위환경 재구성을 통해 고전압 리튬 금속전지용 겔 고분자 전해질을 개발한 연구. 디글리시딜 1,2-사이클로헥산디카르복실레이트(DCD)를 1,3-디옥솔레인(DOL)과 공중합하여 에스터 카르보닐기와 공간적으로 제한된 에터 산소 자리로 백본-Li+ 배위를 약화시키고 음이온/용매의 용매화 참여를 촉진했다. P(DCD-DOL) 전해질은 0.64의 높은 리튬 이동수와 5.20V의 산화안정성 창을 나타냈으며 Li||NCM811 셀은 4.3V에서 500사이클 후 84.21%, 0.9Ah 파우치셀은 305 Wh kg-1의 에너지밀도와 180사이클 후 82.33%의 용량 유지율을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03662g",
+      "source": "crossref",
+      "title": "Achieving uniform zinc deposition under practical high areal capacity in zinc-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03662g",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee03662g",
+      "authors": [
+        "Zhengsen Wang",
+        "Minjing Zhao",
+        "Weili Xie",
+        "Kaiyue Zhu",
+        "Weishen Yang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "PM/sulfonated separator dual interfaces enable uniform Zn deposition. PM regulates Zn 2+ solvation, while –SO 3 − groups homogenize field/ion flux and guide Zn(002) growth. A 90 cm 2 pouch cell delivers 1.07 Ah with 92.2% retention over 300 cycles.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7212003281",
@@ -4942,6 +5480,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee03355e",
+      "source": "crossref",
+      "title": "Solvent molecular branching drives synergistic solvation and antifreezing for ultra-low-temperature anode-free sodium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee03355e",
+      "published": "2026-09-07",
+      "topics": [],
+      "doi": "10.1039/d6ee03355e",
+      "authors": [
+        "Yun Bai",
+        "Ting Sun",
+        "Jiawen Huang",
+        "Jian Peng",
+        "Yao Xiao",
+        "Wei Kong Pang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Molecular branching triggers synergistic solvation to achieve “weak + weak = strong” electrolyte behavior. The binary system stays liquid to −80 °C, enabling anode free full cell cycling at −60 °C and 123 Wh kg −1 in Ah-scale pouch cells at −40 °C.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7211886513",
       "source": "openalex",
       "title": "Safe electrolyte design with isolated solvation nanoclusters for high-energy lithium metal batteries",
@@ -4975,6 +5541,34 @@
       },
       "summary_ko": "비배위성·난연성 고리형 불소화 희석제를 도입해 전해질 성분 간 혼화성을 조절함으로써 고립된 용매화 나노클러스터를 형성하는 고에너지 리튬 금속 전지용 전해질을 설계했다. 이 구조는 Li+ 이동을 촉진해 덴드라이트 성장을 억제하고 무기물 위주의 계면상을 형성해 계면 안정성을 높인다. 50 μm Li와 NCM811 양극 조합 셀은 800사이클 후 80% 용량을 유지했고, Ah급 파우치셀은 500 Wh/kg 이상의 비에너지와 못 관통·과충전 안전성을 동시에 달성했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03965k",
+      "source": "crossref",
+      "title": "Reprogramming spatial ion–solvent organization in the inner Helmholtz plane for high-energy-density and long-life lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee03965k",
+      "published": "2026-09-07",
+      "topics": [],
+      "doi": "10.1039/d6ee03965k",
+      "authors": [
+        "Minjian Gong",
+        "Cheng Zhou",
+        "Zihao Fang",
+        "Zhuo Chen",
+        "Linbing Jiang",
+        "Chenxu Dong"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "We propose reprogramming the spatial ion–solvent organization within the Inner Helmholtz Plane to regulate the SEI formation pathways and spatial evolution and construct an optimized interphase throughout cycling.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7211894965",
@@ -5277,6 +5871,34 @@
       "relevant": false
     },
     {
+      "id": "crossref:10.1039/d6ee04331c",
+      "source": "crossref",
+      "title": "Sacrificing energy density fails to deliver safety: cathode structure determines the safety of sodium-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee04331c",
+      "published": "2026-09-04",
+      "topics": [],
+      "doi": "10.1039/d6ee04331c",
+      "authors": [
+        "Junxian Hou",
+        "Yinan Ma",
+        "Xuning Feng",
+        "Chunyan Luo",
+        "Li Wang",
+        "Xuebing Han"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Low energy density fails to ensure Na-ion battery safety. Here, cathode structure unveils two failure routes: layered oxides drive catastrophic two-stage heat release, while polyanionics confine heat to a mild anode-electrolyte reaction.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7208790719",
       "source": "openalex",
       "title": "Reconciling PTFE Fibrillation and Cycling Stability in Dry‐Process NCM Cathodes via Polycrystalline‐Single‐Crystal Particle Grading",
@@ -5383,6 +6005,30 @@
       },
       "summary_ko": "생분해성 폴리부틸렌숙시네이트@폴리락트산(PBS@PLA) 복합 분리막을 개발해 리튬 금속 전지의 이온-쌍극자 상호작용 기반 계면 리튬 이온 플럭스를 조절했다. PBS 영역은 전해액 함침성과 이온전도도를 높이고 PLA 영역은 리튬 이온 분포를 조절해 LiF가 풍부한 안정적 SEI 형성을 촉진한다. 2.1 mS cm⁻¹의 이온전도도와 10 mA cm⁻² 고전류에서의 안정적 도금/탈리를 구현했으며, Li||NCM811 완전셀에서 5C, 300사이클 후 80.2%의 용량 유지율을 달성했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03881f",
+      "source": "crossref",
+      "title": "Redox-active halide materials for cathode applications",
+      "url": "https://doi.org/10.1039/d6ee03881f",
+      "published": "2026-09-03",
+      "topics": [],
+      "doi": "10.1039/d6ee03881f",
+      "authors": [
+        "Zhuohan Li",
+        "Gerbrand Ceder"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Electrochemically redox-active halide (eREAL) materials are an emerging class of materials that combine high Li-ion conductivity with transition-metal redox activity, making them promising candidates for cathode or catholyte applications.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7208714849",
@@ -5592,6 +6238,34 @@
       "relevant": true
     },
     {
+      "id": "crossref:10.1039/d6ee01905f",
+      "source": "crossref",
+      "title": "Water shapes the zinc anode: mechanisms, strategies, and perspectives",
+      "url": "https://doi.org/10.1039/d6ee01905f",
+      "published": "2026-09-02",
+      "topics": [],
+      "doi": "10.1039/d6ee01905f",
+      "authors": [
+        "Zeping Liu",
+        "Guangning Xu",
+        "Jie Hu",
+        "Hao Zhang",
+        "Yu Zhang",
+        "Naiqing Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "“Water can support a boat, but it can also capsize it.” This paper systematically reviews the mechanisms by which water molecules affect the zinc anode in aqueous zinc-based batteries, providing new insights for their future practical applications.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
       "id": "W7205015818",
       "source": "openalex",
       "title": "Synergistically Enhancing Li + Transference and Conductivity: Anion‐Regulating Gel Electrolyte With In Situ SEI for Stable Lithium Metal Batteries",
@@ -5656,6 +6330,30 @@
       "image": null,
       "summary_ko": "리튬 과잉 산화물(LRO) 양극재에 계층적 쌍정 구조를 도입해 사이클링 중 응력을 분산시키는 전략을 제시했다. 쌍정 경계의 프리스트레스가 인장/압축 변형을 완충해 층상 구조의 스피넬/암염상 전이를 억제한다. 개질된 LRO는 500사이클(1C) 후 94.98%, 800사이클 후 80.79%의 용량 유지율을 보였고 5C에서 155.31 mAh g⁻¹을 나타냈으며, 12.59 Ah 파우치셀은 49사이클 후 84.83% 용량을 유지했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03067j",
+      "source": "crossref",
+      "title": "Insight into amorphous solid electrolytes for all-solid-state batteries",
+      "url": "https://doi.org/10.1039/d6ee03067j",
+      "published": "2026-09-02",
+      "topics": [],
+      "doi": "10.1039/d6ee03067j",
+      "authors": [
+        "Yi Gu",
+        "Sizhe Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review generalizes structure–property correlations of sulfide, oxide, and halide amorphous solid electrolytes, highlighting amorphization as a multi-scale strategy to co-optimize performance and stability in all-solid-state batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     },
     {
       "id": "W7204999536",

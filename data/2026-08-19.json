@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 1,
+  "papers": [
+    {
+      "id": "crossref:10.1039/d6ee04373a",
+      "source": "crossref",
+      "title": "Redirecting Li–CO 2 battery chemistry via geometric matching on the high-entropy intermetallic (110) facet",
+      "url": "https://doi.org/10.1039/d6ee04373a",
+      "published": "2026-08-19",
+      "topics": [],
+      "doi": "10.1039/d6ee04373a",
+      "authors": [
+        "Yang Wang",
+        "Qianning Su",
+        "Yongjun Li",
+        "Xinya Dai",
+        "Yiting Liu",
+        "Guang Feng"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A geometric compatibility factor ( δ ) enables facet-level control of Li–CO 2 battery chemistry. Matching Li 2 C 2 O 4 with the (110) facet of a L1 0 -ordered high-entropy intermetallic stabilizes the oxalate pathway and boosts battery performance.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    }
+  ]
+}

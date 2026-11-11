@@ -1,7 +1,7 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-15T06:14:34+00:00",
-  "count": 9,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 11,
   "papers": [
     {
       "id": "W7211924831",
@@ -289,6 +289,62 @@
       "image": null,
       "summary_ko": "퓨란 기반 폴리우레탄을 이용해 소듐이온전지용 하드카본 음극에 피롤릭 질소를 방향성으로 형성하여 고율·고용량 특성을 구현하는 연구로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04706h",
+      "source": "crossref",
+      "title": "The effect of negative electrodes and cyclable lithium on the bulk redox mechanisms of lithium- and manganese-rich positive electrodes",
+      "url": "https://doi.org/10.1039/d6ee04706h",
+      "published": "2026-09-10",
+      "topics": [],
+      "doi": "10.1039/d6ee04706h",
+      "authors": [
+        "Chun Yuen Kwok",
+        "Avi Gargye",
+        "Subhadip Mallick",
+        "Pavan P. Badami",
+        "Christopher J. Pollock",
+        "Jason R. Croy"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "In Li- and Mn-rich (LMR) full-cells, voltage fade (VF) and bulk manganese reduction are decoupled. Therefore, enhancing practical LMR performance should prioritize stabilizing lithium inventory rather than suppressing presumed Mn-centered redox.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05394g",
+      "source": "crossref",
+      "title": "Offsetting concentration gradient-diminished interfacial stability via microemulsion engineering for low-temperature lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05394g",
+      "published": "2026-09-10",
+      "topics": [],
+      "doi": "10.1039/d6ee05394g",
+      "authors": [
+        "Zezhuo Li",
+        "Yaqi Liao",
+        "Haijin Ji",
+        "Shuaipeng Hao",
+        "Lin Du",
+        "Xunzhi Miao"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A weakly solvating microemulsion electrolyte offsets concentration gradient-diminished interfacial stability, enabling Li||NMC811 cells to sustain 1900 cycles at −20 °C.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

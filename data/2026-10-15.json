@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-15T23:38:16+00:00",
-  "count": 12,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 13,
   "papers": [
     {
       "id": "W7221719753",
@@ -346,6 +346,34 @@
       "image": null,
       "summary_ko": "초분자 구조로 안정화된 폴리니트로 양극 소재를 이용해 이중 모드 에너지 방출이 가능한 고비에너지 1차 리튬전지를 구현한 연구로 보인다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee04829c",
+      "source": "crossref",
+      "title": "Mechanically heterogeneous alloy enables low-pressure silicon anodes for all-solid-state batteries",
+      "url": "https://doi.org/10.1039/d6ee04829c",
+      "published": "2026-10-15",
+      "topics": [],
+      "doi": "10.1039/d6ee04829c",
+      "authors": [
+        "Youlong Sun",
+        "Tao Liu",
+        "Yuewei Yan",
+        "Ziheng Yin",
+        "Zhen Ding",
+        "Yufan Cui"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "We revealed the mechanical design requirements for low-stack-pressure Si-based solid-state anodes. We demonstrated a low-pressure operation (2 MPa) by introducing a mechanically heterogeneous alloy.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

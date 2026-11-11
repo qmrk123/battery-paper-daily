@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
-  "generated_at": "2026-09-17T23:31:08+00:00",
-  "count": 10,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 11,
   "papers": [
     {
       "id": "W7213262009",
@@ -330,6 +330,34 @@
       },
       "summary_ko": "무음극 리튬금속전지(AFLMB)에서 구리 집전체의 미세구조가 리튬 증착 거동을 좌우함을 규명했다. HLCu와 nmCu를 모델 계면으로 사용해 국소적 핵생성-선택적 성장(LS)과 분산 핵생성-경쟁적 응집(DCC)이라는 두 가지 상이한 리튬 증착 양상을 확인했으며, AFM·iSCAT·ToF-SIMS·오퍼란도 EIS-DRT 분석으로 핵생성 자리와 계면 반응속도론의 차이를 규명했다. DCC 모드는 치밀하고 연속적인 리튬층을 형성한 반면 LS 모드는 느슨하고 불균일한 증착과 강한 가스 발생을 유발해, 집전체의 물리적 구조가 무음극 전지 수명을 결정하는 핵심 요소임을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03717h",
+      "source": "crossref",
+      "title": "High-selectivity nitrogen electroreduction to ammonia at near-ambient pressure",
+      "url": "https://doi.org/10.1039/d6ee03717h",
+      "published": "2026-09-17",
+      "topics": [],
+      "doi": "10.1039/d6ee03717h",
+      "authors": [
+        "Hoang-Long Du",
+        "Duong T. H. Truong",
+        "Karolina Matuszek",
+        "Ngoc-Trung Nguyen",
+        "Rebecca Y. Hodgetts",
+        "Khang Ngoc Dinh"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "An advanced electrolyte and N 2 bubbling enable formation of a LiF/Li 2 S n -rich SEI, supporting high-performance Li-NRR at near-ambient pressure in the presence of water.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

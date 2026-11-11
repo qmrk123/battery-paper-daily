@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T23:44:30+00:00",
-  "count": 2,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 5,
   "papers": [
     {
       "id": "W7222905148",
@@ -75,6 +75,87 @@
       },
       "summary_ko": "가교 고분자와 무기 성분을 결합한 내구성 SEI를 리튬 금속 음극에 적용해, 저장 중 지속적인 SEI 성장과 사이클 중 반복적인 재구성 문제를 동시에 해결했다. 이 SEI는 탄성률이 1.63GPa에서 4.37GPa로 증가하고 전해질 투과를 억제하는 치밀한 구조를 가져 기계적 안정성과 패시베이션 성능을 모두 개선했다. 그 결과 리튬 금속 코인셀의 사이클 수명은 73%(190→329회), 저장 수명은 129%(1553→3561시간) 늘었으며, 506Wh/kg급 파우치셀은 124회 사이클을 구동했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee05664d",
+      "source": "crossref",
+      "title": "Terminal-to-terminal distance engineering regulated bidentate anchoring for stable zinc–iodine batteries",
+      "url": "https://doi.org/10.1039/d6ee05664d",
+      "published": "2026-10-20",
+      "topics": [],
+      "doi": "10.1039/d6ee05664d",
+      "authors": [
+        "Gele Teri",
+        "Cong Qi",
+        "Bao-Yi Zeng",
+        "Rui-Huan Li",
+        "Ying-Tao Su",
+        "Hantao Xu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "We first performed descriptor-based systematic screening and identified the six-carbon molecule with a moderate terminal-to-terminal distance (6.46 Å) as forming a robust bidentate anchoring configuration that suppresses shuttling.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee04435b",
+      "source": "crossref",
+      "title": "Low-graphitization carbon overlayers enable efficient gas diffusion electrodes for lithium-mediated ammonia synthesis",
+      "url": "https://doi.org/10.1039/d6ee04435b",
+      "published": "2026-10-20",
+      "topics": [],
+      "doi": "10.1039/d6ee04435b",
+      "authors": [
+        "Zhengqing Cui",
+        "Zhongshuo Zhang",
+        "Zhenhao Wang",
+        "Zhisen Jiang",
+        "Jieshan Qiu",
+        "Jie Zeng"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A low-graphitization carbon overlayer on macroporous Ni improves N 2 transport, suppresses Li + intercalation, and promotes Li deposition, raising NH 3 faradaic efficiency from 20 ± 2% on carbon paper to 59 ± 3% on Ni@C.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05255j",
+      "source": "crossref",
+      "title": "Decoupling the coordination–decoordination trade-off in PVDF-based electrolytes via chlorine substitution for high-performance solid-state lithium metal batteries",
+      "url": "https://doi.org/10.1039/d6ee05255j",
+      "published": "2026-10-20",
+      "topics": [],
+      "doi": "10.1039/d6ee05255j",
+      "authors": [
+        "Kewen Tao",
+        "Min Zuo",
+        "Yan-Fei Huang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A poly(vinylidene fluoride- co -chlorofluoroethylene) [P(VDF-CFE)] based solid-state electrolyte was prepared to decouple the inherent trade-off between Li + coordination and decoordination, achieving high ionic conductivity and interface stability.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

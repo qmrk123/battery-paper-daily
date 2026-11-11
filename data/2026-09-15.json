@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T23:30:58+00:00",
-  "count": 4,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 5,
   "papers": [
     {
       "id": "W7212419643",
@@ -122,6 +122,33 @@
       "image": null,
       "summary_ko": "도핑을 제어한 실리콘 계면층을 도입해 리튬 금속전지의 고체전해질계면(SEI) 형성을 조절하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03446b",
+      "source": "crossref",
+      "title": "Pretrained battery transformer (PBT): a foundation model for battery life prediction",
+      "url": "https://doi.org/10.1039/d6ee03446b",
+      "published": "2026-09-15",
+      "topics": [],
+      "doi": "10.1039/d6ee03446b",
+      "authors": [
+        "Ruifeng Tan",
+        "Weixiang Hong",
+        "Jia Li",
+        "Jiaqiang Huang",
+        "Tong-Yi Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A foundation model for battery life prediction, dubbed PBT and comprising general and specialized models, is developed using BatteryMoE to consolidate heterogeneous battery life data, enabling early lifetime prediction across various scenarios.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

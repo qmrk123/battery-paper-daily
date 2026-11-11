@@ -1,6 +1,60 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-23T23:27:42+00:00",
-  "count": 0,
-  "papers": []
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 2,
+  "papers": [
+    {
+      "id": "crossref:10.1039/d6ee06043a",
+      "source": "crossref",
+      "title": "Beyond the solvation default in electrolyte additive design for aqueous zinc metal batteries",
+      "url": "https://doi.org/10.1039/d6ee06043a",
+      "published": "2026-09-24",
+      "topics": [],
+      "doi": "10.1039/d6ee06043a",
+      "authors": [
+        "Li Li",
+        "Wei Han",
+        "Hang Yang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "By constructing a solvation deviation index and incorporating interfacial effects, the solvation effects of various electrolyte additives are quantitatively elucidated and categorized into distinct regimes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05713f",
+      "source": "crossref",
+      "title": "A novel amorphization strategy unlocks fast ionic transport in low-cost halide solid electrolytes for high-loading all-solid-state batteries",
+      "url": "https://doi.org/10.1039/d6ee05713f",
+      "published": "2026-09-24",
+      "topics": [],
+      "doi": "10.1039/d6ee05713f",
+      "authors": [
+        "Zhimin Zhou",
+        "Pushun Lu",
+        "Anchun Tang",
+        "Kaiyong Tuo",
+        "Suzhe Liang",
+        "Chao Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A new amorphization method enables effective amorphization of halide and oxyhalide solid electrolytes, enhances ionic conductivity, offers rapid synthesis potential, and achieves an areal capacity of 10.45 mAh cm −2 with high-Ni cathodes.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-23T23:49:38+00:00",
-  "count": 18,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 19,
   "papers": [
     {
       "id": "W7223181124",
@@ -604,6 +604,34 @@
       "image": null,
       "summary_ko": "전고체 리튬 금속 배터리(ASSLMB)의 PFAS 등 불소계 성분에 대한 환경 우려를 해결하기 위해 불소가 없는 염화 Hückel형 리튬염 LiDCC(리튬 4,5-디시아노-2-클로로이미다졸레이트)를 고체 고분자 전해질에 도입했다. DCC 음이온은 전하가 비편재화된 방향족 구조와 염소 기능기를 결합하여 난연성과 리튬 금속 적합성, 알루미늄 집전체 내부식성을 동시에 확보한다. LiDCC 기반 전해질은 Li°||LiFePO4 전지에서 100회 사이클 후 92% 이상의 용량을 유지하여 기존 LiTFSI 기반 전해질보다 우수한 성능을 보였다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee05606g",
+      "source": "crossref",
+      "title": "Decoupling mass transport in wood-based separators enables ion selectivity for highly stable aqueous zinc-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee05606g",
+      "published": "2026-10-23",
+      "topics": [],
+      "doi": "10.1039/d6ee05606g",
+      "authors": [
+        "Wei Yin",
+        "Mengxue Li",
+        "Yijiao Geng",
+        "Zuyan Zhou",
+        "Mingzhu Li",
+        "Xinyuan Jiang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "By anchoring H 2 O molecules and reconstructing the hydrogen bond network through a hydrophilic delignified wood-based separator, the transport of Zn 2+ and H 2 O was decoupled to inhibit H 2 O-induced side reactions while ensuring Zn 2+ diffusion.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T21:34:49+00:00",
-  "count": 7,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 8,
   "papers": [
     {
       "id": "W7203985504",
@@ -229,6 +229,34 @@
       "image": null,
       "summary_ko": "리그닌 측쇄 공학을 이용해 대나무 유래 경질탄소의 기공 간 재구조화를 유도, 2Ah 소듐이온 파우치셀에서 10C 고율 특성을 구현한 연구로 추정된다 (제목 기반 추정). 소듐이온 음극 소재 연구로 본 사이트의 6대 분류(리튬/소듐 금속 음극, NCM, Li-rich, LFP, 기타 양극) 대상에는 해당하지 않는다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04190f",
+      "source": "crossref",
+      "title": "High-entropy materials in rechargeable batteries: design principles and structure–performance correlations",
+      "url": "https://doi.org/10.1039/d6ee04190f",
+      "published": "2026-08-24",
+      "topics": [],
+      "doi": "10.1039/d6ee04190f",
+      "authors": [
+        "Yuankai Huang",
+        "Hengyuan Hu",
+        "Zhiyu Zou",
+        "Kunxiong Zheng",
+        "Yongbiao Mu",
+        "Wenjia Li"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review delineates compositional design principles and structure–performance correlations of high-entropy materials, bridging four core physical effects with elemental selection to catalyze advanced rechargeable batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T02:30:48+00:00",
-  "count": 1,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 4,
   "papers": [
     {
       "id": "W7221449046",
@@ -38,6 +38,88 @@
       },
       "summary_ko": "UiO-66(MOF) 코어와 불소화 이민결합 COF 쉘로 구성된 코어-셸 계면층을 상용 PP 분리막에 도입한 음이온 선택적 분리막을 개발했다. Ni2+ 배위 중심이 PF6- 음이온의 이동과 계면 분해를 조절하여 농도 분극을 완화하고 균일한 Li 전착과 무기물 중심의 안정적 SEI 형성을 유도한다. 이를 통해 LFP||Li 셀은 1200회 사이클 후 126.1 mAh/g, 고전압 NCM811||Li 셀은 600회 사이클 후 141.4 mAh/g의 용량을 유지했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee05007g",
+      "source": "crossref",
+      "title": "Rethinking Sand's time as a transport-depletion benchmark for metal-anode batteries",
+      "url": "https://doi.org/10.1039/d6ee05007g",
+      "published": "2026-10-13",
+      "topics": [],
+      "doi": "10.1039/d6ee05007g",
+      "authors": [
+        "Yao Wu",
+        "Bofang Shi",
+        "Mingbo Ma",
+        "Honghui Yang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This Perspective distinguishes four Sand-related timescales and introduces a polarization-based approach to estimating an apparent Sand-type time.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05203g",
+      "source": "crossref",
+      "title": "Interfacial stress–electronic coupling in confined dual single-atom catalysts for record-performance zinc–air batteries",
+      "url": "https://doi.org/10.1039/d6ee05203g",
+      "published": "2026-10-13",
+      "topics": [],
+      "doi": "10.1039/d6ee05203g",
+      "authors": [
+        "Dafu Zhao",
+        "Shijian Huang",
+        "Jieheng Lv",
+        "Xiaowei Lv",
+        "Panpan Sun",
+        "Xiaohua Sun"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Nanoparticle-induced local coordination compression couples with charge redistribution at FeN 4 /ZnN 3 S 1 sites, optimizing ORR energetics and enabling high-performance liquid and quasi-solid-state zinc–air batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee06020j",
+      "source": "crossref",
+      "title": "Br-tailored local polarity of Zn single-atom catalysts for shuttle-free Zn–I 2 batteries with fast iodine redox kinetics",
+      "url": "https://doi.org/10.1039/d6ee06020j",
+      "published": "2026-10-13",
+      "topics": [],
+      "doi": "10.1039/d6ee06020j",
+      "authors": [
+        "Hetong Pan",
+        "Dan He",
+        "Chang Liu",
+        "Xiaodong Shi",
+        "Ziyi Wang",
+        "Zhaoyu Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Locally polarized BrC 4 /ZnN 4 configurations break the electronic inertness of Zn–N 4 sites, enhancing iodine chemisorption, accelerating I 2 /I − conversion, and suppressing polyiodide shuttling for high-performance Zn–I 2 batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

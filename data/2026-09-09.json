@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-15T06:14:34+00:00",
-  "count": 9,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 12,
   "papers": [
     {
       "id": "W7211886513",
@@ -269,6 +269,87 @@
       "image": null,
       "summary_ko": "PEO 기반 고전압 리튬 금속 전지용 준고체 전해질에서 니트릴계 가소제를 도입해 Li+ 용매화 셸을 동적으로 재구성하는 전략을 제안했다. 니트릴 리간드가 1차 용매화 셸에 경쟁적으로 진입해 폴리머-리튬 배위를 약화시키고 리간드 교환 기반 이온수송을 유도함으로써 상온 이온전도도 10.9 mS/cm을 달성했으며, Li‖NCM811 셀에서 고전압 안정성과 저온 구동 특성을 동시에 개선했다.",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee04885d",
+      "source": "crossref",
+      "title": "Hydrogel electrolytes in aqueous batteries: advances and mechanistic perspectives",
+      "url": "https://doi.org/10.1039/d6ee04885d",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee04885d",
+      "authors": [
+        "Tianrui Zheng",
+        "Zhengyu Ju",
+        "Guanru Li",
+        "Guihua Yu"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Hydrogel electrolytes are electro-chemo-mechanical media where coupled interactions among polymers, water, ions, and evolving interfaces influence battery performance. This perspective examines known and underexplored mechanisms for rational design.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee04587a",
+      "source": "crossref",
+      "title": "Electrolyte engineering for lithium–sulphur batteries with high energy density",
+      "url": "https://doi.org/10.1039/d6ee04587a",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee04587a",
+      "authors": [
+        "Guobin Xi",
+        "Wanjie Gao",
+        "Yinxu Lu",
+        "Xi Liu",
+        "Ao Jia",
+        "Xiaodie Zhong"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review details four key parameters and different conversion mechanisms affecting lithium–sulphur battery energy density, and discusses recent advances in electrolyte engineering for energy density, safety, and environmental impact.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee03662g",
+      "source": "crossref",
+      "title": "Achieving uniform zinc deposition under practical high areal capacity in zinc-ion batteries",
+      "url": "https://doi.org/10.1039/d6ee03662g",
+      "published": "2026-09-09",
+      "topics": [],
+      "doi": "10.1039/d6ee03662g",
+      "authors": [
+        "Zhengsen Wang",
+        "Minjing Zhao",
+        "Weili Xie",
+        "Kaiyue Zhu",
+        "Weishen Yang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "PM/sulfonated separator dual interfaces enable uniform Zn deposition. PM regulates Zn 2+ solvation, while –SO 3 − groups homogenize field/ion flux and guide Zn(002) growth. A 90 cm 2 pouch cell delivers 1.07 Ah with 92.2% retention over 300 cycles.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

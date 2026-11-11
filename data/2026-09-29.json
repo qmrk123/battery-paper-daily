@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
-  "generated_at": "2026-09-29T00:55:40+00:00",
-  "count": 8,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 9,
   "papers": [
     {
       "id": "W7214519475",
@@ -265,6 +265,34 @@
       "image": null,
       "summary_ko": "재충전 가능 리튬 전지에 적용되는 고엔트로피 소재에 관한 연구로, 다양한 원소를 조합한 고엔트로피 재료의 설계와 전지 적용 가능성을 다룬 것으로 보인다. (제목 기반 추정)",
       "relevant": false
+    },
+    {
+      "id": "crossref:10.1039/d6ee05690c",
+      "source": "crossref",
+      "title": "Asymmetric calcium single-atom catalysts accelerate iodide species conversion for robust Zn–I 2 aqueous batteries",
+      "url": "https://doi.org/10.1039/d6ee05690c",
+      "published": "2026-09-29",
+      "topics": [],
+      "doi": "10.1039/d6ee05690c",
+      "authors": [
+        "Lei Huang",
+        "Hao Luo",
+        "Rong Fu",
+        "Fanxing Bu",
+        "Ying Wan",
+        "Siyuan Zhang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Ligand ablation of aldehyde-functionalized ZIF-90 creates asymmetric CaN 3 O sites on mesoporous carbon. Ca 4p polarization promotes side-on dual-iodine adsorption, lowering reaction barriers and accelerating iodine conversion in Zn–I 2 batteries.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-15T06:14:34+00:00",
-  "count": 14,
+  "generated_at": "2026-11-11T09:51:24+00:00",
+  "count": 16,
   "papers": [
     {
       "id": "W7212019434",
@@ -465,6 +465,62 @@
       "image": null,
       "summary_ko": "저가·친환경 소듐이온 양극 Na4Fe3(PO4)2P2O7(NFPP)의 합성 중 격자결함에 의한 왜곡·Fe 원자가 이상을, Li/Cr 공도핑으로 완화했다. 작은 Li+가 국소 격자 수축으로 변형을 완화하고 Cr이 더 강한 Cr–O 결합·최적 전자구조로 골격을 강화, Na·Fe 자리 동시 최적화로 결함 형성과 구조 열화를 억제했다.",
       "relevant": true
+    },
+    {
+      "id": "crossref:10.1039/d6ee03562k",
+      "source": "crossref",
+      "title": "Salting-out and sugaring-out enabled dual-phase electrolytes for high-voltage, multi-electron, shuttle-free, self-stratified zinc–iodine batteries",
+      "url": "https://doi.org/10.1039/d6ee03562k",
+      "published": "2026-09-11",
+      "topics": [],
+      "doi": "10.1039/d6ee03562k",
+      "authors": [
+        "Yizhi Xing",
+        "Binze Yang",
+        "Xinmei Song",
+        "Tianyu Shen",
+        "Jingjie Sun",
+        "Sheng Wen"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "A salting-out/sugaring-out dual-phase electrolyte spatially decouples iodine redox chemistry from Zn electrochemistry, suppressing crossover while enabling high-voltage multielectron iodine conversion.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
+    },
+    {
+      "id": "crossref:10.1039/d6ee05078f",
+      "source": "crossref",
+      "title": "Feedstock-aware dual-pathway direct regeneration of spent LiFePO 4",
+      "url": "https://doi.org/10.1039/d6ee05078f",
+      "published": "2026-09-11",
+      "topics": [],
+      "doi": "10.1039/d6ee05078f",
+      "authors": [
+        "Hongxin Wang",
+        "Shuzhe Yang",
+        "XinRan Li",
+        "Cong Li",
+        "Shunyao Li",
+        "Yutong Wang"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "This review presents a framework linking feedstock-aware considerations with regeneration strategies for spent LFP materials, combining targeted repair for traceable, homogeneous feedstocks with normalized processing for heterogeneous feedstocks.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-11",
+      "image": null,
+      "summary_ko": null,
+      "relevant": null
     }
   ]
 }
