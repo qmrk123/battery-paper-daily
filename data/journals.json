@@ -1851,6 +1851,10 @@
   "metric": 0.72,
   "name": "IntechOpen eBooks"
  },
+ "S4306464293": {
+  "metric": 0.82,
+  "name": "Wiley eBooks"
+ },
  "S4306525036": {
   "metric": 0.65,
   "name": "PubMed"
@@ -2015,6 +2019,10 @@
   "metric": 2.51,
   "name": "Next Materials"
  },
+ "S4387287985": {
+  "metric": 7.3,
+  "name": "Nano Trends"
+ },
  "S4387288079": {
   "metric": 3.66,
   "name": "Next Nanotechnology"
@@ -2030,6 +2038,10 @@
  "S4387288393": {
   "metric": 10.85,
   "name": "DeCarbon"
+ },
+ "S4387288532": {
+  "metric": 0.78,
+  "name": "Indonesian Journal of Advanced Research"
  },
  "S4387288696": {
   "metric": 3.65,
