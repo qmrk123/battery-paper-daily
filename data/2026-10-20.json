@@ -57,7 +57,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71723",
+        "cached": "img/W7223131940.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71723"
+      },
       "summary_ko": "표면 고가수 금속(W6+/Mo6+) 도핑을 통해 저비용으로 고분산 단결정 NCM90(LiNi0.90Mn0.05Co0.05O2)을 합성, 입자 응집을 억제하고 TM-O 결합을 강화해 5C에서 111.0 mAh/g의 급속충전 성능과 향상된 사이클·안전성을 달성했다.",
       "relevant": true
     },
@@ -198,7 +204,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78095",
+        "cached": "img/W7223126497.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78095"
+      },
       "summary_ko": "단원자 촉매(SAC)의 비대칭 배위 화학과 이원자 배위구조가 리튬-황전지의 폴리설파이드 전환 반응속도에 미치는 영향을 기하구조, 분자궤도 혼성화, 계면 전하 재배열 관점에서 체계적으로 정리한 리뷰이다.",
       "relevant": true
     },

@@ -115,7 +115,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79149",
+        "cached": "img/W7222979422.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79149"
+      },
       "summary_ko": "P2형 Na0.67MnO2 양극에서 분자 O2 형성이 기존의 고전압 충전이 아닌 방전 중 얀-텔러 왜곡에서 유래함을 규명, Al/Si 공동도핑으로 얀-텔러 왜곡을 억제해 산소 레독스 비가역성을 개선하고 100사이클 95%, 500사이클 90% 용량유지율을 달성했다.",
       "relevant": true
     },

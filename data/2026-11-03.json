@@ -268,7 +268,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78593",
+        "cached": "img/W7225147341.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78593"
+      },
       "summary_ko": "P2형 Na0.67Ni0.33Mn0.67O2 소듐이온전지 양극에서 Li 도핑을 통해 국부 배위 환경과 전하 보상 경로를 조절하여 산소 레독스를 안정화했다. 18O 동위원소 표지 operando 전기화학 질량분석으로 Li 도핑이 격자 산소의 전해질 분해 참여를 억제하고 비가역적 산소 손실을 완화함을 확인했으며, Ni 레독스 활성을 높이고 고전압에서 전이금속-산소 결합을 완화시킨다. Li 도핑 양극(Na0.67Li0.2Ni0.23Mn0.67O2)은 초기 용량 116.6 mAh/g에 1C/400사이클 후 80%의 용량 유지율을 보여, 무도핑 대비(27%) 크게 향상되었다.",
       "relevant": true
     },

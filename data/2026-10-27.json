@@ -85,7 +85,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.7246806",
+        "cached": "img/W7223882684.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.7246806"
+      },
       "summary_ko": "저온에서 쌍극자-쌍극자 상호작용 증대에 따른 Na+ 솔베이션 평형의 비단조적 거동을 전기친화성/친핵성 기반 디스크립터로 정량화, 희석 전해질을 통해 해리-결합종 간 유리한 솔베이션 평형을 구축하는 전략을 제시, 리튬전지의 약배위 전해질 접근법과 달리 소듐전지에서는 양이온 솔베이션 화학 강화가 중요함을 주장했다.",
       "relevant": true
     },

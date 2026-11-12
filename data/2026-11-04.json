@@ -508,7 +508,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79490",
+        "cached": "img/W7225234859.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79490"
+      },
       "summary_ko": "리튬-황 전지에서 폴리설파이드 셔틀 억제와 Li+ 탈솔베이션을 동시에 달성하기 위해 작용기를 분리 설계한 공유결합유기골격체(COF) 분자 트랩을 제안했다. 시아노기를 가진 CN-COF는 양극 측에서 황종을 가두고 전환 반응의 에너지 장벽을 낮추며, 아미독심 유도체 COF-AO는 음극 측에서 수소결합으로 용매 분자를 포획해 Li+ 탈솔베이션과 균일한 Li 증착을 돕는다. Li||Li 대칭셀은 5 mA cm-2/5 mAh cm-2에서 7000시간 안정 사이클을, 전지는 5C/900사이클에서 0.024%/사이클의 낮은 감쇠율을 보였다.",
       "relevant": true
     },

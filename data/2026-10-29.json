@@ -495,7 +495,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75518",
+        "cached": "img/W7224577450.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75518"
+      },
       "summary_ko": "전고체 리튬-황 전지에서 전기적/이온적으로 절연성인 황/Li2S의 활물질 활용률이 삼상 접촉 불균형으로 제한되는 문제를, Li2S 표면에 이온-전자 융합 계면을 형성해 해결했다. 스핀 비대칭에서 유래한 유효 자기모멘트를 계면 친화도 스크리닝 기준으로 사용해 Li2FeS2가 Li2S와 견고한 표면 결합 계면을 형성함을 확인했으며, 이 계면이 이온/전자 경로를 연결해 수송 굴곡도와 활성화 장벽을 낮춘다. 결과적으로 1 mg cm-2에서 10000사이클 이상 안정 구동하며 1/8 mg cm-2에서 각각 97.8%/95.8%의 황 활용률과 38.69 mAh cm-2의 면적용량을 달성했다.",
       "relevant": true
     },
@@ -553,7 +559,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75561",
+        "cached": "img/W7224550052.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75561"
+      },
       "summary_ko": "유연 전지용 고전압 양극으로서 레이저 유도 카보열(carbothermal) 방법을 통해 고엔트로피 도핑된 리튬리치 나노입자(직경 83.08nm)를 합성했다. 원자분해 이미징과 operando XRD, 싱크로트론 분석으로 이종원소 조성과 입자 미세화가 결합되어 고전압 컷오프에서 높은 격자 안정성을 달성함을 확인했으며, 머신러닝 포텐셜 분자동역학 시뮬레이션은 산소 손실 억제와 전이금속 프레임워크 안정화를 보여준다. 이 양극은 2.5-4.8V 전압 범위에서 1C에 877.9 Wh kg-1의 출력밀도로 안정적으로 구동했다.",
       "relevant": true
     },

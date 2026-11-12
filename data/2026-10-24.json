@@ -29,7 +29,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4356451",
+        "cached": "img/W7223471001.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4356451"
+      },
       "summary_ko": "LCO 계면의 전기이중층 내에서 인산염 용매 분자의 공간적 거리와 배향을 조절하는 불소화 이중배위 인산에스터(TEFP)를 도입, 비가역적 계면 전자이동(ISET)을 억제하여 4.6V 고전압·고온 조건에서도 Li||LCO셀이 60도 760사이클 80%, 80도 300사이클 75.5%의 용량유지율을 달성했다.",
       "relevant": true
     },

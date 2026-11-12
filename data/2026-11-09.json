@@ -370,7 +370,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71806",
+        "cached": "img/W7165634751.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71806"
+      },
       "summary_ko": "리튬이온전지의 급속충전 시 전하 수용 한계를 과전압 성분 분석으로 분해하여, 농도 구배(concentration gradient)가 급속충전 성능 저하의 주요 원인임을 규명했다. 아세토나이트릴을 공용매로 사용하는 탄산염 전해액이 Li+ 수송을 개선해 농도 구배를 줄이는 것을 확인했으며, 분자동역학 시뮬레이션으로 아세토나이트릴이 점도 감소와 솔베이션 셸 유동성 증가를 통해 Li+ 수송을 향상시킴을 보였다. 3전극 셀 분석 결과 NMC811 전극이 흑연 전극보다 과전압이 훨씬 크게 나타나, 급속충전을 위해서는 전극 구조 설계가 중요함을 보여준다.",
       "relevant": true
     },

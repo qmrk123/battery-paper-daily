@@ -593,7 +593,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71816",
+        "cached": "img/W7225300710.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71816"
+      },
       "summary_ko": "전고체전지에서 리튬 도금/탈리 반복에 따른 응력 축적이 주요 셀 실패 원인임을 규명하고, 이를 완화하기 위한 기계적 적응형 Ag-탄소/탄소나노섬유(CNF) 하이브리드 음극을 제안했다. Ag-C 계면층은 Ag-Li 합금화를 통한 균일한 Li 핵생성을 유도하고 다공성 CNF 프레임워크는 체적 변화를 수용하며 응력을 분산시킨다. 고로딩 조건(~5 mAh cm-2)에서 250회 이상 안정적 사이클과 1~2 MPa의 실용적 스택 압력에서의 파우치셀 구동을 입증했다.",
       "relevant": true
     },
@@ -651,7 +657,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75620",
+        "cached": "img/W7225343114.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75620"
+      },
       "summary_ko": "리튬-황 전지에서 단일 금속 촉매로는 충족하기 어려운 폴리설파이드의 다단계 양방향 전환 반응을 위해 고엔트로피 상보적 d-band center 모델을 제안했다. 다중 금속의 상호 보완적 d-band center가 황종의 HOMO/LUMO를 정렬시켜 전자전달 균형과 환원 반응 속도론을 가속하며, 흡착-전환-탈착의 폐루프 경로를 구성해 셔틀 효과를 억제한다. 이를 기반으로 설계된 고엔트로피 셀레나이드 촉매는 우수한 사이클 안정성과 율속 성능을 달성했다.",
       "relevant": true
     },

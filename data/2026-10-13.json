@@ -55,7 +55,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79023",
+        "cached": "img/W7221610786.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79023"
+      },
       "summary_ko": "노화된 LiFePO4/그라파이트 셀에 12시간 정지 후 짧은 전압 펄스를 가하는 Rest-Pulse 프로토콜을 적용, 그라파이트측 SEI를 재구성하여 단순 정지 대비 약 10%의 용량 회복과 99.3% 평균 쿨롱효율을 달성했다.",
       "relevant": true
     },
@@ -85,7 +91,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71673",
+        "cached": "img/W7221608866.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71673"
+      },
       "summary_ko": "DEC 유도체의 트리플루오로메틸기 개수와 위치가 Li+ 솔베이션 구조에 미치는 영향을 체계적으로 분석, β위치 치환을 통해 음이온과 FEC가 풍부한 견고한 CEI를 형성, Ni-rich NCM811 양극이 4.6V 고전압에서 300사이클 80% 용량유지율을 달성했다.",
       "relevant": true
     },
@@ -143,7 +155,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75383",
+        "cached": "img/W7221668448.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75383"
+      },
       "summary_ko": "h-GB가 풍부한 MgO/MgF2 이종구조를 Li/전해질 계면에 적용해 이질 결정립계를 통한 리튬이온 전달 경로를 실험적으로 입증, Li-Mg 합금 계면과 결합해 리튬메탈 음극의 전기화학적 안정성을 크게 향상시켰다.",
       "relevant": true
     },

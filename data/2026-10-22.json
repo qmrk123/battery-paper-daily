@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79221",
+        "cached": "img/W7223398514.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79221"
+      },
       "summary_ko": "디브로모피라진(DBP)의 Br-C=N 구조가 전자 끌어당김 효과를 통해 Li-N 배위를 적절히 약화시켜 폴리설파이드 전환을 촉진, 6C에서 785 mAh/g의 고율 용량과 1000사이클 0.09%/사이클의 낮은 용량감쇄율을 갖는 리튬-황전지를 구현했다.",
       "relevant": true
     },
@@ -144,7 +150,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75401",
+        "cached": "img/W7223173281.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75401"
+      },
       "summary_ko": "비균일한 소듐 증착이 음극-프리 소듐전지의 수명을 제한하는 원인이 음극이 아닌 양극 분극에 있음을 규명, SOC 기반 동적 충전전류 조절(CSC) 프로토콜로 양극 분극을 해소해 1.6Ah Al/C||NFPP 파우치셀에서 1370사이클의 기록적 수명을 달성했다.",
       "relevant": true
     },

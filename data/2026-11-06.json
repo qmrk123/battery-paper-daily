@@ -615,7 +615,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75403",
+        "cached": "img/W7225434404.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75403"
+      },
       "summary_ko": "리튬-산소 전지에서 귀금속 촉매가 유발하는 용량-가역성 간의 선형 트레이드오프를 비정질 비귀금속 고엔트로피 합금(MnFeCoNiCu, A-HEA) 촉매로 해결한 연구이다. 비정질 다공성 구조가 전기화학 활성 표면적을 넓혀 국부 전류밀도를 분산시키고 d-band center 최적화를 통해 과전압을 낮춰 결정질 대비 수명을 4~5배 연장했으며, 100g 이상 스케일 생산과 파우치셀에서 754 Wh kg-1(−30°C에서도 560 Wh kg-1)의 에너지밀도를 달성했다.",
       "relevant": true
     },

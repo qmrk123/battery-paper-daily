@@ -56,7 +56,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71806",
+        "cached": "img/W7165634751.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71806"
+      },
       "summary_ko": "리튬이온전지의 급속충전 시 전하 수용 한계를 과전압 성분 분석으로 분해하여, 농도 구배(concentration gradient)가 급속충전 성능 저하의 주요 원인임을 규명했다. 아세토나이트릴을 공용매로 사용하는 탄산염 전해액이 Li+ 수송을 개선해 농도 구배를 줄이는 것을 확인했으며, 분자동역학 시뮬레이션으로 아세토나이트릴이 점도 감소와 솔베이션 셸 유동성 증가를 통해 Li+ 수송을 향상시킴을 보였다. 3전극 셀 분석 결과 NMC811 전극이 흑연 전극보다 과전압이 훨씬 크게 나타나, 급속충전을 위해서는 전극 구조 설계가 중요함을 보여준다.",
       "relevant": true
     },
@@ -253,7 +259,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79559",
+        "cached": "img/W7225463970.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79559"
+      },
       "summary_ko": "PEO 기반 전고체 리튬-황 전지에서 리튬 폴리설파이드 용해와 셔틀 효과를 억제하기 위해 이중상 고엔트로피 황화물(FeCoNiCuMoSx) 나노플라워를 다기능 황 호스트로 제안했다. 격자 왜곡과 강한 d-p 오비탈 결합으로 폴리설파이드에 대한 화학적 친화력을 높이고, 액상 경로를 억제하면서 고체-고체(S to Li2S) 전환 경로를 지배적으로 만들어 셔틀 효과를 근본적으로 차단한다. S@HES 캐소드는 0.1C에서 1319.3 mAh g-1의 용량과 1C/1000사이클에서 0.0458%/사이클의 낮은 용량 감쇠율을 보였으며, 파우치셀에서도 우수한 유연성과 안정적 사이클 성능을 나타냈다.",
       "relevant": true
     },
@@ -617,7 +629,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75403",
+        "cached": "img/W7225434404.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75403"
+      },
       "summary_ko": "리튬-산소 전지에서 귀금속 촉매가 유발하는 용량-가역성 간의 선형 트레이드오프를 비정질 비귀금속 고엔트로피 합금(MnFeCoNiCu, A-HEA) 촉매로 해결한 연구이다. 비정질 다공성 구조가 전기화학 활성 표면적을 넓혀 국부 전류밀도를 분산시키고 d-band center 최적화를 통해 과전압을 낮춰 결정질 대비 수명을 4~5배 연장했으며, 100g 이상 스케일 생산과 파우치셀에서 754 Wh kg-1(−30°C에서도 560 Wh kg-1)의 에너지밀도를 달성했다.",
       "relevant": true
     },
@@ -710,7 +728,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71816",
+        "cached": "img/W7225300710.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71816"
+      },
       "summary_ko": "전고체전지에서 리튬 도금/탈리 반복에 따른 응력 축적이 주요 셀 실패 원인임을 규명하고, 이를 완화하기 위한 기계적 적응형 Ag-탄소/탄소나노섬유(CNF) 하이브리드 음극을 제안했다. Ag-C 계면층은 Ag-Li 합금화를 통한 균일한 Li 핵생성을 유도하고 다공성 CNF 프레임워크는 체적 변화를 수용하며 응력을 분산시킨다. 고로딩 조건(~5 mAh cm-2)에서 250회 이상 안정적 사이클과 1~2 MPa의 실용적 스택 압력에서의 파우치셀 구동을 입증했다.",
       "relevant": true
     },
@@ -801,7 +825,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75620",
+        "cached": "img/W7225343114.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75620"
+      },
       "summary_ko": "리튬-황 전지에서 단일 금속 촉매로는 충족하기 어려운 폴리설파이드의 다단계 양방향 전환 반응을 위해 고엔트로피 상보적 d-band center 모델을 제안했다. 다중 금속의 상호 보완적 d-band center가 황종의 HOMO/LUMO를 정렬시켜 전자전달 균형과 환원 반응 속도론을 가속하며, 흡착-전환-탈착의 폐루프 경로를 구성해 셔틀 효과를 억제한다. 이를 기반으로 설계된 고엔트로피 셀레나이드 촉매는 우수한 사이클 안정성과 율속 성능을 달성했다.",
       "relevant": true
     },
@@ -1173,7 +1203,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79490",
+        "cached": "img/W7225234859.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79490"
+      },
       "summary_ko": "리튬-황 전지에서 폴리설파이드 셔틀 억제와 Li+ 탈솔베이션을 동시에 달성하기 위해 작용기를 분리 설계한 공유결합유기골격체(COF) 분자 트랩을 제안했다. 시아노기를 가진 CN-COF는 양극 측에서 황종을 가두고 전환 반응의 에너지 장벽을 낮추며, 아미독심 유도체 COF-AO는 음극 측에서 수소결합으로 용매 분자를 포획해 Li+ 탈솔베이션과 균일한 Li 증착을 돕는다. Li||Li 대칭셀은 5 mA cm-2/5 mAh cm-2에서 7000시간 안정 사이클을, 전지는 5C/900사이클에서 0.024%/사이클의 낮은 감쇠율을 보였다.",
       "relevant": true
     },
@@ -1401,7 +1437,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78593",
+        "cached": "img/W7225147341.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78593"
+      },
       "summary_ko": "P2형 Na0.67Ni0.33Mn0.67O2 소듐이온전지 양극에서 Li 도핑을 통해 국부 배위 환경과 전하 보상 경로를 조절하여 산소 레독스를 안정화했다. 18O 동위원소 표지 operando 전기화학 질량분석으로 Li 도핑이 격자 산소의 전해질 분해 참여를 억제하고 비가역적 산소 손실을 완화함을 확인했으며, Ni 레독스 활성을 높이고 고전압에서 전이금속-산소 결합을 완화시킨다. Li 도핑 양극(Na0.67Li0.2Ni0.23Mn0.67O2)은 초기 용량 116.6 mAh/g에 1C/400사이클 후 80%의 용량 유지율을 보여, 무도핑 대비(27%) 크게 향상되었다.",
       "relevant": true
     },
@@ -1870,7 +1912,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71782",
+        "cached": "img/W7225203339.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71782"
+      },
       "summary_ko": "소듐 금속전지의 저온 구동을 저해하는 열역학적 안정성과 운동학적 수송 사이의 트레이드오프를 비대칭 협동 솔베이션 구조(ACSS)로 해결한 전해질 연구이다. 강한 솔베이팅 솔벤트(DME)가 내부 코어에서 Na+와 음이온의 삼원 배위 클러스터를 형성해 엔탈피적 안정성을 확보하고, 약한 솔베이팅 솔벤트(DEE)가 외부 셸에서 빠른 리간드 교환을 통해 엔트로피적 이동성을 유지한다. 음이온이 많이 포획된 클러스터가 무기물 풍부 SEI를 형성해 덴드라이트와 계면 분극을 억제하며, -40°C에서 94%의 용량 유지율과 -30°C/-20°C에서 1.2 Ah급 하드카본 파우치셀의 장기 사이클을 입증했다.",
       "relevant": true
     },

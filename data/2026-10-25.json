@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79294",
+        "cached": "img/W7223650329.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79294"
+      },
       "summary_ko": "고불소화 폴리이미드와 KNN 압전세라믹을 전기방사/이미드화로 결합한 열적으로 견고한 압전 복합 분리막이 국소 전기장을 조절해 리튬 플럭스를 균일화하고 덴드라이트 성장을 억제, LiFePO4||Li셀이 2C에서 1900사이클 88.5% 용량유지율을 달성했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71736",
+        "cached": "img/W7223710547.jpg",
+        "tdm": true,
+        "license": "cc-by-nc",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71736"
+      },
       "summary_ko": "저온 합성된 Li2Ta2OCl10 리튬 탄탈륨 옥시클로라이드를 볼밀링으로 무질서화하여 이온전도도를 5000배 향상(11 mS/cm)시키고 활성화에너지를 0.46에서 0.27eV로 낮춰, 700사이클 20% 미만의 용량감쇄를 갖는 전고체 리튬메탈전지용 초이온성 전도체를 구현했다.",
       "relevant": true
     },
@@ -119,7 +131,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71740",
+        "cached": "img/W7223702959.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71740"
+      },
       "summary_ko": "α-나선 단백질과 PVA, 글리세롤을 가교한 바이오매스 유래 수계 바인더가 '분자 스프링'처럼 부피 팽창을 완충하고 폴리설파이드를 흡착, 리튬-황전지에서 600사이클 후에도 487.9 mAh/g(사이클당 0.056% 감쇄)의 안정적 성능을 달성했다.",
       "relevant": true
     },

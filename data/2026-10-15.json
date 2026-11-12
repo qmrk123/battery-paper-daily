@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71699",
+        "cached": "img/W7221959521.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71699"
+      },
       "summary_ko": "저융점 금속염 전구체를 이용한 동시분해 합성법으로 O3형 소듐이온 층상산화물 양극 내 잔류응력 축적을 억제, 장기 사이클 후에도 균일한 격자변형과 입자 무결성을 유지하는 전략을 제시했다.",
       "relevant": true
     },
@@ -173,7 +179,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79119",
+        "cached": "img/W7222493889.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79119"
+      },
       "summary_ko": "부피가 큰 분자 용매로 Na+ 주변 솔베이션 쉘의 용매 패킹을 제한하여 음이온 참여를 촉진, 무기물이 풍부한 계면을 형성해 고전압 소듐이온전지(NFS 양극)의 안정성을 높여 1407사이클 80% 용량유지율을 달성했다.",
       "relevant": true
     },

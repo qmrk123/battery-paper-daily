@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71705",
+        "cached": "img/W7221833928.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71705"
+      },
       "summary_ko": "β위치에 트리플루오로메틸을 치환한 카르복실레이트 에스터(MTFP) 전해질 용매를 설계, LNMO 고전압 양극과의 조합에서 6C 고속충방전 시 78% 용량유지율을 달성한 5V급 급속충전 리튬이온전지를 구현했다.",
       "relevant": true
     },
@@ -85,7 +91,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79048",
+        "cached": "img/W7221756613.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79048"
+      },
       "summary_ko": "Ir@Ni-MOF에 형성된 Ir-O-Ni 계면 결합이 전하 재분배와 d-band center 조절을 통해 Li2O2 형성·분해를 가속화, 0.76V의 낮은 과전압과 400사이클 안정성을 갖는 고가역성 Li-O2전지 촉매를 구현했다.",
       "relevant": true
     },
@@ -173,7 +185,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79030",
+        "cached": "img/W7221766754.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79030"
+      },
       "summary_ko": "PDVS 첨가제가 액상에서는 불순물(HF, 수분) 스캐빈저로, 고상에서는 Ni-rich NCM811 양극과 그라파이트 음극 양쪽에 Si 함유 계면을 형성하는 이중 역할을 하여, 2Ah 파우치셀의 45도 304사이클 92.81% 및 25도 1620사이클 86.5% 용량유지율을 달성했다.",
       "relevant": true
     },

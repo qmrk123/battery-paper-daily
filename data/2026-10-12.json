@@ -29,7 +29,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75260",
+        "cached": "img/W7221569473.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75260"
+      },
       "summary_ko": "불용성 리튬염을 아라미드 분리막에 고정한 IFP 플랫폼을 통해 기존 용해-확산 한계를 극복, Li2SO4(LS) 기반 얇고 LiF가 풍부한 SEI를 형성하여 Li||NCM90 셀 수명을 4배로, Li||LFP 셀에서 2400사이클 88.4% 용량유지율을 달성했다.",
       "relevant": true
     },
@@ -147,7 +153,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78972",
+        "cached": "img/W7221572034.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78972"
+      },
       "summary_ko": "압연 공정으로 제조한 Li-rich In3Li13 금속간화합물 음극이 리튬 덴드라이트 성장과 부피 변화를 억제하고 폴리설파이드 부반응을 줄여, 기존 리튬금속 대비 향상된 Li-S전지 사이클 안정성(600사이클 87.4% 용량유지율)을 달성했다.",
       "relevant": true
     },
@@ -177,7 +189,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78248",
+        "cached": "img/W7221595156.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78248"
+      },
       "summary_ko": "고-Ni NCM85 양극(82wt%)을 사용하는 건식 코팅 황화물 전고체전지에서 압출 혼합과 고전단 배치 혼합에 따른 코어-쉘형 입자 형성과 전극 미세구조 차이를 분석, 압출 혼합이 더 우수한 전기화학적 성능을 제공함을 보였다.",
       "relevant": true
     },
@@ -207,7 +225,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.78592",
+        "cached": "img/W7221542984.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.78592"
+      },
       "summary_ko": "머신러닝 기반 도펀트 설계로 Al-B-F를 공도핑한 P2형 소듐이온 양극을 개발, 산소 레독스를 안정화하고 거의 무변형(ΔV/V≈0.025%)으로 고전압에서 142.8 mAh/g, 저온 300사이클 98.19% 용량유지율을 달성했다.",
       "relevant": true
     },
@@ -237,7 +261,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1913760",
+        "cached": "img/W7221641478.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1913760"
+      },
       "summary_ko": "전자구름 조절을 통해 프리소디에이션 시약의 소듐 화학적 포텐셜을 정밀 제어하는 전략을 제시, 1-인다논을 최적 시약으로 선정하여 Na0.44MnO2 양극의 소듐 결핍을 과소디에이션 없이 보완했다.",
       "relevant": true
     },

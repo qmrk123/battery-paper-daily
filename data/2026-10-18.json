@@ -29,7 +29,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.202520711",
+        "cached": "img/W7222930366.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.202520711"
+      },
       "summary_ko": "소듐메탈전지의 주요 실용화 장벽과 SEI 형성 메커니즘을 정리하고, 용매/염/첨가제 공학 등 다양한 전해질 전략과 operando 분석·머신러닝 기법을 통한 소듐 계면 거동 해석을 종합한 리뷰이다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71719",
+        "cached": "img/W7222904411.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71719"
+      },
       "summary_ko": "V 자리에 Zr/Ti/Cr/Fe/Al 다원소를 도입해 M-O/F 결합 네트워크를 조절, 불소 손실에 따른 NVP 불순물을 완전히 제거하고 477 Wh/kg의 기록적 에너지밀도와 11000사이클 안정성을 갖는 Na3V2(PO4)2F3 양극을 구현했다.",
       "relevant": true
     },

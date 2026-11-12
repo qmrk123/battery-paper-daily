@@ -217,7 +217,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71782",
+        "cached": "img/W7225203339.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71782"
+      },
       "summary_ko": "소듐 금속전지의 저온 구동을 저해하는 열역학적 안정성과 운동학적 수송 사이의 트레이드오프를 비대칭 협동 솔베이션 구조(ACSS)로 해결한 전해질 연구이다. 강한 솔베이팅 솔벤트(DME)가 내부 코어에서 Na+와 음이온의 삼원 배위 클러스터를 형성해 엔탈피적 안정성을 확보하고, 약한 솔베이팅 솔벤트(DEE)가 외부 셸에서 빠른 리간드 교환을 통해 엔트로피적 이동성을 유지한다. 음이온이 많이 포획된 클러스터가 무기물 풍부 SEI를 형성해 덴드라이트와 계면 분극을 억제하며, -40°C에서 94%의 용량 유지율과 -30°C/-20°C에서 1.2 Ah급 하드카본 파우치셀의 장기 사이클을 입증했다.",
       "relevant": true
     }

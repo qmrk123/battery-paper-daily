@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79147",
+        "cached": "img/W7223141542.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79147"
+      },
       "summary_ko": "CTA+ 양이온을 버네사이트(δ-MnO2) 층간에 삽입해 Mn 3d-O 2p 오비탈 혼성화를 강화하고 Li+ 확산 채널을 확장, 리튬-황전지에서 3C 819.07 mAh/g 용량과 850사이클 안정성, 305.25 Wh/kg의 파우치셀 에너지밀도를 달성했다.",
       "relevant": true
     },

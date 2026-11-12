@@ -192,7 +192,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75568",
+        "cached": "img/W7225010888.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75568"
+      },
       "summary_ko": "코발트를 포함하지 않는 초고니켈 층상 양극에서 Li/Ni 혼합이 심화되는 문제를 공간적으로 정렬된 안티사이트(antisite) 배열의 열역학적 제어로 해결한 연구이다. DFT 스크리닝을 통해 Te6+가 공간적으로 상관된 안티사이트 구조를 가장 선호함을 밝히고, 이를 바탕으로 LiNi0.948Al0.045Te0.007O2를 합성해 결맞음 안티사이트 정렬 초격자 도메인을 구현했다. 이 도메인은 장기 사이클 후에도 유지되어 층간 결합을 강화하고 H2-H3 상분리 및 c축 수축을 억제하며, 4.4V 컷오프 1C/200사이클에서 96.7%, 4.6V 컷오프 100사이클에서 92%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -254,7 +260,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71779",
+        "cached": "img/W7224868175.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71779"
+      },
       "summary_ko": "니켈리치 층상 양극과 리튬 금속음극(LMA)을 결합할 때 발생하는 표면 환원 및 전이금속 용해로 인한 SEI 오염 문제를 니트릴 주 용매와 에테르 공용매, 희석제, 두 종의 보레이트 염을 조합한 전해질로 해결했다. 용매 간 이온 배위 경쟁을 통해 음이온이 우선적으로 SEI에서 분해되도록 하여 가역성을 높였으며, 고면적용량 양극(4.0 mAh cm-2)과 얇은 리튬 음극, 린 전해질, 고전압(≥4.4V) 조건에서 250사이클 80% 용량 유지율을, 4.6V/3.4 mAh cm-2 조건에서는 430사이클 87.5% 유지율을 달성했다. 또한 Ah급 무음극 파우치셀에서도 100사이클 78.7% 용량 유지율을 입증했다.",
       "relevant": true
     },
@@ -282,7 +294,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75335",
+        "cached": "img/W7224746829.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75335"
+      },
       "summary_ko": "니켈리치 층상산화물(NRLO, Ni≥80%) 양극의 원자, 구조, 계면 수준에서 발생하는 불균일한 Li+ 수송이 상변화, 미세균열, 표면 재구성 등 거시적 화학-기계적 퇴화로 이어지는 과정을 다룬 리뷰이다. 수송 균질화(transport homogenization)를 통합 설계 원칙으로 제시하며 벌크 구조 설계, 계면 수송 엔지니어링, 동적 수송 조절 등 다양한 전략을 수송 중심 관점에서 재해석하고, 수송 이질성을 정량화하는 특성분석 기법과 향후 예측적 설계 원칙 수립 방향을 논의한다.",
       "relevant": true
     },

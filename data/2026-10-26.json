@@ -115,7 +115,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-11",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79317",
+        "cached": "img/W7223852792.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79317"
+      },
       "summary_ko": "Nb-N4와 Zn-N4 이중 단원자 자리를 N,P 공동도핑 탄소섬유에 임베딩해 Nb가 폴리설파이드를 흡착·전환하고 Zn이 후속 Li2S 전환을 촉진하는 계단식 촉매 전략으로, 50도 및 영하 20도 광범위 온도에서도 500사이클 안정적인 리튬-황전지 성능을 구현했다.",
       "relevant": true
     },
