@@ -37,9 +37,6 @@ const NSC_VENUES = new Set([
   "Nature Energy", "Joule", "Energy & Environmental Science",
   "Nature Materials", "Nature Chemistry", "Nature Nanotechnology",
   "Nature Reviews Materials", "Nature Reviews Chemistry",
-  // Advanced Materials: IF on par with EES (user's call, 2026-11-11). AEM / Nature
-  // Communications stay out — a clear notch lower, and high-volume.
-  "Advanced Materials",
   // Science family minus Science Advances (none carry battery papers yet, but future-proof)
   "Science Translational Medicine", "Science Signaling", "Science Immunology", "Science Robotics",
 ]);
