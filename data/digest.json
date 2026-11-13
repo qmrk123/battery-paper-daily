@@ -1,12 +1,12 @@
 {
-  "title": "최근 2주 논문 브리핑 (11/2–11/10)",
-  "range": "2026-11-02 ~ 2026-11-10",
-  "overall": "이번 기간 연구는 계면·솔베이션 구조 설계와 무기물 풍부 SEI/CEI 형성을 통한 금속 음극 및 고전압 양극 안정화에 집중되었으며, 전고체·준고체 전해질과 음이온 레독스 제어, 고엔트로피 촉매가 주요 흐름으로 부상했다.",
+  "title": "최근 2주 논문 브리핑 (11/4–11/12)",
+  "range": "2026-11-04 ~ 2026-11-12",
+  "overall": "이번 2주간은 리튬 금속 음극의 계면·솔베이션 설계와 전고체화가 가장 활발했고, 소듐 금속 전지와 Li-S 등 변환형 양극에서도 계면 공학·촉매 설계가 두드러졌다. Li-rich 양극은 음이온 레독스 가역성과 표면 스피넬 패시베이션에 초점이 맞춰졌다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "솔베이션 구조 설계(코어-쉘·약배위·음이온 희박화)와 인공/복합 SEI를 통한 균일 증착과 덴드라이트 억제가 지배적 전략으로, LiF·Li3P·Li2O·Li3N 등 무기물 풍부 계면이 공통 키워드다. 전고체 방향에서는 황화물·복합 고체전해질의 이온전도도와 기계적 강성 확보, 그리고 저압·상온 구동을 위한 응력 완화(크리프 억제, 다공성 집전체, Ag-C 합금화)가 두드러졌다. 나아가 캘린더(저장) 수명을 좌우하는 비파라데이식 정적 부식을 정량화하거나, 완전 무불소 계면화학 및 자가치유 전해질로 지속가능성과 내구성을 함께 추구하는 흐름이 관찰된다. 다수 연구가 고로딩 NCM811·LFP 파우치셀 수준 검증으로 실용성을 강조한 점이 특징이다.",
+      "text": "리튬 금속 연구는 솔베이션 구조 제어와 인공 SEI·전해질 계면 설계로 수렴하고 있다. 코어-쉘·약배위·음이온 희박 솔베이션, 붕소/불소화 가교 고분자 전해질, LiZn·Si 구배·불소화 3D 계면 등 다양한 접근으로 균일 증착과 LiF·무기물 풍부 SEI를 유도한다. 전고체 방향에서는 황화물 복합 멤브레인, 자가치유 복합 전해질, 응력 완화형 Ag-탄소 음극 등 기계적 응력·저압 구동 문제를 다루며, 캘린더(저장) 수명의 비파라데이식 부식까지 정량 평가하는 흐름이 새롭게 나타났다.",
       "highlights": [
         {"title": "Core–Shell Solvation Structure Engineering Enables Practical Lithium Metal Batteries With 475 Wh Kg −1", "url": "https://doi.org/10.1002/adfm.79182", "venue": "Advanced Functional Materials"},
         {"title": "Nanofluid wetting of Cu enables thin lithium negative electrodes for high-energy and long-cycling lithium metal batteries", "url": "https://doi.org/10.1038/s41467-026-79376-x", "venue": "Nature Communications"},
@@ -16,40 +16,31 @@
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지 연구가 주류로, 단일 금속의 한계를 넘기 위한 고엔트로피 합금·황화물·셀레나이드 촉매와 d-band center 기반 전자구조 기술자(Epp·상보적 d-band)를 활용한 양방향 폴리설파이드 전환 가속이 공통된 접근이다. 전고체 Li-S에서는 고체-고체 접촉 한계를 극복하는 계면 촉매, COF 분자 트랩, PEO 기반 호스트로 셔틀 억제와 Li+ 탈솔베이션을 동시에 노린다. 한편 고전압 LiCoO2는 Co/O 레독스 활성의 상반된 제어, 유테틱 전해질, 피리돈 첨가제 등으로 용량-안정성 트레이드오프를 완화하고 있으며, Li-O2에서도 비귀금속 고엔트로피 촉매가 등장했다.",
+      "text": "Li-S를 중심으로 한 변환형 양극에서 촉매 전자구조 설계가 핵심 테마로 부상했다. 고엔트로피 합금·황화물·셀레나이드 촉매와 d-band center(또는 변환 피크 Epp) 기반 지표로 양방향 황 전환을 가속하고 셔틀을 억제하며, COF 분자 트랩처럼 폴리설파이드 포집과 Li+ 탈솔베이션을 분리 설계하는 접근도 등장했다. 전고체 Li-S에서는 계면 촉매(S-W-O)로 고체-고체 전환 경로를 복원했다. 한편 고전압 LiCoO2는 Co/O 레독스 분리와 전해질 첨가제·유테틱 전해질로 용량-안정성 트레이드오프를 공략했다.",
       "highlights": [
         {"title": "Catalytic Interphases Enable Sulfur Redox Catalysis in All-Solid-State Lithium–Sulfur Batteries", "url": "https://doi.org/10.1021/jacs.6c13825", "venue": "Journal of the American Chemical Society"},
         {"title": "Breaking the Capacity–Stability Trade-Off in High-Voltage LiCoO2 via Opposite Co/O Redox Activity", "url": "https://doi.org/10.1021/acsnano.6c15741", "venue": "ACS Nano"},
-        {"title": "Breaking the Capacity‐Reversibility Linear Trade‐Off in Li–O 2 Batteries via Amorphous Non‐Precious High‐Entropy Alloy Catalysts", "url": "https://doi.org/10.1002/adma.75403", "venue": "Advanced Materials"}
+        {"title": "Decoding Symmetry-Breaking Band Structures in Nanocatalysts for Kinetically Favorable Li-S Batteries", "url": "https://doi.org/10.1021/acsenergylett.6c02914", "venue": "ACS Energy Letters"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "NaF 풍부 계면 형성을 통한 Na+ 수송 촉진과 덴드라이트 억제가 핵심이며, 솔베이션 제어(비대칭 협동·약배위 LHCE)와 머신러닝 기반 첨가제 발굴, 기계적 맞물림 고분자·플루오로설파이드 ASEI 같은 계면 공학이 다양하게 시도되었다. 집전체 설계(나선형 CNF 3D 네트워크)와 난연성 준고체 전해질을 통한 무음극·고속·저온 구동 등 실용 지표가 강조되며, Na3V2(PO4)3 기반 셀에서 수만 회 수준의 초장수명이나 -40°C급 저온 성능이 반복적으로 보고된다.",
+      "text": "소듐 금속·무음극 전지에서는 NaF 풍부 무기질 계면 형성을 통한 Na+ 탈솔베이션 가속과 덴드라이트 억제가 공통 전략으로 자리잡았다. 머신러닝 기반 첨가제 발굴(NaCDFA), 약배위 희석제 기반 국소 고농도 전해질, 난연성 준고체 전해질, MoS2 유래 플루오로설파이드 계면, 다중위상 기계적 맞물림 고분자 ASEI 등 전해질·인공 SEI 설계가 주를 이루며, 일부는 수만 회 수준의 초장수명·극한 율속을 보고했다.",
       "highlights": [
         {"title": "Machine Learning-Driven Electrolyte Additive Discovery for Ultrafast Charging of Sodium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c10960", "venue": "Journal of the American Chemical Society"},
-        {"title": "Asymmetric Cooperative Solvation Structure Enables Entropy‐Enthalpy Compensation for Ultralow Temperature Sodium‐Metal and Sodium–Ion Pouch Cells", "url": "https://doi.org/10.1002/aenm.71782", "venue": "Advanced Energy Materials"},
+        {"title": "Weak‑Solvation‑Mediated Localized High‑Concentration Electrolyte for Sodium Metal Batteries", "url": "https://doi.org/10.1002/advs.78680", "venue": "Advanced Science"},
         {"title": "In Situ Constructed Fluorosulfided Interface With Metallic Mo Sites for Robust Anode‐Free Sodium Metal Batteries", "url": "https://doi.org/10.1002/adfm.79426", "venue": "Advanced Functional Materials"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "음이온(산소) 레독스의 가역성 확보가 핵심 과제로, F/S 이중 음이온 도핑과 벌크 불소화, 표면 스피넬 패시베이션 같은 계면·조성 제어로 산소 방출과 전압감쇠를 억제하는 연구가 집중되었다. 코발트-프리 조성에서 Li 화학양론과 Li2MnO3 나노도메인·안티사이트·스피넬 계면상의 상승효과를 규명하거나, 속도 특성의 다중스케일 병목과 동적 율속결정단계를 분석하는 등 메커니즘 이해가 심화되고 있다.",
+      "text": "Li-rich 망간계 양극은 음이온(산소) 레독스의 가역성 확보와 표면 안정화가 핵심 과제로 다뤄졌다. F/S 이중 음이온 도핑과 불소화 전구체 설계로 격자 변형·산소 방출을 억제하고, 전체 Li 화학양론 스크리닝을 통해 초격자 질서보다 계면 스피넬 패시베이션이 내구성의 결정 인자임을 밝혔다. 또한 속도 특성 저하를 전하전달-확산-구조열화의 다단계 병목으로 분해하는 리뷰도 제시되었다.",
       "highlights": [
         {"title": "Beyond Superlattice Order: Full‐Composition Li Stoichiometry Screening Identifies Interfacial Spinel Passivation as the Decisive Factor for Durable Cobalt‐Free Li‐Rich Cathodes", "url": "https://doi.org/10.1002/adfm.79560", "venue": "Advanced Functional Materials"},
         {"title": "Dual‐Anion Mutual‐Facilitation Effect Directs Surface Reconstruction for Reversible Anion Redox in Cobalt‐Free Li‐Rich Mn‐Based Cathodes", "url": "https://doi.org/10.1002/adfm.79532", "venue": "Advanced Functional Materials"},
         {"title": "Rate Capability of Lithium‐Rich Manganese‐Based Oxide Cathodes: Charge–Discharge Kinetics, Multiscale Bottlenecks, and Dynamic Rate‐Determining Steps", "url": "https://doi.org/10.1002/adma.75619", "venue": "Advanced Materials"}
-      ]
-    },
-    {
-      "topic": "ncm",
-      "heading": "NCM 양극",
-      "text": "고니켈 NCM811의 구조·안전성 개선이 중심으로, 세륨 도핑/코팅 동시 적용 같은 후처리 개질로 양이온 혼합 억제와 Li+ 확산 개선, 열폭주 지연을 동시에 달성하는 접근이 보고되었다. 또한 급속충전 시 전하 수용 한계가 농도 구배에 기인함을 과전압 분해로 규명하고 공용매(아세토나이트릴)를 통한 수송 개선을 제시하는 등 급속충전 메커니즘 분석도 이루어졌다.",
-      "highlights": [
-        {"title": "Post‐Synthetic Cerium Modification of Commercial NCM811 for Concurrent Cycling and Safety Upgrading", "url": "https://doi.org/10.1002/advs.78626", "venue": "Advanced Science"},
-        {"title": "Understanding Charge Acceptance Limitations During Extreme Fast‐Charging of Li‐ion Batteries", "url": "https://doi.org/10.1002/aenm.71806", "venue": "Advanced Energy Materials"}
       ]
     }
   ]
