@@ -215,7 +215,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-13",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.3309393",
+        "cached": "img/W7225769623.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.3309393"
+      },
       "summary_ko": "P2형과 P3형 Na0.6Li0.2Mn0.6Ti0.2O2 소듐 층상 산화물에서 산소 적층 구조가 고전압 산소 redox 플래토의 가역성을 좌우함을 규명했다. P3 구조는 산소형 적층 결함을 억제해 전이금속의 층간 이동을 막아 가역적 산소 redox를 가능케 하지만, P2 구조는 탈소듐화 시 O2상으로 전환되며 전이금속 이동과 구조 재배열이 심화되어 고전압 플래토를 상실한다.",
       "relevant": true
     },
@@ -301,7 +307,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-13",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75615",
+        "cached": "img/W7225829713.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75615"
+      },
       "summary_ko": "가교형 고분자 전해질에서 단량체의 Li+ 친화도를 조절해 양이온 수송의 '마찰'을 낮추는 전략을 제시한다. 배위력이 약한 불화에테르 세그먼트를 도입해 Li+ 이동 속도를 높였고, 저전해질량 조건에서도 NCM811/Li 및 NCM955/Li 파우치셀이 넓은 온도범위에서 장수명 사이클 성능을 보였다.",
       "relevant": true
     },
