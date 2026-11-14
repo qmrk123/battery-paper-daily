@@ -1,8 +1,176 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-13T01:46:05+00:00",
-  "count": 169,
+  "generated_at": "2026-11-14T01:21:21+00:00",
+  "count": 180,
   "papers": [
+    {
+      "id": "crossref:10.1039/d6ee03222b",
+      "source": "crossref",
+      "title": "Unlocking the Energy Potential of Lithium: From Rechargeable Batteries to Future Nuclear Technologies",
+      "url": "https://doi.org/10.1039/d6ee03222b",
+      "published": "2026-11-13",
+      "topics": [],
+      "doi": "10.1039/d6ee03222b",
+      "authors": [
+        "Yu-Hui Zhu",
+        "Yu-Guo Guo",
+        "Sen Xin"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Over the past three decades, lithium has revolutionized electrochemical energy storage via the widespread deployment of rechargeable lithium-ion batteries, profoundly reshaping global energy consumption patterns. In this Perspective, we reclaim...",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "리튬은 지난 30년간 리튬이온전지의 광범위한 보급을 통해 전기화학 에너지 저장 분야에 혁신을 가져오며 전 세계 에너지 소비 패턴을 근본적으로 변화시켰다. 이 퍼스펙티브 논문은 리튬이 기존 2차전지를 넘어 미래 원자력 기술에까지 활용될 잠재력을 조명한다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225861866",
+      "source": "openalex",
+      "title": "Anion manipulation for breaking through 3.0 V of aluminium–graphite batteries",
+      "url": "https://doi.org/10.1038/s41467-026-79156-7",
+      "published": "2026-11-13",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79156-7",
+      "authors": [
+        "Ke Guo",
+        "Zheng Huang",
+        "Wei Alex Wang",
+        "Wei‐Li Song",
+        "Shuqiang Jiao"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79156-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "알루미늄-흑연전지에서 3.0V 전압 장벽을 극복하기 위한 음이온 제어 전략을 다룬 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225858319",
+      "source": "openalex",
+      "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
+      "url": "https://doi.org/10.1038/s41467-026-79595-2",
+      "published": "2026-11-12",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79595-2",
+      "authors": [
+        "Weijia Tang",
+        "Zixian Wei",
+        "Ting He",
+        "Haoyu Huang",
+        "Xin He",
+        "Su Wu"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Thin-film lithium niobate (TFLN) is a promising photonic platform in next-generation integrated optoelectronics and on-chip/chip-chip interconnection due to its attractive optical property and versatility. However, integration of conventional-material-based photodetectors on TFLN platforms still faces multiple challenges. Herein, a high-bandwidth TFLN-based waveguide-integrated lateral WSe 2 p-i-n photodetector is presented. The localized self-aligned doping process eliminates slow carrier diffusion and defect trapping in doped regions which further boosts modulation bandwidth. Secondly, n-type and p-type Ohmic contacts, along with a high-quality p-n junction, are achieved through Se vacancy defect engineering and high-work function molybdenum oxide buffer layer, respectively. Furthermore, combined with the high dielectric constant of lithium niobate suppressing ionized impurity scattering, carrier mobilities exceeding 350 cm 2 /V·s are achieved for both electrons and holes, significantly accelerating carrier drift. The device features a measured bandwidth of 1.12 GHz and a data rate up to 10 Gbit/s in visible light. Separately, the device achieves a responsivity of ~492 mA·W −1 and a near-unity external quantum efficiency of 95.6% at 638 nm. This combination of two-dimensional homostructure and TFLN nano-waveguides provides a basis for high-speed photodetectors and visible-light interconnections in future TFLN integrated optoelectronics and optical input/output applications.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79595-2",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "박막 리튬나이오베이트(TFLN) 플랫폼에 텅스텐셀레나이드(WSe2) p-i-n 광검출기를 집적하여 10Gbit/s급 데이터 수신이 가능한 광소자를 구현한 연구이다. 자기정렬 도핑과 Se 공공 결함 제어를 통해 고품질 p-n 접합과 우수한 캐리어 이동도를 달성하였으며, 638nm에서 95.6%의 양자효율을 보였다. 배터리 소재와는 무관한 광전자 소자 분야의 연구이다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225918645",
+      "source": "openalex",
+      "title": "Regulation of Anionic Redox Reaction Voltage by Energy Band Modulation for Li-Rich Cathodes",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02703",
+      "published": "2026-11-12",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1021/acsenergylett.6c02703",
+      "authors": [
+        "Jie Sun",
+        "Chunyu Chen",
+        "Jinlong Liu",
+        "Yuchen Wang",
+        "Dong Yang",
+        "Lingling Guo"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Anionic redox reaction (ARR) promises high energy density for Li-rich cathodes yet suffers from severe voltage decay. Here, we investigate ARR voltage modulation in a Li2S-modified quasi-solid Li-rich cathode (Li2S-LRM), which exhibits a distinct low-voltage ARR plateau (2.0–2.8 V). Combining in situ XRD, S K-edge XANES, EELS, Ar-etched XPS and DFT calculations, we validate in situ electrochemical sulfur doping. Upon cycling, the material forms bulk LixS/Li–S–O species alongside a dominant Li2SO3/Li2SO4 polyanion interphase that realizes oxygen trapping. Vacancy-cluster formation facilitates reversible S-involved charge compensation, where sulfur redox activity progressively intensifies during long cycling. Enabled by the band-modulation and oxygen-trapping effects, Li2S-LRM achieves a high average Coulombic efficiency of 99.6% and suppressed voltage decay (0.28 vs. 0.83 mV cycle–1 for pristine LRM). This work deepens mechanistic insights into ARR and provides rational design guidance for high-performance anionic-redox cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "Li2S를 도입한 준고체 Li-rich 양극(Li2S-LRM)에서 음이온 레독스 반응(ARR) 전압을 조절한 연구이다. 사이클 중 Li2SO3/Li2SO4 계면이 형성되어 산소 트래핑을 유도하였으며, 이를 통해 평균 쿨롱 효율 99.6%와 전압 감쇄 억제(0.28 대 0.83 mV/cycle)를 달성하였다. 밴드 조절과 산소 트래핑 효과를 통해 고성능 음이온 레독스 양극 설계를 위한 메커니즘적 통찰을 제공한다.",
+      "relevant": true
+    },
+    {
+      "id": "W7225893580",
+      "source": "openalex",
+      "title": "Hybrid Weakly Coordinated Solvents for Fast-Charging and Wide-Temperature Sodium-Ion Full Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c15956",
+      "published": "2026-11-12",
+      "topics": [],
+      "doi": "10.1021/jacs.6c15956",
+      "authors": [
+        "Yun Wan",
+        "Xiaoyan Shi",
+        "Yuerong Li",
+        "Zhiming Zhou",
+        "Xu Xu",
+        "Xinhui Zeng"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract The application of sodium-ion batteries (SIBs) in wide-temperature and fast-charging scenarios is severely constrained by the performance limitations of electrolytes. Conventional ester-based electrolytes struggle to simultaneously achieve high ionic conductivity, low desolvation energy, and excellent interfacial stability. Herein, we propose a hybrid solvent system comprising ethyl propionate and ethoxy(pentafluoro)cyclotriphosphazene (PFPN), aiming to synergistically enhance the rate capability and temperature adaptability of SIBs. The relatively weak coordination ability of both solvents effectively promotes anion participation in solvation structure, significantly lowering the Na+ desolvation energy barrier and inducing the formation of stable, inorganic-rich electrode/electrolyte interphases. Meanwhile, the dual-solvent combination increases the diversity of solvation configurations and reduces ion clustering, thereby enhancing ionic conductivity. The intrinsic nonflammability and excellent film-forming ability of PFPN further enhance safety and synergistically strengthen interfacial stability. Therefore, Prussian blue||hard carbon full cells operate stably over a wide temperature range from −50 to 100 °C. Notably, ampere-hour-level pouch cells deliver a capacity retention of 86.3% after 300 cycles at 25 °C and maintain stable operation for over 100 cycles even at −20 and 80 °C. This solvent synergy strategy offers a practical new pathway for the development of electrolytes for SIBs in extreme environments.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "에틸프로피오네이트와 PFPN을 결합한 약배위 하이브리드 용매 시스템을 제안하여 나트륨이온전지의 고속 충전 및 광범위 온도 성능을 향상시킨 연구이다. 약한 용매 배위력으로 음이온이 솔베이션에 참여하도록 유도해 탈솔베이션 에너지를 낮추고 무기물 위주의 안정적 계면을 형성시켰다. 프러시안블루||하드카본 파우치셀은 -50~100°C의 넓은 온도범위에서 작동하며 25°C 300사이클 후 86.3%의 용량 유지율을 보였다.",
+      "relevant": false
+    },
+    {
+      "id": "W7225876534",
+      "source": "openalex",
+      "title": "Engineering Ultrathin, Tough Polymer Networks for Stable Lithium Metal Anode Interphases",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02511",
+      "published": "2026-11-12",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02511",
+      "authors": [
+        "Hyoseok So",
+        "Changhoon Ahn",
+        "Keonwoo Choi",
+        "Hyunsub Song",
+        "Yoobin An",
+        "임지훈"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Interfacial degradation and dendritic lithium (Li) growth remain critical bottlenecks for practical Li metal batteries (LMBs). Herein, we introduce a tough, ion-conductive poly(2-(dimethylamino)ethyl methacrylate) (pDMAEMA) nanolayer on Li metal via photo-initiated chemical vapor deposition (piCVD). The photo-mediated, solvent-free piCVD enables nanometer-scale coatings with systematic control over photo-crosslinking and chain entanglement without compromising Li surface integrity. This systematic control yields an optimized polymer network balancing toughness (36.3 MJ m–3) and viscoelasticity (10.3% linear viscoelastic strain limit) to accommodate repeated Li volume changes. Furthermore, interactions between pDMAEMA and PF6– anions promote a mechanically durable LiF-rich solid electrolyte interphase, thereby supporting uniform Li deposition. Pouch-type bi-cells employing the optimized 100 nm polymer-coated Li anode achieve an energy density of 338 Wh kg–1 and 80% capacity retention after 90 cycles under practical conditions (N/P = 2, E/C = 3 g Ah–1). This ultrathin, tough polymer network offers a promising design principle for high-energy LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "광개시 화학기상증착(piCVD)을 이용해 리튬 금속 표면에 초박막의 질기고 이온전도성이 있는 pDMAEMA 고분자 나노층을 형성하여 리튬금속전지의 계면 안정성을 개선한 연구이다. 이 고분자망은 높은 인성(36.3 MJ/m³)과 점탄성을 가지며 PF6- 음이온과 상호작용해 LiF가 풍부한 기계적으로 견고한 SEI 형성을 유도한다. 100nm 코팅된 리튬 음극을 적용한 파우치형 바이셀은 338 Wh/kg의 에너지밀도와 90사이클 후 80%의 용량 유지율을 달성하였다.",
+      "relevant": true
+    },
     {
       "id": "crossref:10.1039/d6ee05977e",
       "source": "crossref",
@@ -32,6 +200,34 @@
       "relevant": true
     },
     {
+      "id": "W7225851150",
+      "source": "openalex",
+      "title": "Anion Sublattice Engineering Induced Niobium-Tungsten Oxide with Near-Zero Residual Strain for Stable 100 C Cycling Capability",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02761",
+      "published": "2026-11-12",
+      "topics": [],
+      "doi": "10.1021/acsenergylett.6c02761",
+      "authors": [
+        "Lihua Wei",
+        "Shenglu Geng",
+        "Ruofan Yang",
+        "Yanbin Ning",
+        "Haoqing Zheng",
+        "Yueyue Liu"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Abstract Wadsley-Roth W3Nb14O44 is a fast-charging anode material but suffers from low electronic conductivity and electrochemical polarization. Here, anion-sublattice engineering is employed to regulate its electronic structure and Li+ storage kinetics. Density functional theory and kinetic analyses reveal that an appropriate concentration of oxygen vacancies enhances electronic conductivity, moderates Li+ adsorption, and facilitates Li+ diffusion, thereby reducing charge-transfer and diffusion impedances at low temperatures. In situ XRD and synchrotron radiation X-ray 3D nanocomputed tomography reveal reversible structural evolution with near-zero residual strain after cycling. Consequently, WNO-x delivers 77.4 mAh g–1 at 200 C and retains 72.6% capacity after 6000 cycles at 100 C while exhibiting low-temperature electrochemical activity. Moreover, the WNO-x||LiNi0.8Co0.1Mn0.1O2 full cell delivers 85.8 mAh g–1 at 20 C and retains 77.1% capacity after 3000 cycles, with cycling capability at –30 °C. Such structure-property insight provides a strategy for designing niobium-based oxide anodes toward fast-charging and low-temperature batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "Wadsley-Roth 구조의 W3Nb14O44 음극 소재에 음이온(산소 공공) 서브격자 엔지니어링을 적용하여 전자전도성과 Li+ 확산 속도를 개선한 연구이다. 이를 통해 거의 0에 가까운 잔류 변형으로 100C에서 6000사이클 후 72.6%의 용량을 유지하였으며, 200C에서 77.4 mAh/g의 용량을 보였다. NCM 양극과의 풀셀에서도 20C에서 85.8 mAh/g 용량과 -30°C 저온 구동성을 확인하였다.",
+      "relevant": false
+    },
+    {
       "id": "W7225835189",
       "source": "openalex",
       "title": "Zero-excess sodium-metal batteries for post-lithium energy storage",
@@ -56,7 +252,12 @@
       "journal_id": "S5407042882",
       "journal_metric": 13.75,
       "first_seen": "2026-11-13",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44359-026-00234-6/MediaObjects/44359_2026_234_Fig1_HTML.png",
+        "cached": "img/W7225835189.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Clean Technology — https://doi.org/10.1038/s44359-026-00234-6"
+      },
       "summary_ko": "소듐을 과잉으로 사용하지 않는(zero-excess) 소듐 금속 전지 구조에 관한 연구로, 포스트 리튬 시대의 에너지 저장을 위한 소듐 금속 음극 설계를 다루는 것으로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -114,7 +315,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-13",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79413-9/MediaObjects/41467_2026_79413_Fig1_HTML.png",
+        "cached": "img/W7225817548.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79413-9"
+      },
       "summary_ko": "4전자 요오드 redox 화학을 이용한 Li-I2 전지에서, 산화 시 친전자성으로 환원 시 친핵성으로 전환되는 극성 스위칭 프탈이미드 분자를 도입해 폴리아이오다이드 셔틀링을 억제하고 반응성이 높은 I+ 종을 안정화한다. 이를 통해 높은 비에너지와 1000회 이상의 안정적 사이클 수명을 갖는 플렉시블 파우치셀을 구현했다.",
       "relevant": true
     },
@@ -142,7 +348,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-11-13",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11282-0/MediaObjects/41586_2026_11282_Fig1_HTML.png",
+        "cached": "img/W4410835161.jpg",
+        "license": "cc-by",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11282-0"
+      },
       "summary_ko": "할로겐 함유 전해질 없이도 수계 Zn-I2, Al-I2 전지에서 가역적인 4전자 요오드 전환을 구현하는 코스모트로픽 음이온-극성 음이온-친핵종 기반 전해질 프레임워크를 제시한다. 리튬이나 소듐이 아닌 아연/알루미늄 기반 수계 할로겐 전지에 관한 연구다.",
       "relevant": false
     },
@@ -2657,6 +2868,34 @@
       "relevant": true
     },
     {
+      "id": "W7225861055",
+      "source": "openalex",
+      "title": "pH Buffering Strategy for Carboxylate Ligand in Aqueous All-Iron Redox Flow Batteries",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112607",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.nanoen.2026.112607",
+      "authors": [
+        "Ziyan Yuan",
+        "Renjing Liu",
+        "Xiaoyi Wang",
+        "Shouhui Wang",
+        "Yuhao Cai",
+        "Mingming Yin"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "수계 전철(all-iron) 레독스 흐름전지에서 카르복실레이트 리간드의 pH 완충 전략을 다룬 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7215098128",
       "source": "openalex",
       "title": "Wireless battery-free deep brain stimulators with extendable microelectrode probes",
@@ -2798,6 +3037,34 @@
       "first_seen": "2026-11-07",
       "image": null,
       "summary_ko": "다성분 층상 산화물을 확산 제한 재구성 과정을 통한 열역학적 분할 엔지니어링으로 제어하는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": false
+    },
+    {
+      "id": "W7225917531",
+      "source": "openalex",
+      "title": "Tailored Stereo‐Configuration of Crosslinkable Polyester‐Based Solid Polymer Electrolytes for All‐Solid‐State and Binder‐Free Li Metal Batteries (Adv. Sci. 63/2026)",
+      "url": "https://doi.org/10.1002/advs.78470",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1002/advs.78470",
+      "authors": [
+        "Hyun Jun Song",
+        "Jeong Yoon Kim",
+        "Sungpyo Hong",
+        "Yong Hui Kim",
+        "Myeong Gyun Nam",
+        "Jeongwon Ho"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": null,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78470",
+      "license": "cc-by-nc",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "전고체 및 바인더리스 리튬금속전지를 위한 가교 가능한 폴리에스터 기반 고체 고분자 전해질의 입체구조를 조절한 연구이다. (제목 기반 추정)",
       "relevant": false
     },
     {
@@ -3446,6 +3713,34 @@
       "relevant": true
     },
     {
+      "id": "W7225880832",
+      "source": "openalex",
+      "title": "Micron-sized silicon anodes for high-energy lithium-ion batteries",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.065",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.065",
+      "authors": [
+        "Yu Liu",
+        "Yifan Xu",
+        "Lei Chen",
+        "Fengrui Liu",
+        "Hui Zhang",
+        "Shi Luo"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "고에너지밀도 리튬이온전지를 위한 마이크론 크기 실리콘 음극에 관한 연구이다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7225088396",
       "source": "openalex",
       "title": "Mastering interfacial stability in solid-state batteries via flux-matching between lithium deposition and creep rate",
@@ -3716,6 +4011,34 @@
       "first_seen": "2026-11-06",
       "image": null,
       "summary_ko": "벤질-하이드록실기를 이용해 피치(pitch)를 효율적으로 가교시켜 소듐 저장 성능을 개선하는 탄소계 음극 소재 전략을 다룬 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
+      "id": "W7225862613",
+      "source": "openalex",
+      "title": "Hard carbon anodes for sodium-ion batteries: from sodium storage mechanisms to multi-dimensional performance optimization strategies",
+      "url": "https://doi.org/10.1016/j.jechem.2026.10.058",
+      "published": "2026-11-01",
+      "topics": [],
+      "doi": "10.1016/j.jechem.2026.10.058",
+      "authors": [
+        "Gaoyun Liu",
+        "Wangbing Wang",
+        "Niyizhen Wu",
+        "Quanping Fang",
+        "彭稼松",
+        "Yongming Lai"
+      ],
+      "venue": "Journal of Energy Chemistry",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2500128275",
+      "journal_metric": 16.06,
+      "first_seen": "2026-11-14",
+      "image": null,
+      "summary_ko": "나트륨이온전지용 하드카본 음극의 저장 메커니즘과 다차원적 성능 최적화 전략을 다룬 리뷰 논문이다. (제목 기반 추정)",
       "relevant": false
     },
     {
