@@ -29,7 +29,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79610",
+        "cached": "img/W7226023448.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79610"
+      },
       "summary_ko": "리튬 금속 전지의 젤 고분자 전해질(GPE)에서 첨가제 기반 반(semi) 상호침투 네트워크(IPN)를 형성하는 전략을 제안했다. 첨가제와 고분자 host의 상호작용을 통해 Li+ 솔베이션 쉘을 재구성하고 계면 화학-역학적 특성을 동시에 개선하여, 단순 농도 증가 방식의 한계를 극복하고 고전압 Li 금속 전지 성능을 향상시켰다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79608",
+        "cached": "img/W7226007610.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79608"
+      },
       "summary_ko": "소듐이온전지용 프러시안블루 유사체(PBA) 양극재에 대한 종합 리뷰이다. PBA의 개방형 골격 구조, 조절 가능한 레독스 자리, 저비용 합성 장점을 다루며, 결정 구조·상전이 거동·Na+ 이동 경로가 단일/이중 전자전달 구성에서 용량과 사이클 안정성의 균형에 미치는 영향을 분석했다.",
       "relevant": true
     },
@@ -154,7 +166,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79602",
+        "cached": "img/W7226000121.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79602"
+      },
       "summary_ko": "NASICON형 LATP 고체전해질과 리튬 금속 계면에서 발생하는 환원 반응, 전자 누설, 접촉 불균일 문제를 해결하기 위해 알루미늄 옥소 클러스터(AlOC) 전구체를 리튬 금속 표면에 도입했다. 이 전구체 계면층은 정적 차단 방식이 아닌 사이클링에 의해 유도되는 전기화학적 재구성을 통해 안정적인 전고체 리튬 금속 전지를 구현했다.",
       "relevant": true
     },
@@ -184,7 +202,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79625",
+        "cached": "img/W7226006832.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79625"
+      },
       "summary_ko": "Ge를 사용하지 않는 저비용 황화물 고체전해질 Li10SnP2S12(LSPS)의 리튬 금속 호환성과 계면 안정성을 개선하기 위해 In3+로 P5+ 자리를 부분 치환했다. 구조 분석과 이론 계산을 통해 치환이 황 음이온 주변 전자 밀도를 높여 전자 구조를 조절함을 확인했으며, 이를 통해 전고체전지의 장수명 사이클링을 구현했다.",
       "relevant": true
     },
@@ -214,7 +238,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75747",
+        "cached": "img/W7225987107.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75747"
+      },
       "summary_ko": "집전체 없이 자기지지(self-supporting) 가능한 초박형 리튬 금속박(50 µm 이하)을 구현하기 위해 LiB0.88 마이크로로드 배열을 포함한 Li-B-Mg 복합 합금 포일을 개발했다. 순차적 용융 합금화와 고상 열기계 공정을 통해 리튬 금속의 기계적 취약성 문제를 해결하여 고에너지밀도 전지에 적용 가능한 초박형 리튬 음극을 제작했다.",
       "relevant": true
     },
@@ -274,7 +304,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71820",
+        "cached": "img/W7226023683.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71820"
+      },
       "summary_ko": "리튬 금속 전지의 처리성과 안정성을 높이기 위한 비리튬 성분 합금 음극 제작에서, 기존 공정의 느린 젖음 속도 문제를 해결하고자 '임플로전-팝콘 반응'이라는 초고속 자발 반응을 이용해 수초 내에 3상 리튬 합금을 제조하는 방법을 제안했다. 이 방법은 센티미터 스케일 전구체를 폭발적으로 분해해 상 불균일과 성분 응집을 억제했다.",
       "relevant": true
     },
@@ -304,7 +340,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79644",
+        "cached": "img/W7226019490.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79644"
+      },
       "summary_ko": "탄산염 전해질의 가연성과 리튬 금속 음극의 높은 반응성 문제를 해결하기 위해 에테르 산소(C-O-C) 기능기를 피롤리디늄계 이온성 액체(IL) 양이온의 알킬 측쇄에 도입했다. 이 분자 수준 개질로 양이온-음이온 상호작용을 약화시켜 점도를 낮추고 Li+ 수송을 개선함으로써, 535 Wh/kg급 본질적으로 안전한 리튬 금속 전지를 구현했다.",
       "relevant": true
     },
@@ -335,7 +377,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75712",
+        "cached": "img/W7225995184.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75712"
+      },
       "summary_ko": "층상 산화물 양극에서 격자 산소 산화로 생성되는 산소 중심 홀 상태의 표면 불안정성이 산소 손실과 계면 재구성을 유발하는 문제를 다뤘다. 계면에서 동적인 S-O 결합을 형성해 전자를 가역적으로 가두는(electron confinement) 전자 구조 조절 전략을 개발하여 산소 레독스를 안정화시켰다.",
       "relevant": true
     },
@@ -395,7 +443,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-15",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75687",
+        "cached": "img/W7226034162.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75687"
+      },
       "summary_ko": "리튬 금속 전지의 비가역적 덴드라이트 성장으로 인한 수명 저하 문제를 해결하기 위해, 리튬 돌기(protrusion) 부위를 표적하는 확장 가능한 전해질을 설계했다. 자리 선택적 차단 분자가 돌출된 리튬 증착 부위에 우선적으로 흡착해 국소 증착 속도를 억제함으로써 덴드라이트 형성을 초기에 차단하며, 500 Wh/kg급에서 500회 사이클 안정성을 달성했다.",
       "relevant": true
     },
