@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T00:54:49+00:00",
+  "count": 13,
+  "papers": [
+    {
+      "id": "W7229797157",
+      "source": "openalex",
+      "title": "Unveiling the Intrinsic Disparity of Ethylene Carbonate and Fluoroethylene Carbonate in Lithium Metal Battery Exceeding 600 Wh kg −1",
+      "url": "https://doi.org/10.1002/anie.6121408",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.6121408",
+      "authors": [
+        "Lixuan Yang",
+        "Bin Xie",
+        "Shenghang Zhang",
+        "Xiangchun Zhuang",
+        "Hongquan Liu",
+        "Fanteng Meng"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium metal batteries (LMBs) are widely considered as the “holy grail” of battery technology, with the potential to achieve energy density exceeding 600 Wh kg −1 . Nevertheless, the inherently high reactivity of Li anode drives persistent electrolyte consumption and thereby rapid capacity degradation of LMBs. Here, it is disclosed that simply replacing ethylene carbonate (EC) with fluoroethylene carbonate (FEC) significantly extends the lifetime of LMBs. Compared to LiPF 6 ‐EC based electrolyte, LiPF 6 ‐FEC based electrolyte enhances the cycling stability of LiNi 0.8 Co 0.1 Mn 0.1 O 2 ||Li LMBs and enables the 11.13 Ah LiNi 0.95 Co 0.02 Mn 0.03 O 2 ||Li pouch cell to deliver 601.2 Wh kg −1 with stable cycling over 100 cycles. Yet, the intrinsic mechanism disparity of EC and FEC in LMBs remains unclear. Through correlated characterizations, we reveal that EC tends to generate highly soluble low‐molecular‐weight carbonate species, whereas FEC tends to form a LiF‐rich solid electrolyte interphase (SEI) layer containing high‐molecular‐weight lithiated polymers with carbon backbones, possessing dissolution resistance to protect Li anode. Inspired by these polymers, we further construct artificial SEI layers by integrating rubber polymers with LiF to stabilize Li anode. This work elucidates the intrinsic disparity of EC and FEC in LMBs and highlights solvent engineering and artificial SEI layer construction as effective strategies toward high‐energy‐density LMBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "EC와 FEC 전해질이 리튬 금속 음극 계면에 미치는 근본적 차이를 규명한 연구이다. EC는 가용성이 높은 저분자량 카보네이트 부산물을 생성하는 반면, FEC는 LiF가 풍부하고 탄소 골격의 고분자량 리튬화 중합체를 포함해 용해에 강한 SEI를 형성함으로써 Li 음극을 보호한다. 이 원리를 바탕으로 러버 고분자와 LiF를 결합한 인공 SEI층을 설계했으며, LiNi0.95Co0.02Mn0.03O2||Li 파우치셀에서 601.2 Wh/kg의 에너지 밀도와 100사이클 안정 구동을 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7231089352",
+      "source": "openalex",
+      "title": "Unraveling the Intrinsic Interfacial Chemistry of Fluoroethylene Carbonate on Lithium Metal Anodes via a Solvent-Free Model System",
+      "url": "https://doi.org/10.1021/jacs.6c16437",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/jacs.6c16437",
+      "authors": [
+        "Nanbiao Pei",
+        "Yuan Tian",
+        "Xueying Yang",
+        "Qijie Gao",
+        "Yaqi Zhang",
+        "Zhibin Lin"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Abstract Fluoroethylene carbonate (FEC) is a widely used film-forming additive for stabilizing lithium metal anodes (LMAs), yet its intrinsic interfacial chemistry remains elusive because its reactions are coupled with those of solvents and Li salts in conventional electrolytes. Herein, a solvent-free, dry-processed poly(ethylene oxide)-based solid polymer electrolyte (PEO@Dry) is developed as a platform to isolate the interfacial reactions of FEC without interference from traditional liquid organic solvents. PEO@Dry retains the intrinsic interfacial reactivity of PEO and LiTFSI while eliminating solvent-derived interference. FEC is found to undergo a spontaneous chemical reaction with Li metal before electrochemical reduction, producing a dense LiF-rich solid electrolyte interphase (SEI) that is subsequently reinforced by organic species derived from the electrochemical reactions. The resulting SEI exhibits a well-defined composition and robust structure, leading to an enhanced interfacial stability and electrochemical performance. Comparative research with a DME-based liquid electrolyte reveals that FEC (DME@FEC) follows distinct reaction pathways depending on its solvation state. In the solvent-free PEO@Dry system, free FEC undergoes sequential chemical and electrochemical reduction to form an inorganic-rich SEI, whereas in the liquid electrolyte, FEC participates in Li+ solvation and competes with other electrolyte components, yielding a more complex SEI. This work clarifies the interfacial mechanism of FEC and establishes a general solvent-free platform for mechanistic studies of electrolyte additives on LMAs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "용매가 없는 PEO 기반 고체 고분자 전해질(PEO@Dry)을 플랫폼으로 사용해 FEC가 리튬 금속 음극과 반응하는 고유한 계면화학을 용매 간섭 없이 분리 분석했다. FEC는 전기화학적 환원 전 Li 금속과 자발적으로 반응해 LiF가 풍부한 SEI를 먼저 형성하며, 이후 전기화학 반응으로 생성된 유기 성분이 이를 추가로 보강한다. DME 기반 액체 전해질과 비교하면 FEC는 용매화 상태에 따라 서로 다른 반응 경로를 거쳐, 액체계에서는 더 복잡한 SEI가 형성됨을 밝혔다.",
+      "relevant": true
+    },
+    {
+      "id": "W7229894298",
+      "source": "openalex",
+      "title": "Spin‐State Regulation Engineering of Pyrophosphate‐Based Polyanionic Cathodes for Ultra‐Long‐Life Sodium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adma.75698",
+      "published": "2026-11-14",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adma.75698",
+      "authors": [
+        "Sharad Dnyanu Pinjari",
+        "Tasdique Arman",
+        "Ipsita Pal",
+        "Malavika Aarayil",
+        "Aprameyan Veeraraghavan",
+        "Subhajit Singha"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Developing sodium‐ion cathodes that combine high energy density with ultralong cycling stability requires structural regulation beyond conventional surface modification or single‐site doping. Here, a spin‐state regulation strategy is introduced for iron‐based pyrophosphate cathodes by synergistically substituting Mn and F into Na 3.12 Fe 2.44 (P 2 O 7 ) 2 . The resulting Na 2.92 Fe 2.24 Mn 0.2 (P 2 O 6.9 F 0.1 ) 2 (NFMnPF) modulates an intermediate‐spin Fe 2+ configuration that redistributes charge within the Fe─O─P framework and promotes cooperative Fe─O/Mn─O bond evolution during Na + insertion/extraction. Magnetic susceptibility, Mössbauer spectroscopy, electron paramagnetic resonance, UV‐vis diffuse reflectance spectroscopy, conductivity measurements, in situ x‐ray diffraction, and density functional theory collectively support this electronic structural coupling, revealing narrowed electronic band gap, reduced Na + migration barrier, suppressed volume variation, and highly reversible lattice evolution. As a result, the co‐doped cathode delivers 115.75 mAh g −1 at 0.1 C, an energy density of 336 Wh kg −1 , and exceptional high‐rate durability, retaining 70% capacity after 24 000 cycles at 10 C and 80.93% after 10 000 cycles at 20 C. A hard‐carbon//NFMnPF full cell further achieves energy density of 319.54 Wh kg −1 (based on the cathode active mass) with stable cycling. These findings establish spin‐state mediated cooperative strain accommodation as a powerful design principle for intrinsically durable polyanionic sodium‐ion cathodes.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/adma.75698",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "철 기반 피로인산염(Na3.12Fe2.44(P2O7)2) 소듐이온 양극재에 Mn과 F를 공동 도핑하여 Fe 스핀 상태를 중간 스핀으로 조절하는 전략을 제시했다. 이를 통해 Fe-O-P 골격 내 전하 재분배와 Fe-O/Mn-O 결합의 협조적 변화를 유도해 밴드갭을 좁히고 Na+ 이동 장벽과 부피 변화를 줄였다. 결과물인 Na2.92Fe2.24Mn0.2(P2O6.9F0.1)2 양극은 0.1C에서 115.75 mAh/g, 336 Wh/kg의 에너지 밀도를 보였고 10C에서 24,000사이클 후 70%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7226885957",
+      "source": "openalex",
+      "title": "Regulating Sulfur Redox Microenvironment Through Phase Separation for High‐Energy‐Density Lithium‐Sulfur Batteries",
+      "url": "https://doi.org/10.1002/aenm.71841",
+      "published": "2026-11-14",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71841",
+      "authors": [
+        "Dong‐Yeob Han",
+        "Arumugam Manthiram"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Lithium‐sulfur (Li‐S) batteries are promising next‐generation high‐energy‐density storage systems as sulfur is abundant and inexpensive and offers high theoretical capacity. However, practical Li‐S batteries require high‐mass‐loading sulfur cathodes and lean‐electrolyte operation, where inefficient sulfur conversion is severely amplified by mechanical instability and high electrode tortuosity. Herein, a phase separation electrode is introduced as an electrode‐level strategy to regulate sulfur redox microenvironment. Controlled solvent‐nonsolvent exchange during phase separation chemically manages polymer demixing, producing an optimized isopropanol‐derived phase separation electrode (PSE‐IPA) with electrolyte‐accessible pores with low tortuosity. Such an architecture facilitates lithium‐ion flux and regulates polysulfide distribution within the cathode, enabling efficient and reversible sulfur conversion. Overpotential deconvolution reveals reduced activation and concentration polarizations during lithium sulfide (Li 2 S) nucleation and growth, while operando impedance and X‐ray diffraction analyses confirm suppressed resistance evolution and reversible sulfur‐Li 2 S phase conversion. Consequently, PSE‐IPA enables an ultrahigh sulfur loading of 13.5 mg cm −2 with an areal capacity of 14.6 mAh cm −2 under a lean electrolyte‐to‐sulfur (E/S) ratio of 5 µL mg −1 . Importantly, a double‐stacked pouch‐type Li‐S battery delivers 298 Wh kg −1 , including package materials under practical conditions with a sulfur loading of 9.6 mg cm −2 and E/S ratio of 3.5 µL mg −1 .",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1002/aenm.71841",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "고하중·린전해질 조건에서 리튬-황 전지의 황 전환 효율을 높이기 위해 전극 수준에서 상분리 전략을 적용한 연구이다. 이소프로판올 기반 용매-비용매 교환으로 굴곡도가 낮고 전해질 접근성이 높은 상분리 전극(PSE-IPA)을 제작해 Li2S 핵생성·성장 시 활성화 및 농도 분극을 줄였다. 13.5 mg/cm²의 높은 황 로딩과 5 µL/mg의 린전해질 조건에서 14.6 mAh/cm²의 면적 용량을 달성했으며, 이중적층 파우치셀에서는 298 Wh/kg을 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7230943498",
+      "source": "openalex",
+      "title": "Lithiothermic-Twinning Built-In LiF Ionic Mediators within Li2S@Graphene Cathodes for Anode-Less/Free Li–S Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c17373",
+      "published": "2026-11-14",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.6c17373",
+      "authors": [
+        "Tong Wang",
+        "Junxian Wu",
+        "Xiaobin He",
+        "Mohan Yang",
+        "Jinhui Cao",
+        "Yuhan Duan"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Abstract Li2S is a promising cathode candidate for Li–S batteries; however, its use is hindered by sluggish redox kinetics and severe polysulfide dissolution. Herein, we propose a collaborative multifunctional regulatory strategy via in situ construction of an integrated Li2S-LiF@graphene capsule by one-step lithiothermic symbiosis (8Li + CS2 + CF4 = 2Li2S + 4LiF + 2C). In this cathode architecture, highly dispersed built-in LiF nanocrystals twinned with active Li2S nanocrystals create abundant and fast ionic-conductive interfaces to accelerate Li-ion transport; meanwhile, symbiotic few-layer graphene shells act as electron highways and physicochemical barriers to inhibit polysulfide loss, thus promoting redox kinetics and structural stability. Multiscale structural characterization combined with in situ analysis confirms enhanced structural stability and electrochemical reversibility. Benefiting from the improved electrical and kinetic properties, as well as high volumetric efficiency for accommodating sulfur species, the Li2S-LiF@graphene cathode exhibits a high areal capacity of 6.3 mAh cm–2 under a high Li2S areal loading (8.9 mg cm–2), a thin Li anode thickness (50 μm), and a lean electrolyte-to-Li2S ratio (4.9 μL mg–1). In a completely anode-free Li2S-LiF@graphene//Ni cell, it delivers 882 mAh g–1 and retains 650 mAh g–1 after 100 cycles. This lithiothermic symbiosis approach combined with multicomponent collaborative regulation offers rational Li2S-based cathode engineering for high-performance anode-less/free Li–S batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "리튬열 공생 반응(8Li+CS2+CF4=2Li2S+4LiF+2C)을 이용해 Li2S와 LiF 나노결정이 쌍정 구조로 결합되고 그래핀 쉘로 감싸인 Li2S-LiF@그래핀 캡슐 양극을 제시했다. LiF 계면은 빠른 이온 전도 경로를 제공하고 그래핀 쉘은 전자 전달과 폴리설파이드 유출 억제를 동시에 수행한다. 8.9 mg/cm²의 Li2S 로딩, 50 μm 박형 Li 음극, 4.9 µL/mg의 린전해질 조건에서 6.3 mAh/cm²의 면적 용량을 보였고, 완전 무음극 셀에서는 882 mAh/g을 나타내며 100사이클 후 650 mAh/g을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7226692750",
+      "source": "openalex",
+      "title": "High Atomic Utilization of V 2 AlC MAX Unlocking the Integrated Cathode‐Anode Stabilization Toward Anode‐Less Lithium‐Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adfm.79658",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79658",
+      "authors": [
+        "Mengjie Zhang",
+        "Maoqiang Shen",
+        "Yang Liu",
+        "Xuanze Cao",
+        "Qingfa Shi",
+        "Xinzhao Yue"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Practical lithium‐sulfur batteries (LSBs) require a limited Li inventory to achieve high energy density, however, lithium‐polysulfide (LiPSs) shuttling and irreversible Li plating/stripping continuously consume active Li, making anode‐less LSBs (ALSBs) particularly vulnerable to rapid failure. Herein, a dual‐interface regulation strategy based on bifunctional AlF 3 /V 2 C MXene is proposed to simultaneously preserve the finite Li inventory and regulate S conversion. AlF 3 /V 2 C is obtained directly from V 2 AlC MAX through a gas‐solid reaction that converts the conventionally sacrificed Al layers in situ into functional AlF 3 nanoparticles, achieving synchronous MAX‐to‐MXene conversion and interfacial functionalization. As a three‐dimensional Li host, AlF 3 /V 2 C significantly lowers the Li + desolvation energy barrier, homogenizes Li + flux, and promotes the formation of stable LiF/Li 2 O‐rich interphase, enabling reversible Li plating/stripping for over 4000 h. As a cathode‐side separator modifier, its conductive V 2 C framework and polar AlF 3 sites cooperatively restrict LiPSs crossover and catalyze bi‐directional LiPSs/Li 2 S conversion, thereby reducing S loss and shuttle‐induced Li consumption. With a limited pre‐deposited Li capacity of 3 mAh cm −2 , the ALSBs deliver 1182.3 mAh g −1 at 1 C and retain 778.6 mAh g −1 after 300 cycles. More essentially, our developed high‐atomic‐utilization strategy maximizes both the merits of electroactive Al and V species, achieving the durable ALSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "V2AlC MAX상에서 희생되는 Al층을 기체-고체 반응으로 AlF3 나노입자로 직접 전환해 MAX-MXene 변환과 계면 기능화를 동시에 달성한 AlF3/V2C를 제시했다. 3차원 Li 호스트로 사용 시 Li+ 탈용매화 장벽을 낮추고 Li+ 플럭스를 균일화해 LiF/Li2O가 풍부한 계면을 형성, 4000시간 이상의 가역적 Li 플레이팅/스트리핑을 구현했다. 동시에 분리막 개질제로 사용하면 전도성 V2C 골격과 극성 AlF3 자리가 폴리설파이드 셔틀을 억제해, 3 mAh/cm²의 제한된 예치 Li 용량에서도 1182.3 mAh/g(1C)과 300사이클 후 778.6 mAh/g을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7214658732",
+      "source": "openalex",
+      "title": "Glutamine binding and sodium coordination reveal the transport mechanism of y⁺LAT1/CD98hc",
+      "url": "https://doi.org/10.1038/s41467-026-79388-7",
+      "published": "2026-11-14",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79388-7",
+      "authors": [
+        "David Aparicio Alarcón",
+        "Marc Gonzalez",
+        "Patricia Gómez Gejo",
+        "Héctor Gaitán",
+        "Mario Luengo",
+        "Josep Lluis Gelpí"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "The heteromeric amino acid transporter y⁺LAT1/CD98hc (SLC7A7/SLC3A2) mediates electroneutral exchange of cationic and neutral amino acids, with Na⁺ required for efficient transport of neutral substrates. Loss-of-function mutations cause Lysinuric Protein Intolerance (LPI), and emerging evidence highlights the physiological relevance of L-glutamine uptake in immune and bone cells. Here, we present the cryo-EM structure of human y⁺LAT1/CD98hc at 3.4 Å resolution in an outward-open conformation bound to L-glutamine, revealing a non-canonical substrate-binding pose involving Cys320 in TM8. Combining docking and molecular dynamics simulations, and functional assays, we identify a Na+-binding tetrad (Asn49–Ser131–Gly323–Ser327) that underlies Na⁺-dependent transport of neutral amino acids. By contrast, cationic substrates such as L-arginine occupy the same locus with their positively charged side chain, effectively replacing the role of Na⁺ and enabling Na⁺-independent exchange. Mutagenesis and kinetic analyses support this mechanism and reveal a key role for Glu128 during transitions toward inward-facing conformations, providing structural insight into the transport cycle. Collectively, these findings establish how y⁺LAT1 integrates Na⁺ and substrate recognition to mediate the selective exchange of neutral and cationic amino acids. Here, cryo-EM, functional and computational studies reveal how the lysinuric protein intolerance transporter y⁺LAT1/CD98hc integrates Na⁺ and substrate recognition to mediate selective exchange of neutral and cationic amino acids.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79388-7",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-16",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79388-7/MediaObjects/41467_2026_79388_Fig1_HTML.png",
+        "cached": "img/W7214658732.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79388-7"
+      },
+      "summary_ko": "y+LAT1/CD98hc 아미노산 수송체의 글루타민 결합 및 소듐 조정 메커니즘을 저온전자현미경으로 규명한 연구이다. 외향개방형 구조에서 TM8의 Cys320이 매개하는 비정형 기질 결합 양상과 Na+ 결합에 관여하는 사중체(Asn49-Ser131-Gly323-Ser327)를 확인했으며, 아르기닌과 같은 양이온성 기질은 동일 부위에서 Na+ 역할을 대체해 Na+ 비의존적 교환을 가능케 함을 보였다. 돌연변이 및 동역학 분석을 통해 Glu128이 내향형 전이에 핵심적임을 추가로 확인했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7231476465",
+      "source": "openalex",
+      "title": "Dual‐Anion‐Regulated Localized Weakly Solvating Electrolyte Via Trace Additive for Wide‐Temperature 4.5 V Lithium Metal Batteries",
+      "url": "https://doi.org/10.1002/adfm.79634",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adfm.79634",
+      "authors": [
+        "Dachao Du",
+        "Fangyi Zha",
+        "Junhao Chen",
+        "Qin Wang",
+        "Danrong Liao",
+        "Yuewen Dai"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Practical high‐voltage lithium metal batteries are limited by the difficulty of simultaneously stabilizing highly reactive Li metal anodes and oxidative cathode surfaces under lean‐cell conditions. Herein, an anion‐rich localized weakly solvating electrolyte is strategically developed by incorporating trace lithium bisoxalatodifluorophosphate (LiDFBOP) into a LiDFOB/FEC‐DMC/TTE electrolyte, in which excessive DFOB − ‐rich aggregates are selectively suppressed to enable a dual‐anion‐involved contact‐ion‐pair (CIP)‐dominated configuration with moderate solvent‐assisted Li + coordination. The regulated solvation environment directs interphase formation at the molecular level, generating robust and ion‐conductive B/F/P‐containing interphases on both electrodes that are responsible for simultaneously stabilizing Li plating/stripping and cathode‐side oxidative interfaces. Consequently, the resulting electrolyte enables high‐voltage operation at 4.5 V over a wide temperature range from −10°C to 75°C. Under stringent lean‐Li (N/P ≈ 1.70) and lean‐electrolyte conditions (20 µL), Li||LMFP, Li||NCM811, and Li||LCO cells deliver stable cycling with 94.1% capacity retention after 270 cycles, 85.9% retention after 200 cycles, and 81.0% retention after 153 cycles, respectively. Furthermore, Ah‐level pouch cells using the optimized electrolyte achieve 90.0% capacity retention after 300 cycles for Li||LMFP and 91.3% retention after 150 cycles for Li||NCM811, outperforming many recently reported electrolyte strategies in terms of practical high‐voltage lithium metal battery performance.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "LiDFOB/FEC-DMC/TTE 전해질에 미량의 LiDFBOP을 첨가해 DFOB- 풍부 집합체를 선택적으로 억제하고 이중 음이온 접촉이온쌍(CIP) 중심의 국소 약용매화 구조를 구현한 전해질을 제시했다. 이 용매화 구조는 Li 금속과 산화성 양극 표면 모두에 B/F/P를 포함한 견고하고 이온전도성이 높은 계면을 형성해 -10~75°C의 넓은 온도범위에서 4.5V 고전압 작동을 가능케 한다. 린리튬(N/P≈1.70) 및 린전해질(20 µL) 조건에서 Li||LMFP, Li||NCM811, Li||LCO 셀이 각각 270, 200, 153사이클 후 94.1%, 85.9%, 81.0%의 용량 유지율을 보였고, Ah급 파우치셀도 300사이클(LMFP) 및 150사이클(NCM811) 후 각각 90.0%, 91.3%의 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7229020700",
+      "source": "openalex",
+      "title": "Boosting Oxygen Transport with Nanoporous Graphdiyne for High‐Capacity Li−O 2 Batteries",
+      "url": "https://doi.org/10.1002/aenm.71827",
+      "published": "2026-11-14",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71827",
+      "authors": [
+        "Zengyi Li",
+        "Pengcheng Lian",
+        "Zhengyi Xie",
+        "Fei Gao",
+        "Jialu Tian",
+        "Jiuxiang Zhang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "ABSTRACT Li−O 2 batteries have attracted extensive attention due to their potential to achieve several times higher energy density than Li‐ion batteries. However, the actual discharge capacity and rate performance still fall short of practical requirements, as cathodes made of dense carbon black particles hinder the fast diffusion of O 2 deep into the cathode during discharge, thus severely limiting cathode utilization. In this work, we introduce graphdiyne (GDY) into the cathode to accelerate O 2 transport. GDY is a two‐dimensional material with intrinsic nanopores that allow O 2 molecules to pass through. When incorporated into carbon‐black cathodes, GDY particles forms pathways of low diffusion resistance that facilitate O 2 diffusion deep into the cathode. The accelerated O 2 transport, which is supported by gas permeability measurement, enhances the discharge capacity of the battery by over 4 times to 10.36 mAh cm −2 , equivalent to 950 mAh g −1 (Li2O2+carbon) . Characterization of the discharged cathode reveals that GDY introduction substantially changes the growth of the discharge product, lithium peroxide, promoting its formation both in the form of larger particles and deeper throughout the cathode, thereby contributing to higher discharge capacity. Our findings demonstrate a new strategy for accelerating mass transport to improve cathodes utilization, and ultimately realizing high‐energy‐density Li−O 2 batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "리튬-산소 전지의 방전 용량을 제한하는 O2 확산 저항 문제를 해결하기 위해 나노다공성 그래파이다인(GDY)을 카본블랙 양극에 도입했다. GDY 고유의 나노기공이 저저항 O2 확산 경로를 형성해 양극 내부 깊숙한 곳까지 산소 전달을 가속함을 기체 투과도 측정으로 확인했다. 이로 인해 방전 생성물인 리튬퍼옥사이드 입자가 더 크고 깊게 성장해 방전 용량이 4배 이상 증가한 10.36 mAh/cm²(950 mAh/g, Li2O2+카본 기준)에 도달했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7231816143",
+      "source": "openalex",
+      "title": "Beyond Lithiophilicity: Multistage Rate Matching in Lithium‐Metal Electrodeposition",
+      "url": "https://doi.org/10.1002/anie.4815215",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.4815215",
+      "authors": [
+        "Yangyang Liu",
+        "Jiawei Pan",
+        "Xingxing Jiao",
+        "宋忠孝",
+        "Zhanhu Guo",
+        "Kai Xi"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Lithium (Li)‐metal deposition is commonly interpreted using static descriptors, including lithiophilicity, nucleation overpotential, ionic conductivity, or solid‐electrolyte interphase composition. Although these parameters provide valuable insights, none alone determines how an initially nucleated Li deposit evolves under sustained current. Here, we conceptualize Li electrodeposition as a dynamically coupled sequence involving Li + transport, interfacial entry, charge transfer, Li 0 surface redistribution, nucleation, and growth; desolvation is an interfacial‐entry process in liquid electrolytes. Li 0 surface redistribution denotes the lateral motion of newly reduced Li species before incorporation into a growing deposit, with surface diffusion as one possible mechanism. Uniform deposition requires multidimensional kinetic compatibility across these stages, rather than maximization of any individual step. In particular, Li 0 surface redistribution can bridge initial nucleation and subsequent lateral growth, while the decay of morphological perturbations provides a conceptual criterion for deposition stability. From this perspective, solvent chemistry, anions, additives, concentrated electrolytes, polymers, and solid electrolytes can be understood as upstream regulators that reshape the coupled rate chain. This framework shifts lithium‐metal design from optimizing isolated material properties toward engineering a dynamically self‐leveling deposition field through multistage rate matching.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "리튬 금속 전착 거동을 리튬친화성, 핵생성 과전압 등 정적 지표가 아니라 Li+ 수송, 계면 진입, 전하 전달, Li0 표면 재분배, 핵생성·성장으로 이어지는 동적으로 결합된 다단계 과정으로 재해석한 개념적 프레임워크를 제시했다. 특히 Li0 표면 재분배(표면 확산 등)가 초기 핵생성과 이후 측방향 성장을 연결하는 핵심 단계이며, 형태학적 변동의 감쇠가 전착 안정성의 판단 기준이 될 수 있음을 제안한다. 이 관점에서 용매 화학, 음이온, 첨가제, 농축 전해질, 고분자, 고체 전해질 등은 이 결합된 속도 사슬을 조절하는 상위 변수로 재해석된다.",
+      "relevant": true
+    },
+    {
+      "id": "W7228195855",
+      "source": "openalex",
+      "title": "Local Symmetry Engineering Unlocks Stable Multi‐Electron Chemistry in NASICON Cathodes for High‐Energy‐Density Sodium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/adfm.79462",
+      "published": "2026-11-13",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/adfm.79462",
+      "authors": [
+        "Yonghong Qin",
+        "Xinlong Zhang",
+        "Min Jiang",
+        "Jianbo Ma",
+        "Wenqi Tang",
+        "Jin Song"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Sodium‐ion batteries (SIBs) hold great promise for large‐scale energy storage, but their advancement is constrained by the instability of multi‐electron redox reactions in cathode materials. In NASICON‐type phosphates, the high‐voltage V 4+ /V 5+ redox couple often suffers from poor reversibility, fundamentally rooted in the trade‐off between redox activity and structural stability. Here, we demonstrate that this limitation can be overcome by a local symmetry engineering strategy that precisely regulates the [VO 6 ] octahedra. Leveraging the complementary ionic radii and electronic configurations of Fe 2+ and Al 3+ , the co‐substitution achieves a controlled symmetry reduction of the [VO 6 ] units while maintaining the structural integrity of the NASICON framework. This symmetry reduction triggers a reconfiguration of the V 3d orbitals and promotes electron delocalization. Experimental and theoretical analyses confirm the electrochemical performance strongly depends on the symmetry of [VO 6 ] octahedra: moderate symmetry reduction enhances cycling stability, whereas excessive reduction leads to performance degradation. The optimized Na 3.6 V 1.2 Fe 0.6 Al 0.2 (PO 4 ) 3 cathode exhibits a high reversible capacity of 151.4 mAh g −1 corresponding to a 2.6‐electron transfer and exceptional cycling stability (84.6% capacity retention after 10,000 cycles at 20C). This work establishes octahedral symmetry engineering as an effective strategy to unlock stable multi‐electron redox chemistry in polyanionic cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "NASICON형 소듐이온 양극의 V4+/V5+ 다전자 레독스 가역성을 높이기 위해 [VO6] 정팔면체의 국소 대칭성을 조절하는 전략을 제시했다. Fe2+와 Al3+를 공동 치환해 [VO6]의 대칭성을 적절히 낮추면 V 3d 오비탈 재배열과 전자 비편재화가 촉진되나, 과도한 대칭성 저하는 성능을 저하시킴을 실험과 이론으로 확인했다. 최적화된 Na3.6V1.2Fe0.6Al0.2(PO4)3 양극은 2.6전자 전달에 해당하는 151.4 mAh/g의 가용용량을 보였고 20C에서 10,000사이클 후 84.6%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7228874779",
+      "source": "openalex",
+      "title": "Electrostatically Engineered Soft Interphases Enable Fast Ion Transport in High‐Loading Solid‐State Cathodes",
+      "url": "https://doi.org/10.1002/adfm.79619",
+      "published": "2026-11-13",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adfm.79619",
+      "authors": [
+        "Guangzeng Cheng",
+        "Jing Zhuo Shi",
+        "Jingwei Chen",
+        "Weiqian Tian",
+        "Yue Zhu",
+        "Minghua Huang"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT High‐energy density solid‐state batteries are constrained by sluggish ion transport in thick composite cathodes, where increasing active material loading amplifies ionic transport limitations. Incorporating fast ion conductors into cathode architectures offers a promising approach to accelerate lithium‐ion diffusion. However, severe interparticle ionic resistance between conductor particles remains a major obstacle to achieving practical high mass loadings. Here, we propose a soft interface strategy based on the electrostatic self‐assembly of carboxymethyl chitosan onto Li 0.33 La 0.56 TiO 3 nanoparticles to construct a compliant ion‐conducting interfacial layer. This interfacial architecture simultaneously strengthens interparticle contact, and establishes continuous ion transport pathways, thereby effectively overcoming the ion transport bottlenecks that limit high‐loading cathodes. The LiNi 0.6 Co 0.2 Mn 0.2 O 2 composite cathodes (20 mg cm −2 ) deliver an areal capacity of 2.2 mAh cm −2 at 2 C (7.2 Ma cm −2 ) at room temperature, and the strategy is successfully extended to lean lithium and anode‐free solid‐state batteries. This work establishes a soft interface design strategy for overcoming interfacial ion transport limitations and provides an effective route toward practical high‐energy density and fast‐charging solid‐state batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79619",
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "고하중 전고체 양극에서 이온 전도체 입자 간 저항이 이온 수송을 제한하는 문제를 해결하기 위해 Li0.33La0.56TiO3 나노입자 표면에 카르복시메틸 키토산을 정전기적으로 자기조립시킨 부드러운 계면층을 제안했다. 이 계면은 입자 간 접촉을 강화하고 연속적인 이온 수송 경로를 형성해 고로딩 양극의 이온 수송 병목을 완화한다. 20 mg/cm² 로딩의 LiNi0.6Co0.2Mn0.2O2 복합 양극은 상온 2C(7.2 mA/cm²)에서 2.2 mAh/cm²의 면적 용량을 보였으며, 이 전략은 린리튬 및 무음극 전고체 전지로도 확장되었다.",
+      "relevant": true
+    },
+    {
+      "id": "W7228050003",
+      "source": "openalex",
+      "title": "Covalently Integrated MXene–Fluorinated Polymer Electrolytes for 714 Wh Kg −1 Lithium–Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.75721",
+      "published": "2026-11-13",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/adma.75721",
+      "authors": [
+        "Xingchen Song",
+        "Nuo Xu",
+        "Po Bian",
+        "Yuhu Li",
+        "Genglin Lou",
+        "Guolin Sun"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Polymer electrolytes are promising for high‐energy and safe lithium–metal batteries yet limited by inadequate mechanical integrity, sluggish Li + transport, and unstable electrode–electrolyte interfaces. Here, we report a covalently integrated MXene–fluorinated gel polymer electrolyte (MF‐GPE) through in situ polymerization. Acrylate‐grafted MXene nanosheets act as chemically anchored crosslinkers within a fluorinated polymer network, distinguishing from conventional physically blended composites. The covalent framework not only mechanically reinforces the polymer matrix but also regulates Li + solvation structure and lowers the activation energy for Li + transport. Consequently, the MF‐GPE enables uniform lithium deposition and constructs robust, inorganic‐rich interphases on both lithium–metal anodes and high‐voltage cathodes. It delivers an ionic conductivity of 3.3 mS cm −1 at 25°C and supports stable cycling of LiNi 0.8 Co 0.1 Mn 0.1 O 2 , LiCoO 2 and LiNi 0.5 Mn 1.5 O 4 cathodes at cut‐off voltages up to 4.9 V. Notably, a MF‐GPE based Li||LiCoO 2 pouch cell achieves cell‐level energy densities of 713.9 Wh kg −1 at 4.8 V and 605.2 Wh kg −1 at 4.6 V, maintaining stable operation over 60 cycles, while 18650 cylindrical cells operate stably for 500 cycles. Ah‐class pouch cells demonstrate outstanding safety under nail‐penetration and overcharge tests. These findings establish covalent MXene‐polymer integration to couple ion solvation structure and interphase stabilization for high‐energy, abuse‐tolerant lithium–metal batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75721",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-16",
+      "image": null,
+      "summary_ko": "아크릴레이트로 그래프트된 MXene 나노시트를 가교제로 사용해 불소화 고분자 네트워크에 공유결합으로 통합한 겔 고분자 전해질(MF-GPE)을 현장중합으로 제작했다. 공유결합 골격은 고분자 매트릭스를 기계적으로 보강하면서 Li+ 용매화 구조를 조절하고 Li+ 수송 활성화 에너지를 낮춰, 균일한 리튬 전착과 Li 금속 음극 및 고전압 양극 양쪽에 무기물이 풍부한 견고한 계면을 형성한다. 25°C에서 3.3 mS/cm의 이온전도도를 보였고, LiNi0.8Co0.1Mn0.1O2·LiCoO2·LiNi0.5Mn1.5O4 양극에서 최대 4.9V 컷오프까지 안정 구동했으며, Li||LiCoO2 파우치셀은 4.8V에서 713.9 Wh/kg, 4.6V에서 605.2 Wh/kg의 셀 수준 에너지 밀도를 60사이클 동안 유지했다.",
+      "relevant": true
+    }
+  ]
+}
