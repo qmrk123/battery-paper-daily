@@ -29,7 +29,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6121408",
+        "cached": "img/W7229797157.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6121408"
+      },
       "summary_ko": "EC와 FEC 전해질이 리튬 금속 음극 계면에 미치는 근본적 차이를 규명한 연구이다. EC는 가용성이 높은 저분자량 카보네이트 부산물을 생성하는 반면, FEC는 LiF가 풍부하고 탄소 골격의 고분자량 리튬화 중합체를 포함해 용해에 강한 SEI를 형성함으로써 Li 음극을 보호한다. 이 원리를 바탕으로 러버 고분자와 LiF를 결합한 인공 SEI층을 설계했으며, LiNi0.95Co0.02Mn0.03O2||Li 파우치셀에서 601.2 Wh/kg의 에너지 밀도와 100사이클 안정 구동을 구현했다.",
       "relevant": true
     },
@@ -89,7 +95,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75698",
+        "cached": "img/W7229894298.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75698"
+      },
       "summary_ko": "철 기반 피로인산염(Na3.12Fe2.44(P2O7)2) 소듐이온 양극재에 Mn과 F를 공동 도핑하여 Fe 스핀 상태를 중간 스핀으로 조절하는 전략을 제시했다. 이를 통해 Fe-O-P 골격 내 전하 재분배와 Fe-O/Mn-O 결합의 협조적 변화를 유도해 밴드갭을 좁히고 Na+ 이동 장벽과 부피 변화를 줄였다. 결과물인 Na2.92Fe2.24Mn0.2(P2O6.9F0.1)2 양극은 0.1C에서 115.75 mAh/g, 336 Wh/kg의 에너지 밀도를 보였고 10C에서 24,000사이클 후 70%의 용량을 유지했다.",
       "relevant": true
     },
@@ -115,7 +127,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71841",
+        "cached": "img/W7226885957.jpg",
+        "tdm": true,
+        "license": "cc-by-nc-nd",
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71841"
+      },
       "summary_ko": "고하중·린전해질 조건에서 리튬-황 전지의 황 전환 효율을 높이기 위해 전극 수준에서 상분리 전략을 적용한 연구이다. 이소프로판올 기반 용매-비용매 교환으로 굴곡도가 낮고 전해질 접근성이 높은 상분리 전극(PSE-IPA)을 제작해 Li2S 핵생성·성장 시 활성화 및 농도 분극을 줄였다. 13.5 mg/cm²의 높은 황 로딩과 5 µL/mg의 린전해질 조건에서 14.6 mAh/cm²의 면적 용량을 달성했으며, 이중적층 파우치셀에서는 298 Wh/kg을 구현했다.",
       "relevant": true
     },
@@ -176,7 +194,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79658",
+        "cached": "img/W7226692750.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79658"
+      },
       "summary_ko": "V2AlC MAX상에서 희생되는 Al층을 기체-고체 반응으로 AlF3 나노입자로 직접 전환해 MAX-MXene 변환과 계면 기능화를 동시에 달성한 AlF3/V2C를 제시했다. 3차원 Li 호스트로 사용 시 Li+ 탈용매화 장벽을 낮추고 Li+ 플럭스를 균일화해 LiF/Li2O가 풍부한 계면을 형성, 4000시간 이상의 가역적 Li 플레이팅/스트리핑을 구현했다. 동시에 분리막 개질제로 사용하면 전도성 V2C 골격과 극성 AlF3 자리가 폴리설파이드 셔틀을 억제해, 3 mAh/cm²의 제한된 예치 Li 용량에서도 1182.3 mAh/g(1C)과 300사이클 후 778.6 mAh/g을 달성했다.",
       "relevant": true
     },
@@ -239,7 +263,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79634",
+        "cached": "img/W7231476465.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79634"
+      },
       "summary_ko": "LiDFOB/FEC-DMC/TTE 전해질에 미량의 LiDFBOP을 첨가해 DFOB- 풍부 집합체를 선택적으로 억제하고 이중 음이온 접촉이온쌍(CIP) 중심의 국소 약용매화 구조를 구현한 전해질을 제시했다. 이 용매화 구조는 Li 금속과 산화성 양극 표면 모두에 B/F/P를 포함한 견고하고 이온전도성이 높은 계면을 형성해 -10~75°C의 넓은 온도범위에서 4.5V 고전압 작동을 가능케 한다. 린리튬(N/P≈1.70) 및 린전해질(20 µL) 조건에서 Li||LMFP, Li||NCM811, Li||LCO 셀이 각각 270, 200, 153사이클 후 94.1%, 85.9%, 81.0%의 용량 유지율을 보였고, Ah급 파우치셀도 300사이클(LMFP) 및 150사이클(NCM811) 후 각각 90.0%, 91.3%의 유지율을 달성했다.",
       "relevant": true
     },
@@ -269,7 +299,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71827",
+        "cached": "img/W7229020700.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71827"
+      },
       "summary_ko": "리튬-산소 전지의 방전 용량을 제한하는 O2 확산 저항 문제를 해결하기 위해 나노다공성 그래파이다인(GDY)을 카본블랙 양극에 도입했다. GDY 고유의 나노기공이 저저항 O2 확산 경로를 형성해 양극 내부 깊숙한 곳까지 산소 전달을 가속함을 기체 투과도 측정으로 확인했다. 이로 인해 방전 생성물인 리튬퍼옥사이드 입자가 더 크고 깊게 성장해 방전 용량이 4배 이상 증가한 10.36 mAh/cm²(950 mAh/g, Li2O2+카본 기준)에 도달했다.",
       "relevant": true
     },
@@ -299,7 +335,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4815215",
+        "cached": "img/W7231816143.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4815215"
+      },
       "summary_ko": "리튬 금속 전착 거동을 리튬친화성, 핵생성 과전압 등 정적 지표가 아니라 Li+ 수송, 계면 진입, 전하 전달, Li0 표면 재분배, 핵생성·성장으로 이어지는 동적으로 결합된 다단계 과정으로 재해석한 개념적 프레임워크를 제시했다. 특히 Li0 표면 재분배(표면 확산 등)가 초기 핵생성과 이후 측방향 성장을 연결하는 핵심 단계이며, 형태학적 변동의 감쇠가 전착 안정성의 판단 기준이 될 수 있음을 제안한다. 이 관점에서 용매 화학, 음이온, 첨가제, 농축 전해질, 고분자, 고체 전해질 등은 이 결합된 속도 사슬을 조절하는 상위 변수로 재해석된다.",
       "relevant": true
     },
@@ -329,7 +371,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79462",
+        "cached": "img/W7228195855.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79462"
+      },
       "summary_ko": "NASICON형 소듐이온 양극의 V4+/V5+ 다전자 레독스 가역성을 높이기 위해 [VO6] 정팔면체의 국소 대칭성을 조절하는 전략을 제시했다. Fe2+와 Al3+를 공동 치환해 [VO6]의 대칭성을 적절히 낮추면 V 3d 오비탈 재배열과 전자 비편재화가 촉진되나, 과도한 대칭성 저하는 성능을 저하시킴을 실험과 이론으로 확인했다. 최적화된 Na3.6V1.2Fe0.6Al0.2(PO4)3 양극은 2.6전자 전달에 해당하는 151.4 mAh/g의 가용용량을 보였고 20C에서 10,000사이클 후 84.6%의 용량을 유지했다.",
       "relevant": true
     },
@@ -359,7 +407,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79619",
+        "cached": "img/W7228874779.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79619"
+      },
       "summary_ko": "고하중 전고체 양극에서 이온 전도체 입자 간 저항이 이온 수송을 제한하는 문제를 해결하기 위해 Li0.33La0.56TiO3 나노입자 표면에 카르복시메틸 키토산을 정전기적으로 자기조립시킨 부드러운 계면층을 제안했다. 이 계면은 입자 간 접촉을 강화하고 연속적인 이온 수송 경로를 형성해 고로딩 양극의 이온 수송 병목을 완화한다. 20 mg/cm² 로딩의 LiNi0.6Co0.2Mn0.2O2 복합 양극은 상온 2C(7.2 mA/cm²)에서 2.2 mAh/cm²의 면적 용량을 보였으며, 이 전략은 린리튬 및 무음극 전고체 전지로도 확장되었다.",
       "relevant": true
     },
@@ -389,7 +443,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75721",
+        "cached": "img/W7228050003.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75721"
+      },
       "summary_ko": "아크릴레이트로 그래프트된 MXene 나노시트를 가교제로 사용해 불소화 고분자 네트워크에 공유결합으로 통합한 겔 고분자 전해질(MF-GPE)을 현장중합으로 제작했다. 공유결합 골격은 고분자 매트릭스를 기계적으로 보강하면서 Li+ 용매화 구조를 조절하고 Li+ 수송 활성화 에너지를 낮춰, 균일한 리튬 전착과 Li 금속 음극 및 고전압 양극 양쪽에 무기물이 풍부한 견고한 계면을 형성한다. 25°C에서 3.3 mS/cm의 이온전도도를 보였고, LiNi0.8Co0.1Mn0.1O2·LiCoO2·LiNi0.5Mn1.5O4 양극에서 최대 4.9V 컷오프까지 안정 구동했으며, Li||LiCoO2 파우치셀은 4.8V에서 713.9 Wh/kg, 4.6V에서 605.2 Wh/kg의 셀 수준 에너지 밀도를 60사이클 동안 유지했다.",
       "relevant": true
     }
