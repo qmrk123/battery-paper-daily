@@ -1,8 +1,96 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-16T00:52:36+00:00",
-  "count": 209,
+  "generated_at": "2026-11-17T03:29:18+00:00",
+  "count": 212,
   "papers": [
+    {
+      "id": "W7233618202",
+      "source": "openalex",
+      "title": "Trigonal Prismatic Coordination Field‐Induced d‐Orbital Splitting Enables σ Electron Activation for Efficient Polysulfide Conversion in Li–S Batteries",
+      "url": "https://doi.org/10.1002/anie.5340472",
+      "published": "2026-11-15",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.5340472",
+      "authors": [
+        "Yiyang Mao",
+        "Yan Zhang",
+        "Yueyue Liu",
+        "Liang Deng",
+        "Qidi Zhang",
+        "Shengwei Dong"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "ABSTRACT Understanding the electron‐transfer pathways and the mechanism in facilitating polysulfide conversion is crucial for the rational design of catalysts in lithium–sulfur batteries. Herein, we designed an NbSe 2 model catalyst to investigate the electron‐transfer pathways at sublayer transition metal cation sites through coordination field modulation, and revealed the relationship between electron transfer and catalytic efficiency. Moreover, the σ *– σ and π *– σ electron transfer channels at transition metal sites are identified in terms of the coordination field theory and hybrid orbital theory, where the σ *– σ channel exhibits higher electron transfer efficiency and therefore enhances the adsorption and conversion role of transition metal sites in polysulfides. The designed trigonal prismatic NbSe 2 exhibits a reversible capacity up to 799 mAh g −1 at a high rate of 5 C, and the battery maintains stability under ultra‐high sulfur loading, achieving a capacity retention rate as high as 95.85%. From an electronic perspective, this work reveals the role of coordination fields on catalytic activity, providing new insights for the rational design of catalysts in metal–S batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-17",
+      "image": null,
+      "summary_ko": "삼각 프리즘형 배위장을 갖는 NbSe2 모델 촉매를 설계하여 리튬-황 배터리에서 다황화물 전환 시 전이금속 사이트의 전자전달 경로를 분석했다. 배위장 이론과 혼성 오비탈 이론을 통해 σ*-σ 전자전달 채널이 π*-σ 채널보다 전자전달 효율이 높아 다황화물의 흡착 및 전환을 촉진함을 규명했다. 설계된 삼각 프리즘형 NbSe2는 5C의 고율에서 799 mAh g-1의 가용량을 보였고, 초고황 로딩 조건에서도 95.85%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7233607458",
+      "source": "openalex",
+      "title": "Facet-dependent anion adsorption for electrolyte-Cu interfacial stability in initially anode-free Li-metal batteries",
+      "url": "https://doi.org/10.1038/s41467-026-79429-1",
+      "published": "2026-11-15",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-79429-1",
+      "authors": [
+        "J. W. LEE",
+        "Minju Song",
+        "Y.-H. Cho",
+        "Chaeyeong Nam",
+        "Sejin Kim",
+        "Hyeon Jeong Kim"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Initially anode-free Li-metal batteries, in which Li-metal is constructed in-situ during charging, enable increased energy density. However, interfacial degradation reactions between the electrolyte and lithiophobic Cu prevent stable solid electrolyte interphase formation on the negative electrode. Here, we elucidate a time-evolving interfacial mechanism in which adsorption of electrolyte components contributes to initial interfacial layer formation and solid electrolyte interphase stability. Most organic solvents adsorb more strongly than Li-salt compounds on Cu through van der Waals dispersion interactions. This preferential adsorption produces a solvent-dominated interfacial layer that undergoes rapid compositional reconstruction during Cu oxide reduction upon initial charging. In contrast, lithium tetrafluoroborate possesses a tetrahedral anion with isotropic charge distribution that binds strongly to the Cu (111)/(100) surfaces and native Cu oxides, producing a tetrafluoroborate-driven interfacial layer that electronically passivates the Cu interface and promotes homogeneous Li nucleation. Consequently, lithium tetrafluoroborate-containing cells achieve 62% capacity retention after 300 cycles at an areal capacity of 4.1 mAh cm−2 and electrolyte conditions of 1.5 g Ah−1 and 4 μL cm−2, establishing a mechanistic basis for adsorption-driven interfacial design in initially anode-free Li-metal batteries. Initially anode-free lithium-metal batteries are limited by unstable interfacial reactions at Cu current collectors. Here, authors show that preferential anion adsorption can stabilize the copper interface and improve long-term cycling.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79429-1",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-17",
+      "image": null,
+      "summary_ko": "초기 무음극(anode-free) 리튬금속전지에서 전해질-Cu 집전체 계면의 시간에 따른 변화 메커니즘을 규명했다. 대부분의 유기 용매는 반데르발스 상호작용으로 Li염보다 Cu에 더 강하게 흡착되어 충전 초기 Cu 산화물 환원 시 급격히 재구성되는 용매 주도형 계면층을 형성하지만, 사면체형 등방성 전하분포를 갖는 테트라플루오로보레이트 음이온은 Cu(111)/(100) 표면 및 자연 산화막에 강하게 결합해 Cu를 전자적으로 패시베이션하고 균일한 Li 핵생성을 유도한다. 테트라플루오로보레이트 함유 전해질 셀은 4.1 mAh cm-2의 면적용량, 1.5 g Ah-1 및 4 μL cm-2 조건에서 300사이클 후 62%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7233605038",
+      "source": "openalex",
+      "title": "Cytotoxic drugs and bispecific T cell engagers synergize to rewire host immunity and elicit polyclonal antitumor T cell responses",
+      "url": "https://doi.org/10.1038/s41467-026-79192-3",
+      "published": "2026-11-15",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79192-3",
+      "authors": [
+        "Dylan Kwart",
+        "Qiaozhi Wei",
+        "Wei‐Yi Cheng",
+        "Kamilah Ryan",
+        "Allen Y. Leary",
+        "Jacquelynn Golubov"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Cytotoxic therapies such as chemotherapy and antibody-drug conjugates (ADCs) kill tumor cells directly but are limited by resistance, dose-limiting toxicity, and failure to induce durable antitumor immunity. Here we show that tumor-associated antigen (TAA)-targeted CD28 bispecific antibodies (TAAxCD28) convert cytotoxic agents into drivers of durable antitumor immunity. In humanized mouse models, combining the HER2-directed ADC trastuzumab deruxtecan (Tras-DXd) with TAAxCD28 antibodies enhances tumor rejection and promotes durable immune memory in Tras-DXd-resistant cancers, and comparable synergy is observed with 5-fluorouracil (5-FU). This therapeutic strategy allows lower or less frequent cytotoxic drug dosing, potentially limiting systemic toxicity. Mechanistically, TAAxCD28 antibodies promote the activation and expansion of clonally-restricted tumor CD8+ T cells, and adding ADCs or chemotherapy sustains this activation while preserving a naïve/stem-like pool of tumor-specific CD8+ T cells with a diversified T cell receptor repertoire. Each cytotoxic agent supports this T cell activity through a separate innate mechanism: Tras-DXd expands and activates conventional dendritic cells, whereas 5-FU reprograms suppressive myeloid cells toward an immunostimulatory phenotype. Together, these findings support pairing cytotoxic agents with TAAxCD28 bispecifics to overcome resistance and improve long-term tumor control in refractory cancers. TAA×CD28 costimulatory bispecific antibodies are a class of immunotherapeutics that provide tumor-targeted CD28 costimulation to T cells by crosslinking CD28 on T cells to a tumor-associated antigen (TAA) expressed on tumor cells. Here, the authors show that cytotoxic therapies reprogram the tumor microenvironment and augment the antitumor immunity induced by TAA×CD28 bispecifics.",
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-79192-3_reference.pdf",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-17",
+      "image": null,
+      "summary_ko": "세포독성 항암제와 이중특이 T세포 인게이저를 병용하여 숙주 면역을 재편하고 다클론성 항종양 T세포 반응을 유도하는 연구로, 배터리 소재와 무관한 암 면역치료 분야 논문이다. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "W7229797157",
       "source": "openalex",
@@ -228,7 +316,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-16",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79388-7/MediaObjects/41467_2026_79388_Fig1_HTML.png",
+        "cached": "img/W7214658732.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79388-7"
+      },
       "summary_ko": "y+LAT1/CD98hc 아미노산 수송체의 글루타민 결합 및 소듐 조정 메커니즘을 저온전자현미경으로 규명한 연구이다. 외향개방형 구조에서 TM8의 Cys320이 매개하는 비정형 기질 결합 양상과 Na+ 결합에 관여하는 사중체(Asn49-Ser131-Gly323-Ser327)를 확인했으며, 아르기닌과 같은 양이온성 기질은 동일 부위에서 Na+ 역할을 대체해 Na+ 비의존적 교환을 가능케 함을 보였다. 돌연변이 및 동역학 분석을 통해 Glu128이 내향형 전이에 핵심적임을 추가로 확인했다.",
       "relevant": false
     },
