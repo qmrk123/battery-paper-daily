@@ -879,6 +879,10 @@
   "metric": 0.26,
   "name": "Journal of the Korean Institute of Electrical and Electronic Material Engineers"
  },
+ "S2764908356": {
+  "metric": 0.87,
+  "name": "International Journal of Scientific Research in Science and Technology"
+ },
  "S2764917516": {
   "metric": 33.73,
   "name": "Nature Reviews Materials"
@@ -1626,6 +1630,10 @@
  "S4210228888": {
   "metric": 0.17,
   "name": "NTU KhPI Bulletin Power and heat engineering processes and equipment"
+ },
+ "S4210229136": {
+  "metric": 12.23,
+  "name": "Applied Physics Reviews"
  },
  "S4210230135": {
   "metric": 0.61,
@@ -2626,6 +2634,10 @@
  "S83853393": {
   "metric": 8.6,
   "name": "International Journal of Biological Macromolecules"
+ },
+ "S85680945": {
+  "metric": 4.53,
+  "name": "International Journal of Environmental Science and Technology"
  },
  "S86481247": {
   "metric": 4.26,

@@ -1,8 +1,61 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-18T02:48:57+00:00",
-  "count": 224,
+  "generated_at": "2026-11-19T02:21:22+00:00",
+  "count": 228,
   "papers": [
+    {
+      "id": "W7235473709",
+      "source": "openalex",
+      "title": "Transforming spinel LiMn2O4 into a Na-layered cathode",
+      "url": "https://doi.org/10.1038/s41467-026-79390-z",
+      "published": "2026-11-17",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1038/s41467-026-79390-z",
+      "authors": [
+        "Zixin Wu",
+        "Diancheng Chen",
+        "Ting Lin",
+        "Maolin Yang",
+        "Chunjing Hu",
+        "Dian Zhang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract The positive electrode structures of practical sodium-ion batteries are generally confined to polyanionic or layered transition metal oxide frameworks, where the trade-off between specific energy and structural stability limits their application. As a well-established positive electrode structure in lithium-ion batteries, the spinel framework has abundant storage sites for alkali metal ions, but it has received less attention for sodium-ion batteries. Here we show that spinel LiMn 2 O 4 can be transformed into a sodium-ion positive electrode. Electrochemical sodiation drives Mn-ion migration along an octahedral–tetrahedral–octahedral pathway, creating a layered/spinel heterostructure for further sodium storage. Moreover, residual spinel domains inhibit the strain and structural degradation within the layered structure. Consequently, a 26650 cylindrical cell using a LiMn 2 O 4 -derived sodium-ion positive electrode achieves a capacity of 3.85 Ah and retains 95.7% capacity after 900 cycles (1.925 A). This work demonstrates that spinel LiMn 2 O 4 can serve as a viable positive electrode for sodium-ion batteries, and that electrochemical transformation is a feasible approach for creating positive electrode frameworks.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79390-z",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-19",
+      "image": null,
+      "summary_ko": "스피넬 LiMn2O4를 전기화학적으로 소듐화하여 층상/스피넬 이종구조를 갖는 소듐이온 양극재로 변환하는 방법을 제시했다. Mn 이온이 팔면체-사면체-팔면체 경로를 따라 이동해 층상 구조를 형성하며, 잔류 스피넬 영역이 변형과 구조 붕괴를 억제한다. 26650 원통형 셀에서 3.85 Ah의 용량과 900회 충방전 후 95.7%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7235394420",
+      "source": "openalex",
+      "title": "The need for electrolyte innovation in next-generation batteries",
+      "url": "https://doi.org/10.1038/s41578-026-00987-3",
+      "published": "2026-11-17",
+      "topics": [],
+      "doi": "10.1038/s41578-026-00987-3",
+      "authors": [
+        "Quanquan Pang"
+      ],
+      "venue": "Nature Reviews Materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764917516",
+      "journal_metric": 33.73,
+      "first_seen": "2026-11-19",
+      "image": null,
+      "summary_ko": "차세대 배터리를 위한 전해질 혁신의 필요성을 다루는 논문으로 보인다. (제목 기반 추정)",
+      "relevant": false
+    },
     {
       "id": "crossref:10.1039/d6ee07369g",
       "source": "crossref",
@@ -34,6 +87,66 @@
       "relevant": true
     },
     {
+      "id": "W7234782966",
+      "source": "openalex",
+      "title": "Sequential Regulation of Dendrite Initiation and Propagation for High‐Current Hydroborate‐Based Solid‐State Sodium Metal Batteries",
+      "url": "https://doi.org/10.1002/adma.75760",
+      "published": "2026-11-17",
+      "topics": [
+        "na-metal"
+      ],
+      "doi": "10.1002/adma.75760",
+      "authors": [
+        "Hong Kang",
+        "Boyan Tang",
+        "Zhen Li",
+        "Hanfei Zhang",
+        "Hanzhang Li",
+        "Yixuan Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Hydroborate solid electrolytes (SEs) offer fast Na + transport, low density, and compatibility with Na metal, yet their current tolerance is restricted by dendrite‐induced short circuits in all‐solid‐state Na metal batteries (ASSNBs). Here, a spatially coordinated dual‐interlayer architecture is developed to regulate dendrite initiation and propagation in Na 4 B 10 H 10 B 12 H 12 (NBH)‐based ASSNBs. At the Na|NBH interface, a three‐dimensional Sn/C framework enables Na infiltration into the porous scaffold and homogenizes current distribution, while dynamically formed Na–Sn sites facilitate Na + transport and redistribution, thereby maintaining intimate interfacial contact and suppressing dendrite initiation. Within the NBH SE, a Na 2.9375 PS 3.9375 Cl 0.0625 (NPSC) sulfide interlayer reacts with penetrating Na to suppress dendrite propagation, with crack‐like pathways terminating near the NBH|NPSC interface. This sequential regulation increases the critical current density from 0.5 to 3.3 mA cm −2 . Symmetric cells operate stably for 7000 and 1000 h at 0.5 and 3.0 mA cm −2 , respectively. Full cells with an O3‐type NaNi 1/3 Fe 1/3 Mn 1/3 O 2 cathode retain 75% capacity after 800 cycles at 2 C, while supporting cathode loadings up to 15 mg cm −2 . This work establishes sequential control of dendrite initiation and propagation as a design principle for high‐current hydroborate‐based ASSNBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-19",
+      "image": null,
+      "summary_ko": "하이드로보레이트 고체전해질(Na4B10H10B12H12) 기반 전고체 소듐 금속전지에서 덴드라이트의 개시와 전파를 순차적으로 억제하는 이중 인터레이어 구조를 제안했다. Na/전해질 계면의 3차원 Sn/C 프레임워크가 전류 분포를 균일화해 덴드라이트 개시를 억제하고, 전해질 내부의 황화물계(NPSC) 인터레이어가 덴드라이트 전파를 차단한다. 임계전류밀도가 0.5에서 3.3 mA/cm²로 향상되었고, 대칭셀은 0.5 mA/cm²에서 7000시간, 3.0 mA/cm²에서 1000시간 안정적으로 작동했으며 O3형 NaNi1/3Fe1/3Mn1/3O2 양극 완전셀은 800회 사이클 후 75%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7234746139",
+      "source": "openalex",
+      "title": "Interfacial Electronic Reconstruction Activates TiO 2 in MnO 2 /TiO 2 Heterostructures for Accelerated Sulfur Redox Chemistry",
+      "url": "https://doi.org/10.1002/adma.75753",
+      "published": "2026-11-17",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75753",
+      "authors": [
+        "Zhiqian Lin",
+        "Shuoxiao Zhang",
+        "Liyuan Qian",
+        "Haibin Lin",
+        "Yun Wang",
+        "Xiaofei Wang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Lithium–sulfur batteries are promising for next‐generation energy storage but are limited by sluggish sulfur redox kinetics originating from insufficient regulation of interfacial electronic structures. Here, we report a MnO 2 /TiO 2 heterostructure with integrated interfacial bonding, in which residual carbon is inherently incorporated into the interfacial region. The characterizations reveal pronounced reconstruction of the local coordination and electronic environment upon heterostructure formation, including Ti─O─Mn bonding, reduced Ti states, and substantial changes in the surface potential and valence‐band structure. DFT calculations suggest that the reconstructed interface involves the coexistence of net intercomponent charge redistribution and localized bond polarization, with residual carbon contributing to interfacial electronic coupling. Consistent with this reconstructed electronic environment, Ti‐derived sites exhibit enhanced electronic response toward polysulfides, while MnO 2 and residual carbon contribute to the coupled interfacial structure. Consequently, MnO 2 /TiO 2 catalyst enables stable cycling under a high sulfur loading of 9.2 mg cm −2 and, when integrated as a functional interlayer, allows the sulfur cathode to deliver a high specific capacity of 1569 mAh g −1 together with durability over 1000 cycles, with a capacity decay rate of 0.054% per cycle. This work highlights chemically integrated oxide heterointerfaces as an effective platform for regulating local electronic structures and accelerating sulfur redox chemistry.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-19",
+      "image": null,
+      "summary_ko": "MnO2/TiO2 이종구조에서 계면 전자구조 재구성을 통해 TiO2를 활성화시켜 리튬-황전지의 황 레독스 반응을 가속화하는 전략을 제시했다. Ti-O-Mn 결합 형성과 잔류 탄소에 의한 계면 전자결합으로 다황화물에 대한 Ti 활성점의 전자적 반응성이 향상된다. 이 촉매를 적용한 전지는 9.2 mg/cm²의 높은 황 로딩에서 안정적으로 작동했고, 1569 mAh/g의 비용량과 1000회 사이클에서 0.054%/cycle의 낮은 용량 감소율을 달성했다.",
+      "relevant": true
+    },
+    {
       "id": "W7233757028",
       "source": "openalex",
       "title": "Unlocking cycle life of lithium-metal batteries",
@@ -54,7 +167,12 @@
       "journal_id": "S4390963326",
       "journal_metric": 17.82,
       "first_seen": "2026-11-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44287-026-00356-w/MediaObjects/44287_2026_356_Figa_HTML.png",
+        "cached": "img/W7233757028.jpg",
+        "license": null,
+        "attribution": "Nature Reviews Electrical Engineering — https://doi.org/10.1038/s44287-026-00356-w"
+      },
       "summary_ko": "리튬 금속 전지의 사이클 수명을 개선하는 방안을 다루는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
@@ -176,7 +294,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-18",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79386-9/MediaObjects/41467_2026_79386_Fig1_HTML.png",
+        "cached": "img/W4415845554.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79386-9"
+      },
       "summary_ko": "저가의 소다애시를 전구체로 활용해 할라이드계 Na-Zr-Cl-CO3 고체전해질에 탄산염 폴리아니온을 치환 도입함으로써 구조적 무질서도를 높여 Na+ 전도도를 향상시킨 연구이다. 최적 조성에서 25°C 이온전도도 1.02 mS/cm를 달성했고, NaCrO2 양극과 결합한 전고체전지에서 850회 장기 안정성을 보였다.",
       "relevant": false
     },
