@@ -89,7 +89,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79589",
+        "cached": "img/W7234530133.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79589"
+      },
       "summary_ko": "고전압, 광온도 범위, 안전성을 갖춘 리튬 금속 전지(LMB)를 위한 in-situ 중합형 젤 고분자 전해질(GPE)의 작용기 설계 전략을 체계적으로 분석한 리뷰이다. 루이스 산-염기, 프런티어 분자궤도, HSAB, 쌍극자 상호작용, 입체 효과 등 다섯 가지 이론적 틀을 바탕으로 작용기가 고전압 안정성, 광온도 성능, 계면 반응성(내재적 안전성)에 미치는 메커니즘을 정리하고 향후 방향을 제시한다.",
       "relevant": true
     },
@@ -266,7 +272,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75720",
+        "cached": "img/W7234614369.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75720"
+      },
       "summary_ko": "Mn 기반 양이온 무질서 암염형(DRX) 리튬이온 양극 소재의 다상 전이를 열역학적으로 제어하여 전하용량과 전압 안정성 한계를 극복하는 연구이다. 산화 어닐링 조건과 Li 함량에 따라 DRX-스피넬 또는 DRX-스피넬-단사정 층상구조로 분해되는 경로를 규명했으며, 단사정 층상상을 포함한 나노복합체(DSM)가 첫 충전 시 Li 추출 특성을 크게 개선하여 300 mAh/g에 근접하는 가역 용량을 보였다.",
       "relevant": true
     },
@@ -352,7 +364,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-18",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79711",
+        "cached": "img/W7234360485.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79711"
+      },
       "summary_ko": "Cu-DDAQ라는 층상 중심대칭 구리(II) 배위고분자를 소듐이온전지(SIB) 양극 소재로 제시한다. π-d 공액 Cu-O3N 유닛이 Cu2+/Cu+와 C=O/C-O의 이중 레독스 중심으로 작용해 용량과 구조 안정성을 높였으며, 270 mAh/g의 가역 용량과 850회 사이클 후 77%의 용량 유지율을 달성했다.",
       "relevant": true
     }
