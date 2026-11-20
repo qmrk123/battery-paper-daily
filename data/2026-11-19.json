@@ -87,7 +87,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75760",
+        "cached": "img/W7234782966.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75760"
+      },
       "summary_ko": "하이드로보레이트 고체전해질(Na4B10H10B12H12) 기반 전고체 소듐 금속전지에서 덴드라이트의 개시와 전파를 순차적으로 억제하는 이중 인터레이어 구조를 제안했다. Na/전해질 계면의 3차원 Sn/C 프레임워크가 전류 분포를 균일화해 덴드라이트 개시를 억제하고, 전해질 내부의 황화물계(NPSC) 인터레이어가 덴드라이트 전파를 차단한다. 임계전류밀도가 0.5에서 3.3 mA/cm²로 향상되었고, 대칭셀은 0.5 mA/cm²에서 7000시간, 3.0 mA/cm²에서 1000시간 안정적으로 작동했으며 O3형 NaNi1/3Fe1/3Mn1/3O2 양극 완전셀은 800회 사이클 후 75%의 용량을 유지했다.",
       "relevant": true
     },
@@ -117,7 +123,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-19",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75753",
+        "cached": "img/W7234746139.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75753"
+      },
       "summary_ko": "MnO2/TiO2 이종구조에서 계면 전자구조 재구성을 통해 TiO2를 활성화시켜 리튬-황전지의 황 레독스 반응을 가속화하는 전략을 제시했다. Ti-O-Mn 결합 형성과 잔류 탄소에 의한 계면 전자결합으로 다황화물에 대한 Ti 활성점의 전자적 반응성이 향상된다. 이 촉매를 적용한 전지는 9.2 mg/cm²의 높은 황 로딩에서 안정적으로 작동했고, 1569 mAh/g의 비용량과 1000회 사이클에서 0.054%/cycle의 낮은 용량 감소율을 달성했다.",
       "relevant": true
     }
