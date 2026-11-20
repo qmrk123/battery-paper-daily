@@ -1359,6 +1359,10 @@
   "metric": 0.05,
   "name": "Problems of Modeling and Design Automatization"
  },
+ "S4210203197": {
+  "metric": 8.69,
+  "name": "Clean Technologies"
+ },
  "S4210203391": {
   "metric": 0.06,
   "name": "Advances in Material Chemistry"
@@ -1502,6 +1506,10 @@
  "S4210217307": {
   "metric": 4.82,
   "name": "Advanced Sustainable Systems"
+ },
+ "S4210217399": {
+  "metric": 4.96,
+  "name": "ACS Applied Electronic Materials"
  },
  "S4210217486": {
   "metric": 6.34,
@@ -1990,6 +1998,10 @@
  "S4387281483": {
   "metric": 6.65,
   "name": "Industrial Chemistry and Materials"
+ },
+ "S4387281552": {
+  "metric": 0.55,
+  "name": "Journal of Bioprocess Chemical and Environmental Engineering Science"
  },
  "S4387281792": {
   "metric": 12.68,
@@ -2599,6 +2611,10 @@
   "metric": 4.04,
   "name": "The International Journal of Advanced Manufacturing Technology"
  },
+ "S77209346": {
+  "metric": 2.43,
+  "name": "Bulletin of the Korean Chemical Society"
+ },
  "S78155443": {
   "metric": 2.59,
   "name": "Magnetic Resonance Materials in Physics Biology and Medicine"
@@ -2746,5 +2762,9 @@
  "S99352657": {
   "metric": 22.01,
   "name": "Advanced Materials"
+ },
+ "S99612230": {
+  "metric": 2.38,
+  "name": "Bulletin of Materials Science"
  }
 }

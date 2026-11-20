@@ -1,56 +1,53 @@
 {
-  "title": "최근 2주 논문 브리핑 (11/11–11/17)",
-  "range": "2026-11-11 ~ 2026-11-17",
-  "overall": "이번 2주간 연구는 전해질 솔베이션 구조와 계면화학 설계를 공통 축으로 리튬 금속 음극의 고에너지밀도(500~714 Wh/kg)·고전압 구현에 집중되었으며, 전고체·젤 전해질, 전환형 양극의 셔틀 억제, 산소 레독스 안정화, 전이금속 전자구조 조절을 통한 다전자 소듐 양극 등으로 흐름이 확장되었다.",
+  "title": "최근 2주 논문 브리핑 (11/13–11/18)",
+  "range": "2026-11-13 ~ 2026-11-18",
+  "overall": "이번 2주간 연구는 전해질 솔베이션 구조 설계와 계면층(SEI/CEI) 제어를 통한 리튬·소듐 금속 음극의 안정화, 그리고 고전압·고니켈 양극의 격자 산소 레독스 가역성 확보에 집중되었다. 특히 전고체·무음극 시스템의 계면 열화 메커니즘을 operando 분석과 이론 계산으로 규명하려는 시도가 두드러진다.",
   "sections": [
     {
       "topic": "li-metal",
       "heading": "리튬 금속 음극",
-      "text": "전해질 솔베이션 구조 설계가 가장 두드러진 흐름으로, 2차 솔베이션 셸 조절, 이중 음이온 기반 국소 약용매화, 에테르 산소 기능화 이온성 액체 등을 통해 4.5V급 고전압·광온도 작동과 500~714 Wh/kg의 고에너지밀도를 노린다. SEI 형성 메커니즘을 LiF 풍부 계면 관점에서 규명하려는 시도가 다수로, FEC/EC의 내재적 계면화학 차이, 용매가 없는 모델계를 통한 FEC 반응 경로 분리, 무음극 Cu 집전체의 음이온 패시베이션이 대표적이다. 동시에 in-situ 중합 젤·반IPN·MXene 공유결합 고분자 전해질, NASICON/황화물/할라이드 고체전해질의 계면 재구성, 초박형 자기지지 Li 합금박과 돌기 표적형 전착 억제 등 전해질·음극 소재 공학이 병행되며, 전착 거동을 리튬친화성 같은 정적 지표가 아닌 다단계 동적 과정으로 재해석하는 개념 프레임워크도 제시되었다.",
+      "text": "전해질 솔베이션 조절이 가장 큰 흐름으로, 1차 셸을 넘어 2차 솔베이션 셸·양이온-용매-음이온 삼원 상호작용·국소 약용매화 등 더 미세한 배위 구조 설계로 고속충전과 4.5V급 고전압 안정성을 추구한다. SEI 측면에서는 FEC가 LiF 풍부·고분자화 계면을 형성하는 고유 메커니즘을 EC와 비교하거나 용매-free 모델로 분리 분석하는 등 기전 규명이 활발하며, 이온성 액체·젤(semi-IPN GPE) 전해질로 본질 안전성과 600 Wh/kg급 에너지밀도를 동시에 겨냥한다. 음극 자체로는 초박형 자기지지 합금박, 초고속 합금화 공정, 무음극 Cu 집전체의 음이온 패싯 흡착 제어 등 제조성과 계면 패시베이션 전략이 제시되었으며, 전착 거동을 정적 지표가 아닌 다단계 속도 결합 과정으로 재해석하는 개념적 프레임워크도 등장했다.",
       "highlights": [
         {"title": "Secondary Solvation Shell Regulation for Fast-Charging Lithium Metal Batteries", "url": "https://doi.org/10.1021/jacs.6c17148", "venue": "Journal of the American Chemical Society"},
-        {"title": "Covalently Integrated MXene–Fluorinated Polymer Electrolytes for 714 Wh Kg −1 Lithium–Metal Batteries", "url": "https://doi.org/10.1002/adma.75721", "venue": "Advanced Materials"},
+        {"title": "Unveiling the Intrinsic Disparity of Ethylene Carbonate and Fluoroethylene Carbonate in Lithium Metal Battery Exceeding 600 Wh kg −1", "url": "https://doi.org/10.1002/anie.6121408", "venue": "Angewandte Chemie International Edition"},
         {"title": "Beyond Lithiophilicity: Multistage Rate Matching in Lithium‐Metal Electrodeposition", "url": "https://doi.org/10.1002/anie.4815215", "venue": "Angewandte Chemie International Edition"}
       ]
     },
     {
       "topic": "other-cathode",
       "heading": "기타 양극",
-      "text": "리튬-황 전지가 주를 이루며, 배위장·오비탈 이론 기반 촉매 설계(삼각 프리즘 NbSe2의 σ*-σ 전자전달 채널, MnO2/TiO2 계면 전자구조 재구성)로 다황화물 전환을 가속하거나, 상분리 전극·Li2S-LiF 쌍정 복합·V2AlC MAX 변환 등으로 고하중·린전해질·무음극 조건의 면적 용량을 끌어올리는 연구가 집중되었다. Li-O2는 나노다공성 그래파이다인으로 산소 확산 저항을 낮춰 방전 용량을 4배 이상 증대시켰다. 고전압 LiCoO2에서는 비대칭 헤테로계면으로 격자 안정화와 계면 반응속도론을 분리 제어하려는 접근이 보고되어, 전환형·고전압 화학 모두에서 셔틀·수송·계면 안정화가 공통 과제로 나타난다.",
+      "text": "리튬-황 전지가 대부분을 차지하며, 느린 황 전환 속도론과 폴리설파이드 셔틀을 해결하기 위한 전략이 다층적으로 전개된다. 촉매 설계에서는 Se 도핑·MnO2/TiO2·NbSe2 등 헤테로구조와 배위장 공학으로 d-밴드·전자전달 채널을 조절해 레독스 반응속도를 높이고, Li2S@그래핀·V2AlC MAX 등은 무음극/무리튬 셀의 계면 안정화를 함께 노린다. 전극 수준에서는 상분리로 굴곡도를 낮춰 고하중·린전해질 조건의 면적 용량을 확보하고, 스택 압력을 단계별로 프로그래밍해 전고체 Li-S의 황 전환과 계면 재구성을 분리 제어하는 접근이 주목된다. 한편 Li-O2 전지에서는 그래파이다인 기반 O2 수송 강화와 머신러닝 기반 4전자 LiOH 경로 유도로 방전 용량을 크게 끌어올렸다.",
       "highlights": [
-        {"title": "Trigonal Prismatic Coordination Field‐Induced d‐Orbital Splitting Enables σ Electron Activation for Efficient Polysulfide Conversion in Li–S Batteries", "url": "https://doi.org/10.1002/anie.5340472", "venue": "Angewandte Chemie International Edition"},
-        {"title": "Boosting Oxygen Transport with Nanoporous Graphdiyne for High‐Capacity Li−O 2 Batteries", "url": "https://doi.org/10.1002/aenm.71827", "venue": "Advanced Energy Materials"},
-        {"title": "Regulating Sulfur Redox Microenvironment Through Phase Separation for High‐Energy‐Density Lithium‐Sulfur Batteries", "url": "https://doi.org/10.1002/aenm.71841", "venue": "Advanced Energy Materials"}
-      ]
-    },
-    {
-      "topic": "na-cathode",
-      "heading": "소듐이온 양극",
-      "text": "소듐이온 양극에서는 전이금속의 전자구조·국소 대칭성·스핀 상태 조절을 통한 다전자 레독스와 초장수명 확보가 뚜렷한 흐름이다. NASICON 양극은 [VO6] 국소 대칭성 조절로 2.6전자 V4+/V5+ 반응을, 피로인산염 양극은 Mn/F 공동 도핑으로 Fe 스핀 상태를 중간 스핀으로 조절해 10C에서 24,000사이클급 초장수명을 달성했다. 저비용·다전자 골격/유기형 소재 탐색도 병행되어, 프러시안블루 유사체 리뷰, 이중 레독스 구리 배위고분자, 스피넬 LiMn2O4의 전기화학적 소듐화를 통한 층상/스피넬 이종구조 양극 변환 등이 보고되었다.",
-      "highlights": [
-        {"title": "Local Symmetry Engineering Unlocks Stable Multi‐Electron Chemistry in NASICON Cathodes for High‐Energy‐Density Sodium‐Ion Batteries", "url": "https://doi.org/10.1002/adfm.79462", "venue": "Advanced Functional Materials"},
-        {"title": "Spin‐State Regulation Engineering of Pyrophosphate‐Based Polyanionic Cathodes for Ultra‐Long‐Life Sodium‐Ion Batteries", "url": "https://doi.org/10.1002/adma.75698", "venue": "Advanced Materials"},
-        {"title": "Transforming spinel LiMn2O4 into a Na-layered cathode", "url": "https://doi.org/10.1038/s41467-026-79390-z", "venue": "Nature Communications"}
+        {"title": "Regulating Sulfur Redox Microenvironment Through Phase Separation for High‐Energy‐Density Lithium‐Sulfur Batteries", "url": "https://doi.org/10.1002/aenm.71841", "venue": "Advanced Energy Materials"},
+        {"title": "Stage‐Specific Pressure Programming Decouples Low‐Pressure Sulfur Reduction From High‐Pressure Interfacial Reconstruction in All‐Solid‐State Lithium–Sulfur Batteries", "url": "https://doi.org/10.1002/adma.75779", "venue": "Advanced Materials"},
+        {"title": "Machine learning-driven regulation of the four-electron LiOH pathway in lithium–oxygen batteries with prolonged cycling", "url": "https://doi.org/10.1038/s41467-026-79335-6", "venue": "Nature Communications"}
       ]
     },
     {
       "topic": "li-rich",
       "heading": "Li-rich(리튬 과잉) 양극",
-      "text": "산소 레독스의 가역성과 전압 안정화가 핵심 주제로, 동적 S-O 결합을 통한 가역적 전자 가둠이나 Li2S 도입에 따른 밴드 조절·산소 트래핑으로 쿨롱 효율을 높이고 전압 감쇄를 억제하는 전자구조 설계가 제시되었다. Mn 기반 양이온 무질서 암염형(DRX) 소재에서는 산화 어닐링을 통한 열역학적 다상 전이 제어로 300 mAh/g에 근접하는 가역 용량을 노리며, Li+ 수송은 퍼콜레이션과 사이트 에너지 분포를 결합해 정량적으로 재해석되었다. 고전압 리튬-리치 망간산화물의 Mn 용출·산 생성 문제는 음이온-다이폴 배위 설계로 완화된다.",
+      "text": "양이온 무질서 암염형(DRX) 소재에 대한 관심이 두드러지며, Mn 기반 DRX의 다상 전이를 열역학적으로 제어해 300 mAh/g에 근접하는 가역 용량을 끌어내는 연구가 제시되었다. 동시에 퍼콜레이션 이론과 사이트 에너지 분포를 결합해 무질서 구조 내 Li+ 수송 속도론을 정량 규명하는 기전 연구가 병행된다. 격자 산소 레독스 안정화 측면에서는 계면 S-O 결합으로 전자를 가역적으로 가두어 산소 중심 홀의 표면 불안정성을 억제하는 전자구조 조절 전략이 보고되었다.",
       "highlights": [
-        {"title": "Dynamic Interfacial S–O Bonding Stabilizes Oxygen Redox Through Reversible Electron Confinement", "url": "https://doi.org/10.1002/adma.75712", "venue": "Advanced Materials"},
         {"title": "Thermodynamically Controlled Multiphase Evolution in Single‐Crystal Cation‐Disordered Li‐Ion Cathode Materials", "url": "https://doi.org/10.1002/adma.75720", "venue": "Advanced Materials"},
-        {"title": "Percolation and site energy distribution jointly control Li+ transport in disordered rocksalt positive electrodes", "url": "https://doi.org/10.1038/s41467-026-79420-w", "venue": "Nature Communications"}
+        {"title": "Dynamic Interfacial S–O Bonding Stabilizes Oxygen Redox Through Reversible Electron Confinement", "url": "https://doi.org/10.1002/adma.75712", "venue": "Advanced Materials"}
+      ]
+    },
+    {
+      "topic": "ncm",
+      "heading": "NCM 양극",
+      "text": "고니켈 단결정 양극의 격자 산소 방출을 억제하는 두 가지 접근이 제시되었다. 하나는 Si-Ti 공동 도핑으로 포논 산란을 강화해 산소 레독스 가역성을 운동학적으로 안정화하는 전략이고, 다른 하나는 Ce 기반 파이로클로어 코팅과 벌크 도핑으로 산소를 앵커링해 고전압·고온에서 전이금속 용출을 막는 전략이다. 두 연구 모두 1000사이클 수준의 장수명 유지율로 효과를 입증했다.",
+      "highlights": [
+        {"title": "Probing Phonon Dynamics for Kinetic Stabilization of Single‐Crystal Nickel‐Rich Cathodes", "url": "https://doi.org/10.1002/adma.75751", "venue": "Advanced Materials"},
+        {"title": "Oxygen Anchoring Enabled by Ce‐Based Pyrochlore Coating for Robust Lithium‐Ion Battery Cathodes", "url": "https://doi.org/10.1002/adma.75701", "venue": "Advanced Materials"}
       ]
     },
     {
       "topic": "na-metal",
       "heading": "소듐 금속 음극",
-      "text": "포스트 리튬 저장을 겨냥한 소듐 금속 전지 설계가 다뤄지며, 소듐을 과잉으로 쓰지 않는 무과잉(zero-excess) 구조가 리뷰 관점에서 제시되었다. 하드카본과 호환성이 좋은 에테르계 전해질의 열안정성 한계는 다중 음이온 기반 솔베이션 재구성으로 극복해 고온 내성과 고속 충전을 동시에 확보했고, 전고체계에서는 하이드로보레이트 고체전해질에 이중 인터레이어를 도입해 덴드라이트 개시와 전파를 순차적으로 억제함으로써 임계전류밀도를 끌어올렸다.",
+      "text": "고체 전해질 기반 소듐 금속 전지의 덴드라이트 제어가 핵심 주제로, 하이드로보레이트 전해질에서 개시와 전파를 순차적으로 억제하는 이중 인터레이어 구조로 임계전류밀도를 크게 높인 연구가 보고되었다. 또한 하드카본 음극과 호환되는 에테르계 전해질의 고질적 열안정성 문제를 다중 음이온 기반 솔베이션 재구성으로 극복하는 전략도 제시되었다.",
       "highlights": [
-        {"title": "Overturning the Thermal Instability Paradigm of Ether-Based Electrolytes via Multi-Anion-Driven Solvation Reconstruction", "url": "https://doi.org/10.1021/jacs.6c18128", "venue": "Journal of the American Chemical Society"},
         {"title": "Sequential Regulation of Dendrite Initiation and Propagation for High‐Current Hydroborate‐Based Solid‐State Sodium Metal Batteries", "url": "https://doi.org/10.1002/adma.75760", "venue": "Advanced Materials"},
-        {"title": "Zero-excess sodium-metal batteries for post-lithium energy storage", "url": "https://doi.org/10.1038/s44359-026-00234-6", "venue": "Nature Reviews Clean Technology"}
+        {"title": "Overturning the Thermal Instability Paradigm of Ether-Based Electrolytes via Multi-Anion-Driven Solvation Reconstruction", "url": "https://doi.org/10.1021/jacs.6c18128", "venue": "Journal of the American Chemical Society"}
       ]
     }
   ]

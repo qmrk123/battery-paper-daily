@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T02:07:14+00:00",
+  "count": 11,
+  "papers": [
+    {
+      "id": "W7236420714",
+      "source": "openalex",
+      "title": "Stage‐Specific Pressure Programming Decouples Low‐Pressure Sulfur Reduction From High‐Pressure Interfacial Reconstruction in All‐Solid‐State Lithium–Sulfur Batteries",
+      "url": "https://doi.org/10.1002/adma.75779",
+      "published": "2026-11-18",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adma.75779",
+      "authors": [
+        "Yating Zhang",
+        "Zhongjun Hou",
+        "Yuan Jiang",
+        "Rui Gao",
+        "Likun Zhou",
+        "Zixuan Bi"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT The commercialization of all‐solid‐state Li–S batteries (ASSLSBs) remains constrained by the “impossible trinity” between high energy density, long cycle life, and low stack pressure. Here we show that stack pressure is not merely a static mechanical boundary, but a stage‐specific regulator of sulfur conversion and interfacial reconstruction. Using a static pressure‐resistance‐overpotential (P‐R‐η) operational threshold algorithm, low‐stack‐pressure operation is predicted feasible for 50 wt% S cathodes. Further operando electrochemical measurements and multiscale chemical and structural characterizations reveal that 1 MPa discharge promotes Li 2 S 2 ‐rich interfacial intermediates. However, constant low‐pressure cycling induces progressive pore filling that prolongs charge transport pathways, leading to inactive Li X S accumulation and triphase interfacial contact losses. State‐resolved very‐small‐angle neutron scattering (VSANS) further uncovers a ∼5 nm structural feature that persists after low‐stack‐pressure discharge, which specifically diminishes upon high‐pressure charging. Guided by this mechanism, we implement a pressure‐programmed protocol combining 1 MPa discharge with 180 MPa charge. The resulting cell retains 98.8% of capacity after 100 cycles at 30 °C. This work establishes a dynamic pressure modulation strategy towards alleviating the “impossible trinity” by decoupling the asymmetric pressure‐electrochemical behaviors.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "전고체 리튬-황 배터리에서 스택 압력이 단순한 기계적 경계가 아니라 황 전환과 계면 재구성을 단계별로 조절하는 요인임을 규명했다. 저압 방전(1 MPa)과 고압 충전(180 MPa)을 결합한 압력 프로그래밍 프로토콜을 통해 저압 조건의 지속적 공극 충전으로 인한 비활성 LixS 축적과 삼상 계면 접촉 손실 문제를 해결했다. 이 전략을 적용한 셀은 30°C, 100회 사이클 후 98.8%의 용량을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236455387",
+      "source": "openalex",
+      "title": "Probing Phonon Dynamics for Kinetic Stabilization of Single‐Crystal Nickel‐Rich Cathodes",
+      "url": "https://doi.org/10.1002/adma.75751",
+      "published": "2026-11-18",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75751",
+      "authors": [
+        "Yijing Liu",
+        "Lili Lin",
+        "Yiming Wang",
+        "Liu Hao",
+        "Tao Zeng",
+        "Yuefeng Meng"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Structural degradation and lattice oxygen loss remain major obstacles to the long‐term stability of nickel‐rich layered cathodes, especially under high‐voltage and high‐rate operation. Conventional strategies primarily rely on thermodynamic stabilization via cation doping or surface protection, while the kinetic dimension of oxygen release has received less attention. Herein, we investigate Si─Ti co‐doped single‐crystal LiNi 0.83 Co 0.12 Mn 0.05 O 2 cathode materials, which exhibit reduced Li/Ni mixing, modified surface chemistry, and altered transition metal–oxygen (TM─O) lattice dynamics. Combined Raman spectroscopy and phonon dispersion calculations suggest that Si─Ti co‐doping enhances phonon scattering and modifies TM─O optical phonon modes. Operando and synchrotron‐based characterizations reveal substantially enhanced reversibility of lattice oxygen redox and transition‐metal local coordination. As a result, the optimized cathode exhibits suppressed oxygen release and mitigated irreversible phase transitions, retaining 83.17% of its initial capacity after 1000 cycles at 5 C. These improvements are likely associated with the synergistic effects of thermodynamic and kinetic stabilization, with phonon dynamics proposed as one possible contributor among these coupled effects. This work highlights that the kinetic factors relevant to oxygen release warrant greater attention in the design of durable Ni‐rich cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "니켈리치 층상 양극의 격자 산소 방출을 열역학적 접근이 아닌 운동학적(phonon dynamics) 관점에서 억제하는 전략을 제시했다. Si-Ti 공동 도핑된 단결정 LiNi0.83Co0.12Mn0.05O2에서 포논 산란 강화와 전이금속-산소 광학 포논 모드 변화를 라만 분광 및 포논 분산 계산으로 확인했다. 그 결과 산소 레독스 가역성이 향상되어 5C, 1000사이클 후 83.17%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236146450",
+      "source": "openalex",
+      "title": "Oxygen Anchoring Enabled by Ce‐Based Pyrochlore Coating for Robust Lithium‐Ion Battery Cathodes",
+      "url": "https://doi.org/10.1002/adma.75701",
+      "published": "2026-11-18",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75701",
+      "authors": [
+        "Shijian Luo",
+        "Chenchen Song",
+        "Huilin Zhao",
+        "Peng Lv",
+        "Wei Kong Pang",
+        "Zhenxiang Cheng"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "ABSTRACT Nickel‐rich layered oxides (≥ 80% Ni) are pivotal cathode materials for next‐generation high‐energy lithium‐ion batteries. However, under high cutoff voltage, the over‐oxidation of active cations and oxygen anions triggers structural instability and the continuous migration of O n− (0 < n < 2) radicals, rapidly leading to oxygen release, transition metal (TM) dissolution, electrolyte decomposition, and consequently severe degradation of electrochemical performance. Herein, a two‐pronged strategy is proposed to enhance the redox reversibility of lattice oxygen and suppress oxygen release from LiNi 0.84 Co 0.08 Mn 0.08 O 2 (NCM) during cycling. Combining a Ce‐based pyrochlore coating that possesses a high oxygen storage capacity with bulk Ce doping that modulates the TM─O bonds, the modified NCM cathode exhibits exceptional cycling stability under harsh operating conditions. The assembled CR2032 cells achieved 72.2% capacity retention after 400 cycles at 1 C under a high cutoff voltage of 4.50 V at 60°C. Moreover, pouch‐type full cells exhibit ultra‐stable cycling performance, retaining 91.0% capacity after 1000 cycles at 1 C within 2.75–4.20 V, and 80.2% after 1000 cycles when the upper cutoff voltage is raised to 4.40 V. This work not only provides a feasible two‐pronged modification strategy for layered oxide cathodes but also promotes the development of ultrahigh‐energy‐density rechargeable batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "고전압에서 니켈리치 층상 산화물(LiNi0.84Co0.08Mn0.08O2) 양극의 산소 방출과 전이금속 용출을 억제하기 위해 세륨 기반 파이로클로어 코팅과 벌크 Ce 도핑을 결합한 전략을 제안했다. 파이로클로어 코팅의 높은 산소 저장 능력과 Ce 도핑에 의한 전이금속-산소 결합 조절로 격자 산소 레독스 가역성을 향상시켰다. 4.50V, 60°C, 1C 조건에서 400사이클 후 72.2%, 파우치셀에서는 1000사이클 후 91.0%(4.20V)와 80.2%(4.40V)의 용량 유지율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236359469",
+      "source": "openalex",
+      "title": "Moisture‐ and Dendrite‐Resistant Argyrodite Electrolytes Enabled by Lithium‐ and Halogen‐Site Synergistic Substitutions for All‐Solid‐State Lithium Batteries",
+      "url": "https://doi.org/10.1002/adfm.79717",
+      "published": "2026-11-18",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79717",
+      "authors": [
+        "Yifan Ni",
+        "Jiejie Li",
+        "Ni Zhang",
+        "Xinbo Wang",
+        "Deping Wang",
+        "Huanli Sun"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Argyrodite electrolytes are promising for all‐solid‐state lithium batteries, while the high humid sensitivity and unstable interfacial reactions with lithium metal severely hinder practical application. In this work, a series of Li 5.4‐ x Ag x PS 4.4 Cl 1.6‐ x Br x ( x = 0, 0.01, 0.025, 0.05, and 0.1) solid electrolytes with simultaneously enhanced ionic conductivity, air stability and lithium metal interfacial compatibility are synthesized via Ag and Br dual‐doping. Among them, Li 5.375 Ag 0.025 PS 4.4 Cl 1.575 Br 0.025 exhibits an increased room‐temperature ionic conductivity of 11.44 mS cm −1 after powder cold‐pressing, surpassing 10.22 mS cm −1 for the pristine Li 5.4 PS 4.4 Cl 1.6 . In addition, due to strong Ag‐S interactions, Li 5.375 Ag 0.025 PS 4.4 Cl 1.575 Br 0.025 releases only 0.752 cm 3 g −1 of H 2 S after air exposure, which is approximately only one third of that generated by the pristine Li 5.4 PS 4.4 Cl 1.6 . Benefiting from the in situ formation of a Li‐Ag alloy at the anode, Li 5.375 Ag 0.025 PS 4.4 Cl 1.575 Br 0.025 exhibits excellent lithium metal compatibility, enabling a critical current density of 1.55 mA cm −2 and stable lithium plating/stripping for 5000 h. Furthermore, the LiCoO 2 |Li 5.375 Ag 0.025 PS 4.4 Cl 1.575 Br 0.025 |Li cell demonstrates significantly improved cycling stability at a rate of 1 C, delivering a capacity retention of 84.5% after 1000 cycles. This work provides an effective strategy to simultaneously improve the chemical/electrochemical stability of argyrodite electrolytes, paving the way for the development of practical all‐solid‐state lithium batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "전고체 리튬 배터리용 아지로다이트 고체전해질의 수분 민감성과 리튬 금속과의 불안정한 계면 반응을 해결하기 위해 Ag와 Br 이중 도핑 전략을 제시했다. Li5.375Ag0.025PS4.4Cl1.575Br0.025 조성은 11.44 mS/cm의 향상된 이온전도도와 함께 H2S 발생량을 약 1/3로 감소시켰으며, Ag-Li 합금 형성으로 리튬 금속 계면 안정성도 개선되었다. LiCoO2|SE|Li 셀은 1C, 1000사이클 후 84.5%의 용량 유지율을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7235941832",
+      "source": "openalex",
+      "title": "Manipulating Spatial Charge Distribution and Electronic Structure in Se‐Doped Hollow Heterostructures for Enhanced Redox Kinetics in Li‐S Batteries",
+      "url": "https://doi.org/10.1002/adfm.79723",
+      "published": "2026-11-18",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/adfm.79723",
+      "authors": [
+        "Fei Li",
+        "Fan Chen",
+        "Jie Tan",
+        "Renlong Miao",
+        "Xiaoli Zhao",
+        "Anjun Hu"
+      ],
+      "venue": "Advanced Functional Materials",
+      "abstract_en": "ABSTRACT Lithium‐sulfur (Li‐S) battery represents a promising next‐generation energy storage technology yet suffers from sluggish conversion kinetics and polysulfide shuttling. Conventional heterostructure designs often fall short in concurrently optimizing catalytic activity and adsorption strength. Herein, we report Se‐doped Co 3 O 4 /SnO 2 hollow nanoboxes as a functional separator coating that synergistically combines heterointerface engineering with electronic structure modulation. The Co 3 O 4 /SnO 2 heterointerface promotes interfacial charge redistribution, while Se doping induces an upward shift of the Co d ‐band center, thereby strengthening polysulfide adsorption and accelerating sulfur redox kinetics. The optimized separator exhibits excellent electrochemical performance, delivering long‐term cycling stability with a low capacity decay rate of only ∼0.049% per cycle over 1000 cycles. In situ Raman and XRD analyses reveal accelerated bidirectional sulfur redox kinetics and effective shuttle suppression, and a pouch cell retaining 862 mAh g −1 after 100 cycles demonstrates practical viability. This work provides a paradigm of spatial‐electronic synergy for designing active electrocatalytic interfaces in advanced Li‑S batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S135204980",
+      "journal_metric": 14.9,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "리튬-황 배터리의 느린 전환 반응속도와 폴리설파이드 셔틀 문제를 해결하기 위해 Se 도핑된 Co3O4/SnO2 중공 나노박스를 분리막 코팅 소재로 적용했다. 헤테로계면에 의한 전하 재분배와 Se 도핑에 의한 Co d-band 중심 상향 이동으로 폴리설파이드 흡착과 산화환원 반응속도를 동시에 향상시켰다. 1000사이클에서 사이클당 약 0.049%의 낮은 용량 감쇠율을 보였으며 파우치셀에서도 100사이클 후 862 mAh/g을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236337632",
+      "source": "openalex",
+      "title": "Machine learning-driven regulation of the four-electron LiOH pathway in lithium–oxygen batteries with prolonged cycling",
+      "url": "https://doi.org/10.1038/s41467-026-79335-6",
+      "published": "2026-11-18",
+      "topics": [
+        "other-cathode",
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-79335-6",
+      "authors": [
+        "白天省",
+        "Yiming Hu",
+        "Wei Zhai",
+        "Xiongwei Zhong",
+        "Jinru Huang",
+        "Jiaxian Wang"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract The practical deployment of high-energy-density lithium–oxygen batteries is fundamentally restricted by sluggish oxygen redox kinetics and the instability of discharge intermediates. Here, we report an artificial intelligence-integrated framework leveraging interpretable machine learning and density functional theory to navigate a vast chemical space of thousands of active sites. This approach identifies Ni-Co dual-atom catalysts as a better configuration among the selected elements for orchestrating multi-electron transfer. Theoretical analysis reveals that synergistic electronic coupling between the dual-sites fundamentally reconfigures the d -band center, thereby lowering the thermodynamic barriers for oxygen redox. Moreover, the catalysts enable precise regulation of the reaction pathway, inducing a controllable transition from the conventional two-electron pathway to a four-electron pathway. This shift yields a discharge capacity of ~60,000 mAh g −1 . Beyond its role as a positive electrode catalyst, this architecture functions as a multifunctional interfacial protective layer that stabilizes the lithium metal negative electrode by suppressing dendrite growth. Consequently, the lithium–oxygen system achieves stable lifespan of 2075 cycles under the four-electron pathway with reduced voltage decay. This work establishes a data-guided strategy for the rational design of atomic-scale architecture via artificial intelligence, unlocking the potential of multi-electron oxygen chemistry for lithium–oxygen batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79335-6",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-20",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79335-6/MediaObjects/41467_2026_79335_Fig1_HTML.png",
+        "cached": "img/W7236337632.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79335-6"
+      },
+      "summary_ko": "머신러닝과 밀도함수이론을 결합해 리튬-산소 배터리의 다전자 전달 경로를 최적화하는 Ni-Co 이중원자 촉매를 발굴했다. 두 활성점 간 전자적 결합이 d-band 중심을 재구성하여 산소 레독스의 열역학적 장벽을 낮추고, 기존 2전자 경로에서 4전자 LiOH 경로로의 전환을 유도해 약 60,000 mAh/g의 방전 용량을 달성했다. 이 촉매층은 동시에 리튬 금속 음극의 덴드라이트 성장을 억제하는 보호층 역할도 수행하여 전지 수명을 2075사이클까지 연장했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236062713",
+      "source": "openalex",
+      "title": "Low-temperature operation of Ag—C based anodeless all-solid-state pouch cells",
+      "url": "https://doi.org/10.1038/s41467-026-79291-1",
+      "published": "2026-11-18",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41467-026-79291-1",
+      "authors": [
+        "Hwiho Kim",
+        "Sebastian Kunze",
+        "Kyungho Yoon",
+        "Sooseong Hwang",
+        "Yujeong Hwang",
+        "Jiseok Kim"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Abstract Anodeless all-solid-state batteries with Ag-C interlayers offer high energy density and long cycle life, yet their operation in cold environments remains limited by poorly understood failure mechanisms. Using operando X-ray absorption spectroscopy, cryogenic-cross-section electron microscopy, and X-ray diffraction, we discover that Li-Ag alloying dynamics are highly temperature-dependent: rapid at 45 °C but kinetically suppressed at 5 °C. At low temperatures, suppressed alloying leads to sluggish lithium transport, internal lithium extrusion, interlayer delamination, and rapid capacity decay. We demonstrate that a brief initial charge at 45 °C permanently activates the interlayer via Li-Ag alloy formation, enabling efficient Li transport even at 5 °C. Full pouch cells following this activation protocol retain 87% of their initial capacity after 250 completed cycles following one formation cycle at 5 °C. After 250 cycles at 5 °C, AAP-treated cells delivered approximately three times the discharge capacity of cells cycled with the fixed-temperature protocol. Such in situ electrochemical alloy activation offers a practical and scalable approach to extend anodeless all-solid-state battery performance to sub-ambient temperatures without material redesign.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79291-1",
+      "license": "cc-by",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-20",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79291-1/MediaObjects/41467_2026_79291_Fig1_HTML.png",
+        "cached": "img/W7236062713.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79291-1"
+      },
+      "summary_ko": "Ag-C 계면층을 사용하는 애노드리스 전고체 전지의 저온 작동 실패 메커니즘을 operando 분광 및 저온 전자현미경으로 규명했다. Li-Ag 합금화 반응이 45°C에서는 빠르지만 5°C에서는 속도론적으로 억제되어 리튬 이동 저하, 내부 리튬 압출, 계면 박리를 유발함을 확인했다. 45°C에서의 초기 활성화 충전 프로토콜을 적용하면 5°C에서도 250사이클 후 87%의 용량을 유지할 수 있음을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236198088",
+      "source": "openalex",
+      "title": "Ferroptosis in cancer cells triggers PGE2 production for tumour immune escape",
+      "url": "https://doi.org/10.1038/s41586-026-11333-6",
+      "published": "2026-11-18",
+      "topics": [],
+      "doi": "10.1038/s41586-026-11333-6",
+      "authors": [
+        "Lukas Ramsauer",
+        "Anna‐Marie Pedde",
+        "Anna Hirschberger",
+        "María Parra Reyes",
+        "Nadine Nuschele",
+        "Felix Bayerl"
+      ],
+      "venue": "Nature",
+      "abstract_en": "Abstract Ferroptosis, a form of cell death induced by overwhelming membrane lipid peroxidation, is a vulnerability of many cancers, including cancers resistant to current molecular and immune-based therapies 1–7 . Triggering of ferroptosis therefore provides an opportunity to achieve elimination of difficult-to-treat cancers 1–4,8,9 . Studies in mouse cancer models have demonstrated that anticancer immunity, mediated by dendritic cells (DCs) and CD8 + T cells, is essential for effective tumour eradication by ferroptosis-inducing strategies 10–13 . However, ferroptotic cells limit this response 8–10,14 , resulting in immune escape and tumour growth through mechanisms that remain unclear. Here we demonstrate that ferroptotic cancer cells activate a molecular program resulting in aberrant production of prostaglandin E 2 (PGE 2 ), which limits the stimulation of anticancer CD8 + T cell responses by type 1 conventional DCs (cDC1s), thereby promoting immune escape. In ferroptotic cancer cells, lipid peroxidation-mediated membrane permeabilization enables Ca 2+ influx, which activates p38 MAPK signalling and thereby drives PGE 2 production. This signalling axis is uncoupled from cancer cell death and can be targeted to selectively interfere with immune-inhibitory PGE 2 production while preserving ferroptotic cancer cell elimination. In the context of cancer cell ferroptosis, ablation of PGE 2 production or disrupting PGE 2 signalling restores cDC1-mediated anticancer CD8 + T cell responses and leads to effective tumour elimination. Our findings identify a key mechanism that limits antitumour immunity and prevents tumour elimination upon ferroptosis induction in cancer cells, which could be exploited for cancer therapy.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1038/s41586-026-11333-6",
+      "license": "cc-by",
+      "journal_id": "S137773608",
+      "journal_metric": 18.34,
+      "first_seen": "2026-11-20",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11333-6/MediaObjects/41586_2026_11333_Fig1_HTML.png",
+        "cached": "img/W7236198088.jpg",
+        "license": "cc-by",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11333-6"
+      },
+      "summary_ko": "암세포의 페롭토시스(ferroptosis)가 PGE2 생성을 유발해 종양의 면역 회피를 촉진하는 기전을 규명한 암면역학 연구로, 배터리 소재와는 무관하다.",
+      "relevant": false
+    },
+    {
+      "id": "W7236301446",
+      "source": "openalex",
+      "title": "Electric‐Field Responsive Molecular Switch Unlocks Stable 4.5 V‐Class Sodium Layered Oxide Cathodes",
+      "url": "https://doi.org/10.1002/anie.4447702",
+      "published": "2026-11-18",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/anie.4447702",
+      "authors": [
+        "Meiyan Sun",
+        "Wenhui Li",
+        "Fanbo Wu",
+        "Yinqi Zheng",
+        "Shizhong Lv",
+        "Gang Sun"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "High-voltage operation of sodium layered oxide cathodes is essential for unlocking energy density, yet the intensified interfacial electric field destabilizes the cathode/electrolyte interphase (CEI), posing a persistent challenge. Herein, we reveal that interfacial stability is governed not solely by oxidative tolerance but by the coupling of molecular species to the dynamically evolving interfacial field. Guided by this insight, we define an electric field coupling agent (EFCA) that combines strong field responsiveness with appropriate redox propensity to enable threshold-gated reactivity. Acting as a molecular switch, the agent remains chemically inactive below a critical field but becomes activated above it through field-driven migration, reorientation, and selective bond cleavage. A dual-descriptor framework integrating a customized field sensitivity index (FSI) with HOMO energy identifies sodium difluoro(oxalato)borate as an effective switch. Upon activation, the resulting field-insensitive and electrochemically inert fragments assemble into a self-limiting and compositionally gradient interphase with a boron-rich outer layer. Such coupled interfacial chemistry achieves a counterintuitive field-enhanced stability, enabling the manganese-based sodium layered cathode to cycle stably at 4.5 V with 87.9% retention after 1000 cycles and demonstrating practical viability in 1 Ah pouch cells. The mechanism is further validated across analogous layered oxides, establishing a generalizable paradigm for on-demand interfacial protection in high-voltage batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "소듐 층상 산화물 양극의 고전압(4.5V) 작동 시 계면 안정성을 확보하기 위해 전기장에 반응하는 분자 스위치(EFCA) 개념을 제안했다. 임계 전기장 이하에서는 비활성 상태를 유지하다가 임계값 이상에서 선택적으로 분해·재배치되어 붕소가 풍부한 구배형 계면층을 형성하는 소듐 디플루오로(옥살레이토)보레이트를 발굴했다. 이를 적용한 망간 기반 소듐 층상 양극은 4.5V에서 1000사이클 후 87.9%의 용량 유지율을 보였으며 1 Ah 파우치셀에서도 실용성을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236345042",
+      "source": "openalex",
+      "title": "Beyond Lithium Solvation: Tuning Cation‐Solvent‐Anion Interactions for Stable Lithium‐Metal Batteries",
+      "url": "https://doi.org/10.1002/anie.7753082",
+      "published": "2026-11-18",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.7753082",
+      "authors": [
+        "Hao Wu",
+        "Pu Li",
+        "Jiaxun Yang",
+        "Qixin Wang",
+        "Xinxin Zhang",
+        "Guanjun Cen"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "Electrolyte chemistry in nonaqueous solvents is central to the electrochemical performance of high-energy rechargeable batteries, yet the molecular basis of ion solvation in these systems remains incompletely understood. In conventional dipolar aprotic electrolytes, the high electron-donating ability of the solvent favors cation-dominated ion-dipole interactions, such that anions remain largely free or are only weakly incorporated into cation solvation structures. Here we establish an explicit molecular picture of cation-solvent-anion ternary interactions in nonaqueous electrolytes and show that these interactions critically govern both bulk electrolyte properties and electrode-electrolyte interfaces. We find that fluorinated ether-based solvents, despite being widely regarded as non-solvating diluents, can exhibit selective solvation of high-electron-donating anions, including halides and polysulfides. Coupling these ternary interactions to the redox chemistry of sulfur electrodes suppresses the dissolution and migration of polysulfide intermediates in ether-based electrolytes, thus mitigating the shuttle effect and improving the cycling stability of Li°||S cells. More broadly, our findings revise the prevailing view of solvation in nonaqueous electrolytes and provide a molecular framework for solvent design and electrolyte formulation to advance high-energy lithium- and other monovalent cation-based rechargeable batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "비수계 전해질에서 양이온-용매-음이온 삼원 상호작용이 전해질 물성과 전극-전해질 계면을 좌우한다는 분자적 모델을 제시했다. 비용매화 희석제로 알려진 불소화 에테르 용매가 할라이드 및 폴리설파이드 같은 강한 전자 donor 음이온을 선택적으로 용매화할 수 있음을 발견했다. 이 삼원 상호작용을 활용해 에테르 기반 전해질에서 폴리설파이드 용출을 억제함으로써 Li°||S 셀의 사이클 안정성을 개선했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7232156760",
+      "source": "openalex",
+      "title": "Halide-mediated chemistry for enhancing wide-temperature performance of zinc-ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105653",
+      "published": "2026-11-15",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105653",
+      "authors": [
+        "Ruizhi Zhang",
+        "Wangwu Li",
+        "Fangli Zhang",
+        "Jodie A. Yuwono",
+        "Mingnan Li",
+        "Yameng Fan"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "Aqueous zinc-ion batteries (ZIBs) are attractive for large-scale energy storage owing to their safety, low cost, and environmental friendliness. However, their wide-temperature operation is restricted by the temperature-sensitive nature of water, leading to electrolyte freezing/evaporation and severe parasitic reactions. Current ZIBs electrolyte strategies can suppress water activity and improve thermal stability by introducing oxygen-donor components, but the resulting strong Zn 2+ -O coordination often increases the desolvation energy and limits Zn 2+ mobility, especially under low-temperature conditions. Here, we overcome this trade-off by developing an iodide-mediated hybrid aqueous electrolyte in which I⁻ acts as a non-oxygen-donor ligand to regulate the local electronic environment of Zn²⁺, rather than relying on conventional oxygen-donor components. In this electrolyte, TEP suppresses water activity by disrupting the H 2 O-H 2 O hydrogen-bond network, while I − redistributes the localized charge around Zn 2+ owing to its high polarizability and electron-donating capability. This weakens Zn 2+ -solvent interactions, lowers the desolvation energy, and accelerates Zn 2+ transport, especially at low temperatures. As a result, Zn//Zn symmetric cells using IM-HAE achieve long-term cycling over 7500 hours at −40°C and stable operation at 60°C. Zn//NaV 3 O 8 ·1.5H 2 O full cells deliver 222 mAh g −1 at −40°C and retain 82.8% capacity after 1000 cycles at 60°C. This work unveils the overlooked potential of halide coordination and presents a new design paradigm for wide-temperature aqueous ZIBs.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105653",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-20",
+      "image": null,
+      "summary_ko": "수계 아연이온 배터리의 광범위 온도 작동 성능을 향상시키기 위해 요오드화물을 매개로 한 하이브리드 전해질을 개발한 연구로, 리튬/소듐 배터리 소재와는 무관하다.",
+      "relevant": false
+    }
+  ]
+}
