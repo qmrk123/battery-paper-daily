@@ -1,8 +1,126 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-20T02:05:12+00:00",
-  "count": 239,
+  "generated_at": "2026-11-21T02:01:53+00:00",
+  "count": 250,
   "papers": [
+    {
+      "id": "W7236652020",
+      "source": "openalex",
+      "title": "Thermodynamic Activity Regulation Enables Low-Voltage Alloy-Mediated CO2-to-Carbon Conversion",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02948",
+      "published": "2026-11-19",
+      "topics": [],
+      "doi": "10.1021/acsenergylett.6c02948",
+      "authors": [
+        "Jiale Kong",
+        "Yidong Jiang",
+        "Zhitao Wen",
+        "Yixiang Shi"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Molten-carbonate electrolysis integrates CO2 capture with conversion to storable solid carbon, yet direct carbonate electroreduction suffers from cathodic polarization, raising cell voltage and energy consumption. Here, the cathodic pathway is redesigned by coupling electrochemical alkali-metal alloying with thermochemical carbonate reduction. Alloying with liquid metals lowers the thermodynamic activity of the alkali-metal mediator and shifts its equilibrium alloying potential to more positive values, while sufficient activity must be retained to drive subsequent thermochemical carbonate reduction. These competing constraints define a thermodynamic reactive window that guides liquid-metal screening, identifying Sb as a host. Stepwise experiments separating alloying from open-circuit thermochemical carbon formation directly support the proposed pathway. Liquid Sb sustains CO2-to-carbon electrolysis for 72 h at 700 °C and 2.0 V with 80.9% Faradaic efficiency and 22.08 kWh kg C–1 electrical energy consumption, 36.9% below a reported solid-electrode benchmark. These results establish thermodynamic activity regulation as a strategy for lower-voltage electrochemical–chemical conversion.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "용융 탄산염 전해 환원에서 알칼리 금속-액체금속 합금화를 열화학적 탄산염 환원과 결합하여 음극 분극을 낮추는 전략을 제시했다. 열역학적 활성도 조절을 통해 Sb를 호스트 금속으로 선정하였으며, 액체 Sb는 700°C, 2.0V에서 72시간 동안 80.9%의 파라데이 효율로 CO2를 탄소로 전환하면서 기존 고체 전극 대비 36.9% 낮은 전력 소비(22.08 kWh/kg C)를 달성했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7236667384",
+      "source": "openalex",
+      "title": "Screening of Single-Atom Catalysts for Na2S-Mediated Pre-Sodiation and Interfacial Rejuvenation in Low N/P Ratio Sodium Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c14733",
+      "published": "2026-11-19",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1021/acsnano.6c14733",
+      "authors": [
+        "Chunwei Li",
+        "Peiyu Zhao",
+        "Ahu Shao",
+        "Tongshuai Wang",
+        "Jiawen Tang",
+        "Wenzhuo Tan"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "The pursuit of higher energy and power densities in sodium-ion batteries (SIBs) is constrained by the trade-off between multielectron faradaic reaction kinetics and interfacial stability. Here, we develop a catalyst-mediated presodiation and interfacial rejuvenation strategy to address the low initial Coulombic efficiency of hard carbon (HC) anodes and transition-metal (TM) dissolution from high-voltage polyanionic and layered oxide cathodes in ampere-hour-scale pouch cells. Moving beyond empirical catalyst selection, we establish a rational screening framework for transition-metal single-atom sites based on electronic coupling and geometric compatibility with Na2S. Atomically dispersed Co (SA-Co) emerges as the preferred catalyst, reducing the Na2S decomposition potential to 3.49 V. An SA-Co/Na2S@C functional layer enables precise sodium-inventory compensation and simultaneous interfacial rejuvenation. Unlike conventional blended additives, sulfur-derived polysulfides suppress TM crossover and support high-voltage operation up to 4.5 V, while replenished sodium compensates irreversible HC losses and stabilizes the solid-electrolyte interphase. Coupling an SA-Co/Na2S@C-coated Na3V2(PO4)3 (NVP) cathode (18 mg cm–2) with an HC anode under lean-sodium and lean-electrolyte conditions (N/P ratio = 0.4; E/C ratio = 1.2 g Ah1–) yields a 1.1 Ah pouch cell retaining 97.2% capacity after 200 cycles, with gravimetric and volumetric energy densities of 317 Wh kg–1 and 485 Wh L–1, respectively, and a maximum power density of 831 W kg–1. Compatible with existing electrode manufacturing, this scalable interfacial approach offers a practical pathway toward high-energy, high-power SIBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "저 N/P 비율의 소듐이온 파우치셀에서 하드카본 음극의 낮은 초기 쿨롱 효율과 고전압 양극재의 전이금속 용출 문제를 해결하기 위해 Na2S 기반 사전소듐화 및 계면 재생 전략을 제안했다. 전자 결합 및 기하학적 적합성에 기반한 단원자 촉매 스크리닝을 통해 Co 단원자(SA-Co)가 Na2S 분해 전위를 3.49V로 낮추는 최적 촉매로 확인되었다. SA-Co/Na2S@C로 코팅된 Na3V2(PO4)3(NVP) 양극과 하드카본 음극을 조합한 1.1Ah 파우치셀은 N/P=0.4, 린 전해질 조건에서 200회 사이클 후 97.2%의 용량 유지율과 317 Wh/kg, 485 Wh/L의 에너지 밀도를 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236775950",
+      "source": "openalex",
+      "title": "In Situ Polymerized Main/Side-Chain Bifluorinated Cross-Linked Polyether Electrolytes for High-Voltage Lithium Metal Batteries",
+      "url": "https://doi.org/10.1021/jacs.6c08830",
+      "published": "2026-11-19",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1021/jacs.6c08830",
+      "authors": [
+        "Shimei Li",
+        "Yu Tat Tse",
+        "Hu Hong",
+        "Yin Cui",
+        "Dedi Li",
+        "Shuo Feng"
+      ],
+      "venue": "Journal of the American Chemical Society",
+      "abstract_en": "Polyether electrolytes are compelling candidates for lithium metal batteries owing to their high ionic conductivity and conformal interfacial contact. However, their widespread adoption is impeded by inherent vulnerabilities, including limited oxidative stability against high-voltage cathodes, uncontrolled lithium dendrite growth, and persistent interfacial side reactions. To overcome these challenges, we report an in situ polymerized cross-linked polyether electrolyte engineered with a bifluorinated molecular architecture (PTFMO-BEP), incorporating −CF2– segments in the polymer backbone and −CF3 groups on the side chains. This design significantly enhances the intrinsic oxidative stability, extending the electrochemical window beyond 5.5 V. Concurrently, the electron-withdrawing fluorinated motifs weaken the Li+-polymer coordination, steering an anion-derived decomposition pathway to form a homogeneous, inorganic-rich solid electrolyte interphase (SEI). Consequently, the PTFMO-BEP electrolyte enables exceptional cyclability in Li||Li symmetric cells (>800 h) and uniform, dendrite-free lithium deposition. When paired with high-loading LiNi0.8Co0.1Mn0.1O2 (NCM811) cathodes (∼4.4 mAh cm–2) and thin lithium anode (50 μm), the Li||NCM811 full cells achieve outstanding capacity retention of 85.6% after 150 cycles at 4.3 V and 91.5% after 100 cycles at 4.5 V. Remarkably, stable operation is maintained even under an ultrahigh cutoff voltage of 4.7 V with a 20 μm Li anode (88.7% retention over 100 cycles). Furthermore, ampere-hour-scale pouch cells configured with LiNi0.90Co0.05Mn0.05O2 (NCM9055) cathodes deliver a high gravimetric energy density of 510.1 Wh kg–1. This work exemplifies a potent molecular-design strategy to advance polyether electrolytes for practical high-energy-density lithium metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S111155417",
+      "journal_metric": 16.47,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "고전압 리튬 금속 배터리를 위해 주쇄와 측쇄에 불소를 동시 도입한 가교형 폴리에테르 전해질(PTFMO-BEP)을 현장 중합으로 제작했다. −CF2−/−CF3 구조가 산화 안정성을 5.5V 이상으로 확장하고 Li+-고분자 결합을 약화시켜 음이온 유래의 무기물 풍부 SEI 형성을 유도하며, Li||Li 대칭셀에서 800시간 이상의 덴드라이트 없는 안정적 사이클링을 구현했다. NCM811 고용량 양극과의 풀셀은 4.3V에서 150회 사이클 후 85.6%, 4.5V에서 100회 사이클 후 91.5%의 용량 유지율을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236741755",
+      "source": "openalex",
+      "title": "Competitive Coordination of Solvent in Electrolyte to Stabilize Li-Rich Mn-Based Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02523",
+      "published": "2026-11-19",
+      "topics": [
+        "li-rich",
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02523",
+      "authors": [
+        "Mengmin Jia",
+        "Canhui Wu",
+        "Lin Dong",
+        "Zhuangzhuang Zhang",
+        "Liang Wang",
+        "Lulu Chai"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "The practical application of lithium metal batteries equipped with lithium-rich manganese-based layered oxide (LRMO) cathodes is severely impeded by aggressive electrolyte decomposition under operational voltage above 4.5 V. Herein, we discover a unique competitive solvent coordination behavior in the electrolyte solvation structure that enables significant stabilization of LRMO-based batteries. This rarely reported mechanism inspires the design of a low-concentration electrolyte (0.5 M lithium hexafluorophosphate, LiPF6), which employs a binary fluorinated solvent system consisting of weakly solvating tris(2,2,2-trifluoroethyl) phosphate (TFP) and ethyl difluoroacetate (EDFA). Benefiting from the optimized solvation structure, the assembled Li||LRMO cells achieve cycling stability, retaining 80.5% of the initial capacity after 450 cycles at 4.8 V and 0.5 C. We further establish a molecular-level interfacial model to elucidate the performance enhancement mechanism. This work provides insights into the unique competitive coordination effect of solvents within solvation structures and offers an innovative strategy for electrolyte design toward LRMO-based battery systems and beyond.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "4.5V 이상의 고전압에서 리튬 리치 망간계(LRMO) 양극을 사용하는 리튬 금속 배터리의 전해질 분해 문제를 해결하기 위해 전해질 내 용매의 경쟁적 코디네이션 거동을 발견했다. 약한 용매화력을 갖는 TFP와 EDFA로 구성된 저농도(0.5M LiPF6) 이원 불소화 전해질을 설계하여 최적화된 솔베이션 구조를 구현하였으며, Li||LRMO 셀은 4.8V, 0.5C에서 450회 사이클 후 80.5%의 용량을 유지했다.",
+      "relevant": true
+    },
     {
       "id": "W7236420714",
       "source": "openalex",
@@ -149,6 +267,61 @@
       "relevant": true
     },
     {
+      "id": "W7236708701",
+      "source": "openalex",
+      "title": "Microstructural Orientation Enables Mass‐Efficient Structural Batteries",
+      "url": "https://doi.org/10.1002/advs.78851",
+      "published": "2026-11-18",
+      "topics": [
+        "lfp"
+      ],
+      "doi": "10.1002/advs.78851",
+      "authors": [
+        "Richa Chaudhary",
+        "Varun Chaudhary",
+        "E. Leif"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "Multifunctional energy materials are fundamentally constrained by the coupling between ionic transport and mechanical load‐bearing, limiting performance and hindering practical implementation. In structural battery composites, this coupling has restricted energy density, rate capability and durability, keeping the field at a proof‐of‐concept stage despite its promise for system‐level weight savings. Here we establish microstructural orientation as an architectural strategy to alleviate transport limitations while preserving the mechanical functionality of load‐bearing energy materials. By aligning LiFePO 4 within a carbon fiber architecture, anisotropic transport pathways reduce tortuosity while preserving structural integrity. This enables all‐fiber structural batteries with a cell‐based energy density of 73 Wh kg −1 , power density of 78 W kg −1 , and an elastic modulus of 100 GPa. For the first time, multifunctional efficiency exceeds unity, reaching 1.6, enabling ∼37% system‐level weight reduction. Sustained cycling at 5C over 1000 cycles and accelerated kinetic stress testing at 10C demonstrate improved high‐rate performance, while calendar‐life stability over 8760 h confirms long‐term durability under mechanically constrained conditions.",
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78851",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "구조용 배터리 복합재에서 이온 전달과 하중 지지 기능 간의 상충을 완화하기 위해 미세구조 배향을 구조적 전략으로 제시했다. 탄소섬유 구조 내 LiFePO4를 배향시켜 이방성 전달 경로로 굴곡도를 낮추면서 기계적 무결성을 유지하여, 셀 기준 에너지밀도 73 Wh/kg, 탄성계수 100 GPa를 갖는 전섬유 구조 배터리를 구현했다. 다기능 효율이 처음으로 1을 넘는 1.6에 도달하여 시스템 수준에서 약 37%의 무게 절감이 가능함을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7236562171",
+      "source": "openalex",
+      "title": "Metallurgical Interface Engineering Constructing In Situ Li 3 N‐Enriched Interphase: A Bulk‐Interface Synergy Strategy Toward Practical Silicon Anodes",
+      "url": "https://doi.org/10.1002/adma.75775",
+      "published": "2026-11-18",
+      "topics": [],
+      "doi": "10.1002/adma.75775",
+      "authors": [
+        "兰冬蓉",
+        "Chuye Pan",
+        "Rui Yang",
+        "Chenchen Li",
+        "Shengnan He",
+        "Zhijun Wu"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "Silicon anodes are promising for next‐generation lithium‐ion batteries but suffer from volume expansion, unstable solid electrolyte interphase (SEI), and sluggish Li + diffusion. Herein, we report a vacuum‐suspension‐melted (VSM) bulk multiphase integration and interphase modification strategy to address these challenges. Unlike conventional mechanical mixing, VSM constructs a SiSnM (M = Bi, Ni) composite with metallurgically bonded Si/metal interfaces, forming a conductive network that buffers internal stress via atomic‐scale interfacial stress transfer. Simultaneously, a polydopamine‐derived nitrogen‐doped carbon coating transforms in situ into a Li 3 N‐enriched interphase during cycling, which exhibits high ionic/electronic conductivity, accelerates interfacial charge transfer, and suppresses continuous SEI breakdown. The resulting SiSnM@Li 3 N anode delivers 87.3% capacity retention after 1000 cycles at 1.5 A g −1 and >1000 mAh g −1 at 15 A g −1 , with reliable operation from −30°C to 60°C. Stable cycling at 2.5 mg cm −2 confirms practical relevance. Full cells with Li‐rich Mn‐based cathodes show stable performance, and 5 Ah‐level pouch cells deliver 84.7% capacity retention after 300 cycles at 6 A discharge. This work concurrently tackles ionic, electronic, and mechanical constraints, offering a practical path to high‐energy durable Si‐based batteries.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.75775",
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "실리콘 음극의 부피 팽창, 불안정한 SEI, 느린 Li+ 확산 문제를 해결하기 위해 진공 부유 용융(VSM)으로 SiSnM(M=Bi, Ni) 복합체를 제작하여 금속학적으로 결합된 Si/금속 계면을 형성했다. 폴리도파민 유래 질소 도핑 탄소 코팅이 사이클 중 Li3N 풍부 계면으로 전환되어 이온/전자 전도성을 높이고 SEI 붕괴를 억제하며, SiSnM@Li3N 음극은 1.5 A/g에서 1000회 사이클 후 87.3%의 용량 유지율과 15 A/g에서 1000 mAh/g 이상의 용량을 보였다. 5Ah급 파우치셀은 300회 사이클 후 84.7%의 용량 유지율을 달성했다.",
+      "relevant": false
+    },
+    {
       "id": "W7235941832",
       "source": "openalex",
       "title": "Manipulating Spatial Charge Distribution and Electronic Structure in Se‐Doped Hollow Heterostructures for Enhanced Redox Kinetics in Li‐S Batteries",
@@ -211,7 +384,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79335-6/MediaObjects/41467_2026_79335_Fig1_HTML.png",
+        "cached": "img/W7236337632.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79335-6"
+      },
       "summary_ko": "머신러닝과 밀도함수이론을 결합해 리튬-산소 배터리의 다전자 전달 경로를 최적화하는 Ni-Co 이중원자 촉매를 발굴했다. 두 활성점 간 전자적 결합이 d-band 중심을 재구성하여 산소 레독스의 열역학적 장벽을 낮추고, 기존 2전자 경로에서 4전자 LiOH 경로로의 전환을 유도해 약 60,000 mAh/g의 방전 용량을 달성했다. 이 촉매층은 동시에 리튬 금속 음극의 덴드라이트 성장을 억제하는 보호층 역할도 수행하여 전지 수명을 2075사이클까지 연장했다.",
       "relevant": true
     },
@@ -241,7 +419,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79291-1/MediaObjects/41467_2026_79291_Fig1_HTML.png",
+        "cached": "img/W7236062713.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79291-1"
+      },
       "summary_ko": "Ag-C 계면층을 사용하는 애노드리스 전고체 전지의 저온 작동 실패 메커니즘을 operando 분광 및 저온 전자현미경으로 규명했다. Li-Ag 합금화 반응이 45°C에서는 빠르지만 5°C에서는 속도론적으로 억제되어 리튬 이동 저하, 내부 리튬 압출, 계면 박리를 유발함을 확인했다. 45°C에서의 초기 활성화 충전 프로토콜을 적용하면 5°C에서도 250사이클 후 87%의 용량을 유지할 수 있음을 보였다.",
       "relevant": true
     },
@@ -269,7 +452,12 @@
       "journal_id": "S137773608",
       "journal_metric": 18.34,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-11333-6/MediaObjects/41586_2026_11333_Fig1_HTML.png",
+        "cached": "img/W7236198088.jpg",
+        "license": "cc-by",
+        "attribution": "Nature — https://doi.org/10.1038/s41586-026-11333-6"
+      },
       "summary_ko": "암세포의 페롭토시스(ferroptosis)가 PGE2 생성을 유발해 종양의 면역 회피를 촉진하는 기전을 규명한 암면역학 연구로, 배터리 소재와는 무관하다.",
       "relevant": false
     },
@@ -345,6 +533,34 @@
       },
       "summary_ko": "비수계 전해질에서 양이온-용매-음이온 삼원 상호작용이 전해질 물성과 전극-전해질 계면을 좌우한다는 분자적 모델을 제시했다. 비용매화 희석제로 알려진 불소화 에테르 용매가 할라이드 및 폴리설파이드 같은 강한 전자 donor 음이온을 선택적으로 용매화할 수 있음을 발견했다. 이 삼원 상호작용을 활용해 에테르 기반 전해질에서 폴리설파이드 용출을 억제함으로써 Li°||S 셀의 사이클 안정성을 개선했다.",
       "relevant": true
+    },
+    {
+      "id": "W7236666601",
+      "source": "openalex",
+      "title": "Architected Si-Based Anodes for All-Solid-State Lithium Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02554",
+      "published": "2026-11-18",
+      "topics": [],
+      "doi": "10.1021/acsenergylett.6c02554",
+      "authors": [
+        "Chenxi Zheng",
+        "Yuanrui Li",
+        "Yumei Liu",
+        "Jixu Yang",
+        "Weize Shi",
+        "Yongfeng Jia"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Silicon anodes have emerged as a key enabler for next-generation all-solid-state batteries (ASSBs). In particular, the Li-Si alloy shows a low expansion coefficient and high ionic/electronic conductivity, but remains plagued by poor mechanical integrity and interfacial stability. Here we describe a Mg-doped Si interlayer at the Li metal-Li6PS5Cl interface, which electrochemically transforms into a Li-rich composite anode comprising Li14.39Mg0.61Si4 and Li-Mg alloy during cycling. Mg incorporation promotes the formation of a homogeneous lithiated Si framework, establishing a continuous ion/electron transport network. In addition, the unique porous architecture effectively mitigates stress and achieves favorable mechanical matching with Li6PS5Cl, thereby enhancing structural stability. Paired with a LiNi0.8Co0.1Mn0.1O2 cathode, the cell with an areal loading of 17.9 mg cm–2 delivers stable cycling over 1000 cycles at 3 C with 92.5% capacity retention. This multicomponent anode design offers a new paradigm for structural engineering of Si-based anodes and paves the way for high-energy-density ASSBs.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "전고체 리튬 배터리용 실리콘 기반 음극을 위해 Li 금속-Li6PS5Cl 계면에 Mg 도핑된 Si 중간층을 도입하여, 사이클링 중 Li14.39Mg0.61Si4와 Li-Mg 합금으로 구성된 리튬 리치 복합 음극으로 전기화학적으로 전환시켰다. Mg 도입은 균일한 리튬화 Si 골격 형성과 연속적인 이온/전자 전달 네트워크 구축을 촉진하며, 다공성 구조가 응력을 완화하여 Li6PS5Cl과의 기계적 매칭을 향상시켰다. NCM811 양극과 짝을 이룬 셀(17.9 mg/cm²)은 3C에서 1000회 사이클 후 92.5%의 용량을 유지했다.",
+      "relevant": false
     },
     {
       "id": "W7235473709",
@@ -631,6 +847,36 @@
       "relevant": false
     },
     {
+      "id": "W7234053136",
+      "source": "openalex",
+      "title": "Lithium phytate treatment for residual lithium modulation and surface stabilization of LiNi0.8Co0.1Mn0.1O2 cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105657",
+      "published": "2026-11-16",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1016/j.ensm.2026.105657",
+      "authors": [
+        "Yuehua Lei",
+        "Hongzhi Wang",
+        "Fangchang Zhang",
+        "Xueting Shen",
+        "Xuhui Li",
+        "Yulin Cao"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "리튬 피테이트 처리를 통해 LiNi0.8Co0.1Mn0.1O2 양극 표면의 잔류 리튬을 조절하고 표면을 안정화하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
+    },
+    {
       "id": "W4415845554",
       "source": "openalex",
       "title": "Highly conductive halide Na-ion conductor enabled by cost-effective aliovalent carbonate polyanion substitution for all-solid-state sodium batteries",
@@ -718,6 +964,36 @@
       "image": null,
       "summary_ko": "수계 소듐이온전지용 NASICON형 NaTi2(PO4)3(NTP) 음극이 알칼리 전해질에서 겪는 티타네이트 용해 문제를 해결하기 위해 철 도핑 기반 벌크-계면 이중 보호 전략을 제시한다. 철이 격자 내부와 표면 Fe3O4 쉘 양쪽에 분포해 OH- 유입을 차단함으로써 용해를 억제했고, 164.9 mAh/g의 비용량과 2000사이클 후 90.9%의 용량 유지율을 달성했다.",
       "relevant": false
+    },
+    {
+      "id": "W7233733200",
+      "source": "openalex",
+      "title": "A cation/anion-docking electrolyte additive via dipole separation regulates electric double layer for stable lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105659",
+      "published": "2026-11-16",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105659",
+      "authors": [
+        "Liwei Dong",
+        "Min Niu",
+        "Bowen Zhang",
+        "Daiheng Song",
+        "Zihao He",
+        "Sen Xin"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "양이온/음이온 도킹 전해질 첨가제를 통한 다이폴 분리로 전기이중층을 조절하여 안정적인 리튬 금속 배터리를 구현하는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": true
     },
     {
       "id": "W7233618202",
@@ -980,6 +1256,34 @@
       "relevant": false
     },
     {
+      "id": "W7227516803",
+      "source": "openalex",
+      "title": "Advanced data-driven surrogate modelling for high-fidelity P2D electrochemical simulation of lithium-ion batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105650",
+      "published": "2026-11-15",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105650",
+      "authors": [
+        "Fatemeh Rouholahnejad",
+        "Omar Mourad",
+        "Alexander Fill",
+        "Hendrik Pegel",
+        "Seyed Morteza Seyedpour",
+        "Tim Ricken"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "리튬이온 배터리의 P2D 전기화학 시뮬레이션을 위한 고정밀 데이터 기반 서로게이트 모델링 기법을 다루는 연구로 추정된다. (제목 기반 추정)",
+      "relevant": false
+    },
+    {
       "id": "W7229797157",
       "source": "openalex",
       "title": "Unveiling the Intrinsic Disparity of Ethylene Carbonate and Fluoroethylene Carbonate in Lithium Metal Battery Exceeding 600 Wh kg −1",
@@ -1111,6 +1415,36 @@
         "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71841"
       },
       "summary_ko": "고하중·린전해질 조건에서 리튬-황 전지의 황 전환 효율을 높이기 위해 전극 수준에서 상분리 전략을 적용한 연구이다. 이소프로판올 기반 용매-비용매 교환으로 굴곡도가 낮고 전해질 접근성이 높은 상분리 전극(PSE-IPA)을 제작해 Li2S 핵생성·성장 시 활성화 및 농도 분극을 줄였다. 13.5 mg/cm²의 높은 황 로딩과 5 µL/mg의 린전해질 조건에서 14.6 mAh/cm²의 면적 용량을 달성했으며, 이중적층 파우치셀에서는 298 Wh/kg을 구현했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7226546949",
+      "source": "openalex",
+      "title": "Molecular engineering of carboxylate-based electrolytes for high-voltage lithium metal batteries with a wide temperature range",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112619",
+      "published": "2026-11-14",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.nanoen.2026.112619",
+      "authors": [
+        "Xingrui Ji",
+        "Weili Zhang",
+        "Facai Wei",
+        "Fengyang Xie",
+        "Weibo Gong",
+        "Wenyang Lu"
+      ],
+      "venue": "Nano Energy",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2497301991",
+      "journal_metric": 18.35,
+      "first_seen": "2026-11-21",
+      "image": null,
+      "summary_ko": "넓은 온도 범위에서 동작하는 고전압 리튬 금속 배터리를 위한 카르복실레이트 기반 전해질의 분자 설계 연구로 추정된다. (제목 기반 추정)",
       "relevant": true
     },
     {
