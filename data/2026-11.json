@@ -29,7 +29,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75779",
+        "cached": "img/W7236420714.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75779"
+      },
       "summary_ko": "전고체 리튬-황 배터리에서 스택 압력이 단순한 기계적 경계가 아니라 황 전환과 계면 재구성을 단계별로 조절하는 요인임을 규명했다. 저압 방전(1 MPa)과 고압 충전(180 MPa)을 결합한 압력 프로그래밍 프로토콜을 통해 저압 조건의 지속적 공극 충전으로 인한 비활성 LixS 축적과 삼상 계면 접촉 손실 문제를 해결했다. 이 전략을 적용한 셀은 30°C, 100회 사이클 후 98.8%의 용량을 유지했다.",
       "relevant": true
     },
@@ -59,7 +65,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75751",
+        "cached": "img/W7236455387.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75751"
+      },
       "summary_ko": "니켈리치 층상 양극의 격자 산소 방출을 열역학적 접근이 아닌 운동학적(phonon dynamics) 관점에서 억제하는 전략을 제시했다. Si-Ti 공동 도핑된 단결정 LiNi0.83Co0.12Mn0.05O2에서 포논 산란 강화와 전이금속-산소 광학 포논 모드 변화를 라만 분광 및 포논 분산 계산으로 확인했다. 그 결과 산소 레독스 가역성이 향상되어 5C, 1000사이클 후 83.17%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -89,7 +101,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75701",
+        "cached": "img/W7236146450.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75701"
+      },
       "summary_ko": "고전압에서 니켈리치 층상 산화물(LiNi0.84Co0.08Mn0.08O2) 양극의 산소 방출과 전이금속 용출을 억제하기 위해 세륨 기반 파이로클로어 코팅과 벌크 Ce 도핑을 결합한 전략을 제안했다. 파이로클로어 코팅의 높은 산소 저장 능력과 Ce 도핑에 의한 전이금속-산소 결합 조절로 격자 산소 레독스 가역성을 향상시켰다. 4.50V, 60°C, 1C 조건에서 400사이클 후 72.2%, 파우치셀에서는 1000사이클 후 91.0%(4.20V)와 80.2%(4.40V)의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -120,7 +138,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79717",
+        "cached": "img/W7236359469.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79717"
+      },
       "summary_ko": "전고체 리튬 배터리용 아지로다이트 고체전해질의 수분 민감성과 리튬 금속과의 불안정한 계면 반응을 해결하기 위해 Ag와 Br 이중 도핑 전략을 제시했다. Li5.375Ag0.025PS4.4Cl1.575Br0.025 조성은 11.44 mS/cm의 향상된 이온전도도와 함께 H2S 발생량을 약 1/3로 감소시켰으며, Ag-Li 합금 형성으로 리튬 금속 계면 안정성도 개선되었다. LiCoO2|SE|Li 셀은 1C, 1000사이클 후 84.5%의 용량 유지율을 달성했다.",
       "relevant": true
     },
@@ -150,7 +174,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79723",
+        "cached": "img/W7235941832.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79723"
+      },
       "summary_ko": "리튬-황 배터리의 느린 전환 반응속도와 폴리설파이드 셔틀 문제를 해결하기 위해 Se 도핑된 Co3O4/SnO2 중공 나노박스를 분리막 코팅 소재로 적용했다. 헤테로계면에 의한 전하 재분배와 Se 도핑에 의한 Co d-band 중심 상향 이동으로 폴리설파이드 흡착과 산화환원 반응속도를 동시에 향상시켰다. 1000사이클에서 사이클당 약 0.049%의 낮은 용량 감쇠율을 보였으며 파우치셀에서도 100사이클 후 862 mAh/g을 유지했다.",
       "relevant": true
     },
@@ -269,7 +299,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4447702",
+        "cached": "img/W7236301446.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4447702"
+      },
       "summary_ko": "소듐 층상 산화물 양극의 고전압(4.5V) 작동 시 계면 안정성을 확보하기 위해 전기장에 반응하는 분자 스위치(EFCA) 개념을 제안했다. 임계 전기장 이하에서는 비활성 상태를 유지하다가 임계값 이상에서 선택적으로 분해·재배치되어 붕소가 풍부한 구배형 계면층을 형성하는 소듐 디플루오로(옥살레이토)보레이트를 발굴했다. 이를 적용한 망간 기반 소듐 층상 양극은 4.5V에서 1000사이클 후 87.9%의 용량 유지율을 보였으며 1 Ah 파우치셀에서도 실용성을 입증했다.",
       "relevant": true
     },
@@ -300,7 +336,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-20",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.7753082",
+        "cached": "img/W7236345042.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.7753082"
+      },
       "summary_ko": "비수계 전해질에서 양이온-용매-음이온 삼원 상호작용이 전해질 물성과 전극-전해질 계면을 좌우한다는 분자적 모델을 제시했다. 비용매화 희석제로 알려진 불소화 에테르 용매가 할라이드 및 폴리설파이드 같은 강한 전자 donor 음이온을 선택적으로 용매화할 수 있음을 발견했다. 이 삼원 상호작용을 활용해 에테르 기반 전해질에서 폴리설파이드 용출을 억제함으로써 Li°||S 셀의 사이클 안정성을 개선했다.",
       "relevant": true
     },
