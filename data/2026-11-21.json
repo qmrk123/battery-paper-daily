@@ -144,7 +144,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-21",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78851",
+        "cached": "img/W7236708701.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78851"
+      },
       "summary_ko": "구조용 배터리 복합재에서 이온 전달과 하중 지지 기능 간의 상충을 완화하기 위해 미세구조 배향을 구조적 전략으로 제시했다. 탄소섬유 구조 내 LiFePO4를 배향시켜 이방성 전달 경로로 굴곡도를 낮추면서 기계적 무결성을 유지하여, 셀 기준 에너지밀도 73 Wh/kg, 탄성계수 100 GPa를 갖는 전섬유 구조 배터리를 구현했다. 다기능 효율이 처음으로 1을 넘는 1.6에 도달하여 시스템 수준에서 약 37%의 무게 절감이 가능함을 보였다.",
       "relevant": true
     },

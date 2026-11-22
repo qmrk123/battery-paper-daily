@@ -346,7 +346,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79722",
+        "cached": "img/W7237254474.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79722"
+      },
       "summary_ko": "리튬-황 전지에서 농도에 따라 거동이 달라지는 시아누르산 클로라이드(CC) 첨가제를 0~0.10 M 범위에서 평가했다. 0.05 M 농도(Optm-CC)는 NO3−와 TFSI− 음이온의 Li+ 솔베이션 참여를 늘려 폴리설파이드 셔틀을 줄이고, 황 양극과 리튬 음극 모두에 무기물이 풍부한 계면을 형성시켜 Li|Li 대칭셀 1100회 이상, 10C에서 560 mAh gS−1, 3000회 Li-S 사이클을 달성했다. 반면 0.10 M(Conc-CC)에서는 리튬 전극 분극이 악화되어 8 mg cm−2 파우치셀은 300회 후 72.73% 용량을 유지했다.",
       "relevant": true
     },
@@ -487,7 +493,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71838",
+        "cached": "img/W7237146988.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71838"
+      },
       "summary_ko": "리튬-황 및 리튬-산소 전지 양극의 느린 다상 반응속도 문제를 해결하기 위한 가용성 레독스 매개체(RM)의 분자설계를 리뷰했다. 레독스 전위, 용해도, 분자크기, 화학적 안정성 관점에서 RM의 구조-물성 관계를 정리하고, 액상 촉매작용을 넘어 고체-액체 시너지 설계와 전해질/분리막 기능화로 확장되는 전략을 제시한다.",
       "relevant": true
     },
@@ -579,7 +591,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71846",
+        "cached": "img/W7237098757.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71846"
+      },
       "summary_ko": "코발트가 없는 리튬리치 망간계 층상산화물(LRMO) 양극의 최근 연구 동향을 정리한 리뷰이다. 낮은 초기 쿨롱효율, 급격한 용량·전압 감쇠, 저조한 율속 특성 등 구조 안정성 문제를 미세구조, 원소 도핑, 표면 코팅 관점에서 분석하고 향후 개선 방향을 제시한다.",
       "relevant": true
     },
@@ -751,7 +769,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-21",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78851",
+        "cached": "img/W7236708701.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78851"
+      },
       "summary_ko": "구조용 배터리 복합재에서 이온 전달과 하중 지지 기능 간의 상충을 완화하기 위해 미세구조 배향을 구조적 전략으로 제시했다. 탄소섬유 구조 내 LiFePO4를 배향시켜 이방성 전달 경로로 굴곡도를 낮추면서 기계적 무결성을 유지하여, 셀 기준 에너지밀도 73 Wh/kg, 탄성계수 100 GPa를 갖는 전섬유 구조 배터리를 구현했다. 다기능 효율이 처음으로 1을 넘는 1.6에 도달하여 시스템 수준에서 약 37%의 무게 절감이 가능함을 보였다.",
       "relevant": true
     },
