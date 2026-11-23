@@ -1,8 +1,99 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-22T01:03:04+00:00",
-  "count": 267,
+  "generated_at": "2026-11-23T01:29:06+00:00",
+  "count": 274,
   "papers": [
+    {
+      "id": "W7237363659",
+      "source": "openalex",
+      "title": "Interacting Cosolvents-Regulated Solvation for Rapid Quasi-Solid–State Sulfur Reactions in Li–S Batteries",
+      "url": "https://doi.org/10.1021/acsnano.6c12314",
+      "published": "2026-11-21",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1021/acsnano.6c12314",
+      "authors": [
+        "Chunli Shen",
+        "Lujun Zhu",
+        "Mengxue He",
+        "Wencong Feng",
+        "Xufeng Hong",
+        "Yuanrui Li"
+      ],
+      "venue": "ACS Nano",
+      "abstract_en": "Enabling a quasi-solid-state sulfur reaction (QSSSR) using sparingly solvating electrolytes (SSEs) represents a promising venue for lean-electrolyte and high-energy lithium–sulfur (Li–S) batteries. However, impeded charge transfer at the sulfur surface owed to weak solvation results in slow solid–solid conversion kinetics. Here we describe an electrolyte using dipole-interacting binary solvents with distinct solvation capability that decouples electrolyte bulk solvation thermodynamics from the Li-polysulfide solvation at the reaction site─the electrode surface. This is achieved by combining moderately solvating tetrahydrofuran (THF) with weakly solvating cyclopentyl methyl ether (CPME), wherein the outer solvation shell of dipole-interacting CPME-THF preserves weak solvation for Li-polysulfides, and importantly, a fraction of THF participates in the first solvation shell and encourages solvation of the dynamically generated solvated Li-polysulfide intermediates, promoting a rapid solution-mediated reaction at the surface. Our study shows that the altered interfacial reaction kinetics redirects sulfur speciation toward growth of three-dimensional Li2S and textured β-S8 upon discharge/charge. The Li–S cell delivers a capacity of 5.2 mA h cm–2 with an electrolyte/sulfur (E/S) ratio of 3 μL mg–1, and stable cycling of a 2.44 A h prototype pouch cell is demonstrated. These results highlight a molecular cosolvent design strategy that reconciles bulk dissolution and surface reaction kinetics for rapid QSSSR.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S145476921",
+      "journal_metric": 16.67,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "희박 전해질(SSE) 기반 준고체 황 반응(QSSSR)에서 느린 고체-고체 전환 속도를 해결하기 위해, THF와 CPME를 조합한 쌍극자 상호작용 바이너리 공용매 전해질을 설계했다. 외곽 솔베이션 셀은 리튬 폴리설파이드에 대해 약한 솔베이션을 유지하면서 THF 일부가 첫 번째 솔베이션 셀에 참여해 중간체 용해를 촉진, 표면에서 빠른 용액 매개 반응을 가능하게 한다. 이를 통해 E/S 비 3 μL/mg에서 5.2 mAh/cm²의 용량을 구현했고 2.44 Ah 파우치셀에서 안정적인 사이클링을 입증했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7237342662",
+      "source": "openalex",
+      "title": "Functionalized Interface Engineering of Cellulose-Based Electrolytes for Safety and Long-Life Li–Metal Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02642",
+      "published": "2026-11-21",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02642",
+      "authors": [
+        "Wenze Cao",
+        "Jierui Ye",
+        "Zhiguang Zhao",
+        "Yue Yuan",
+        "Qian Li",
+        "Zenan Zhao"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Cellulose-based electrolytes are low-cost, eco-friendly solid-state electrolyte candidates owing to renewability and biodegradability. However, their flammability raises safety concerns, and crystallinity leads to low ion conduction. Herein, a dual-functionalization strategy is proposed, which grafts phytic and sulfate groups onto cellulose via a ternary deep eutectic solvent system. Phytic groups provide flame retardancy, and sulfate groups realize fast Li-ion conduction. The resulting electrolyte delivers a Li-ion conductivity (1.48 × 10–3 S cm–1) and an oxidation potential (5.2 V), and the fabricated electrolyte membrane shows a uniform structure, enhanced mechanical flexibility, and strong tensile stress. It also shows good compatibility with the Li metal, enabling stable cycling and long cycle life for solid-state Li–metal cells, including the LiFePO4 and LiNi0.8Co0.1Mn0.1O2 cells over 542 and 409 cycles, respectively. Moreover, this solid-state electrolyte exhibits self-extinguishing properties, helping solid-state cells work stably under extreme thermal conditions. This research offers an approach for developing safe cellulose-based electrolytes for next-generation Li–metal batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "셀룰로오스 기반 고체 전해질의 가연성과 낮은 이온전도도 문제를 해결하기 위해, 3성분 공융용매 시스템을 이용해 피틱기와 설페이트기를 셀룰로오스에 동시에 그래프팅하는 이중 기능화 전략을 제시했다. 피틱기는 난연성을 부여하고 설페이트기는 빠른 리튬이온 전도(1.48×10⁻³ S/cm)와 5.2V의 산화 전위를 구현한다. 이 전해질은 리튬 금속과의 우수한 계면 적합성을 보여 LiFePO4 및 고니켈 NCM 셀에서 각각 542회, 409회의 장수명 사이클링과 자기소화 특성을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7237343521",
+      "source": "openalex",
+      "title": "Al/F Co‐Doped Sulfide Electrolyte for Durable All‐Solid‐State Lithium‐Organic Batteries",
+      "url": "https://doi.org/10.1002/aenm.71853",
+      "published": "2026-11-21",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1002/aenm.71853",
+      "authors": [
+        "Menglin Li",
+        "Shuo Xu",
+        "Weili Wang",
+        "Chenchen Wang",
+        "Weiwei Huang",
+        "Kai Zhang"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "Carbonyl‐containing organic cathodes offer a sustainable route to high‐energy storage, but their reaction with conventional sulfide electrolytes (SEs) causes interfacial degradation in all‐solid‐state lithium‐metal batteries (ASSLMBs). Here we develop an electrolyte‐first strategy that stabilizes both carbonyl cathodes and lithium metal through dual‐site Al/F substitution of an argyrodite SE, Li 5.7 Al 0.1 P 0.9 S 4.5 Cl 1.2 F 0.3 (LPSC‐AF). Hard‐soft acid‐base theory (HSAB) guided local‐bonding reconstruction increases the basicity and hard‐base character of SE ligands, strengthens P‐S coordination and passivates reactive P‐centered sites. Consequently, the 1,2,5,6‐anthracenetetrone (ATO) adsorption energy decreases from −4.41 to −0.15 eV, suppressing interfacial acid‐base coordination, nucleophilic attack and coupled redox reactions. LPSC‐AF retains an ionic conductivity of 3.8 mS cm −1 and supports stable lithium plating/stripping for over 3000 h. ATO‐based ASSLMBs deliver 358.3 mAh g −1 with 100% initial Coulombic efficiency and retain 81% capacity after 2000 cycles at 5 C and 60°C. The approach is also applicable to C4Q cathodes, establishing HSAB‐guided SEs redesign as a route to stable all‐solid‐state lithium‐organic batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "카르보닐 유기 양극과 기존 황화물 고체전해질 간의 계면 반응으로 인한 전고체 리튬금속전지의 성능 저하를 해결하기 위해, 아기로다이트형 황화물 전해질에 Al/F를 이중 치환한 LPSC-AF를 개발했다. HSAB 이론에 기반한 국부 결합 재구성으로 P-S 결합을 강화하고 반응성 높은 P 중심 자리를 패시베이션해 ATO 흡착 에너지를 -4.41에서 -0.15 eV로 낮추며 산-염기 반응과 친핵성 공격을 억제했다. 이 전해질은 3.8 mS/cm의 이온전도도와 3000시간 이상의 안정적인 리튬 플레이팅/스트리핑을 지원하며, ATO 기반 전고체셀은 358.3 mAh/g의 용량과 100% 초기 쿨롱효율, 2000회 사이클 후 81%의 용량 유지율을 보였다.",
+      "relevant": true
+    },
     {
       "id": "W7134067539",
       "source": "openalex",
@@ -27,7 +118,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78131-6/MediaObjects/41467_2026_78131_Fig1_HTML.png",
+        "cached": "img/W7134067539.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78131-6"
+      },
       "summary_ko": "연구진은 응력 완화 속도를 독립적으로 조절할 수 있는 합성 점탄성 항원제시세포(SynVAC)를 개발했다. 빠르게 응력이 완화되는 SynVAC-pMHC는 TCR 신호전달과 mTOR 활성을 증대시켜 항원특이적 CD8+ T세포의 대사를 에너지 효율적인 상태로 재프로그래밍한다. 이를 통해 제작된 TCR-T 세포는 흑색종과 난소암 모델에서 우수한 지속성과 항종양 효과를 보였다. 배터리와는 무관한 면역세포치료 연구이다.",
       "relevant": false
     },
@@ -120,6 +216,36 @@
       "relevant": true
     },
     {
+      "id": "W7237343347",
+      "source": "openalex",
+      "title": "Stabilizing High‐Voltage Oxygen Holes via π‐Bonding Mediated Frontier‐Orbital Character Inversion in Intermediate‐Regime Oxide Cathodes",
+      "url": "https://doi.org/10.1002/anie.4101340",
+      "published": "2026-11-20",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1002/anie.4101340",
+      "authors": [
+        "Yande Li",
+        "Yibo Wang",
+        "Shun Zheng",
+        "Jingyi Xie",
+        "Lifu Shen",
+        "Nian Zhang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "Oxygen redox chemistry offers a promising route to higher energy densities in layered oxide cathodes. However, it is commonly plagued by unstable O─O dimerization that leads to voltage hysteresis and capacity loss. While oxygen hole can mitigate these degradation pathways, its lower operating voltage results in reduced energy density. Herein, high‐voltage oxygen‐hole states are stabilized in Li 2 RuO 3 through precisely tailoring the Ru─O π‐bonding interaction. The successful modulation arises from a dynamic evolution of the electronic structure during delithiation, the so‐called frontier‐orbital character inversion, which has been experimentally validated through combined analysis of the elemental contributions to states near the Fermi level. Oxygen oxidation subsequently involves an O 2p‐dominated antibonding state, avoiding the pronounced bond destabilization associated with electron removal from bonding orbitals. Such behavior is attributed to the unique position of ruthenates within the intermediate regime between Mott–Hubbard and charge‐transfer insulators. And this specific electronic state positioning facilitates a dynamic transition toward a stable negative charge‐transfer regime. This boundary‐crossing effect is especially pronounced in high‐valent systems owing to intense covalency modulations upon oxidation. These insights establish a clear electronic‐structure‐based design principle, highlighting the importance of orbital engineering in boundary‐regime systems to achieve stable and high‐voltage anionic redox.",
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.4101340",
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "층상 산화물 양극의 산소 레독스 화학은 높은 에너지밀도를 제공하지만 불안정한 O-O 다이머화로 인한 전압 히스테리시스와 용량 손실 문제가 있다. 이 연구는 Li2RuO3에서 Ru-O π결합 상호작용을 정밀 조절해 고전압 산소 홀 상태를 안정화시키며, 탈리튬화 과정에서 프런티어 오비탈 특성 역전이라는 동적 전자구조 변화를 실험적으로 규명했다. 산소 산화가 O 2p 우세 반결합 상태를 통해 일어나 결합 궤도 전자 제거에 따른 불안정화를 피할 수 있음을 보였고, 이는 Mott-Hubbard와 전하이동 절연체 중간 영역에 위치한 루테네이트의 독특한 전자구조 때문임을 밝혔다.",
+      "relevant": true
+    },
+    {
       "id": "W7237122820",
       "source": "openalex",
       "title": "Spatial-Mechanical-Chemical Synergy in Inorganic-Shelled Cavities Enables Stable Li–Mg Alloy Anodes",
@@ -176,6 +302,37 @@
       "relevant": false
     },
     {
+      "id": "W7237357627",
+      "source": "openalex",
+      "title": "Nonpolar Micro‐Environment‐Induced Solvation Field Engineering Enables 600 Wh Kg −1 High‐Voltage Lithium Metal Pouch Cells",
+      "url": "https://doi.org/10.1002/adma.75821",
+      "published": "2026-11-20",
+      "topics": [
+        "li-metal",
+        "ncm"
+      ],
+      "doi": "10.1002/adma.75821",
+      "authors": [
+        "Gupei Ding",
+        "Hongwei Yu",
+        "Xin Huang",
+        "Qing Zhang",
+        "Weiguo Li",
+        "Xufeng Zang"
+      ],
+      "venue": "Advanced Materials",
+      "abstract_en": "Conventional‐carbonate electrolytes cannot simultaneously stabilize lithium metal interfaces and sustain fast ion transport. Existing designs mitigate interfacial degradation but compromise ion transport, low‐temperature fluidity, or salt dissociation. Herein, we propose a solvation field engineering strategy via a nonpolar micro‐environment‐induced electrolyte (NME) that overcomes this trade‐off at conventional salt concentration. Propyl propionate serves as an amphiphilic inducer: its carbonyl oxygen coordinates Li + , while its propyl chain extends outward to create a Li + ‐centered nonpolar micro‐environment that engineers the local solvation field by attenuating dielectric shielding and strengthening Li + –PF 6 − interactions, thereby driving a contact‐ion‐pair‐dominated solvation structure. Fluoroethylene carbonate and 2,2,2‐trifluoroethyl methyl carbonate ensure sufficient salt dissociation and high‐voltage oxidative stability. The resulting electrolyte combines rapid ion transport with a robust LiF/LiPO 2 F 2 interphase, suppressing electrolyte decomposition and enabling uniform Li plating/stripping. Consequently, a 4.2 Ah Li||LiNi 0.88 Co 0.07 Mn 0.05 O 2 pouch cell (∼425 Wh kg −1 ) retains 87.7% capacity after 200 cycles, and a 23.5 Ah Li||LiNi 0.95 Co 0.02 Mn 0.03 O 2 pouch cell achieves 604 Wh kg −1 . The strategy is further applicable to graphite‐based batteries, enabling a 3.6 Ah Graphite||LiNi 0.5 Co 0.2 Mn 0.3 O 2 pouch cell to deliver 81.5% retention after 100 cycles at −20°C. NME offers a novel principle to regulate solvation and interfacial stability for high‐energy batteries.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S99352657",
+      "journal_metric": 22.01,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "기존 카보네이트 전해질은 리튬금속 계면 안정화와 빠른 이온 수송을 동시에 만족시키기 어려운데, 이 연구는 프로필 프로피오네이트를 비극성 미세환경 유도제로 사용하는 솔베이션 필드 엔지니어링 전해질(NME)을 제안한다. 카르보닐 산소가 Li+와 배위하고 프로필 체인이 바깥쪽으로 확장되어 Li+ 중심의 비극성 미세환경을 형성, 유전차폐를 약화시키고 Li+-PF6- 상호작용을 강화해 접촉이온쌍 중심의 솔베이션 구조를 유도한다. FEC와 TFEMC를 더해 충분한 염 해리와 고전압 안정성을 확보했으며, 4.2Ah Li||NCM88 파우치셀(~425 Wh/kg)은 200사이클 후 87.7%의 용량 유지율을, 23.5Ah Li||NCM95 셀은 604 Wh/kg을 달성했다.",
+      "relevant": true
+    },
+    {
       "id": "W7237209115",
       "source": "openalex",
       "title": "Nanofriction strengthened mechanically adaptive electrolytes for safe lithium metal batteries",
@@ -201,7 +358,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78955-2/MediaObjects/41467_2026_78955_Fig1_HTML.png",
+        "cached": "img/W7237209115.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-78955-2"
+      },
       "summary_ko": "무인기, 인간형 로봇 등 기계적 충격 위험이 큰 환경에서 사용되는 리튬금속전지의 안전성을 높이기 위해 '나노마찰 강화' 전략을 적용한 기계적응형 전해질을 설계했다. 고극성 카보네이트 용매가 하이드록실이 풍부한 코어-쉘 나노입자 쉘에 침투해 수소결합 기반 팽윤 반응을 유도하며, 충격 시 입자 간 마찰과 접착력이 급격히 증가해 점도가 160배 상승한다. 이를 통해 충격력을 73.1% 감쇄시켜 Li‖LiFePO4 단위 셀이 단락 없이 충격을 견디고, 암페어시급 셀에서도 못 관통 및 발사 시험에서 안전성을 확보했다.",
       "relevant": true
     },
@@ -259,7 +421,12 @@
       "journal_id": "S103895331",
       "journal_metric": 22.23,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41563-026-02813-1/MediaObjects/41563_2026_2813_Fig1_HTML.png",
+        "cached": "img/W7237140684.jpg",
+        "license": null,
+        "attribution": "Nature Materials — https://doi.org/10.1038/s41563-026-02813-1"
+      },
       "summary_ko": "제목에 기반하면, 황화물 및 황-탄소 계면을 정밀 설계하여 고로딩 전고체 리튬-황 전지의 성능을 향상시키는 연구로 추정된다 (제목 기반 추정).",
       "relevant": true
     },
@@ -287,7 +454,12 @@
       "journal_id": "S7822423",
       "journal_metric": 26.11,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-026-02327-6/MediaObjects/41565_2026_2327_Fig1_HTML.png",
+        "cached": "img/W4415195355.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Nanotechnology — https://doi.org/10.1038/s41565-026-02327-6"
+      },
       "summary_ko": "4차원 방사광 X선 나노홀로토모그래피와 디지털 체적 상관법을 결합해 흑연-실리콘 복합전극의 입자 및 전극 스케일 화학역학 거동을 관찰했다. 이온 확산 경로, 흑연 입자 형상·위치, 실리콘 클러스터와의 거리, 전해질 접촉, 기계적 변형 등이 국부적 전기화학 활성과 비가역성에 미치는 영향을 정량적으로 분석했다. 흑연-실리콘 음극의 구조-성능 관계를 규명하는 특성분석 연구로 7개 토픽 범주에는 해당하지 않는다.",
       "relevant": false
     },
@@ -315,7 +487,12 @@
       "journal_id": "S64187185",
       "journal_metric": 16.94,
       "first_seen": "2026-11-22",
-      "image": null,
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79754-5/MediaObjects/41467_2026_79754_Fig1_HTML.png",
+        "cached": "img/W4399934791.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79754-5"
+      },
       "summary_ko": "신경세포 내 PINK1 전구체 단백질이 소포체(ER)와 미토콘드리아 사이에서 번역 및 운반되는 과정을 live-cell 이미징으로 추적한 연구이다. ER 샤페론 DNAJB6가 PINK1 전구체를 미토콘드리아로 전달되기까지 보호하며, 이 단백질이 결손되면 미토파지가 실패함을 밝혔다. 배터리와 무관한 신경생물학 연구이다.",
       "relevant": false
     },
@@ -412,6 +589,36 @@
       "image": null,
       "summary_ko": "PEO 기반 고체 고분자 전해질의 낮은 이온전도도와 리튬 이동수 문제를 해결하기 위해 MoSe2/TiF4 헤테로접합을 도입하여 Li+ 가속 및 해리 기능을 동시에 갖는 이온전도 네트워크를 구축했다. 계면의 내부전기장이 Li+ 이동을 촉진하고 루이스 산-염기 상호작용이 LiTFSI 해리를 도와 상온 이온전도도 1.09×10−4 S cm−1, Li+ 이동수 0.55, 60°C에서 2500시간 이상의 Li‖Li 대칭셀 안정성을 달성했다. LiFePO4와 NCM811 기반 전고체전지 모두에서 우수한 사이클 및 율속 특성을 보였으나 전해질 자체에 관한 연구로 7개 토픽 범주에는 해당하지 않는다.",
       "relevant": false
+    },
+    {
+      "id": "W7237340757",
+      "source": "openalex",
+      "title": "Bidirectional Sulfur Redox Regulation Enabling Ultra‐Stable High‐Sulfur‐Loading All‐Solid‐State Lithium‐Sulfur Batteries",
+      "url": "https://doi.org/10.1002/anie.6742507",
+      "published": "2026-11-20",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1002/anie.6742507",
+      "authors": [
+        "Hanwen Liu",
+        "Leqi Zhao",
+        "Yu‐Cheng Huang",
+        "Daqin Guan",
+        "Yijun Zhong",
+        "Xiaomin Xu"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "All‐solid‐state lithium‐sulfur batteries are promising for high‐energy storage but are limited by sluggish sulfur redox and poor cycling stability. Herein, we design a new amorphous‐crystalline Li 6.05 P 0.95 Nb 0.05 S 5 Cl 0.8 I 0.2 electrolyte that reconstructs interfacial Li + transport and enables bidirectional regulation of sulfur redox. The amorphous structure improves solid‐solid contact and creates additional continuous Li + pathways around sulfur, while the crystal framework maintains fast Li + ion‐conducting channels. During the discharge, we further uncover an Nb reduction mechanism in which Nb 4+ is reduced to Nb 3+ , generating Li‐rich sites that promote Li 2 S nucleation and sulfur reduction. During the charge, I − is oxidized to I 2 , which acts as the redox mediator for Li 2 S oxidation, while I 3 − formation helps stabilize unconsumed I 2 . This bidirectional regulation enables 84.2% sulfur utilization at a high sulfur loading of 6 mg cm − 2 and retains 736 mAh g − 1 with 93.1% capacity retention after 1500 cycles at 0.5 C. These findings provide a mechanistic strategy for high‐sulfur‐loading all‐solid‐state Li‐S batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.6742507",
+      "license": "cc-by",
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "전고체 리튬-황전지는 느린 황 레독스 반응과 낮은 사이클 안정성이 문제인데, 이 연구는 Nb이 도핑된 비정질-결정질 복합 전해질 Li6.05P0.95Nb0.05S5Cl0.8I0.2를 설계해 황 레독스를 양방향으로 조절했다. 방전시 Nb4+→Nb3+ 환원이 Li2S 핵생성을 촉진하는 리튬풍부 자리를 생성하고, 충전시 I-가 I2로 산화되어 Li2S 산화를 매개하는 레독스 메디에이터로 작용한다. 이를 통해 6 mg/cm² 고황로딩에서 84.2%의 황 활용률을 달성했고 1500사이클, 0.5C에서 93.1%의 용량 유지율과 736 mAh/g을 유지했다.",
+      "relevant": true
     },
     {
       "id": "W7236652020",
@@ -1207,6 +1414,33 @@
       },
       "summary_ko": "MnO2/TiO2 이종구조에서 계면 전자구조 재구성을 통해 TiO2를 활성화시켜 리튬-황전지의 황 레독스 반응을 가속화하는 전략을 제시했다. Ti-O-Mn 결합 형성과 잔류 탄소에 의한 계면 전자결합으로 다황화물에 대한 Ti 활성점의 전자적 반응성이 향상된다. 이 촉매를 적용한 전지는 9.2 mg/cm²의 높은 황 로딩에서 안정적으로 작동했고, 1569 mAh/g의 비용량과 1000회 사이클에서 0.054%/cycle의 낮은 용량 감소율을 달성했다.",
       "relevant": true
+    },
+    {
+      "id": "W7233970118",
+      "source": "openalex",
+      "title": "Calendering simulation and structural property analysis of dry coated sulfide solid-state battery cathodes",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105661",
+      "published": "2026-11-17",
+      "topics": [],
+      "doi": "10.1016/j.ensm.2026.105661",
+      "authors": [
+        "Finn Frankenberg",
+        "Caroline Willuhn",
+        "Philipp Haase",
+        "Carina Heck",
+        "Arno Kwade"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "This study investigates the numerical modelling of the calendering process and its effect on the microstructure, transport properties and electrochemical performance of dry coated Li 6 PS 5 Cl (LPSCl)-based solid state battery (SSB) cathodes. Calendering was simulated using the discrete element method (DEM) with three different LPSCl particle sizes (small (S), medium (M), and large (L)), by combining the elasto-plastic Thornton-Ning model with the adhesive Johnson-Kendall-Roberts model. Model parameters were calibrated using experimental microindentation, and calendering simulations were validated by comparing them with porosities of experimentally produced SSB cathodes. The DEM structures were further evaluated in terms of their contact numbers and effective transport properties, both of which show an increase with higher calendering degrees. Electronic conductivity is lowest for small LPSCl, which stems from the shielding of NCM particles and non-percolating electronic paths through carbon black, due to the large number of LPSCl particles. The ionic conductivity is highest for the small LPSCl particles, which results from more LPSCl-interparticle contacts, leading to a larger number of ionic pathways and thus, lower tortuosity. Electrochemical cycling simulations over a range of C-rates reveal that higher degrees of compaction and medium LPSCl particle sizes lead to the best electrochemical performance, which is attributed to the structure’s optimal combination of electronic and ionic conduction properties at the given weight ratio of materials. In summary, this study presents a simulation-based workflow that investigates the microstructural changes during calendering of sulfide SSB cathodes, correlating processing conditions with microstructure, transport properties, and electrochemical performance.",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2405829726007932/pdf",
+      "license": "cc-by",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-23",
+      "image": null,
+      "summary_ko": "건식 코팅된 황화물(Li6PS5Cl) 기반 전고체전지 양극의 캘린더링 공정을 이산요소법(DEM)으로 수치 모사해 미세구조, 수송 특성, 전기화학 성능에 미치는 영향을 분석했다. 서로 다른 LPSCl 입자 크기(소/중/대)에 대해 탄소성 Thornton-Ning 모델과 접착성 JKR 모델을 결합해 캘린더링을 시뮬레이션하고 실험적 미세압입과 다공성 측정으로 모델을 검증했다. 작은 LPSCl 입자는 NCM 입자를 가려 전자전도 경로를 방해해 전자전도도가 낮은 반면 이온전도도는 가장 높았으며, 중간 입자 크기와 높은 압축도의 조합이 최적의 전기화학 성능을 보였다.",
+      "relevant": false
     },
     {
       "id": "W7233757028",
