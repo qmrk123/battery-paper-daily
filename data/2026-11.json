@@ -1,8 +1,99 @@
 {
   "date": "2026-11",
-  "generated_at": "2026-11-23T01:29:06+00:00",
-  "count": 274,
+  "generated_at": "2026-11-24T05:11:46+00:00",
+  "count": 279,
   "papers": [
+    {
+      "id": "W7238188432",
+      "source": "openalex",
+      "title": "Synergistic Interfacial and Subsurface Stabilization of O3‐Type Na‐Ni‐Fe‐Mn‐O Cathodes through Integrated Zr Modification",
+      "url": "https://doi.org/10.1002/aenm.71847",
+      "published": "2026-11-22",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/aenm.71847",
+      "authors": [
+        "Eun‐Kyu Han",
+        "Chang‐Heum Jo",
+        "Sourav Baiju",
+        "Natalia Voronina",
+        "A‐Yeon Kim",
+        "Hun‐Gi Jung"
+      ],
+      "venue": "Advanced Energy Materials",
+      "abstract_en": "Surface degradation, electrolyte‐derived hydrogen fluoride (HF) attack, and anisotropic phase evolution limit the stability of O3‐type sodium cathodes. An integrated Zr‐based surface/subsurface strategy is developed for Na[Ni 0.3 Fe 0.3 Mn 0.4 ]O 2 (NFM). Treatment at 800°C converts residual Na 2 CO 3 /NaOH into a Na 2 ZrO 3 ‐rich surface nanolayer, accompanied by limited near‐surface Zr incorporation. In hard‐carbon full cells, NFM‐Zr‐800 delivers ∼150 mAh g −1 with ∼87% initial Coulombic efficiency and retains 61.8% capacity after 500 cycles at 0.5 C, compared with 26.4% for bare NFM. Operando X‐ray diffraction shows reduced anisotropic lattice variation during the P3‐to‐OP2 transition. X‐ray absorption spectroscopy, Mössbauer spectroscopy, and hybrid‐functional calculations indicate Ni/Fe‐dominated cationic redox, nearly tetravalent Mn, and no major lattice‐oxygen redox contribution. Coulomb–Buckingham calculations suggest that Zr incorporation at Mn sites is energetically favored near the surface within the adopted model. The Na 2 ZrO 3 ‐rich layer mitigates HF‐related interfacial degradation and promotes a Zr–F‐containing protective interface, suppressing transition‐metal dissolution, cathode–electrolyte interphase thickening, particle cracking, and surface reconstruction. These coupled interfacial and structural effects improve the long‐term stability of O3‐type NFM cathodes.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2502627819",
+      "journal_metric": 18.74,
+      "first_seen": "2026-11-24",
+      "image": null,
+      "summary_ko": "O3형 Na[Ni0.3Fe0.3Mn0.4]O2 소듐 양극재의 표면과 subsurface에 Zr을 통합 도입하여 안정성을 개선한 연구이다. 800°C 열처리로 잔류 Na2CO3/NaOH를 Na2ZrO3가 풍부한 표면 나노층으로 전환시키고 근표면에 Zr을 일부 도핑하였다. 하드카본 완전셀에서 0.5C, 500회 사이클 후 용량 유지율이 61.8%로 미도핑 소재(26.4%) 대비 크게 향상되었으며, Na2ZrO3층이 HF 공격과 전이금속 용출을 억제함을 확인하였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7237749498",
+      "source": "openalex",
+      "title": "Electrolyte‐Facing Interfacial Engineering of Organic‐Inorganic Hybrid Cathodes for High‐Capacity and Stable Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/advs.78875",
+      "published": "2026-11-22",
+      "topics": [
+        "lfp",
+        "other-cathode"
+      ],
+      "doi": "10.1002/advs.78875",
+      "authors": [
+        "Minseong Kwon",
+        "Donghyeon Nam",
+        "Jiwon Bok",
+        "Jaemin Kim",
+        "Seung Woo Lee",
+        "Jeongmin Kim"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "The distinct chemical reactivities of organic and inorganic active materials toward electrolytes are generally considered a major source of interfacial instability, yet this disparity can be leveraged as a powerful design principle for hybrid cathodes. Herein, we exploit this chemical contrast by spatially and interfacially regulating which active material is exposed to the electrolyte. This strategy is demonstrated in a hybrid cathode comprising high‐crystallinity LiFePO 4 nanoparticles (LFP NPs) and iodine‐doped nickel phthalocyanine (I‐NiPc), assembled through well‐defined interfacial interactions without inactive binders. The electrolyte‐facing LFP layer facilitates the formation of a thin, stable cathode–electrolyte interphase (CEI), thereby suppressing dissolution and parasitic reactions of the underlying I‐NiPc while enabling complementary electrochemical functions of the organic and inorganic components. Consequently, the LFP NP/I‐NiPc composite cathode retains 94.6% of its initial capacity after 3000 cycles at 400 mA g −1 . Increasing the fraction of the high‐capacity organic component while preserving the LFP‐terminated interface further boosts the specific capacity to 427 mAh g −1 and the specific energy to 1091 Wh kg −1 on an active‐material basis, while maintaining 93.9% capacity retention over 2000 cycles. These results establish electrolyte‐facing interface control as an effective strategy for stabilizing and maximizing the performance of organic–inorganic hybrid cathodes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78875",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-24",
+      "image": null,
+      "summary_ko": "LiFePO4 나노입자와 아이오딘 도핑 니켈 프탈로시아닌(I-NiPc)을 결합한 유기-무기 하이브리드 양극을 설계하였다. 전해질과 접하는 표면에 LFP를 배치해 얇고 안정적인 CEI를 형성시켜 하부 I-NiPc의 용해와 부반응을 억제하였다. 400 mA/g에서 3000회 사이클 후 94.6% 용량을 유지했고, 유기물 비율을 높인 구성에서는 427 mAh/g, 1091 Wh/kg(활물질 기준)의 에너지밀도와 2000회 사이클 후 93.9% 용량 유지율을 달성하였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7238145990",
+      "source": "openalex",
+      "title": "Cationic Potential‐Guided Li/K Co‐Doping Enables Fast‐Charging Layered Oxide Cathodes for Sodium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/advs.78640",
+      "published": "2026-11-22",
+      "topics": [
+        "na-cathode"
+      ],
+      "doi": "10.1002/advs.78640",
+      "authors": [
+        "Pengcheng Zhang",
+        "Xiaoqiong Ren",
+        "Hongzhe He",
+        "Jie Liu",
+        "Chenglin Yan",
+        "Yuan Cheng"
+      ],
+      "venue": "Advanced Science",
+      "abstract_en": "Developing O3‐type layered oxide cathodes combining fast charging, high capacity, and structural stability remains challenging for sodium‐ion batteries. Here, a cationic‐potential‐guided Li + /K + co‐doping strategy is employed to synthesize Na 0.9 Li 0.05 K 0.05 N i0.317 Fe 0.317 Mn 0.317 O 2 (LKNFM) through a precursor‐assisted solid‐state ball‐milling route. Neutron diffraction reveals preferential K + occupation in alkali layers and Li + distribution across alkali and transition‐metal layers, regulating interlayer interactions and local coordination. LKNFM delivers 181.6 mAh g −1 at 0.1C and maintains 82.7 mAh g −1 after 1000 cycles at 20C, corresponding to 89.3% capacity retention. LKNFM/hard carbon full cell retains over 80% capacity after 1000 cycles. Operando XRD reveals a simplified, reversible O3↔P3 transition with reduced lattice strain. Ex situ XANES and WT‐EXAFS indicate predominantly Ni/Fe‐based charge compensation, while Mn mainly stabilizes the framework. DFT suggests cooperative cationic–anionic charge compensation at high voltage, while CI‐NEB calculations show a reduction in the Na + migration barrier from 1.21 to 0.80 eV along the investigated pathway. These findings highlight site‐selective co‐doping as a promising approach to structurally stable, fast‐charging sodium‐ion battery cathodes.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1002/advs.78640",
+      "license": "cc-by",
+      "journal_id": "S2737737698",
+      "journal_metric": 8.82,
+      "first_seen": "2026-11-24",
+      "image": null,
+      "summary_ko": "양이온 전위 기반 Li+/K+ 공동 도핑으로 O3형 층상 소듐 양극재 Na0.9Li0.05K0.05Ni0.317Fe0.317Mn0.317O2(LKNFM)를 합성하였다. 중성자 회절로 K+는 알칼리층에, Li+는 알칼리층과 전이금속층에 분포함을 확인했으며, 0.1C에서 181.6 mAh/g, 20C로 1000회 사이클 후 89.3% 용량 유지율을 달성하였다. DFT 계산 결과 Na+ 이동 장벽이 1.21에서 0.80 eV로 감소하여 고속충전이 가능한 구조적으로 안정한 소듐이온 양극재 설계 전략을 제시하였다.",
+      "relevant": true
+    },
     {
       "id": "W7237363659",
       "source": "openalex",
@@ -1467,6 +1558,34 @@
       "relevant": false
     },
     {
+      "id": "W7234917258",
+      "source": "openalex",
+      "title": "Beyond anode damage: lithium accessibility redirects cross-electrode electrolyte degradation in Li-O2 batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105663",
+      "published": "2026-11-17",
+      "topics": [
+        "li-metal",
+        "other-cathode"
+      ],
+      "doi": "10.1016/j.ensm.2026.105663",
+      "authors": [
+        "Yanan Gao",
+        "Manai Ono",
+        "Shôichi Matsuda"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": "Electrolyte degradation in lithium-oxygen batteries is usually considered to arise from cathode-side oxygen chemistry and parasitic reactions at the lithium-metal anode. However, whether the lithium anode also governs the downstream fate of electrolyte-derived species generated elsewhere in the cell remains unclear. Here, operando cold-trap pre-concentrator gas chromatography/mass spectrometry was used to track trace volatile and semi-volatile products in capacity-limited Li-O 2 cells with high-capacity porous cathodes and either exposed lithium-metal anode or Li + -conducting ceramic-protected lithium-metal anode. Anode protection markedly improved cycling stability and broadly lowered the cumulative responses of TEGDME-derived decomposition products. Importantly, this suppression was not uniform; methanol and 2-methoxyethanol showed higher cumulative responses in the protected cell, indicating that blocking access to the lithium-metal environment can preserve selected products by suppressing their subsequent consumption or conversion. Cycle-resolved profiles support a model in which both cell architectures generate a shared cathode-activated intermediate pool, whereas lithium accessibility promotes additional fragmentation, oxygenation, rearrangement, and product consumption. The lithium anode therefore acts not only as a target of chemical crossover but also as a reactive environment that redirects electrolyte-degradation pathways. Anode protection improves Li-O 2 reversibility by interrupting this cross-electrode electrolyte reaction network.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ensm.2026.105663",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-24",
+      "image": null,
+      "summary_ko": "Li-O2 전지에서 리튬 금속 음극 보호가 전해질 분해 경로에 미치는 영향을 operando GC/MS로 분석하였다. 세라믹으로 보호된 리튬 음극은 노출된 리튬 음극 대비 TEGDME 유래 분해 생성물을 전반적으로 감소시켰으나, 메탄올과 2-메톡시에탄올 등 일부 생성물은 오히려 증가하여 리튬 접근성이 추가적인 분해·소비를 촉진함을 시사하였다. 리튬 음극이 단순한 크로스오버 대상이 아니라 전극 간 전해질 반응 네트워크를 조절하는 반응성 환경으로 작용함을 제시하였다.",
+      "relevant": true
+    },
+    {
       "id": "W7233757028",
       "source": "openalex",
       "title": "Unlocking cycle life of lithium-metal batteries",
@@ -1809,6 +1928,36 @@
         "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75720"
       },
       "summary_ko": "Mn 기반 양이온 무질서 암염형(DRX) 리튬이온 양극 소재의 다상 전이를 열역학적으로 제어하여 전하용량과 전압 안정성 한계를 극복하는 연구이다. 산화 어닐링 조건과 Li 함량에 따라 DRX-스피넬 또는 DRX-스피넬-단사정 층상구조로 분해되는 경로를 규명했으며, 단사정 층상상을 포함한 나노복합체(DSM)가 첫 충전 시 Li 추출 특성을 크게 개선하여 300 mAh/g에 근접하는 가역 용량을 보였다.",
+      "relevant": true
+    },
+    {
+      "id": "W7233588252",
+      "source": "openalex",
+      "title": "Preferential-site anion substitution enhances O 2p–Mn 3d(t2g) orbital hybridization of Li-rich Mn-based cathodes for high-energy Li batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105656",
+      "published": "2026-11-15",
+      "topics": [
+        "li-rich"
+      ],
+      "doi": "10.1016/j.ensm.2026.105656",
+      "authors": [
+        "Chengwen Ren",
+        "Shenghua Yuan",
+        "Shuyun Yao",
+        "Hongzhou Zhang",
+        "侯配玉",
+        "Ningning Zhang"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-24",
+      "image": null,
+      "summary_ko": "Li-rich Mn계 양극재에서 특정 자리 선택적 음이온 치환을 통해 O 2p-Mn 3d(t2g) 궤도 혼성을 강화하여 고에너지 리튬전지용 양극 성능을 개선하는 연구로 보인다. (제목 기반 추정)",
       "relevant": true
     },
     {
