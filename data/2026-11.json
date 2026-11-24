@@ -90,7 +90,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71853",
+        "cached": "img/W7237343521.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71853"
+      },
       "summary_ko": "카르보닐 유기 양극과 기존 황화물 고체전해질 간의 계면 반응으로 인한 전고체 리튬금속전지의 성능 저하를 해결하기 위해, 아기로다이트형 황화물 전해질에 Al/F를 이중 치환한 LPSC-AF를 개발했다. HSAB 이론에 기반한 국부 결합 재구성으로 P-S 결합을 강화하고 반응성 높은 P 중심 자리를 패시베이션해 ATO 흡착 에너지를 -4.41에서 -0.15 eV로 낮추며 산-염기 반응과 친핵성 공격을 억제했다. 이 전해질은 3.8 mS/cm의 이온전도도와 3000시간 이상의 안정적인 리튬 플레이팅/스트리핑을 지원하며, ATO 기반 전고체셀은 358.3 mAh/g의 용량과 100% 초기 쿨롱효율, 2000회 사이클 후 81%의 용량 유지율을 보였다.",
       "relevant": true
     },
@@ -241,7 +247,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4101340",
+        "cached": "img/W7237343347.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4101340"
+      },
       "summary_ko": "층상 산화물 양극의 산소 레독스 화학은 높은 에너지밀도를 제공하지만 불안정한 O-O 다이머화로 인한 전압 히스테리시스와 용량 손실 문제가 있다. 이 연구는 Li2RuO3에서 Ru-O π결합 상호작용을 정밀 조절해 고전압 산소 홀 상태를 안정화시키며, 탈리튬화 과정에서 프런티어 오비탈 특성 역전이라는 동적 전자구조 변화를 실험적으로 규명했다. 산소 산화가 O 2p 우세 반결합 상태를 통해 일어나 결합 궤도 전자 제거에 따른 불안정화를 피할 수 있음을 보였고, 이는 Mott-Hubbard와 전하이동 절연체 중간 영역에 위치한 루테네이트의 독특한 전자구조 때문임을 밝혔다.",
       "relevant": true
     },
@@ -328,7 +340,13 @@
       "journal_id": "S99352657",
       "journal_metric": 22.01,
       "first_seen": "2026-11-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adma.75821",
+        "cached": "img/W7237357627.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Materials - https://doi.org/10.1002/adma.75821"
+      },
       "summary_ko": "기존 카보네이트 전해질은 리튬금속 계면 안정화와 빠른 이온 수송을 동시에 만족시키기 어려운데, 이 연구는 프로필 프로피오네이트를 비극성 미세환경 유도제로 사용하는 솔베이션 필드 엔지니어링 전해질(NME)을 제안한다. 카르보닐 산소가 Li+와 배위하고 프로필 체인이 바깥쪽으로 확장되어 Li+ 중심의 비극성 미세환경을 형성, 유전차폐를 약화시키고 Li+-PF6- 상호작용을 강화해 접촉이온쌍 중심의 솔베이션 구조를 유도한다. FEC와 TFEMC를 더해 충분한 염 해리와 고전압 안정성을 확보했으며, 4.2Ah Li||NCM88 파우치셀(~425 Wh/kg)은 200사이클 후 87.7%의 용량 유지율을, 23.5Ah Li||NCM95 셀은 604 Wh/kg을 달성했다.",
       "relevant": true
     },
@@ -616,7 +634,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-23",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6742507",
+        "cached": "img/W7237340757.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6742507"
+      },
       "summary_ko": "전고체 리튬-황전지는 느린 황 레독스 반응과 낮은 사이클 안정성이 문제인데, 이 연구는 Nb이 도핑된 비정질-결정질 복합 전해질 Li6.05P0.95Nb0.05S5Cl0.8I0.2를 설계해 황 레독스를 양방향으로 조절했다. 방전시 Nb4+→Nb3+ 환원이 Li2S 핵생성을 촉진하는 리튬풍부 자리를 생성하고, 충전시 I-가 I2로 산화되어 Li2S 산화를 매개하는 레독스 메디에이터로 작용한다. 이를 통해 6 mg/cm² 고황로딩에서 84.2%의 황 활용률을 달성했고 1500사이클, 0.5C에서 93.1%의 용량 유지율과 736 mAh/g을 유지했다.",
       "relevant": true
     },
