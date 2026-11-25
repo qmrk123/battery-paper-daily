@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T04:02:30+00:00",
+  "count": 8,
+  "papers": [
+    {
+      "id": "crossref:10.1039/d6ee05635k",
+      "source": "crossref",
+      "title": "Ligand-field reconstruction enables 4.7 V LiCoO 2 with suppressed chemomechanical degradation for high-energy batteries",
+      "url": "https://doi.org/10.1039/d6ee05635k",
+      "published": "2026-11-24",
+      "topics": [
+        "other-cathode"
+      ],
+      "doi": "10.1039/d6ee05635k",
+      "authors": [
+        "Haochen Gong",
+        "Yue Mao",
+        "Shaowei Wang",
+        "Siyu Fang",
+        "Shuai Hao",
+        "Jie Sun"
+      ],
+      "venue": "Energy & Environmental Science",
+      "abstract_en": "Ligand-field reconstruction via bulk fluorine incorporation stabilizes the oxygen sublattice of LiCoO 2 , enabling outstanding cycling stability under a 4.7 V high cutoff voltage with suppressed surface reconstruction and chemomechanical degradation.",
+      "oa_status": null,
+      "oa_url": null,
+      "license": null,
+      "journal_id": null,
+      "journal_metric": null,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "LiCoO2 벌크에 불소를 도입하여 리간드장을 재구성함으로써 산소 하위격자를 안정화하는 전략을 제시했다. 이를 통해 4.7V의 높은 충전 상한 전압에서도 표면 재구성과 화학역학적 저하가 억제되어 뛰어난 사이클 안정성을 달성했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7238804518",
+      "source": "openalex",
+      "title": "Solvation‐Directed Electric Double Layer Formation in Low‐Concentration Electrolytes",
+      "url": "https://doi.org/10.1002/anie.2524176",
+      "published": "2026-11-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1002/anie.2524176",
+      "authors": [
+        "Yuelin Li",
+        "Zuxin Wen",
+        "Zuosu Qin",
+        "Zhe Fang",
+        "Jiang Zhou",
+        "Ning Zhang"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "The electric double layer (EDL) governs interfacial stability in lithium metal batteries, yet its rational design remains constrained by concentrated electrolytes or complex solvent systems. Here we demonstrate that the EDL in low‐concentration electrolytes (LCEs) can be rationally programmed through anion selection based on their solvation behavior, decoupling interfacial stability from the heavy consumption of lithium salts and sophisticated solvent blends. By systematically screening anions with distinct Li + ‐anion coordination strengths and steric profiles, we formulate a mixed‐anion LCE and uncover a fundamental principle: large, weakly coordinatinganions (WCAs) accumulate at the interface to form a persistent charge‐shielding layer, whereas small, strongly coordinating anions (SCAs) are dynamically driven deeper into the Helmholtz region under polarization, where they actively modulate interfacial (de)solvation kinetics. This solvation‐defined division of labor creates a rationally designed, self‐adaptive EDL that couples electrostatic stabilization with interfacial chemistry. Beyond offering a high‐performance LCE formulation, this work establishes a direct and mechanistic linkage between bulk solvation architecture and interfacial EDL organization in dilute electrolytes, revealing that the EDL can itself be programmed through anion‐specific solvation motifs to dictate interfacial stability, introducing a design paradigm for materially efficient electrolyte engineering based on solvation‐directed EDL formation.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "저농도 전해질(LCE)에서 음이온의 용매화 거동을 조절하여 전기이중층(EDL)을 설계하는 전략을 제시했다. 약하게 결합하는 음이온(WCA)과 강하게 결합하는 음이온(SCA)을 혼합해 계면에서 전하 차단층과 탈용매화 조절 기능을 분리함으로써, 적은 리튬염 소모로도 리튬 금속 전지의 계면 안정성을 향상시켰다.",
+      "relevant": true
+    },
+    {
+      "id": "W7238843275",
+      "source": "openalex",
+      "title": "Prestripping Protocol for Reconciling Lithium Dissolution and Galvanic Corrosion in Anode-Free Batteries",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02416",
+      "published": "2026-11-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1021/acsenergylett.6c02416",
+      "authors": [
+        "Tianyang Yu",
+        "Teng Zhao",
+        "Xue Pang",
+        "Ke Wang",
+        "Wangming Tang",
+        "Li Li"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "The practical viability of high-energy-density anode-free lithium metal batteries is limited by the poor reversibility of lithium plating and stripping. Low-current stripping suppresses pitting and inactive Li formation but prolongs electrolyte exposure and galvanic corrosion, whereas high-current stripping shortens the corrosion time but promotes localized dissolution and structural disintegration. Here, we introduce a pre-stripping protocol consisting of a brief low-current stripping step followed immediately by higher-current bulk stripping, thereby establishing a uniform initial dissolution front while limiting the duration of Li–Cu galvanic coupling. Measurements across representative electrolyte formulations identify three factors associated with the balance between morphological regulation and corrosion loss: nascent solid electrolyte interphase (SEI) passivation, longer-term corrosion tolerance, and dynamic reaction area evolution. In strongly passivating formulations, the morphological benefit of prestripping outweighs the additional corrosion loss and improves Li reversibility. The protocol was further evaluated in 1 Ah anode-free pouch cells, supporting its applicability to practical cell configurations.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "무음극(anode-free) 리튬 금속 전지에서 리튬 용해와 Li-Cu 갈바닉 부식의 trade-off를 해소하는 프리스트리핑 프로토콜을 제안했다. 짧은 저전류 스트리핑 후 고전류 벌크 스트리핑을 적용해 균일한 용해 전면을 형성하고 부식 노출 시간을 줄여, 1 Ah 파우치셀에서도 리튬 가역성이 개선됨을 확인했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7238796795",
+      "source": "openalex",
+      "title": "Internal Stress Effects on Electrode Stability in Coin Cells with Different Assembly Configurations",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02869",
+      "published": "2026-11-23",
+      "topics": [],
+      "doi": "10.1021/acsenergylett.6c02869",
+      "authors": [
+        "Shiming Chen",
+        "Chenyu Yang",
+        "Kai Yang",
+        "Wenguang Zhao",
+        "Chunyu Xu",
+        "Zhaohuang Zhan"
+      ],
+      "venue": "ACS Energy Letters",
+      "abstract_en": "Laboratory-level evaluation of electrode materials is typically conducted using hand-assembled coin cells (half cells) with a lithium metal counter electrode. However, the lack of standardized protocols for coin cell assembly across global laboratories results in inconsistent experimental outcomes, hindering data comparability and scientific progress in battery research. Herein, through fully automated robotic assembly of cells, we systematically investigated the influence of two different yet widely adopted cell configurations (spring and spacer located on the sides of the positive electrode cap and negative electrode cap are labeled as SS-P and SS-N, respectively) on the electrode materials. Different stress distributions were found on the electrodes due to the internal structural discrepancies, leading to variations in electrochemical performance, electrode structure, and electrode–electrolyte interphase properties. This work emphasizes the critical need to raise awareness about the standardization of battery assembly protocols, enabling researchers to fabricate coin cells with high repeatability and consistency.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764414965",
+      "journal_metric": 16.36,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "완전 자동화된 로봇 조립을 통해 코인셀의 스프링/스페이서 배치 구성 차이가 전극에 미치는 내부 응력 분포를 체계적으로 분석했다. 조립 구성에 따라 전극 구조와 전극-전해질 계면 특성이 달라짐을 확인하며, 배터리 연구 재현성을 위한 조립 프로토콜 표준화의 필요성을 강조했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7238865688",
+      "source": "openalex",
+      "title": "Fluorination‑driven σ‑bonding design enables practical aqueous zinc-vanadium‑oxide batteries",
+      "url": "https://doi.org/10.1038/s41467-026-79255-5",
+      "published": "2026-11-23",
+      "topics": [],
+      "doi": "10.1038/s41467-026-79255-5",
+      "authors": [
+        "Haobin Song",
+        "Yangfeng Cui",
+        "Nan Zhao",
+        "Yue Wang",
+        "Yifan Li",
+        "Wenjing Li"
+      ],
+      "venue": "Nature Communications",
+      "abstract_en": "Vanadium-based positive electrodes for aqueous batteries offer high-capacity, low-cost energy storage but are limited by vanadium dissolution and sluggish kinetics. Amorphization alleviates kinetic limitations by creating open ion-transport pathways, yet vanadium dissolution remains unresolved. Here, we propose a coordination-engineering strategy that stabilizes amorphous vanadium oxides via fluorine incorporation, thereby suppressing vanadium dissolution without compromising fast ion-transport kinetics. Replacing O 2- with highly electronegative F - converts labile σ + π V-O coordination into robust σ-dominated V-F coordination. The resulting V-F bonding weakens interactions with H 2 O and suppresses water-induced degradation, whereas the comparable ionic radii of F - and O 2- allow substitution without perturbing amorphous framework, preserving fast ion transport. Consequently, aqueous zinc-ion batteries assembled with the fluorinated amorphous vanadium oxide positive electrode exhibit fast kinetics and long-term cycling stability, delivering a high specific capacity of 155.6 mAh g −1 at 200 A g −1 , stable cycling for up to 70,000 cycles at 100 A g −1 , and durable operation at 0.1 A g −1 (20 mg cm −2 ) for over six months. This work shows that fluorine-induced reconstruction of the local coordination environment can resolve the stability-kinetics trade-off in amorphous electrodes, providing a microscopic-to-macroscopic design principle for aqueous batteries.",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-79255-5",
+      "license": "cc-by-nc-nd",
+      "journal_id": "S64187185",
+      "journal_metric": 16.94,
+      "first_seen": "2026-11-25",
+      "image": {
+        "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79255-5/MediaObjects/41467_2026_79255_Fig1_HTML.png",
+        "cached": "img/W7238865688.jpg",
+        "license": "cc-by-nc-nd",
+        "attribution": "Nature Communications — https://doi.org/10.1038/s41467-026-79255-5"
+      },
+      "summary_ko": "수계 아연-바나듐 산화물 전지의 바나듐 용해 문제를 해결하기 위해 불소를 도입한 코디네이션 엔지니어링 전략을 제시했다. O2-를 F-로 치환하여 V-F 결합을 형성함으로써 물과의 상호작용을 약화시키면서도 비정질 구조의 빠른 이온 전달 경로는 유지하여, 고전류에서도 장기 사이클 안정성을 확보했다.",
+      "relevant": false
+    },
+    {
+      "id": "W7238772939",
+      "source": "openalex",
+      "title": "Fast‐Discharge‐Induced Non‐Equilibrium Phase Transition in Ni‐Rich Layered Oxide Cathode at High Voltage",
+      "url": "https://doi.org/10.1002/anie.4834219",
+      "published": "2026-11-23",
+      "topics": [
+        "ncm"
+      ],
+      "doi": "10.1002/anie.4834219",
+      "authors": [
+        "Chao Wang",
+        "Diancheng Chen",
+        "Yuying Zhang",
+        "Wenguang Zhao",
+        "Qiyao Zou",
+        "Wencheng Su"
+      ],
+      "venue": "Angewandte Chemie International Edition",
+      "abstract_en": "The rapid adoption of electric vehicles necessitates lithium-ion batteries (LIBs) that can sustain extreme fast charging (XFC) without rapid degradation. Ni-rich layered cathodes deliver high energy density, yet their poor stability under high-rate operation limits practical deployment and the mechanistic origin of fast capacity decay remains poorly understood. Here, using high time-resolved operando XRD, together with theoretical analyses, we reveal that a rate-dependent non-equilibrium H3→H2 phase transition under rapid discharge (≥4 C) induces huge lattice displacement and nanoscale strain, which significantly lower the migration barrier for Ni, thereby promoting irreversible rock-salt phase formation and structural collapse. Importantly, guided by this mechanistic understanding, we propose a cycling protocol introducing a brief low-rate discharge step at high voltage (4.5 V→4.0 V), which effectively suppresses the detrimental H2+H3 phase separation and generation of internal stress. Compared to that of the cell under constant high cycling rates (6 C), the capacity retention improves 29% for the one with optimized discharge procedure after 1000 cycles. These results clarify the underneath electrochemical-mechanical degradation behavior of Ni-rich layered cathodes at different rates (1/3 C, 1 C, 4 C, and 6 C), providing practical guidance for designing durable batteries with superior fast-charging abilities.",
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S67393510",
+      "journal_metric": 14.89,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "고시간분해 오퍼랜도 XRD와 이론 분석을 통해 Ni-rich 층상 산화물 양극이 급속 방전(4C 이상) 시 겪는 비평형 H3→H2 상전이 메커니즘을 규명했다. 이 상전이가 격자 변위와 나노스케일 변형을 유발해 Ni 이동 장벽을 낮추고 비가역적 암염상 형성을 촉진함을 밝히고, 고전압에서 짧은 저속 방전 단계를 추가하는 사이클링 프로토콜로 1000회 후 용량 유지율을 29% 개선했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7163538630",
+      "source": "openalex",
+      "title": "Contouring mitigates voiding at the lithium/ceramic electrolyte interface on discharging solid-state batteries",
+      "url": "https://doi.org/10.1038/s41560-026-02172-w",
+      "published": "2026-11-23",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1038/s41560-026-02172-w",
+      "authors": [
+        "S Y Zhang",
+        "Bingkun Hu",
+        "Dominic L. R. Melvin",
+        "Dominic Spencer-Jolly",
+        "Xiangwen Gao",
+        "Longlong Wang"
+      ],
+      "venue": "Nature Energy",
+      "abstract_en": "Interfacial void formation during discharge limits the practical performance of lithium metal solid-state batteries. Here we show that introducing an egg-box topography at the Li/Li 6 PS 5 Cl interface increases the discharge current at which voiding commences tenfold, from 0.2 to 2 mA cm −2 at 2 MPa and 30 °C. The contoured interface also sustains pulsed currents up to 3 mA cm −2 at 30 °C and 8 mA cm −2 at 60 °C without cell failure. Under these conditions, it does not completely eliminate void formation but suppresses void growth and associated voltage polarization. Consequently, it sustains discharge profiles derived from the Worldwide Harmonized Light Vehicles Test Procedure, representing realistic electric vehicle driving demands, whereas non-contoured interfaces fail rapidly. A full cell with a thin contoured solid electrolyte retains this advantage over its non-contoured counterpart. Contouring the Li/solid electrolyte interface is therefore an effective strategy for enabling practically relevant discharge rates in solid-state batteries.",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1038/s41560-026-02172-w",
+      "license": "cc-by",
+      "journal_id": "S2764528046",
+      "journal_metric": 30.47,
+      "first_seen": "2026-11-25",
+      "image": {
+        "src": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41560-026-02172-w/MediaObjects/41560_2026_2172_Fig1_HTML.png",
+        "cached": "img/W7163538630.jpg",
+        "license": "cc-by",
+        "attribution": "Nature Energy — https://doi.org/10.1038/s41560-026-02172-w"
+      },
+      "summary_ko": "리튬 금속/세라믹 고체전해질(Li6PS5Cl) 계면에서 방전 시 발생하는 공극(void) 형성을 억제하기 위해 egg-box 형태의 윤곽 구조를 도입했다. 이 구조는 공극이 시작되는 방전 전류 밀도를 10배 높이고 펄스 전류에서도 셀 실패 없이 견디며, 실제 전기차 주행 조건을 모사한 방전 프로파일에서도 윤곽 없는 계면 대비 우수한 성능을 유지했다.",
+      "relevant": true
+    },
+    {
+      "id": "W7237128694",
+      "source": "openalex",
+      "title": "Modulating HOMO location boosting high-voltage stability of fluorine-free ether based low-concentration electrolyte for 4.7 V level lithium metal batteries",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105674",
+      "published": "2026-11-20",
+      "topics": [
+        "li-metal"
+      ],
+      "doi": "10.1016/j.ensm.2026.105674",
+      "authors": [
+        "Shunfu Zhang",
+        "Le Yang",
+        "Xingyuan Bai",
+        "Xiang Ruan",
+        "Qingqing Li",
+        "Qian Liu"
+      ],
+      "venue": "Energy storage materials",
+      "abstract_en": null,
+      "oa_status": "closed",
+      "oa_url": null,
+      "license": null,
+      "journal_id": "S2764728150",
+      "journal_metric": 13.42,
+      "first_seen": "2026-11-25",
+      "image": null,
+      "summary_ko": "4.7V급 리튬 금속 전지를 위해 불소를 포함하지 않는 에테르 기반 저농도 전해질에서 HOMO 위치를 조절하여 고전압 안정성을 높이는 연구로 추정된다 (제목 기반 추정).",
+      "relevant": true
+    }
+  ]
+}
