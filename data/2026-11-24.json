@@ -29,7 +29,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71847",
+        "cached": "img/W7238188432.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71847"
+      },
       "summary_ko": "O3형 Na[Ni0.3Fe0.3Mn0.4]O2 소듐 양극재의 표면과 subsurface에 Zr을 통합 도입하여 안정성을 개선한 연구이다. 800°C 열처리로 잔류 Na2CO3/NaOH를 Na2ZrO3가 풍부한 표면 나노층으로 전환시키고 근표면에 Zr을 일부 도핑하였다. 하드카본 완전셀에서 0.5C, 500회 사이클 후 용량 유지율이 61.8%로 미도핑 소재(26.4%) 대비 크게 향상되었으며, Na2ZrO3층이 HF 공격과 전이금속 용출을 억제함을 확인하였다.",
       "relevant": true
     },
@@ -60,7 +66,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78875",
+        "cached": "img/W7237749498.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78875"
+      },
       "summary_ko": "LiFePO4 나노입자와 아이오딘 도핑 니켈 프탈로시아닌(I-NiPc)을 결합한 유기-무기 하이브리드 양극을 설계하였다. 전해질과 접하는 표면에 LFP를 배치해 얇고 안정적인 CEI를 형성시켜 하부 I-NiPc의 용해와 부반응을 억제하였다. 400 mA/g에서 3000회 사이클 후 94.6% 용량을 유지했고, 유기물 비율을 높인 구성에서는 427 mAh/g, 1091 Wh/kg(활물질 기준)의 에너지밀도와 2000회 사이클 후 93.9% 용량 유지율을 달성하였다.",
       "relevant": true
     },
@@ -90,7 +102,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-24",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78640",
+        "cached": "img/W7238145990.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78640"
+      },
       "summary_ko": "양이온 전위 기반 Li+/K+ 공동 도핑으로 O3형 층상 소듐 양극재 Na0.9Li0.05K0.05Ni0.317Fe0.317Mn0.317O2(LKNFM)를 합성하였다. 중성자 회절로 K+는 알칼리층에, Li+는 알칼리층과 전이금속층에 분포함을 확인했으며, 0.1C에서 181.6 mAh/g, 20C로 1000회 사이클 후 89.3% 용량 유지율을 달성하였다. DFT 계산 결과 Na+ 이동 장벽이 1.21에서 0.80 eV로 감소하여 고속충전이 가능한 구조적으로 안정한 소듐이온 양극재 설계 전략을 제시하였다.",
       "relevant": true
     },
