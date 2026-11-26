@@ -1279,6 +1279,10 @@
   "metric": 6.46,
   "name": "ACS Applied Nano Materials"
  },
+ "S4210191605": {
+  "metric": 5.1,
+  "name": "Computers, materials & continua/Computers, materials & continua (Print)"
+ },
  "S4210191625": {
   "metric": 6.31,
   "name": "Communications Chemistry"
@@ -2590,6 +2594,10 @@
  "S7407063279": {
   "metric": 0.0,
   "name": "Opus4 THD (Technische Hochschule Deggendorf (THD))"
+ },
+ "S7407064586": {
+  "metric": 0.0,
+  "name": "应用科技研究"
  },
  "S7407067513": {
   "metric": 0.0,
