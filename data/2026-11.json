@@ -59,7 +59,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.2524176",
+        "cached": "img/W7238804518.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.2524176"
+      },
       "summary_ko": "저농도 전해질(LCE)에서 음이온의 용매화 거동을 조절하여 전기이중층(EDL)을 설계하는 전략을 제시했다. 약하게 결합하는 음이온(WCA)과 강하게 결합하는 음이온(SCA)을 혼합해 계면에서 전하 차단층과 탈용매화 조절 기능을 분리함으로써, 적은 리튬염 소모로도 리튬 금속 전지의 계면 안정성을 향상시켰다.",
       "relevant": true
     },
@@ -175,7 +181,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-25",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.4834219",
+        "cached": "img/W7238772939.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.4834219"
+      },
       "summary_ko": "고시간분해 오퍼랜도 XRD와 이론 분석을 통해 Ni-rich 층상 산화물 양극이 급속 방전(4C 이상) 시 겪는 비평형 H3→H2 상전이 메커니즘을 규명했다. 이 상전이가 격자 변위와 나노스케일 변형을 유발해 Ni 이동 장벽을 낮추고 비가역적 암염상 형성을 촉진함을 밝히고, 고전압에서 짧은 저속 방전 단계를 추가하는 사이클링 프로토콜로 1000회 후 용량 유지율을 29% 개선했다.",
       "relevant": true
     },
