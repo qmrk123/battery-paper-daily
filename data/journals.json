@@ -1779,6 +1779,10 @@
   "metric": 4.62,
   "name": "ACS Omega"
  },
+ "S4210240586": {
+  "metric": 1.9,
+  "name": "Jurnal ELTIKOM"
+ },
  "S4210241147": {
   "metric": 3.66,
   "name": "Batteries & Supercaps"
@@ -2058,6 +2062,10 @@
  "S4387285360": {
   "metric": 1.21,
   "name": "ChemistryEurope"
+ },
+ "S4387285996": {
+  "metric": 0.92,
+  "name": "Creative Science"
  },
  "S4387286363": {
   "metric": 0.26,
