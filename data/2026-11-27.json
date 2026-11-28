@@ -117,7 +117,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78902",
+        "cached": "img/W7239822594.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78902"
+      },
       "summary_ko": "폐배터리 흑색분말(black mass)을 짧은 등온 유지시간(1040°C, 1분)으로 스파이크 소결하여 결함이 적은 단결정 NCM523 양극재로 직접 업사이클링하는 방법을 제시했다. 기존 950°C·5시간 공정 대비 가열시간을 486분에서 205분으로 줄이면서도, 재생된 단결정 NCM523이 4.5V/45°C 풀셀에서 350사이클 후 76.9% 용량 유지율을 보여 기존 다결정 NCM523(51.5%)보다 우수한 성능을 나타냈다.",
       "relevant": true
     },
@@ -180,7 +186,13 @@
       "journal_id": "S135204980",
       "journal_metric": 14.9,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/adfm.79841",
+        "cached": "img/W7239768300.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Functional Materials - https://doi.org/10.1002/adfm.79841"
+      },
       "summary_ko": "아세토니트릴(AN) 전해질은 흑연 음극에서의 환원 안정성 저하와 고니켈 양극과의 유해한 상호작용이 문제였다. 본 연구는 LiPF6를 LiBF4로 대체한 FEC/MA/AN 삼원 전해질(LBF)을 통해 BF4- 음이온이 Li+ 용매화 구조를 재구성, 음극에서 AN 환원분해를 억제하고 NCM811 양극 표면에 붕소가 풍부한 CEI를 형성시켜 전이금속 용출을 억제함을 보였다. 1.6Ah 흑연||NCM811 파우치셀에서 5C 85.1%, 500사이클 후 75.2% 용량유지율 등 향상된 성능을 달성했다.",
       "relevant": true
     },
@@ -336,7 +348,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71871",
+        "cached": "img/W7239875781.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71871"
+      },
       "summary_ko": "수계 아연 금속전지는 좁은 전기화학적 안정 전위창과 느린 반응속도로 에너지밀도가 제한된다. 본 연구는 Zn(OTf)2/LiOTf 이중염에 소량의 이온성 액체(EMIMTFSI)를 더한 삼원 하이브리드 전해질을 통해 전위창을 2.76V까지 넓히고 불소가 풍부한 SEI를 형성시켰다. Zn//Zn 대칭셀이 3215시간의 긴 수명을 보였고, Zn//LiMn2O4 전지는 1.86V의 높은 방전 전압평탄을 나타냈다.",
       "relevant": true
     },
@@ -367,7 +385,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71851",
+        "cached": "img/W7239737097.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71851"
+      },
       "summary_ko": "고체 고분자 전해질은 상온 이온전도도가 낮아 리튬금속전지 적용에 제약이 있다. 본 연구는 디에틸 포스포라미데이트를 이온쌍 분리제로 사용하여 Li+ 용매화 화학을 재구성, 용매분리이온쌍 비중을 높여 25°C 이온전도도를 24.6배 향상시켰다. Li 대칭셀이 850시간 안정적으로 작동했고 Li||LiFePO4 셀이 400사이클 후 96.5% 용량유지율을 보였으며, 동시에 자기소화형 난연성도 구현했다.",
       "relevant": true
     },
@@ -397,7 +421,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71830",
+        "cached": "img/W7239829470.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71830"
+      },
       "summary_ko": "드라이코팅 전극 기술은 독성 NMP를 사용하지 않지만 전극 구성요소 간 약한 계면 결합이 문제다. 본 연구는 광중합형 공융 액체 첨가제를 이용한 in-situ 중합 전략으로 전극 성분 간 접착성 고분자 네트워크를 형성시켜 NCM811 드라이코팅 전극의 파단 신율을 55% 향상시켰다. 3.77Ah Li||NCM811 파우치셀이 412 Wh/kg의 에너지밀도를 달성했고, 그래파이트||NCM811 셀은 870사이클 후 70% 용량을 유지했다.",
       "relevant": true
     },
@@ -428,7 +458,13 @@
       "journal_id": "S2502627819",
       "journal_metric": 18.74,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/aenm.71880",
+        "cached": "img/W7239862932.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Advanced Energy Materials - https://doi.org/10.1002/aenm.71880"
+      },
       "summary_ko": "소듐 금속전지는 덴드라이트 성장과 불안정한 SEI 형성이 문제다. 본 연구는 누적압연접합 공정으로 비정질 SiO2를 Na 금속 음극에 도입, 전기화학적 환원반응으로 SiOx와 이온전달에 유리한 Na2O를 생성하고 FEC와의 반응성을 높여 NaF가 풍부한 SEI를 형성시켰다. Na/a-SiO2 대칭셀은 24mV의 낮은 과전위로 1350시간 이상 안정 사이클링했고, Na3V2(PO4)2O2F 양극과의 풀셀은 8000사이클 후 80% 용량을 유지했다.",
       "relevant": true
     },
@@ -572,7 +608,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.6380455",
+        "cached": "img/W7239736070.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.6380455"
+      },
       "summary_ko": "Mn 기반 층상 산화물 양극은 자원이 풍부하지만 깊은 Mn3+/Mn2+ 환원반응의 가역성 확보가 어렵다. 본 연구는 P2형 Na0.67Fe0.1Mn0.9O2에서 Fe3+의 반충전된 d5 전자구조로 전하 주기성을 깨고 급속 냉각으로 양이온 무질서를 유도, Mn4+/Mn3+ 전하 질서를 억제하여 Mn3+/Mn2+ 환원반응 기여도를 15.2%에서 29.4%로 거의 두 배 높였다. 700°C에서 급냉한 최적 양극은 291.3 Wh/kg 에너지밀도와 50사이클 후 87.5%의 향상된 용량유지율을 보였다.",
       "relevant": true
     },
@@ -633,7 +675,13 @@
       "journal_id": "S2737737698",
       "journal_metric": 8.82,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/advs.78897",
+        "cached": "img/W7239747637.jpg",
+        "tdm": true,
+        "license": "cc-by",
+        "attribution": "Advanced Science - https://doi.org/10.1002/advs.78897"
+      },
       "summary_ko": "O3형 층상산화물은 소듐이온전지 양극재로 유망하지만 상전이와 대기/수분 민감성으로 급격한 용량 저하가 문제다. 본 연구는 분무건조법으로 Sn을 도핑한 NaLi0.05Ni0.3Mn0.5-xCu0.1Mg0.05SnxO2를 합성, Sn-O 결합과 확장된 층간 거리로 O3→P'3 상전이를 억제했다. 최적 조성(x=0.03)은 0.1C에서 142 mAh/g, 1C 500사이클 후 83% 용량유지율, 하드카본 풀셀에서 261.9 Wh/kg의 에너지밀도를 달성했으며 수분/대기 노출 후에도 안정성을 유지했다.",
       "relevant": true
     },
@@ -719,7 +767,13 @@
       "journal_id": "S67393510",
       "journal_metric": 14.89,
       "first_seen": "2026-11-27",
-      "image": null,
+      "image": {
+        "src": "https://doi.org/10.1002/anie.1182005",
+        "cached": "img/W7239887652.jpg",
+        "tdm": true,
+        "license": null,
+        "attribution": "Angewandte Chemie International Edition - https://doi.org/10.1002/anie.1182005"
+      },
       "summary_ko": "리튬-황전지는 폴리설파이드 셔틀링과 느린 황 전환 반응속도가 실용화의 걸림돌이다. 본 연구는 Cu를 포함한 수소결합 유기프레임워크(HOF-21)를 탄소나노튜브 및 황과 결합한 양극을 구성, 수소결합 네트워크와 Cu 배위자리가 폴리설파이드를 강하게 고정하고 황 전환을 촉진함을 보였다. HOF-21/CNT@S 양극은 2C에서 500사이클간 사이클당 0.06%의 낮은 용량감쇄율을 보였고 -20°C에서도 90.6%의 용량유지율을 나타냈다.",
       "relevant": true
     },
