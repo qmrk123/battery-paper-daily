@@ -647,6 +647,10 @@
   "metric": 5.36,
   "name": "Nanoscale"
  },
+ "S2437199": {
+  "metric": 2.35,
+  "name": "Particle & Particle Systems Characterization"
+ },
  "S2479839973": {
   "metric": 0.85,
   "name": "Journal of New Materials for Electrochemical Systems"
@@ -1370,6 +1374,10 @@
  "S4210201879": {
   "metric": 3.59,
   "name": "Processes"
+ },
+ "S4210202517": {
+  "metric": 0.92,
+  "name": "Energija Ekonomija Ekologija"
  },
  "S4210202905": {
   "metric": 3.84,
@@ -2182,6 +2190,10 @@
  "S4404662014": {
   "metric": 2.87,
   "name": "InfoScience."
+ },
+ "S4404663819": {
+  "metric": 3.27,
+  "name": "Next research."
  },
  "S4404663996": {
   "metric": 3.53,
